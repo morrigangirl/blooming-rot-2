@@ -1,13 +1,14 @@
 node_modules/
 .DS_Store
-*.log
-LOCK
 *.lock
 
 # Local Claude Code / IDE state — not part of the module
 .claude/
 
-# Compiled LevelDB lock files (regenerated each run; do not commit)
+# Transient LevelDB process/operational files (regenerated each open)
+# Note: do NOT exclude *.log broadly — LevelDB's lowercase write-ahead
+# log files (e.g. 000030.log) are referenced by MANIFEST and must ship
+# alongside the .ldb files even when empty.
 packs/*/LOCK
 packs/*/LOG
 packs/*/LOG.old

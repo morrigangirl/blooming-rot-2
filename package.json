@@ -1,0 +1,14 @@
+{
+  "name": "blooming-rot-2-build",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Build tooling for Blooming Rot, Part 2 (FoundryVTT V13 module)",
+  "type": "module",
+  "scripts": {
+    "build:packs": "node ./scripts/build-packs.mjs",
+    "unpack:packs": "node ./scripts/unpack-packs.mjs"
+  },
+  "devDependencies": {
+    "@foundryvtt/foundryvtt-cli": "^1.0.4"
+  }
+}

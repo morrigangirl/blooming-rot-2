@@ -1,0 +1,93 @@
+{
+  "id": "blooming-rot-2",
+  "title": "Blooming Rot, Part 2",
+  "description": "A Greyhawk adventure set in the pre-Wars Yeomanry. Phase 1: the return to Loftwick.",
+  "version": "0.2.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13.351",
+    "maximum": "13"
+  },
+  "authors": [
+    {
+      "name": "Aoibh Wood",
+      "email": "aoibh.wood@gmail.com"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "5.0.0",
+          "verified": "5.3.0"
+        }
+      }
+    ]
+  },
+  "packs": [
+    {
+      "name": "phase-1-journals",
+      "label": "Phase 1 — Journals",
+      "path": "packs/phase-1-journals",
+      "type": "JournalEntry",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "phase-1-actors",
+      "label": "Phase 1 — NPCs",
+      "path": "packs/phase-1-actors",
+      "type": "Actor",
+      "system": "dnd5e"
+    },
+    {
+      "name": "phase-1-scenes",
+      "label": "Phase 1 — Scenes",
+      "path": "packs/phase-1-scenes",
+      "type": "Scene",
+      "system": "dnd5e"
+    },
+    {
+      "name": "phase-2-journals",
+      "label": "Phase 2 — Journals",
+      "path": "packs/phase-2-journals",
+      "type": "JournalEntry",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "phase-2-actors",
+      "label": "Phase 2 — NPCs",
+      "path": "packs/phase-2-actors",
+      "type": "Actor",
+      "system": "dnd5e"
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Blooming Rot 2 — Phase 1",
+      "sorting": "m",
+      "packs": [
+        "phase-1-journals",
+        "phase-1-actors",
+        "phase-1-scenes"
+      ]
+    },
+    {
+      "name": "Blooming Rot 2 — Phase 2",
+      "sorting": "m",
+      "packs": [
+        "phase-2-journals",
+        "phase-2-actors"
+      ]
+    }
+  ]
+}

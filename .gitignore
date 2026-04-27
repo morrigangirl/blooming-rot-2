@@ -1,0 +1,13 @@
+node_modules/
+.DS_Store
+*.log
+LOCK
+*.lock
+
+# Local Claude Code / IDE state — not part of the module
+.claude/
+
+# Compiled LevelDB lock files (regenerated each run; do not commit)
+packs/*/LOCK
+packs/*/LOG
+packs/*/LOG.old

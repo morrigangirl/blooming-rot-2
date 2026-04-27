@@ -1,0 +1,101 @@
+{
+  "_key": "!scenes!BR2SceneLPUpper1",
+  "_id": "BR2SceneLPUpper1",
+  "name": "Little Palace — Second Floor",
+  "active": false,
+  "navigation": true,
+  "navOrder": 1,
+  "navName": "Little Palace · 2F",
+  "background": {
+    "src": "modules/blooming-rot-2/assets/maps/little-palace-2nd-floor.png",
+    "anchorX": 0.5,
+    "anchorY": 0.5,
+    "offsetX": 0,
+    "offsetY": 0,
+    "fit": "fill",
+    "scaleX": 1,
+    "scaleY": 1,
+    "rotation": 0,
+    "tint": "#ffffff",
+    "alphaThreshold": 0
+  },
+  "foreground": null,
+  "foregroundElevation": 20,
+  "thumb": null,
+  "width": 1448,
+  "height": 1086,
+  "padding": 0.25,
+  "initial": null,
+  "backgroundColor": "#1a1a1a",
+  "grid": {
+    "type": 1,
+    "size": 100,
+    "style": "solidLines",
+    "thickness": 1,
+    "color": "#000000",
+    "alpha": 0.2,
+    "distance": 5,
+    "units": "ft"
+  },
+  "tokenVision": true,
+  "fog": {
+    "exploration": true,
+    "reset": null,
+    "overlay": null,
+    "colors": { "explored": null, "unexplored": null }
+  },
+  "environment": {
+    "darknessLevel": 0,
+    "darknessLock": false,
+    "globalLight": {
+      "enabled": false,
+      "alpha": 0.5,
+      "bright": false,
+      "color": null,
+      "coloration": 1,
+      "luminosity": 0,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "darkness": { "min": 0, "max": 0 }
+    },
+    "cycle": true,
+    "base": { "hue": 0, "intensity": 0, "luminosity": 0, "saturation": 0, "shadows": 0 },
+    "dark": { "hue": 0, "intensity": 0, "luminosity": -0.25, "saturation": 0, "shadows": 0 }
+  },
+  "drawings": [],
+  "tokens": [],
+  "lights": [],
+  "notes": [],
+  "regions": [],
+  "sounds": [],
+  "templates": [],
+  "tiles": [],
+  "walls": [],
+  "playlist": null,
+  "playlistSound": null,
+  "journal": "BR2LittlePalace0",
+  "journalEntryPage": "BR2LPPageOvervew",
+  "weather": "",
+  "folder": null,
+  "sort": 200000,
+  "ownership": { "default": 0 },
+  "flags": {
+    "blooming-rot-2": {
+      "floor": "second",
+      "keyedRoomsUuid": "Compendium.blooming-rot-2.phase-1-journals.JournalEntry.BR2LittlePalace0.JournalEntryPage.BR2LPPageOvervew",
+      "sceneNote": "Caelith's Civic Office (U2) opens onto this floor; the Private Warning of Scene 5 is read here before he leads the party down to the cellar."
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

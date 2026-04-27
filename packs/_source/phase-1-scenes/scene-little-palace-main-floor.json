@@ -1,0 +1,101 @@
+{
+  "_key": "!scenes!BR2SceneLPMain01",
+  "_id": "BR2SceneLPMain01",
+  "name": "Little Palace — Main Floor",
+  "active": false,
+  "navigation": true,
+  "navOrder": 0,
+  "navName": "Little Palace · Main",
+  "background": {
+    "src": "modules/blooming-rot-2/assets/maps/little-palace-main-floor.png",
+    "anchorX": 0.5,
+    "anchorY": 0.5,
+    "offsetX": 0,
+    "offsetY": 0,
+    "fit": "fill",
+    "scaleX": 1,
+    "scaleY": 1,
+    "rotation": 0,
+    "tint": "#ffffff",
+    "alphaThreshold": 0
+  },
+  "foreground": null,
+  "foregroundElevation": 20,
+  "thumb": null,
+  "width": 1448,
+  "height": 1086,
+  "padding": 0.25,
+  "initial": null,
+  "backgroundColor": "#1a1a1a",
+  "grid": {
+    "type": 1,
+    "size": 100,
+    "style": "solidLines",
+    "thickness": 1,
+    "color": "#000000",
+    "alpha": 0.2,
+    "distance": 5,
+    "units": "ft"
+  },
+  "tokenVision": true,
+  "fog": {
+    "exploration": true,
+    "reset": null,
+    "overlay": null,
+    "colors": { "explored": null, "unexplored": null }
+  },
+  "environment": {
+    "darknessLevel": 0,
+    "darknessLock": false,
+    "globalLight": {
+      "enabled": false,
+      "alpha": 0.5,
+      "bright": false,
+      "color": null,
+      "coloration": 1,
+      "luminosity": 0,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "darkness": { "min": 0, "max": 0 }
+    },
+    "cycle": true,
+    "base": { "hue": 0, "intensity": 0, "luminosity": 0, "saturation": 0, "shadows": 0 },
+    "dark": { "hue": 0, "intensity": 0, "luminosity": -0.25, "saturation": 0, "shadows": 0 }
+  },
+  "drawings": [],
+  "tokens": [],
+  "lights": [],
+  "notes": [],
+  "regions": [],
+  "sounds": [],
+  "templates": [],
+  "tiles": [],
+  "walls": [],
+  "playlist": null,
+  "playlistSound": null,
+  "journal": "BR2LittlePalace0",
+  "journalEntryPage": "BR2LPPageOvervew",
+  "weather": "",
+  "folder": null,
+  "sort": 100000,
+  "ownership": { "default": 0 },
+  "flags": {
+    "blooming-rot-2": {
+      "floor": "main",
+      "keyedRoomsUuid": "Compendium.blooming-rot-2.phase-1-journals.JournalEntry.BR2LittlePalace0.JournalEntryPage.BR2LPPageOvervew",
+      "alignGridNote": "Use Foundry's Align Grid Tool to dial pixel-per-square — the artist did not necessarily render at exactly 100 px per 5 ft. Two opposing inner courtyard walls (M8) span ~25 ft."
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

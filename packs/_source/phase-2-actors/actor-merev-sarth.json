@@ -1,0 +1,111 @@
+{
+  "_key": "!actors!BR2ActrMerevSrth",
+  "_id": "BR2ActrMerevSrth",
+  "name": "Merev Sarth",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "abilities": {
+      "str": { "value": 11, "proficient": 0, "max": null, "bonuses": { "check": "", "save": "" } },
+      "dex": { "value": 17, "proficient": 1, "max": null, "bonuses": { "check": "", "save": "" } },
+      "con": { "value": 14, "proficient": 0, "max": null, "bonuses": { "check": "", "save": "" } },
+      "int": { "value": 13, "proficient": 1, "max": null, "bonuses": { "check": "", "save": "" } },
+      "wis": { "value": 11, "proficient": 0, "max": null, "bonuses": { "check": "", "save": "" } },
+      "cha": { "value": 12, "proficient": 0, "max": null, "bonuses": { "check": "", "save": "" } }
+    },
+    "attributes": {
+      "init": { "ability": "dex", "bonus": "" },
+      "movement": { "burrow": 0, "climb": 0, "fly": 0, "swim": 0, "walk": 30, "units": "ft", "hover": false },
+      "attunement": { "max": 3 },
+      "senses": { "darkvision": 0, "blindsight": 0, "tremorsense": 0, "truesight": 0, "units": "ft", "special": "" },
+      "spellcasting": "",
+      "exhaustion": 0,
+      "concentration": { "ability": "", "bonuses": { "save": "" }, "limit": 1 },
+      "hp": { "value": 65, "max": 65, "temp": 0, "tempmax": 0, "formula": "10d8+20" },
+      "ac": { "flat": 15, "calc": "natural", "formula": "" },
+      "death": { "success": 0, "failure": 0 },
+      "inspiration": false
+    },
+    "details": {
+      "biography": {
+        "value": "<h2>Merev Sarth — Professional Thief</h2>\n<p><em>Hired through three intermediaries by a paymaster the party will not be able to trace in Phase 2. Her contract is to <strong>retrieve or destroy</strong> the contents of the Strong Room, not to kill.</em></p>\n<h3>Description</h3>\n<p>Mid-thirties. Lean, weathered. Dressed as a Yeomanry courier on the night of the job — a real Yeomanry tabard she purchased from a former courier who needed the money. She carries a forged delivery slip, a real-looking but fraudulent inspection writ, and three changes of head-covering. She does not speak unless required. When she does, she does not offer information; she asks for it.</p>\n<h3>Combat behavior — Phase 2 retrieval</h3>\n<p>She is not on a kill contract. <strong>If she is detected before she has the evidence, she abandons the job and flees.</strong> If detected with the evidence in hand, she will fight only long enough to break line of sight, then disengage with Cunning Action and exit through the cellar's old service tunnel (C7) or the courtyard service gate.</p>\n<p>If captured alive, she does not betray her client. The most she yields under Intimidation DC 16 or Persuasion DC 18 is: <em>&quot;The man who hired me has paid in advance for my silence. I respect that.&quot;</em></p>\n<h3>Statblock summary (CR 4, PB +2)</h3>\n<p><strong>AC</strong> 15 (studded leather) · <strong>HP</strong> 65 (10d8+20) · <strong>Speed</strong> 30 ft. · <strong>Init</strong> +3 · <strong>Passive Perception</strong> 14</p>\n<p><strong>STR</strong> 11 (+0) · <strong>DEX</strong> 17 (+3) · <strong>CON</strong> 14 (+2) · <strong>INT</strong> 13 (+1) · <strong>WIS</strong> 11 (+0) · <strong>CHA</strong> 12 (+1)</p>\n<p><strong>Saves:</strong> DEX +5, INT +3.</p>\n<p><strong>Skills:</strong> Acrobatics +5, Deception +3, Investigation +3, Perception +4 (expertise), Sleight of Hand +5 (expertise), Stealth +7 (expertise).</p>\n<p><strong>Senses:</strong> Passive Perception 14. <strong>Languages:</strong> Common, Thieves' Cant.</p>\n<h3>Traits</h3>\n<ul>\n<li><strong>Cunning Action.</strong> Bonus action to Dash, Disengage, or Hide.</li>\n<li><strong>Sneak Attack (1/Turn).</strong> +14 (4d6) damage on a weapon attack with advantage or an ally within 5 ft of the target.</li>\n<li><strong>Uncanny Dodge.</strong> Reaction to halve damage from an attack she can see.</li>\n<li><strong>Evasion.</strong> Takes no damage on a successful Dex save, half on a fail.</li>\n<li><strong>Job Discipline.</strong> When detected mid-job, on her next turn she may use her bonus action to immediately break off the engagement; she gains advantage on the next Stealth check she makes before the end of the encounter.</li>\n</ul>\n<h3>Actions</h3>\n<ul>\n<li><strong>Multiattack.</strong> Two weapon attacks.</li>\n<li><strong>Shortsword.</strong> Melee Weapon Attack +5, reach 5 ft. <em>Hit:</em> 1d6+3 piercing.</li>\n<li><strong>Hand Crossbow.</strong> Ranged Weapon Attack +5, range 30/120. <em>Hit:</em> 1d6+3 piercing.</li>\n<li><strong>Smoke Pellet (1/encounter).</strong> Action to throw a 10-ft cube of acrid smoke at a point within 30 ft. The area is heavily obscured for 1 minute or until dispersed by strong wind. Each creature inside at the start of its turn must succeed on a DC 13 Constitution save or be Blinded until the start of its next turn.</li>\n</ul>\n<h3>Equipment on her person during the retrieval</h3>\n<ul>\n<li>Studded leather armor (worn under the courier tabard).</li>\n<li>Shortsword (sheathed at the small of her back, under the tabard).</li>\n<li>Hand crossbow + 10 bolts (concealed in a courier's tube).</li>\n<li>Three smoke pellets (in a pouch, two unused at start of encounter).</li>\n<li>Forged inspection writ stamped with a counterfeit Audit Hall seal — convincing on first glance (<em>Investigation DC 15</em> to spot the forgery).</li>\n<li>A small empty oilcloth wallet, sized for the recovered correspondence and the letter of credit; her primary objective is to load this wallet and exit.</li>\n<li>A glass vial of strong oil (her destroy-in-place fallback if retrieval fails: she will douse and ignite the evidence rather than leave it for the party).</li>\n<li>No coin, no identifying papers, no personal jewelry. She has been doing this for fifteen years.</li>\n</ul>\n<h3>Source</h3>\n<p><em>Blooming Rot, Part 2 — Phase 2.</em> See the Phase 2 Interruptions journal for the retrieval scene.</p>",
+        "public": ""
+      },
+      "alignment": "Lawful Neutral",
+      "race": null,
+      "type": { "value": "humanoid", "subtype": "human", "swarm": "", "custom": "" },
+      "environment": "urban",
+      "cr": 4,
+      "spellLevel": 0,
+      "source": { "custom": "Blooming Rot, Part 2", "book": "", "page": "", "license": "" }
+    },
+    "traits": {
+      "size": "med",
+      "di": { "value": [], "bypasses": [], "custom": "" },
+      "dr": { "value": [], "bypasses": [], "custom": "" },
+      "dv": { "value": [], "bypasses": [], "custom": "" },
+      "dm": { "amount": {}, "bypasses": [] },
+      "ci": { "value": [], "custom": "" },
+      "languages": {
+        "value": ["common"],
+        "custom": "Thieves' Cant"
+      }
+    },
+    "currency": { "pp": 0, "gp": 0, "ep": 0, "sp": 0, "cp": 0 },
+    "skills": {
+      "acr": { "value": 1, "ability": "dex", "bonuses": { "check": "", "passive": "" } },
+      "dec": { "value": 1, "ability": "cha", "bonuses": { "check": "", "passive": "" } },
+      "inv": { "value": 1, "ability": "int", "bonuses": { "check": "", "passive": "" } },
+      "prc": { "value": 2, "ability": "wis", "bonuses": { "check": "", "passive": "" } },
+      "slt": { "value": 2, "ability": "dex", "bonuses": { "check": "", "passive": "" } },
+      "ste": { "value": 2, "ability": "dex", "bonuses": { "check": "", "passive": "" } }
+    },
+    "spells": {
+      "spell1": { "value": 0, "override": 0, "max": 0 },
+      "spell2": { "value": 0, "override": 0, "max": 0 },
+      "spell3": { "value": 0, "override": 0, "max": 0 },
+      "spell4": { "value": 0, "override": 0, "max": 0 },
+      "spell5": { "value": 0, "override": 0, "max": 0 },
+      "spell6": { "value": 0, "override": 0, "max": 0 },
+      "spell7": { "value": 0, "override": 0, "max": 0 },
+      "spell8": { "value": 0, "override": 0, "max": 0 },
+      "spell9": { "value": 0, "override": 0, "max": 0 },
+      "pact": { "value": 0, "override": null, "max": 0, "level": 0 }
+    },
+    "resources": {
+      "legact": { "value": 0, "max": 0 },
+      "legres": { "value": 0, "max": 0 },
+      "lair": { "value": false, "initiative": null }
+    },
+    "bonuses": {
+      "mwak": { "attack": "", "damage": "" },
+      "rwak": { "attack": "", "damage": "" },
+      "msak": { "attack": "", "damage": "" },
+      "rsak": { "attack": "", "damage": "" },
+      "abilities": { "check": "", "save": "", "skill": "" },
+      "spell": { "dc": "" }
+    }
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 200000,
+  "ownership": { "default": 0 },
+  "flags": {
+    "blooming-rot-2": {
+      "role": "retrieval-thief",
+      "ally": false
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "_key": "!journal!BR2RetrnToLftwck",
+  "_id": "BR2RetrnToLftwck",
+  "name": "Return to Loftwick",
+  "img": null,
+  "pages": [
+    {
+      "_key": "!journal.pages!BR2RetrnToLftwck.BR2RTLPageOpenng",
+      "_id": "BR2RTLPageOpenng",
+      "name": "Opening — Return to Loftwick",
+      "type": "text",
+      "title": { "show": true, "level": 1 },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><em>Read aloud as the party crests the rise above Loftwick.</em></p>\n<blockquote>\n<p>The road from the Jotuns rolls flat as you near Loftwick. By the third bell after noon you can see the city's pale limestone walls and the squat civic spires that rise above them — no soaring cathedrals, only the clean lines of a republic that prefers function to majesty.</p>\n<p>Word has run ahead of you. Two riders in militia tabards meet you at the milestone, salute without smiling, and fall in at your flanks rather than ahead. There is no triumphal entry through the West Gate. The lieutenant turns you instead toward the Lesser Gate, where a small crowd has already gathered — clerks in black coats, journeymen on a meal break, a half-dozen children who shout your party's name and then a rumor of what you did.</p>\n<p>A gray-haired man in a scholar's coat steps from the line of officials with both hands raised, palms out — the old Yeomanry sign of peace and witness. He is older than the rest of the welcomers, and they wait for him to speak first.</p>\n<p>\"Heroes,\" he says, loud enough for the children to hear and soft enough that he is plainly weighing every word. \"You have spared the Yeomanry a long bad winter. Loftwick is grateful. Walk with me.\"</p>\n</blockquote>\n<hr>\n<p><strong>Transitions to:</strong> Scene 2 — The Walk to the Little Palace (see <em>Scene Sequence — First Evening</em>).</p>",
+        "markdown": ""
+      },
+      "video": { "controls": true, "volume": 0.5, "autoplay": false, "loop": false, "timestamp": 0, "width": null, "height": null },
+      "src": null,
+      "system": {},
+      "sort": 100000,
+      "ownership": { "default": -1 },
+      "flags": {},
+      "category": null
+    },
+    {
+      "_key": "!journal.pages!BR2RetrnToLftwck.BR2RTLPageGMSumm",
+      "_id": "BR2RTLPageGMSumm",
+      "name": "GM Summary — Where Things Stand",
+      "type": "text",
+      "title": { "show": true, "level": 1 },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h2>The factions Caelith sees</h2>\n<p>The Yeomanry Council has not agreed on what to do about Haskur Vandrell. Three factions are visible to Caelith Dunivar:</p>\n<ol>\n<li><strong>Public-closure faction.</strong> Wants the matter declared resolved: Haskur fled, the threat passed, the harvest is good, move on. Lead voice: Councilman <strong>Ortwell Brane</strong>, who will try to intercept the party's testimony for a private statement on the morning of day two (Scene 7).</li>\n<li><strong>Full-inquiry faction.</strong> Wants formal hearings, sworn testimony, and a circulated record. Means well, but the record would name everyone the party encountered, in a city where someone is reading the post.</li>\n<li><strong>Quiet-thread faction.</strong> Caelith. Wants the party to follow the eastern lead off-record because a sanctioned investigation would tip whoever underwrote Haskur's contingency.</li>\n</ol>\n<h2>What Caelith knows but will not say in Phase 1</h2>\n<p>He suspects (no proof) that one of his own clerks has been forwarding correspondence outside official channels. This is why he asks the party to write to him personally, not to his office.</p>\n<h2>What Phase 1 must establish</h2>\n<ul>\n<li>The conspiracy continues past Haskur — someone underwrote his survival and someone has already paid for his successor.</li>\n<li>The clue pointing east is logistical, not mystical: a letter of credit drawn six weeks before the fight, with a marginal endorsement reading <em>\"Hold for V., or his agent of record, against presentation.\"</em></li>\n<li>Loftwick's institutions are not corrupt, but they are being maneuvered around. The party's safest channel out of Loftwick is Caelith personally, not the Council.</li>\n</ul>\n<h2>What Phase 1 must NOT establish</h2>\n<ul>\n<li>That Rel Astra is Haskur's destination (it might be a waypoint, a paymaster, or a feint).</li>\n<li>The identity of the conspirators.</li>\n<li>That Caelith is anything other than what he appears.</li>\n</ul>\n<h2>Party tier</h2>\n<p>Phase 1 assumes <strong>tier 2 (levels 5–10)</strong>, balanced for a party that just survived a high-stakes single-villain fight. DCs in Phase 1 cap at 16; the phase is investigative, not combative.</p>",
+        "markdown": ""
+      },
+      "video": { "controls": true, "volume": 0.5, "autoplay": false, "loop": false, "timestamp": 0, "width": null, "height": null },
+      "src": null,
+      "system": {},
+      "sort": 200000,
+      "ownership": { "default": -1 },
+      "flags": {},
+      "category": null
+    },
+    {
+      "_key": "!journal.pages!BR2RetrnToLftwck.BR2RTLPageScnSqn",
+      "_id": "BR2RTLPageScnSqn",
+      "name": "Scene Sequence — First Evening",
+      "type": "text",
+      "title": { "show": true, "level": 1 },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h2>Scene 1 — The Approach</h2>\n<p>Party crests the rise above Loftwick. Read the <em>Opening</em> page. Two militia riders escort to the Lesser Gate. Caelith waits at the gate, palms-out gesture. He doesn't introduce himself by full title yet.</p>\n<h2>Scene 2 — The Walk to the Little Palace</h2>\n<p>Caelith leads the party along the Civic Way, past the Audit Hall, the Council Chamber, the Lesser Treasury. He asks each PC at most two questions — small, observational, not interrogative. Sample:</p>\n<ul>\n<li>\"Did the man you fought speak before he fled?\"</li>\n<li>\"Was anything in his bearing — accent, vocabulary, a hand-gesture — out of place for a westerner?\"</li>\n<li>\"Did he wear a ring?\"</li>\n</ul>\n<p>He answers nothing about Haskur except <em>\"the matter is open.\"</em></p>\n<p><em>Insight DC 14:</em> his focus is on details, not outcomes; this is unusual for a welcoming committee.</p>\n<h2>Scene 3 — Public Welcome at the Little Palace</h2>\n<p>Read <em>Public Congratulations</em> from the Caelith Dunivar journal. A council page presents each PC with a sealed wooden token (Friend of the Common Defense). Two scribes record. A reporter from <em>the Folio of the Mere</em> asks for a quote and is politely refused.</p>\n<p><em>Insight DC 13:</em> Caelith is stage-managing, not lying.</p>\n<h2>Scene 4 — Settling In</h2>\n<p>Steward <strong>Elsbet Vael</strong> shows the party to assigned rooms. Bath, fresh linen, tray. Dinner at the seventh bell in the Refectory. Free time for the party to interact with the staff (see M6 and M10 in the Little Palace key — kitchen and page rooms). Elsbet, asked, mentions only that the kitchen-girl Mira is new this week.</p>\n<h2>Scene 5 — Private Audience</h2>\n<p>After dinner, Caelith asks the party to join him in his Civic Office on the second floor (U2). Read <em>Private Warning</em> from the Caelith Dunivar journal. He takes a candle and leads them down through the spiral stair to the Strong Room (C5, in the cellar), unlocks it himself, and walks them through Haskur's gear. He answers factual questions, offers no theories. He asks for the party's response before midnight.</p>\n<h2>Scene 6 — First-Night Complications</h2>\n<p>After the audience, before dawn. Roll or pick from the d6 table on the <em>Optional First-Night Complications</em> page. One complication is enough; if the party doesn't sleep, layer two. These are seeds, not crises.</p>\n<h2>Scene 7 — Morning Pivot</h2>\n<p>Seventh bell after dawn, breakfast in the Refectory. Elsbet brings the post. There is a hand-delivered card from Councilman <strong>Ortwell Brane</strong> inviting the party to \"a brief private statement\" at his offices that afternoon. Caelith — entering during breakfast — quietly tells them they may decline. He does not explain.</p>\n<p><em>GM:</em> Brane is faction 1; Caelith does not want them spending their first morning reciting a controlled script.</p>\n<p>Then a regular-post envelope arrives at the front desk with the crane-and-coins seal and the line: <em>\"We hope your visit to Loftwick is brief.\"</em> This closes Phase 1.</p>",
+        "markdown": ""
+      },
+      "video": { "controls": true, "volume": 0.5, "autoplay": false, "loop": false, "timestamp": 0, "width": null, "height": null },
+      "src": null,
+      "system": {},
+      "sort": 300000,
+      "ownership": { "default": -1 },
+      "flags": {},
+      "category": null
+    },
+    {
+      "_key": "!journal.pages!BR2RetrnToLftwck.BR2RTLPageComplx",
+      "_id": "BR2RTLPageComplx",
+      "name": "Optional First-Night Complications",
+      "type": "text",
+      "title": { "show": true, "level": 1 },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Roll d6 or pick. None require resolution before Phase 2; each opens a thread.</p>\n<h2>1. The Misseal</h2>\n<p>A page-boy delivers a small wax-sealed letter to the most senior-looking PC. The seal imitates Caelith's office mark (three stars in a triangle) but is just slightly off-center, and the wax is one shade darker. Inside: a polite invitation to a \"private breakfast\" tomorrow with an unnamed councilman. Shown the seal, Caelith raises an eyebrow but says nothing.</p>\n<p><em>Use to:</em> set up Brane's faction-1 pressure for Scene 7.</p>\n<h2>2. The Cook's Niece</h2>\n<p>Brennan Kepf knocks softly on a guest's door near midnight. With visible difficulty he asks whether the party knows yet what is in the strongroom. His niece's husband does small caravan work out of Hardby; he has heard names; he will not give them up easily.</p>\n<p><em>Insight DC 13:</em> he is afraid for his family, not for himself.</p>\n<p><em>Use to:</em> signal that the Yeomanry's working class is downstream of the same conspiracy.</p>\n<h2>3. The Early Watch</h2>\n<p>A militia relief turns up at the front door at the third bell of morning instead of the fourth. The relieving sergeant is unfamiliar to Elsbet, though his papers are in order. The papers are real; the timing is a clerical error — the kind a careful enemy could create on purpose. Do not resolve.</p>\n<p><em>Use to:</em> a low-grade paranoia beat that rewards the cautious.</p>\n<h2>4. The Magpie at the Window</h2>\n<p>A magpie taps on a guest's courtyard-side window at the second bell of morning. Tied to its right leg with red thread is a small copper ring — no inscription. The bird is unbothered until the window closes; then it wheels and flies west.</p>\n<p><em>Detect Magic:</em> a faint divination residue, already gone.</p>\n<p><em>Use to:</em> an arcane beat for divination-leaning PCs.</p>\n<h2>5. The Burning Page</h2>\n<p>A faint curl of smoke from the M6 kitchen alley midden draws a sharp-eyed PC at dawn. In the ashes, half-burned vellum still legible: <em>\"...the Vandrell name is closed at this office. Continue all correspondence under the agreed pseudonym...\"</em> The handwriting is not Brennan's, not Mira's, not Caelith's.</p>\n<p><em>Insight DC 14, comparing the visitor's register in M1:</em> it belongs to a clerk who is not currently in residence.</p>\n<p><em>Use to:</em> confirm there is a leak in Caelith's own office, without naming the leaker.</p>\n<h2>6. The Anonymous Note</h2>\n<p>Slipped under a guest's door in the night, plain hand on cheap paper: <em>\"He paid in advance. So will the next one.\"</em></p>\n<p><em>Use to:</em> plant the successor-already-underwritten idea before any explicit GM exposition.</p>",
+        "markdown": ""
+      },
+      "video": { "controls": true, "volume": 0.5, "autoplay": false, "loop": false, "timestamp": 0, "width": null, "height": null },
+      "src": null,
+      "system": {},
+      "sort": 400000,
+      "ownership": { "default": -1 },
+      "flags": {},
+      "category": null
+    },
+    {
+      "_key": "!journal.pages!BR2RetrnToLftwck.BR2RTLPageFwdHk1",
+      "_id": "BR2RTLPageFwdHk1",
+      "name": "Forward Hook — Eastern Networks",
+      "type": "text",
+      "title": { "show": true, "level": 1 },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Triggered at the end of Scene 7.</p>\n<h2>What the party can now see</h2>\n<p>By Phase 1's end, the party has the following actionable picture, assembled from the evidence and from Caelith's private framing:</p>\n<ul>\n<li>Someone in Rel Astra prepared, <strong>at least six weeks in advance</strong>, for either Haskur Vandrell or his successor to draw on a substantial sum of credit.</li>\n<li>The instrument is <strong>ship-and-crew scale</strong> — not personal funds.</li>\n<li>Yeomanry mercantile networks have been <strong>quietly losing the underwriting argument with Rel Astran houses</strong> for two consecutive quarters. (See the <em>Hardby Mercantile Weekly</em> notice in L6, the Library.)</li>\n<li>A magpie carried a copper ring west at dawn. Magpies do not usually fly that far.</li>\n</ul>\n<h2>The private commission</h2>\n<p>Caelith, in the breakfast follow-up, asks again whether the party will accept a private commission — paid from a quiet fund Caelith controls, not Council coin — to travel east through trade routes, follow the credit, and write to him <strong>personally</strong> (not to his office) from Hardby first, then from any port east of Hardby they reach.</p>\n<h2>Three things he gives them to start</h2>\n<ol>\n<li>A <strong>letter of introduction</strong> to a trade-clearing notary in Hardby, <strong>Veska Maelan</strong>, who can read the Rel Astran countersignature better than he can.</li>\n<li>A small sealed pouch of <strong>Yeomanry trade slugs</strong> (a few hundred gp equivalent, redeemable at Yeomanry-aligned trading posts).</li>\n<li>A name only — <strong>Holyn Sevarian</strong> — without explanation. He says: <em>\"If the credit is real, his counting house will know. He is not necessarily an enemy. Begin by treating him as a witness.\"</em></li>\n</ol>\n<h2>What he does not tell them</h2>\n<ul>\n<li>That the conspiracy continues past Haskur (though the evidence strongly implies it).</li>\n<li>That he suspects his own clerk.</li>\n<li>That his lodging the party at the Little Palace has already cost him political capital.</li>\n</ul>\n<p>He intends to tell them more by letter, once they are out of Loftwick's earshot.</p>\n<h2>Phase 1 cliffhanger</h2>\n<p>Before the party leaves the Refectory, a regular-post envelope is delivered to the Little Palace's front desk. Inside: a single folded sheet bearing the same crane-and-coins seal as Haskur's signet ring, written in clear, careful hand:</p>\n<blockquote><p><em>\"We hope your visit to Loftwick is brief.\"</em></p></blockquote>\n<p>There is no way to trace it. It tells the party two things — they are already known, and someone in Rel Astra does not want them to come east.</p>\n<p>Phase 2 begins with the party's decision to honor or refuse that warning.</p>",
+        "markdown": ""
+      },
+      "video": { "controls": true, "volume": 0.5, "autoplay": false, "loop": false, "timestamp": 0, "width": null, "height": null },
+      "src": null,
+      "system": {},
+      "sort": 500000,
+      "ownership": { "default": -1 },
+      "flags": {},
+      "category": null
+    }
+  ],
+  "categories": [],
+  "folder": null,
+  "sort": 100000,
+  "ownership": { "default": 0 },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

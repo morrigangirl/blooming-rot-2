@@ -1,0 +1,111 @@
+{
+  "_key": "!actors!BR2ActrCaelithDn",
+  "_id": "BR2ActrCaelithDn",
+  "name": "Caelith Dunivar",
+  "type": "npc",
+  "img": "modules/blooming-rot-2/assets/portraits/Caelith-Dunivar-Portrait.png",
+  "system": {
+    "abilities": {
+      "str": { "value": 11, "proficient": 0, "max": null, "bonuses": { "check": "", "save": "" } },
+      "dex": { "value": 18, "proficient": 1, "max": null, "bonuses": { "check": "", "save": "" } },
+      "con": { "value": 16, "proficient": 0, "max": null, "bonuses": { "check": "", "save": "" } },
+      "int": { "value": 15, "proficient": 1, "max": null, "bonuses": { "check": "", "save": "" } },
+      "wis": { "value": 14, "proficient": 0, "max": null, "bonuses": { "check": "", "save": "" } },
+      "cha": { "value": 18, "proficient": 1, "max": null, "bonuses": { "check": "", "save": "" } }
+    },
+    "attributes": {
+      "init": { "ability": "dex", "bonus": "+4" },
+      "movement": { "burrow": 0, "climb": 0, "fly": 0, "swim": 0, "walk": 30, "units": "ft", "hover": false },
+      "attunement": { "max": 3 },
+      "senses": { "darkvision": 0, "blindsight": 0, "tremorsense": 0, "truesight": 0, "units": "ft", "special": "" },
+      "spellcasting": "",
+      "exhaustion": 0,
+      "concentration": { "ability": "", "bonuses": { "save": "" }, "limit": 1 },
+      "hp": { "value": 127, "max": 127, "temp": 0, "tempmax": 0, "formula": "17d8+51" },
+      "ac": { "flat": 17, "calc": "natural", "formula": "" },
+      "death": { "success": 0, "failure": 0 },
+      "inspiration": false
+    },
+    "details": {
+      "biography": {
+        "value": "<h2>Caelith Dunivar — Keeper of Foreign Correspondence</h2>\n<p><em>The Yeomanry civic post that reads, classifies, and replies to incoming political communication from outside the republic. Reports to the Senior Auditor, not the Spokesman — the Audit Hall is institutionally insulated from the Council's factional shifts.</em></p>\n<p>Late fifties, lean, gray hair worn short, scholar's black coat. A small brass quill-pin at the collar (twenty years' service). Walks deliberately. Eyes that catalog before they meet yours.</p>\n<h3>Voice</h3>\n<p>Soft, deliberate. Speaks as if every sentence is going on a record. Uses the formal Yeomanry plural in public; switches to \"I\" only in private, with people he has decided to trust.</p>\n<h3>Combat behavior — Phase 1</h3>\n<p><strong>He will not fight the party in Phase 1, even if pressed.</strong> Combat with him would either resolve the campaign in his favor (he is significantly more dangerous than he reads) or cost the party every political asset Phase 2 depends on. If the party turns on him, he disengages with Cunning Action, retreats from the room, and Phase 2 is unrecoverable.</p>\n<p>The statblock exists for two reasons: so the party feels the right danger if they read him with <em>Insight</em> in the right moment, and so the GM can deploy him as a backstop if Phase 2 demands it.</p>\n<h3>Statblock summary (CR 8, PB +4)</h3>\n<p><strong>AC</strong> 17 · <strong>HP</strong> 127 · <strong>Speed</strong> 30 ft.</p>\n<p><strong>STR</strong> 11 (+0) · <strong>DEX</strong> 18 (+4) · <strong>CON</strong> 16 (+3) · <strong>INT</strong> 15 (+2) · <strong>WIS</strong> 14 (+2) · <strong>CHA</strong> 18 (+4)</p>\n<p><strong>Saves:</strong> DEX +8, INT +6, CHA +8.</p>\n<p><strong>Skills:</strong> Deception +12, Insight +6, Investigation +6, Perception +6, Persuasion +8, Sleight of Hand +8, Stealth +8.</p>\n<p><strong>Senses:</strong> Passive Perception 16. <strong>Languages:</strong> None.</p>\n<h3>Traits</h3>\n<ul>\n<li><strong>Cunning Action (Recharge 5–6).</strong> Bonus action to Dash, Disengage, or Hide.</li>\n<li><strong>Whisper Network.</strong> While in any settlement where he has contacts, gains advantage on Investigation and Persuasion checks to gather information.</li>\n<li><strong>Words Like Knives (1/Turn).</strong> When Caelith succeeds on a Deception or Persuasion check in social combat (2024 rules), he imposes Disadvantage on the target's next Insight or Persuasion check against him.</li>\n<li><strong>Sneak Attack (1/Turn).</strong> +14 (4d6) damage on a weapon attack if he has advantage or an ally is within 5 ft of the target.</li>\n<li><strong>Uncanny Dodge.</strong> Reaction to halve damage from an attack he can see.</li>\n<li><strong>Evasion.</strong> Takes no damage on successful Dex saves, half on a failed save.</li>\n<li><strong>Silver Tongue.</strong> When Caelith rolls below a 10 on a Deception or Persuasion check, he treats it as a 10.</li>\n</ul>\n<h3>Actions</h3>\n<ul>\n<li><strong>Cutting Words.</strong> One creature within 30 ft must make a DC 16 Wisdom save. On a failed save: 14 (4d6) psychic damage and Frightened of Caelith until the end of its next turn.</li>\n<li><strong>Dagger.</strong> Ranged Attack +8, range 20/60. <em>Hit:</em> 1d4+3 piercing.</li>\n<li><strong>Rapier.</strong> Melee Attack +8, reach 5 ft. <em>Hit:</em> 1d8+4 piercing.</li>\n<li><strong>Sneak Attack (rider).</strong> +14 (4d6) damage on a successful weapon attack with advantage or an ally within 5 ft of the target.</li>\n</ul>\n<p><em>For full mechanical automation, drag matching weapon and feature items from the dnd5e SRD compendium and attach them to this actor. The shipped JSON keeps actions as text only.</em></p>\n<h3>Source</h3>\n<p><em>Blooming Rot, Part 2 — Phase 1.</em> See the <strong>Caelith Dunivar</strong> journal for full profile, public/private speech text, and what he will and will not tell the party.</p>",
+        "public": ""
+      },
+      "alignment": "Neutral",
+      "race": null,
+      "type": { "value": "humanoid", "subtype": "human", "swarm": "", "custom": "" },
+      "environment": "",
+      "cr": 8,
+      "spellLevel": 0,
+      "source": { "custom": "Blooming Rot, Part 2", "book": "", "page": "", "license": "" }
+    },
+    "traits": {
+      "size": "med",
+      "di": { "value": [], "bypasses": [], "custom": "" },
+      "dr": { "value": [], "bypasses": [], "custom": "" },
+      "dv": { "value": [], "bypasses": [], "custom": "" },
+      "dm": { "amount": {}, "bypasses": [] },
+      "ci": { "value": [], "custom": "" },
+      "languages": {
+        "value": [],
+        "custom": "None"
+      }
+    },
+    "currency": { "pp": 0, "gp": 0, "ep": 0, "sp": 0, "cp": 0 },
+    "skills": {
+      "dec": { "value": 2, "ability": "cha", "bonuses": { "check": "", "passive": "" } },
+      "ins": { "value": 1, "ability": "wis", "bonuses": { "check": "", "passive": "" } },
+      "inv": { "value": 1, "ability": "int", "bonuses": { "check": "", "passive": "" } },
+      "prc": { "value": 1, "ability": "wis", "bonuses": { "check": "", "passive": "" } },
+      "prs": { "value": 2, "ability": "cha", "bonuses": { "check": "", "passive": "" } },
+      "slt": { "value": 1, "ability": "dex", "bonuses": { "check": "", "passive": "" } },
+      "ste": { "value": 1, "ability": "dex", "bonuses": { "check": "", "passive": "" } }
+    },
+    "spells": {
+      "spell1": { "value": 0, "override": 0, "max": 0 },
+      "spell2": { "value": 0, "override": 0, "max": 0 },
+      "spell3": { "value": 0, "override": 0, "max": 0 },
+      "spell4": { "value": 0, "override": 0, "max": 0 },
+      "spell5": { "value": 0, "override": 0, "max": 0 },
+      "spell6": { "value": 0, "override": 0, "max": 0 },
+      "spell7": { "value": 0, "override": 0, "max": 0 },
+      "spell8": { "value": 0, "override": 0, "max": 0 },
+      "spell9": { "value": 0, "override": 0, "max": 0 },
+      "pact": { "value": 0, "override": null, "max": 0, "level": 0 }
+    },
+    "resources": {
+      "legact": { "value": 0, "max": 0 },
+      "legres": { "value": 0, "max": 0 },
+      "lair": { "value": false, "initiative": null }
+    },
+    "bonuses": {
+      "mwak": { "attack": "", "damage": "" },
+      "rwak": { "attack": "", "damage": "" },
+      "msak": { "attack": "", "damage": "" },
+      "rsak": { "attack": "", "damage": "" },
+      "abilities": { "check": "", "save": "", "skill": "" },
+      "spell": { "dc": "" }
+    }
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": { "default": 0 },
+  "flags": {
+    "blooming-rot-2": {
+      "dossier": "Compendium.blooming-rot-2.phase-1-journals.JournalEntry.BR2CaelithDunivr.JournalEntryPage.BR2CDPageProfile"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

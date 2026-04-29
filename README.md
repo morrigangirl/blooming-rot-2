@@ -48,18 +48,20 @@ packs/_source/                    editable JSON (one file per top-level doc)
   phase-2-actors/
 packs/                            compiled LevelDB (regenerate after editing)
 assets/
-  maps/                           little-palace-{main-floor,2nd-floor,cellar}.png
+  maps/                           little-palace-{main-floor,2nd-floor,cellar}.webp; Loftwick.jpg
   portraits/                      Caelith-Dunivar-Portrait.png
   tokens/                         token art (TBD; falls back to actor img)
 ```
 
 ## Asset status
 
-**In:** Little Palace maps for all three floors (main, 2nd, cellar) at 1448 × 1086 PNG, gridless. Caelith Dunivar portrait. Three matching Foundry scenes ship in the **Phase 1 — Scenes** compendium with grids pre-configured at 100 px / 5 ft as a starting point.
+**In:** Three Little Palace maps (main, 2nd, cellar) at **5000 × 3750 webp**, gridless. Loftwick city map at 3072 × 4096 jpg. Portraits for Caelith Dunivar and Trina Alvere. **Four Foundry scenes** ship in the **Phase 1 — Scenes** compendium — Main Floor, Second Floor, Cellar, and Loftwick — at 100 px / 5 ft, with structural walls, doors, and ambient lights placed. Main Floor is set as the **default active scene**.
 
-**Still TBD:** dedicated token art for Caelith (the actor's prototype token will fall back to the portrait image until you supply one).
+Actors ship with `prototypeToken` configured: Caelith and Trina use their portraits as token art with friendly disposition; Merev Sarth uses mystery-man with hostile disposition.
 
-**Grid alignment.** Maps were rendered gridless — Foundry overlays the grid at runtime. The artist did not necessarily render at exactly 100 px per 5-foot square, so on first use of each scene, run **Configure Scene → Grid → Align Grid Tool** and click two points on the map known to be a fixed number of feet apart (e.g. opposing courtyard walls in M8, ~25 ft). Foundry computes the right pixel-per-square value automatically. See the **Map Index** journal page for guidance.
+**Still TBD:** dedicated round / cropped token art (currently the actors' prototype tokens scale the portrait into the token frame; works fine, but a tighter crop would render cleaner).
+
+**Grid alignment.** Maps are at 100 px / 5 ft natively at their shipped 5000 × 3750 size. The grid is already aligned on import. You'll only need **Configure Scene → Grid → Align Grid Tool** if you replace the maps with new artwork.
 
 ## Phase 1 journal index
 

@@ -7,7 +7,7 @@
   "navOrder": 2,
   "navName": "Little Palace · Cellar",
   "background": {
-    "src": "modules/blooming-rot-2/assets/maps/little-palace-cellar.png",
+    "src": "modules/blooming-rot-2/assets/maps/little-palace-cellar.webp",
     "anchorX": 0.5,
     "anchorY": 0.5,
     "offsetX": 0,
@@ -22,9 +22,9 @@
   "foreground": null,
   "foregroundElevation": 20,
   "thumb": null,
-  "width": 1448,
-  "height": 1086,
-  "padding": 0.25,
+  "width": 5000,
+  "height": 3750,
+  "padding": 0,
   "initial": null,
   "backgroundColor": "#000000",
   "grid": {
@@ -42,7 +42,10 @@
     "exploration": true,
     "reset": null,
     "overlay": null,
-    "colors": { "explored": null, "unexplored": null }
+    "colors": {
+      "explored": null,
+      "unexplored": null
+    }
   },
   "environment": {
     "darknessLevel": 0.7,
@@ -57,21 +60,586 @@
       "saturation": 0,
       "contrast": 0,
       "shadows": 0,
-      "darkness": { "min": 0, "max": 1 }
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
     },
     "cycle": true,
-    "base": { "hue": 0, "intensity": 0, "luminosity": 0, "saturation": 0, "shadows": 0 },
-    "dark": { "hue": 0, "intensity": 0, "luminosity": -0.25, "saturation": 0, "shadows": 0 }
+    "base": {
+      "hue": 0,
+      "intensity": 0,
+      "luminosity": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "dark": {
+      "hue": 0,
+      "intensity": 0,
+      "luminosity": -0.25,
+      "saturation": 0,
+      "shadows": 0
+    }
   },
   "drawings": [],
   "tokens": [],
-  "lights": [],
+  "lights": [
+    {
+      "_id": "BR2CellarLight01",
+      "x": 1100,
+      "y": 2200,
+      "elevation": 0,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 8,
+        "dim": 18,
+        "color": "#ffd58f",
+        "coloration": 1,
+        "attenuation": 0.6,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": "torch",
+          "speed": 3,
+          "intensity": 4,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "hidden": false,
+      "flags": {},
+      "_key": "!scenes.lights!BR2SceneLPCellr1.BR2CellarLight01"
+    },
+    {
+      "_id": "BR2CellarLight02",
+      "x": 2400,
+      "y": 1300,
+      "elevation": 0,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 8,
+        "dim": 18,
+        "color": "#ffd58f",
+        "coloration": 1,
+        "attenuation": 0.6,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": "torch",
+          "speed": 3,
+          "intensity": 4,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "hidden": false,
+      "flags": {},
+      "_key": "!scenes.lights!BR2SceneLPCellr1.BR2CellarLight02"
+    },
+    {
+      "_id": "BR2CellarLight03",
+      "x": 2400,
+      "y": 2700,
+      "elevation": 0,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.6,
+        "angle": 360,
+        "bright": 10,
+        "dim": 20,
+        "color": "#ffd58f",
+        "coloration": 1,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": "torch",
+          "speed": 3,
+          "intensity": 4,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "hidden": false,
+      "flags": {},
+      "_key": "!scenes.lights!BR2SceneLPCellr1.BR2CellarLight03"
+    },
+    {
+      "_id": "BR2CellarLight04",
+      "x": 4400,
+      "y": 2600,
+      "elevation": 0,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.4,
+        "angle": 360,
+        "bright": 4,
+        "dim": 12,
+        "color": "#ff8855",
+        "coloration": 1,
+        "attenuation": 0.7,
+        "luminosity": 0.4,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": "torch",
+          "speed": 2,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "hidden": false,
+      "flags": {},
+      "_key": "!scenes.lights!BR2SceneLPCellr1.BR2CellarLight04"
+    }
+  ],
   "notes": [],
   "regions": [],
   "sounds": [],
   "templates": [],
   "tiles": [],
-  "walls": [],
+  "walls": [
+    {
+      "_id": "BR2CellarWall001",
+      "c": [
+        300,
+        400,
+        1900,
+        400
+      ],
+      "light": 20,
+      "move": 20,
+      "sight": 20,
+      "sound": 20,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "doorSound": "",
+      "flags": {},
+      "_key": "!scenes.walls!BR2SceneLPCellr1.BR2CellarWall001"
+    },
+    {
+      "_id": "BR2CellarWall002",
+      "c": [
+        1900,
+        400,
+        1900,
+        200
+      ],
+      "light": 20,
+      "move": 20,
+      "sight": 20,
+      "sound": 20,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "doorSound": "",
+      "flags": {},
+      "_key": "!scenes.walls!BR2SceneLPCellr1.BR2CellarWall002"
+    },
+    {
+      "_id": "BR2CellarWall003",
+      "c": [
+        1900,
+        200,
+        2900,
+        200
+      ],
+      "light": 20,
+      "move": 20,
+      "sight": 20,
+      "sound": 20,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "doorSound": "",
+      "flags": {},
+      "_key": "!scenes.walls!BR2SceneLPCellr1.BR2CellarWall003"
+    },
+    {
+      "_id": "BR2CellarWall004",
+      "c": [
+        2900,
+        200,
+        2900,
+        400
+      ],
+      "light": 20,
+      "move": 20,
+      "sight": 20,
+      "sound": 20,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "doorSound": "",
+      "flags": {},
+      "_key": "!scenes.walls!BR2SceneLPCellr1.BR2CellarWall004"
+    },
+    {
+      "_id": "BR2CellarWall005",
+      "c": [
+        2900,
+        400,
+        4500,
+        400
+      ],
+      "light": 20,
+      "move": 20,
+      "sight": 20,
+      "sound": 20,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "doorSound": "",
+      "flags": {},
+      "_key": "!scenes.walls!BR2SceneLPCellr1.BR2CellarWall005"
+    },
+    {
+      "_id": "BR2CellarWall006",
+      "c": [
+        4500,
+        400,
+        4500,
+        2400
+      ],
+      "light": 20,
+      "move": 20,
+      "sight": 20,
+      "sound": 20,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "doorSound": "",
+      "flags": {},
+      "_key": "!scenes.walls!BR2SceneLPCellr1.BR2CellarWall006"
+    },
+    {
+      "_id": "BR2CellarWall007",
+      "c": [
+        4500,
+        2900,
+        4500,
+        3500
+      ],
+      "light": 20,
+      "move": 20,
+      "sight": 20,
+      "sound": 20,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "doorSound": "",
+      "flags": {},
+      "_key": "!scenes.walls!BR2SceneLPCellr1.BR2CellarWall007"
+    },
+    {
+      "_id": "BR2CellarWall008",
+      "c": [
+        4500,
+        3500,
+        300,
+        3500
+      ],
+      "light": 20,
+      "move": 20,
+      "sight": 20,
+      "sound": 20,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "doorSound": "",
+      "flags": {},
+      "_key": "!scenes.walls!BR2SceneLPCellr1.BR2CellarWall008"
+    },
+    {
+      "_id": "BR2CellarWall009",
+      "c": [
+        300,
+        3500,
+        300,
+        400
+      ],
+      "light": 20,
+      "move": 20,
+      "sight": 20,
+      "sound": 20,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "doorSound": "",
+      "flags": {},
+      "_key": "!scenes.walls!BR2SceneLPCellr1.BR2CellarWall009"
+    },
+    {
+      "_id": "BR2CellarWall010",
+      "c": [
+        300,
+        1900,
+        1700,
+        1900
+      ],
+      "light": 20,
+      "move": 20,
+      "sight": 20,
+      "sound": 20,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "doorSound": "",
+      "flags": {},
+      "_key": "!scenes.walls!BR2SceneLPCellr1.BR2CellarWall010"
+    },
+    {
+      "_id": "BR2CellarWall011",
+      "c": [
+        2100,
+        1900,
+        3300,
+        1900
+      ],
+      "light": 20,
+      "move": 20,
+      "sight": 20,
+      "sound": 20,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "doorSound": "",
+      "flags": {},
+      "_key": "!scenes.walls!BR2SceneLPCellr1.BR2CellarWall011"
+    },
+    {
+      "_id": "BR2CellarWall012",
+      "c": [
+        3700,
+        1900,
+        4500,
+        1900
+      ],
+      "light": 20,
+      "move": 20,
+      "sight": 20,
+      "sound": 20,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "doorSound": "",
+      "flags": {},
+      "_key": "!scenes.walls!BR2SceneLPCellr1.BR2CellarWall012"
+    },
+    {
+      "_id": "BR2CellarWall013",
+      "c": [
+        2900,
+        2200,
+        3700,
+        2200
+      ],
+      "light": 20,
+      "move": 20,
+      "sight": 20,
+      "sound": 20,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "doorSound": "",
+      "flags": {},
+      "_key": "!scenes.walls!BR2SceneLPCellr1.BR2CellarWall013"
+    },
+    {
+      "_id": "BR2CellarWall014",
+      "c": [
+        2900,
+        2200,
+        2900,
+        3100
+      ],
+      "light": 20,
+      "move": 20,
+      "sight": 20,
+      "sound": 20,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "doorSound": "",
+      "flags": {},
+      "_key": "!scenes.walls!BR2SceneLPCellr1.BR2CellarWall014"
+    },
+    {
+      "_id": "BR2CellarWall015",
+      "c": [
+        3700,
+        2200,
+        3700,
+        3100
+      ],
+      "light": 20,
+      "move": 20,
+      "sight": 20,
+      "sound": 20,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "doorSound": "",
+      "flags": {},
+      "_key": "!scenes.walls!BR2SceneLPCellr1.BR2CellarWall015"
+    },
+    {
+      "_id": "BR2CellarDoor001",
+      "c": [
+        3100,
+        2200,
+        3300,
+        2200
+      ],
+      "light": 20,
+      "move": 20,
+      "sight": 20,
+      "sound": 20,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "dir": 0,
+      "door": 1,
+      "ds": 2,
+      "doorSound": "",
+      "flags": {},
+      "_key": "!scenes.walls!BR2SceneLPCellr1.BR2CellarDoor001"
+    }
+  ],
   "playlist": null,
   "playlistSound": null,
   "journal": "BR2LittlePalace0",
@@ -79,12 +647,15 @@
   "weather": "",
   "folder": null,
   "sort": 300000,
-  "ownership": { "default": 0 },
+  "ownership": {
+    "default": 0
+  },
   "flags": {
     "blooming-rot-2": {
       "floor": "cellar",
       "keyedRoomsUuid": "Compendium.blooming-rot-2.phase-1-journals.JournalEntry.BR2LittlePalace0.JournalEntryPage.BR2LPPageOvervew",
-      "sceneNote": "Strong Room (C5) lives here; Scene 5's evidence examination plays out in this scene. Old Service Tunnel (C7) on the east edge is the GM-only feature — do not resolve in Phase 1."
+      "wallNote": "Strong Room (C5) door starts LOCKED (ds=2). The east wall (around y=2400-2900) has a deliberate gap — that's the C7 Old Service Tunnel mouth. Tokens can pass through; sight extends into the tunnel art on the map. GM-only feature; do not draw walls across it.",
+      "sceneNote": "Strong Room (C5) is in the south-central chamber where the locked door wall sits. C7 Old Service Tunnel exits east — the GM-only feature; do not resolve in Phase 1."
     }
   },
   "_stats": {

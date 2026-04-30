@@ -269,6 +269,54 @@ GM-ONLY: this sigil belongs to the conspirators' patron school of magic — neve
 ${SIGIL_STYLE}`,
     postProcess: null,
   },
+
+  // ============== TIER 5 — narrative illustrations (scenery / arrival beats) ==============
+  {
+    id: "loftwick-northern-approach",
+    tier: 5,
+    out: "assets/illustrations/loftwick-northern-approach.png",
+    size: "1536x1024",
+    quality: "high",
+    prompt: `Wide painterly landscape oil-painting of a fortified medieval republic city seen from the NORTH at the third bell after noon (mid-afternoon, autumn).
+Foreground: a flat well-maintained road descending gently through autumn-yellowed grassland and shorn fields of grain stubble. A pair of weary travelers walk the road accompanied by two riders in dark militia tabards with green sashes — no fanfare, no triumphal banners, simply an escort.
+Middle distance: the city of LOFTWICK behind pale limestone fortified walls. The walls are irregular, hand-built, with squared bastions at intervals — solid and practical, not ornamental. Gates with iron-banded oak doors are closed.
+Behind the walls rise the city's roofs and squat civic spires — slate-roofed, square-shouldered, no soaring cathedrals; the silhouette is utilitarian, the silhouette of a republic that prefers function to majesty. Smoke from cooking fires drifts up.
+Far horizon: the JOTUN MOUNTAINS as faded blue-grey silhouettes to the north-west, distant, just suggesting the wilderness the travelers have left behind.
+Light: gold-grey, the light that comes after rain. Long soft shadows.
+Mood: civic, restrained, returning rather than arriving for the first time. The city is grateful but not celebrating.
+Style: painterly oil-painting, slightly muted palette, in the manner of nineteenth-century European landscape art. No text or labels.`,
+    postProcess: null,
+  },
+  {
+    id: "little-palace-entrance",
+    tier: 5,
+    out: "assets/illustrations/little-palace-entrance.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Painterly oil-painting exterior view of THE LITTLE PALACE — a small civic guesthouse in the medieval republic of the Yeomanry, mid-afternoon, autumn light.
+The building is pale limestone, four hundred years old, well-kept but never opulent. The facade shows a CEREMONIAL PORTICO of four plain columns (squared rather than fluted, severe republican style — no statues, no friezes, no flourish). Behind the portico stands a pair of heavy IRON-BANDED OAK DOORS, closed but not unwelcoming.
+Above the doors hangs a faded gold-thread banner showing a stylized wheatsheaf in a circle. (Banner text not legible, just the woven impression of letters.)
+Stone planters with autumn herbs flank the broad limestone steps. A single MILITIA GUARD stands at the leftmost column — dark coat, green sash, plain leather, hands clasped at the small of the back, watchful but at ease.
+The wider city street is suggested at the bottom edge of the frame: cobblestones, a corner of an opposite building, a pair of journeymen passing.
+Atmosphere: principled, civic, slightly austere. Function before majesty. The building looks like it has hosted many serious conversations and few celebrations. Soft late-afternoon shadows.
+Style: painterly oil-painting, somewhat understated palette of stone-grey, dark oak, and faded gold. No text.`,
+    postProcess: null,
+  },
+  {
+    id: "little-palace-sitting-room",
+    tier: 5,
+    out: "assets/illustrations/little-palace-sitting-room.png",
+    size: "1536x1024",
+    quality: "high",
+    prompt: `Painterly oil-painting interior view of a hospitable but civic SITTING ROOM in the Little Palace — Loftwick's old civic guesthouse, mid-morning autumn light.
+A LOW HEARTH burns at the center of the room, surrounded by a relaxed but careful arrangement of dark-stained oak chairs and one long settee with worn dark green upholstery. A single faded crimson rug on a polished oak floor. Whitewashed plaster walls, exposed dark beams overhead.
+On one wall: three small framed PORTRAITS of past officials — civic, modest, unlabeled. On another wall: a tall narrow CASE OF BOUND CONSTITUTIONAL VOLUMES, well-thumbed.
+A SIDEBOARD against one wall holds a pewter pitcher of watered wine and several plain glasses. A small writing desk near a tall window where mid-morning light slants in on a slight angle. The window faces an inner courtyard glimpsed beyond — green, autumn-touched, quiet.
+On a low table near the hearth: a single empty teacup on a saucer, as if just set down. No people.
+Mood: warm, lived-in, civic rather than royal. A room that has heard many private conversations and held no grand ones. The Yeomanry's pride is in its boring, dignified administration; this room embodies that pride.
+Style: painterly oil-painting in the manner of Dutch interior masters — warm, intimate, slightly muted palette of cream, oak, dark green, and old gold. No text.`,
+    postProcess: null,
+  },
 ];
 
 // ----------------- engine -----------------
@@ -283,7 +331,7 @@ const dryRun = args.includes("--dry-run");
 const apiKey = process.env.OPENAI_API_KEY;
 
 fs.mkdirSync(RAW, { recursive: true });
-for (const sub of ["portraits", "tokens", "handouts", "sigils", "gm-only"]) {
+for (const sub of ["portraits", "tokens", "handouts", "sigils", "gm-only", "illustrations"]) {
   fs.mkdirSync(path.join(ROOT, "assets", sub), { recursive: true });
 }
 

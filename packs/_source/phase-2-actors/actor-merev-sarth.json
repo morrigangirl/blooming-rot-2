@@ -3,7 +3,7 @@
   "_id": "BR2ActrMerevSrth",
   "name": "Merev Sarth",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "modules/blooming-rot-2/assets/portraits/merev-sarth-portrait.png",
   "system": {
     "abilities": {
       "str": { "value": 11, "proficient": 0, "max": null, "bonuses": { "check": "", "save": "" } },
@@ -95,7 +95,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg",
+      "src": "modules/blooming-rot-2/assets/tokens/merev-sarth-token.png",
       "scaleX": 1,
       "scaleY": 1,
       "offsetX": 0,

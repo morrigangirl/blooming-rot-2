@@ -304,6 +304,174 @@ Style: painterly digital fantasy illustration, atmospheric, palette of warm ston
 No text.`,
     postProcess: null,
   },
+  // ----- set-piece scene illustrations (NPCs in frame where listed) -----
+  {
+    id: "p1-public-welcome",
+    tier: 5,
+    out: "assets/illustrations/p1-public-welcome.png",
+    size: "1536x1024",
+    quality: "high",
+    prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG adventure module (D&D 5e / Pathfinder / Tales of the Valiant book interior style).
+Scene: the formal civic welcome of an adventuring party on the red-carpeted limestone steps of an ornate guesthouse called the Little Palace, late afternoon, autumn light.
+At the top of the steps under a baroque columned portico stands CAELITH DUNIVAR — a lean man in his late fifties, gray hair worn short, dark scholar's coat, a small brass quill-pin at the collar. Both his hands are raised palms-out in a ceremonial gesture, mid-speech.
+Halfway down the steps: a small adventuring party — a fighter in worn plate, a hooded wizard with a staff, a half-elf ranger, a dwarf with a heavy pack — receiving small sealed wooden tokens from a Yeomanry COUNCIL PAGE in livery (a young person with a tray of tokens).
+At the bottom and sides of the steps: TWO SCRIBES at portable writing desks recording on parchment; a small civic crowd of clerks in black coats and journeymen in working dress; two militia guards in dark coats with green sashes flanking the doors. A faded gold-thread banner with a wheatsheaf hangs above the iron-banded oak doors. Lit lanterns at the column capitals.
+Composition: classic ceremony framing — Caelith elevated, the party and witnesses below, a clear ceremonial hierarchy. Dramatic late-afternoon golden-hour light, long shadows.
+Style: painterly digital fantasy illustration, vivid but tonally cohesive palette of warm gold, dark wood, deep red carpet, stone-grey, autumn rust. NOT 19th-century oil painting. No text or labels.`,
+    postProcess: null,
+  },
+  {
+    id: "p1-caelith-office",
+    tier: 5,
+    out: "assets/illustrations/p1-caelith-office.png",
+    size: "1536x1024",
+    quality: "high",
+    prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG adventure module (D&D 5e / Pathfinder book interior style).
+Scene: late evening, Caelith Dunivar's wood-paneled second-floor study in a fantasy republic guesthouse. Intimate, conspiratorial atmosphere.
+At a heavy dark-oak desk facing the viewer sits CAELITH DUNIVAR — late fifties, gray hair worn short, dark scholar's coat, a small brass quill-pin at the collar, a small framed eighth-century ribbon-and-medallion above the desk. He has just placed a flat brass token on the desk between himself and the visitors — the token shows a quill above a closed gate (the Hand of the Duke insignia). His expression is grave but trusting.
+Across from him, in two visitors' chairs, two members of the adventuring party (one fighter in road-stained surcoat, one hooded wizard) lean forward to look at the token.
+A small private hearth crackles low at left; a single tall candle on the desk; warm intimate firelight. Tall leaded window behind Caelith opens onto a dark inner courtyard at night. A locked correspondence cupboard at right, a small bookcase, a plain side table with a half-empty teapot.
+Mood: secrecy, the moment trust is offered. Dramatic warm rim-light from candle and hearth, deep shadows in the corners.
+Style: painterly digital fantasy illustration, palette of warm amber candlelight, dark walnut paneling, ember-orange firelight, deep blue night through the window. NOT 19th-century oil painting. No text.`,
+    postProcess: null,
+  },
+  {
+    id: "p1-strong-room",
+    tier: 5,
+    out: "assets/illustrations/p1-strong-room.png",
+    size: "1536x1024",
+    quality: "high",
+    prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG adventure module (D&D 5e style).
+Scene: deep cellar Strong Room of an old fantasy guesthouse, late at night. Vaulted stone ceiling, rough-cut grey stone walls, a slate floor. A single hanging iron lantern provides warm gold light; the room's corners drop into shadow.
+Center of composition: a long oak workbench. On it, an open iron-bound chest; arranged on the bench beside it, the recovered evidence — a battered black leather spellbook, a sealed wallet of correspondence, a heavy brass signet ring with a crane-and-coins motif, a folded vellum letter of credit, a polished dark-wood ritual focus, a brass tube of charts, an unusual silver coin. The chest is unlocked.
+At the bench: CAELITH DUNIVAR (lean fifties, gray hair, dark scholar's coat, brass quill-pin) leaning over a piece of evidence, his face lit by the lantern; opposite him an adventurer (rogue or wizard PC) examining a different item. A second adventurer stands at the door taking in the scene.
+Behind them: the heavy iron-banded reinforced Strong Room door, partly open. Two stout shelves on one wall holding sealed crates.
+Mood: secrecy, the weight of accounting, the chill of the cellar. Light is dramatic — strong warm lantern light against deep cool stone shadow.
+Style: painterly digital fantasy illustration, palette of warm gold lantern, deep cool grey stone, dark oak. NOT 19th-century oil painting. No text.`,
+    postProcess: null,
+  },
+  {
+    id: "p2-refectory",
+    tier: 5,
+    out: "assets/illustrations/p2-refectory.png",
+    size: "1536x1024",
+    quality: "high",
+    prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG adventure module (D&D 5e / Pathfinder).
+Scene: gray autumn morning, the Refectory of a lavish fantasy guesthouse. A long polished dark-oak table runs the length of the room beneath three hanging brass chandeliers (lit, but low). Lacquered dark-wood paneling on the walls, deep red drapery at tall leaded windows, a stone hearth at the room's far end with a low fire.
+Across the table, seven items of recovered evidence are laid out — each on its own square of cream linen, each linen square neatly numbered in dark ink. Visible items include a battered black spellbook, a small black-lacquered scroll tube, a clipped silver coin, a cloth pouch of grain, a torn ledger fragment, a strip of vellum.
+Seated at the table: CAELITH DUNIVAR (lean fifties, gray hair, dark scholar's coat, brass quill-pin) leaning over the burned spell focus with one gloved finger touching it; beside him TRINA ALVERE (a serene woman in her thirties wearing a forest-dusk colored dress with a small silver leaf pendant at her collar), a small porcelain cup of pale tea balanced on one knee, watching the door.
+Standing at the table's near end, the adventuring party (fighter, wizard, ranger, dwarf) just entering — the moment of arrival.
+Mood: investigative gravity, the room set up like a battlefield. Cool morning light from windows balanced against warm chandelier light.
+Style: painterly digital fantasy illustration, cinematic composition, palette of cream linen, dark walnut, brass, deep red, pale morning gray. NOT 19th-century oil painting. No text.`,
+    postProcess: null,
+  },
+  {
+    id: "p2-records-alcove",
+    tier: 5,
+    out: "assets/illustrations/p2-records-alcove.png",
+    size: "1536x1024",
+    quality: "high",
+    prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG adventure module.
+Scene: a small hidden records alcove behind a paneled door in the library of a fantasy republic guesthouse, mid-morning. Two walls lined floor-to-ceiling with leather-bound civic records — bound charter rolls, ledgers, treasury registers, commercial-marks volumes. A single brass oil lamp on a small reading table provides warm light; the rest of the alcove glows in soft gold.
+At the reading table: TRINA ALVERE (serene mid-thirties woman, forest-dusk colored dress with a silver leaf at her collar, dark hair worn long), one finger flat on a page of an open volume, looking up to comment. Across from her, an adventurer (ranger or wizard PC) cross-referencing a different bound volume on a small writing slope.
+Behind them, the paneled doorway visible — a hinge of normal wood with no obvious latch.
+Atmosphere: warm, intimate, the calm of careful work. The alcove feels secret without feeling threatening.
+Mood: scholarly, hopeful, on the verge of identifying a name.
+Style: painterly digital fantasy illustration, cinematic close-quarters interior, palette of warm leather brown, brass lamp gold, ink black, parchment cream. NOT 19th-century oil painting. No text.`,
+    postProcess: null,
+  },
+  {
+    id: "p2-cv-satellite",
+    tier: 5,
+    out: "assets/illustrations/p2-cv-satellite.png",
+    size: "1536x1024",
+    quality: "high",
+    prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG adventure module.
+Scene: small front office of a private banking firm — Cindren & Vhal, Bonded Factors — on Wick Lane, a quiet street in a fantasy republic city. Mid-morning. The room is small but expensive — dark walnut paneling, two heavy chairs for visitors, a small leaded window, a brass-and-green-glass desk lamp.
+Standing behind the polished desk: HESREN VESH — a young man in his early thirties, dark hair, lean clean-shaven features, wearing the firm's livery (a dark green wool coat with a small brass crane-and-coins pin at the breast), formal but visibly disturbed. His posture is courteous-stiff; his eyes have just landed on something on the desk that he does not want to look at.
+On the desk between Hesren and the visitors: a folded vellum letter of credit, partly unfolded — the marginal endorsement visible. A small brass scale and inkwell to one side. The firm's printed CHARTER ROLL OF MARKS broadsheet pinned to the wall behind him, showing the crane-and-coins seal alongside other small marks.
+In the foreground (back of frame, partly visible): two adventurers showing him the letter — only their hands and shoulders visible, focusing the viewer's attention on Hesren's reaction.
+Mood: polite tension, the moment a young clerk realizes the senior partners are doing something he is not authorized to know about.
+Style: painterly digital fantasy illustration, intimate interior, palette of dark walnut, deep green livery, brass, parchment cream, soft window light. NOT 19th-century oil painting. No text.`,
+    postProcess: null,
+  },
+  {
+    id: "p2-gilst-room",
+    tier: 5,
+    out: "assets/illustrations/p2-gilst-room.png",
+    size: "1536x1024",
+    quality: "high",
+    prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG adventure module — investigation set piece.
+Scene: a modest two-room rented apartment above a stationer's shop on a quiet street, late morning. The dead bonds clerk who lived here was tidy, but the room has been searched.
+A WRITING DESK at right with an inkpot, quill stand, and a single empty teacup on a saucer. Drawers half-open, papers slightly disturbed. A BOOKSHELF on the back wall — books pulled forward and pushed back not-quite-flush; the third volume of "Yeomanry Constitutional Commentaries" sits a finger's-width forward of the others. A faded RUG on the wood floor, rolled at one corner and not laid flat again. A small glass-fronted cabinet showing a plain pewter tin of throat lozenges. On one wall: a single small framed sketch slightly askew — and behind it, partly visible, the chain of a silver locket. A cold hearth at left with a curl of paper in the ashes.
+Through a doorway at right: a glimpse of a small bedchamber — single bed neatly made, one chair, one small dresser.
+A single window faces the street; mid-morning gray light slants in.
+NO PEOPLE in the room. The disturbance does the work.
+Mood: a tidy man's life left exactly as he last touched it, then ransacked by someone else. Quiet, sad, faintly threatening.
+Style: painterly digital fantasy illustration, cinematic interior, palette of cool morning light, faded wood, dust-grey, ink-black. NOT 19th-century oil painting. No text.`,
+    postProcess: null,
+  },
+  {
+    id: "p2-pollow-office",
+    tier: 5,
+    out: "assets/illustrations/p2-pollow-office.png",
+    size: "1536x1024",
+    quality: "high",
+    prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG adventure module.
+Scene: small contract physician's office on a quiet street, late afternoon. The room is cluttered, slightly squalid but professional — an examination cot at right with a thin mattress, shelves of jars and bottled tinctures, a workbench with a brass mortar and pestle, dried herbs hanging from a beam. A small coal stove glows red at one side. Smell-cues in the composition: the bottles, the herbs, ink-stained papers stacked on a tall standing desk.
+At the standing desk: RELN POLLOW — a soft anxious man in his mid-forties, balding, ink-stained fingers, an unkempt sandy beard, wearing a stained apothecary's smock over a plain shirt. He holds a slip of paper as if just lifted from the desk; his eyes are on the visitor, not the paper, and he is sweating slightly. His posture suggests a man who has rehearsed an answer he may not be allowed to give.
+In the foreground (back of frame): two adventurers, only their shoulders and one extended hand visible, asking a question.
+Mood: anxious, claustrophobic. The doctor is not the conspirator; he is the next witness who will be killed if not warned. Dramatic warm afternoon window-light streams in at a low angle, picking out the dust.
+Style: painterly digital fantasy illustration, palette of warm coal-stove glow, dust-light gold, jar-glass green and amber, anxious mid-tones. NOT 19th-century oil painting. No text.`,
+    postProcess: null,
+  },
+  {
+    id: "p2-tamsin-office",
+    tier: 5,
+    out: "assets/illustrations/p2-tamsin-office.png",
+    size: "1536x1024",
+    quality: "high",
+    prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG adventure module.
+Scene: the working business office of a missing senior grain factor, on a fantasy-medieval merchant street. Mid-morning, gray autumn light through tall mullioned windows. The room is paneled in worn pale oak; one wall holds a tall standing desk with a green leather-bound ledger book open on it; the opposite wall has built-in cabinets full of tied bundles of carbons and bound annual returns. A round table near the windows holds a brass weighing scale and a small handful of grain samples in cloth bags.
+At the standing desk: DORIL VETH — a stout middle-aged man in his fifties, plain green wool coat, neat short gray hair, careful clean-shaven features, gold-rimmed reading lenses pushed up onto his forehead. He is turning a page in the ledger and gesturing at a row of entries; his expression is anxious, eager to be helpful, slightly conspiratorial — a clerk who has been waiting for someone to ask the right questions.
+Across from him, two adventurers leaning over the ledger to read.
+The room feels paused — the missing principal's empty chair behind a separate small desk in the background, neatly pushed in, a folded shawl draped over its back.
+Mood: a working business with its center missing. Concerned, focused, quietly hopeful.
+Style: painterly digital fantasy illustration, cool morning interior, palette of pale oak, ledger green, brass, parchment cream. NOT 19th-century oil painting. No text.`,
+    postProcess: null,
+  },
+  {
+    id: "p2-vellin-home",
+    tier: 5,
+    out: "assets/illustrations/p2-vellin-home.png",
+    size: "1536x1024",
+    quality: "high",
+    prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG adventure module — quiet emotional set piece.
+Scene: a small modest parlor of a schoolmaster's home in a fantasy-medieval residential lane, late afternoon. The room is cozy but austere — a small low hearth with a banked fire, two worn upholstered chairs and a low table, a tall bookshelf packed with school-readers and a handful of personal volumes. A small framed portrait sits on the mantel showing a middle-aged woman and a young woman together at some past celebration.
+Seated in one chair at the hearth: VELLIN MORAVEN — a quiet man in his late fifties wearing a plain dark-gray scholar's coat, gray at the temples, drawn features, a small careful posture. He has aged a year in eleven days. In his hand he holds a folded slip of paper. His eyes are on the slip, not on the visitors.
+In the chair opposite, an adventurer leans forward (only their shoulders and hands visible — leave the focus on Vellin).
+A pot of tea on the low table, a single empty cup beside it.
+Late autumn afternoon golden-hour light slants in through a leaded window at left, picking out the picture frame on the mantel.
+Mood: heartbreak quietly carried. A man who is asking for help in the only way he can, and is afraid the help will come too late.
+Style: painterly digital fantasy illustration, intimate interior, palette of warm hearth glow, late-afternoon gold through leaded glass, faded wallpaper, soft sorrowful tones. NOT 19th-century oil painting. No text.`,
+    postProcess: null,
+  },
+  {
+    id: "p2-three-approaches",
+    tier: 5,
+    out: "assets/illustrations/p2-three-approaches.png",
+    size: "1536x1024",
+    quality: "high",
+    prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG adventure module — decision set piece.
+Scene: an old upper-floor council chamber repurposed as a private meeting room, in a lavish fantasy republic guesthouse. The room has a large round oak table with NINE carved chairs ringed around it (one for each founding district). A tall stone hearth at one wall holds a fresh fire; the chamber is otherwise dim, lit by a heavy wrought-iron candelabra on the table itself.
+On the table: THREE small leather folios, each closed with a brass clasp, arranged in a row. Beside them, a folded map of the eastern coast pinned with a small brass tack; a single sealed letter of introduction; a small purse of trade slugs.
+Seated at the table: CAELITH DUNIVAR (lean fifties, gray hair, dark scholar's coat, brass quill-pin) leaning forward with one finger resting deliberately on the central folio; beside him TRINA ALVERE (mid-thirties woman in forest-dusk colored dress with silver leaf at her collar, hands folded in her lap) watching the visitors.
+Across the table from them, the adventuring party (fighter, wizard, ranger, dwarf) facing the choice. The empty chairs between them carry visible weight.
+Mood: pivot moment, gravity of decision. Authority, cover, or distance — and none of them is free.
+Lighting: dramatic candle and hearth glow, deep shadow at the chamber's edges, the round table the only fully-lit object.
+Style: painterly digital fantasy illustration, cinematic decision-scene composition, palette of candle gold, dark oak, ember-orange, deep stone shadow. NOT 19th-century oil painting. No text.`,
+    postProcess: null,
+  },
   {
     id: "little-palace-sitting-room",
     tier: 5,

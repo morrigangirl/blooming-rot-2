@@ -311,9 +311,11 @@ No text.`,
     out: "assets/illustrations/p1-public-welcome.png",
     size: "1536x1024",
     quality: "high",
+    referenceImages: ["assets/portraits/Caelith-Dunivar-Portrait.png"],
     prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG adventure module (D&D 5e / Pathfinder / Tales of the Valiant book interior style).
+**The man in the supplied reference image is CAELITH DUNIVAR. Place him in this scene with his face, hair, beard, and bearing matching the reference exactly. He should be clearly recognizable as the same person.**
 Scene: the formal civic welcome of an adventuring party on the red-carpeted limestone steps of an ornate guesthouse called the Little Palace, late afternoon, autumn light.
-At the top of the steps under a baroque columned portico stands CAELITH DUNIVAR — a lean man in his late fifties, gray hair worn short, dark scholar's coat, a small brass quill-pin at the collar. Both his hands are raised palms-out in a ceremonial gesture, mid-speech.
+At the top of the steps under a baroque columned portico stands CAELITH DUNIVAR — the dark-haired bearded man from the reference image, lean, wearing his dark scholar's coat with subtle gold detailing and a small brass quill-pin at the chest. Both his hands are raised palms-out in a ceremonial gesture, mid-speech.
 Halfway down the steps: a small adventuring party — a fighter in worn plate, a hooded wizard with a staff, a half-elf ranger, a dwarf with a heavy pack — receiving small sealed wooden tokens from a Yeomanry COUNCIL PAGE in livery (a young person with a tray of tokens).
 At the bottom and sides of the steps: TWO SCRIBES at portable writing desks recording on parchment; a small civic crowd of clerks in black coats and journeymen in working dress; two militia guards in dark coats with green sashes flanking the doors. A faded gold-thread banner with a wheatsheaf hangs above the iron-banded oak doors. Lit lanterns at the column capitals.
 Composition: classic ceremony framing — Caelith elevated, the party and witnesses below, a clear ceremonial hierarchy. Dramatic late-afternoon golden-hour light, long shadows.
@@ -326,9 +328,11 @@ Style: painterly digital fantasy illustration, vivid but tonally cohesive palett
     out: "assets/illustrations/p1-caelith-office.png",
     size: "1536x1024",
     quality: "high",
+    referenceImages: ["assets/portraits/Caelith-Dunivar-Portrait.png"],
     prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG adventure module (D&D 5e / Pathfinder book interior style).
+**The man in the supplied reference image is CAELITH DUNIVAR. Place him in this scene with his face, hair, beard, and bearing matching the reference exactly. He should be clearly recognizable as the same person.**
 Scene: late evening, Caelith Dunivar's wood-paneled second-floor study in a fantasy republic guesthouse. Intimate, conspiratorial atmosphere.
-At a heavy dark-oak desk facing the viewer sits CAELITH DUNIVAR — late fifties, gray hair worn short, dark scholar's coat, a small brass quill-pin at the collar, a small framed eighth-century ribbon-and-medallion above the desk. He has just placed a flat brass token on the desk between himself and the visitors — the token shows a quill above a closed gate (the Hand of the Duke insignia). His expression is grave but trusting.
+At a heavy dark-oak desk facing the viewer sits CAELITH DUNIVAR — the dark-haired bearded lean man from the reference image, wearing his dark scholar's coat with subtle gold detailing and a small brass quill-pin at the chest. A small framed eighth-century ribbon-and-medallion hangs above the desk. He has just placed a flat brass token on the desk between himself and the visitors — the token shows a quill above a closed gate (the Hand of the Duke insignia). His expression is grave but trusting.
 Across from him, in two visitors' chairs, two members of the adventuring party (one fighter in road-stained surcoat, one hooded wizard) lean forward to look at the token.
 A small private hearth crackles low at left; a single tall candle on the desk; warm intimate firelight. Tall leaded window behind Caelith opens onto a dark inner courtyard at night. A locked correspondence cupboard at right, a small bookcase, a plain side table with a half-empty teapot.
 Mood: secrecy, the moment trust is offered. Dramatic warm rim-light from candle and hearth, deep shadows in the corners.
@@ -341,10 +345,12 @@ Style: painterly digital fantasy illustration, palette of warm amber candlelight
     out: "assets/illustrations/p1-strong-room.png",
     size: "1536x1024",
     quality: "high",
+    referenceImages: ["assets/portraits/Caelith-Dunivar-Portrait.png"],
     prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG adventure module (D&D 5e style).
+**The man in the supplied reference image is CAELITH DUNIVAR. Place him in this scene with his face, hair, beard, and bearing matching the reference exactly. He should be clearly recognizable as the same person.**
 Scene: deep cellar Strong Room of an old fantasy guesthouse, late at night. Vaulted stone ceiling, rough-cut grey stone walls, a slate floor. A single hanging iron lantern provides warm gold light; the room's corners drop into shadow.
 Center of composition: a long oak workbench. On it, an open iron-bound chest; arranged on the bench beside it, the recovered evidence — a battered black leather spellbook, a sealed wallet of correspondence, a heavy brass signet ring with a crane-and-coins motif, a folded vellum letter of credit, a polished dark-wood ritual focus, a brass tube of charts, an unusual silver coin. The chest is unlocked.
-At the bench: CAELITH DUNIVAR (lean fifties, gray hair, dark scholar's coat, brass quill-pin) leaning over a piece of evidence, his face lit by the lantern; opposite him an adventurer (rogue or wizard PC) examining a different item. A second adventurer stands at the door taking in the scene.
+At the bench: CAELITH DUNIVAR — the dark-haired bearded lean man from the reference image, in his dark scholar's coat with brass quill-pin, leaning over a piece of evidence, his face lit by the lantern; opposite him an adventurer (rogue or wizard PC) examining a different item. A second adventurer stands at the door taking in the scene.
 Behind them: the heavy iron-banded reinforced Strong Room door, partly open. Two stout shelves on one wall holding sealed crates.
 Mood: secrecy, the weight of accounting, the chill of the cellar. Light is dramatic — strong warm lantern light against deep cool stone shadow.
 Style: painterly digital fantasy illustration, palette of warm gold lantern, deep cool grey stone, dark oak. NOT 19th-century oil painting. No text.`,
@@ -356,10 +362,15 @@ Style: painterly digital fantasy illustration, palette of warm gold lantern, dee
     out: "assets/illustrations/p2-refectory.png",
     size: "1536x1024",
     quality: "high",
+    referenceImages: [
+      "assets/portraits/Caelith-Dunivar-Portrait.png",
+      "assets/portraits/trina-alvere-portrait.png",
+    ],
     prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG adventure module (D&D 5e / Pathfinder).
+**Two reference images supplied. The bearded dark-haired man in one image is CAELITH DUNIVAR. The brown-skinned dark-haired woman with faintly luminescent violet markings on her arm in the other image is TRINA ALVERE. Place both characters in this scene with their faces, hair, and bearing matching their reference images exactly. They should be clearly recognizable as the same people from the references.**
 Scene: gray autumn morning, the Refectory of a lavish fantasy guesthouse. A long polished dark-oak table runs the length of the room beneath three hanging brass chandeliers (lit, but low). Lacquered dark-wood paneling on the walls, deep red drapery at tall leaded windows, a stone hearth at the room's far end with a low fire.
 Across the table, seven items of recovered evidence are laid out — each on its own square of cream linen, each linen square neatly numbered in dark ink. Visible items include a battered black spellbook, a small black-lacquered scroll tube, a clipped silver coin, a cloth pouch of grain, a torn ledger fragment, a strip of vellum.
-Seated at the table: CAELITH DUNIVAR (lean fifties, gray hair, dark scholar's coat, brass quill-pin) leaning over the burned spell focus with one gloved finger touching it; beside him TRINA ALVERE (a serene woman in her thirties wearing a forest-dusk colored dress with a small silver leaf pendant at her collar), a small porcelain cup of pale tea balanced on one knee, watching the door.
+Seated at the table: CAELITH DUNIVAR — the bearded dark-haired man from the first reference, in his dark scholar's coat with brass quill-pin — leaning over the burned spell focus with one gloved finger touching it. Beside him TRINA ALVERE — the brown-skinned dark-haired woman from the second reference, faint violet fey-markings on her arm visible past her sleeve, wearing a forest-dusk colored dress with a small silver leaf pendant at her collar — a small porcelain cup of pale tea balanced on one knee, watching the door.
 Standing at the table's near end, the adventuring party (fighter, wizard, ranger, dwarf) just entering — the moment of arrival.
 Mood: investigative gravity, the room set up like a battlefield. Cool morning light from windows balanced against warm chandelier light.
 Style: painterly digital fantasy illustration, cinematic composition, palette of cream linen, dark walnut, brass, deep red, pale morning gray. NOT 19th-century oil painting. No text.`,
@@ -371,9 +382,11 @@ Style: painterly digital fantasy illustration, cinematic composition, palette of
     out: "assets/illustrations/p2-records-alcove.png",
     size: "1536x1024",
     quality: "high",
+    referenceImages: ["assets/portraits/trina-alvere-portrait.png"],
     prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG adventure module.
+**The brown-skinned dark-haired woman with faintly luminescent violet markings on her arm in the supplied reference image is TRINA ALVERE. Place her in this scene with her face, hair, skin tone, and bearing matching the reference exactly. She should be clearly recognizable as the same person.**
 Scene: a small hidden records alcove behind a paneled door in the library of a fantasy republic guesthouse, mid-morning. Two walls lined floor-to-ceiling with leather-bound civic records — bound charter rolls, ledgers, treasury registers, commercial-marks volumes. A single brass oil lamp on a small reading table provides warm light; the rest of the alcove glows in soft gold.
-At the reading table: TRINA ALVERE (serene mid-thirties woman, forest-dusk colored dress with a silver leaf at her collar, dark hair worn long), one finger flat on a page of an open volume, looking up to comment. Across from her, an adventurer (ranger or wizard PC) cross-referencing a different bound volume on a small writing slope.
+At the reading table: TRINA ALVERE — the brown-skinned dark-haired woman from the reference, faint violet fey-markings on her arm visible past her sleeve, wearing a forest-dusk colored dress with a small silver leaf pendant at her collar — one finger flat on a page of an open volume, looking up to comment. Across from her, an adventurer (ranger or wizard PC) cross-referencing a different bound volume on a small writing slope.
 Behind them, the paneled doorway visible — a hinge of normal wood with no obvious latch.
 Atmosphere: warm, intimate, the calm of careful work. The alcove feels secret without feeling threatening.
 Mood: scholarly, hopeful, on the verge of identifying a name.
@@ -462,10 +475,15 @@ Style: painterly digital fantasy illustration, intimate interior, palette of war
     out: "assets/illustrations/p2-three-approaches.png",
     size: "1536x1024",
     quality: "high",
+    referenceImages: [
+      "assets/portraits/Caelith-Dunivar-Portrait.png",
+      "assets/portraits/trina-alvere-portrait.png",
+    ],
     prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG adventure module — decision set piece.
+**Two reference images supplied. The bearded dark-haired man in one image is CAELITH DUNIVAR. The brown-skinned dark-haired woman with faintly luminescent violet markings on her arm in the other image is TRINA ALVERE. Place both characters in this scene with their faces, hair, and bearing matching their reference images exactly. They should be clearly recognizable as the same people from the references.**
 Scene: an old upper-floor council chamber repurposed as a private meeting room, in a lavish fantasy republic guesthouse. The room has a large round oak table with NINE carved chairs ringed around it (one for each founding district). A tall stone hearth at one wall holds a fresh fire; the chamber is otherwise dim, lit by a heavy wrought-iron candelabra on the table itself.
 On the table: THREE small leather folios, each closed with a brass clasp, arranged in a row. Beside them, a folded map of the eastern coast pinned with a small brass tack; a single sealed letter of introduction; a small purse of trade slugs.
-Seated at the table: CAELITH DUNIVAR (lean fifties, gray hair, dark scholar's coat, brass quill-pin) leaning forward with one finger resting deliberately on the central folio; beside him TRINA ALVERE (mid-thirties woman in forest-dusk colored dress with silver leaf at her collar, hands folded in her lap) watching the visitors.
+Seated at the table: CAELITH DUNIVAR — the bearded dark-haired lean man from the first reference, in his dark scholar's coat with brass quill-pin — leaning forward with one finger resting deliberately on the central folio. Beside him TRINA ALVERE — the brown-skinned dark-haired woman from the second reference, faint violet fey-markings on her arm visible past her sleeve, wearing a forest-dusk colored dress with silver leaf at her collar, hands folded in her lap — watching the visitors.
 Across the table from them, the adventuring party (fighter, wizard, ranger, dwarf) facing the choice. The empty chairs between them carry visible weight.
 Mood: pivot moment, gravity of decision. Authority, cover, or distance — and none of them is free.
 Lighting: dramatic candle and hearth glow, deep shadow at the chamber's edges, the round table the only fully-lit object.
@@ -531,22 +549,52 @@ async function generateOne(job) {
   if (!apiKey) {
     throw new Error("OPENAI_API_KEY not set; this job needs the OpenAI API. Source .env first.");
   }
-  console.log(`→ ${job.id}: calling gpt-image-1.5 (${job.size}, ${job.quality})...`);
-  const body = {
-    model: "gpt-image-1.5",
-    prompt: job.prompt,
-    n: 1,
-    size: job.size,
-    quality: job.quality,
-  };
-  const res = await fetch("https://api.openai.com/v1/images/generations", {
-    method: "POST",
-    headers: {
-      "Authorization": `Bearer ${apiKey}`,
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify(body),
-  });
+
+  // If the job specifies referenceImages, use the /v1/images/edits endpoint with
+  // multipart upload so the model grounds character likenesses in those portraits.
+  const useEdits = Array.isArray(job.referenceImages) && job.referenceImages.length > 0;
+  const endpoint = useEdits
+    ? "https://api.openai.com/v1/images/edits"
+    : "https://api.openai.com/v1/images/generations";
+  console.log(`→ ${job.id}: calling gpt-image-1.5 (${job.size}, ${job.quality})${useEdits ? ` with ${job.referenceImages.length} reference image(s)` : ""}...`);
+
+  let res;
+  if (useEdits) {
+    const form = new FormData();
+    form.append("model", "gpt-image-1.5");
+    form.append("prompt", job.prompt);
+    form.append("n", "1");
+    form.append("size", job.size);
+    form.append("quality", job.quality);
+    for (const refPath of job.referenceImages) {
+      const abs = path.isAbsolute(refPath) ? refPath : path.join(ROOT, refPath);
+      const buf = fs.readFileSync(abs);
+      const ext = path.extname(abs).replace(/^\./, "").toLowerCase();
+      const mime = ext === "jpg" || ext === "jpeg" ? "image/jpeg" : "image/png";
+      form.append("image[]", new Blob([buf], { type: mime }), path.basename(abs));
+    }
+    res = await fetch(endpoint, {
+      method: "POST",
+      headers: { "Authorization": `Bearer ${apiKey}` },
+      body: form,
+    });
+  } else {
+    const body = {
+      model: "gpt-image-1.5",
+      prompt: job.prompt,
+      n: 1,
+      size: job.size,
+      quality: job.quality,
+    };
+    res = await fetch(endpoint, {
+      method: "POST",
+      headers: {
+        "Authorization": `Bearer ${apiKey}`,
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(body),
+    });
+  }
   if (!res.ok) {
     const text = await res.text();
     throw new Error(`gpt-image-1.5 ${res.status}: ${text.slice(0, 500)}`);

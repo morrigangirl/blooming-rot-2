@@ -277,14 +277,14 @@ ${SIGIL_STYLE}`,
     out: "assets/illustrations/loftwick-northern-approach.png",
     size: "1536x1024",
     quality: "high",
-    prompt: `Wide painterly landscape oil-painting of a fortified medieval republic city seen from the NORTH at the third bell after noon (mid-afternoon, autumn).
-Foreground: a flat well-maintained road descending gently through autumn-yellowed grassland and shorn fields of grain stubble. A pair of weary travelers walk the road accompanied by two riders in dark militia tabards with green sashes — no fanfare, no triumphal banners, simply an escort.
-Middle distance: the city of LOFTWICK behind pale limestone fortified walls. The walls are irregular, hand-built, with squared bastions at intervals — solid and practical, not ornamental. Gates with iron-banded oak doors are closed.
-Behind the walls rise the city's roofs and squat civic spires — slate-roofed, square-shouldered, no soaring cathedrals; the silhouette is utilitarian, the silhouette of a republic that prefers function to majesty. Smoke from cooking fires drifts up.
-Far horizon: the JOTUN MOUNTAINS as faded blue-grey silhouettes to the north-west, distant, just suggesting the wilderness the travelers have left behind.
-Light: gold-grey, the light that comes after rain. Long soft shadows.
-Mood: civic, restrained, returning rather than arriving for the first time. The city is grateful but not celebrating.
-Style: painterly oil-painting, slightly muted palette, in the manner of nineteenth-century European landscape art. No text or labels.`,
+    prompt: `Modern high-fantasy illustration / digital concept art in the style of contemporary tabletop-RPG book covers (D&D, Pathfinder, Critical Role). Cinematic wide landscape, autumn late-afternoon golden hour.
+A small adventuring party — a fighter in worn plate, a wizard in a hooded travel cloak, a half-elf ranger, a dwarf with a road-stained pack — is walking along a flat well-trodden road through autumn-yellowed grassland and shorn fields of grain stubble. They look road-weary, returning from battle. Two riders in dark militia tabards with green sashes flank them as a quiet escort — no fanfare, no banners.
+Middle distance: the fantasy CITY OF LOFTWICK behind pale limestone fortified walls. The walls are irregular and hand-built with squared bastions and crenellation. A pair of iron-banded oak gates remains closed. Behind the walls rise the city's slate-roofed civic towers and squat practical spires — no soaring cathedrals, the silhouette of a republic that prefers function to majesty. Cooking-fire smoke curls upward.
+Far horizon: the JOTUN MOUNTAINS as distant blue-violet silhouettes to the north-west.
+Lighting: dramatic cinematic golden-hour rim-light from low sun, long warm shadows, atmospheric perspective.
+Composition: classic fantasy book-cover framing, the eye drawn from the foreground party to the city walls then to the mountains.
+Style: painterly digital fantasy illustration, vivid but tonally cohesive palette of warm gold, stone-grey, deep autumn green and rust. Detail-rich but not photorealistic. NOT 19th-century oil painting — modern fantasy genre art.
+No text, no labels.`,
     postProcess: null,
   },
   {
@@ -293,13 +293,15 @@ Style: painterly oil-painting, slightly muted palette, in the manner of nineteen
     out: "assets/illustrations/little-palace-entrance.png",
     size: "1024x1536",
     quality: "high",
-    prompt: `Painterly oil-painting exterior view of THE LITTLE PALACE — a small civic guesthouse in the medieval republic of the Yeomanry, mid-afternoon, autumn light.
-The building is pale limestone, four hundred years old, well-kept but never opulent. The facade shows a CEREMONIAL PORTICO of four plain columns (squared rather than fluted, severe republican style — no statues, no friezes, no flourish). Behind the portico stands a pair of heavy IRON-BANDED OAK DOORS, closed but not unwelcoming.
-Above the doors hangs a faded gold-thread banner showing a stylized wheatsheaf in a circle. (Banner text not legible, just the woven impression of letters.)
-Stone planters with autumn herbs flank the broad limestone steps. A single MILITIA GUARD stands at the leftmost column — dark coat, green sash, plain leather, hands clasped at the small of the back, watchful but at ease.
-The wider city street is suggested at the bottom edge of the frame: cobblestones, a corner of an opposite building, a pair of journeymen passing.
-Atmosphere: principled, civic, slightly austere. Function before majesty. The building looks like it has hosted many serious conversations and few celebrations. Soft late-afternoon shadows.
-Style: painterly oil-painting, somewhat understated palette of stone-grey, dark oak, and faded gold. No text.`,
+    prompt: `Modern high-fantasy illustration / digital concept art in the style of contemporary tabletop-RPG book interiors (D&D 5e module art, Pathfinder, Tales of the Valiant). Exterior of a fantasy civic guesthouse called THE LITTLE PALACE, late autumn afternoon.
+The building is pale limestone, four hundred years old, well-kept but never opulent. The facade shows a ceremonial portico of four squared limestone columns — severe republican style, no statues or friezes. Behind the portico stands a pair of heavy IRON-BANDED OAK DOORS with weathered hardware, closed but not unwelcoming. The doors are flanked by stone planters with autumn herbs.
+Above the doors hangs a faded gold-thread BANNER showing a stylized wheatsheaf in a circle (banner text indistinct).
+A single MILITIA GUARD in a fantasy-medieval uniform stands at the leftmost column — dark wool coat, green sash, leather brigandine, plain longsword at hip, hands clasped at the small of the back, watchful at-ease posture.
+At the bottom edge of the frame: cobblestones of a wider city street, the corner of an opposite stone building, a pair of weary fantasy adventurers in cloaks and travel gear approaching the steps.
+Atmosphere: principled, civic, slightly austere — function before majesty. Dramatic afternoon shadows; warm gold rim-light on the upper columns and banner; cool stone in shadow below.
+Composition: classic fantasy module interior-illustration framing — slightly low angle, the doors centered, the guard small and human-scale at left.
+Style: painterly digital fantasy illustration, atmospheric, palette of warm stone-grey, dark oak, faded gold, deep green. NOT 19th-century oil painting — modern fantasy concept art.
+No text.`,
     postProcess: null,
   },
   {
@@ -308,13 +310,15 @@ Style: painterly oil-painting, somewhat understated palette of stone-grey, dark 
     out: "assets/illustrations/little-palace-sitting-room.png",
     size: "1536x1024",
     quality: "high",
-    prompt: `Painterly oil-painting interior view of a hospitable but civic SITTING ROOM in the Little Palace — Loftwick's old civic guesthouse, mid-morning autumn light.
-A LOW HEARTH burns at the center of the room, surrounded by a relaxed but careful arrangement of dark-stained oak chairs and one long settee with worn dark green upholstery. A single faded crimson rug on a polished oak floor. Whitewashed plaster walls, exposed dark beams overhead.
-On one wall: three small framed PORTRAITS of past officials — civic, modest, unlabeled. On another wall: a tall narrow CASE OF BOUND CONSTITUTIONAL VOLUMES, well-thumbed.
-A SIDEBOARD against one wall holds a pewter pitcher of watered wine and several plain glasses. A small writing desk near a tall window where mid-morning light slants in on a slight angle. The window faces an inner courtyard glimpsed beyond — green, autumn-touched, quiet.
-On a low table near the hearth: a single empty teacup on a saucer, as if just set down. No people.
-Mood: warm, lived-in, civic rather than royal. A room that has heard many private conversations and held no grand ones. The Yeomanry's pride is in its boring, dignified administration; this room embodies that pride.
-Style: painterly oil-painting in the manner of Dutch interior masters — warm, intimate, slightly muted palette of cream, oak, dark green, and old gold. No text.`,
+    prompt: `Modern high-fantasy illustration / digital concept art in the style of contemporary tabletop-RPG book interiors (D&D 5e, Pathfinder 2e, fantasy adventure-module art). Interior view of a hospitable but civic SITTING ROOM in an old fantasy-medieval republic guesthouse, late-morning autumn light.
+At the room's heart: a stone fireplace with a low LIVE FIRE, the flames casting warm amber rim-light across the scene. The fireplace mantel holds a few small civic objects — a brass candlestick, a folded letter, a single pewter cup.
+Furniture: a long settee with worn dark-green upholstery and brass tacking sits at left, dark-stained oak chairs arranged loosely around the hearth, a low oak table near them holding a single empty teacup on a saucer as if just set down. A faded crimson rug with a geometric border lies on a polished oak floor. Whitewashed plaster walls and dark exposed beams overhead.
+On one wall: three small framed civic PORTRAITS, painted in the same modest style — past officials, unlabeled. On another: a tall narrow case of bound CONSTITUTIONAL VOLUMES.
+A sideboard with a pewter pitcher and three plain glasses. A small writing desk near a tall arched WINDOW with leaded panes; through the window, late-morning gold sunlight slants in on dust motes, and an inner courtyard with autumn foliage is glimpsed beyond.
+No people in the room.
+Mood: warm, lived-in, civic rather than royal — a room that has heard many private conversations and held no grand ones. Cinematic fantasy interior atmosphere with strong firelight contrasted against cool window light.
+Style: painterly digital fantasy illustration, cinematic interior, palette of cream plaster, dark oak, deep forest green, ember-orange firelight, soft gold from the window. NOT 19th-century Dutch interior — modern fantasy genre concept art.
+No text.`,
     postProcess: null,
   },
 ];

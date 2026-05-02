@@ -277,8 +277,23 @@ ${SIGIL_STYLE}`,
     out: "assets/illustrations/loftwick-northern-approach.png",
     size: "1536x1024",
     quality: "high",
+    referenceImages: [
+      "assets/portraits/party/alicia-warlock-blade.png",
+      "assets/portraits/party/selvara-human-sorcerer.jpg",
+      "assets/portraits/party/kitty-druid-cthonic-tiefling.png",
+      "assets/portraits/party/gianni-ranger-.jpg",
+      "assets/portraits/party/elle-halfling-monk.jpg",
+      "assets/portraits/party/Cam-Halfling-Rogue.png",
+    ],
     prompt: `Modern high-fantasy illustration / digital concept art in the style of contemporary tabletop-RPG book covers (D&D, Pathfinder, Critical Role). Cinematic wide landscape, autumn late-afternoon golden hour.
-A small adventuring party — a fighter in worn plate, a wizard in a hooded travel cloak, a half-elf ranger, a dwarf with a road-stained pack — is walking along a flat well-trodden road through autumn-yellowed grassland and shorn fields of grain stubble. They look road-weary, returning from battle. Two riders in dark militia tabards with green sashes flank them as a quiet escort — no fanfare, no banners.
+**Six reference images supplied — the six-PC adventuring party. Identify each by features and match exactly:**
+- **Alicia** (human Warlock) — red-haired, high ponytail, blue tunic with gold piping, golden sword at hip, tattoo sleeve on left arm.
+- **Selvara** (human Sorcerer) — hooded, dark red cloak, scar across face with one milky pale eye, blue gem pendant, holds a spear.
+- **Kitty** (chthonic-tiefling Druid) — ashen-grey skin, small dark curving horns, pale luminescent eyes, dark hair in long braids, sigil-veining at temples, dark slender tail, woven-wood spear, lynx shield.
+- **Gianni** (human Ranger) — dark hair in single thick braid, fierce dark-lined eyes, leather cuirass over yellow-cream tunic, quiver of arrows.
+- **Elle** (halfling Monk) — halfling-sized, yellow/saffron robes with red sash, brown hair, agile build.
+- **Cam** (halfling Rogue) — halfling-sized, long brown hair, large yellow eyes, brown leather travel clothes.
+The six PCs are walking along a flat well-trodden road through autumn-yellowed grassland and shorn fields of grain stubble. They look road-weary, returning from battle. The two halflings (Elle, Cam) are visibly shorter than the others. Kitty's tail visible at her hip. Two riders in dark militia tabards with green sashes flank the party as a quiet escort — no fanfare, no banners.
 Middle distance: the fantasy CITY OF LOFTWICK behind pale limestone fortified walls. The walls are irregular and hand-built with squared bastions and crenellation. A pair of iron-banded oak gates remains closed. Behind the walls rise the city's slate-roofed civic towers and squat practical spires — no soaring cathedrals, the silhouette of a republic that prefers function to majesty. Cooking-fire smoke curls upward.
 Far horizon: the JOTUN MOUNTAINS as distant blue-violet silhouettes to the north-west.
 Lighting: dramatic cinematic golden-hour rim-light from low sun, long warm shadows, atmospheric perspective.
@@ -304,6 +319,29 @@ Style: painterly digital fantasy illustration, atmospheric, palette of warm ston
 No text.`,
     postProcess: null,
   },
+  // ----- one-off PC portrait fixups -----
+  {
+    id: "kitty-tiefling-pass",
+    tier: 5,
+    out: "assets/portraits/party/kitty-druid-cthonic-tiefling.png",
+    size: "1024x1024",
+    quality: "high",
+    referenceImages: ["assets/portraits/party/kitty-druid-cthonic-tiefling.png"],
+    prompt: `Modern high-fantasy character portrait illustration in tabletop-RPG concept-art style (D&D 5e / Pathfinder).
+**The figure in the supplied reference image is KITTY, a CHTHONIC TIEFLING druid. The reference shows her current look (dark hair in braids, the lynx shield, the woven spear, the green-leather druid's tunic with leather belts). KEEP her facial structure, hair style and color (long dark braids), her gear (woven wood spear with the wrappings, the wooden lynx shield), and her green leather tunic. But push her appearance further toward CHTHONIC TIEFLING — she should not read as human.**
+Chthonic tieflings are touched by the underworld / death realms. Render her with:
+- Skin: ashen-grey undertone, paler than human, with a subtle cool cast — like the day after a frost.
+- Small twin HORNS curving back from her temples (modest size, dark grey, slightly polished — not demonic spikes, more like deer-antler buds or short curling ram horns).
+- Eyes: solid pale luminescent grey-white or faintly glowing pale-amber — no visible iris, no visible sclera distinction; an otherworldly gaze.
+- Dark sigil-like veining tracing faintly under the skin at the temples, the side of the neck, and along the inner arm — like ink lines just below the surface.
+- A long slender tail, dark grey at the base fading to charcoal at the tip, curling visibly from behind one hip; tipped with a small flattened spade.
+- Faint hairline scar along one cheekbone — old, healed, visible only as a thin pale line.
+Atmosphere: same forest backdrop with green canopy and dappled light. Watercolor / painterly digital fantasy portrait, vivid but tonally cohesive. NOT 19th-century oil painting.
+She should still feel KITTY — capable, watchful, the druid we already know — just with her chthonic heritage now legible at first glance.
+No text.`,
+    postProcess: null,
+  },
+
   // ----- set-piece scene illustrations (NPCs in frame where listed) -----
   {
     id: "p1-public-welcome",
@@ -311,12 +349,27 @@ No text.`,
     out: "assets/illustrations/p1-public-welcome.png",
     size: "1536x1024",
     quality: "high",
-    referenceImages: ["assets/portraits/Caelith-Dunivar-Portrait.png"],
+    referenceImages: [
+      "assets/portraits/Caelith-Dunivar-Portrait.png",
+      "assets/portraits/party/alicia-warlock-blade.png",
+      "assets/portraits/party/selvara-human-sorcerer.jpg",
+      "assets/portraits/party/kitty-druid-cthonic-tiefling.png",
+      "assets/portraits/party/gianni-ranger-.jpg",
+      "assets/portraits/party/elle-halfling-monk.jpg",
+      "assets/portraits/party/Cam-Halfling-Rogue.png",
+    ],
     prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG adventure module (D&D 5e / Pathfinder / Tales of the Valiant book interior style).
-**The man in the supplied reference image is CAELITH DUNIVAR. Place him in this scene with his face, hair, beard, and bearing matching the reference exactly. He should be clearly recognizable as the same person.**
-Scene: the formal civic welcome of an adventuring party on the red-carpeted limestone steps of an ornate guesthouse called the Little Palace, late afternoon, autumn light.
-At the top of the steps under a baroque columned portico stands CAELITH DUNIVAR — the dark-haired bearded man from the reference image, lean, wearing his dark scholar's coat with subtle gold detailing and a small brass quill-pin at the chest. Both his hands are raised palms-out in a ceremonial gesture, mid-speech.
-Halfway down the steps: a small adventuring party — a fighter in worn plate, a hooded wizard with a staff, a half-elf ranger, a dwarf with a heavy pack — receiving small sealed wooden tokens from a Yeomanry COUNCIL PAGE in livery (a young person with a tray of tokens).
+**Seven reference images supplied. Identify each by their distinctive features and place them in the scene exactly as they appear in their portraits:**
+- **Caelith Dunivar** (NPC) — bearded dark-haired lean man in a dark scholar's coat with subtle gold detail and a small brass quill-pin.
+- **Alicia** (PC, human Warlock) — red-haired woman, hair in a high ponytail, blue tunic with gold piping, holds a golden sword (her Pact weapon), tattoo sleeve on her left arm, pink/lavender glove on right hand.
+- **Selvara** (PC, human Sorcerer) — hooded woman in a dark red cloak, scar across her face with one milky pale eye, blue gem pendant, holds a spear.
+- **Kitty** (PC, chthonic-tiefling Druid) — ashen-grey skinned tiefling, small dark horns curving back from her temples, pale luminescent eyes, dark hair in long braids, dark sigil-veining at the temples, slender dark tail visible at her hip, woven-wood spear, oval shield painted with a lynx face.
+- **Gianni** (PC, human Ranger) — dark-haired woman, hair in a thick single braid, fierce dark-lined eyes, leather cuirass over a yellow-cream tunic, quiver of arrows visible at one shoulder.
+- **Elle** (PC, halfling Monk) — halfling-sized woman in flowing yellow/saffron robes with a red sash, brown hair, agile build.
+- **Cam** (PC, halfling Rogue) — halfling-sized woman, long brown hair, large yellow eyes, brown leather travel clothes.
+Scene: the formal civic welcome of the adventuring party on the red-carpeted limestone steps of an ornate guesthouse called the Little Palace, late afternoon, autumn light.
+At the top of the steps under a baroque columned portico stands CAELITH DUNIVAR with both hands raised palms-out in a ceremonial gesture, mid-speech.
+Halfway down the steps: the six-PC adventuring party (Alicia, Selvara, Kitty, Gianni, Elle, Cam) standing in a loose group, weary from the road, receiving small sealed wooden tokens from a Yeomanry COUNCIL PAGE in livery (a young person with a tray of tokens). The two halflings (Elle, Cam) are visibly shorter than the others.
 At the bottom and sides of the steps: TWO SCRIBES at portable writing desks recording on parchment; a small civic crowd of clerks in black coats and journeymen in working dress; two militia guards in dark coats with green sashes flanking the doors. A faded gold-thread banner with a wheatsheaf hangs above the iron-banded oak doors. Lit lanterns at the column capitals.
 Composition: classic ceremony framing — Caelith elevated, the party and witnesses below, a clear ceremonial hierarchy. Dramatic late-afternoon golden-hour light, long shadows.
 Style: painterly digital fantasy illustration, vivid but tonally cohesive palette of warm gold, dark wood, deep red carpet, stone-grey, autumn rust. NOT 19th-century oil painting. No text or labels.`,
@@ -328,12 +381,19 @@ Style: painterly digital fantasy illustration, vivid but tonally cohesive palett
     out: "assets/illustrations/p1-caelith-office.png",
     size: "1536x1024",
     quality: "high",
-    referenceImages: ["assets/portraits/Caelith-Dunivar-Portrait.png"],
+    referenceImages: [
+      "assets/portraits/Caelith-Dunivar-Portrait.png",
+      "assets/portraits/party/alicia-warlock-blade.png",
+      "assets/portraits/party/selvara-human-sorcerer.jpg",
+    ],
     prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG adventure module (D&D 5e / Pathfinder book interior style).
-**The man in the supplied reference image is CAELITH DUNIVAR. Place him in this scene with his face, hair, beard, and bearing matching the reference exactly. He should be clearly recognizable as the same person.**
+**Three reference images supplied. Identify each by features and match exactly:**
+- **Caelith Dunivar** (NPC) — bearded dark-haired lean man, dark scholar's coat with subtle gold detail, small brass quill-pin.
+- **Alicia** (human Warlock) — red-haired woman, high ponytail, blue tunic with gold piping, golden Pact-of-the-Blade sword, tattoo sleeve on her left arm.
+- **Selvara** (human Sorcerer) — hooded woman, dark red cloak, scar across her face with one milky pale eye, blue gem pendant.
 Scene: late evening, Caelith Dunivar's wood-paneled second-floor study in a fantasy republic guesthouse. Intimate, conspiratorial atmosphere.
-At a heavy dark-oak desk facing the viewer sits CAELITH DUNIVAR — the dark-haired bearded lean man from the reference image, wearing his dark scholar's coat with subtle gold detailing and a small brass quill-pin at the chest. A small framed eighth-century ribbon-and-medallion hangs above the desk. He has just placed a flat brass token on the desk between himself and the visitors — the token shows a quill above a closed gate (the Hand of the Duke insignia). His expression is grave but trusting.
-Across from him, in two visitors' chairs, two members of the adventuring party (one fighter in road-stained surcoat, one hooded wizard) lean forward to look at the token.
+At a heavy dark-oak desk facing the viewer sits CAELITH DUNIVAR. A small framed eighth-century ribbon-and-medallion hangs above the desk. He has just placed a flat brass token on the desk between himself and the visitors — the token shows a quill above a closed gate (the Hand of the Duke insignia). His expression is grave but trusting.
+Across from him, in two visitors' chairs: ALICIA leaning forward to look at the token, her golden sword sheathed at her hip; SELVARA beside her, hood pushed back slightly, watching Caelith carefully with her one good eye. Both lean in.
 A small private hearth crackles low at left; a single tall candle on the desk; warm intimate firelight. Tall leaded window behind Caelith opens onto a dark inner courtyard at night. A locked correspondence cupboard at right, a small bookcase, a plain side table with a half-empty teapot.
 Mood: secrecy, the moment trust is offered. Dramatic warm rim-light from candle and hearth, deep shadows in the corners.
 Style: painterly digital fantasy illustration, palette of warm amber candlelight, dark walnut paneling, ember-orange firelight, deep blue night through the window. NOT 19th-century oil painting. No text.`,
@@ -345,12 +405,21 @@ Style: painterly digital fantasy illustration, palette of warm amber candlelight
     out: "assets/illustrations/p1-strong-room.png",
     size: "1536x1024",
     quality: "high",
-    referenceImages: ["assets/portraits/Caelith-Dunivar-Portrait.png"],
+    referenceImages: [
+      "assets/portraits/Caelith-Dunivar-Portrait.png",
+      "assets/portraits/party/alicia-warlock-blade.png",
+      "assets/portraits/party/Cam-Halfling-Rogue.png",
+      "assets/portraits/party/kitty-druid-cthonic-tiefling.png",
+    ],
     prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG adventure module (D&D 5e style).
-**The man in the supplied reference image is CAELITH DUNIVAR. Place him in this scene with his face, hair, beard, and bearing matching the reference exactly. He should be clearly recognizable as the same person.**
+**Four reference images supplied. Identify each by features and match exactly:**
+- **Caelith Dunivar** (NPC) — bearded dark-haired lean man, dark scholar's coat, brass quill-pin.
+- **Alicia** (human Warlock) — red-haired, high ponytail, blue tunic with gold piping, golden sword.
+- **Cam** (halfling Rogue) — halfling-sized woman, long brown hair, large yellow eyes, brown leather travel clothes.
+- **Kitty** (chthonic-tiefling Druid) — ashen-grey skinned tiefling with small dark horns, pale luminescent eyes, dark hair in long braids, sigil-veining at the temples, dark slender tail.
 Scene: deep cellar Strong Room of an old fantasy guesthouse, late at night. Vaulted stone ceiling, rough-cut grey stone walls, a slate floor. A single hanging iron lantern provides warm gold light; the room's corners drop into shadow.
 Center of composition: a long oak workbench. On it, an open iron-bound chest; arranged on the bench beside it, the recovered evidence — a battered black leather spellbook, a sealed wallet of correspondence, a heavy brass signet ring with a crane-and-coins motif, a folded vellum letter of credit, a polished dark-wood ritual focus, a brass tube of charts, an unusual silver coin. The chest is unlocked.
-At the bench: CAELITH DUNIVAR — the dark-haired bearded lean man from the reference image, in his dark scholar's coat with brass quill-pin, leaning over a piece of evidence, his face lit by the lantern; opposite him an adventurer (rogue or wizard PC) examining a different item. A second adventurer stands at the door taking in the scene.
+At the bench: CAELITH DUNIVAR leaning over a piece of evidence, his face lit by the lantern. Across from him, CAM (halfling rogue) standing on a stool to reach the bench, examining the signet ring closely. Beside Cam, ALICIA scanning the letter of credit. KITTY stands at the open Strong Room door behind them, watching the corridor — her tail visible at her hip.
 Behind them: the heavy iron-banded reinforced Strong Room door, partly open. Two stout shelves on one wall holding sealed crates.
 Mood: secrecy, the weight of accounting, the chill of the cellar. Light is dramatic — strong warm lantern light against deep cool stone shadow.
 Style: painterly digital fantasy illustration, palette of warm gold lantern, deep cool grey stone, dark oak. NOT 19th-century oil painting. No text.`,
@@ -365,13 +434,27 @@ Style: painterly digital fantasy illustration, palette of warm gold lantern, dee
     referenceImages: [
       "assets/portraits/Caelith-Dunivar-Portrait.png",
       "assets/portraits/trina-alvere-portrait.png",
+      "assets/portraits/party/alicia-warlock-blade.png",
+      "assets/portraits/party/selvara-human-sorcerer.jpg",
+      "assets/portraits/party/kitty-druid-cthonic-tiefling.png",
+      "assets/portraits/party/gianni-ranger-.jpg",
+      "assets/portraits/party/elle-halfling-monk.jpg",
+      "assets/portraits/party/Cam-Halfling-Rogue.png",
     ],
     prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG adventure module (D&D 5e / Pathfinder).
-**Two reference images supplied. The bearded dark-haired man in one image is CAELITH DUNIVAR. The brown-skinned dark-haired woman with faintly luminescent violet markings on her arm in the other image is TRINA ALVERE. Place both characters in this scene with their faces, hair, and bearing matching their reference images exactly. They should be clearly recognizable as the same people from the references.**
+**Eight reference images supplied. Identify each character by features and match exactly:**
+- **Caelith Dunivar** (NPC) — bearded dark-haired lean man, dark scholar's coat, brass quill-pin.
+- **Trina Alvere** (NPC) — brown-skinned woman in her thirties with long dark hair (often braided), faintly luminescent violet fey-markings on her arms, forest-dusk colored dress, silver leaf pendant.
+- **Alicia** (human Warlock) — red-haired, high ponytail, blue tunic with gold piping, golden sword, tattoo sleeve on left arm.
+- **Selvara** (human Sorcerer) — hooded woman, dark red cloak, scar across face with one milky pale eye, blue gem pendant.
+- **Kitty** (chthonic-tiefling Druid) — ashen-grey skin, small dark curving horns, pale luminescent eyes, dark hair in long braids, sigil-veining at the temples, dark slender tail.
+- **Gianni** (human Ranger) — dark-haired, hair in a thick single braid, fierce dark-lined eyes, leather cuirass over yellow-cream tunic, quiver of arrows.
+- **Elle** (halfling Monk) — halfling-sized, flowing yellow/saffron robes with red sash, brown hair, agile build.
+- **Cam** (halfling Rogue) — halfling-sized, long brown hair, large yellow eyes, brown leather travel clothes.
 Scene: gray autumn morning, the Refectory of a lavish fantasy guesthouse. A long polished dark-oak table runs the length of the room beneath three hanging brass chandeliers (lit, but low). Lacquered dark-wood paneling on the walls, deep red drapery at tall leaded windows, a stone hearth at the room's far end with a low fire.
 Across the table, seven items of recovered evidence are laid out — each on its own square of cream linen, each linen square neatly numbered in dark ink. Visible items include a battered black spellbook, a small black-lacquered scroll tube, a clipped silver coin, a cloth pouch of grain, a torn ledger fragment, a strip of vellum.
-Seated at the table: CAELITH DUNIVAR — the bearded dark-haired man from the first reference, in his dark scholar's coat with brass quill-pin — leaning over the burned spell focus with one gloved finger touching it. Beside him TRINA ALVERE — the brown-skinned dark-haired woman from the second reference, faint violet fey-markings on her arm visible past her sleeve, wearing a forest-dusk colored dress with a small silver leaf pendant at her collar — a small porcelain cup of pale tea balanced on one knee, watching the door.
-Standing at the table's near end, the adventuring party (fighter, wizard, ranger, dwarf) just entering — the moment of arrival.
+Seated at the table: CAELITH DUNIVAR leaning over the burned spell focus with one gloved finger touching it. Beside him TRINA ALVERE, a small porcelain cup of pale tea balanced on one knee, watching the door.
+Standing at the table's near end, the six-PC adventuring party (Alicia, Selvara, Kitty, Gianni, Elle, Cam) just entering — the moment of arrival. The two halflings (Elle, Cam) are visibly shorter than the others. Kitty's tail is visible at her hip.
 Mood: investigative gravity, the room set up like a battlefield. Cool morning light from windows balanced against warm chandelier light.
 Style: painterly digital fantasy illustration, cinematic composition, palette of cream linen, dark walnut, brass, deep red, pale morning gray. NOT 19th-century oil painting. No text.`,
     postProcess: null,
@@ -382,11 +465,16 @@ Style: painterly digital fantasy illustration, cinematic composition, palette of
     out: "assets/illustrations/p2-records-alcove.png",
     size: "1536x1024",
     quality: "high",
-    referenceImages: ["assets/portraits/trina-alvere-portrait.png"],
+    referenceImages: [
+      "assets/portraits/trina-alvere-portrait.png",
+      "assets/portraits/party/selvara-human-sorcerer.jpg",
+    ],
     prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG adventure module.
-**The brown-skinned dark-haired woman with faintly luminescent violet markings on her arm in the supplied reference image is TRINA ALVERE. Place her in this scene with her face, hair, skin tone, and bearing matching the reference exactly. She should be clearly recognizable as the same person.**
+**Two reference images supplied. Identify each by features and match exactly:**
+- **Trina Alvere** (NPC) — brown-skinned woman in her thirties, long dark hair, faintly luminescent violet fey-markings visible on her arm, forest-dusk colored dress, silver leaf pendant.
+- **Selvara** (human Sorcerer PC) — hooded woman in a dark red cloak, scar across her face with one milky pale eye, blue gem pendant.
 Scene: a small hidden records alcove behind a paneled door in the library of a fantasy republic guesthouse, mid-morning. Two walls lined floor-to-ceiling with leather-bound civic records — bound charter rolls, ledgers, treasury registers, commercial-marks volumes. A single brass oil lamp on a small reading table provides warm light; the rest of the alcove glows in soft gold.
-At the reading table: TRINA ALVERE — the brown-skinned dark-haired woman from the reference, faint violet fey-markings on her arm visible past her sleeve, wearing a forest-dusk colored dress with a small silver leaf pendant at her collar — one finger flat on a page of an open volume, looking up to comment. Across from her, an adventurer (ranger or wizard PC) cross-referencing a different bound volume on a small writing slope.
+At the reading table: TRINA ALVERE — one finger flat on a page of an open volume, looking up to comment. Across from her, SELVARA cross-referencing a different bound volume on a small writing slope, her hood pushed back to read more easily — the scar and milky eye visible in the lamplight, the blue gem pendant catching the light.
 Behind them, the paneled doorway visible — a hinge of normal wood with no obvious latch.
 Atmosphere: warm, intimate, the calm of careful work. The alcove feels secret without feeling threatening.
 Mood: scholarly, hopeful, on the verge of identifying a name.
@@ -478,13 +566,27 @@ Style: painterly digital fantasy illustration, intimate interior, palette of war
     referenceImages: [
       "assets/portraits/Caelith-Dunivar-Portrait.png",
       "assets/portraits/trina-alvere-portrait.png",
+      "assets/portraits/party/alicia-warlock-blade.png",
+      "assets/portraits/party/selvara-human-sorcerer.jpg",
+      "assets/portraits/party/kitty-druid-cthonic-tiefling.png",
+      "assets/portraits/party/gianni-ranger-.jpg",
+      "assets/portraits/party/elle-halfling-monk.jpg",
+      "assets/portraits/party/Cam-Halfling-Rogue.png",
     ],
     prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG adventure module — decision set piece.
-**Two reference images supplied. The bearded dark-haired man in one image is CAELITH DUNIVAR. The brown-skinned dark-haired woman with faintly luminescent violet markings on her arm in the other image is TRINA ALVERE. Place both characters in this scene with their faces, hair, and bearing matching their reference images exactly. They should be clearly recognizable as the same people from the references.**
+**Eight reference images supplied. Identify each character by features and match exactly:**
+- **Caelith Dunivar** (NPC) — bearded dark-haired lean man, dark scholar's coat, brass quill-pin.
+- **Trina Alvere** (NPC) — brown-skinned woman in her thirties, long dark hair, faintly luminescent violet fey-markings on her arms, forest-dusk dress, silver leaf pendant.
+- **Alicia** (human Warlock) — red-haired, high ponytail, blue tunic, golden sword.
+- **Selvara** (human Sorcerer) — hooded, dark red cloak, scar, milky pale eye, blue gem pendant.
+- **Kitty** (chthonic-tiefling Druid) — ashen-grey skin, small dark horns, pale luminescent eyes, dark braids, sigil-veining at temples, dark slender tail.
+- **Gianni** (human Ranger) — dark-haired with single thick braid, fierce eyes, leather cuirass, quiver.
+- **Elle** (halfling Monk) — halfling-sized, yellow/saffron robes with red sash, brown hair.
+- **Cam** (halfling Rogue) — halfling-sized, long brown hair, yellow eyes, brown leather.
 Scene: an old upper-floor council chamber repurposed as a private meeting room, in a lavish fantasy republic guesthouse. The room has a large round oak table with NINE carved chairs ringed around it (one for each founding district). A tall stone hearth at one wall holds a fresh fire; the chamber is otherwise dim, lit by a heavy wrought-iron candelabra on the table itself.
 On the table: THREE small leather folios, each closed with a brass clasp, arranged in a row. Beside them, a folded map of the eastern coast pinned with a small brass tack; a single sealed letter of introduction; a small purse of trade slugs.
-Seated at the table: CAELITH DUNIVAR — the bearded dark-haired lean man from the first reference, in his dark scholar's coat with brass quill-pin — leaning forward with one finger resting deliberately on the central folio. Beside him TRINA ALVERE — the brown-skinned dark-haired woman from the second reference, faint violet fey-markings on her arm visible past her sleeve, wearing a forest-dusk colored dress with silver leaf at her collar, hands folded in her lap — watching the visitors.
-Across the table from them, the adventuring party (fighter, wizard, ranger, dwarf) facing the choice. The empty chairs between them carry visible weight.
+Seated at the table: CAELITH DUNIVAR leaning forward with one finger resting deliberately on the central folio. Beside him TRINA ALVERE, hands folded in her lap, watching the visitors.
+Across the table from them, the six-PC adventuring party (Alicia, Selvara, Kitty, Gianni, Elle, Cam) seated facing the choice. The two halflings (Elle, Cam) are on stacked cushions to reach the table. Kitty's tail visible at her hip. The empty chairs between the seated PCs carry visible weight.
 Mood: pivot moment, gravity of decision. Authority, cover, or distance — and none of them is free.
 Lighting: dramatic candle and hearth glow, deep shadow at the chamber's edges, the round table the only fully-lit object.
 Style: painterly digital fantasy illustration, cinematic decision-scene composition, palette of candle gold, dark oak, ember-orange, deep stone shadow. NOT 19th-century oil painting. No text.`,

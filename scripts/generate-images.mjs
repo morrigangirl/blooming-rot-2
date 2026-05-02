@@ -462,8 +462,18 @@ Style: painterly digital fantasy illustration, palette of warm gold lantern, dee
 - **Cam** (halfling Rogue) — halfling-sized, long brown hair, large yellow eyes, brown leather travel clothes.
 Scene: gray autumn morning, the Refectory of a lavish fantasy guesthouse. A long polished dark-oak table runs the length of the room beneath three hanging brass chandeliers (lit, but low). Lacquered dark-wood paneling on the walls, deep red drapery at tall leaded windows, a stone hearth at the room's far end with a low fire.
 Across the table, seven items of recovered evidence are laid out — each on its own square of cream linen, each linen square neatly numbered in dark ink. Visible items include a battered black spellbook, a small black-lacquered scroll tube, a clipped silver coin, a cloth pouch of grain, a torn ledger fragment, a strip of vellum.
-Seated at the table: CAELITH DUNIVAR leaning over the burned spell focus with one gloved finger touching it. Beside him TRINA ALVERE, a small porcelain cup of pale tea balanced on one knee, watching the door.
-Standing at the table's near end, the six-PC adventuring party (Alicia, Selvara, Kitty, Gianni, Elle, Cam) just entering — the moment of arrival. The two halflings (Elle, Cam) are visibly shorter than the others. Kitty's tail is visible at her hip.
+**EXACTLY EIGHT distinct people in this scene — no extras, no background figures, no servants, no clerks. Two NPCs at the table and SIX PCs standing at the table's near end. Render each as listed:**
+At the far end of the table:
+1. **CAELITH DUNIVAR** seated, leaning over the burned spell focus with one gloved finger touching it. He is the only bearded man in the scene.
+2. **TRINA ALVERE** seated beside Caelith, a small porcelain cup of pale tea balanced on one knee, watching the door. Her violet fey-markings should glow faintly on her arm in the chandelier light.
+At the table's near end (the side closer to the viewer), standing in a loose group, all just entered:
+3. **ALICIA** front-left of the party group — red ponytail, blue tunic with gold piping, golden sword at her hip, tattoo sleeve on left arm. **No sparkles, no glowing motes around her — render her cleanly.**
+4. **SELVARA** beside Alicia, hood up — dark red cloak, scar across face with milky pale eye, blue gem pendant.
+5. **KITTY** in the party group, the chthonic-tiefling druid — **the two small dark horns curving back from her temples MUST be clearly visible**, ashen-grey skin, pale luminescent eyes, dark braided hair, dark slender tail at her hip. She carries her woven-wood spear.
+6. **GIANNI** the human ranger (a WOMAN with dark hair in a single thick braid, fierce dark-lined eyes, leather cuirass over yellow-cream tunic, quiver of arrows over one shoulder). She is NOT male.
+7. **ELLE** the halfling monk — **halfling height, head about waist-height of the humans** — flowing yellow/saffron robes with red sash, brown hair, agile build.
+8. **CAM** the halfling rogue — also **halfling height, head about waist-height of the humans** — long brown hair, large yellow eyes, brown leather travel clothes, brown leather satchel.
+Both halflings (Elle, Cam) MUST be visibly smaller than the four humans / one tiefling. NO additional unnamed figures of any kind anywhere in the room.
 Mood: investigative gravity, the room set up like a battlefield. Cool morning light from windows balanced against warm chandelier light.
 Style: painterly digital fantasy illustration, cinematic composition, palette of cream linen, dark walnut, brass, deep red, pale morning gray. NOT 19th-century oil painting. No text.`,
     postProcess: null,

@@ -550,10 +550,19 @@ Style: painterly digital fantasy illustration, cinematic interior, palette of co
     out: "assets/illustrations/p2-pollow-office.png",
     size: "1536x1024",
     quality: "high",
+    referenceImages: [
+      "assets/portraits/party/selvara-human-sorcerer.jpg",
+      "assets/portraits/party/gianni-ranger-.jpg",
+    ],
     prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG adventure module.
-Scene: small contract physician's office on a quiet street, late afternoon. The room is cluttered, slightly squalid but professional — an examination cot at right with a thin mattress, shelves of jars and bottled tinctures, a workbench with a brass mortar and pestle, dried herbs hanging from a beam. A small coal stove glows red at one side. Smell-cues in the composition: the bottles, the herbs, ink-stained papers stacked on a tall standing desk.
-At the standing desk: RELN POLLOW — a soft anxious man in his mid-forties, balding, ink-stained fingers, an unkempt sandy beard, wearing a stained apothecary's smock over a plain shirt. He holds a slip of paper as if just lifted from the desk; his eyes are on the visitor, not the paper, and he is sweating slightly. His posture suggests a man who has rehearsed an answer he may not be allowed to give.
-In the foreground (back of frame): two adventurers, only their shoulders and one extended hand visible, asking a question.
+**Two reference images supplied. Identify each by features and match exactly:**
+- **Selvara** (human Sorcerer PC) — hooded woman in a dark red cloak, scar across her face with one milky pale eye, blue gem pendant at her throat, holds a plain wooden spear. **Selvara is HOODED, NOT in leather kit. Do NOT render her as another Gianni.**
+- **Gianni** (human Ranger PC, female) — dark hair in a single thick braid, fierce dark-lined eyes, leather cuirass over yellow-cream tunic, quiver of arrows over one shoulder.
+Scene: small contract physician's office on a quiet street, late afternoon. The room is cluttered, slightly squalid but professional — an examination cot at right with a thin mattress, shelves of jars and bottled tinctures, a workbench with a brass mortar and pestle, dried herbs hanging from a beam. A small coal stove glows red at one side.
+At a tall standing desk in the center: RELN POLLOW — a soft anxious man in his mid-forties, balding, ink-stained fingers, unkempt sandy beard, wearing a stained apothecary's smock over a plain shirt. He holds a slip of paper as if just lifted from the desk; his eyes are on the visitors, not the paper, and he is sweating slightly. His posture suggests a man who has rehearsed an answer he may not be allowed to give.
+Standing in front of the desk facing him, fully visible to the viewer:
+1. **SELVARA** at left, hood pushed back enough that her scar and milky eye catch the warm coal-stove light. She is reading Pollow's face for tells; her wooden spear is grounded beside her.
+2. **GIANNI** at right, arms folded across her leather cuirass, fierce eyes fixed on Pollow. The quiver of arrows visible over her shoulder. Her presence is quiet but unmistakably dangerous.
 Mood: anxious, claustrophobic. The doctor is not the conspirator; he is the next witness who will be killed if not warned. Dramatic warm afternoon window-light streams in at a low angle, picking out the dust.
 Style: painterly digital fantasy illustration, palette of warm coal-stove glow, dust-light gold, jar-glass green and amber, anxious mid-tones. NOT 19th-century oil painting. No text.`,
     postProcess: null,
@@ -564,11 +573,20 @@ Style: painterly digital fantasy illustration, palette of warm coal-stove glow, 
     out: "assets/illustrations/p2-tamsin-office.png",
     size: "1536x1024",
     quality: "high",
+    referenceImages: [
+      "assets/portraits/party/alicia-warlock-blade.png",
+      "assets/portraits/party/Cam-Halfling-Rogue.png",
+    ],
     prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG adventure module.
+**Two reference images supplied. Identify each by features and match exactly:**
+- **Alicia** (human Warlock PC) — red-haired woman, hair in a high ponytail, blue tunic with gold piping, golden sword at her hip, tattoo sleeve on her left arm. **No sparkles, no glowing motes around her — render her cleanly.**
+- **Cam** (halfling Rogue PC) — halfling-sized woman, long brown hair, large yellow eyes, brown leather travel clothes, brown leather satchel. **Cam is halfling height — her head is about waist-height of the humans; she stands on tiptoe or on a low stool to read at the standing desk.**
 Scene: the working business office of a missing senior grain factor, on a fantasy-medieval merchant street. Mid-morning, gray autumn light through tall mullioned windows. The room is paneled in worn pale oak; one wall holds a tall standing desk with a green leather-bound ledger book open on it; the opposite wall has built-in cabinets full of tied bundles of carbons and bound annual returns. A round table near the windows holds a brass weighing scale and a small handful of grain samples in cloth bags.
 At the standing desk: DORIL VETH — a stout middle-aged man in his fifties, plain green wool coat, neat short gray hair, careful clean-shaven features, gold-rimmed reading lenses pushed up onto his forehead. He is turning a page in the ledger and gesturing at a row of entries; his expression is anxious, eager to be helpful, slightly conspiratorial — a clerk who has been waiting for someone to ask the right questions.
-Across from him, two adventurers leaning over the ledger to read.
-The room feels paused — the missing principal's empty chair behind a separate small desk in the background, neatly pushed in, a folded shawl draped over its back.
+Standing across the desk from him, leaning forward to read the ledger:
+1. **ALICIA** at the desk, one hand braced on the edge, leaning to read the entries Veth is showing her. Her golden sword sheathed at her hip.
+2. **CAM** beside Alicia, standing on tiptoe (she is halfling-height) to see the ledger over the desk's edge, her sharp yellow eyes tracking the lines closely — she is the one most likely to spot the discrepancy.
+The room feels paused — the missing principal's (Tamsin's) empty chair behind a separate small desk in the background, neatly pushed in, a folded shawl draped over its back.
 Mood: a working business with its center missing. Concerned, focused, quietly hopeful.
 Style: painterly digital fantasy illustration, cool morning interior, palette of pale oak, ledger green, brass, parchment cream. NOT 19th-century oil painting. No text.`,
     postProcess: null,

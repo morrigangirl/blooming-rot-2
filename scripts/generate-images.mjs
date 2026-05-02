@@ -350,6 +350,7 @@ No text.`,
     size: "1536x1024",
     quality: "high",
     referenceImages: [
+      "assets/illustrations/the-little-palace-entrance.png",
       "assets/portraits/Caelith-Dunivar-Portrait.png",
       "assets/portraits/party/alicia-warlock-blade.png",
       "assets/portraits/party/selvara-human-sorcerer.jpg",
@@ -359,7 +360,8 @@ No text.`,
       "assets/portraits/party/Cam-Halfling-Rogue.png",
     ],
     prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG adventure module (D&D 5e / Pathfinder / Tales of the Valiant book interior style).
-**Seven reference images supplied. Identify each by their distinctive features and place them in the scene exactly as they appear in their portraits:**
+**Eight reference images supplied. The first is the architectural reference; the rest are characters.**
+- **(Architecture reference)** — the wide architectural photo shows THE LITTLE PALACE ENTRANCE. The scene must be set on these exact steps and portico: white-and-ivory limestone facade with ornate baroque gilt carving, broad red-carpeted limestone steps, gilded balustrades flanking the steps with stone urns and small cypress trees, twin gilded onion-domed turrets above, an arched gilt entrance pediment, twin tall lanterns flanking the doors, a red banner with a heraldic device hanging at left. Match this architecture exactly.
 - **Caelith Dunivar** (NPC) — bearded dark-haired lean man in a dark scholar's coat with subtle gold detail and a small brass quill-pin.
 - **Alicia** (PC, human Warlock) — red-haired woman, hair in a high ponytail, blue tunic with gold piping, holds a golden sword (her Pact weapon), tattoo sleeve on her left arm, pink/lavender glove on right hand.
 - **Selvara** (PC, human Sorcerer) — hooded woman in a dark red cloak, scar across her face with one milky pale eye, blue gem pendant, holds a spear.
@@ -369,7 +371,7 @@ No text.`,
 - **Cam** (PC, halfling Rogue) — halfling-sized woman, long brown hair, large yellow eyes, brown leather travel clothes.
 Scene: the formal civic welcome of the adventuring party on the red-carpeted limestone steps of an ornate guesthouse called the Little Palace, late afternoon, autumn light.
 At the top of the steps under a baroque columned portico stands CAELITH DUNIVAR with both hands raised palms-out in a ceremonial gesture, mid-speech.
-Halfway down the steps: ALL SIX PCs of the adventuring party in a loose semicircle, weary from the road, receiving small sealed wooden tokens from a Yeomanry COUNCIL PAGE in livery (a young person with a tray of tokens). EVERY ONE of the six must be visibly present and distinct:
+Halfway down the steps, between Caelith above and the crowd below: ALL SIX PCs of the adventuring party in a loose semicircle, weary from the road, facing a Yeomanry COUNCIL PAGE who hands each of them a small wooden token. **The COUNCIL PAGE is a young human in dark Yeomanry livery (dark coat with green sash) holding a small flat polished wooden tray. On the tray: six round wooden disc tokens the size of a large coin, each pressed with a red wax seal showing the Yeomanry wheatsheaf. The tokens are CLEARLY WOODEN DISCS WITH WAX SEALS — not pastries, not biscuits, not food.** The page holds the tray with both hands at chest height; one PC at a time steps forward to take a token.\nEVERY ONE of the six PCs must be visibly present and distinct, and **none of the PCs is holding the tray** — it is in the council page's hands only:
 1. ALICIA front-left, the red-haired warlock with the golden sword at her hip and the tattoo sleeve on her left arm.
 2. SELVARA behind Alicia, the hooded sorcerer in the dark red cloak, scar and milky pale eye visible.
 3. KITTY in the center back, the chthonic-tiefling druid — the two small dark horns curving back from her temples must be clearly visible above her braided dark hair, dark slender tail at her hip, lynx shield slung on her back.
@@ -494,12 +496,23 @@ Style: painterly digital fantasy illustration, cinematic close-quarters interior
     out: "assets/illustrations/p2-cv-satellite.png",
     size: "1536x1024",
     quality: "high",
+    referenceImages: [
+      "assets/portraits/hesren-vesh-portrait.png",
+      "assets/portraits/party/alicia-warlock-blade.png",
+      "assets/portraits/party/selvara-human-sorcerer.jpg",
+      "assets/portraits/party/Cam-Halfling-Rogue.png",
+    ],
     prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG adventure module.
-Scene: small front office of a private banking firm — Cindren & Vhal, Bonded Factors — on Wick Lane, a quiet street in a fantasy republic city. Mid-morning. The room is small but expensive — dark walnut paneling, two heavy chairs for visitors, a small leaded window, a brass-and-green-glass desk lamp.
-Standing behind the polished desk: HESREN VESH — a young man in his early thirties, dark hair, lean clean-shaven features, wearing the firm's livery (a dark green wool coat with a small brass crane-and-coins pin at the breast), formal but visibly disturbed. His posture is courteous-stiff; his eyes have just landed on something on the desk that he does not want to look at.
-On the desk between Hesren and the visitors: a folded vellum letter of credit, partly unfolded — the marginal endorsement visible. A small brass scale and inkwell to one side. The firm's printed CHARTER ROLL OF MARKS broadsheet pinned to the wall behind him, showing the crane-and-coins seal alongside other small marks.
-In the foreground (back of frame, partly visible): two adventurers showing him the letter — only their hands and shoulders visible, focusing the viewer's attention on Hesren's reaction.
-Mood: polite tension, the moment a young clerk realizes the senior partners are doing something he is not authorized to know about.
+**Four reference images supplied. Identify each by features and match exactly:**
+- **Hesren Vesh** (NPC) — young man, early thirties, dark hair, lean clean-shaven features, wearing Cindren & Vhal firm livery: dark green wool coat with a small brass crane-and-coins pin at the breast.
+- **Alicia** (human Warlock PC) — red-haired woman, hair in a high ponytail, blue tunic with gold piping, golden sword at her hip, tattoo sleeve on her left arm. **Render her clean — no glowing motes, no sparkles, no magical particles. The sword is plain metal-gold, not magical.**
+- **Selvara** (human Sorcerer PC) — hooded woman in a dark red cloak, scar across her face with one milky pale eye, blue gem pendant.
+- **Cam** (halfling Rogue PC) — halfling-sized woman, long brown hair, large yellow eyes, brown leather travel clothes. Visibly halfling height (head about waist-height of the humans).
+Scene: small front office of the Cindren & Vhal Bonded Factors satellite on Wick Lane, mid-morning. Small but expensive — dark walnut paneling, a polished desk, a small leaded window casting cool gray light, a brass-and-green-glass desk lamp lit on the desk corner, two heavy visitors' chairs (currently empty — the visitors are standing).
+Standing behind the desk: HESREN VESH, courteous-stiff posture, his eyes just landed on something on the desk that he does not want to look at, mouth a careful neutral line.
+Standing at the near side of the desk facing him: ALICIA holding the folded vellum letter of credit out flat for him to read, the marginal endorsement visible; SELVARA at Alicia's shoulder watching Hesren's face for tells, her hood pushed back; CAM at Alicia's other side, smaller than the humans, brown leather satchel at her hip, hands clasped behind her back as she watches Hesren too.
+On the desk between them: the partly-unfolded letter of credit, a small brass scale, an inkwell. The firm's printed CHARTER ROLL OF MARKS broadsheet pinned to the wall behind Hesren, showing the crane-and-coins seal alongside other small marks.
+Mood: polite tension, the moment a young clerk realizes the senior partners are doing something he is not authorized to know about. Three pairs of eyes on him, his on the document.
 Style: painterly digital fantasy illustration, intimate interior, palette of dark walnut, deep green livery, brass, parchment cream, soft window light. NOT 19th-century oil painting. No text.`,
     postProcess: null,
   },

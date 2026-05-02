@@ -369,7 +369,14 @@ No text.`,
 - **Cam** (PC, halfling Rogue) — halfling-sized woman, long brown hair, large yellow eyes, brown leather travel clothes.
 Scene: the formal civic welcome of the adventuring party on the red-carpeted limestone steps of an ornate guesthouse called the Little Palace, late afternoon, autumn light.
 At the top of the steps under a baroque columned portico stands CAELITH DUNIVAR with both hands raised palms-out in a ceremonial gesture, mid-speech.
-Halfway down the steps: the six-PC adventuring party (Alicia, Selvara, Kitty, Gianni, Elle, Cam) standing in a loose group, weary from the road, receiving small sealed wooden tokens from a Yeomanry COUNCIL PAGE in livery (a young person with a tray of tokens). The two halflings (Elle, Cam) are visibly shorter than the others.
+Halfway down the steps: ALL SIX PCs of the adventuring party in a loose semicircle, weary from the road, receiving small sealed wooden tokens from a Yeomanry COUNCIL PAGE in livery (a young person with a tray of tokens). EVERY ONE of the six must be visibly present and distinct:
+1. ALICIA front-left, the red-haired warlock with the golden sword at her hip and the tattoo sleeve on her left arm.
+2. SELVARA behind Alicia, the hooded sorcerer in the dark red cloak, scar and milky pale eye visible.
+3. KITTY in the center back, the chthonic-tiefling druid — the two small dark horns curving back from her temples must be clearly visible above her braided dark hair, dark slender tail at her hip, lynx shield slung on her back.
+4. GIANNI to Kitty's right, the dark-haired ranger with the single thick braid and the quiver of arrows.
+5. ELLE in the front-center, the halfling monk in flowing yellow/saffron robes with red sash — visibly small (halfling height, head about waist-height of the humans).
+6. CAM in the front-right, the halfling rogue with long brown hair, large yellow eyes, brown leather travel clothes — also visibly halfling-sized.
+**IMPORTANT: render Alicia cleanly — no floating particles, no glowing sparkles, no swirling motes around her. Her sword is metal-gold, not magical-glowing. Treat her as a normal red-haired human warrior, no magical aura.**
 At the bottom and sides of the steps: TWO SCRIBES at portable writing desks recording on parchment; a small civic crowd of clerks in black coats and journeymen in working dress; two militia guards in dark coats with green sashes flanking the doors. A faded gold-thread banner with a wheatsheaf hangs above the iron-banded oak doors. Lit lanterns at the column capitals.
 Composition: classic ceremony framing — Caelith elevated, the party and witnesses below, a clear ceremonial hierarchy. Dramatic late-afternoon golden-hour light, long shadows.
 Style: painterly digital fantasy illustration, vivid but tonally cohesive palette of warm gold, dark wood, deep red carpet, stone-grey, autumn rust. NOT 19th-century oil painting. No text or labels.`,

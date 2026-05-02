@@ -597,13 +597,18 @@ Style: painterly digital fantasy illustration, cool morning interior, palette of
     out: "assets/illustrations/p2-vellin-home.png",
     size: "1536x1024",
     quality: "high",
+    referenceImages: [
+      "assets/portraits/party/gianni-ranger-.jpg",
+    ],
     prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG adventure module — quiet emotional set piece.
+**One reference image supplied:**
+- **Gianni** (human Ranger PC, female) — dark hair in a single thick braid, fierce dark-lined eyes, leather cuirass over yellow-cream tunic, quiver of arrows over one shoulder. She is NOT male.
 Scene: a small modest parlor of a schoolmaster's home in a fantasy-medieval residential lane, late afternoon. The room is cozy but austere — a small low hearth with a banked fire, two worn upholstered chairs and a low table, a tall bookshelf packed with school-readers and a handful of personal volumes. A small framed portrait sits on the mantel showing a middle-aged woman and a young woman together at some past celebration.
-Seated in one chair at the hearth: VELLIN MORAVEN — a quiet man in his late fifties wearing a plain dark-gray scholar's coat, gray at the temples, drawn features, a small careful posture. He has aged a year in eleven days. In his hand he holds a folded slip of paper. His eyes are on the slip, not on the visitors.
-In the chair opposite, an adventurer leans forward (only their shoulders and hands visible — leave the focus on Vellin).
-A pot of tea on the low table, a single empty cup beside it.
+Seated in one chair at the hearth: VELLIN MORAVEN — a quiet man in his late fifties wearing a plain dark-gray scholar's coat, gray at the temples, drawn features, a small careful posture. He has aged a year in eleven days. In his hand he holds a folded slip of paper. His eyes are on the slip, not on Gianni.
+In the chair opposite, fully visible to the viewer: **GIANNI** sitting forward with her elbows on her knees, hands loosely clasped between them. She has set her quiver on the floor beside her chair as a courtesy. Her usual fierceness is muted here; she is being still on purpose, holding the silence Vellin needs. Her dark eyes are on Vellin's face, not on the slip he is reading from.
+A pot of tea on the low table between them, two cups — one for Vellin, one Gianni has accepted but not yet touched.
 Late autumn afternoon golden-hour light slants in through a leaded window at left, picking out the picture frame on the mantel.
-Mood: heartbreak quietly carried. A man who is asking for help in the only way he can, and is afraid the help will come too late.
+Mood: heartbreak quietly carried. A grieving man asking for help in the only way he can, and a ranger who knows how to listen.
 Style: painterly digital fantasy illustration, intimate interior, palette of warm hearth glow, late-afternoon gold through leaded glass, faded wallpaper, soft sorrowful tones. NOT 19th-century oil painting. No text.`,
     postProcess: null,
   },

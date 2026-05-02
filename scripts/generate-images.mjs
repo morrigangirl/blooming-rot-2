@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // Blooming Rot 2 — image generator
-// Calls OpenAI gpt-image-1.5 for portraits, tokens, handouts, and sigils.
+// Calls OpenAI gpt-image-2 for portraits, tokens, handouts, and sigils.
 // Resizes / round-crops via ImageMagick (`magick`).
 //
 // Usage:
@@ -470,7 +470,7 @@ At the far end of the table:
 2. **TRINA ALVERE** seated beside Caelith, a small porcelain cup of pale tea balanced on one knee. Her violet fey-markings should glow faintly on her arm in the chandelier light.
 At the table's near end (the side closer to the viewer), standing in a loose group, all just entered:
 3. **ALICIA** front-left of the party group — red ponytail, blue tunic with gold piping, golden sword at her hip, tattoo sleeve on left arm. **No sparkles, no glowing motes around her — render her cleanly.**
-4. **SELVARA** beside Alicia, hood up — dark red cloak, scar across face with milky pale eye, blue gem pendant.
+4. **SELVARA** beside Alicia. **Selvara is a HOODED SORCERER, NOT a leather-clad ranger. Do NOT render her as another Gianni.** She wears a heavy DARK RED CLOAK with the HOOD UP framing her face; she does NOT wear leather armor; she does NOT carry a quiver. Her face shows a long thin RED SCAR running across one eye, and that eye is MILKY PALE / blind-looking. A round BLUE GEM PENDANT hangs at her throat. She holds a plain wooden spear. **There is exactly ONE Selvara and exactly ONE Gianni — they look completely different. If two characters in your output look like Gianni (both with leather and quiver), you have failed this prompt — one of them is supposed to be the hooded scarred sorceress.**
 5. **KITTY (CHTHONIC TIEFLING — see CRITICAL note above)** standing prominently at the front-center of the party group so her horns and tail are unmistakable. Ashen-grey skin, two small dark horns curving back from her temples, pale luminescent eyes, dark braided hair, dark slender tail at her hip, woven-wood spear in hand, lynx-painted wooden shield slung on her back.
 6. **GIANNI** the human ranger (a WOMAN with dark hair in a single thick braid, fierce dark-lined eyes, leather cuirass over yellow-cream tunic, quiver of arrows over one shoulder). She is NOT male.
 7. **ELLE** the halfling monk — **halfling height, head about waist-height of the humans** — flowing yellow/saffron robes with red sash, brown hair, agile build.
@@ -690,12 +690,12 @@ async function generateOne(job) {
   const endpoint = useEdits
     ? "https://api.openai.com/v1/images/edits"
     : "https://api.openai.com/v1/images/generations";
-  console.log(`→ ${job.id}: calling gpt-image-1.5 (${job.size}, ${job.quality})${useEdits ? ` with ${job.referenceImages.length} reference image(s)` : ""}...`);
+  console.log(`→ ${job.id}: calling gpt-image-2 (${job.size}, ${job.quality})${useEdits ? ` with ${job.referenceImages.length} reference image(s)` : ""}...`);
 
   let res;
   if (useEdits) {
     const form = new FormData();
-    form.append("model", "gpt-image-1.5");
+    form.append("model", "gpt-image-2");
     form.append("prompt", job.prompt);
     form.append("n", "1");
     form.append("size", job.size);
@@ -714,7 +714,7 @@ async function generateOne(job) {
     });
   } else {
     const body = {
-      model: "gpt-image-1.5",
+      model: "gpt-image-2",
       prompt: job.prompt,
       n: 1,
       size: job.size,
@@ -731,7 +731,7 @@ async function generateOne(job) {
   }
   if (!res.ok) {
     const text = await res.text();
-    throw new Error(`gpt-image-1.5 ${res.status}: ${text.slice(0, 500)}`);
+    throw new Error(`gpt-image-2 ${res.status}: ${text.slice(0, 500)}`);
   }
   const data = await res.json();
   const b64 = data?.data?.[0]?.b64_json;

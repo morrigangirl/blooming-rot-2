@@ -467,14 +467,14 @@ Style: painterly digital fantasy illustration, cinematic composition, palette of
     quality: "high",
     referenceImages: [
       "assets/portraits/trina-alvere-portrait.png",
-      "assets/portraits/party/selvara-human-sorcerer.jpg",
+      "assets/portraits/party/alicia-warlock-blade.png",
     ],
     prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG adventure module.
 **Two reference images supplied. Identify each by features and match exactly:**
 - **Trina Alvere** (NPC) — brown-skinned woman in her thirties, long dark hair, faintly luminescent violet fey-markings visible on her arm, forest-dusk colored dress, silver leaf pendant.
-- **Selvara** (human Sorcerer PC) — hooded woman in a dark red cloak, scar across her face with one milky pale eye, blue gem pendant.
+- **Alicia** (human Warlock PC, Trina's mentee) — red-haired woman, hair in a high ponytail, blue tunic with gold piping, golden sword sheathed at her hip, tattoo sleeve on her left arm.
 Scene: a small hidden records alcove behind a paneled door in the library of a fantasy republic guesthouse, mid-morning. Two walls lined floor-to-ceiling with leather-bound civic records — bound charter rolls, ledgers, treasury registers, commercial-marks volumes. A single brass oil lamp on a small reading table provides warm light; the rest of the alcove glows in soft gold.
-At the reading table: TRINA ALVERE — one finger flat on a page of an open volume, looking up to comment. Across from her, SELVARA cross-referencing a different bound volume on a small writing slope, her hood pushed back to read more easily — the scar and milky eye visible in the lamplight, the blue gem pendant catching the light.
+At the reading table: TRINA ALVERE — one finger flat on a page of an open volume, looking up to comment. Across from her, ALICIA cross-referencing a different bound volume on a small writing slope. There is a quiet mentor-and-student warmth between them; Trina watches Alicia read with the patience of someone who has been waiting for this exact moment of focus. Alicia's golden sword leans against her chair.
 Behind them, the paneled doorway visible — a hinge of normal wood with no obvious latch.
 Atmosphere: warm, intimate, the calm of careful work. The alcove feels secret without feeling threatening.
 Mood: scholarly, hopeful, on the verge of identifying a name.

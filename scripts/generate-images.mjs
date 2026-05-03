@@ -1143,7 +1143,7 @@ Layout (imagine north = top of the image):
 - WINDOWS only on the south wall (small, shuttered).
 - Outside the building edges: cobbled dock alley on the south, a narrow service alley on the east.
 
-Render with a soft 5 ft square grid overlaid (faint dark lines, low opacity). Painted plank floors in the common room, slate in the kitchen, threadbare patterned rug under the central tables. Warm lamp-lit atmosphere implied by the palette (amber, dark brown, deep red). NO text labels — annotations will be added in Foundry.`,
+NO grid lines on the map. Painted plank floors in the common room, slate in the kitchen, threadbare patterned rug under the central tables. Warm lamp-lit atmosphere implied by the palette (amber, dark brown, deep red). NO text labels — annotations will be added in Foundry.`,
     postProcess: null,
   },
   {
@@ -1166,7 +1166,7 @@ Inside the building, please draw:
 - A small windowless storage room at the north wall, shown with thicker stone walls than the others.
 - A small workroom for scribes near the storage room, with three writing desks.
 
-Add a faint 5-foot square grid lightly drawn over the whole image. Use a warm muted palette of dark walnut, brass, deep red rugs, and ivory plaster. Polished wood floors. No words or letters anywhere. Painted, not vector.${DOOR_RULES}`,
+NO grid lines on the map. Use a warm muted palette of dark walnut, brass, deep red rugs, and ivory plaster. Polished wood floors. No words or letters anywhere. Painted, not vector.${DOOR_RULES}`,
     postProcess: null,
   },
   {
@@ -1189,7 +1189,7 @@ Layout (north at top):
 - A REAR DOOR on the east wall opens onto a narrow service alley between buildings.
 - Two small high WINDOWS on the west wall, shuttered.
 
-Render with a faint 5 ft square grid. Color palette: rough plank floor, dust and grime, dim amber light implied by a single guttering lantern hung from a ceiling beam (visible as a small bright spot). Cluttered, broken, abandoned — clearly not in active use. NO text labels.${DOOR_RULES}`,
+NO grid lines on the map. Color palette: rough plank floor, dust and grime, dim amber light implied by a single guttering lantern hung from a ceiling beam (visible as a small bright spot). Cluttered, broken, abandoned — clearly not in active use. NO text labels.${DOOR_RULES}`,
     postProcess: null,
   },
 
@@ -1217,7 +1217,7 @@ Layout:
 - A few CYPRESS TREES along the perimeter for visual privacy.
 - A small SIDE GATE on the east wall (locked, key with the housekeeper).
 
-Render with a faint 5 ft square grid. Palette: pale stone walls, terracotta roof on the house, green of the garden, gravel of the carriage drive in warm tan. Atmosphere: prosperous but isolated, deliberately private. NO text labels.${DOOR_RULES}`,
+NO grid lines on the map. Palette: pale stone walls, terracotta roof on the house, green of the garden, gravel of the carriage drive in warm tan. Atmosphere: prosperous but isolated, deliberately private. NO text labels.${DOOR_RULES}`,
     postProcess: null,
   },
   {
@@ -1239,7 +1239,7 @@ Layout (north at top):
 - A REAR DOOR on the west wall opens to a narrow service alley.
 - TWO SMALL HIGH WINDOWS on the south wall (street).
 
-Render with a faint 5 ft square grid. Palette: warm honey-toned wood throughout, brass lamp fittings, oxblood leather chair. Atmosphere: precise, ordered, professionally calm. NO text labels.${DOOR_RULES}`,
+NO grid lines on the map. Palette: warm honey-toned wood throughout, brass lamp fittings, oxblood leather chair. Atmosphere: precise, ordered, professionally calm. NO text labels.${DOOR_RULES}`,
     postProcess: null,
   },
   {
@@ -1269,7 +1269,7 @@ RIGHT HALF — UPPER FLOOR (north at top):
 - A SMALL PRIVATE LIBRARY off the upper hall — a single armchair, a reading lamp, two walls of books.
 - STAIR DOWN at the south end of the upper hall.
 
-Faint 5 ft square grid throughout. Palette: warm wood floors, plastered walls in cream and ochre, oxblood and dark green soft furnishings, brass lamp fittings. Atmosphere: prosperous, lived-in, hospitable. NO text labels.${DOOR_RULES}`,
+NO grid lines on the map. Palette: warm wood floors, plastered walls in cream and ochre, oxblood and dark green soft furnishings, brass lamp fittings. Atmosphere: prosperous, lived-in, hospitable. NO text labels.${DOOR_RULES}`,
     postProcess: null,
   },
   {
@@ -1294,7 +1294,7 @@ Layout:
 - A SERVICE STAIR in the very northwest corner leads down to the deep records vault (not shown).
 - An INTERNAL CORRIDOR runs east-west across the middle of the building, separating public space from working space.
 
-Render with a faint 5 ft square grid. Palette: cool stone, marble floors, dark walnut shelving, brass lamp fittings, civic gravity. Atmosphere: hushed, official, ordered. NO text labels.${DOOR_RULES}`,
+NO grid lines on the map. Palette: cool stone, marble floors, dark walnut shelving, brass lamp fittings, civic gravity. Atmosphere: hushed, official, ordered. NO text labels.${DOOR_RULES}`,
     postProcess: null,
   },
   {
@@ -1319,7 +1319,7 @@ Layout:
 - A REAR DOOR on the east wall opens into a small service alley.
 - A STAIR in the northwest corner leads up to a closed-off second floor (not shown — used for storage and the manager's overnight cot when needed).
 
-Render with a faint 5 ft square grid. Palette: dark walnut paneling on the lower walls, cream plaster above, brass lamp fittings, deep red runner along the customer floor. NO text labels.${DOOR_RULES}`,
+NO grid lines on the map. Palette: dark walnut paneling on the lower walls, cream plaster above, brass lamp fittings, deep red runner along the customer floor. NO text labels.${DOOR_RULES}`,
     postProcess: null,
   },
   {
@@ -1340,7 +1340,7 @@ Layout:
 - A PRIVATE STRONGBOX (visible as a small heavy iron-bound chest) sits at the desk's right hand.
 - A SMALL SIDE TABLE near the chairs holds a water carafe and two glasses.
 
-Render with a faint 5 ft square grid. Palette: dark wood floor, smoke-grey plaster walls, brass desk fittings, deep oxblood leather chairs. Atmosphere: senior civic functionary's working room — restrained, austere, lived-in. NO text labels.${DOOR_RULES}`,
+NO grid lines on the map. Palette: dark wood floor, smoke-grey plaster walls, brass desk fittings, deep oxblood leather chairs. Atmosphere: senior civic functionary's working room — restrained, austere, lived-in. NO text labels.${DOOR_RULES}`,
     postProcess: null,
   },
   {
@@ -1370,7 +1370,7 @@ UPPER HALF — UPPER FLOOR:
 - LINEN CUPBOARD / STORAGE in the northwest corner.
 - HALL connects all four upper rooms; stair descends at the west end.
 
-Render with a faint 5 ft square grid. Palette: light wood floors, plain cream plaster walls, modest soft furnishings in faded green and brown. Atmosphere: a quiet, private home, not wealthy but cared for. NO text labels.${DOOR_RULES}`,
+NO grid lines on the map. Palette: light wood floors, plain cream plaster walls, modest soft furnishings in faded green and brown. Atmosphere: a quiet, private home, not wealthy but cared for. NO text labels.${DOOR_RULES}`,
     postProcess: null,
   },
 
@@ -1626,7 +1626,7 @@ Layout:
 - The CORRIDOR has the firm's seal carved into the floor at the threshold.
 - A SERVICE STAIR in the southeast corner (the bodyguards' fallback position) leads down to the second floor.
 
-Render with a faint 5 ft square grid. Palette: warm honey-toned wood floors, dark walnut paneling, brass lamp fittings, oxblood leather chairs, soft Aerdy sunlight implied through south windows. Atmosphere: senior commercial officer's stronghold — formal, comfortable, observant. NO text labels.${DOOR_RULES}`,
+NO grid lines on the map. Palette: warm honey-toned wood floors, dark walnut paneling, brass lamp fittings, oxblood leather chairs, soft Aerdy sunlight implied through south windows. Atmosphere: senior commercial officer's stronghold — formal, comfortable, observant. NO text labels.${DOOR_RULES}`,
     postProcess: null,
   },
   // Harbor Commission Hall map
@@ -1650,7 +1650,7 @@ Inside the building, please draw:
 - A small side door in the northeast corner.
 - Two small balcony platforms hanging above the south side of the round hall, reached by short stairs from the foyer.
 
-Add a faint 5-foot square grid lightly drawn over the whole image. Use a palette of pale marble, dark polished wood, brass, and deep red drapery. No words or letters anywhere on the map. Painted, not vector.${DOOR_RULES}`,
+NO grid lines on the map. Use a palette of pale marble, dark polished wood, brass, and deep red drapery. No words or letters anywhere on the map. Painted, not vector.${DOOR_RULES}`,
     postProcess: null,
   },
 
@@ -1678,7 +1678,7 @@ Layout (upper floor):
 - A NARROW SERVICE STAIR in the southeast corner descends to the kitchen.
 - A SHUTTERED CASEMENT on the north wall opens onto a small ROOFTOP TERRACE accessible only from the master bedchamber.
 
-Render with a faint 5 ft square grid. Palette: pale plastered walls, terracotta tile floor, restrained Aerdi villa decoration in muted greens and gold, dark walnut beds and dressers. Atmosphere: comfortable but not lavish. NO text labels.${DOOR_RULES}`,
+NO grid lines on the map. Palette: pale plastered walls, terracotta tile floor, restrained Aerdi villa decoration in muted greens and gold, dark walnut beds and dressers. Atmosphere: comfortable but not lavish. NO text labels.${DOOR_RULES}`,
     postProcess: null,
   },
   {
@@ -1702,7 +1702,7 @@ Layout:
 - A SECOND DOOR at the north end of the corridor leads to a UTILITY ROOM — a coal store, household tools.
 - A SEALED OLD DOOR on the very east wall (locked, no longer used) was once a goods-in entrance from outside the wall — possibly forceable as an emergency exit.
 
-Render with a faint 5 ft square grid. Palette: damp stone in cool blue-grey, packed-earth floor in warm tan, the warm amber glow of a single lantern in the watchman's room. Atmosphere: quiet, cold, lived-in only at the vintner's office. NO text labels.${DOOR_RULES}`,
+NO grid lines on the map. Palette: damp stone in cool blue-grey, packed-earth floor in warm tan, the warm amber glow of a single lantern in the watchman's room. Atmosphere: quiet, cold, lived-in only at the vintner's office. NO text labels.${DOOR_RULES}`,
     postProcess: null,
   },
 
@@ -1754,6 +1754,487 @@ Render with a faint 5 ft square grid. Palette: damp stone in cool blue-grey, pac
     sourceFromExisting: "assets/portraits/tenrel-portrait.png", skipGeneration: true,
     postProcess: "round-token-512",
     ring: { base: "#623038", highlight: "#a05868", shadow: "#16080a" } /* wine-dark — ambitious advocate */ },
+
+  // ============== TIER 17 — Phase 5 portraits, scenes, handouts, P4 re-rolls ==============
+  // Portraits (7)
+  {
+    id: "p5-ostren-pell-portrait",
+    tier: 17,
+    out: "assets/portraits/ostren-pell-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of OSTREN PELL, a Loftwick civic clerk in his early thirties, the leak in Caelith Dunivar's correspondence office.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Yeomanry, fair-skinned, thin build, prematurely receding sandy-brown hair worn slightly long at the back to compensate. Ink-stained fingertips visible on his right hand. Wears a respectable but worn brown clerk's coat with a small enameled Audit Hall pin (silver wheatsheaf on a dark-green field) at the collar. The collar is set noticeably higher than the next person's would be — a thin further layer of privacy. He looks tired in a way that has been tired for two years.
+He stands at a small writing desk in a quiet wood-paneled office; a folded letter is in his left hand, his right hand resting flat on the desk over a closed correspondence-cabinet drawer. Late-afternoon light falls from a window behind him. He has just looked up; his expression is the small frozen attentiveness of a man who is afraid he will be asked a specific question. There is no aggression in him.
+Three-quarter view from waist up. Background: dark wood paneling, a wall of pigeonhole shelves with rolled correspondence visible in some, a small candlestick burning on the desk.
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  {
+    id: "p5-aldea-veren-portrait",
+    tier: 17,
+    out: "assets/portraits/aldea-veren-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of MISTRESS ALDEA VEREN, a half-elven retired scholar of pre-Aerdy paleography and sealing materials, who looks late forties but is older.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Half-elven. Fair skin with a faint warm olive cast. Dark-hazel hair worn loose to the shoulders, lightly streaked with silver at the temples. Slightly elongated ear-tips, subtle but visible. Plain grey wool dress, a heavy dark-brown leather apron worn over it (workshop-stained, well-cared-for). Reading lenses on a fine silver cord around her neck, currently pushed up onto her forehead. A small dark silver ring on her left hand bearing a worn device that may once have been a scroll-and-quill.
+She stands at a stone workbench in her cottage workshop. The workbench is covered with an array of small wax samples, a folded vellum document, an iron-gall inkpot, two thin reading lenses on small brass stands, and a pale candle burning in a stoneware holder. A great horned owl is visible perched on a beam in the upper background, watchful but unbothered. A brindle dog is sleeping at her feet, only the back of its head visible.
+Three-quarter view from waist up; her hands are over the workbench, holding one of the wax samples between two fingers, examining it. Her expression is composed and slightly distant — the face of someone listening to what an object is telling her.
+Atmosphere: warm woodsmoke, golden afternoon light through a small western window, the slightly fey sense that the room is more attentive than rooms usually are. NO floating particles, NO glowing magic effects — the fey-tinge is in the stillness, not in light show.
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  {
+    id: "p5-ortwell-brane-portrait",
+    tier: 17,
+    out: "assets/portraits/ortwell-brane-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of COUNCILMAN ORTWELL BRANE, a Loftwick Yeomanry civic functionary in his mid-fifties, the principled architect of the Civic Reconciliation Closure motion.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Yeomanry, fair-skinned, tall, clean-shaven, iron-grey hair worn short. Hands that have done office work for thirty years and field work before that — visible knuckles, broad palms. Plain dark Yeomanry councilor's coat (heavy wool, dark grey-green, high collar, brass buttons) with the small bronze wheatsheaf pin of seated office at the lapel. No other ornament.
+He stands at the base of the steps of the Loftwick Council Chamber, a folded copy of the Closure motion held loosely in his right hand. The light is mid-afternoon, falling across the pale limestone of the Civic Way. His expression is careful and a little weary; he is not happy with the position he is in but he believes he has chosen it correctly. His eyes are direct.
+Three-quarter view from waist up. Background: the pale limestone of the Council Chamber's outer wall, a small group of out-of-focus clerks in the middle distance, the long shadow of the Chamber's portico falling across the steps.
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  {
+    id: "p5-edda-halvern-portrait",
+    tier: 17,
+    out: "assets/portraits/edda-halvern-portrait.png",
+    size: "1024x1024",
+    quality: "high",
+    prompt: `Bust portrait of COUNCILOR EDDA HALVERN, a Loftwick Yeomanry councilor in her mid-sixties, widow of a militia officer, formerly the southern districts' militia paymaster.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Yeomanry, weathered fair skin, short build (shoulders square in the frame), iron-grey hair worn under a plain widow's cap (dark wool, no embellishment except a small pewter pin in the shape of the southern-district arms). Plain dark wool dress, militia-paymaster boots that have outlasted their original use just visible in the lower frame. Strong jaw, pursed mouth, calm grey eyes that look at the viewer directly and assessingly.
+She is photographed (painted) in a small council antechamber, a stack of paymaster ledgers visible on a side table behind her right shoulder. She has just turned her head to acknowledge the viewer; one hand rests on the corner of the ledger stack, the other at her side.
+Bust view from upper chest up. Background: dark wood paneling, dim warm interior light from a window not in shot.
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  {
+    id: "p5-mairra-voss-portrait",
+    tier: 17,
+    out: "assets/portraits/mairra-voss-portrait.png",
+    size: "1024x1024",
+    quality: "high",
+    prompt: `Bust portrait of COUNCILOR MAIRRA VOSS, a Loftwick Yeomanry councilor in her late fifties, formerly a trade-clearing notary in Loftwick.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Yeomanry, fair-skinned, sandy hair gone mostly grey and worn in a single thick braid down her back (a portion visible over her left shoulder). Reading lenses on a black silk cord around her neck, currently down on her chest. Dark wool councilor's coat over a notary's high-collared cream linen shirt. A small silver scale-and-scroll badge at her throat — her old notarial seal of office. Composed, intelligent, slightly skeptical expression. Eyes that read documents for a living.
+She is photographed (painted) in a small private library, a wall of bound ledger volumes visible behind her in soft focus. One hand rests on the spine of an open volume on a small reading stand to her side.
+Bust view from upper chest up. Background: warm walnut bookshelves, a single brass reading lamp providing warm light from the right.
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  {
+    id: "p5-marshal-rennic-thale-portrait",
+    tier: 17,
+    out: "assets/portraits/marshal-rennic-thale-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of MARSHAL RENNIC THALE, a Loftwick Yeomanry militia commander in his late forties.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Yeomanry, weathered fair skin, broad-shouldered, dark-blond hair cropped short with a clearly visible white scar along the hairline above his left ear (an old head wound). Clean-shaven. Plain Yeomanry militia coat (heavy dark-blue wool with bronze buttons) over a chain hauberk visible at the collar and cuffs. The marshal's bronze gorget at his throat — polished but unornamented. Carries a heavy clasp-knife on his belt and a longsword scabbarded across his back, the hilt visible over his right shoulder.
+He stands at the entrance to the Loftwick city barracks, his hands clasped loosely behind his back. The light is early-morning, falling from his right. His expression is the level professional attention of a career officer who has decided you are worth listening to but has not yet decided you are worth helping.
+Three-quarter view from waist up. Background: pale limestone barracks wall, a small Yeomanry standard hanging slack from a flagstaff in the middle distance, two militia troopers in plain coats moving past in soft focus.
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  {
+    id: "p5-vesten-quill-portrait",
+    tier: 17,
+    out: "assets/portraits/vesten-quill-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of VESTEN QUILL, a courier handler in his late thirties operating in Loftwick under the cover identity of a quiet northern lawyer.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Lean, sharp-faced. Pale skin, dark hair worn short and combed flat, a thin dark beard outlining the jaw. Soft mouth, hard eyes. Wears a dark-grey northern lawyer's coat (long, plain, well-cut, the kind of coat a lawyer wears who does not want to be remembered). A thin silver chain around his neck disappears into his collar — at the end is a small whistle (not visible in the portrait but inferred). Hands resting open on the arms of a writing chair; a scimitar's hilt visible in a scabbard leaning against the chair's right side.
+He sits at a small writing desk in a sparsely-furnished rented room above a printer's shop. The room is lit by a single brazier on the floor to his left and a single tallow candle on the desk. A folded packet sits on the desk in front of him, unopened. He has just looked up at the viewer.
+Three-quarter view from waist up. Background: bare wooden walls, a narrow shuttered window behind him with the dark beyond it, the faint smell of printer's ink implied by the orange-tinged candlelight.
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  // Scene illustrations (5)
+  {
+    id: "p5-civic-office-guarded",
+    tier: 17,
+    out: "assets/illustrations/p5-civic-office-guarded.png",
+    size: "1536x1024",
+    quality: "high",
+    referenceImages: ["assets/portraits/Caelith-Dunivar-Portrait.png"],
+    prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG adventure scene. NOT 19th-century oil painting.
+
+INTERIOR scene. The Civic Office of the Little Palace in Loftwick. Late afternoon, warm honey light slanting through a single tall narrow window on the right wall. Heavy dark-oak desk, two visitor chairs facing it (currently empty), a small private hearth glowing low, a wall of locked correspondence drawers behind the desk, a small bookshelf of bound case files. A brass quill-pin's outline visible on the desk in faint dust where it usually rests.
+
+THE FIGURE in the room (1):
+- CAELITH DUNIVAR (reference image provided): late fifties Yeomanry man, tall, lean, gray hair worn short, dark wool civic dress with the BRASS QUILL PIN MISSING from his lapel collar. He is standing at the desk, one hand on its edge, the other holding a single folded sheet. He is looking past the viewer toward the door (which is barred from inside — the iron bar visible across the doorway in the foreground). His expression is composed and tired. The room is quieter than it should be.
+
+Composition: cinematic, the desk and Caelith occupying the right two-thirds of the frame, the barred door at the left foreground. Painterly digital fantasy illustration. Warm tonally cohesive palette: dark walnut, brass, honey light, the cool steel of the door bar. NO text or labels visible. The militia at the door (outside the frame) implied by a single dark figure visible through the door's small barred grille.`,
+    postProcess: null,
+  },
+  {
+    id: "p5-debrief-table",
+    tier: 17,
+    out: "assets/illustrations/p5-debrief-table.png",
+    size: "1536x1024",
+    quality: "high",
+    referenceImages: ["assets/portraits/Caelith-Dunivar-Portrait.png", "assets/portraits/party/Cam-Halfling-Rogue.png", "assets/portraits/party/kitty-druid-cthonic-tiefling.png", "assets/portraits/party/alicia-warlock-blade.png"],
+    prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG adventure scene. NOT 19th-century oil painting.
+
+INTERIOR scene. The Strong Room of the Little Palace, mid-morning Day 2 of Phase 5. A long oak table in the center of the room, with three sets of papers laid out on linen squares: the party's Rel Astra evidence (left), Caelith's own files (center), and a still-sealed packet with WOODLAND-GREY WAX (right, distinct, unopened, with a thin silver-grey wax cord tied around it). Bread, cheese, and a small pewter pitcher of ale on the table's far end.
+
+CHARACTERS (4):
+- CAELITH DUNIVAR (reference image #1) at one end of the table, seated, taking notes on a single page in a precise hand. Late fifties, lean, gray hair, dark wool civic dress, the brass quill pin still missing from his lapel. He is listening, not speaking.
+- CAM (reference image #2): the party's HALFLING ROGUE, at the long left side of the table, half-standing on a tall chair to see the papers, leather travel-clothes, a small Yeomanry-style courier satchel at his hip, gesturing at one of the documents while speaking. CRITICAL: Cam is a HALFLING — short, three-and-a-half feet tall, with halfling proportions. If Cam looks like a tall human, you have failed this prompt.
+- KITTY (reference image #3): the party's CHTHONIC TIEFLING DRUID, seated on a long bench across the table from Cam. CRITICAL: Kitty is a chthonic tiefling. She has clearly visible HORNS curving back from her temples, ASHEN-GREY skin, a long TAIL visible behind her, and faint dark SIGIL-VEINING at her temples and along her forearms. She wears a dark druid's robe and a circlet of dark wood. She is leaning forward, examining the wax on the still-sealed Trina packet. If Kitty looks like a normal dark-haired human, you have failed this prompt.
+- ALICIA (reference image #4): the party's WARLOCK with a blade pact, standing behind Cam's chair, one hand on the chair's back. She is reading the document Cam is gesturing at. Render Alicia cleanly — no floating particles, no glowing sparkles, no swirling motes around her. Her sword is metal-gold, scabbarded at her hip, not magical-glowing.
+
+Composition: cinematic wide shot, the table running diagonally across the frame, Caelith on the right, Kitty on the left, Cam mid-frame, Alicia behind Cam. The unopened Trina packet is the visual focus, its woodland-grey wax distinct from the warmer browns of the rest of the room. Warm honey lamplight from above, soft cool morning light from a high window on the back wall. Painterly digital fantasy illustration. NO text or labels visible.`,
+    postProcess: null,
+  },
+  {
+    id: "p5-aldea-cottage",
+    tier: 17,
+    out: "assets/illustrations/p5-aldea-cottage.png",
+    size: "1536x1024",
+    quality: "high",
+    referenceImages: ["assets/portraits/aldea-veren-portrait.png"],
+    prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG adventure scene. NOT 19th-century oil painting.
+
+EXTERIOR / INTERIOR transitional scene at dusk. A small stone cottage in a sheltered fold of the Stark Mounds foothills, surrounded by scrubby beech and silver birch. A workshop adjoins the cottage on the south side, its single tall window glowing warm gold from within. A small herb garden behind the cottage; a slow stream below it running clear, catching the last light. A stone path winds from the visible foreground to the cottage door.
+
+THE FIGURE (1):
+- MISTRESS ALDEA VEREN (reference image): half-elven, looks late forties, dark-hazel hair to the shoulders streaked with silver, plain grey wool dress, dark-brown leather apron, reading lenses pushed up on her forehead. She stands at the workshop window from the inside, framed by it, examining a folded vellum sample by candlelight. Her face is in three-quarter view, attentive, slightly distant. She has just noticed the viewer's approach.
+
+ENVIRONMENT details:
+- A small gathering of three or four small birds on the windowsill, unbothered by Aldea's movement.
+- A great horned owl visible on the workshop roof.
+- A brindle dog at the door of the cottage, looking up the path toward the viewer with calm interest, not barking.
+- A bundle of correspondence visible on her worktable inside, faintly silhouetted by the candle.
+
+Composition: wide cinematic landscape shot. The cottage and workshop occupy the right two-thirds of the frame; the path and a silhouette of beech in the foreground occupy the left. Aldea is a small bright figure framed by the workshop window. Atmosphere: woodsmoke, last light, profound quiet. NO floating sparkles or magical particles — the fey-tinge is in the stillness and the unbothered animals. Cool blue-violet sky, warm gold from the window. Painterly digital fantasy illustration. NO text or labels visible.`,
+    postProcess: null,
+  },
+  {
+    id: "p5-greyhawk-sighting",
+    tier: 17,
+    out: "assets/illustrations/p5-greyhawk-sighting.png",
+    size: "1536x1024",
+    quality: "high",
+    prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG adventure scene. NOT 19th-century oil painting.
+
+EXTERIOR scene. The door of a small Foreign Quarter counting-house in Greyhawk City called THE BRASS CROW. Late afternoon. Cobbled street wet from a recent rain. The counting-house door is brass-bound oak, with a small brass figure of a crow above the lintel. The lane is narrow and the buildings on either side lean inward; the light is a wedge of late sun coming through the gap.
+
+CHARACTERS (2 visible to viewer; the witness POV is the camera):
+- HASKUR VANDRELL, a man in his fifties, in worn Aerdy travel clothes — long dark wool coat, weathered boots, no visible weapon, a satchel over one shoulder. He is dark-haired, going to grey at the temples, clean-shaven. His face is in three-quarter view. He is not the focus of the conversation; he is leaning slightly to listen to the younger man.
+- THE YOUNGER MAN, in his mid-twenties, in unfamiliar GREY-AND-BONE travelling clothes (a long grey cloak with bone-colored trim, dark trousers, soft boots). His skin is fair but not Aerdy or Yeomanry in cast (slightly grey-toned, hard to place). His hair is silver-pale, worn to the shoulders. His eyes are pale. His face is in profile to the viewer; he is the one speaking. His gait, even at rest, is subtly wrong — the way he stands is balanced on the balls of his feet, with a slight forward lean that is not the lean of a man who has been on the road for weeks.
+
+WITNESS POV: across the street, framed by the doorway of a baker's shop on the opposite side, a small loaf of bread on a sill in the foreground. The sense is one of being unobserved.
+
+Composition: cinematic, the two figures center-frame at the counting-house door, the foreground baker's-shop doorway dark and slightly out-of-focus, the wet cobbles reflecting the wedge of late sun. Warm late-afternoon palette: oxblood for Haskur, cool grey-and-bone for the younger man, the gold of the brass crow above the lintel as a strong accent. Painterly digital fantasy illustration. NO text or labels visible (the &quot;BRASS CROW&quot; sign is implied but blurred / not legible).`,
+    postProcess: null,
+  },
+  {
+    id: "p5-courier-dead-drop",
+    tier: 17,
+    out: "assets/illustrations/p5-courier-dead-drop.png",
+    size: "1024x1536",
+    quality: "high",
+    referenceImages: ["assets/portraits/party/Cam-Halfling-Rogue.png", "assets/portraits/party/kitty-druid-cthonic-tiefling.png"],
+    prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG adventure scene. NOT 19th-century oil painting.
+
+INTERIOR scene. The civic copy room behind the Audit Hall annex, very late at night. A small windowless workroom with a low ceiling, a long oak copy-desk along one wall, ink-pots and quills neatly racked, ledger-binder's tools on a side table. The far wall is unrendered stone, original to the building, with a regular pattern of bricks. Third from the bottom, fourth from the left, ONE BRICK is slightly different — its mortar is shadow-thin and the brick face is slightly rough where it has been removed and replaced many times. A single hooded lantern set on the copy-desk is the only light source.
+
+CHARACTERS (2):
+- CAM (reference image #1): the party's HALFLING ROGUE, crouched at the brick wall with the brick removed, in the act of extracting a small folded paper packet from the cavity behind it. CRITICAL: Cam is a HALFLING — short, three-and-a-half feet tall, with halfling proportions. He is in dark leather, his courier satchel set down beside him on the floor. His expression is concentrated. If Cam looks like a tall human, you have failed this prompt.
+- KITTY (reference image #2): the party's CHTHONIC TIEFLING DRUID, standing watch at the doorway behind Cam, half-turned to listen for footsteps in the corridor outside. CRITICAL: Kitty is a chthonic tiefling. She has HORNS curving back from her temples, ASHEN-GREY skin, a TAIL visible behind her, and dark SIGIL-VEINING faintly visible at her temples in the lantern-light. She wears a dark druid's traveling cloak. If Kitty looks like a normal dark-haired human, you have failed this prompt.
+
+ENVIRONMENT details:
+- Faint fingerprint dust visible on the brick edge — the kind of detail that says &quot;rogue's tool kit recently used.&quot;
+- The hooded lantern casting strong directional light, with deep shadows in the corners.
+- A small open ledger on the copy-desk in the foreground, the page caught mid-copy.
+
+Composition: vertical portrait orientation, Cam crouched in the lower-right at the brick, Kitty standing in the upper-left at the doorway, the lantern providing the light source from the right. Cool dark palette overall — deep blues and shadow — with a single warm pool of amber from the lantern. Painterly digital fantasy illustration. NO text or labels visible.`,
+    postProcess: null,
+  },
+  // Handouts (6)
+  {
+    id: "p5-caelith-memorandum-handout",
+    tier: 17,
+    out: "assets/handouts/p5-caelith-memorandum.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `${HANDOUT_STYLE}
+
+A half-page parchment memorandum in Caelith Dunivar's hand. Light parchment color, dark iron-gall ink. Title at the top reading "DEBRIEF — DAY TWO" in a precise hand, with a small line beneath. Below the title, four short numbered sections, each three to four lines. The text reads (transcribe legibly, using period-correct script):
+
+"1. The Closure motion. Brane has the votes for the binding ballot on the ninth day from this. Office under Council review until then.
+2. The leak. Pell. Sister Sera. Held in place. Channel still open.
+3. Trina's correspondent. Packet opened in your presence. Three observations recorded. See: Aldea's reply.
+4. Vandrell. Brass Crow, Greyhawk City, five days ago. Younger man. Gait not Aerdi, not Yeomanry. Trail cooling."
+
+A small initial signature at the bottom: "— C." in the same hand. A faint thumb-smudge of ink at the lower-left corner. No decorative borders. Slight wear at the folds. Photographed straight-on under soft warm light against a plain dark wood surface.`,
+    postProcess: null,
+  },
+  {
+    id: "p5-aldea-reply-handout",
+    tier: 17,
+    out: "assets/handouts/p5-aldea-reply.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `${HANDOUT_STYLE}
+
+A full-page parchment letter in a measured, slightly antique hand (Mistress Aldea Veren's). Aged vellum, slightly yellowed at the edges, dark iron-gall ink. The text reads (transcribe legibly, period-correct paleography style with subtle elven inflection on certain letterforms):
+
+"To Mistress Trina Alvere, by the courier she trusts.
+
+I have read what you sent me. I will tell you what I saw, in the order I saw it.
+
+THE WAX. The wax on your samples matches no recipe in my reference set — Aerdy, Rel Astran, Keoish, or Yeomanry, current or historical. It is harder than any I know, with a higher beeswax-to-resin ratio than any surface manufactory I have documented. This wax was made somewhere I have not seen, by a process I have not read.
+
+THE HAND. The letter forms are consistent with surface court scripts. The underlying stroke order is not. Where one is taught to begin certain ascenders with an upward pull, this writer begins with a downward push and corrects on the upstroke. This is a hand trained by reading court scripts, not by being taught them. The teacher and the student were not in the same room.
+
+THE GEOGRAPHY. The earliest dated marginalia (Hardby, Lent 1574) was placed on Rel Astran-milled paper of autumn 1573, sealed with the wax above. I have cross-referenced every relevant departure register. The writer was not in any port any of us has ever sailed at the time this annotation was placed. I will not speculate further.
+
+I am yours in old correspondence,
+— A."
+
+A small woodland-grey wax seal at the bottom, broken cleanly. The letter has been folded twice; the fold lines are visible. Slight foxing at the edges. Photographed straight-on under soft warm light against a plain dark wood surface. No decorative borders.`,
+    postProcess: null,
+  },
+  {
+    id: "p5-false-packet-menu-handout",
+    tier: 17,
+    out: "assets/handouts/p5-false-packet-menu.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `${HANDOUT_STYLE}
+
+A clean parchment "choice card" in Caelith Dunivar's hand. Cream parchment, dark iron-gall ink. Title at the top reading "FALSE-PACKET MENU — CHOOSE ONE" in a precise hand. Below the title, five short numbered sections separated by thin horizontal lines. Each section has the lie in slightly larger text and the consequence in smaller subtext.
+
+The text reads (transcribe legibly):
+
+"1. 'Haskur is in Rel Astra.' — Conspiracy redirects east. Greyhawk pursuit eased.
+2. 'The party is pursuing the wood correspondent.' — Aldea is endangered. Time bought elsewhere. (DO NOT use if Vector B is intended.)
+3. 'The party has no usable evidence from Sereth.' — Conspiracy de-prioritises us. Witnesses become more accessible.
+4. 'The party intends to expose Galenix Naelax.' — Naelax embassy briefly active. (Niche; betrayal of any prior briefing.)
+5. 'The party is returning to Hardby.' — Loftwick observation thins for 4–6 days. Window for counter-leak."
+
+At the bottom, a single line in smaller hand: "Choose one. I will write the packet." Initial signature: "— C." A faint X-mark column down the right side of the choices, blank — for the player to mark their choice. No decorative borders. Slight wear at the folds. Photographed straight-on under soft warm light against a plain dark wood surface.`,
+    postProcess: null,
+  },
+  {
+    id: "p5-greyhawk-affidavit-handout",
+    tier: 17,
+    out: "assets/handouts/p5-greyhawk-affidavit.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `${HANDOUT_STYLE}
+
+A full-page parchment witness affidavit, in a strong simple military hand (Tellan Verth's, retired Yeomanry militia sergeant). Dated five days before the party's return to Loftwick. Parchment color slightly cooler than the others; dark iron-gall ink. The text reads (transcribe legibly):
+
+"AFFIDAVIT OF TELLAN VERTH
+Late of the Yeomanry Militia, southern districts. Resident at the Foreign Quarter, Greyhawk City.
+
+I do hereby witness, on my oath:
+
+That on the date 17th of Coldeven, in the year of the campaign now closing, at approximately the eleventh bell of morning, in the lane known as Tinker's Way in the Foreign Quarter of Greyhawk City, I observed the man known to me as HASKUR VANDRELL, lately of the Vandrell matter and presumed by the Yeomanry to be at large.
+
+He was at the door of the counting-house called The Brass Crow.
+
+He was in conversation with a younger man whom I did not recognize. The younger man was perhaps twenty-five years of age, of medium height, fair of skin but not Aerdi or Yeomanry in cast, with silver-pale hair worn to the shoulders. He wore travelling clothes of grey-and-bone colour I have not seen before.
+
+The younger man's gait, even at rest, was not Aerdi and not Yeomanry. I cannot say more precisely. I was a militia sergeant for twenty-two years and I trust this observation.
+
+The two men entered The Brass Crow together. I did not follow.
+
+I attest the foregoing on my oath, this date.
+
+— Tellan Verth, Sergt. (rtd.), 22nd Foot"
+
+A small smudged official seal at the bottom right. The parchment has been folded twice; the fold lines are visible. Slight wear at the right edge. Photographed straight-on under soft warm light against a plain dark wood surface. No decorative borders.`,
+    postProcess: null,
+  },
+  {
+    id: "p5-closure-motion-handout",
+    tier: 17,
+    out: "assets/handouts/p5-closure-motion.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `${HANDOUT_STYLE}
+
+A full-page CIVIC DOCUMENT in formal Yeomanry council hand. Heavier paper than the parchments above (a more rigid civic-register stock), dark formal ink, with a small Council seal at the upper right. Title at the top reading "MOTION OF CIVIC RECONCILIATION CLOSURE — YEAR'S CLOSE" in a careful clerical hand, slightly larger than the body.
+
+The text reads (transcribe legibly, formal civic register):
+
+"BE IT KNOWN to the Council Chamber of the Yeomanry, sitting in regular session at Loftwick, that the following motion has been entered into the public record by Councilman ORTWELL BRANE, with co-sponsorship of Councilor EDDA HALVERN, on this day, and shall stand for binding vote at the conclusion of the mandatory fourteen-day review period:
+
+I. The matter of the Vandrell investigation, having occupied the Audit Hall and the Hand of the Duke since the year past, and having yielded such material as the Audit Hall now holds and shall continue to hold for the historical record, is hereby DECLARED RESOLVED for civic purposes, and the formal correspondence powers of the Hand of the Duke pertaining to it are SUSPENDED.
+
+II. The Audit Hall's foreign-inquiry budget, being eight thousand gold pieces annually, is hereby REDIRECTED: five thousand to the southern district militia paymaster's account, and three thousand returned to the general civic fund.
+
+III. All correspondence, files, and working papers held by the Hand of the Duke pertaining to the above matter shall be SUBJECT TO COUNCIL REVIEW upon written request of any sitting councilor.
+
+IV. This motion shall not bar private inquiry by individuals not employed in civic capacity, but shall withdraw all civic resources, sanction, and authority from any further pursuit of the matter.
+
+So moved.
+
+— Ortwell Brane, Councilman
+— Edda Halvern, Councilor (co-sponsor)"
+
+The Council seal is visible at the upper right — a small wheatsheaf within a circle. Slight wear at the corners. Photographed straight-on under soft warm light against a plain dark wood surface. No decorative borders.`,
+    postProcess: null,
+  },
+  {
+    id: "p5-courier-receipt-handout",
+    tier: 17,
+    out: "assets/handouts/p5-courier-receipt.png",
+    size: "1024x1024",
+    quality: "high",
+    prompt: `${HANDOUT_STYLE}
+
+A small folded courier receipt — about a third the size of a standard handout sheet — in a quick informal hand. Cheap rough paper, dark ink, slightly creased from being folded into a lead pipe. Three lines of text only, very brief:
+
+"17 Coldeven.
+3 pp.
+— V."
+
+That is the entire visible content. The receipt is small, square-ish, with one rough edge where it has been torn from a larger sheet. A small dark wax mark in the corner — not a true seal, just a thumbprint of dark candle-wax used to seal the fold. The paper has the slightly damp curl of paper that has been inside a lead pipe.
+
+Photographed straight-on under soft warm light against a plain dark wood surface. No decorative borders. The receipt should look insignificant and yet, on close reading, completely damning.`,
+    postProcess: null,
+  },
+  // Phase 4 illustration re-rolls (4) — party emphasis with Cam and Kitty
+  {
+    id: "p4-sereth-office-reroll",
+    tier: 17,
+    out: "assets/illustrations/p4-sereth-office.png",
+    size: "1536x1024",
+    quality: "high",
+    referenceImages: ["assets/portraits/sereth-portrait.png", "assets/portraits/party/Cam-Halfling-Rogue.png", "assets/portraits/party/kitty-druid-cthonic-tiefling.png", "assets/portraits/party/alicia-warlock-blade.png"],
+    prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG adventure scene. NOT 19th-century oil painting.
+
+INTERIOR scene. Tarlith Vhal Sereth's third-floor private working office at the Cindren & Vhal Rel Astra counting house. Late afternoon, warm honey light slanting in through tall narrow windows on the right. Heavy oak desk, two visitor chairs facing it, a small private hearth glowing low, a wall of locked correspondence drawers behind the desk. The firm's seal-press on a side table. A four-volume set of leather-bound books (the CODEX MERCATUM) on a small shelf.
+
+CHARACTERS in the room (5 total):
+- TARLITH VHAL SERETH (reference image #1) at the desk: late fifties Aerdy man, tall, very thin, silver-white long hair tied back, clipped silver beard, dark-grey advocate's overcoat, heavy silver firm-seal ring. He is composed; one hand rests open on the desk, the other holds a single folded sheet of parchment. He is the still center of the composition, but he is no longer the focus.
+- CAM (reference image #2): the party's HALFLING ROGUE, FRONT AND CENTER at the desk, standing on a small chair pulled up to the desk's edge so he can see the documents. He is in dark leather travel-clothes with a Yeomanry-style courier satchel at his hip; he is laying out the indictment package on the desk — a bound notarial opinion and several loose documents — with both hands. CRITICAL: Cam is a HALFLING — short, three-and-a-half feet tall, with halfling proportions. If Cam looks like a tall human, you have failed this prompt.
+- KITTY (reference image #3): the party's CHTHONIC TIEFLING DRUID, standing at Cam's right shoulder, also front-and-center, watching Sereth's face for any reaction. CRITICAL: Kitty is a chthonic tiefling. She has clearly visible HORNS curving back from her temples, ASHEN-GREY skin, a long TAIL visible behind her, and faint dark SIGIL-VEINING at her temples and along her forearms. She wears a dark druid's robe and a circlet of dark wood. If Kitty looks like a normal dark-haired human, you have failed this prompt.
+- ALICIA (reference image #4): the party's WARLOCK with a blade pact, mid-ground behind Cam and Kitty, watching the door. Render Alicia cleanly — no floating particles, no glowing sparkles, no swirling motes around her. Her sword is metal-gold, scabbarded at her hip, not magical-glowing.
+- TWO BODYGUARDS standing flat against the south wall behind Sereth, dressed in plain dark Aerdy household livery, swords scabbarded but visible, hands folded; they are watchful, not aggressive. (Render as two indistinct figures; they are background.)
+
+Composition: cinematic, the desk and Sereth occupying the right-third of the frame, Cam and Kitty front-and-center at the desk's foreground edge, Alicia mid-ground, the bodyguards at the back wall. Painterly digital fantasy illustration. Warm tonally cohesive palette: deep browns and walnut, brass and gold, the cool steel of guard mail, the dark grey of Sereth's coat. NO text or labels visible.`,
+    postProcess: null,
+  },
+  {
+    id: "p4-brass-sextant-reroll",
+    tier: 17,
+    out: "assets/illustrations/p4-brass-sextant.png",
+    size: "1536x1024",
+    quality: "high",
+    referenceImages: ["assets/portraits/halask-portrait.png", "assets/portraits/party/Cam-Halfling-Rogue.png", "assets/portraits/party/kitty-druid-cthonic-tiefling.png"],
+    prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG adventure scene. NOT 19th-century oil painting.
+
+INTERIOR scene. The Brass Sextant coffee-house on the third quay of Rel Astra. Morning. Warm Aerdy sunlight pouring through tall arched windows, a slice of harbor and ship masts visible in the right window. Marble cafe tables, brass fittings, high ceilings, plastered walls hung with a few framed sea charts.
+
+CHARACTERS (3):
+- THERION HALASK (reference image #1) at his usual table by the window: Aerdy man in his mid-sixties, dark-skinned, white close-cropped hair, pale linen advocate's robe with a faded purple-and-gold sash, reading lenses pushed up on his forehead, a small cup of dark coffee at his elbow. He is taking a folded letter from CAM with one hand, his expression attentive and unhurried.
+- CAM (reference image #2): the party's HALFLING ROGUE, standing at Halask's table, handing CAELITH'S LETTER OF INTRODUCTION across the table to Halask with both hands. He is in clean travel-clothes (linen shirt, leather vest, his courier satchel at his hip). CRITICAL: Cam is a HALFLING — short, three-and-a-half feet tall, with halfling proportions. He has to reach up slightly to lay the letter on the table from his side. If Cam looks like a tall human, you have failed this prompt.
+- KITTY (reference image #3): the party's CHTHONIC TIEFLING DRUID, seated on a low chair at the table beside Cam, drinking from a small cup of dark coffee with both hands cupped around it. She is watching Halask's face for his reaction. CRITICAL: Kitty is a chthonic tiefling. She has HORNS curving back from her temples, ASHEN-GREY skin, a TAIL visible curled around the chair leg, and faint dark SIGIL-VEINING at her temples. She wears a dark druid's traveling robe. If Kitty looks like a normal dark-haired human, you have failed this prompt.
+
+INCIDENTAL: the cafe proprietor visible in the background behind a brass coffee-bar, polishing a cup. He is mostly out of focus.
+
+Composition: Halask in the right-center of the frame at his table, Cam standing at the table's left edge handing the letter, Kitty seated to Cam's right with her coffee. Warm morning palette: cream, gold, soft Aerdy sunlight, brass, the deep green of a single potted lemon tree near the window. Painterly digital fantasy illustration. NO text or labels visible.`,
+    postProcess: null,
+  },
+  {
+    id: "p4-naelax-embassy-reroll",
+    tier: 17,
+    out: "assets/illustrations/p4-naelax-embassy.png",
+    size: "1536x1024",
+    quality: "high",
+    referenceImages: ["assets/portraits/galenix-portrait.png", "assets/portraits/party/Cam-Halfling-Rogue.png", "assets/portraits/party/kitty-druid-cthonic-tiefling.png"],
+    prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG adventure scene. NOT 19th-century oil painting.
+
+INTERIOR scene. The long quiet gallery of the Naelax embassy in Rel Astra. Late afternoon. Tall narrow windows on the left show the embassy's walled garden and the Aerdy sky beyond. A stone floor inlaid with a faded geometric Naelax pattern. A single long old tapestry on the right wall depicts a Naelax house hunt — dark greens and gold. Two heavy carved chairs and a small marble side table set out for the audience. A single tall candle on the side table, burning straight, the flame perfectly still.
+
+CHARACTERS (3):
+- LORD GALENIX NAELAX (reference image #1) standing near the windows: tall, mid-thirties Aerdy noble, fair-skinned for an Aerdy, dark hair to the shoulders, well-trimmed dark beard, dark Naelax house colors (bottle-green and black, restrained cut), the Naelax house ring on his left hand. He has set down a leather-bound book on the side table. His expression is attentive and a touch wary; this is his first private audience in months.
+- CAM (reference image #2): the party's HALFLING ROGUE, seated in one of the carved chairs, presenting an open folder of the indictment package to Galenix across the small table. He is in good Yeomanry traveling clothes — a clean linen shirt, leather vest, modest formal pin at his collar. CRITICAL: Cam is a HALFLING — short, three-and-a-half feet tall, with halfling proportions. The chair is too large for him; his feet do not touch the floor. If Cam looks like a tall human, you have failed this prompt.
+- KITTY (reference image #3): the party's CHTHONIC TIEFLING DRUID, standing at Cam's shoulder behind the chair. She is reading the candle's behavior in the gallery's still air — her gaze is on the flame, her head slightly tilted, a faint druidic attention to small omens. CRITICAL: Kitty is a chthonic tiefling. She has HORNS curving back from her temples, ASHEN-GREY skin, a TAIL visible behind her, and faint dark SIGIL-VEINING at her temples. She wears a dark druid's traveling robe. If Kitty looks like a normal dark-haired human, you have failed this prompt.
+
+(No houseman in this composition — the audience is genuinely private.)
+
+Composition: Galenix to the right of the frame, Cam seated mid-frame, Kitty standing at Cam's shoulder, the candle on the side table between Cam and Galenix. The flame is the visual focus of Kitty's attention. Late-afternoon palette: warm gold from the windows, the bottle-green of Galenix's coat, the dark walnut of the chairs, the soft red of the tapestry. Painterly digital fantasy illustration. NO text or labels visible.`,
+    postProcess: null,
+  },
+  {
+    id: "p4-harbor-commission-reroll",
+    tier: 17,
+    out: "assets/illustrations/p4-harbor-commission.png",
+    size: "1536x1024",
+    quality: "high",
+    referenceImages: ["assets/portraits/party/Cam-Halfling-Rogue.png", "assets/portraits/party/kitty-druid-cthonic-tiefling.png", "assets/portraits/party/alicia-warlock-blade.png"],
+    prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG adventure scene. NOT 19th-century oil painting.
+
+INTERIOR scene. The Rel Astra Harbor Commission chamber: a circular Aerdy commercial chamber with seven high-backed carved chairs arranged in a semicircle around a central polished oak floor, each chair on a low stone dais, three of the chairs visibly EMPTY. Behind the chairs, a tall arched colonnade gives onto a balcony overlooking the Old Harbor; you can see the harbor and ship masts through the arches in the background.
+
+PUBLIC OBSERVERS' GALLERY: A small balcony platform hangs above the south side of the round chamber, accessed by a short flight of stairs from below. THE PARTY IS IN THIS GALLERY, watching the proceedings from above. They are not the focus of the composition; they are witnesses to the institution.
+
+CHARACTERS in the gallery (3):
+- CAM (reference image #1): the party's HALFLING ROGUE, leaning against the gallery rail, peering down at the commissioners with his sharp rogue's attention. CRITICAL: Cam is a HALFLING — short, three-and-a-half feet tall, with halfling proportions. He stands on a low bench against the gallery rail to see over it. If Cam looks like a tall human, you have failed this prompt.
+- KITTY (reference image #2): the party's CHTHONIC TIEFLING DRUID, standing at Cam's right at the gallery rail, watching the proceedings with quiet intensity. CRITICAL: Kitty is a chthonic tiefling. She has HORNS curving back from her temples, ASHEN-GREY skin, a TAIL visible behind her, and faint dark SIGIL-VEINING at her temples. She wears a dark druid's robe and a small grey cloak draped over her shoulders. If Kitty looks like a normal dark-haired human, you have failed this prompt.
+- ALICIA (reference image #3): the party's WARLOCK with a blade pact, standing at Cam's left, slightly behind, watching one of the senior commissioners specifically. Render Alicia cleanly — no floating particles, no glowing sparkles, no swirling motes around her. Her sword is metal-gold, scabbarded at her hip, not magical-glowing.
+
+CHARACTERS in the chamber (4 commissioners + 1 clerk):
+- MISTRESS ALDAEN VETH on the senior commissioner's chair (center): a slight, severe Aerdy woman in her late sixties, white hair, dark commissioner's robes with a brass scroll-and-anchor chain at the throat. Posture upright, expression dour.
+- MASTER HOLD VESHANEN seated to her right: a stout merchant in his fifties, well-dressed in dark wine-colored Aerdy fashion, a gold pin at the lapel.
+- MAGISTER ELED RUTH seated two chairs to Veth's left: a thin academic in his sixties, in an academic's robes over a plain shirt, irritated expression.
+- CAPTAIN VOLIN REACH seated at the far right: an Aerdy imperial officer in oxblood-and-gold uniform, sword at hip, attentive.
+- THE COMMISSION CLERK at a small writing desk in the right-mid foreground of the chamber floor: a young Aerdy clerk recording the proceedings, quill in hand.
+
+Composition: wide cinematic shot. The chamber occupies most of the frame; the commissioners visible in the lower two-thirds, the colonnade behind them, the harbor visible through the arches. The PUBLIC GALLERY runs across the upper-left of the frame, with Cam, Kitty, and Alicia visible at the rail looking down. The party is small in the composition (they are not the focus; they are observers); but they are clearly distinct and clearly present. Painterly digital fantasy illustration. Cool stone and polished oak, dark commissioner's robes, brass and gold, the muted blue-green of the harbor framing it all. NO text or labels visible.`,
+    postProcess: null,
+  },
+
+  // ============== TIER 18 — Phase 5 ringed tokens (post-process from portraits) ==============
+  { id: "p5-ostren-pell-token",            tier: 18, out: "assets/tokens/ostren-pell-token.png",
+    sourceFromExisting: "assets/portraits/ostren-pell-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#7a6a48", highlight: "#b09a70", shadow: "#1a1408" } /* desaturated brass — leak */ },
+  { id: "p5-aldea-veren-token",            tier: 18, out: "assets/tokens/aldea-veren-token.png",
+    sourceFromExisting: "assets/portraits/aldea-veren-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#4a7a6a", highlight: "#7ab098", shadow: "#0a1a14" } /* mossy verdigris — wood correspondent */ },
+  { id: "p5-ortwell-brane-token",          tier: 18, out: "assets/tokens/ortwell-brane-token.png",
+    sourceFromExisting: "assets/portraits/ortwell-brane-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#5a5a5a", highlight: "#9a9a9a", shadow: "#1a1a1a" } /* civic dark steel — principled antagonist */ },
+  { id: "p5-marshal-rennic-thale-token",   tier: 18, out: "assets/tokens/marshal-rennic-thale-token.png",
+    sourceFromExisting: "assets/portraits/marshal-rennic-thale-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#7a4a28", highlight: "#c08864", shadow: "#1a0c08" } /* military bronze — militia commander */ },
+  { id: "p5-vesten-quill-token",           tier: 18, out: "assets/tokens/vesten-quill-token.png",
+    sourceFromExisting: "assets/portraits/vesten-quill-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#7a3838", highlight: "#c46a6a", shadow: "#1a0808" } /* dark oxblood — hostile courier handler */ },
+  { id: "p5-edda-halvern-token",           tier: 18, out: "assets/tokens/edda-halvern-token.png",
+    sourceFromExisting: "assets/portraits/edda-halvern-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#7a6a30", highlight: "#c4a868", shadow: "#1a1408" } /* restrained gold — Closure co-sponsor */ },
+  { id: "p5-mairra-voss-token",            tier: 18, out: "assets/tokens/mairra-voss-token.png",
+    sourceFromExisting: "assets/portraits/mairra-voss-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#5a7a4c", highlight: "#a8c490", shadow: "#1a2a14" } /* sage green — sympathetic councilor */ },
 ];
 
 // ----------------- engine -----------------

@@ -1,8 +1,8 @@
 {
   "id": "blooming-rot-2",
   "title": "Blooming Rot, Part 2",
-  "description": "A Greyhawk adventure set in the pre-Wars Yeomanry, in four phases: Loftwick's return, the dead man's receipts, the Hardby investigation, and the Rel Astra confrontation.",
-  "version": "0.4.0",
+  "description": "A Greyhawk adventure set in the pre-Wars Yeomanry, in five phases: Loftwick's return, the dead man's receipts, the Hardby investigation, the Rel Astra confrontation, and The Small Matter (the Loftwick counterintelligence aftermath).",
+  "version": "0.5.0",
   "compatibility": {
     "minimum": "13",
     "verified": "13.351",
@@ -105,6 +105,24 @@
       "path": "packs/phase-4-actors",
       "type": "Actor",
       "system": "dnd5e"
+    },
+    {
+      "name": "phase-5-journals",
+      "label": "Phase 5 — Journals",
+      "path": "packs/phase-5-journals",
+      "type": "JournalEntry",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "phase-5-actors",
+      "label": "Phase 5 — NPCs",
+      "path": "packs/phase-5-actors",
+      "type": "Actor",
+      "system": "dnd5e"
     }
   ],
   "packFolders": [
@@ -139,6 +157,14 @@
       "packs": [
         "phase-4-journals",
         "phase-4-actors"
+      ]
+    },
+    {
+      "name": "Blooming Rot 2 — Phase 5",
+      "sorting": "m",
+      "packs": [
+        "phase-5-journals",
+        "phase-5-actors"
       ]
     }
   ]

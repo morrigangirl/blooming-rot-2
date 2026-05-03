@@ -290,7 +290,7 @@ ${SIGIL_STYLE}`,
     ],
     prompt: `Modern high-fantasy illustration / digital concept art in the style of contemporary tabletop-RPG book covers (D&D, Pathfinder, Critical Role). Cinematic wide landscape, autumn late-afternoon golden hour.
 **Six reference images supplied — the six-PC adventuring party. Identify each by features and match exactly:**
-- **Alicia** (human Warlock) — red-haired, high ponytail, blue tunic with gold piping, golden sword at hip, tattoo sleeve on left arm.
+- **Alicia** (human Warlock) — red-haired, high ponytail, blue tunic with gold piping, slim gold rapier at hip, tattoo sleeve on left arm.
 - **Selvara** (human Sorcerer) — hooded, dark red cloak, scar across face with one milky pale eye, blue gem pendant, holds a spear.
 - **Kitty** (chthonic-tiefling Druid) — ashen-grey skin, small dark curving horns, pale luminescent eyes, dark hair in long braids, sigil-veining at temples, dark slender tail, woven-wood spear, lynx shield.
 - **Gianni** (human Ranger) — dark hair in single thick braid, fierce dark-lined eyes, leather cuirass over yellow-cream tunic, quiver of arrows.
@@ -366,7 +366,7 @@ No text.`,
 **Eight reference images supplied. The first is the architectural reference; the rest are characters.**
 - **(Architecture reference)** — the wide architectural photo shows THE LITTLE PALACE ENTRANCE. The scene must be set on these exact steps and portico: white-and-ivory limestone facade with ornate baroque gilt carving, broad red-carpeted limestone steps, gilded balustrades flanking the steps with stone urns and small cypress trees, twin gilded onion-domed turrets above, an arched gilt entrance pediment, twin tall lanterns flanking the doors, a red banner with a heraldic device hanging at left. Match this architecture exactly.
 - **Caelith Dunivar** (NPC) — bearded dark-haired lean man in a dark scholar's coat with subtle gold detail and a small brass quill-pin.
-- **Alicia** (PC, human Warlock) — red-haired woman, hair in a high ponytail, blue tunic with gold piping, holds a golden sword (her Pact weapon), tattoo sleeve on her left arm, pink/lavender glove on right hand.
+- **Alicia** (PC, human Warlock) — red-haired woman, hair in a high ponytail, blue tunic with gold piping, holds a slim gold rapier (her Pact weapon), tattoo sleeve on her left arm, pink/lavender glove on right hand.
 - **Selvara** (PC, human Sorcerer) — hooded woman in a dark red cloak, scar across her face with one milky pale eye, blue gem pendant, holds a spear.
 - **Kitty** (PC, chthonic-tiefling Druid) — ashen-grey skinned tiefling, small dark horns curving back from her temples, pale luminescent eyes, dark hair in long braids, dark sigil-veining at the temples, slender dark tail visible at her hip, woven-wood spear, oval shield painted with a lynx face.
 - **Gianni** (PC, human Ranger) — dark-haired woman, hair in a thick single braid, fierce dark-lined eyes, leather cuirass over a yellow-cream tunic, quiver of arrows visible at one shoulder.
@@ -375,13 +375,13 @@ No text.`,
 Scene: the formal civic welcome of the adventuring party on the red-carpeted limestone steps of an ornate guesthouse called the Little Palace, late afternoon, autumn light.
 At the top of the steps under a baroque columned portico stands CAELITH DUNIVAR with both hands raised palms-out in a ceremonial gesture, mid-speech.
 Halfway down the steps, between Caelith above and the crowd below: ALL SIX PCs of the adventuring party in a loose semicircle, weary from the road, facing a Yeomanry COUNCIL PAGE who hands each of them a small wooden token. **The COUNCIL PAGE is a young human in dark Yeomanry livery (dark coat with green sash) holding a small flat polished wooden tray. On the tray: six round wooden disc tokens the size of a large coin, each pressed with a red wax seal showing the Yeomanry wheatsheaf. The tokens are CLEARLY WOODEN DISCS WITH WAX SEALS — not pastries, not biscuits, not food.** The page holds the tray with both hands at chest height; one PC at a time steps forward to take a token.\nEVERY ONE of the six PCs must be visibly present and distinct, and **none of the PCs is holding the tray** — it is in the council page's hands only:
-1. ALICIA front-left, the red-haired warlock with the golden sword at her hip and the tattoo sleeve on her left arm.
+1. ALICIA front-left, the red-haired warlock with the slim gold rapier at her hip and the tattoo sleeve on her left arm.
 2. SELVARA behind Alicia, the hooded sorcerer in the dark red cloak, scar and milky pale eye visible.
 3. KITTY in the center back, the chthonic-tiefling druid — the two small dark horns curving back from her temples must be clearly visible above her braided dark hair, dark slender tail at her hip, lynx shield slung on her back.
 4. GIANNI to Kitty's right, the dark-haired ranger with the single thick braid and the quiver of arrows.
 5. ELLE in the front-center, the halfling monk in flowing yellow/saffron robes with red sash — visibly small (halfling height, head about waist-height of the humans).
 6. CAM in the front-right, the halfling rogue with long brown hair, large yellow eyes, brown leather travel clothes — also visibly halfling-sized.
-**IMPORTANT: render Alicia cleanly — no floating particles, no glowing sparkles, no swirling motes around her. Her sword is metal-gold, not magical-glowing. Treat her as a normal red-haired human warrior, no magical aura.**
+**IMPORTANT: render Alicia cleanly — no floating particles, no glowing sparkles, no swirling motes around her. Her weapon is a slim GOLD METAL RAPIER, not magical-glowing. Treat her as a normal red-haired human warrior, no magical aura.**
 At the bottom and sides of the steps: TWO SCRIBES at portable writing desks recording on parchment; a small civic crowd of clerks in black coats and journeymen in working dress; two militia guards in dark coats with green sashes flanking the doors. A faded gold-thread banner with a wheatsheaf hangs above the iron-banded oak doors. Lit lanterns at the column capitals.
 Composition: classic ceremony framing — Caelith elevated, the party and witnesses below, a clear ceremonial hierarchy. Dramatic late-afternoon golden-hour light, long shadows.
 Style: painterly digital fantasy illustration, vivid but tonally cohesive palette of warm gold, dark wood, deep red carpet, stone-grey, autumn rust. NOT 19th-century oil painting. No text or labels.`,
@@ -401,11 +401,11 @@ Style: painterly digital fantasy illustration, vivid but tonally cohesive palett
     prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG adventure module (D&D 5e / Pathfinder book interior style).
 **Three reference images supplied. Identify each by features and match exactly:**
 - **Caelith Dunivar** (NPC) — bearded dark-haired lean man, dark scholar's coat with subtle gold detail, small brass quill-pin.
-- **Alicia** (human Warlock) — red-haired woman, high ponytail, blue tunic with gold piping, golden Pact-of-the-Blade sword, tattoo sleeve on her left arm.
+- **Alicia** (human Warlock) — red-haired woman, high ponytail, blue tunic with gold piping, slim gold Pact-of-the-Blade rapier, tattoo sleeve on her left arm.
 - **Selvara** (human Sorcerer) — hooded woman, dark red cloak, scar across her face with one milky pale eye, blue gem pendant.
 Scene: late evening, Caelith Dunivar's wood-paneled second-floor study in a fantasy republic guesthouse. Intimate, conspiratorial atmosphere.
 At a heavy dark-oak desk facing the viewer sits CAELITH DUNIVAR. A small framed eighth-century ribbon-and-medallion hangs above the desk. He has just placed a flat brass token on the desk between himself and the visitors — the token shows a quill above a closed gate (the Hand of the Duke insignia). His expression is grave but trusting.
-Across from him, in two visitors' chairs: ALICIA leaning forward to look at the token, her golden sword sheathed at her hip; SELVARA beside her, hood pushed back slightly, watching Caelith carefully with her one good eye. Both lean in.
+Across from him, in two visitors' chairs: ALICIA leaning forward to look at the token, her slim gold rapier sheathed at her hip; SELVARA beside her, hood pushed back slightly, watching Caelith carefully with her one good eye. Both lean in.
 A small private hearth crackles low at left; a single tall candle on the desk; warm intimate firelight. Tall leaded window behind Caelith opens onto a dark inner courtyard at night. A locked correspondence cupboard at right, a small bookcase, a plain side table with a half-empty teapot.
 Mood: secrecy, the moment trust is offered. Dramatic warm rim-light from candle and hearth, deep shadows in the corners.
 Style: painterly digital fantasy illustration, palette of warm amber candlelight, dark walnut paneling, ember-orange firelight, deep blue night through the window. NOT 19th-century oil painting. No text.`,
@@ -426,7 +426,7 @@ Style: painterly digital fantasy illustration, palette of warm amber candlelight
     prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG adventure module (D&D 5e style).
 **Four reference images supplied. Identify each by features and match exactly:**
 - **Caelith Dunivar** (NPC) — bearded dark-haired lean man, dark scholar's coat, brass quill-pin.
-- **Alicia** (human Warlock) — red-haired, high ponytail, blue tunic with gold piping, golden sword.
+- **Alicia** (human Warlock) — red-haired, high ponytail, blue tunic with gold piping, slim gold rapier.
 - **Cam** (halfling Rogue) — halfling-sized woman, long brown hair, large yellow eyes, brown leather travel clothes.
 - **Kitty** (chthonic-tiefling Druid) — ashen-grey skinned tiefling with small dark horns, pale luminescent eyes, dark hair in long braids, sigil-veining at the temples, dark slender tail.
 Scene: deep cellar Strong Room of an old fantasy guesthouse, late at night. Vaulted stone ceiling, rough-cut grey stone walls, a slate floor. A single hanging iron lantern provides warm gold light; the room's corners drop into shadow.
@@ -457,7 +457,7 @@ Style: painterly digital fantasy illustration, palette of warm gold lantern, dee
 **Eight reference images supplied. Identify each character by features and match exactly:**
 - **Caelith Dunivar** (NPC) — bearded dark-haired lean man, dark scholar's coat, brass quill-pin.
 - **Trina Alvere** (NPC) — brown-skinned woman in her thirties with long dark hair (often braided), faintly luminescent violet fey-markings on her arms, forest-dusk colored dress, silver leaf pendant.
-- **Alicia** (human Warlock) — red-haired, high ponytail, blue tunic with gold piping, golden sword, tattoo sleeve on left arm.
+- **Alicia** (human Warlock) — red-haired, high ponytail, blue tunic with gold piping, slim gold rapier, tattoo sleeve on left arm.
 - **Selvara** (human Sorcerer) — hooded woman, dark red cloak, scar across face with one milky pale eye, blue gem pendant.
 - **Kitty** (chthonic-tiefling Druid) — ashen-grey skin, small dark curving horns, pale luminescent eyes, dark hair in long braids, sigil-veining at the temples, dark slender tail.
 - **Gianni** (human Ranger) — dark-haired, hair in a thick single braid, fierce dark-lined eyes, leather cuirass over yellow-cream tunic, quiver of arrows.
@@ -472,7 +472,7 @@ At the far end of the table:
 1. **CAELITH DUNIVAR** seated, leaning over the burned spell focus with one gloved finger touching it. He is the only bearded man in the scene.
 2. **TRINA ALVERE** seated beside Caelith, a small porcelain cup of pale tea balanced on one knee. Her violet fey-markings should glow faintly on her arm in the chandelier light.
 At the table's near end (the side closer to the viewer), standing in a loose group, all just entered:
-3. **ALICIA** front-left of the party group — red ponytail, blue tunic with gold piping, golden sword at her hip, tattoo sleeve on left arm. **No sparkles, no glowing motes around her — render her cleanly.**
+3. **ALICIA** front-left of the party group — red ponytail, blue tunic with gold piping, slim gold rapier at her hip, tattoo sleeve on left arm. **No sparkles, no glowing motes around her — render her cleanly.**
 4. **SELVARA** beside Alicia. **Selvara is a HOODED SORCERER, NOT a leather-clad ranger. Do NOT render her as another Gianni.** She wears a heavy DARK RED CLOAK with the HOOD UP framing her face; she does NOT wear leather armor; she does NOT carry a quiver. Her face shows a long thin RED SCAR running across one eye, and that eye is MILKY PALE / blind-looking. A round BLUE GEM PENDANT hangs at her throat. She holds a plain wooden spear. **There is exactly ONE Selvara and exactly ONE Gianni — they look completely different. If two characters in your output look like Gianni (both with leather and quiver), you have failed this prompt — one of them is supposed to be the hooded scarred sorceress.**
 5. **KITTY (CHTHONIC TIEFLING — see CRITICAL note above)** standing prominently at the front-center of the party group so her horns and tail are unmistakable. Ashen-grey skin, two small dark horns curving back from her temples, pale luminescent eyes, dark braided hair, dark slender tail at her hip, woven-wood spear in hand, lynx-painted wooden shield slung on her back.
 6. **GIANNI** the human ranger (a WOMAN with dark hair in a single thick braid, fierce dark-lined eyes, leather cuirass over yellow-cream tunic, quiver of arrows over one shoulder). She is NOT male.
@@ -496,9 +496,9 @@ Style: painterly digital fantasy illustration, cinematic composition, palette of
     prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG adventure module.
 **Two reference images supplied. Identify each by features and match exactly:**
 - **Trina Alvere** (NPC) — brown-skinned woman in her thirties, long dark hair, faintly luminescent violet fey-markings visible on her arm, forest-dusk colored dress, silver leaf pendant.
-- **Alicia** (human Warlock PC, Trina's mentee) — red-haired woman, hair in a high ponytail, blue tunic with gold piping, golden sword sheathed at her hip, tattoo sleeve on her left arm.
+- **Alicia** (human Warlock PC, Trina's mentee) — red-haired woman, hair in a high ponytail, blue tunic with gold piping, slim gold rapier sheathed at her hip, tattoo sleeve on her left arm.
 Scene: a small hidden records alcove behind a paneled door in the library of a fantasy republic guesthouse, mid-morning. Two walls lined floor-to-ceiling with leather-bound civic records — bound charter rolls, ledgers, treasury registers, commercial-marks volumes. A single brass oil lamp on a small reading table provides warm light; the rest of the alcove glows in soft gold.
-At the reading table: TRINA ALVERE — one finger flat on a page of an open volume, looking up to comment. Across from her, ALICIA cross-referencing a different bound volume on a small writing slope. There is a quiet mentor-and-student warmth between them; Trina watches Alicia read with the patience of someone who has been waiting for this exact moment of focus. Alicia's golden sword leans against her chair.
+At the reading table: TRINA ALVERE — one finger flat on a page of an open volume, looking up to comment. Across from her, ALICIA cross-referencing a different bound volume on a small writing slope. There is a quiet mentor-and-student warmth between them; Trina watches Alicia read with the patience of someone who has been waiting for this exact moment of focus. Alicia's slim gold rapier leans against her chair.
 Behind them, the paneled doorway visible — a hinge of normal wood with no obvious latch.
 Atmosphere: warm, intimate, the calm of careful work. The alcove feels secret without feeling threatening.
 Mood: scholarly, hopeful, on the verge of identifying a name.
@@ -520,7 +520,7 @@ Style: painterly digital fantasy illustration, cinematic close-quarters interior
     prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG adventure module.
 **Four reference images supplied. Identify each by features and match exactly:**
 - **Hesren Vesh** (NPC) — young man, early thirties, dark hair, lean clean-shaven features, wearing Cindren & Vhal firm livery: dark green wool coat with a small brass crane-and-coins pin at the breast.
-- **Alicia** (human Warlock PC) — red-haired woman, hair in a high ponytail, blue tunic with gold piping, golden sword at her hip, tattoo sleeve on her left arm. **Render her clean — no glowing motes, no sparkles, no magical particles. The sword is plain metal-gold, not magical.**
+- **Alicia** (human Warlock PC) — red-haired woman, hair in a high ponytail, blue tunic with gold piping, slim gold rapier at her hip, tattoo sleeve on her left arm. **Render her clean — no glowing motes, no sparkles, no magical particles. The weapon is a plain gold rapier, not magical.**
 - **Selvara** (human Sorcerer PC) — hooded woman in a dark red cloak, scar across her face with one milky pale eye, blue gem pendant.
 - **Cam** (halfling Rogue PC) — halfling-sized woman, long brown hair, large yellow eyes, brown leather travel clothes. Visibly halfling height (head about waist-height of the humans).
 Scene: small front office of the Cindren & Vhal Bonded Factors satellite on Wick Lane, mid-morning. Small but expensive — dark walnut paneling, a polished desk, a small leaded window casting cool gray light, a brass-and-green-glass desk lamp lit on the desk corner, two heavy visitors' chairs (currently empty — the visitors are standing).
@@ -582,12 +582,12 @@ Style: painterly digital fantasy illustration, palette of warm coal-stove glow, 
     ],
     prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG adventure module.
 **Two reference images supplied. Identify each by features and match exactly:**
-- **Alicia** (human Warlock PC) — red-haired woman, hair in a high ponytail, blue tunic with gold piping, golden sword at her hip, tattoo sleeve on her left arm. **No sparkles, no glowing motes around her — render her cleanly.**
+- **Alicia** (human Warlock PC) — red-haired woman, hair in a high ponytail, blue tunic with gold piping, slim gold rapier at her hip, tattoo sleeve on her left arm. **No sparkles, no glowing motes around her — render her cleanly.**
 - **Cam** (halfling Rogue PC) — halfling-sized woman, long brown hair, large yellow eyes, brown leather travel clothes, brown leather satchel. **Cam is halfling height — her head is about waist-height of the humans; she stands on tiptoe or on a low stool to read at the standing desk.**
 Scene: the working business office of a missing senior grain factor, on a fantasy-medieval merchant street. Mid-morning, gray autumn light through tall mullioned windows. The room is paneled in worn pale oak; one wall holds a tall standing desk with a green leather-bound ledger book open on it; the opposite wall has built-in cabinets full of tied bundles of carbons and bound annual returns. A round table near the windows holds a brass weighing scale and a small handful of grain samples in cloth bags.
 At the standing desk: DORIL VETH — a stout middle-aged man in his fifties, plain green wool coat, neat short gray hair, careful clean-shaven features, gold-rimmed reading lenses pushed up onto his forehead. He is turning a page in the ledger and gesturing at a row of entries; his expression is anxious, eager to be helpful, slightly conspiratorial — a clerk who has been waiting for someone to ask the right questions.
 Standing across the desk from him, leaning forward to read the ledger:
-1. **ALICIA** at the desk, one hand braced on the edge, leaning to read the entries Veth is showing her. Her golden sword sheathed at her hip.
+1. **ALICIA** at the desk, one hand braced on the edge, leaning to read the entries Veth is showing her. Her slim gold rapier sheathed at her hip.
 2. **CAM** beside Alicia, standing on tiptoe (she is halfling-height) to see the ledger over the desk's edge, her sharp yellow eyes tracking the lines closely — she is the one most likely to spot the discrepancy.
 The room feels paused — the missing principal's (Tamsin's) empty chair behind a separate small desk in the background, neatly pushed in, a folded shawl draped over its back.
 Mood: a working business with its center missing. Concerned, focused, quietly hopeful.
@@ -635,7 +635,7 @@ Style: painterly digital fantasy illustration, intimate interior, palette of war
 **Eight reference images supplied. Identify each character by features and match exactly:**
 - **Caelith Dunivar** (NPC) — bearded dark-haired lean man, dark scholar's coat, brass quill-pin.
 - **Trina Alvere** (NPC) — brown-skinned woman in her thirties, long dark hair, faintly luminescent violet fey-markings on her arms, forest-dusk dress, silver leaf pendant.
-- **Alicia** (human Warlock) — red-haired, high ponytail, blue tunic, golden sword.
+- **Alicia** (human Warlock) — red-haired, high ponytail, blue tunic, slim gold rapier.
 - **Selvara** (human Sorcerer) — hooded, dark red cloak, scar, milky pale eye, blue gem pendant.
 - **Kitty** (chthonic-tiefling Druid) — ashen-grey skin, small dark horns, pale luminescent eyes, dark braids, sigil-veining at temples, dark slender tail.
 - **Gianni** (human Ranger) — dark-haired with single thick braid, fierce eyes, leather cuirass, quiver.
@@ -846,7 +846,7 @@ ${ART_STYLE}`,
     ],
     prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG adventure module (D&D 5e / Pathfinder / Tales of the Valiant book interior style).
 **Six reference images supplied — the six-PC adventuring party. Identify each by features and match exactly:**
-- **Alicia** — red-haired, high ponytail, blue tunic, golden sword, tattoo sleeve on left arm. **No sparkles, no glowing motes around her — render her cleanly.**
+- **Alicia** — red-haired, high ponytail, blue tunic, slim gold rapier, tattoo sleeve on left arm. **No sparkles, no glowing motes around her — render her cleanly.**
 - **Selvara** — hooded woman in dark red cloak, scar across face with milky pale eye, blue gem pendant.
 - **Kitty** — chthonic-tiefling druid: ashen-grey skin, small dark horns, pale luminescent eyes, dark braided hair, dark slender tail, lynx-painted shield, woven-wood spear. **The horns and tail must be visible.**
 - **Gianni** — dark hair in single thick braid, fierce dark-lined eyes, leather cuirass, quiver of arrows. (She is female.)
@@ -873,7 +873,7 @@ Style: painterly digital fantasy illustration, palette of cool gray morning ligh
     prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG adventure module.
 **Four reference images supplied:**
 - **Anver "Tarsh" Resh** (NPC) — thin, fifties, balding with dark hair fringe worn long, long pale face, yellow stains on his right-hand fingers from pipe smoke, plain dark wool, no jewelry.
-- **Alicia** (PC) — red-haired ponytail, blue tunic, golden sword. No sparkles.
+- **Alicia** (PC) — red-haired ponytail, blue tunic, slim gold rapier. No sparkles.
 - **Selvara** (PC) — hooded, dark red cloak, scar, milky pale eye, blue gem pendant.
 - **Cam** (PC) — halfling-sized, long brown hair, large yellow eyes, brown leather. **Halfling height — visibly smaller than the humans.**
 Scene: a low-ceilinged sailors' tavern called THE COOPERED WRECK in Hardby's harbor district. Coal-smoke-dark room with a long bar down one side and three back booths on the opposite wall. The leftmost back booth has a single hanging oil lamp; the rest of the room is in shifting shadow. A few stevedores at the bar in the background, a one-eyed retired bosun (the proprietor) wiping a glass behind the bar.
@@ -896,7 +896,7 @@ Style: painterly digital fantasy illustration, palette of warm lamp gold, dark w
     prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG adventure module.
 **Three reference images supplied:**
 - **Solen Mereth** (NPC) — late forties, tall, lean, balding, careful clean-shaven, dark green firm livery with brass crane-and-coins pin and a small head-of-office pin, reading lenses on black silk cord.
-- **Alicia** (PC) — red ponytail, blue tunic, golden sword. No sparkles.
+- **Alicia** (PC) — red ponytail, blue tunic, slim gold rapier. No sparkles.
 - **Gianni** (PC, female) — dark hair single braid, fierce dark-lined eyes, leather cuirass, quiver.
 Scene: the BOND-LOADING OFFICE at Cindren & Vhal Hardby — a small private office at the back of the counter-room. Walnut paneling, a tall standing desk (Solen's), a wall of bond-loading files in pigeonhole shelves behind the desk, a tall locked cabinet against the back wall, a small leaded window high on one wall casting cool morning light.
 SOLEN MERETH stands behind his standing desk, both hands flat on its surface, looking at the visitors with composed careful neutrality. His reading lenses sit on the desk. An open ledger and an inkwell to one side.
@@ -920,7 +920,7 @@ Style: painterly digital fantasy illustration, intimate office interior, palette
 **Three reference images supplied:**
 - **Veska Maelan** (NPC) — mid-fifties, compact, dark-eyed, gray hair worn short under a soft brown cap; plain dark wool dress; small silver scale-and-scroll badge at the throat; reading lenses on a black silk cord.
 - **Selvara** (PC) — hooded, dark red cloak, scar, milky pale eye, blue gem pendant.
-- **Alicia** (PC) — red ponytail, blue tunic, golden sword. No sparkles.
+- **Alicia** (PC) — red ponytail, blue tunic, slim gold rapier. No sparkles.
 Scene: the small ground-floor notary office at WHALEMARKET QUAY in Hardby, late evening. A single brass oil lamp on the desk provides warm gold light; the rest of the office is in shadow. A tall standing-cabinet of ledgers and copybooks against one wall, two visitor chairs, a brass-and-green-glass desk lamp shaded down. A leaded window in the back wall shows full dark outside with a single distant ship's lantern reflected on the harbor.
 VESKA sits at the desk, reading lenses on her nose, leaning over the recovered evidence laid out in front of her — a folded vellum letter of credit, a clipped silver coin held to the lamp in her left hand, a small black-lacquered scroll tube, a torn ledger fragment, a strip of vellum bearing four words. Her right index finger rests on a chop she has just identified.
 Standing across from her, leaning forward to listen: SELVARA (hood pushed back, focused, tracking every word); ALICIA (slightly behind Selvara, arms folded, listening hard).
@@ -966,7 +966,7 @@ Style: painterly digital fantasy illustration, heist-scene chiaroscuro, palette 
     prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG adventure module — rescue set piece.
 **Four reference images supplied:**
 - **Tamsin Moraven** (NPC, rescued) — mid-fifties, tall, dark hair iron-gray at the temples, dark green Yeomanry merchant's overdress now travel-worn from twelve days' captivity. Tired, underfed, but standing on her own feet. The watchful careful capable woman the party has heard about.
-- **Alicia** (PC) — red ponytail, blue tunic, golden sword. No sparkles.
+- **Alicia** (PC) — red ponytail, blue tunic, slim gold rapier. No sparkles.
 - **Gianni** (PC, female) — dark hair single braid, leather cuirass, quiver.
 - **Kitty** (PC) — chthonic-tiefling druid: **ashen-grey skin, small dark horns, dark slender tail, lynx shield, woven spear**. The horns and tail must be visible.
 Scene: the small clerk's-office room in a harbor warehouse on Black Cog Lane at late night. A barred window in the back wall, a wooden door open behind the party, a thin straw mattress on the floor, a water jug by the door. One of the party's own lanterns has been brought in and set on the mattress. A small open chest of Tamsin's belongings on the floor (the captors apparently brought her a few things; the chest is the size of a hatbox).
@@ -990,7 +990,7 @@ Style: painterly digital fantasy illustration, dramatic warm lantern glow agains
 **Three reference images supplied:**
 - **Zoria Weis** (NPC) — late thirties, plain careful features, brown hair pinned up under a small white cap, Gynarchy under-clerk's grey-and-cream half-livery.
 - **Selvara** (PC) — hooded, dark red cloak, scar, milky pale eye, blue gem pendant.
-- **Alicia** (PC) — red ponytail, blue tunic, golden sword. No sparkles.
+- **Alicia** (PC) — red ponytail, blue tunic, slim gold rapier. No sparkles.
 Scene: a small reading room at the back of the GYNARCHY OFFICE OF MERCANTILE RECORDS in Hardby's Old Quarter, late morning. Walnut-paneled walls. A single tall reading table at the room's center. On the table: a large bound volume open to a two-page spread of harbor commission appointment entries (rows of inked names, dates, dispositions). Two oil lamps on the table provide warm light; the rest of the room is in cool diffuse light from a high leaded window.
 ZORIA stands at the head of the table, one finger pressed to a row of entries (the THREE old-house seats marked vacant). She is reading aloud in a measured voice, gesturing with her free hand at the structure of the page.
 ALICIA and SELVARA stand on the opposite side of the table, leaning forward to read along; ALICIA's expression is dawning understanding; SELVARA's is hardening into focus.
@@ -1013,7 +1013,7 @@ Style: painterly digital fantasy illustration, intimate civic interior, palette 
     prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG adventure module.
 **Four reference images supplied:**
 - **Castrian Vell** (NPC) — late thirties poet, dark curls graying at temples, plum waistcoat over cream shirt, emerald-and-silver pin at the collar, holding a wineglass.
-- **Alicia** (PC) — red ponytail, blue tunic, golden sword **sheathed behind a sash for the salon — she is in semi-formal mode**. No sparkles.
+- **Alicia** (PC) — red ponytail, blue tunic, slim gold rapier **sheathed behind a sash for the salon — she is in semi-formal mode**. No sparkles.
 - **Selvara** (PC) — hood DOWN for once, scar visible, blue gem pendant; she has dressed for a salon evening (dark wine-colored dress over her usual layers).
 - **Elle** (PC, halfling monk) — halfling height, **dressed in a clean saffron salon robe** (more formal than her travel robes), brown hair brushed.
 Scene: the warm sitting room of CASTRIAN VELL'S TOWNHOUSE on a salon evening. A modest hearth glows on one wall; a small narrow shelf of his published volumes visible on another. Six to eight figures arranged in loose conversational groups: a middle-aged woman in dyer's apron-marks even in her formal dress (the Salters' Quarter dyer), a thin retired ship's captain with a faded blue coat, a Gynarchy under-clerk in her after-hours civilian dress, a sculptor in a paint-marked cravat. Wine and small dishes on a sideboard.
@@ -1896,7 +1896,7 @@ CHARACTERS (4):
 - CAELITH DUNIVAR (reference image #1) at one end of the table, seated, taking notes on a single page in a precise hand. Late fifties, lean, gray hair, dark wool civic dress, the brass quill pin still missing from his lapel. He is listening, not speaking.
 - CAM (reference image #2): the party's HALFLING ROGUE, at the long left side of the table, half-standing on a tall chair to see the papers, leather travel-clothes, a small Yeomanry-style courier satchel at his hip, gesturing at one of the documents while speaking. CRITICAL: Cam is a HALFLING — short, three-and-a-half feet tall, with halfling proportions. If Cam looks like a tall human, you have failed this prompt.
 - KITTY (reference image #3): the party's CHTHONIC TIEFLING DRUID, seated on a long bench across the table from Cam. CRITICAL: Kitty is a chthonic tiefling. She has clearly visible HORNS curving back from her temples, ASHEN-GREY skin, a long TAIL visible behind her, and faint dark SIGIL-VEINING at her temples and along her forearms. She wears a dark druid's robe and a circlet of dark wood. She is leaning forward, examining the wax on the still-sealed Trina packet. If Kitty looks like a normal dark-haired human, you have failed this prompt.
-- ALICIA (reference image #4): the party's WARLOCK with a blade pact, standing behind Cam's chair, one hand on the chair's back. She is reading the document Cam is gesturing at. Render Alicia cleanly — no floating particles, no glowing sparkles, no swirling motes around her. Her sword is metal-gold, scabbarded at her hip, not magical-glowing.
+- ALICIA (reference image #4): the party's WARLOCK with a blade pact, standing behind Cam's chair, one hand on the chair's back. She is reading the document Cam is gesturing at. Render Alicia cleanly — no floating particles, no glowing sparkles, no swirling motes around her. Her weapon is a slim GOLD METAL RAPIER, scabbarded at her hip, not magical-glowing.
 
 Composition: cinematic wide shot, the table running diagonally across the frame, Caelith on the right, Kitty on the left, Cam mid-frame, Alicia behind Cam. The unopened Trina packet is the visual focus, its woodland-grey wax distinct from the warmer browns of the rest of the room. Warm honey lamplight from above, soft cool morning light from a high window on the back wall. Painterly digital fantasy illustration. NO text or labels visible.`,
     postProcess: null,
@@ -2129,7 +2129,7 @@ CHARACTERS in the room (5 total):
 - TARLITH VHAL SERETH (reference image #1) at the desk: late fifties Aerdy man, tall, very thin, silver-white long hair tied back, clipped silver beard, dark-grey advocate's overcoat, heavy silver firm-seal ring. He is composed; one hand rests open on the desk, the other holds a single folded sheet of parchment. He is the still center of the composition, but he is no longer the focus.
 - CAM (reference image #2): the party's HALFLING ROGUE, FRONT AND CENTER at the desk, standing on a small chair pulled up to the desk's edge so he can see the documents. He is in dark leather travel-clothes with a Yeomanry-style courier satchel at his hip; he is laying out the indictment package on the desk — a bound notarial opinion and several loose documents — with both hands. CRITICAL: Cam is a HALFLING — short, three-and-a-half feet tall, with halfling proportions. If Cam looks like a tall human, you have failed this prompt.
 - KITTY (reference image #3): the party's CHTHONIC TIEFLING DRUID, standing at Cam's right shoulder, also front-and-center, watching Sereth's face for any reaction. CRITICAL: Kitty is a chthonic tiefling. She has clearly visible HORNS curving back from her temples, ASHEN-GREY skin, a long TAIL visible behind her, and faint dark SIGIL-VEINING at her temples and along her forearms. She wears a dark druid's robe and a circlet of dark wood. If Kitty looks like a normal dark-haired human, you have failed this prompt.
-- ALICIA (reference image #4): the party's WARLOCK with a blade pact, mid-ground behind Cam and Kitty, watching the door. Render Alicia cleanly — no floating particles, no glowing sparkles, no swirling motes around her. Her sword is metal-gold, scabbarded at her hip, not magical-glowing.
+- ALICIA (reference image #4): the party's WARLOCK with a blade pact, mid-ground behind Cam and Kitty, watching the door. Render Alicia cleanly — no floating particles, no glowing sparkles, no swirling motes around her. Her weapon is a slim GOLD METAL RAPIER, scabbarded at her hip, not magical-glowing.
 - TWO BODYGUARDS standing flat against the south wall behind Sereth, dressed in plain dark Aerdy household livery, swords scabbarded but visible, hands folded; they are watchful, not aggressive. (Render as two indistinct figures; they are background.)
 
 Composition: cinematic, the desk and Sereth occupying the right-third of the frame, Cam and Kitty front-and-center at the desk's foreground edge, Alicia mid-ground, the bodyguards at the back wall. Painterly digital fantasy illustration. Warm tonally cohesive palette: deep browns and walnut, brass and gold, the cool steel of guard mail, the dark grey of Sereth's coat. NO text or labels visible.`,
@@ -2193,7 +2193,7 @@ PUBLIC OBSERVERS' GALLERY: A small balcony platform hangs above the south side o
 CHARACTERS in the gallery (3):
 - CAM (reference image #1): the party's HALFLING ROGUE, leaning against the gallery rail, peering down at the commissioners with his sharp rogue's attention. CRITICAL: Cam is a HALFLING — short, three-and-a-half feet tall, with halfling proportions. He stands on a low bench against the gallery rail to see over it. If Cam looks like a tall human, you have failed this prompt.
 - KITTY (reference image #2): the party's CHTHONIC TIEFLING DRUID, standing at Cam's right at the gallery rail, watching the proceedings with quiet intensity. CRITICAL: Kitty is a chthonic tiefling. She has HORNS curving back from her temples, ASHEN-GREY skin, a TAIL visible behind her, and faint dark SIGIL-VEINING at her temples. She wears a dark druid's robe and a small grey cloak draped over her shoulders. If Kitty looks like a normal dark-haired human, you have failed this prompt.
-- ALICIA (reference image #3): the party's WARLOCK with a blade pact, standing at Cam's left, slightly behind, watching one of the senior commissioners specifically. Render Alicia cleanly — no floating particles, no glowing sparkles, no swirling motes around her. Her sword is metal-gold, scabbarded at her hip, not magical-glowing.
+- ALICIA (reference image #3): the party's WARLOCK with a blade pact, standing at Cam's left, slightly behind, watching one of the senior commissioners specifically. Render Alicia cleanly — no floating particles, no glowing sparkles, no swirling motes around her. Her weapon is a slim GOLD METAL RAPIER, scabbarded at her hip, not magical-glowing.
 
 CHARACTERS in the chamber (4 commissioners + 1 clerk):
 - MISTRESS ALDAEN VETH on the senior commissioner's chair (center): a slight, severe Aerdy woman in her late sixties, white hair, dark commissioner's robes with a brass scroll-and-anchor chain at the throat. Posture upright, expression dour.
@@ -2235,6 +2235,256 @@ Composition: wide cinematic shot. The chamber occupies most of the frame; the co
     sourceFromExisting: "assets/portraits/mairra-voss-portrait.png", skipGeneration: true,
     postProcess: "round-token-512",
     ring: { base: "#5a7a4c", highlight: "#a8c490", shadow: "#1a2a14" } /* sage green — sympathetic councilor */ },
+
+  // ============== TIER 19 — Party arrival + Rel Astra & Hardby district maps ==============
+  // Party arrival illustration (1 job, Customs Quay arrival under Diplomatic Carriage)
+  {
+    id: "p4-rel-astra-arrival",
+    tier: 19,
+    out: "assets/illustrations/p4-rel-astra-arrival.png",
+    size: "1536x1024",
+    quality: "high",
+    referenceImages: [
+      "assets/portraits/party/Cam-Halfling-Rogue.png",
+      "assets/portraits/party/kitty-druid-cthonic-tiefling.png",
+      "assets/portraits/party/alicia-warlock-blade.png",
+      "assets/portraits/party/elle-halfling-monk.jpg",
+      "assets/portraits/party/gianni-ranger-.jpg",
+      "assets/portraits/party/selvara-human-sorcerer.jpg"
+    ],
+    prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG adventure scene. NOT 19th-century oil painting.
+
+EXTERIOR scene. The Customs Quay of Rel Astra in mid-morning. The diplomatic carriage has just rolled through the Customs Quay gate; the party has dismounted and is gathering on the cobbled quay. A small Aerdy delegation (one liveried Aerdy herald in oxblood-and-gold, plus two civic functionaries in dark wool) waits formally at the right edge of frame, the herald just completing a bow. Behind the delegation, the Hall of the Compass (a three-story Aerdi guest residence) rises in pale stone with a wide arched portico. Beyond it, a strip of harbor visible with two Aerdi imperial galleys at moorings, masts crowded against a clear morning sky. Yeomanry Council standard mounted on the lead carriage; Aerdy imperial standard flying above the customs gate.
+
+THE FULL PARTY (6 PCs, all visible, gathered loosely as a delegation in the LEFT TWO-THIRDS of the frame — they are the focus, not the delegation). Each PC must be rendered with their distinguishing features. The reference images you have been given are the source of truth. If you cannot render a PC from their reference image, do not replace them with a generic adventurer; render them in shadow rather than render them wrong.
+
+CRITICAL OVERALL: There are exactly 6 PCs in this scene. Three are women with reddish/auburn hair (Elle, Selvara, Alicia) — they must each be visually distinct. Two are halflings (Cam and Elle) — they must both be clearly halfling-proportioned (3.5 feet tall, halfling head shape, halfling hands). One is a chthonic tiefling (Kitty). DO NOT replace any PC with a generic adventurer. DO NOT render Cam or Elle as tall humans. DO NOT render Selvara as a man. DO NOT render Gianni as a man.
+
+- CAM (reference image #1): HALFLING ROGUE — a young halfling woman. Long flowing dark-brown hair (loose, not braided). LARGE GOLDEN-YELLOW EYES (very distinctive — like amber). Smooth pale skin. Wears a brown leather rogue's tunic. Three-and-a-half feet tall — clearly halfling-proportioned, with halfling head and hands. Holds a small Yeomanry courier satchel. Stands at the FRONT-LEFT of the party group, looking back toward the camera. CRITICAL: If Cam looks like a tall human, you have failed this prompt. CRITICAL: Cam's eyes are golden-yellow.
+
+- ELLE (reference image #4): HALFLING MONK — a halfling woman. Long wild AUBURN-BROWN hair (untied, loose around her shoulders). BRIGHT GOLDEN-YELLOW MONK ROBES tied with a deep RED SASH at the waist. Three-and-a-half feet tall — clearly halfling-proportioned. Standing in a relaxed but balanced monk stance, hands free. Stands at Cam's LEFT (front-center-left of the group). CRITICAL: If Elle looks like a tall human, you have failed this prompt. CRITICAL: Elle wears YELLOW robes with a RED SASH, not blue or grey or any other color.
+
+- KITTY (reference image #2): CHTHONIC TIEFLING DRUID — a tiefling woman with GREY-BLUE ASHEN skin, large dark HORNS curving back from her temples, PALE/WHITE eyes, long DARK BRAIDED HAIR with side braids. Wears a sleeveless GREEN druid's top over leather gear, a skirt or wrap below. A long TAIL is visible behind her. She carries a TALL DARK WOODEN STAFF in one hand and a ROUND WOODEN SHIELD in the other (the shield's face painted with a stylized LYNX). Stands at the CENTER-BACK of the group, slightly taller than Cam and Elle. CRITICAL: If Kitty looks like a normal dark-haired human, you have failed this prompt. CRITICAL: Kitty's skin is grey-blue and she has horns and a tail.
+
+- ALICIA (reference image #3): WARLOCK (BLADE PACT) — a human woman. RED-AUBURN hair worn in a HIGH PONYTAIL. FRECKLED FAIR SKIN. Wears a SLEEVELESS LIGHT-BLUE TUNIC with a brown belt, and dark fitted trousers/leggings. Long DARK SCROLLWORK TATTOOS visible down her bare RIGHT ARM (her warlock pact marks). Carries a GOLD METAL RAPIER (slim, ornate basket-hilt, scabbarded at her hip — NOT glowing magical). Stands at the CENTER of the group beside Selvara. RENDER ALICIA CLEANLY — no floating particles, no glowing sparkles, no swirling motes around her. Her weapon is a plain gold rapier, not magical. CRITICAL: If Alicia has glowing magic around her, you have failed this prompt.
+
+- GIANNI (reference image #5): HUMAN RANGER — a human woman. DARK BLACK HAIR worn in long BRAIDED PIGTAILS framing her face. GREY-GREEN INTENSE EYES (smouldering, watchful). Wears dark LEATHER ARMOR over a cream linen shirt. A LONGBOW strapped across her back; a QUIVER at her hip. Stands at the RIGHT side of the party group, her attention on the surrounding rooftops and the customs-quay perimeter (a ranger watching the angles). CRITICAL: Gianni is a WOMAN with black braided pigtails, not a man.
+
+- SELVARA (reference image #6): HUMAN SORCERER — a human woman. AUBURN-REDDISH HAIR worn long, partly hidden under a DEEP-RED HOODED CLOAK (hood pushed back to reveal her face). Wears a DEEP TEAL/GREEN long-sleeved DRESS under the cloak, with a single BLUE STONE PENDANT on a thin chain at her throat. PALE BLUE EYES, FRECKLED SKIN, and a faint distinctive SCAR running across the bridge of her nose. Carries a SIMPLE WOODEN SPEAR in her right hand, butt-down on the cobbles (her sorcerer's focus). Stands at the CENTER-BACK of the group beside Alicia, slightly behind Kitty. CRITICAL: Selvara is a HUMAN WOMAN with a DEEP-RED HOODED CLOAK and a SPEAR. CRITICAL: If Selvara looks like Gianni or Cam, you have failed this prompt — she is a human woman with auburn hair, a red hooded cloak, and a spear.
+
+COMPOSITION: cinematic wide shot. The party occupies the LEFT TWO-THIRDS of the frame as the focus; the Aerdi delegation occupies the RIGHT THIRD as background. Warm Aerdy morning palette: cream limestone, brass, oxblood-and-gold of the herald's livery, the cool blue-green of harbor water. Yeomanry-Council and Aerdy-imperial standards visible. NO text or labels visible.
+
+This is the moment of arrival under formal diplomatic accreditation. The mood is alert and weary; the party has traveled eight days and is dressed for the road, but they have arrived in good order and are presenting themselves as a delegation. Painterly digital fantasy illustration.`,
+    postProcess: null,
+  },
+  // Rel Astra district maps (4 jobs)
+  {
+    id: "p4-rel-astra-customs-quay-district",
+    tier: 19,
+    out: "assets/maps/rel-astra-customs-quay-district.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Hand-painted top-down fantasy district map in cartographic style for a tabletop role-playing game. Painted-map feel like a published adventure module city handout (Mike Schley / Tales of the Valiant city handout style). Parchment substrate, sepia-and-warm-color palette consistent with classic fantasy gazetteer cartography.
+
+The map shows ONE DISTRICT of a great Aerdy port city — the CUSTOMS QUAY DISTRICT of Rel Astra. North faces the top edge.
+
+Geography:
+- The district sits along the NORTH SIDE of the city's main harbor. The harbor opens to the east; a strip of blue-green harbor water occupies the lower-third of the map.
+- THREE LONG STONE PIERS extend south into the harbor: the IMPERIAL MOORINGS, marked by tall flagstaffs flying the Aerdy imperial standard. Aerdy galleys (rendered as small painted ship icons) are moored at the piers.
+- The CUSTOMS HOUSE — a large pale-stone building with a wide colonnaded facade — sits at the head of the central pier. Its rear faces the district's main street.
+- The HALL OF THE COMPASS — a three-story Aerdi guest residence with a wide arched portico — sits two streets inland from the customs house. It is the diplomatic guesthouse.
+- The HARBOR COMMISSION HALL — a small circular building with a domed roof — sits between the Customs Quay and the Old Harbor Ward to the south. (The southern edge of the map.)
+- A wide CEREMONIAL AVENUE runs east-west through the district, lined with pale stone civic buildings and small civic gardens.
+- Smaller streets branching off the avenue contain merchant offices, a small Aerdi imperial chapel, a pair of inns, and a row of brokers' offices that handle imperial-customs documentation for visiting traders.
+- The ARRIVAL GATE on the western edge of the map (at the left) where the carriage road from inland enters the district.
+
+LABELING: A small parchment cartouche in the upper-left corner reads "CUSTOMS QUAY — REL ASTRA" in elegant fantasy-script (use clear readable lettering, NOT decorative blackletter). Major buildings are marked with small numbered circles (1 through 8) in dark ink — the buildings themselves are NOT labeled directly, only numbered for the GM's key. A small COMPASS ROSE in the upper-right corner. A small SCALE BAR ("100 ft") in the lower-right corner.
+
+Palette: pale stone buildings, warm tan ceremonial avenue, blue-green harbor water, brass and oxblood ceremonial accents on the imperial moorings, soft sepia overall. NO grid lines on the map. NO labels on individual buildings — only the numbered markers. Painted, not vector.`,
+    postProcess: null,
+  },
+  {
+    id: "p4-rel-astra-old-harbor-ward",
+    tier: 19,
+    out: "assets/maps/rel-astra-old-harbor-ward.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Hand-painted top-down fantasy district map in cartographic style for a tabletop role-playing game. Painted-map feel like a published adventure module city handout (Mike Schley / Tales of the Valiant city handout style). Parchment substrate, sepia-and-warm-color palette.
+
+The map shows ONE DISTRICT of a great Aerdy port city — the OLD HARBOR WARD of Rel Astra. North faces the top edge.
+
+Geography:
+- The district sits along the SOUTH SIDE of the city's main harbor. A strip of blue-green harbor water occupies the upper-third of the map (with several MERCHANT QUAYS rendered as long stone piers reaching out into the water; small painted ship icons at most berths).
+- The district is WALLED OFF in pale grey stone — the OLD HARBOR WARD's defensive wall runs along the southern and eastern edges, with two named GATES marked by small open archways: the WATER GATE (north, opening onto the harbor) and the LANDWARD GATE (south, opening to the city's interior).
+- The street plan is IRREGULAR — narrow lanes winding between two- and three-story stone-fronted buildings. The district is the city's commercial heart; many of the buildings are merchant offices, ship-fitters, sail-makers, and the offices of the various trading companies that work the Aerdi coast.
+- The HARBOR COMMISSION HALL — a small circular building with a domed roof — sits at the northern edge of the district where it meets the harbor (a bridge between the Old Harbor Ward and the Customs Quay across the water).
+- A WAVE-AND-ANCHOR SQUARE — a small public square with a stone fountain — sits in the center of the district. BELVEN ASTOR's chandlery (the Wave-and-Anchor) faces this square.
+- The GOLDSMITHS' QUARTER rises on a low ridge at the eastern edge of the map, marked by taller four-story buildings with brass-trimmed signage.
+- A small CHAPEL with a bell-tower in the southwest corner.
+
+LABELING: A small parchment cartouche in the upper-left corner reads "OLD HARBOR WARD — REL ASTRA" in elegant fantasy-script (use clear readable lettering). Major locations are marked with small numbered circles (1 through 10) in dark ink. The two gates are labeled by small text labels in the cartouche key style. A small COMPASS ROSE in the upper-right corner. A small SCALE BAR ("100 ft") in the lower-right corner.
+
+Palette: pale grey stone walls, terracotta roofs, warm tan streets, blue-green harbor water, oxblood ceremonial accents, soft sepia overall. NO grid lines on the map. NO labels on individual buildings except the gates — only the numbered markers. Painted, not vector. The district should feel walled and dense, like a maritime old-town.`,
+    postProcess: null,
+  },
+  {
+    id: "p4-rel-astra-goldsmiths-quarter",
+    tier: 19,
+    out: "assets/maps/rel-astra-goldsmiths-quarter.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Hand-painted top-down fantasy district map in cartographic style for a tabletop role-playing game. Painted-map feel like a published adventure module city handout (Mike Schley / Tales of the Valiant city handout style). Parchment substrate, sepia-and-warm-color palette.
+
+The map shows ONE DISTRICT of a great Aerdy port city — the GOLDSMITHS' QUARTER of Rel Astra. North faces the top edge.
+
+Geography:
+- The district sits on a LOW RIDGE on the eastern slope above the harbor. The harbor is visible as a strip of blue-green water at the very bottom edge of the map (south).
+- The street plan is GRIDDED but slightly canted — three main streets (running east-west) crossed by four cross-streets (running north-south). Streets are wider than the Old Harbor Ward's, lined with FOUR-STORY COUNTING-HOUSES in dark stone with brass-bound facades.
+- THE CINDREN & VHAL REL ASTRA OFFICES — a four-story brownstone-fronted commercial building — sit on the central east-west street, with a brass plate beside the door. (Marked as a numbered location.)
+- Other named counting-houses include the GOLDSMITHS' HALL (the quarter's guild hall, a larger building with a stepped roof), the MERCHANTS' EXCHANGE (a square-fronted hall with a small public court), and a row of smaller private banking houses.
+- A pair of CIVIC FOUNTAINS in small plazas at street intersections.
+- At the eastern edge of the district, the LITTLE TEMPLE OF ZILCHUS (god of trade and commerce; a small dignified building with brass-bound doors).
+- The GOLDSMITHS' GATE on the west side, opening into the Old Harbor Ward.
+
+LABELING: A small parchment cartouche in the upper-left corner reads "GOLDSMITHS' QUARTER — REL ASTRA" in elegant fantasy-script. Major locations are marked with small numbered circles (1 through 10) in dark ink. The Goldsmiths' Gate has a small text label in the cartouche key style. A small COMPASS ROSE in the upper-right corner. A small SCALE BAR ("100 ft") in the lower-right corner.
+
+Palette: dark stone facades, brass-trimmed signage, warm tan streets, deep walnut and brass accents (the wealth of the quarter), blue-green harbor water at the bottom edge, soft sepia overall. NO grid lines on the map. NO labels on individual buildings except the gate — only the numbered markers. Painted, not vector. The district should feel prosperous, dignified, and architecturally taller than its neighbors.`,
+    postProcess: null,
+  },
+  {
+    id: "p4-rel-astra-old-city",
+    tier: 19,
+    out: "assets/maps/rel-astra-old-city.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Hand-painted top-down fantasy district map in cartographic style for a tabletop role-playing game. Painted-map feel like a published adventure module city handout (Mike Schley / Tales of the Valiant city handout style). Parchment substrate, sepia-and-warm-color palette.
+
+The map shows ONE DISTRICT of a great Aerdy port city — the OLD CITY of Rel Astra. North faces the top edge.
+
+Geography:
+- The district climbs the rise WEST of the harbor. The harbor is visible only as a thin strip of blue-green water at the lower-right corner of the map. The Goldsmiths' Quarter is visible at the lower-right (south-southeast) as a denser district of four-story buildings.
+- The OLD CITY is the oldest part of Rel Astra — irregular tangled street plan, two- and three-story buildings in pale stone with terracotta roofs. Streets narrower than the Goldsmiths' Quarter, twisting up the rise.
+- THREE TEMPLE DISTRICTS, each ringed by their own low walls and centered on a small temple precinct:
+  - The TEMPLE OF HEIRONEOUS (god of valor; a square fortress-like building with a small court of arms). Northwest corner of the map.
+  - The TEMPLE OF PHOLTUS (god of light and law; a tall white-stone building with a single high tower). Center-west.
+  - The TEMPLE OF NEROULL (god of death and the harvest; a low domed building set in a small dark grove). Northeast corner.
+- A central MARKET SQUARE near the southern edge of the map — the Old City's daily market, with stalls and a small public well.
+- The NAELAX EMBASSY COMPOUND on the western edge of the map — a walled compound with a single grand main building and a walled garden behind it (the embassy where Lord Galenix Naelax is currently in polite house arrest).
+- The WEST GATE of the city walls visible on the far western edge of the map (at the left edge of the frame), a wide open archway with a small barbican.
+- A small WINDING ROAD threads up from the harbor, through the district, to the West Gate.
+
+LABELING: A small parchment cartouche in the upper-left corner reads "OLD CITY — REL ASTRA" in elegant fantasy-script. Major locations are marked with small numbered circles (1 through 10) in dark ink. The West Gate and the three temples have small text labels in the cartouche key style (TEMPLE OF HEIRONEOUS, TEMPLE OF PHOLTUS, TEMPLE OF NEROULL, WEST GATE). A small COMPASS ROSE in the upper-right corner. A small SCALE BAR ("100 ft") in the lower-right corner.
+
+Palette: pale stone walls, terracotta roofs, warm tan streets, the deep green of the embassy garden and the temple grove, soft sepia overall. NO grid lines on the map. Only the named locations have text labels; everything else uses numbered markers. Painted, not vector. The district should feel old, mixed-use, and slightly worn at the edges.`,
+    postProcess: null,
+  },
+  // Hardby district maps (4 jobs)
+  {
+    id: "p3-hardby-temple-district",
+    tier: 19,
+    out: "assets/maps/hardby-temple-district.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Hand-painted top-down fantasy district map in cartographic style for a tabletop role-playing game. Painted-map feel like a published adventure module city handout (Mike Schley / Tales of the Valiant city handout style). Parchment substrate, sepia-and-warm-color palette.
+
+The map shows ONE DISTRICT of HARDBY (a small Free City on the Wooly Bay) — the TEMPLE PRECINCT, situated in the upper Old City near the Gynarchy House. North faces the top edge.
+
+Geography:
+- The district climbs a slope. The southern edge of the map (lower) is the Old City's lower terraces; the northern edge (upper) approaches the Gynarchy House (visible as a corner of a large stone building at the very top edge of the map).
+- The street plan is an irregular fan radiating out from a central TEMPLE SQUARE — a paved cobblestone plaza with a stone well in the center.
+- Around the Temple Square, four named temples (each a small dignified building, each in a slightly different architectural style):
+  - The TEMPLE OF PROCAN (god of the seas, primary patron of Hardby's harbor trade; a stone building with a copper-sheathed dome turning green with age). Northwest of the square.
+  - The TEMPLE OF XERBO (god of trade and rivers; a smaller stone hall with a brass anchor over the door). Northeast of the square.
+  - The TEMPLE OF EHLONNA (an Old Faith shrine to the goddess of meadows and woodlands; a small wood-and-stone building with a green-tile roof and a small herb garden). Southwest of the square.
+  - The HALL OF THE OPEN HAND (a small civic shrine to the Gynarchy's patron-goddesses, more of a meeting hall than a true temple; a long low building with an arched colonnade). Southeast of the square.
+- A small CHARITY HOSPICE on the eastern edge of the district, run jointly by the temples (where the Hardby poor receive medical care).
+- A small CEMETERY on the western edge, terraced into the slope, with a low stone wall.
+- The TEMPLE GATE — a small archway in a low wall — separates the district from the Gynarchy House precinct above.
+
+LABELING: A small parchment cartouche in the upper-left corner reads "TEMPLE PRECINCT — HARDBY" in elegant fantasy-script. The four named temples and the Hall of the Open Hand have small text labels in the cartouche key style. Other buildings (clergy houses, the hospice, the cemetery) have small numbered circles (1 through 6). A small COMPASS ROSE in the upper-right corner. A small SCALE BAR ("100 ft") in the lower-right corner.
+
+Palette: pale stone, copper-and-green dome, terracotta roofs, the soft green of the Ehlonna shrine garden, the warm sepia of the cobblestones, soft pale-blue Hardby morning sky implied by the palette. NO grid lines on the map. Only the named temples and gate have text labels; everything else uses numbered markers. Painted, not vector. The district should feel quiet and contemplative — the kind of place a stranger comes for a moment of advice from a clergy of three different faiths.`,
+    postProcess: null,
+  },
+  {
+    id: "p3-hardby-marketplace",
+    tier: 19,
+    out: "assets/maps/hardby-marketplace.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Hand-painted top-down fantasy district map in cartographic style for a tabletop role-playing game. Painted-map feel like a published adventure module city handout (Mike Schley / Tales of the Valiant city handout style). Parchment substrate, sepia-and-warm-color palette.
+
+The map shows ONE DISTRICT of HARDBY (a small Free City on the Wooly Bay) — the GREATER MARKET, situated at the boundary between the Old City and the New City near the harbor. North faces the top edge.
+
+Geography:
+- The district is roughly L-shaped, anchored by a large central MARKET SQUARE (paved with worn cobblestones, with a stone WELL in the center and a small CIVIC PLATFORM on its eastern edge where the day-master cries the prices).
+- Around the central square, rows of PERMANENT MARKET STALLS in three sizes — small wooden stalls (food and small goods), medium wooden stalls (cloth, leather, tools), and a few stone-fronted SHOPS with fixed addresses (the wealthier vendors).
+- The FISHMONGERS' ROW runs along the southern edge — a long line of stalls and small smokehouses; the smell of fish and smoke is implied by the dark stone of the smokehouses.
+- The MEAT-AND-GRAIN ROW runs along the eastern edge — covered stalls with permanent slate roofs, a small slaughtering yard at the very southeast corner.
+- The MONEY-CHANGERS' ALCOVE on the northern edge — a dignified row of small private booths where the merchants of the Greater Market change Hardby coin to Aerdy or Yeomanry coin and back. A few private guards posted.
+- The MARKET WATCH POST in the northwest corner — a small civic guard post staffed by Hardby city watch.
+- Two named INNS on the western edge: the BLACKWELL INN (a three-story timber-fronted inn for traveling merchants) and the GREEN MAGPIE (a smaller, rougher inn for day-laborers and casual visitors).
+- The MARKET GATE in the south — the formal entrance to the market from the docks.
+- The NEW CITY ENTRY in the north — a wide opening into the broader New City streets.
+
+LABELING: A small parchment cartouche in the upper-left corner reads "GREATER MARKET — HARDBY" in elegant fantasy-script. The two named inns, the Market Gate, and the Market Watch Post have small text labels in the cartouche key style. Stall rows are labeled by their general category (FISHMONGERS' ROW, MEAT-AND-GRAIN ROW, MONEY-CHANGERS' ALCOVE) in smaller text. Other buildings have small numbered circles (1 through 8). A small COMPASS ROSE in the upper-right corner. A small SCALE BAR ("100 ft") in the lower-right corner.
+
+Palette: warm worn cobblestones, painted timber stalls in red and ochre, dark stone smokehouses, slate roofs on the meat-and-grain row, brass-and-pewter glints on the money-changers' booths, soft sepia overall. NO grid lines on the map. The labels listed above are visible on the map; everything else uses numbered markers. Painted, not vector. The district should feel busy and lived-in — the visual equivalent of the smell of fish, smoke, hot bread, and old leather.`,
+    postProcess: null,
+  },
+  {
+    id: "p3-hardby-docks-district",
+    tier: 19,
+    out: "assets/maps/hardby-docks-district.png",
+    size: "1536x1024",
+    quality: "high",
+    prompt: `Hand-painted top-down fantasy district map in cartographic style for a tabletop role-playing game. Painted-map feel like a published adventure module city handout (Mike Schley / Tales of the Valiant city handout style). Parchment substrate, sepia-and-warm-color palette.
+
+The map shows ONE DISTRICT of HARDBY (a small Free City on the Wooly Bay) — the DOCKS DISTRICT, the working harbor heart of the city. North faces the top edge.
+
+Geography:
+- The lower half of the map (south) is the HARBOR WATER — blue-green, with about a dozen long stone piers extending into it. Small painted ship icons at most berths (cogs, coastal galleys, fishing boats). A LIGHTHOUSE marks the tip of the easternmost breakwater (a small stone tower with a brass-bound lantern at its top).
+- The upper half of the map (north) is the dock-side BUILT DISTRICT.
+- WAREHOUSES along the dock-side — long stone-walled buildings, slate roofs, wide cargo doors. Some warehouses are clearly newer (pale stone, well-maintained), others are visibly derelict (darker, with broken roof tiles). One of the derelict warehouses (in the lower-left of the built district) is MARKED WITH A SMALL DARK SIGIL — this is the Black Cog Lane warehouse where Tamsin Moraven was held on the Quiet Pursuit path.
+- The COOPERED WRECK TAVERN is marked at the head of BLACK COG LANE (a narrow alley running into the docks from the western edge of the district). The tavern has a small painted sign above its door (a barrel and a sinking ship — visible at this scale as a small dark mark).
+- The DOCKMASTER'S OFFICE — a dignified two-story building with a small public clock-face on its front wall — sits at the center of the dock-side, between the warehouses.
+- The HARDBY OUTER HARBOR AUTHORITY — a small civic building with the Hardby Gynarchy badge at its lintel (the open hand on a green field) — sits at the eastern edge.
+- The FISHMONGERS' QUAY at the western edge, where the morning catch is unloaded and walked up to the Greater Market.
+- The SHIP-FITTERS' YARD at the eastern edge, with two small dry-docks.
+- WHALEMARKET QUAY in the upper-center — a smaller commercial quay with VESKA MAELAN's notary office marked (a small building with a painted sign of a scroll-and-scale).
+- The HARBOR GATE in the south-center — the formal entrance to the docks from the city's interior.
+
+LABELING: A small parchment cartouche in the upper-left corner reads "DOCKS DISTRICT — HARDBY" in elegant fantasy-script. The Coopered Wreck, the Dockmaster's Office, the Harbor Authority, Whalemarket Quay, the Lighthouse, and the Harbor Gate have small text labels in the cartouche key style. Other buildings have small numbered circles (1 through 12). A small COMPASS ROSE in the upper-right corner. A small SCALE BAR ("100 ft") in the lower-right corner.
+
+Palette: dark stone warehouses, slate roofs, weathered wooden piers, blue-green harbor water (slightly murky in the lee of the breakwater), the brass-and-amber of the lighthouse lantern at the harbor mouth, the warm tan of the dock-side streets, soft sepia overall. NO grid lines on the map. The named locations have text labels; everything else uses numbered markers. Painted, not vector. The district should feel working-class, maritime, and slightly dangerous after dark.`,
+    postProcess: null,
+  },
+  {
+    id: "p3-hardby-merchant-quarter",
+    tier: 19,
+    out: "assets/maps/hardby-merchant-quarter.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Hand-painted top-down fantasy district map in cartographic style for a tabletop role-playing game. Painted-map feel like a published adventure module city handout (Mike Schley / Tales of the Valiant city handout style). Parchment substrate, sepia-and-warm-color palette.
+
+The map shows ONE DISTRICT of HARDBY (a small Free City on the Wooly Bay) — the MERCHANT QUARTER, the city's commercial-office district. North faces the top edge.
+
+Geography:
+- The district sits in the New City north of the harbor, an orderly grid of three main streets running east-west crossed by four cross-streets running north-south.
+- Buildings are PROSPEROUS THREE-STORY STONE-FRONTED OFFICES with brass-trimmed signage, dignified facades, and small cobblestone forecourts where staff and clients alight from carriages.
+- A square three-story stone building with a small interior courtyard sits prominently on the central east-west street — a brass plate beside its door bears a stylized device of a crane above three coins. Marked as a numbered location.
+- Other named buildings include the HARDBY TRADE HALL (the merchants' guild hall, larger than its neighbors, with a small public courtroom for trade arbitration), the COASTAL SHIPPERS' EXCHANGE (a hall facing onto a small public square), and a row of smaller private brokers' offices.
+- A pair of small CIVIC FOUNTAINS at street intersections.
+- The HARDBY GYNARCHY REGISTRY OFFICES on the northern edge — a dignified civic building with the Gynarchy badge above the door (the open hand on a green field).
+- A few QUIET INNS along the southern edge of the district (where visiting traders lodge) — the BRASS LANTERN and the MERCHANT'S REST.
+- The MERCHANT GATE in the south, opening to the docks via a short ceremonial avenue.
+- The NEW CITY GATE in the north, opening to the broader New City residential districts.
+
+LABELING: A small parchment cartouche in the upper-left corner reads "MERCHANT QUARTER — HARDBY" in elegant fantasy-script. The Hardby Trade Hall, the Coastal Shippers' Exchange, the Gynarchy Registry, the two named inns, and the two gates have small text labels in the cartouche key style. Other buildings have small numbered circles (1 through 10). A small COMPASS ROSE in the upper-right corner. A small SCALE BAR ("100 ft") in the lower-right corner.
+
+Palette: pale stone facades with brass trim, terracotta roofs, warm tan streets, deep walnut and brass civic accents, the soft green of small civic gardens, soft sepia overall. NO grid lines on the map. The named locations have text labels; everything else uses numbered markers. Painted, not vector. The district should feel prosperous, ordered, and slightly cooler in temperament than the docks below.`,
+    postProcess: null,
+  },
 ];
 
 // ----------------- engine -----------------

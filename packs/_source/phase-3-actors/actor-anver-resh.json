@@ -1,0 +1,139 @@
+{
+  "_key": "!actors!BR2P3ActAnverR",
+  "_id": "BR2P3ActAnverR",
+  "name": "Anver \"Tarsh\" Resh",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "abilities": {
+      "str": { "value": 10, "proficient": 0, "max": null, "bonuses": { "check": "", "save": "" } },
+      "dex": { "value": 17, "proficient": 1, "max": null, "bonuses": { "check": "", "save": "" } },
+      "con": { "value": 13, "proficient": 0, "max": null, "bonuses": { "check": "", "save": "" } },
+      "int": { "value": 16, "proficient": 1, "max": null, "bonuses": { "check": "", "save": "" } },
+      "wis": { "value": 14, "proficient": 0, "max": null, "bonuses": { "check": "", "save": "" } },
+      "cha": { "value": 14, "proficient": 0, "max": null, "bonuses": { "check": "", "save": "" } }
+    },
+    "attributes": {
+      "init": { "ability": "dex", "bonus": "+3" },
+      "movement": { "burrow": 0, "climb": 0, "fly": 0, "swim": 0, "walk": 30, "units": "ft", "hover": false },
+      "attunement": { "max": 3 },
+      "senses": { "darkvision": 0, "blindsight": 0, "tremorsense": 0, "truesight": 0, "units": "ft", "special": "" },
+      "spellcasting": "",
+      "exhaustion": 0,
+      "concentration": { "ability": "", "bonuses": { "save": "" }, "limit": 1 },
+      "hp": { "value": 78, "max": 78, "temp": 0, "tempmax": 0, "formula": "12d8+24" },
+      "ac": { "flat": 14, "calc": "natural", "formula": "" },
+      "death": { "success": 0, "failure": 0 },
+      "inspiration": false
+    },
+    "details": {
+      "biography": {
+        "value": "<h2>Anver \"Tarsh\" Resh — Hardby Broker</h2>\n<p><em>The intermediary who hired Merev Sarth. Former Cindren &amp; Vhal Hardby clerk under Solen Mereth (1576–1582), now a freelance broker operating out of the Coopered Wreck tavern. The Phase 3 confrontation node — yields names if cornered with leverage, will not testify, will not name his Rel Astra contact.</em></p>\n<h3>Description</h3>\n<p>Thin, fifties, balding with a fringe of dark hair worn long. A long pale face. Yellow stains on the second and third fingers of his right hand from cheap pipe-leaf. Smoker's rasp in the voice. Plain dark wool, a heavy wool coat in winter, no jewelry. He looks exactly like what he is: a clerk who left the office and never quite stopped clerking.</p>\n<h3>Combat behavior</h3>\n<p><strong>Avoids combat.</strong> Resh is a broker, not a fighter. He will negotiate, deflect, deceive, and exit before drawing a weapon. If combat starts in the Coopered Wreck, his bodyguard (if present) and a paid pair of harbor-district enforcers nearby will defend him while he exits through Olfard's back room. If he must fight, he uses his hand crossbow at range and his Cunning Action to disengage to cover.</p>\n<p>His one rule: <strong>he does not kill personally.</strong> Has not in sixteen years. Will not now. He hires it done.</p>\n<h3>Statblock summary (CR 6, PB +3)</h3>\n<p><strong>AC</strong> 14 (studded leather under his coat) · <strong>HP</strong> 78 (12d8+24) · <strong>Speed</strong> 30 ft. · <strong>Init</strong> +6 · <strong>Passive Perception</strong> 14</p>\n<p><strong>STR</strong> 10 (+0) · <strong>DEX</strong> 17 (+3) · <strong>CON</strong> 13 (+1) · <strong>INT</strong> 16 (+3) · <strong>WIS</strong> 14 (+2) · <strong>CHA</strong> 14 (+2)</p>\n<p><strong>Saves:</strong> DEX +6, INT +6.</p>\n<p><strong>Skills:</strong> Deception +5, Insight +5, Investigation +6, Perception +5, Persuasion +5, Sleight of Hand +6, Stealth +6.</p>\n<p><strong>Senses:</strong> Passive Perception 14. <strong>Languages:</strong> Common, Old Aerdi, Thieves' Cant.</p>\n<h3>Traits</h3>\n<ul>\n<li><strong>Cunning Action.</strong> Bonus action to Dash, Disengage, or Hide.</li>\n<li><strong>Sneak Attack (1/Turn).</strong> +14 (4d6) damage on a weapon attack with advantage or an ally within 5 ft.</li>\n<li><strong>Uncanny Dodge.</strong> Reaction to halve damage from an attack he can see.</li>\n<li><strong>Evasion.</strong> No damage on a successful Dex save, half on a failed save.</li>\n<li><strong>Reader of Rooms.</strong> Advantage on Insight checks to determine if someone is lying or holding back, in any setting where he is the room's most senior occupant.</li>\n<li><strong>The Broker's Rule.</strong> Resh will not personally kill. He surrenders rather than make a killing blow himself.</li>\n</ul>\n<h3>Actions</h3>\n<ul>\n<li><strong>Multiattack.</strong> Two weapon attacks.</li>\n<li><strong>Hand Crossbow.</strong> Ranged Weapon Attack +6, range 30/120. <em>Hit:</em> 1d6+3 piercing.</li>\n<li><strong>Hidden Knife.</strong> Melee Weapon Attack +6, reach 5 ft. <em>Hit:</em> 1d4+3 piercing. He uses this only as last resort.</li>\n<li><strong>Smoke Pellet (2/encounter).</strong> Action to throw a 10-ft cube of acrid smoke at a point within 30 ft. The area is heavily obscured for 1 minute or until dispersed. Each creature inside at the start of its turn must succeed on a DC 13 Constitution save or be Blinded until the start of its next turn.</li>\n</ul>\n<h3>Equipment</h3>\n<ul>\n<li>Studded leather armor under his greatcoat (concealed).</li>\n<li>Hand crossbow + 10 bolts (in a courier's tube at his hip).</li>\n<li>Hidden knife in his right boot.</li>\n<li>Two smoke pellets in a coat pocket.</li>\n<li>A small pipe and a worn brass tobacco-tin.</li>\n<li>A small leather wallet with a notary's stylus and a smaller knife (his old C&amp;V working tools).</li>\n<li>No coin on his person beyond pocket-money. No identifying papers. No personal jewelry.</li>\n</ul>\n<h3>Source</h3>\n<p><em>Blooming Rot, Part 2 — Phase 3.</em> See <em>Hardby NPCs → Anver Resh</em> and <em>Investigation → Tarsh Confrontation</em> for the scene's full setup.</p>",
+        "public": ""
+      },
+      "alignment": "Lawful Neutral",
+      "race": null,
+      "type": { "value": "humanoid", "subtype": "human", "swarm": "", "custom": "" },
+      "environment": "urban",
+      "cr": 6,
+      "spellLevel": 0,
+      "source": { "custom": "Blooming Rot, Part 2", "book": "", "page": "", "license": "" }
+    },
+    "traits": {
+      "size": "med",
+      "di": { "value": [], "bypasses": [], "custom": "" },
+      "dr": { "value": [], "bypasses": [], "custom": "" },
+      "dv": { "value": [], "bypasses": [], "custom": "" },
+      "dm": { "amount": {}, "bypasses": [] },
+      "ci": { "value": [], "custom": "" },
+      "languages": { "value": ["common"], "custom": "Old Aerdi; Thieves' Cant" }
+    },
+    "currency": { "pp": 0, "gp": 0, "ep": 0, "sp": 0, "cp": 0 },
+    "skills": {
+      "dec": { "value": 1, "ability": "cha", "bonuses": { "check": "", "passive": "" } },
+      "ins": { "value": 1, "ability": "wis", "bonuses": { "check": "", "passive": "" } },
+      "inv": { "value": 1, "ability": "int", "bonuses": { "check": "", "passive": "" } },
+      "prc": { "value": 1, "ability": "wis", "bonuses": { "check": "", "passive": "" } },
+      "prs": { "value": 1, "ability": "cha", "bonuses": { "check": "", "passive": "" } },
+      "slt": { "value": 1, "ability": "dex", "bonuses": { "check": "", "passive": "" } },
+      "ste": { "value": 1, "ability": "dex", "bonuses": { "check": "", "passive": "" } }
+    },
+    "spells": {
+      "spell1": { "value": 0, "override": 0, "max": 0 },
+      "spell2": { "value": 0, "override": 0, "max": 0 },
+      "spell3": { "value": 0, "override": 0, "max": 0 },
+      "spell4": { "value": 0, "override": 0, "max": 0 },
+      "spell5": { "value": 0, "override": 0, "max": 0 },
+      "spell6": { "value": 0, "override": 0, "max": 0 },
+      "spell7": { "value": 0, "override": 0, "max": 0 },
+      "spell8": { "value": 0, "override": 0, "max": 0 },
+      "spell9": { "value": 0, "override": 0, "max": 0 },
+      "pact": { "value": 0, "override": null, "max": 0, "level": 0 }
+    },
+    "resources": {
+      "legact": { "value": 0, "max": 0 },
+      "legres": { "value": 0, "max": 0 },
+      "lair": { "value": false, "initiative": null }
+    },
+    "bonuses": {
+      "mwak": { "attack": "", "damage": "" },
+      "rwak": { "attack": "", "damage": "" },
+      "msak": { "attack": "", "damage": "" },
+      "rsak": { "attack": "", "damage": "" },
+      "abilities": { "check": "", "save": "", "skill": "" },
+      "spell": { "dc": "" }
+    }
+  },
+  "prototypeToken": {
+    "name": "Anver \"Tarsh\" Resh",
+    "displayName": 30,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "fit": "contain",
+      "anchorX": 0.5,
+      "anchorY": 0.5
+    },
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": { "attribute": "attributes.hp" },
+    "bar2": { "attribute": null },
+    "light": { "alpha": 0.5, "angle": 360, "bright": 0, "color": null, "coloration": 1, "dim": 0, "attenuation": 0.5, "luminosity": 0.5, "saturation": 0, "contrast": 0, "shadows": 0, "animation": { "type": null, "speed": 5, "intensity": 5, "reverse": false }, "darkness": { "min": 0, "max": 1 }, "negative": false, "priority": 0 },
+    "sight": { "enabled": false, "range": 0, "angle": 360, "visionMode": "basic", "color": null, "attenuation": 0.1, "brightness": 0, "saturation": 0, "contrast": 0 },
+    "detectionModes": [],
+    "occludable": { "radius": 0 },
+    "ring": { "enabled": false, "colors": { "ring": null, "background": null }, "effects": 1, "subject": { "scale": 1, "texture": null } },
+    "flags": {}
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 200000,
+  "ownership": { "default": 0 },
+  "flags": { "blooming-rot-2": { "role": "broker-yields-with-leverage", "ally": false } },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

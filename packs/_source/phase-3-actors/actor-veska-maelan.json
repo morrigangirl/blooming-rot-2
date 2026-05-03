@@ -1,0 +1,137 @@
+{
+  "_key": "!actors!BR2P3ActVeskMa",
+  "_id": "BR2P3ActVeskMa",
+  "name": "Veska Maelan",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "abilities": {
+      "str": { "value": 10, "proficient": 0, "max": null, "bonuses": { "check": "", "save": "" } },
+      "dex": { "value": 11, "proficient": 0, "max": null, "bonuses": { "check": "", "save": "" } },
+      "con": { "value": 12, "proficient": 0, "max": null, "bonuses": { "check": "", "save": "" } },
+      "int": { "value": 18, "proficient": 1, "max": null, "bonuses": { "check": "", "save": "" } },
+      "wis": { "value": 16, "proficient": 1, "max": null, "bonuses": { "check": "", "save": "" } },
+      "cha": { "value": 14, "proficient": 0, "max": null, "bonuses": { "check": "", "save": "" } }
+    },
+    "attributes": {
+      "init": { "ability": "dex", "bonus": "" },
+      "movement": { "burrow": 0, "climb": 0, "fly": 0, "swim": 0, "walk": 30, "units": "ft", "hover": false },
+      "attunement": { "max": 3 },
+      "senses": { "darkvision": 0, "blindsight": 0, "tremorsense": 0, "truesight": 0, "units": "ft", "special": "" },
+      "spellcasting": "",
+      "exhaustion": 0,
+      "concentration": { "ability": "", "bonuses": { "save": "" }, "limit": 1 },
+      "hp": { "value": 22, "max": 22, "temp": 0, "tempmax": 0, "formula": "5d8" },
+      "ac": { "flat": 11, "calc": "natural", "formula": "" },
+      "death": { "success": 0, "failure": 0 },
+      "inspiration": false
+    },
+    "details": {
+      "biography": {
+        "value": "<h2>Veska Maelan — Trade-Clearing Notary, Hardby</h2>\n<p><em>Caelith Dunivar's Hardby contact. Reads the Aerdi clearing-marks better than anyone outside the firms themselves. The investigative gateway of Phase 3 — her notarial opinion turns the recovered evidence into a court-admissible package.</em></p>\n<h3>Description</h3>\n<p>Mid-fifties, Hardby-born, compact build, gray hair worn short under a soft brown cap. Plain wool dress, no jewelry except a small silver scale-and-scroll badge at the throat (her notarial seal of office). Reading lenses on a black silk cord. Quiet, watchful, slow-moving — the kind of professional whose stillness reads as authority.</p>\n<h3>Combat behavior</h3>\n<p><strong>Will not fight.</strong> Veska is a notary, not a combatant. If pressed she yields and offers her notarial seal in trade for her safety; she will reconstruct any document she has yielded once she is safe. Her value is in her head and in her files; killing her costs the party three of the most important investigative leads in Phase 3.</p>\n<h3>Statblock summary (CR 1, PB +2)</h3>\n<p><strong>AC</strong> 11 · <strong>HP</strong> 22 (5d8) · <strong>Speed</strong> 30 ft. · <strong>Init</strong> +0 · <strong>Passive Perception</strong> 15</p>\n<p><strong>STR</strong> 10 (+0) · <strong>DEX</strong> 11 (+0) · <strong>CON</strong> 12 (+1) · <strong>INT</strong> 18 (+4) · <strong>WIS</strong> 16 (+3) · <strong>CHA</strong> 14 (+2)</p>\n<p><strong>Saves:</strong> INT +6, WIS +5.</p>\n<p><strong>Skills:</strong> History +6, Insight +5, Investigation +8, Perception +5, Persuasion +4.</p>\n<p><strong>Senses:</strong> Passive Perception 15. <strong>Languages:</strong> Common, Old Aerdi, one trade cipher (Yeomanry diplomatic, current).</p>\n<h3>Traits</h3>\n<ul>\n<li><strong>Reader of Hands.</strong> Veska can identify the writer of a document, the chop applied to it, and the era and provenance of the wax used to seal it, with up to a week's careful comparison work against her own files.</li>\n<li><strong>Notarial Standing.</strong> Her sworn notarial opinions are admissible in any Aerdi or Yeomanry court without further authentication.</li>\n<li><strong>Quiet Network.</strong> Veska maintains correspondence with eight other notaries across the Aerdi coast, all in cipher. She can request and receive a comparison-document from any of them within ten days.</li>\n</ul>\n<h3>Source</h3>\n<p><em>Blooming Rot, Part 2 — Phase 3.</em> See <em>Hardby NPCs → Veska Maelan</em> for full profile and approach phrase.</p>",
+        "public": ""
+      },
+      "alignment": "Lawful Neutral",
+      "race": null,
+      "type": { "value": "humanoid", "subtype": "human", "swarm": "", "custom": "" },
+      "environment": "urban",
+      "cr": 1,
+      "spellLevel": 0,
+      "source": { "custom": "Blooming Rot, Part 2", "book": "", "page": "", "license": "" }
+    },
+    "traits": {
+      "size": "med",
+      "di": { "value": [], "bypasses": [], "custom": "" },
+      "dr": { "value": [], "bypasses": [], "custom": "" },
+      "dv": { "value": [], "bypasses": [], "custom": "" },
+      "dm": { "amount": {}, "bypasses": [] },
+      "ci": { "value": [], "custom": "" },
+      "languages": { "value": ["common"], "custom": "Old Aerdi; Yeomanry diplomatic cipher" }
+    },
+    "currency": { "pp": 0, "gp": 0, "ep": 0, "sp": 0, "cp": 0 },
+    "skills": {
+      "his": { "value": 1, "ability": "int", "bonuses": { "check": "", "passive": "" } },
+      "ins": { "value": 1, "ability": "wis", "bonuses": { "check": "", "passive": "" } },
+      "inv": { "value": 2, "ability": "int", "bonuses": { "check": "", "passive": "" } },
+      "prc": { "value": 1, "ability": "wis", "bonuses": { "check": "", "passive": "" } },
+      "prs": { "value": 1, "ability": "cha", "bonuses": { "check": "", "passive": "" } }
+    },
+    "spells": {
+      "spell1": { "value": 0, "override": 0, "max": 0 },
+      "spell2": { "value": 0, "override": 0, "max": 0 },
+      "spell3": { "value": 0, "override": 0, "max": 0 },
+      "spell4": { "value": 0, "override": 0, "max": 0 },
+      "spell5": { "value": 0, "override": 0, "max": 0 },
+      "spell6": { "value": 0, "override": 0, "max": 0 },
+      "spell7": { "value": 0, "override": 0, "max": 0 },
+      "spell8": { "value": 0, "override": 0, "max": 0 },
+      "spell9": { "value": 0, "override": 0, "max": 0 },
+      "pact": { "value": 0, "override": null, "max": 0, "level": 0 }
+    },
+    "resources": {
+      "legact": { "value": 0, "max": 0 },
+      "legres": { "value": 0, "max": 0 },
+      "lair": { "value": false, "initiative": null }
+    },
+    "bonuses": {
+      "mwak": { "attack": "", "damage": "" },
+      "rwak": { "attack": "", "damage": "" },
+      "msak": { "attack": "", "damage": "" },
+      "rsak": { "attack": "", "damage": "" },
+      "abilities": { "check": "", "save": "", "skill": "" },
+      "spell": { "dc": "" }
+    }
+  },
+  "prototypeToken": {
+    "name": "Veska Maelan",
+    "displayName": 30,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "fit": "contain",
+      "anchorX": 0.5,
+      "anchorY": 0.5
+    },
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": 1,
+    "displayBars": 0,
+    "bar1": { "attribute": "attributes.hp" },
+    "bar2": { "attribute": null },
+    "light": { "alpha": 0.5, "angle": 360, "bright": 0, "color": null, "coloration": 1, "dim": 0, "attenuation": 0.5, "luminosity": 0.5, "saturation": 0, "contrast": 0, "shadows": 0, "animation": { "type": null, "speed": 5, "intensity": 5, "reverse": false }, "darkness": { "min": 0, "max": 1 }, "negative": false, "priority": 0 },
+    "sight": { "enabled": false, "range": 0, "angle": 360, "visionMode": "basic", "color": null, "attenuation": 0.1, "brightness": 0, "saturation": 0, "contrast": 0 },
+    "detectionModes": [],
+    "occludable": { "radius": 0 },
+    "ring": { "enabled": false, "colors": { "ring": null, "background": null }, "effects": 1, "subject": { "scale": 1, "texture": null } },
+    "flags": {}
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 100000,
+  "ownership": { "default": 0 },
+  "flags": { "blooming-rot-2": { "role": "investigative-witness", "ally": true } },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

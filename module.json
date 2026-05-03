@@ -2,7 +2,7 @@
   "id": "blooming-rot-2",
   "title": "Blooming Rot, Part 2",
   "description": "A Greyhawk adventure set in the pre-Wars Yeomanry. Phase 1: the return to Loftwick.",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "compatibility": {
     "minimum": "13",
     "verified": "13.351",
@@ -69,6 +69,24 @@
       "path": "packs/phase-2-actors",
       "type": "Actor",
       "system": "dnd5e"
+    },
+    {
+      "name": "phase-3-journals",
+      "label": "Phase 3 — Journals",
+      "path": "packs/phase-3-journals",
+      "type": "JournalEntry",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "phase-3-actors",
+      "label": "Phase 3 — NPCs",
+      "path": "packs/phase-3-actors",
+      "type": "Actor",
+      "system": "dnd5e"
     }
   ],
   "packFolders": [
@@ -87,6 +105,14 @@
       "packs": [
         "phase-2-journals",
         "phase-2-actors"
+      ]
+    },
+    {
+      "name": "Blooming Rot 2 — Phase 3",
+      "sorting": "m",
+      "packs": [
+        "phase-3-journals",
+        "phase-3-actors"
       ]
     }
   ]

@@ -8,18 +8,31 @@
       "_id": "BR2P5ArPgOpen",
       "name": "Opening — Return to the Little Palace",
       "type": "text",
-      "title": { "show": true, "level": 1 },
+      "title": {
+        "show": true,
+        "level": 1
+      },
       "image": {},
       "text": {
         "format": 1,
-        "content": "<p><em>Read aloud as the party reaches Loftwick at the close of a working day. Their travel-party has been small (Greyhawk-area route) or large (returning under any remaining diplomatic accreditation); adjust the small details accordingly. The intent is the same: the city is quieter, the Audit Hall is closed early, and the Little Palace is no longer the room where they were welcomed.</em></p>\n<blockquote>\n<p>You ride into Loftwick at the seventh bell. The road north of the South Gate is the same and the West Gate is the same and the Civic Way is paved with the same pale Yeomanry limestone, and the air smells of the same coal-smoke and stable-straw that it has smelled of in every season of every year your party has known the city. None of it is reassuring. The Civic Way is thinner than it should be at this hour. The clerks who would normally be returning home from the Audit Hall are not returning home from the Audit Hall, because the Audit Hall's outer doors are already shut for the evening, and the seventh bell has not yet rung at the Audit Hall.</p>\n<p>The militia at the West Gate are unfamiliar. Two of them — both younger than they should be for that posting — examine your papers, glance at one another, and wave you through with a politeness that feels rehearsed.</p>\n<p>The Little Palace, when you reach it, has a doubled watch at the door. Steward <strong>Elsbet Vael</strong> meets you in the entry vestibule with the expression of a woman who has been holding a difficult breath for a long week and is, finally, allowed to release it. She clasps the senior PC's hand for a moment longer than civic protocol allows and says, very quietly, &quot;He is in the office. He has been waiting since noon.&quot;</p>\n<p>The militia in the corridor do not speak as you pass.</p>\n<p>The Civic Office (you remember the way) is the room you read Haskur's gear in. The door is barred from inside. Elsbet knocks twice, pauses, knocks once more — a pattern you do not remember from before. The bar lifts. <strong>Caelith Dunivar</strong> is at the desk, the lamp lit and the correspondence cabinet locked behind him. He stands when you enter. The brass quill pin he wore at his lapel since he was twenty years in the post is gone.</p>\n<p>He looks at you for a moment longer than he is comfortable looking at anyone, and then he says, in a voice that is level and careful and unrejoicing:</p>\n<p>&quot;You did the work. You came back. The small matter is this: we are now inside the part of the conspiracy that survives exposure.&quot;</p>\n<p>He gestures to the visitor chairs.</p>\n<p>&quot;Sit. There has been news.&quot;</p>\n</blockquote>",
+        "content": "<p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/illustrations/p5-civic-office-guarded.png\" alt=\"Caelith Dunivar in the Civic Office, late afternoon, the door barred from inside, the brass quill pin missing from his lapel.\" style=\"max-width: 580px; border-radius: 4px;\"></p>\n<p style=\"text-align: center; font-style: italic; color: #6b5b3c; font-size: 0.9em;\">The Civic Office, more guarded now. The pin is gone.</p>\n<p><em>Read aloud as the party reaches Loftwick at the close of a working day. Their travel-party has been small (Greyhawk-area route) or large (returning under any remaining diplomatic accreditation); adjust the small details accordingly. The intent is the same: the city is quieter, the Audit Hall is closed early, and the Little Palace is no longer the room where they were welcomed.</em></p>\n<blockquote>\n<p>You ride into Loftwick at the seventh bell. The road north of the South Gate is the same and the West Gate is the same and the Civic Way is paved with the same pale Yeomanry limestone, and the air smells of the same coal-smoke and stable-straw that it has smelled of in every season of every year your party has known the city. None of it is reassuring. The Civic Way is thinner than it should be at this hour. The clerks who would normally be returning home from the Audit Hall are not returning home from the Audit Hall, because the Audit Hall's outer doors are already shut for the evening, and the seventh bell has not yet rung at the Audit Hall.</p>\n<p>The militia at the West Gate are unfamiliar. Two of them — both younger than they should be for that posting — examine your papers, glance at one another, and wave you through with a politeness that feels rehearsed.</p>\n<p>The Little Palace, when you reach it, has a doubled watch at the door. Steward <strong>Elsbet Vael</strong> meets you in the entry vestibule with the expression of a woman who has been holding a difficult breath for a long week and is, finally, allowed to release it. She clasps the senior PC's hand for a moment longer than civic protocol allows and says, very quietly, &quot;He is in the office. He has been waiting since noon.&quot;</p>\n<p>The militia in the corridor do not speak as you pass.</p>\n<p>The Civic Office (you remember the way) is the room you read Haskur's gear in. The door is barred from inside. Elsbet knocks twice, pauses, knocks once more — a pattern you do not remember from before. The bar lifts. <strong>Caelith Dunivar</strong> is at the desk, the lamp lit and the correspondence cabinet locked behind him. He stands when you enter. The brass quill pin he wore at his lapel since he was twenty years in the post is gone.</p>\n<p>He looks at you for a moment longer than he is comfortable looking at anyone, and then he says, in a voice that is level and careful and unrejoicing:</p>\n<p>&quot;You did the work. You came back. The small matter is this: we are now inside the part of the conspiracy that survives exposure.&quot;</p>\n<p>He gestures to the visitor chairs.</p>\n<p>&quot;Sit. There has been news.&quot;</p>\n</blockquote>",
         "markdown": ""
       },
-      "video": { "controls": true, "volume": 0.5, "autoplay": false, "loop": false, "timestamp": 0, "width": null, "height": null },
+      "video": {
+        "controls": true,
+        "volume": 0.5,
+        "autoplay": false,
+        "loop": false,
+        "timestamp": 0,
+        "width": null,
+        "height": null
+      },
       "src": null,
       "system": {},
       "sort": 100000,
-      "ownership": { "default": -1 },
+      "ownership": {
+        "default": -1
+      },
       "flags": {},
       "category": null
     },
@@ -28,18 +41,31 @@
       "_id": "BR2P5ArPgGmBrf",
       "name": "GM Brief — Phase 5 Purpose",
       "type": "text",
-      "title": { "show": true, "level": 1 },
+      "title": {
+        "show": true,
+        "level": 1
+      },
       "image": {},
       "text": {
         "format": 1,
         "content": "<p><em>Phase 5 is the campaign's pivot from investigating a conspiracy to actively counter-operating against a conspiracy that is now reading the party's mail. Set primarily in Loftwick, it is an aftermath / counterintelligence / political phase. The Little Palace should feel familiar but less safe than before. Avoid combat solutions. The horror is administrative.</em></p>\n<h2>What changed while the party was in Rel Astra</h2>\n<ol>\n<li><strong>Brane's Closure motion passed.</strong> Caelith has no institutional standing left. The Audit Hall has formally rescinded clerical support; his correspondence is now technically private — and reviewable on demand by the Council under the motion's terms. The only thing keeping the matter from being declared closed today is the motion's mandatory fourteen-day review period, which expires on Day 9.</li>\n<li><strong>Ostren Pell, the leak, has been identified.</strong> Caelith has known for three weeks. He is keeping Pell in place to trace the chain upward — and because removing Pell would tell Pell's handler that Caelith knows. Pell's lever is his unmarried older sister Sera; the second envelope from the handler arrived with her name written inside it and nothing else.</li>\n<li><strong>Trina's old correspondent in the wood has answered.</strong> A sealed packet arrived two days before the party returned. <strong>Trina Alvere</strong> has not opened it; she sent it on to Caelith, who is keeping it sealed for the party to break. The packet carries three new spoiler-safe observations of the &quot;E.&quot; annotator's hand.</li>\n<li><strong>Haskur Vandrell has been seen in Greyhawk City.</strong> A Yeomanry-aligned contact filed an affidavit five days ago. Haskur was in conversation with a younger man at the door of a Foreign Quarter counting-house. He used a name that is almost — but not quite — one of his known aliases. The trail is not yet cold but it is cooling.</li>\n</ol>\n<h2>Pacing</h2>\n<p>Phase 5 is designed to cover <strong>6–8 in-game days</strong> in Loftwick (longer if the party emphasizes the courier-chain investigation; shorter if they leave fast for Greyhawk City). The 6-segment Pressure Clock maps to days approximately:</p>\n<ul>\n<li><strong>Segment 0</strong> — Day 1: arrival + Caelith's framing speech (this scene).</li>\n<li><strong>Segment 1</strong> — Day 2: the Closure motion enters public record. Debrief scene happens in the morning.</li>\n<li><strong>Segment 2</strong> — Day 3: Pell passes a packet (real or false depending on the party's choice).</li>\n<li><strong>Segment 3</strong> — Day 5: enemy tests the party's evidence chain (broadside attack).</li>\n<li><strong>Segment 4</strong> — Day 7: Trina's correspondent endangered or goes silent.</li>\n<li><strong>Segment 5</strong> — Day 8: Haskur's Greyhawk trail begins to cool (commit-or-lose window opens).</li>\n<li><strong>Segment 6</strong> — Day 9: Closure motion comes to binding vote; Caelith forced to choose. Phase ends.</li>\n</ul>\n<h2>Tier and DC assumptions</h2>\n<p>Tier 2–3 (levels 8–11). Investigation DCs cap at 18, social DCs at 17. <strong>Single optional combat encounter</strong> in Phase 5: the courier handler Vesten Quill (CR 2) at his rented room above the Quill Street printer's, with one to three Thug accomplices. Tune by ±1 CR for your party's level.</p>\n<h2>What this phase delivers</h2>\n<ul>\n<li>The party's understanding shifts from <em>Sereth was the broker</em> to <em>Sereth was a glove. The hand is older.</em></li>\n<li>Three new observations of the &quot;E.&quot; annotator's hand: foreign sealing wax, surface-court script trained but not court-raised, and geographic impossibility for at least one annotation. <strong>Phase 5 does NOT name Eclavdra, House Eilserv, the Vault, the Underdark, or confirm the writer is non-human.</strong></li>\n<li>An actionable Greyhawk City lead: the Brass Crow counting-house, a manuscript dealer, a private courier archive.</li>\n<li>Tactical use of the Pell leak — five choices, four with continuing operational value.</li>\n<li>Three (or four, if Path A from Phase 4) viable next-phase vectors.</li>\n</ul>\n<h2>What this phase does NOT deliver</h2>\n<ul>\n<li>Resolution of the conspiracy.</li>\n<li>Naming of &quot;E.&quot;</li>\n<li>Removal of Brane or repeal of the Closure motion.</li>\n<li>A live confrontation with Haskur Vandrell. (He is in Greyhawk City; the party catches a trail, not the man.)</li>\n<li>Combat-driven climax. The phase ends at a council session, a sealed letter, or a sealed door — not a fight.</li>\n</ul>",
         "markdown": ""
       },
-      "video": { "controls": true, "volume": 0.5, "autoplay": false, "loop": false, "timestamp": 0, "width": null, "height": null },
+      "video": {
+        "controls": true,
+        "volume": 0.5,
+        "autoplay": false,
+        "loop": false,
+        "timestamp": 0,
+        "width": null,
+        "height": null
+      },
       "src": null,
       "system": {},
       "sort": 200000,
-      "ownership": { "default": -1 },
+      "ownership": {
+        "default": -1
+      },
       "flags": {},
       "category": null
     },
@@ -48,18 +74,31 @@
       "_id": "BR2P5ArPgFrmSpch",
       "name": "Caelith's Framing Speech",
       "type": "text",
-      "title": { "show": true, "level": 1 },
+      "title": {
+        "show": true,
+        "level": 1
+      },
       "image": {},
       "text": {
         "format": 1,
         "content": "<p><em>Read aloud at the end of Scene 1, in the Civic Office, door barred. Caelith does not raise his voice. He does not pace. He sits across from the party, sets four small papers on the desk between them — one for each of the four moving pieces — and speaks evenly. The papers are: a Council bulletin (the Closure motion), a small folded courier receipt (Pell), an unbroken wax-sealed packet (Trina), and an affidavit (Greyhawk).</em></p>\n<blockquote>\n<p>&quot;Four pieces. I will lay them out the way I would have laid them out for you a year ago, when I had a desk and a pin and a clerical staff to support me. I do not have those now. The desk I have is this one. Bear with me.</p>\n<p>&quot;The first piece. Brane's Closure motion has passed. The Audit Hall has rescinded my title pending a fourteen-day review period that ends on the morning of the ninth day from today. After that, the Council may declare the Blooming Rot matter resolved. If they do — and Brane has the votes, four to three — my correspondence becomes Council property. Anything I have written you, anything you have written me, is read. Anything you tell me from this evening forward must therefore be told here, in this room, with the door barred. I will not write it down.</p>\n<p>&quot;The second piece. There is a leak in my office. His name is Ostren Pell. I have known for three weeks. I am keeping him in place because his removal would tell whoever pays him that I know, and because the man who pays him is holding his sister. I would like you to understand that this is not a decision I am proud of. It is the only decision I had to make.</p>\n<p>&quot;The third piece. Trina's old correspondent in the wood — the woman she would not name to me until two days ago — has answered. The packet is sealed and I have not opened it. I will open it tomorrow, with you in the room, because I want at least four sets of eyes on what is written before I draw a conclusion from it. Trina trusts the correspondent. I will provisionally trust the correspondent. We will see.</p>\n<p>&quot;The fourth piece. Haskur Vandrell has been seen in Greyhawk City. A man whose oath I have known for fifteen years filed an affidavit five days ago: Haskur, in worn travel clothes, at the door of a counting-house called the Brass Crow, in conversation with a younger man whose gait — my contact's word — was 'not Aerdi and not Yeomanry.' The two of them entered the counting-house together. My contact did not follow.</p>\n<p>&quot;That is the small matter.&quot;</p>\n<p>He looks at each of you in turn.</p>\n<p>&quot;You went to Rel Astra and you stopped Sereth. Whatever you did to him, you stopped him. I am not asking you tonight which way you stopped him; we will work from your evidence in the morning. What I want you to understand tonight is this:</p>\n<p>&quot;Sereth was not the hand. He was a glove.</p>\n<p>&quot;The hand is older than him, and it is older than this office, and — if Trina's correspondent reads the marginalia the way I think she will — it has been writing on Aerdi paper for at least a decade longer than I have been on the case. It has not stopped. It has rearranged. We are inside the part of the conspiracy that survives exposure, and the only currency we have left is what it does not yet know we know.&quot;</p>\n<p>He pushes the four papers across the desk.</p>\n<p>&quot;Sleep here tonight. The Steward will see to dinner. We will work in the morning.&quot;</p>\n</blockquote>\n<hr>\n<h2>GM notes</h2>\n<ul>\n<li>Do not let Caelith answer detailed questions tonight. He is not stalling — he is genuinely tired and wants the morning. Players who push will get one-sentence redirects: <em>&quot;Tomorrow.&quot; &quot;In the morning, with the papers in your hands.&quot; &quot;The answer is in the packet, which I will not open without you.&quot;</em></li>\n<li>If a player asks <em>why he is keeping Pell in place</em>, he will answer that one — see Deliverable 6.</li>\n<li>If a player asks <em>who Trina's correspondent is</em>, he will say only: <em>&quot;A woman who reads hands. Trina has trusted her for many years. I have not met her.&quot;</em></li>\n<li>End the scene. Hold the rest of the phase for tomorrow's debrief.</li>\n</ul>",
         "markdown": ""
       },
-      "video": { "controls": true, "volume": 0.5, "autoplay": false, "loop": false, "timestamp": 0, "width": null, "height": null },
+      "video": {
+        "controls": true,
+        "volume": 0.5,
+        "autoplay": false,
+        "loop": false,
+        "timestamp": 0,
+        "width": null,
+        "height": null
+      },
       "src": null,
       "system": {},
       "sort": 300000,
-      "ownership": { "default": -1 },
+      "ownership": {
+        "default": -1
+      },
       "flags": {},
       "category": null
     },
@@ -68,26 +107,45 @@
       "_id": "BR2P5ArPgLtr7",
       "name": "Caelith's Letter 7 — Pre-Departure",
       "type": "text",
-      "title": { "show": true, "level": 1 },
+      "title": {
+        "show": true,
+        "level": 1
+      },
       "image": {},
       "text": {
         "format": 1,
         "content": "<p><em>Caelith hands the party a sealed letter on the morning they leave Loftwick at the close of Phase 5. He hands it folded and unread; he asks them not to open it until they are at least one day's ride out of the city — &quot;the seal is good for that long, and after that I would prefer the contents to be in your saddlebag rather than on my desk.&quot; Four short variants follow, one per ending vector. Use only the variant matching the party's chosen vector.</em></p>\n<h2>Variant A — for the Greyhawk City vector</h2>\n<blockquote>\n<p>If you are reading this on the road north, you have chosen Greyhawk. Good. Greyhawk City is a poor place to grieve in but a good place to listen, and Haskur is, by the affidavit you have read, listening to someone we have not yet met.</p>\n<p>Three notes. First — do not approach the Brass Crow on your first day. Spend a day in the Foreign Quarter without entering it. Watch who arrives. The man whose gait is not Aerdi and not Yeomanry will be there before Haskur is. He is the question; Haskur is the door.</p>\n<p>Second — there is a manuscript dealer in the Garden Quarter, a half-Suel woman named <strong>Iren Velash</strong>, who has, in correspondence with the Audit Hall in years past, given accurate readings on documents I sent her. She is not friendly. She is honest. The phrase to bring her is <em>&quot;the seventh question of the third volume.&quot;</em> She will know what it means. I do not.</p>\n<p>Third — write me by the trade post in the Free City of Hardby (yes, again), not by the Domain post. The Domain post is read by people I do not yet trust. The Hardby post is, for now, still read by Veska's cipher.</p>\n<p>Travel safely.</p>\n<p>— C.</p>\n</blockquote>\n<h2>Variant B — for the Wood Correspondent vector</h2>\n<blockquote>\n<p>If you are reading this in the foothills of the Stark Mounds, you have chosen Aldea. Good. Trina's hand is on this; she would not have opened that door for me, and she has opened it for you.</p>\n<p>Two notes. First — the road into Aldea's valley is not patrolled but it is observed. If you are followed, the watcher will be someone Aldea will know by gait before you do. Trust her if she tells you to wait at the bend before the cottage. There is a reason she has lived there for as long as she has.</p>\n<p>Second — bring her the original of every recovered marginalia sample, not copies. She reads paper as much as she reads ink, and your copies will tell her less than the originals will. I have packed them with the seal you saw on the workbench. They are safe in your hands and they will be safe in hers.</p>\n<p>If she asks you a question I have not asked her, answer it honestly. She is not Trina, and she is not me, but she is the only person I currently trust on this thread to answer her own next question correctly.</p>\n<p>Write me from the Stark Mounds post-house when you ride back. The post-house is honest.</p>\n<p>— C.</p>\n</blockquote>\n<h2>Variant C — for the Counter-Leak Operation vector</h2>\n<blockquote>\n<p>If you are reading this in Loftwick, you have chosen the harder of the three primary doors. Good. The reason is selfish: I cannot run this operation alone, and the Audit Hall will not run it for me.</p>\n<p>Three notes. First — do not move on Vesten Quill before the morning of the eighth day from this letter. The handler's collection schedule pivots on the seventh; we want him in the new pattern, not the old. Pell will tell you when the cold-stove rag is on the back step.</p>\n<p>Second — Sera Pell is, until this is finished, your responsibility, not Pell's and not mine. The dressmaker's shop on Wick Lane needs three things: a second exit through the alley, two of you within earshot at all times she is on the street, and a credible reason for any visitor she does not know. Trina has agreed to send a courier of her own to play the customer.</p>\n<p>Third — when you take Quill, take him quietly. Aerdi commercial circles do not need to know we have moved. Hardby does not need to know either. The next layer above Quill is a Hardby-aligned letter agency operating out of a Greyhawk City address; that is the door we want closed without anyone hearing it close.</p>\n<p>I will be in the Civic Office. The door will be barred. Use Elsbet's knock.</p>\n<p>— C.</p>\n</blockquote>\n<h2>Variant D — for the Rel Astra Legal Continuation vector (only available if Sereth was indicted in Phase 4)</h2>\n<blockquote>\n<p>If you are reading this aboard a coastal galley east of Hardby, you have chosen the long path. Good. The court is the slow door but it is the door that stays open.</p>\n<p>Two notes. First — Halask wrote me four days ago. The procedural motions I expected from C&amp;V's defense have arrived; the trial slips by thirty to sixty days. Halask is patient. He has more procedural patience than the firm has lawyers, and he is willing to spend it. What he needs from you is the corroborating depositions he could not compel from Loftwick. Solen Mereth is one. The Hardby junior partner is another. Vella Tannin is the third if she has been extracted.</p>\n<p>Second — Astor will not be visible. He will be present at the second hearing only by signed affidavit. Do not press him to attend in person. The Old Harbor Ward Council is not a place a chandler needs to be photographed standing.</p>\n<p>I will write you again at the Aerdi commercial registrar's address. Burn this letter when you have read it twice.</p>\n<p>— C.</p>\n</blockquote>",
         "markdown": ""
       },
-      "video": { "controls": true, "volume": 0.5, "autoplay": false, "loop": false, "timestamp": 0, "width": null, "height": null },
+      "video": {
+        "controls": true,
+        "volume": 0.5,
+        "autoplay": false,
+        "loop": false,
+        "timestamp": 0,
+        "width": null,
+        "height": null
+      },
       "src": null,
       "system": {},
       "sort": 400000,
-      "ownership": { "default": -1 },
+      "ownership": {
+        "default": -1
+      },
       "flags": {},
       "category": null
     }
   ],
   "folder": null,
   "sort": 100000,
-  "ownership": { "default": 0 },
-  "flags": { "blooming-rot-2": { "phase": 5 } },
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "blooming-rot-2": {
+      "phase": 5
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,

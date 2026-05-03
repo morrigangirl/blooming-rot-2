@@ -50,6 +50,8 @@ packs/_source/                    editable JSON (one file per top-level doc)
   phase-3-actors/
   phase-4-journals/
   phase-4-actors/
+  phase-5-journals/
+  phase-5-actors/
 packs/                            compiled LevelDB (regenerate after editing)
 assets/
   maps/                           little-palace-{main-floor,2nd-floor,cellar}.webp; Loftwick.jpg
@@ -141,3 +143,29 @@ Phase 4 is the long climax. The party arrives in the city the conspiracy actuall
 - **Tarlith Vhal Sereth** (CR 5 non-combatant villain with bodyguard chain — Two Veterans + Knight Bodyguard Captain at his offices; he yields if isolated and reduced to half HP; will not personally kill).
 - **Therion Halask** (CR 1/2 procedural anchor; killing him closes Path 1).
 - **Belven Astor** (CR 1/2 honest councilor + chandler), **Galenix Naelax** (CR 1 Aerdy claimant), **Faren Mirelth** (CR 1/4 reformer), **Andrune Vesh** (CR 1/2 academic), **Coriath Tenrel** (CR 1 advocate).
+
+## What's in Phase 5 — *The Small Matter*
+
+Phase 5 is the campaign's pivot from investigating a conspiracy to **actively counter-operating against a conspiracy that is now reading the party's mail**. Set primarily in Loftwick, an aftermath / counterintelligence / political phase. The Little Palace feels familiar but less safe than before. The party returns to find Caelith's institutional standing collapsed, an active leak inside his office, and three new actionable threads.
+
+- **Brane's Closure motion has passed.** Caelith has no institutional standing left; the Audit Hall has rescinded clerical support. The motion enters its mandatory fourteen-day review period — Phase 5's outer deadline. On Day 9 it comes to a binding vote.
+- **Ostren Pell, the leak**, has been identified. Coerced through ambition (a gambling debt his late father left him) and held in place by his unmarried older sister Sera. Caelith pities him and uses him; both are true.
+- **Trina's "old correspondent in the wood" has answered.** A sealed packet from **Mistress Aldea Veren** — half-elven retired scholar of pre-Aerdy paleography — carries three new spoiler-safe observations on the "E." annotation hand: a foreign sealing wax, a hand trained by reading court scripts but not by being taught them, and a geographic impossibility for at least one annotation.
+- **Haskur Vandrell has been seen in Greyhawk City.** A Yeomanry-aligned contact filed an affidavit five days ago. Haskur was at the Brass Crow counting-house in the Foreign Quarter, in conversation with a younger man whose gait was "not Aerdi and not Yeomanry."
+- **Five Pell-handling choices** with continuing consequences (expose, turn, feed false information, shadow, remove). Killing Pell is treated as a serious moral and political failure unless extreme circumstances justify it.
+- **Five-lie False-Packet Menu** the party can feed through Pell to misdirect the conspiracy's response.
+- **Five-location courier-chain investigation** culminating in the optional Vesten Quill skirmish — the only combat encounter in Phase 5.
+- **Six-segment Pressure Clock** mapped to specific in-game days, with the Closure motion vote as a fixed Day 9 outer bound.
+- **Three (or four, on Path A) ending vectors** — Greyhawk City (follow Haskur), the Wood Correspondent (visit Aldea in person), Counter-Leak Operation (stay in Loftwick and trap the handler), and conditionally Rel Astra Legal Continuation.
+
+Phase 5 advances the "E." thread further but does not name Eclavdra, House Eilserv, the Vault, the Underdark, or confirm the writer is non-human. Caelith's late letter to the party in Phase 4 — *"the conspiracy you have named is not the conspiracy"* — is operationalized here.
+
+## Phase 5 NPCs (shipped as Foundry actors)
+
+- **Ostren Pell** (CR 0 coerced clerk) — the leak in Caelith's office.
+- **Mistress Aldea Veren** (CR 1/4 half-elven paleographer) — Trina's old correspondent in the wood.
+- **Ortwell Brane** (CR 1/2 principled civic antagonist) — architect of the Closure motion. Not corrupt; not E.'s asset; cannot be bought, threatened, or shamed; can be outmaneuvered.
+- **Edda Halvern** (CR 0 quiet co-sponsor) — closure co-sponsor for unrelated militia funding reasons. Persuadable via a side deal.
+- **Mairra Voss** (CR 0 sympathetic councilor) — the party's procedural ally, will sponsor a renewed vote with documented case in hand.
+- **Marshal Rennic Thale** (CR 4 militia commander) — Loftwick militia. Council-instructed to be aware of the party's movements; persuadable to provide quiet support and optional combat backup.
+- **Vesten Quill** (CR 2 hostile courier handler) — the layer above Pell's courier; the only optional combat encounter in Phase 5.

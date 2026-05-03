@@ -8,18 +8,31 @@
       "_id": "BR2P5LdPgA",
       "name": "Vector A — Greyhawk City",
       "type": "text",
-      "title": { "show": true, "level": 1 },
+      "title": {
+        "show": true,
+        "level": 1
+      },
       "image": {},
       "text": {
         "format": 1,
-        "content": "<h2>Vector A — Greyhawk City</h2>\n<p><em>Follow Haskur Vandrell and the younger man. Focus: aliases, information brokers, manuscript trade, courier networks. Fastest route to a living enemy node.</em></p>\n<h3>The starting clue</h3>\n<p>The Greyhawk affidavit (Handout 4). Five days before the party returned, a Yeomanry-aligned contact in Greyhawk City — name <strong>Tellan Verth</strong>, a retired militia sergeant living in the Foreign Quarter — observed Haskur Vandrell at the door of a counting-house called <strong>the Brass Crow</strong>. Haskur was in conversation with a younger man whose gait was &quot;not Aerdi and not Yeomanry.&quot; They entered the counting-house together. Verth did not follow.</p>\n<p>Haskur used the name <strong>&quot;H. V. Andren&quot;</strong> at the counting-house's outer desk. Close enough to be him; different enough to be deniable. Verth recognized him by face, not by name.</p>\n<h3>The three Greyhawk City nodes</h3>\n<ol>\n<li><strong>The Brass Crow counting-house</strong> (Foreign Quarter). A small Aerdy-aligned counting-house specializing in foreign and emigrant clients. Modest premises; brass-bound doors; a brass figure of a crow above the lintel. The counting-house keeps a Foreign Quarter-style guest registry that visitors sign on entry. Haskur's signature (as &quot;H. V. Andren&quot;) is on the registry for the date Verth saw him. Caelith advises the party not to approach on their first day; spend a day in the Foreign Quarter without entering, watching who arrives. The younger man arrives before Haskur does; he is the question, Haskur is the door.</li>\n<li><strong>Iren Velash, manuscript dealer</strong> (Garden Quarter). Half-Suel woman, mid-fifties, quiet, honest, not friendly. She has, in correspondence with the Audit Hall in years past, given accurate readings on documents Caelith sent her. The phrase Caelith provides — <em>&quot;the seventh question of the third volume&quot;</em> — will identify the party as Caelith's. She knows it; he does not. She will read any document the party brings her in two to four days, charge a modest fee, and provide a written analysis. <strong>She is the party's Greyhawk-City equivalent of Aldea</strong> — narrower in expertise (Suel and Aerdy manuscripts, no sealing materials), but accessible without travel.</li>\n<li><strong>The private courier archive near the High Quay</strong>. A small back-room business that maintains records of regular couriers and the addresses they serve. Run by a former imperial customs official named <strong>Edrik Vone</strong>. Vone is corruptible (a 50-gp bribe will get the party access to his ledger of regular couriers; a 200-gp bribe will get them access to his ledger of irregular couriers, where the conspiracy's Greyhawk City handler appears under a hand-altered name). Vone is not aligned with the conspiracy; he simply sells what he has. <strong>Caelith does not approve of bribing Vone but will not stop the party.</strong></li>\n</ol>\n<h3>What this vector cannot do</h3>\n<p>The party will not catch Haskur in person on this vector. Haskur is too cautious; the conspiracy's Greyhawk City handler will move him within 48 hours of the party's first visible approach to the Brass Crow. What the party can do is identify the handler, identify the channel, and gather enough material for Caelith to direct further work. <em>Phase 6 may catch Haskur. Phase 5 catches the trail.</em></p>\n<h3>If the party used Lie 1 (&quot;Haskur is in Rel Astra&quot;) before traveling</h3>\n<p>The Greyhawk City node is lightly observed for 6–9 days. The Brass Crow's countersurveillance relaxes; Iren Velash becomes safe to approach openly; Vone's irregular-courier ledger becomes accessible at the lower 50-gp bribe rate. <strong>This is the optimal pairing for Vector A.</strong></p>\n<h3>The handler the party identifies</h3>\n<p>The conspiracy's Greyhawk City handler is a woman the party does not see in this phase. Her hand-altered name in Vone's ledger is <strong>&quot;V. Korre&quot;</strong>; the actual name (and identity) is a Phase 6 question. What the party will learn: V. Korre operates from a Foreign Quarter address that changes monthly, communicates via the Brass Crow's foreign-correspondent channel, and is the receiving end of at least three Hardby-aligned letter agency packets per month.</p>\n<h3>What the party brings home</h3>\n<ul>\n<li>Confirmation that Haskur Vandrell is alive and active in Greyhawk City.</li>\n<li>The pseudonym &quot;H. V. Andren&quot; — important for Phase 6 surveillance.</li>\n<li>Iren Velash's written analysis of any document the party brings her (likely corroborating Aldea's three observations from a different professional angle).</li>\n<li>Vone's ledger entry for V. Korre.</li>\n<li>The understanding that Haskur is not acting alone — the younger man is real, and his gait is the same gait Caelith's contact noted in his original affidavit.</li>\n</ul>",
+        "content": "<p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/illustrations/p5-greyhawk-sighting.png\" alt=\"Haskur Vandrell in worn Aerdy travel clothes at the door of the Brass Crow counting-house in Greyhawk City, in conversation with a younger man in unfamiliar grey-and-bone clothing whose gait is not Aerdi and not Yeomanry.\" style=\"max-width: 580px; border-radius: 4px;\"></p>\n<p style=\"text-align: center; font-style: italic; color: #6b5b3c; font-size: 0.9em;\">The Brass Crow at the eleventh bell. Haskur listening. The younger man speaking.</p>\n<h2>Vector A — Greyhawk City</h2>\n<p><em>Follow Haskur Vandrell and the younger man. Focus: aliases, information brokers, manuscript trade, courier networks. Fastest route to a living enemy node.</em></p>\n<h3>The starting clue</h3>\n<p>The Greyhawk affidavit (Handout 4). Five days before the party returned, a Yeomanry-aligned contact in Greyhawk City — name <strong>Tellan Verth</strong>, a retired militia sergeant living in the Foreign Quarter — observed Haskur Vandrell at the door of a counting-house called <strong>the Brass Crow</strong>. Haskur was in conversation with a younger man whose gait was &quot;not Aerdi and not Yeomanry.&quot; They entered the counting-house together. Verth did not follow.</p>\n<p>Haskur used the name <strong>&quot;H. V. Andren&quot;</strong> at the counting-house's outer desk. Close enough to be him; different enough to be deniable. Verth recognized him by face, not by name.</p>\n<h3>The three Greyhawk City nodes</h3>\n<ol>\n<li><strong>The Brass Crow counting-house</strong> (Foreign Quarter). A small Aerdy-aligned counting-house specializing in foreign and emigrant clients. Modest premises; brass-bound doors; a brass figure of a crow above the lintel. The counting-house keeps a Foreign Quarter-style guest registry that visitors sign on entry. Haskur's signature (as &quot;H. V. Andren&quot;) is on the registry for the date Verth saw him. Caelith advises the party not to approach on their first day; spend a day in the Foreign Quarter without entering, watching who arrives. The younger man arrives before Haskur does; he is the question, Haskur is the door.</li>\n<li><strong>Iren Velash, manuscript dealer</strong> (Garden Quarter). Half-Suel woman, mid-fifties, quiet, honest, not friendly. She has, in correspondence with the Audit Hall in years past, given accurate readings on documents Caelith sent her. The phrase Caelith provides — <em>&quot;the seventh question of the third volume&quot;</em> — will identify the party as Caelith's. She knows it; he does not. She will read any document the party brings her in two to four days, charge a modest fee, and provide a written analysis. <strong>She is the party's Greyhawk-City equivalent of Aldea</strong> — narrower in expertise (Suel and Aerdy manuscripts, no sealing materials), but accessible without travel.</li>\n<li><strong>The private courier archive near the High Quay</strong>. A small back-room business that maintains records of regular couriers and the addresses they serve. Run by a former imperial customs official named <strong>Edrik Vone</strong>. Vone is corruptible (a 50-gp bribe will get the party access to his ledger of regular couriers; a 200-gp bribe will get them access to his ledger of irregular couriers, where the conspiracy's Greyhawk City handler appears under a hand-altered name). Vone is not aligned with the conspiracy; he simply sells what he has. <strong>Caelith does not approve of bribing Vone but will not stop the party.</strong></li>\n</ol>\n<h3>What this vector cannot do</h3>\n<p>The party will not catch Haskur in person on this vector. Haskur is too cautious; the conspiracy's Greyhawk City handler will move him within 48 hours of the party's first visible approach to the Brass Crow. What the party can do is identify the handler, identify the channel, and gather enough material for Caelith to direct further work. <em>Phase 6 may catch Haskur. Phase 5 catches the trail.</em></p>\n<h3>If the party used Lie 1 (&quot;Haskur is in Rel Astra&quot;) before traveling</h3>\n<p>The Greyhawk City node is lightly observed for 6–9 days. The Brass Crow's countersurveillance relaxes; Iren Velash becomes safe to approach openly; Vone's irregular-courier ledger becomes accessible at the lower 50-gp bribe rate. <strong>This is the optimal pairing for Vector A.</strong></p>\n<h3>The handler the party identifies</h3>\n<p>The conspiracy's Greyhawk City handler is a woman the party does not see in this phase. Her hand-altered name in Vone's ledger is <strong>&quot;V. Korre&quot;</strong>; the actual name (and identity) is a Phase 6 question. What the party will learn: V. Korre operates from a Foreign Quarter address that changes monthly, communicates via the Brass Crow's foreign-correspondent channel, and is the receiving end of at least three Hardby-aligned letter agency packets per month.</p>\n<h3>What the party brings home</h3>\n<ul>\n<li>Confirmation that Haskur Vandrell is alive and active in Greyhawk City.</li>\n<li>The pseudonym &quot;H. V. Andren&quot; — important for Phase 6 surveillance.</li>\n<li>Iren Velash's written analysis of any document the party brings her (likely corroborating Aldea's three observations from a different professional angle).</li>\n<li>Vone's ledger entry for V. Korre.</li>\n<li>The understanding that Haskur is not acting alone — the younger man is real, and his gait is the same gait Caelith's contact noted in his original affidavit.</li>\n</ul>\n<hr>\n<h2>Handout</h2>\n<p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/handouts/p5-greyhawk-affidavit.png\" alt=\"Tellan Verth's affidavit recording Haskur Vandrell's appearance at the Brass Crow with a younger man whose gait was not Aerdi and not Yeomanry.\" style=\"max-width: 580px; border-radius: 4px;\"></p>\n<p style=\"text-align: center; font-style: italic; color: #6b5b3c; font-size: 0.9em;\">Handout 4 — The Greyhawk City sighting affidavit. Pass to the players at the start of the Vector A briefing.</p>\n",
         "markdown": ""
       },
-      "video": { "controls": true, "volume": 0.5, "autoplay": false, "loop": false, "timestamp": 0, "width": null, "height": null },
+      "video": {
+        "controls": true,
+        "volume": 0.5,
+        "autoplay": false,
+        "loop": false,
+        "timestamp": 0,
+        "width": null,
+        "height": null
+      },
       "src": null,
       "system": {},
       "sort": 100000,
-      "ownership": { "default": -1 },
+      "ownership": {
+        "default": -1
+      },
       "flags": {},
       "category": null
     },
@@ -28,18 +41,31 @@
       "_id": "BR2P5LdPgB",
       "name": "Vector B — The Wood Correspondent",
       "type": "text",
-      "title": { "show": true, "level": 1 },
+      "title": {
+        "show": true,
+        "level": 1
+      },
       "image": {},
       "text": {
         "format": 1,
         "content": "<h2>Vector B — The Wood Correspondent</h2>\n<p><em>Travel west to Aldea Veren's cottage in the Stark Mounds, brief her in person, and ask the next questions her written reply could not safely answer. Best route to deepening the &quot;E.&quot; mystery without naming it.</em></p>\n<h3>The road</h3>\n<p>A day's careful ride west of Loftwick on the Stark Mounds road, then a half-day's ride south on a minor track that is not marked on most Yeomanry maps. The track winds through scrub and beech into a sheltered fold of the foothills. Aldea's valley is at the end. The cottage is visible only from within the valley itself; from the track above, only a thin curl of woodsmoke gives it away.</p>\n<p>The road is not patrolled. It is observed — by Aldea, by the things that live in the valley, and (if Lie 2 was used as a false packet) by a small reconnaissance party of conspiracy riders who have been watching the foothills road for two days.</p>\n<h3>Reaching Aldea</h3>\n<p>Aldea will receive the party if they have her name from Trina or from Caelith's framing speech. She will not receive them if they arrive without invitation. The party should bring:</p>\n<ul>\n<li><strong>The originals</strong> of every recovered marginalia sample they have. (Caelith provides these in a sealed parchment satchel marked with the workbench seal.) Aldea reads paper as much as she reads ink; copies tell her less.</li>\n<li><strong>Trina's written introduction.</strong> Caelith provides this if the party asks; otherwise they may ask Trina directly. Trina will provide it in person, with one personal request: that the party tell Aldea Trina sends her regards and that &quot;the apprentice has been a credit to the workshop&quot; (a phrase that means something specific to Aldea and nothing to anyone else).</li>\n<li><strong>One offered courtesy:</strong> a small jar of iron-gall ink, a fresh quill, or a length of good vellum. Aldea will accept the courtesy with a nod and add it to her workshop. Players who bring nothing will not be turned away but will be received more briefly.</li>\n</ul>\n<h3>The visit</h3>\n<p>Aldea takes the originals to her workshop, lays them out on a clean linen square, and studies them in front of the party for one to three hours depending on what they brought. She narrates as she works — short sentences, occasional questions to the party (&quot;When was this seal last opened?&quot; &quot;Did you handle this document with bare hands?&quot; &quot;The corner here — was this fold made before or after the wax was set?&quot;). She drinks pale tea throughout. The brindle dog sleeps under the workbench.</p>\n<p>When she is finished, she will offer the party three to five additional answers — slowly, precisely, and only to questions they actually ask. <strong>She will not name the writer. She will not speculate about the writer's species or location.</strong></p>\n<h3>The right question (player-facing hint)</h3>\n<p>Caelith, before the party leaves, will give them a single piece of advice on how to get the most from Aldea: <em>&quot;She will not write down what she suspects. She will say what she suspects only if you ask the question that lets her say it. Ask narrowly. Ask about what someone could have learned, not about what someone is. The difference is everything.&quot;</em></p>\n<p>(See Aldea's NPC page for the GM-only note on which question unlocks her private speculation.)</p>\n<h3>What this vector cannot do</h3>\n<p>Aldea will not name &quot;E.&quot; She will not say &quot;drow.&quot; She will not say &quot;underdark.&quot; She will not point to a place on a map. What she will give the party — if asked correctly — is one further suspicion they can carry away in their heads, plus a deeper professional reading of the marginalia that will, in Phase 6 or beyond, become the foundation of further work.</p>\n<h3>If the party used Lie 2 before traveling</h3>\n<p>Aldea is no longer at the cottage when the party arrives. A note is pinned to her workshop door in her measured hand: <em>&quot;Going to my sister's for a season. The samples you sent are in the press, sealed. Take them. — A.&quot;</em> The samples are intact. The cottage is otherwise undisturbed. The brindle dog is gone. The owl is on the roof.</p>\n<p>Investigation DC 14 in the valley reveals the conspiracy reconnaissance party's tracks (two riders, one observer) and a partial campsite at the foothills road. Tracks lead toward a small inn at the foothills road called the <strong>Stark's Foot</strong>. The party may pursue and recover one piece of equipment dropped by the observer (a small leather tube that originally contained a folded watch-orders sheet; the sheet itself has been burned, but a corner survives, in a Hardby-aligned letter agency hand).</p>\n<h3>What the party brings home</h3>\n<ul>\n<li>Aldea's verbal speculation (if the right question was asked) — held in players' heads, not in writing.</li>\n<li>A deeper reading of the marginalia — Aldea will provide a written summary of her professional findings to that point, suitable for use in Phase 6.</li>\n<li>If Lie 2 was used: tracks of conspiracy reconnaissance and one partial intercept (the burned watch-orders corner).</li>\n</ul>",
         "markdown": ""
       },
-      "video": { "controls": true, "volume": 0.5, "autoplay": false, "loop": false, "timestamp": 0, "width": null, "height": null },
+      "video": {
+        "controls": true,
+        "volume": 0.5,
+        "autoplay": false,
+        "loop": false,
+        "timestamp": 0,
+        "width": null,
+        "height": null
+      },
       "src": null,
       "system": {},
       "sort": 200000,
-      "ownership": { "default": -1 },
+      "ownership": {
+        "default": -1
+      },
       "flags": {},
       "category": null
     },
@@ -48,18 +74,31 @@
       "_id": "BR2P5LdPgC",
       "name": "Vector C — Counter-Leak Operation",
       "type": "text",
-      "title": { "show": true, "level": 1 },
+      "title": {
+        "show": true,
+        "level": 1
+      },
       "image": {},
       "text": {
         "format": 1,
         "content": "<h2>Vector C — Counter-Leak Operation</h2>\n<p><em>Stay in Loftwick. Trap the handler (Vesten Quill) using Pell as bait. Identify the next communication layer above Quill (the Hardby-aligned letter agency operating out of a Greyhawk City address). Protect Caelith. Best route for preserving the party's home base while damaging the enemy's information channel.</em></p>\n<h3>The operation</h3>\n<p>Three pieces, run in parallel over six to eight days:</p>\n<ol>\n<li><strong>The leak choice.</strong> The party has already chosen one of the five options on the Pell page. If they chose Choice 2 (Turn) or Choice 3 (Feed), the courier-chain investigation runs in parallel with the leak's continuing use. If they chose Choice 4 (Shadow), the courier-chain investigation IS the operation. Choices 1 and 5 are not consistent with this vector — if the party chose Expose or Remove, this vector is closed and they should pursue Vector A or B instead.</li>\n<li><strong>The courier-chain investigation.</strong> See <em>The Courier Chain — Tracing Up From Pell</em>. Five locations, three to five in-game days, optional combat encounter at Vesten Quill's room.</li>\n<li><strong>The Sera protection assignment.</strong> If Pell has been turned (Choice 2), Sera Pell must be visibly protected for the rest of Phase 5. Two PCs within earshot of her shop at all times she is on the street; a credible second exit through the alley; a courier of Trina's playing the customer to give cover. Trina will provide the courier on request.</li>\n</ol>\n<h3>The Vesten Quill encounter</h3>\n<p>If the party corners Quill at his Quill Street room (see The Courier Chain, Location 4), the optional combat encounter fires. Quill surrenders at half HP and names the next layer up: a small Hardby-aligned letter agency operating out of a Greyhawk City address. <strong>This is the identification the vector exists to produce.</strong></p>\n<p>The Hardby-aligned letter agency is, like Quill, an intermediary — not the conspiracy itself, but a piece of its information infrastructure. Closing the Loftwick-side of the channel forces the conspiracy to reroute its surveillance through a slower, less reliable path. <strong>This is the vector's tactical win.</strong></p>\n<h3>The political win — leveraging the receipt</h3>\n<p>The compromised courier receipt (Handout 6) recovered from the Hall of Bonds drop or from Quill's room is the documentary evidence the party can present to <strong>Mairra Voss</strong> to support a renewed Council vote against the Closure motion. With the receipt:</p>\n<ul>\n<li>Mairra will procedurally sponsor a renewed vote with three days' notice.</li>\n<li>If <strong>Edda Halvern</strong> has also been moved (via the militia funding side deal), the renewed vote shifts from 4–3 to 3–4. <strong>The Closure motion does not pass on Day 9.</strong></li>\n<li>If Halvern has not been moved, the renewed vote remains 4–3 and the Closure motion passes — but Brane will move privately for a procedural recess (the motion is held over for further consideration in 90 days, not closed permanently).</li>\n</ul>\n<h3>Marshal Thale's optional support</h3>\n<p>Thale will provide quiet support for the courier-chain operation if approached correctly (see his NPC page). His whistle-response is the contingency for the Quill encounter if the conspiracy reinforces. <strong>Approach Thale before the operation begins, not during.</strong></p>\n<h3>What this vector cannot do</h3>\n<p>This vector does not catch Haskur Vandrell, does not deepen the &quot;E.&quot; thread, and does not fix the long-term structural problem (the conspiracy will, eventually, reroute its surveillance and recruit a new clerk in a different office). What it does is preserve Caelith's operational foundation, damage the enemy's tactical reach, and give the party a documented win they can present in Council.</p>\n<h3>What the party brings home</h3>\n<ul>\n<li>The Hardby-aligned letter agency's name and Greyhawk City address (the next intelligence target).</li>\n<li>The compromised courier receipt (Handout 6) — usable in Council and in any future Aerdi commercial-court matter.</li>\n<li>If Halvern was moved: the Closure motion does not pass; Caelith retains nominal Audit Hall standing for Phase 6.</li>\n<li>If Quill was taken alive and turned over to Marshal Thale: a deposition on file with the Loftwick militia, plus a small further intelligence trickle as Quill is questioned.</li>\n<li>Sera Pell alive and unharmed, if Pell was turned.</li>\n</ul>",
         "markdown": ""
       },
-      "video": { "controls": true, "volume": 0.5, "autoplay": false, "loop": false, "timestamp": 0, "width": null, "height": null },
+      "video": {
+        "controls": true,
+        "volume": 0.5,
+        "autoplay": false,
+        "loop": false,
+        "timestamp": 0,
+        "width": null,
+        "height": null
+      },
       "src": null,
       "system": {},
       "sort": 300000,
-      "ownership": { "default": -1 },
+      "ownership": {
+        "default": -1
+      },
       "flags": {},
       "category": null
     },
@@ -68,18 +107,31 @@
       "_id": "BR2P5LdPgD",
       "name": "Vector D — Rel Astra Legal Continuation (Path A only)",
       "type": "text",
-      "title": { "show": true, "level": 1 },
+      "title": {
+        "show": true,
+        "level": 1
+      },
       "image": {},
       "text": {
         "format": 1,
         "content": "<h2>Vector D — Rel Astra Legal Continuation</h2>\n<p><em>Conditional. Available only if Phase 4 closed with Sereth indicted in Aerdi Commercial Court (Path A). Follow Halask's court filings; protect witnesses; freeze Cindren &amp; Vhal's local machinery for an additional 90–180 days. Largely off-screen; the party returns to Rel Astra for one or two short scenes only.</em></p>\n<h3>Why this vector</h3>\n<p>The Sereth indictment is the conspiracy's worst legal outcome. If the trial proceeds to conviction, Cindren &amp; Vhal Rel Astra is structurally weakened in Aerdi commercial circles for a generation. The conspiracy will spend the next 90 days trying to: (a) make corroborating witnesses unavailable, (b) push the trial into procedural delay, and (c) discredit Halask personally. The party's job in this vector is to keep all three from succeeding.</p>\n<h3>The work</h3>\n<p>Three short scenes, none requiring extended Rel Astra residence:</p>\n<ol>\n<li><strong>Witness preservation.</strong> Halask needs the corroborating depositions he requested in Letter 7 Variant D. Solen Mereth must be protected from the conspiracy's pressure (the Hardby branch is hardening, and Solen is the most accessible target). Vella Tannin (if extracted) must be brought to Aerdi commercial court for her deposition. The Hardby junior partner Halask is working on must be approached with the right combination of leverage and discretion.</li>\n<li><strong>One Aerdi commercial court hearing.</strong> Halask requests the party's presence at a single procedural hearing approximately 30 days into the trial slip. The party's role: be visibly present (it constrains the defense's ability to claim the prosecution lacks resources), provide one short factual statement on the chain of custody for the indictment package, and depart. <strong>The hearing is not a trial scene; it is a procedural moment.</strong></li>\n<li><strong>Counter-discrediting Halask.</strong> The conspiracy will plant rumors in Aerdi commercial circles that Halask is personally compromised — perhaps a fabricated past corruption, perhaps a fabricated current debt. The party's role: locate one source of the rumor (a Cindren-aligned junior advocate, name <strong>Tellis Maro</strong>) and provide Halask with documentary proof of the fabrication. Halask handles the rest.</li>\n</ol>\n<h3>What this vector cannot do</h3>\n<p>This vector does not name &quot;E.&quot; It does not catch Haskur Vandrell. It does not visit Aldea. What it does is freeze the conspiracy's most important commercial machinery for the better part of a year, and establish Yeomanry standing in Aerdi commercial circles that will pay forward into Phase 6 and beyond.</p>\n<h3>How this vector pairs with others</h3>\n<p>Vector D can be run in parallel with Vector A (Greyhawk City) or Vector C (Counter-Leak) for parties who can split. It cannot be combined with Vector B (Wood Correspondent) without overstretching — Aldea is a focused effort. <strong>The recommended pairing is Vector D + Vector C: the party splits, two PCs go to Rel Astra for the brief work, the rest stay in Loftwick to run the leak operation.</strong></p>\n<h3>What the party brings home</h3>\n<ul>\n<li>Continued procedural pressure on Cindren &amp; Vhal Rel Astra.</li>\n<li>The trial schedule extending into Phase 6 (the verdict is approximately Phase 6 mid-point on a normal pacing).</li>\n<li>Halask's continued professional support — increasingly valuable as the campaign extends.</li>\n<li>Witness preservation — Solen, Vella, and the Hardby junior partner survive Phase 5 and are available for further work.</li>\n</ul>",
         "markdown": ""
       },
-      "video": { "controls": true, "volume": 0.5, "autoplay": false, "loop": false, "timestamp": 0, "width": null, "height": null },
+      "video": {
+        "controls": true,
+        "volume": 0.5,
+        "autoplay": false,
+        "loop": false,
+        "timestamp": 0,
+        "width": null,
+        "height": null
+      },
       "src": null,
       "system": {},
       "sort": 400000,
-      "ownership": { "default": -1 },
+      "ownership": {
+        "default": -1
+      },
       "flags": {},
       "category": null
     },
@@ -88,18 +140,31 @@
       "_id": "BR2P5FnPgClock",
       "name": "Phase 5 Pressure Clock — Six Segments",
       "type": "text",
-      "title": { "show": true, "level": 1 },
+      "title": {
+        "show": true,
+        "level": 1
+      },
       "image": {},
       "text": {
         "format": 1,
         "content": "<p><em>Phase 5's clock has six segments and accelerates in the back half. The clock's outer bound is the Closure motion's binding vote on Day 9; segment 6 is that vote, and Phase 5 ends when segment 6 fires regardless of what the party has accomplished. Show the players the clock face. Advance it visibly. Be honest about which trigger advanced it.</em></p>\n<h2>The clock at a glance</h2>\n<ol>\n<li><strong>Segment 1 — Day 2: The Closure motion enters public record.</strong> A Council bulletin is posted on the Civic Way. Caelith's office is now openly subject to Council review. Pell receives his next pickup signal earlier than usual (the conspiracy is reading the bulletin too).</li>\n<li><strong>Segment 2 — Day 3: Pell passes a packet.</strong> Real or false depending on the party's choice. The handler reacts — visibly to the GM, invisibly to the party at first. If a false packet was used, the conspiracy's reaction begins to manifest within 3–7 days.</li>\n<li><strong>Segment 3 — Day 5: The enemy tests the party's evidence chain.</strong> A false witness statement appears in a Loftwick civic broadside, claiming the party fabricated the Sereth evidence. On Path C the broadside is more aggressive, claiming the party committed murder for personal gain. Caelith can refute the broadside privately but no longer institutionally; public belief shifts perceptibly.</li>\n<li><strong>Segment 4 — Day 7: Trina's correspondent endangered or goes silent.</strong> If Lie 2 was played: hard fire — Aldea leaves a note, departs the cottage, vanishes for the rest of Phase 5. If Lie 2 was not played: soft fire — a single watcher is spotted near the Stark Mounds road, no contact made; Aldea sends a brief follow-up note to Caelith confirming &quot;observation, not approach&quot; and continuing to work.</li>\n<li><strong>Segment 5 — Day 8: Haskur's Greyhawk trail begins to cool.</strong> Tellan Verth is reassigned to a southern post (the Domain reassignment is routine; Verth is not killed but is no longer accessible from Greyhawk). The Brass Crow changes its courier schedule. The party has 48–72 hours to commit to Vector A or lose the trail until Phase 6.</li>\n<li><strong>Segment 6 — Day 9: Caelith is forced to choose between public defiance and total silence.</strong> The Closure motion comes to its binding vote in the Council. Caelith asks the party for their decision: speak publicly with him in Council, or let him go silent and continue the work in private. <strong>Either choice ends Phase 5.</strong></li>\n</ol>\n<h2>Triggers — what advances the clock</h2>\n<table>\n<thead><tr><th>Trigger</th><th>Segments</th></tr></thead>\n<tbody>\n<tr><td>The party fails to open the debrief within 24 hours of arrival</td><td>+1</td></tr>\n<tr><td>The party visits Aldea in person without playing Lie 2 first</td><td>+1 (Aldea is observed but not approached)</td></tr>\n<tr><td>The party visits Aldea in person after playing Lie 2</td><td>+2 (Aldea is approached; segment 4 fires hard)</td></tr>\n<tr><td>The party kills Pell unjustifiably</td><td>+2 immediate</td></tr>\n<tr><td>The party engages Brane publicly without first moving Halvern</td><td>+1</td></tr>\n<tr><td>The party fails to protect Sera while Pell is turned</td><td>+1 (Sera is approached but not taken; +2 if Sera is taken)</td></tr>\n<tr><td>The party tips Vesten Quill via clumsy surveillance</td><td>+1 (Quill leaves the rented room early)</td></tr>\n<tr><td>The party moves on Vesten Quill before Day 8</td><td>+1 (handler reschedules; the receipt is at risk)</td></tr>\n<tr><td>The party publicly contradicts the Sereth-fabrication broadside without Caelith's coordination</td><td>+1</td></tr>\n<tr><td>The party departs Loftwick for Greyhawk City before Day 5</td><td>+1 (the trail benefits but Loftwick observation tightens)</td></tr>\n<tr><td>Each in-game day with no investigative progress</td><td>+1</td></tr>\n</tbody>\n</table>\n<h2>How to use the clock at the table</h2>\n<ul>\n<li>Show the players the six segments at the start of Day 1's debrief. Walk them through the day-by-day cadence (Day 2 first, Day 9 last).</li>\n<li>Advance visibly. Name the trigger.</li>\n<li>Phase 5's clock is faster than Phase 4's because the political deadline (Day 9) is fixed. Don't soften segment 4 — Aldea's hard-fire on Lie 2 is the price of using that lie, and the party should feel it.</li>\n<li>If segment 6 fires before the party has chosen a Phase 6 vector, the choice happens in Council on Day 9 itself: Caelith asks them, in front of the Council, what they intend. They commit publicly. Phase 6 starts the next morning.</li>\n</ul>\n<h2>What the segments add up to</h2>\n<p>A normally-paced party will reach segment 4 or 5 by Day 9 and have committed to a Phase 6 vector by then. Segment 6 fires on schedule regardless. <strong>The clock is not the enemy; the deadline is.</strong> The clock measures how much the conspiracy notices what the party is doing while they do it.</p>",
         "markdown": ""
       },
-      "video": { "controls": true, "volume": 0.5, "autoplay": false, "loop": false, "timestamp": 0, "width": null, "height": null },
+      "video": {
+        "controls": true,
+        "volume": 0.5,
+        "autoplay": false,
+        "loop": false,
+        "timestamp": 0,
+        "width": null,
+        "height": null
+      },
       "src": null,
       "system": {},
       "sort": 500000,
-      "ownership": { "default": -1 },
+      "ownership": {
+        "default": -1
+      },
       "flags": {},
       "category": null
     },
@@ -108,26 +173,45 @@
       "_id": "BR2P5FnPgEnding",
       "name": "Ending Read-Aloud — The Small Matter",
       "type": "text",
-      "title": { "show": true, "level": 1 },
+      "title": {
+        "show": true,
+        "level": 1
+      },
       "image": {},
       "text": {
         "format": 1,
         "content": "<p><em>Read aloud at the moment the party leaves Loftwick (or commits in Council, on Day 9). The text below is route-agnostic; minor adjustments are noted. Caelith hands the party Letter 7 (the appropriate variant) folded and unread, with the instruction not to open it until they are at least one day's ride out of the city.</em></p>\n<blockquote>\n<p>Loftwick on the morning you leave is not the city you returned to. The Civic Way is open at the seventh bell again — the Audit Hall's outer doors are propped open, and clerks are walking from them to the Hall of Bonds with the small impatience of people whose schedules have been disrupted by a binding Council vote that ran long. The clocks of the city all chime the seventh together, the way they have always chimed. None of that has changed.</p>\n<p>What has changed is in the Civic Office of the Little Palace, where Caelith Dunivar is sitting at his desk with four documents laid out in a careful row: the Greyhawk City affidavit, Trina Alvere's packet (Aldea's reply, refolded with the wax pressed back into shape), Pell's most recent leak opportunity (or, if you took Vesten Quill, the receipt the party recovered from the Hall of Bonds drop), and — if you closed Phase 4 with the indictment — the Aerdi commercial court schedule for the trial that is now slipping by ninety days because the defense is patient and Halask is more patient.</p>\n<p>He looks up when you enter. The brass quill pin is still missing from his lapel. (It will be returned, or it will not. The Council will decide on the Day 9 vote, which is, depending on what you have done, either a 4–3 loss for the closure faction or a 4–3 win for them. You know which. He knows which. The pin will arrive by courier in Phase 6 if it arrives at all.)</p>\n<p>He says, in the level voice you have learned to read by now:</p>\n<p>&quot;This is the small matter. We have more doors than hands.&quot;</p>\n<p>He gestures to the four documents.</p>\n<p>&quot;Choose your door. Whatever you do not carry through, I will carry as best I can. The work continues either way; the question is which face of it you intend to look at next. I will not write you often in the next phase. What I write will be brief. Use the seal you saw on the workbench, and write me from the post-houses I have named for you. Travel safely. Come home alive.&quot;</p>\n<p>He stands. He hands you Letter 7, folded and sealed.</p>\n<p>&quot;Read this on the road, not before. The seal is good for a day's ride. After that I would prefer the contents to be in your saddlebag rather than on this desk.&quot;</p>\n<p>You take the letter. You take the door you have chosen. The four documents stay on Caelith's desk. The fifth bell is just beginning to ring.</p>\n</blockquote>\n<hr>\n<h2>What Phase 5 leaves the party with</h2>\n<ul>\n<li><strong>The understanding</strong> that Sereth was not the hand. The hand is older, foreign, court-trained-but-not-court-raised, and was somewhere unsailable when at least one annotation was made.</li>\n<li><strong>Aldea's three observations</strong> — and, possibly, her one private speculation, held in players' heads.</li>\n<li><strong>The Greyhawk City lead</strong> — the Brass Crow, Iren Velash, Edrik Vone, and the pseudonym &quot;H. V. Andren&quot;. The trail of a living enemy node.</li>\n<li><strong>One of five Pell outcomes</strong> — Exposed, Turned, Fed, Shadowed, or Removed. Each shapes Phase 6's Loftwick situation differently.</li>\n<li><strong>One of two Closure outcomes</strong> — passed (Caelith goes formally silent) or held over (Caelith retains nominal standing for Phase 6).</li>\n<li><strong>One of two Vesten Quill outcomes</strong> (if Vector C was pursued) — taken alive (next layer up identified, receipt in hand) or escaped (the conspiracy reroutes; the party knows they tried).</li>\n<li><strong>The conspiracy's reading of the party.</strong> Whatever lies were fed through Pell, the conspiracy now believes those lies — for 5–14 days. Phase 6 starts inside that window.</li>\n</ul>\n<h2>Where Phase 6 picks up</h2>\n<p>Phase 6 begins on the road to whichever vector the party chose, with whatever weight they decided to carry. Caelith's correspondence will reach them by separate courier; he will not write often, and what he writes will be brief.</p>\n<ul>\n<li><strong>If they chose Vector A:</strong> Phase 6 opens on the road north toward Greyhawk City. Letter 7 Variant A is in their pack. The first scene is the approach to the Foreign Quarter at evening.</li>\n<li><strong>If they chose Vector B:</strong> Phase 6 opens on the road west toward the Stark Mounds. Letter 7 Variant B is in their pack. The first scene is the foothills road at dusk on the second day.</li>\n<li><strong>If they chose Vector C:</strong> Phase 6 opens in Loftwick on the morning after the Council vote, in Caelith's Civic Office (now either guarded by militia at his order, if the vote went against the closure faction, or empty of clerical staff and waiting for the Council's review, if it went for them). The work continues from where Phase 5 left off.</li>\n<li><strong>If they chose Vector D (Path A only):</strong> Phase 6 opens aboard a Hardby coastal galley bound for Rel Astra, fourteen days after departure. Letter 7 Variant D is in their pack.</li>\n</ul>\n<p>The campaign continues. The conspiracy continues. The hand has not been named, and Phase 5 did not name it. Phase 6 may name it. Phase 7 may not need to.</p>",
         "markdown": ""
       },
-      "video": { "controls": true, "volume": 0.5, "autoplay": false, "loop": false, "timestamp": 0, "width": null, "height": null },
+      "video": {
+        "controls": true,
+        "volume": 0.5,
+        "autoplay": false,
+        "loop": false,
+        "timestamp": 0,
+        "width": null,
+        "height": null
+      },
       "src": null,
       "system": {},
       "sort": 600000,
-      "ownership": { "default": -1 },
+      "ownership": {
+        "default": -1
+      },
       "flags": {},
       "category": null
     }
   ],
   "folder": null,
   "sort": 500000,
-  "ownership": { "default": 0 },
-  "flags": { "blooming-rot-2": { "phase": 5 } },
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "blooming-rot-2": {
+      "phase": 5
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,

@@ -8,18 +8,31 @@
       "_id": "BR2P5DbPgPath1",
       "name": "If Sereth Was Indicted (Path A)",
       "type": "text",
-      "title": { "show": true, "level": 1 },
+      "title": {
+        "show": true,
+        "level": 1
+      },
       "image": {},
       "text": {
         "format": 1,
         "content": "<p><em>Use this page only if the party closed Phase 4 by indicting Sereth in Aerdi Commercial Court. Hide the other two Path pages from players.</em></p>\n<h2>What the party still has in hand</h2>\n<ul>\n<li>The full indictment package: Veska Maelan's notarized opinion, the C&amp;V Hardby branch records, the Sereth blotter rubbing, the chipped Hardby clearing-stamp.</li>\n<li>The court filing copy (Halask retained the original) — useful as proof of procedural standing.</li>\n<li>Their personal observations from the Sereth confrontation. Sereth did not, on this path, admit the &quot;E.&quot; annotator's existence in writing; he only signaled it through deflection. The party may still report the deflection to Caelith, but it is not deposition-grade evidence.</li>\n</ul>\n<h2>Halask's standing and willingness</h2>\n<p>Halask is alive and procedurally engaged. He wrote Caelith four days before the party returned to confirm the trial date has slipped by thirty to sixty days due to two anticipated defense motions. Magister Ostrach denied the motions, as Halask predicted; Cindren &amp; Vhal's defense is now conducting the slower discovery work. Halask needs corroborating depositions to make the trial conviction-strong: <strong>Solen Mereth</strong> (compelled), <strong>Vella Tannin</strong> (if extracted), and one C&amp;V Rel Astra junior partner (Halask is working on this).</p>\n<h2>Cindren &amp; Vhal's public response</h2>\n<p>The firm has issued a one-page statement in the Aerdi commercial gazettes describing the indictment as &quot;a procedural matter being addressed in court.&quot; Privately, the firm has begun emptying the Rel Astra strongroom of any document Halask has not yet subpoenaed. The Hardby branch is unchanged.</p>\n<h2>The conspiracy's countermove against the party</h2>\n<p>The conspiracy will, this phase, focus its pressure on the party's <strong>witness chain</strong>, not on the party themselves. Pressure Clock segment 3 fires harder on Path A: the broadside attack will name a specific corroborating witness and attempt to discredit them before they can depose. Likely target: Vella Tannin if extracted, Hesren Vesh if extracted, or Solen Mereth if not.</p>\n<h2>Phase 5 vector recommendations (Path A)</h2>\n<ul>\n<li><strong>Vector D (Rel Astra Legal Continuation) is OPEN.</strong> This is the Path-A-specific vector and the conspiracy's worst outcome.</li>\n<li><strong>Vector C (Counter-Leak) is strong</strong> — the conspiracy is tied up legally and has fewer hands to spare for Loftwick.</li>\n<li>Vector A (Greyhawk) and Vector B (Wood Correspondent) are both viable but less efficient on Path A; the legal momentum is the limiting resource.</li>\n</ul>",
         "markdown": ""
       },
-      "video": { "controls": true, "volume": 0.5, "autoplay": false, "loop": false, "timestamp": 0, "width": null, "height": null },
+      "video": {
+        "controls": true,
+        "volume": 0.5,
+        "autoplay": false,
+        "loop": false,
+        "timestamp": 0,
+        "width": null,
+        "height": null
+      },
       "src": null,
       "system": {},
       "sort": 100000,
-      "ownership": { "default": -1 },
+      "ownership": {
+        "default": -1
+      },
       "flags": {},
       "category": null
     },
@@ -28,18 +41,31 @@
       "_id": "BR2P5DbPgPath2",
       "name": "If Sereth Was Privately Removed (Path B)",
       "type": "text",
-      "title": { "show": true, "level": 1 },
+      "title": {
+        "show": true,
+        "level": 1
+      },
       "image": {},
       "text": {
         "format": 1,
         "content": "<p><em>Use this page only if the party closed Phase 4 by negotiating Sereth's quiet retirement. Hide the other two Path pages from players.</em></p>\n<h2>What the party still has in hand</h2>\n<ul>\n<li>The original indictment package (unfiled) — kept in reserve as leverage.</li>\n<li><strong>Sereth's signed private statement</strong> in Halask's procedural keeping. The statement frames the harbor-commission positioning as a personal initiative, not firm policy — a lie, but a lie that protects the firm's reorganization and bought the party Sereth's exit.</li>\n<li><strong>Sereth's verbal admission</strong> about the &quot;E.&quot; annotator: that the writer exists, is foreign by some significant margin, has been advising the firm for the better part of a decade, and is not someone Sereth has ever met. The party heard this; it is not in writing.</li>\n<li>The original of the Mirelth loan documents (provided by Sereth) and one C&amp;V Hardby junior partner's name as their routine document handler.</li>\n</ul>\n<h2>Halask's standing and willingness</h2>\n<p>Halask is alive and quietly satisfied. He is keeping the indictment package in his procedural seal as a deterrent: if any C&amp;V Rel Astra successor partner reverses Sereth's withdrawals, the package files. He has informed Caelith by separate courier that he considers his procedural debt to the party paid in full. He will continue corresponding but will not initiate further work without their request.</p>\n<h2>Cindren &amp; Vhal's public response</h2>\n<p>The firm has issued no public statement. Sereth has retired to a coastal estate two weeks east of Rel Astra; the new senior partner (a name Caelith does not yet know) has declined press inquiries. The Hardby branch has restructured its courier schedule. The harbor commission play has been visibly paused — Mirelth has withdrawn his candidacy, Vesh has withdrawn his, Tenrel remains on the slate but cannot be seated alone.</p>\n<h2>The conspiracy's countermove against the party</h2>\n<p>The conspiracy on this path will not move legally — the firm is reorganizing and the public record is clean. Instead, the conspiracy will <strong>watch the party</strong>, especially anyone who appears to be following the &quot;E.&quot; thread. Sereth's retirement estate becomes a silent pressure point: any approach to Sereth in retirement will be noted and reported. <strong>Aldea Veren is at higher baseline risk</strong> on Path B because the conspiracy already suspects the party knows the annotator exists.</p>\n<h2>Phase 5 vector recommendations (Path B)</h2>\n<ul>\n<li><strong>Vector B (Wood Correspondent) is the natural fit.</strong> The party has Sereth's verbal admission to corroborate Aldea's three observations.</li>\n<li><strong>Vector A (Greyhawk) is strong</strong> — the firm is reorganizing and the Greyhawk node is currently unwatched.</li>\n<li>Vector C (Counter-Leak) is viable but the leak's tactical value is lower on Path B (the conspiracy is already operating slower).</li>\n<li>Vector D is unavailable on Path B.</li>\n</ul>",
         "markdown": ""
       },
-      "video": { "controls": true, "volume": 0.5, "autoplay": false, "loop": false, "timestamp": 0, "width": null, "height": null },
+      "video": {
+        "controls": true,
+        "volume": 0.5,
+        "autoplay": false,
+        "loop": false,
+        "timestamp": 0,
+        "width": null,
+        "height": null
+      },
       "src": null,
       "system": {},
       "sort": 200000,
-      "ownership": { "default": -1 },
+      "ownership": {
+        "default": -1
+      },
       "flags": {},
       "category": null
     },
@@ -48,18 +74,31 @@
       "_id": "BR2P5DbPgPath3",
       "name": "If Sereth Was Kinetically Removed (Path C)",
       "type": "text",
-      "title": { "show": true, "level": 1 },
+      "title": {
+        "show": true,
+        "level": 1
+      },
       "image": {},
       "text": {
         "format": 1,
         "content": "<p><em>Use this page only if the party killed Sereth and seized strongroom contents in their post-killing window. Hide the other two Path pages from players.</em></p>\n<h2>What the party still has in hand</h2>\n<ul>\n<li>Whatever they recovered from the Rel Astra strongroom in their four-minute window. At minimum: the original Mirelth loan documents and the firm's 1572-onward correspondence summaries. If they rolled well: two further instances of the &quot;E.&quot; annotation hand.</li>\n<li>The original Phase 3 indictment package — but with no clear path to filing it (Halask will not file on the party's behalf after the killing).</li>\n<li>The reputation of having walked into an Aerdi commercial counting-house and walked out leaving its senior partner dead. Aerdi commercial circles will not engage with them. Yeomanry circles will engage with them only privately and with palpable discomfort.</li>\n</ul>\n<h2>Halask's standing and willingness</h2>\n<p>Halask has politely distanced himself. He has not denounced the party — he has not, in fact, mentioned them at all in his last three letters to Caelith — but he is not currently working any matter that touches them. Caelith reports this in the debrief without judgment but with audible regret. <em>Halask may be approachable in Phase 6 once the immediate Aerdi outrage cools, but not within Phase 5.</em></p>\n<h2>Cindren &amp; Vhal's public response</h2>\n<p>The firm has filed claims of theft, murder, and unlawful seizure with the Aerdi imperial customs office. The party has been named in two Aerdi imperial bulletins; the bulletins have not yet reached Loftwick officially, but they will within fourteen days. The Hardby branch has hardened — additional guards, restricted access, and a very visible mourning banner in the public lobby.</p>\n<h2>The conspiracy's countermove against the party</h2>\n<p>Multi-pronged. <strong>Marshal Rennic Thale has been instructed by the Council to &quot;be aware&quot;</strong> of the party's movements (he has not been ordered to act, and will not without orders, but his observation is real and will be reported into Brane's office). The Loftwick civic broadside attack (Pressure Clock segment 3) will be more aggressive on Path C, claiming the party fabricated the entire Sereth case. The conspiracy is also more likely to move against witnesses in Hardby — Vella Tannin and Hesren Vesh, if extracted, are at active risk during Phase 5.</p>\n<h2>Phase 5 vector recommendations (Path C)</h2>\n<ul>\n<li><strong>Vector A (Greyhawk City) is strongest.</strong> Get out of Loftwick before the imperial bulletins arrive officially. The Greyhawk thread is unaffected by Aerdi commercial outrage.</li>\n<li><strong>Vector C (Counter-Leak) is the only Loftwick win available.</strong> The leak is the party's one remaining tactical asset in their home base; use it before the political environment closes further.</li>\n<li>Vector B (Wood Correspondent) is viable but the conspiracy's heightened watching makes the road more dangerous.</li>\n<li>Vector D is unavailable on Path C.</li>\n</ul>",
         "markdown": ""
       },
-      "video": { "controls": true, "volume": 0.5, "autoplay": false, "loop": false, "timestamp": 0, "width": null, "height": null },
+      "video": {
+        "controls": true,
+        "volume": 0.5,
+        "autoplay": false,
+        "loop": false,
+        "timestamp": 0,
+        "width": null,
+        "height": null
+      },
       "src": null,
       "system": {},
       "sort": 300000,
-      "ownership": { "default": -1 },
+      "ownership": {
+        "default": -1
+      },
       "flags": {},
       "category": null
     },
@@ -68,18 +107,31 @@
       "_id": "BR2P5DbPgScene",
       "name": "The Debrief — Day Two Morning",
       "type": "text",
-      "title": { "show": true, "level": 1 },
+      "title": {
+        "show": true,
+        "level": 1
+      },
       "image": {},
       "text": {
         "format": 1,
-        "content": "<p><em>Caelith calls the party to the Strong Room (L7) — the same room they read Haskur's gear in during Phase 1 — at the second bell after dawn on Day 2. He has had the lamps lit for an hour. The long table has been wiped clean. Three sets of papers are laid out on linen squares: the party's Rel Astra evidence (whatever that is on their Path), Caelith's own files (the four moving pieces from the framing speech, plus his copies of his Letters 1–6 to the party), and the still-sealed packet from Trina (with its woodland-grey wax). The Steward serves bread, cheese, watered ale; she withdraws.</em></p>\n<h2>How to run the scene</h2>\n<p>The debrief has three movements. The GM should let the players drive the first and second; the third is Caelith's. Total scene length: 30–60 minutes of table time.</p>\n<h3>First movement — the party's evidence</h3>\n<p>Caelith asks the party to lay out their Rel Astra evidence in their own order, in their own words. He listens. He takes a single page of notes (the Caelith debrief memorandum — see Handout 1). He does not interrupt unless asked a direct question. <strong>Let the players synthesize what they actually learned in their own words; this is their reward for surviving Rel Astra.</strong></p>\n<h3>Second movement — Caelith's player-facing questions</h3>\n<p>When the party has finished, Caelith asks six questions in sequence. He waits for each answer. He treats &quot;I don't know&quot; as a valid answer. He does not press for more than the party has.</p>\n<ol>\n<li><strong>Did Sereth fear his superior?</strong> (Caelith is testing whether Sereth carried himself as a man with someone above him. The truthful answer on every Path is &quot;not visibly, but on reflection, yes — he behaved like a man whose retirement had already been bought.&quot;)</li>\n<li><strong>Did Sereth understand the whole design, or only his piece?</strong> (Caelith is testing whether Sereth ever spoke as if he knew where the harbor revenue would ultimately go after the seating. On Paths A and C the answer is unclear; on Path B Sereth all but said he did not know.)</li>\n<li><strong>Did the Harbor Commission play feel local, imperial, or foreign?</strong> (Caelith is testing the party's instinct. The honest answer is &quot;it felt local and imperial in execution, but the timing only makes sense if a foreign actor was driving the calendar.&quot; Players who reach this on their own should be praised privately by Caelith with a single nod.)</li>\n<li><strong>Did anyone in Rel Astra behave as if they expected the party?</strong> (Caelith is testing for advance warning. The honest answer depends on the Path: yes on Path A, partially on Paths B and C.)</li>\n<li><em>(Path A only)</em> <strong>What did the Magister Ostrach hearing reveal that surprised you?</strong> (Caelith is testing whether the party noticed that the defense filed motions Halask had specifically anticipated — meaning the defense is being run by someone who has read Halask's prior cases.)</li>\n<li><em>(Path B only)</em> <strong>When Sereth said &quot;not from this side of the great desert,&quot; what was his face doing?</strong> (Caelith is testing whether Sereth meant the &quot;great desert&quot; literally — i.e., the Sea of Dust — or as a Suel-Aerdi metaphor. The honest answer is the players' own observation; either reading is interesting and tells Caelith something.)</li>\n</ol>\n<h3>Third movement — Caelith's summary</h3>\n<p>When the questions are done, Caelith makes the synthesis explicit. He does not deliver it as a speech; he states it, then opens the Trina packet.</p>\n<blockquote>\n<p>&quot;Sereth was not the hand. He was a glove. The hand is not in Rel Astra. The hand has not been in Rel Astra in at least a decade and possibly longer. The conspiracy you have named is the part of the hand that touches paper we can read. There is a part of it we do not yet know how to read. Trina sent me a woman who can — possibly — read it. Let us see.&quot;</p>\n<p>He breaks the woodland-grey seal on the packet. The contents are short — three folded sheets in a measured hand. He reads them silently first. Then he reads them aloud.</p>\n<p><em>Pass to the next page: Trina's Packet — Aldea's Reply.</em></p>\n</blockquote>\n<h2>Handout</h2>\n<p>Pass <strong>Handout 1 (Caelith's Debrief Memorandum)</strong> to the players at the close of the third movement, before they read Aldea's reply. The memorandum is Caelith's one-page summary of the four moving pieces and the party's reported observations, in his own hand. It serves as the party's reference document for the rest of Phase 5.</p>",
+        "content": "<p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/illustrations/p5-debrief-table.png\" alt=\"The Strong Room: long oak table with three sets of papers, Caelith taking notes, Cam standing on a chair gesturing at one document, Kitty examining the still-sealed Trina packet, Alicia reading over Cam's shoulder.\" style=\"max-width: 580px; border-radius: 4px;\"></p>\n<p style=\"text-align: center; font-style: italic; color: #6b5b3c; font-size: 0.9em;\">The debrief, mid-morning. The Trina packet is still sealed. The reading happens next.</p>\n<p><em>Caelith calls the party to the Strong Room (L7) — the same room they read Haskur's gear in during Phase 1 — at the second bell after dawn on Day 2. He has had the lamps lit for an hour. The long table has been wiped clean. Three sets of papers are laid out on linen squares: the party's Rel Astra evidence (whatever that is on their Path), Caelith's own files (the four moving pieces from the framing speech, plus his copies of his Letters 1–6 to the party), and the still-sealed packet from Trina (with its woodland-grey wax). The Steward serves bread, cheese, watered ale; she withdraws.</em></p>\n<h2>How to run the scene</h2>\n<p>The debrief has three movements. The GM should let the players drive the first and second; the third is Caelith's. Total scene length: 30–60 minutes of table time.</p>\n<h3>First movement — the party's evidence</h3>\n<p>Caelith asks the party to lay out their Rel Astra evidence in their own order, in their own words. He listens. He takes a single page of notes (the Caelith debrief memorandum — see Handout 1). He does not interrupt unless asked a direct question. <strong>Let the players synthesize what they actually learned in their own words; this is their reward for surviving Rel Astra.</strong></p>\n<h3>Second movement — Caelith's player-facing questions</h3>\n<p>When the party has finished, Caelith asks six questions in sequence. He waits for each answer. He treats &quot;I don't know&quot; as a valid answer. He does not press for more than the party has.</p>\n<ol>\n<li><strong>Did Sereth fear his superior?</strong> (Caelith is testing whether Sereth carried himself as a man with someone above him. The truthful answer on every Path is &quot;not visibly, but on reflection, yes — he behaved like a man whose retirement had already been bought.&quot;)</li>\n<li><strong>Did Sereth understand the whole design, or only his piece?</strong> (Caelith is testing whether Sereth ever spoke as if he knew where the harbor revenue would ultimately go after the seating. On Paths A and C the answer is unclear; on Path B Sereth all but said he did not know.)</li>\n<li><strong>Did the Harbor Commission play feel local, imperial, or foreign?</strong> (Caelith is testing the party's instinct. The honest answer is &quot;it felt local and imperial in execution, but the timing only makes sense if a foreign actor was driving the calendar.&quot; Players who reach this on their own should be praised privately by Caelith with a single nod.)</li>\n<li><strong>Did anyone in Rel Astra behave as if they expected the party?</strong> (Caelith is testing for advance warning. The honest answer depends on the Path: yes on Path A, partially on Paths B and C.)</li>\n<li><em>(Path A only)</em> <strong>What did the Magister Ostrach hearing reveal that surprised you?</strong> (Caelith is testing whether the party noticed that the defense filed motions Halask had specifically anticipated — meaning the defense is being run by someone who has read Halask's prior cases.)</li>\n<li><em>(Path B only)</em> <strong>When Sereth said &quot;not from this side of the great desert,&quot; what was his face doing?</strong> (Caelith is testing whether Sereth meant the &quot;great desert&quot; literally — i.e., the Sea of Dust — or as a Suel-Aerdi metaphor. The honest answer is the players' own observation; either reading is interesting and tells Caelith something.)</li>\n</ol>\n<h3>Third movement — Caelith's summary</h3>\n<p>When the questions are done, Caelith makes the synthesis explicit. He does not deliver it as a speech; he states it, then opens the Trina packet.</p>\n<blockquote>\n<p>&quot;Sereth was not the hand. He was a glove. The hand is not in Rel Astra. The hand has not been in Rel Astra in at least a decade and possibly longer. The conspiracy you have named is the part of the hand that touches paper we can read. There is a part of it we do not yet know how to read. Trina sent me a woman who can — possibly — read it. Let us see.&quot;</p>\n<p>He breaks the woodland-grey seal on the packet. The contents are short — three folded sheets in a measured hand. He reads them silently first. Then he reads them aloud.</p>\n<p><em>Pass to the next page: Trina's Packet — Aldea's Reply.</em></p>\n</blockquote>\n<h2>Handout</h2>\n<p>Pass <strong>Handout 1 (Caelith's Debrief Memorandum)</strong> to the players at the close of the third movement, before they read Aldea's reply. The memorandum is Caelith's one-page summary of the four moving pieces and the party's reported observations, in his own hand. It serves as the party's reference document for the rest of Phase 5.</p>\n<hr>\n<h2>Handout</h2>\n<p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/handouts/p5-caelith-memorandum.png\" alt=\"Caelith's debrief memorandum: a half-page parchment summary of the four moving pieces in his hand.\" style=\"max-width: 580px; border-radius: 4px;\"></p>\n<p style=\"text-align: center; font-style: italic; color: #6b5b3c; font-size: 0.9em;\">Handout 1 — Caelith's debrief memorandum. Pass to the player(s) at the close of the debrief scene.</p>\n",
         "markdown": ""
       },
-      "video": { "controls": true, "volume": 0.5, "autoplay": false, "loop": false, "timestamp": 0, "width": null, "height": null },
+      "video": {
+        "controls": true,
+        "volume": 0.5,
+        "autoplay": false,
+        "loop": false,
+        "timestamp": 0,
+        "width": null,
+        "height": null
+      },
       "src": null,
       "system": {},
       "sort": 400000,
-      "ownership": { "default": -1 },
+      "ownership": {
+        "default": -1
+      },
       "flags": {},
       "category": null
     },
@@ -88,26 +140,45 @@
       "_id": "BR2P5DbPgAldeaReply",
       "name": "Trina's Packet — Aldea's Reply",
       "type": "text",
-      "title": { "show": true, "level": 1 },
+      "title": {
+        "show": true,
+        "level": 1
+      },
       "image": {},
       "text": {
         "format": 1,
-        "content": "<p><em>Caelith opens the packet during the third movement of the debrief. The contents are short: three folded vellum sheets in a measured hand, written in iron-gall ink, and one smaller note in the same hand addressed to Trina (which Caelith reads silently and does not share with the party — &quot;a personal matter between old correspondents&quot;).</em></p>\n<p><em>The three observations are also Handout 2 — pass the player a printed version of Aldea's reply.</em></p>\n<hr>\n<blockquote>\n<p><strong>To Mistress Trina Alvere, by the courier she trusts. Read once and burn, or pass on with my blessing.</strong></p>\n<p>I have read what you sent me. I have done so three times, twice with the lenses I keep for old hands and once with the lenses I keep for old wax. I will tell you what I saw, in the order I saw it. I will not tell you what it means, because I do not know what it means, and the writer of the marginalia has been careful enough that I would rather report what I read than what I guess.</p>\n<p><strong>The wax.</strong> The wax used to seal the marginalia in your samples is not made by any recipe I have on file. I keep — as you know — a personal reference set of every Aerdy, Rel Astran, Keoish, and Yeomanry sealing-wax recipe in current and historical use, including the disused Aerdi imperial recipes from the third century and the working Yeomanry ones I helped my grandfather catalogue when I was twelve. The wax on your samples matches none of them. It is harder than the recipes I know, and the residue on the paper around the seal is darker — a higher beeswax-to-resin ratio than any surface manufactory I have documented produces. <em>This wax was made somewhere I have not seen, by a process I have not read.</em></p>\n<p><strong>The hand.</strong> The writer's letter forms are entirely consistent with surface court scripts — Aerdy clerical and, in one or two cases, Suel formal. A lazy reading would call the hand Aerdy. It is not Aerdy. The underlying stroke order is wrong. Specifically: where an Aerdy or Yeomanry clerk would begin certain ascenders with an upward pull (the way one is taught from earliest copybook), the writer of your marginalia begins those same ascenders with a downward push and then corrects on the upstroke. <em>This is a hand trained by reading court scripts, not by being taught them. The teacher and the student were not in the same room.</em></p>\n<p><strong>The geographic impossibility.</strong> The earliest dated marginalia in your samples (the Hardby branch annotation of Lent, 1574 CY, in your third packet) was placed on a paper milled in Rel Astra in the autumn of 1573 and sealed with the wax described above. I have spent two days cross-referencing departure registers from every Aerdi and Suel and Yeomanry port that records them, plus the working trade-charts from Hardby's outer harbor. There is no path by which the writer could have been present in any of those ports during the four-month window when the annotation was placed. <em>The writer was not in any port any of us has ever sailed at the time this annotation was placed. I will not speculate further.</em></p>\n<p>I will say this much, because you have a right to it: I have written down what I read. I have not written down what I think. I will not write down what I think. If you wish my speculation, send the party to me in person; I will speak it once, in my workshop, and not write it.</p>\n<p>I am yours in old correspondence,</p>\n<p>— A.</p>\n</blockquote>\n<hr>\n<h2>What this tells the party (player-facing)</h2>\n<ul>\n<li>The writer is not Aerdy or Yeomanry.</li>\n<li>The writer was court-trained but not court-raised — they learned from reading documents, not from being taught at a desk.</li>\n<li>The writer was geographically inaccessible at the time at least one annotation was made — meaning the writer was not in any sailing port any of Aldea's references documents.</li>\n</ul>\n<h2>What this does NOT tell the party</h2>\n<ul>\n<li>The writer's name.</li>\n<li>The writer's species.</li>\n<li>The writer's current location.</li>\n<li>The writer's organization.</li>\n<li>Whether the writer is one person or a small school working in the same hand.</li>\n</ul>\n<p>Aldea explicitly declines to speculate. Players who push for more during the debrief will find Caelith equally unwilling to speculate beyond what the letter says. <strong>If the party wishes to ask Aldea further questions, they must travel to her cottage in person — see Vector B.</strong></p>\n<h2>GM-only note</h2>\n<p><em>Aldea has a private speculation. She believes the writer is not human. She will not write it down because she does not have proof, and she will not say it aloud unless asked the right specific question in person. The right question is some variant of: &quot;Could the writer have learned this hand from someone who has never been to the surface?&quot; Aldea will not lie if asked directly, but she will turn the question gently aside if it is asked sloppily. Players who think to ask the right question deserve the answer; players who do not should not be given it. <strong>Aldea does not know the writer's name.</strong></em></p>",
+        "content": "<p><em>Caelith opens the packet during the third movement of the debrief. The contents are short: three folded vellum sheets in a measured hand, written in iron-gall ink, and one smaller note in the same hand addressed to Trina (which Caelith reads silently and does not share with the party — &quot;a personal matter between old correspondents&quot;).</em></p>\n<p><em>The three observations are also Handout 2 — pass the player a printed version of Aldea's reply.</em></p>\n<hr>\n<blockquote>\n<p><strong>To Mistress Trina Alvere, by the courier she trusts. Read once and burn, or pass on with my blessing.</strong></p>\n<p>I have read what you sent me. I have done so three times, twice with the lenses I keep for old hands and once with the lenses I keep for old wax. I will tell you what I saw, in the order I saw it. I will not tell you what it means, because I do not know what it means, and the writer of the marginalia has been careful enough that I would rather report what I read than what I guess.</p>\n<p><strong>The wax.</strong> The wax used to seal the marginalia in your samples is not made by any recipe I have on file. I keep — as you know — a personal reference set of every Aerdy, Rel Astran, Keoish, and Yeomanry sealing-wax recipe in current and historical use, including the disused Aerdi imperial recipes from the third century and the working Yeomanry ones I helped my grandfather catalogue when I was twelve. The wax on your samples matches none of them. It is harder than the recipes I know, and the residue on the paper around the seal is darker — a higher beeswax-to-resin ratio than any surface manufactory I have documented produces. <em>This wax was made somewhere I have not seen, by a process I have not read.</em></p>\n<p><strong>The hand.</strong> The writer's letter forms are entirely consistent with surface court scripts — Aerdy clerical and, in one or two cases, Suel formal. A lazy reading would call the hand Aerdy. It is not Aerdy. The underlying stroke order is wrong. Specifically: where an Aerdy or Yeomanry clerk would begin certain ascenders with an upward pull (the way one is taught from earliest copybook), the writer of your marginalia begins those same ascenders with a downward push and then corrects on the upstroke. <em>This is a hand trained by reading court scripts, not by being taught them. The teacher and the student were not in the same room.</em></p>\n<p><strong>The geographic impossibility.</strong> The earliest dated marginalia in your samples (the Hardby branch annotation of Lent, 1574 CY, in your third packet) was placed on a paper milled in Rel Astra in the autumn of 1573 and sealed with the wax described above. I have spent two days cross-referencing departure registers from every Aerdi and Suel and Yeomanry port that records them, plus the working trade-charts from Hardby's outer harbor. There is no path by which the writer could have been present in any of those ports during the four-month window when the annotation was placed. <em>The writer was not in any port any of us has ever sailed at the time this annotation was placed. I will not speculate further.</em></p>\n<p>I will say this much, because you have a right to it: I have written down what I read. I have not written down what I think. I will not write down what I think. If you wish my speculation, send the party to me in person; I will speak it once, in my workshop, and not write it.</p>\n<p>I am yours in old correspondence,</p>\n<p>— A.</p>\n</blockquote>\n<hr>\n<h2>What this tells the party (player-facing)</h2>\n<ul>\n<li>The writer is not Aerdy or Yeomanry.</li>\n<li>The writer was court-trained but not court-raised — they learned from reading documents, not from being taught at a desk.</li>\n<li>The writer was geographically inaccessible at the time at least one annotation was made — meaning the writer was not in any sailing port any of Aldea's references documents.</li>\n</ul>\n<h2>What this does NOT tell the party</h2>\n<ul>\n<li>The writer's name.</li>\n<li>The writer's species.</li>\n<li>The writer's current location.</li>\n<li>The writer's organization.</li>\n<li>Whether the writer is one person or a small school working in the same hand.</li>\n</ul>\n<p>Aldea explicitly declines to speculate. Players who push for more during the debrief will find Caelith equally unwilling to speculate beyond what the letter says. <strong>If the party wishes to ask Aldea further questions, they must travel to her cottage in person — see Vector B.</strong></p>\n<h2>GM-only note</h2>\n<p><em>Aldea has a private speculation. She believes the writer is not human. She will not write it down because she does not have proof, and she will not say it aloud unless asked the right specific question in person. The right question is some variant of: &quot;Could the writer have learned this hand from someone who has never been to the surface?&quot; Aldea will not lie if asked directly, but she will turn the question gently aside if it is asked sloppily. Players who think to ask the right question deserve the answer; players who do not should not be given it. <strong>Aldea does not know the writer's name.</strong></em></p>\n<hr>\n<h2>Handout</h2>\n<p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/handouts/p5-aldea-reply.png\" alt=\"Mistress Aldea Veren's full-page parchment reply with three observations on the marginalia.\" style=\"max-width: 580px; border-radius: 4px;\"></p>\n<p style=\"text-align: center; font-style: italic; color: #6b5b3c; font-size: 0.9em;\">Handout 2 — Aldea's reply. Pass to the player(s) when Caelith opens the packet.</p>\n",
         "markdown": ""
       },
-      "video": { "controls": true, "volume": 0.5, "autoplay": false, "loop": false, "timestamp": 0, "width": null, "height": null },
+      "video": {
+        "controls": true,
+        "volume": 0.5,
+        "autoplay": false,
+        "loop": false,
+        "timestamp": 0,
+        "width": null,
+        "height": null
+      },
       "src": null,
       "system": {},
       "sort": 500000,
-      "ownership": { "default": -1 },
+      "ownership": {
+        "default": -1
+      },
       "flags": {},
       "category": null
     }
   ],
   "folder": null,
   "sort": 200000,
-  "ownership": { "default": 0 },
-  "flags": { "blooming-rot-2": { "phase": 5 } },
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "blooming-rot-2": {
+      "phase": 5
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,

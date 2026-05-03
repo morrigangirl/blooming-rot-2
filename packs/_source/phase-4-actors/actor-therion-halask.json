@@ -1,17 +1,17 @@
 {
-  "_key": "!actors!BR2P3ActVeskMa",
-  "_id": "BR2P3ActVeskMa",
-  "name": "Veska Maelan",
+  "_key": "!actors!BR2P4ActHalask",
+  "_id": "BR2P4ActHalask",
+  "name": "Therion Halask",
   "type": "npc",
-  "img": "modules/blooming-rot-2/assets/portraits/veska-maelan-portrait.png",
+  "img": "modules/blooming-rot-2/assets/portraits/halask-portrait.png",
   "system": {
     "abilities": {
-      "str": { "value": 10, "proficient": 0, "max": null, "bonuses": { "check": "", "save": "" } },
-      "dex": { "value": 11, "proficient": 0, "max": null, "bonuses": { "check": "", "save": "" } },
-      "con": { "value": 12, "proficient": 0, "max": null, "bonuses": { "check": "", "save": "" } },
+      "str": { "value": 9, "proficient": 0, "max": null, "bonuses": { "check": "", "save": "" } },
+      "dex": { "value": 10, "proficient": 0, "max": null, "bonuses": { "check": "", "save": "" } },
+      "con": { "value": 11, "proficient": 0, "max": null, "bonuses": { "check": "", "save": "" } },
       "int": { "value": 18, "proficient": 1, "max": null, "bonuses": { "check": "", "save": "" } },
       "wis": { "value": 16, "proficient": 1, "max": null, "bonuses": { "check": "", "save": "" } },
-      "cha": { "value": 14, "proficient": 0, "max": null, "bonuses": { "check": "", "save": "" } }
+      "cha": { "value": 16, "proficient": 0, "max": null, "bonuses": { "check": "", "save": "" } }
     },
     "attributes": {
       "init": { "ability": "dex", "bonus": "" },
@@ -21,21 +21,21 @@
       "spellcasting": "",
       "exhaustion": 0,
       "concentration": { "ability": "", "bonuses": { "save": "" }, "limit": 1 },
-      "hp": { "value": 22, "max": 22, "temp": 0, "tempmax": 0, "formula": "5d8" },
+      "hp": { "value": 18, "max": 18, "temp": 0, "tempmax": 0, "formula": "4d8" },
       "ac": { "flat": 11, "calc": "natural", "formula": "" },
       "death": { "success": 0, "failure": 0 },
       "inspiration": false
     },
     "details": {
       "biography": {
-        "value": "<h2>Veska Maelan — Trade-Clearing Notary, Hardby</h2>\n<p><em>Caelith Dunivar's Hardby contact. Reads the Aerdi clearing-marks better than anyone outside the firms themselves. The investigative gateway of Phase 3 — her notarial opinion turns the recovered evidence into a court-admissible package.</em></p>\n<h3>Description</h3>\n<p>Mid-fifties, Hardby-born, compact build, gray hair worn short under a soft brown cap. Plain wool dress, no jewelry except a small silver scale-and-scroll badge at the throat (her notarial seal of office). Reading lenses on a black silk cord. Quiet, watchful, slow-moving — the kind of professional whose stillness reads as authority.</p>\n<h3>Combat behavior</h3>\n<p><strong>Will not fight.</strong> Veska is a notary, not a combatant. If pressed she yields and offers her notarial seal in trade for her safety; she will reconstruct any document she has yielded once she is safe. Her value is in her head and in her files; killing her costs the party three of the most important investigative leads in Phase 3.</p>\n<h3>Statblock summary (CR 1, PB +2)</h3>\n<p><strong>AC</strong> 11 · <strong>HP</strong> 22 (5d8) · <strong>Speed</strong> 30 ft. · <strong>Init</strong> +0 · <strong>Passive Perception</strong> 15</p>\n<p><strong>STR</strong> 10 (+0) · <strong>DEX</strong> 11 (+0) · <strong>CON</strong> 12 (+1) · <strong>INT</strong> 18 (+4) · <strong>WIS</strong> 16 (+3) · <strong>CHA</strong> 14 (+2)</p>\n<p><strong>Saves:</strong> INT +6, WIS +5.</p>\n<p><strong>Skills:</strong> History +6, Insight +5, Investigation +8, Perception +5, Persuasion +4.</p>\n<p><strong>Senses:</strong> Passive Perception 15. <strong>Languages:</strong> Common, Old Aerdi, one trade cipher (Yeomanry diplomatic, current).</p>\n<h3>Traits</h3>\n<ul>\n<li><strong>Reader of Hands.</strong> Veska can identify the writer of a document, the chop applied to it, and the era and provenance of the wax used to seal it, with up to a week's careful comparison work against her own files.</li>\n<li><strong>Notarial Standing.</strong> Her sworn notarial opinions are admissible in any Aerdi or Yeomanry court without further authentication.</li>\n<li><strong>Quiet Network.</strong> Veska maintains correspondence with eight other notaries across the Aerdi coast, all in cipher. She can request and receive a comparison-document from any of them within ten days.</li>\n</ul>\n<h3>Source</h3>\n<p><em>Blooming Rot, Part 2 — Phase 3.</em> See <em>Hardby NPCs → Veska Maelan</em> for full profile and approach phrase.</p>",
+        "value": "<h2>Therion Halask — Retired Aerdi Advocate</h2>\n<p><em>Caelith's Rel Astra correspondent. The party's gateway in Rel Astra and the procedural anchor for the Sereth indictment (Path 1).</em></p>\n<h3>Description</h3>\n<p>Mid-sixties. Aerdi, dark-skinned, white hair worn close-cropped. A long pale linen advocate's robe with the disused color-sash of a retired bench. Reading lenses on a chain. A heavy silver ring on his right hand bearing his old advocate's seal.</p>\n<h3>Combat behavior</h3>\n<p><strong>Will not fight.</strong> Yields. He has not been in a fight in forty-five years and has no intention of starting now. His value is in his procedural knowledge and his Aerdi commercial-court network; killing him closes Path 1 of Phase 4 entirely.</p>\n<h3>Statblock summary (CR 1/2, PB +2)</h3>\n<p><strong>AC</strong> 11 · <strong>HP</strong> 18 (4d8) · <strong>Speed</strong> 30 ft. · <strong>Init</strong> +0 · <strong>Passive Perception</strong> 13</p>\n<p><strong>STR</strong> 9 (-1) · <strong>DEX</strong> 10 (+0) · <strong>CON</strong> 11 (+0) · <strong>INT</strong> 18 (+4) · <strong>WIS</strong> 16 (+3) · <strong>CHA</strong> 16 (+3)</p>\n<p><strong>Saves:</strong> INT +6, WIS +5.</p>\n<p><strong>Skills:</strong> History +6, Insight +5, Investigation +6, Persuasion +5.</p>\n<p><strong>Senses:</strong> Passive Perception 13. <strong>Languages:</strong> Common, Old Aerdi, Suloise, Yeomanry diplomatic cipher.</p>\n<h3>Traits</h3>\n<ul>\n<li><strong>Procedural Authority.</strong> Halask's procedural pleadings are accepted by the Aerdi Commercial Court without further authentication. His sworn statements are admissible in any Aerdi or Yeomanry court.</li>\n<li><strong>Quiet Network.</strong> Halask maintains correspondence with eleven Aerdi commercial-court advocates, three Aerdi imperial-customs functionaries, and Caelith. He can request a procedural opinion or a deposition from any of them within five to fifteen days.</li>\n<li><strong>Reader of Filings.</strong> Advantage on Investigation checks involving Aerdi commercial documents, registry entries, or court records.</li>\n</ul>\n<h3>Source</h3>\n<p><em>Blooming Rot, Part 2 — Phase 4.</em> See <em>Rel Astra NPCs → Therion Halask</em> for full profile and approach phrase.</p>",
         "public": ""
       },
       "alignment": "Lawful Neutral",
       "race": null,
       "type": { "value": "humanoid", "subtype": "human", "swarm": "", "custom": "" },
       "environment": "urban",
-      "cr": 1,
+      "cr": 0.5,
       "spellLevel": 0,
       "source": { "custom": "Blooming Rot, Part 2", "book": "", "page": "", "license": "" }
     },
@@ -46,14 +46,13 @@
       "dv": { "value": [], "bypasses": [], "custom": "" },
       "dm": { "amount": {}, "bypasses": [] },
       "ci": { "value": [], "custom": "" },
-      "languages": { "value": ["common"], "custom": "Old Aerdi; Yeomanry diplomatic cipher" }
+      "languages": { "value": ["common"], "custom": "Old Aerdi; Suloise; Yeomanry diplomatic cipher" }
     },
     "currency": { "pp": 0, "gp": 0, "ep": 0, "sp": 0, "cp": 0 },
     "skills": {
       "his": { "value": 1, "ability": "int", "bonuses": { "check": "", "passive": "" } },
       "ins": { "value": 1, "ability": "wis", "bonuses": { "check": "", "passive": "" } },
-      "inv": { "value": 2, "ability": "int", "bonuses": { "check": "", "passive": "" } },
-      "prc": { "value": 1, "ability": "wis", "bonuses": { "check": "", "passive": "" } },
+      "inv": { "value": 1, "ability": "int", "bonuses": { "check": "", "passive": "" } },
       "prs": { "value": 1, "ability": "cha", "bonuses": { "check": "", "passive": "" } }
     },
     "spells": {
@@ -83,7 +82,7 @@
     }
   },
   "prototypeToken": {
-    "name": "Veska Maelan",
+    "name": "Therion Halask",
     "displayName": 30,
     "actorLink": false,
     "appendNumber": false,
@@ -91,7 +90,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "modules/blooming-rot-2/assets/tokens/veska-maelan-token.png",
+      "src": "modules/blooming-rot-2/assets/tokens/halask-token.png",
       "scaleX": 1,
       "scaleY": 1,
       "offsetX": 0,
@@ -120,9 +119,9 @@
   "items": [],
   "effects": [],
   "folder": null,
-  "sort": 100000,
+  "sort": 200000,
   "ownership": { "default": 0 },
-  "flags": { "blooming-rot-2": { "role": "investigative-witness", "ally": true } },
+  "flags": { "blooming-rot-2": { "role": "investigative-anchor", "ally": true } },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,

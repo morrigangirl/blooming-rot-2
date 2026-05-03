@@ -1,17 +1,17 @@
 {
-  "_key": "!actors!BR2P3ActVeskMa",
-  "_id": "BR2P3ActVeskMa",
-  "name": "Veska Maelan",
+  "_key": "!actors!BR2P4ActSereth",
+  "_id": "BR2P4ActSereth",
+  "name": "Tarlith Vhal Sereth",
   "type": "npc",
-  "img": "modules/blooming-rot-2/assets/portraits/veska-maelan-portrait.png",
+  "img": "modules/blooming-rot-2/assets/portraits/sereth-portrait.png",
   "system": {
     "abilities": {
       "str": { "value": 10, "proficient": 0, "max": null, "bonuses": { "check": "", "save": "" } },
-      "dex": { "value": 11, "proficient": 0, "max": null, "bonuses": { "check": "", "save": "" } },
-      "con": { "value": 12, "proficient": 0, "max": null, "bonuses": { "check": "", "save": "" } },
+      "dex": { "value": 12, "proficient": 0, "max": null, "bonuses": { "check": "", "save": "" } },
+      "con": { "value": 14, "proficient": 0, "max": null, "bonuses": { "check": "", "save": "" } },
       "int": { "value": 18, "proficient": 1, "max": null, "bonuses": { "check": "", "save": "" } },
-      "wis": { "value": 16, "proficient": 1, "max": null, "bonuses": { "check": "", "save": "" } },
-      "cha": { "value": 14, "proficient": 0, "max": null, "bonuses": { "check": "", "save": "" } }
+      "wis": { "value": 14, "proficient": 1, "max": null, "bonuses": { "check": "", "save": "" } },
+      "cha": { "value": 16, "proficient": 1, "max": null, "bonuses": { "check": "", "save": "" } }
     },
     "attributes": {
       "init": { "ability": "dex", "bonus": "" },
@@ -21,21 +21,21 @@
       "spellcasting": "",
       "exhaustion": 0,
       "concentration": { "ability": "", "bonuses": { "save": "" }, "limit": 1 },
-      "hp": { "value": 22, "max": 22, "temp": 0, "tempmax": 0, "formula": "5d8" },
-      "ac": { "flat": 11, "calc": "natural", "formula": "" },
+      "hp": { "value": 65, "max": 65, "temp": 0, "tempmax": 0, "formula": "10d8+20" },
+      "ac": { "flat": 13, "calc": "natural", "formula": "" },
       "death": { "success": 0, "failure": 0 },
       "inspiration": false
     },
     "details": {
       "biography": {
-        "value": "<h2>Veska Maelan — Trade-Clearing Notary, Hardby</h2>\n<p><em>Caelith Dunivar's Hardby contact. Reads the Aerdi clearing-marks better than anyone outside the firms themselves. The investigative gateway of Phase 3 — her notarial opinion turns the recovered evidence into a court-admissible package.</em></p>\n<h3>Description</h3>\n<p>Mid-fifties, Hardby-born, compact build, gray hair worn short under a soft brown cap. Plain wool dress, no jewelry except a small silver scale-and-scroll badge at the throat (her notarial seal of office). Reading lenses on a black silk cord. Quiet, watchful, slow-moving — the kind of professional whose stillness reads as authority.</p>\n<h3>Combat behavior</h3>\n<p><strong>Will not fight.</strong> Veska is a notary, not a combatant. If pressed she yields and offers her notarial seal in trade for her safety; she will reconstruct any document she has yielded once she is safe. Her value is in her head and in her files; killing her costs the party three of the most important investigative leads in Phase 3.</p>\n<h3>Statblock summary (CR 1, PB +2)</h3>\n<p><strong>AC</strong> 11 · <strong>HP</strong> 22 (5d8) · <strong>Speed</strong> 30 ft. · <strong>Init</strong> +0 · <strong>Passive Perception</strong> 15</p>\n<p><strong>STR</strong> 10 (+0) · <strong>DEX</strong> 11 (+0) · <strong>CON</strong> 12 (+1) · <strong>INT</strong> 18 (+4) · <strong>WIS</strong> 16 (+3) · <strong>CHA</strong> 14 (+2)</p>\n<p><strong>Saves:</strong> INT +6, WIS +5.</p>\n<p><strong>Skills:</strong> History +6, Insight +5, Investigation +8, Perception +5, Persuasion +4.</p>\n<p><strong>Senses:</strong> Passive Perception 15. <strong>Languages:</strong> Common, Old Aerdi, one trade cipher (Yeomanry diplomatic, current).</p>\n<h3>Traits</h3>\n<ul>\n<li><strong>Reader of Hands.</strong> Veska can identify the writer of a document, the chop applied to it, and the era and provenance of the wax used to seal it, with up to a week's careful comparison work against her own files.</li>\n<li><strong>Notarial Standing.</strong> Her sworn notarial opinions are admissible in any Aerdi or Yeomanry court without further authentication.</li>\n<li><strong>Quiet Network.</strong> Veska maintains correspondence with eight other notaries across the Aerdi coast, all in cipher. She can request and receive a comparison-document from any of them within ten days.</li>\n</ul>\n<h3>Source</h3>\n<p><em>Blooming Rot, Part 2 — Phase 3.</em> See <em>Hardby NPCs → Veska Maelan</em> for full profile and approach phrase.</p>",
+        "value": "<h2>Tarlith Vhal Sereth — Senior Partner, Cindren &amp; Vhal Rel Astra</h2>\n<p><em>The named villain of Phase 4. The conspiracy's most senior visible operator. Indictable, removable, or killable; not the conspiracy itself.</em></p>\n<h3>Description</h3>\n<p>Late fifties. Tall, narrow-shouldered, very thin. Dark Aerdi complexion, hair gone silver-white and worn long, tied back. Clipped silver beard. Dark eyes that miss nothing. Dark-grey Aerdi advocate's overcoat. Heavy seal-ring on his right hand bearing the firm's seal, not a personal device. Smiles only with his mouth.</p>\n<h3>Combat behavior</h3>\n<p><strong>Not a combatant.</strong> Sereth has no significant combat training. He carries a hand crossbow and a concealed dagger as a senior commercial officer's standard precaution; he has used neither in twenty years. <strong>His protection is his guards.</strong> Two Bodyguards (Veteran), one Bodyguard Captain (Knight, Defense fighting style) at his offices; one Bodyguard outside the offices; a Driver (Bandit Captain) at his carriage. He yields if isolated and reduced to half HP.</p>\n<p>His one rule: <strong>he does not personally kill.</strong> Has not in twenty years and will not now.</p>\n<h3>Statblock summary (CR 5, PB +3)</h3>\n<p><strong>AC</strong> 13 (fine wool coat over hidden mail) · <strong>HP</strong> 65 (10d8+20) · <strong>Speed</strong> 30 ft. · <strong>Init</strong> +1 · <strong>Passive Perception</strong> 14</p>\n<p><strong>STR</strong> 10 (+0) · <strong>DEX</strong> 12 (+1) · <strong>CON</strong> 14 (+2) · <strong>INT</strong> 18 (+4) · <strong>WIS</strong> 14 (+2) · <strong>CHA</strong> 16 (+3)</p>\n<p><strong>Saves:</strong> INT +7, WIS +5, CHA +6.</p>\n<p><strong>Skills:</strong> Deception +6, History +7, Insight +5, Investigation +7, Persuasion +6.</p>\n<p><strong>Senses:</strong> Passive Perception 14. <strong>Languages:</strong> Common, Old Aerdi, Suloise, Aerdi imperial cipher.</p>\n<h3>Traits</h3>\n<ul>\n<li><strong>Cunning Action.</strong> Bonus action to Disengage or Hide.</li>\n<li><strong>Reader of Rooms.</strong> Advantage on Insight and Investigation checks against any creature whose intentions he has read for at least one round.</li>\n<li><strong>The Senior Partner's Guard.</strong> Always accompanied at his offices by Two Bodyguards (Veteran) and a Bodyguard Captain (Knight, Defense). Outside, by one Bodyguard. In his carriage, by a Driver (Bandit Captain).</li>\n<li><strong>Yields.</strong> Surrenders and offers terms if reduced to half HP and not within reach of his guards. Never makes a killing blow himself.</li>\n</ul>\n<h3>Actions</h3>\n<ul>\n<li><strong>Hand Crossbow (last resort).</strong> Ranged Weapon Attack +4, range 30/120. <em>Hit:</em> 1d6+1 piercing.</li>\n<li><strong>Concealed Dagger (last resort).</strong> Melee Weapon Attack +4, reach 5 ft. <em>Hit:</em> 1d4+1 piercing.</li>\n</ul>\n<h3>Source</h3>\n<p><em>Blooming Rot, Part 2 — Phase 4.</em> See <em>Rel Astra NPCs → Tarlith Vhal Sereth</em> and <em>The Sereth Confrontation</em> for the scene's full setup.</p>",
         "public": ""
       },
-      "alignment": "Lawful Neutral",
+      "alignment": "Lawful Evil",
       "race": null,
       "type": { "value": "humanoid", "subtype": "human", "swarm": "", "custom": "" },
       "environment": "urban",
-      "cr": 1,
+      "cr": 5,
       "spellLevel": 0,
       "source": { "custom": "Blooming Rot, Part 2", "book": "", "page": "", "license": "" }
     },
@@ -46,14 +46,14 @@
       "dv": { "value": [], "bypasses": [], "custom": "" },
       "dm": { "amount": {}, "bypasses": [] },
       "ci": { "value": [], "custom": "" },
-      "languages": { "value": ["common"], "custom": "Old Aerdi; Yeomanry diplomatic cipher" }
+      "languages": { "value": ["common"], "custom": "Old Aerdi; Suloise; Aerdi imperial cipher" }
     },
     "currency": { "pp": 0, "gp": 0, "ep": 0, "sp": 0, "cp": 0 },
     "skills": {
+      "dec": { "value": 1, "ability": "cha", "bonuses": { "check": "", "passive": "" } },
       "his": { "value": 1, "ability": "int", "bonuses": { "check": "", "passive": "" } },
       "ins": { "value": 1, "ability": "wis", "bonuses": { "check": "", "passive": "" } },
-      "inv": { "value": 2, "ability": "int", "bonuses": { "check": "", "passive": "" } },
-      "prc": { "value": 1, "ability": "wis", "bonuses": { "check": "", "passive": "" } },
+      "inv": { "value": 1, "ability": "int", "bonuses": { "check": "", "passive": "" } },
       "prs": { "value": 1, "ability": "cha", "bonuses": { "check": "", "passive": "" } }
     },
     "spells": {
@@ -83,7 +83,7 @@
     }
   },
   "prototypeToken": {
-    "name": "Veska Maelan",
+    "name": "Tarlith Vhal Sereth",
     "displayName": 30,
     "actorLink": false,
     "appendNumber": false,
@@ -91,7 +91,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "modules/blooming-rot-2/assets/tokens/veska-maelan-token.png",
+      "src": "modules/blooming-rot-2/assets/tokens/sereth-token.png",
       "scaleX": 1,
       "scaleY": 1,
       "offsetX": 0,
@@ -106,8 +106,8 @@
     "lockRotation": false,
     "rotation": 0,
     "alpha": 1,
-    "disposition": 1,
-    "displayBars": 0,
+    "disposition": -1,
+    "displayBars": 40,
     "bar1": { "attribute": "attributes.hp" },
     "bar2": { "attribute": null },
     "light": { "alpha": 0.5, "angle": 360, "bright": 0, "color": null, "coloration": 1, "dim": 0, "attenuation": 0.5, "luminosity": 0.5, "saturation": 0, "contrast": 0, "shadows": 0, "animation": { "type": null, "speed": 5, "intensity": 5, "reverse": false }, "darkness": { "min": 0, "max": 1 }, "negative": false, "priority": 0 },
@@ -122,7 +122,7 @@
   "folder": null,
   "sort": 100000,
   "ownership": { "default": 0 },
-  "flags": { "blooming-rot-2": { "role": "investigative-witness", "ally": true } },
+  "flags": { "blooming-rot-2": { "role": "phase-4-named-villain", "ally": false } },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,

@@ -664,6 +664,993 @@ Style: painterly digital fantasy illustration, cinematic interior, palette of cr
 No text.`,
     postProcess: null,
   },
+
+  // ============== TIER 6 — Phase 3 NPC portraits ==============
+  {
+    id: "p3-veska-maelan-portrait",
+    tier: 6,
+    out: "assets/portraits/veska-maelan-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of VESKA MAELAN, a Hardby trade-clearing notary in her mid-fifties.
+Compact build, dark eyes, gray hair worn short under a soft brown cap. Plain dark wool dress, no jewelry except a small silver scale-and-scroll badge at the throat (her notarial seal of office). Reading lenses on a black silk cord around her neck. Quiet, watchful, slow-moving authority.
+Three-quarter view from waist up. She is at her desk, hands resting on a small ledger; lamplight from one side. Her gaze is direct, considering.
+Hardby maritime city background suggested: a leaded window with harbor masts beyond, slightly out of focus.
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  {
+    id: "p3-anver-resh-portrait",
+    tier: 6,
+    out: "assets/portraits/anver-resh-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of ANVER RESH (also called "Tarsh"), a Hardby freelance broker in his fifties.
+Thin, balding with a fringe of dark hair worn long. Long pale face. Yellow stains on the second and third fingers of his right hand from cheap pipe-leaf. A small clay pipe held loosely in that hand. Smoker's rasp implied in the set of the throat. Plain dark wool, a heavy wool coat over an unornamented shirt; no jewelry.
+Three-quarter view from waist up. He is in a low-ceilinged tavern booth, lit by a single hanging oil lamp; the back wall behind him is dark wood and old stains. He looks directly at the viewer, faintly amused, faintly bored. He has been read at by far stranger people.
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  {
+    id: "p3-castrian-vell-portrait",
+    tier: 6,
+    out: "assets/portraits/castrian-vell-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of CASTRIAN VELL, a Hardby poet and minor playwright in his late thirties.
+Dark curls graying at the temples. Clean unringed hands. Wears soft dark fabrics — a deep plum waistcoat over a cream shirt, no cravat. A small emerald-and-silver pin at the collar (his only ornament). Speaks with composed sentences he has clearly written in his head before speaking; the smile he wears is half genuine, half a careful imitation of itself.
+Three-quarter view from waist up. He is in his sitting room, holding a wineglass; a small shelf of his published volumes visible behind him on a wall. Warm hearth light from one side, cool window light from the other.
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  {
+    id: "p3-solen-mereth-portrait",
+    tier: 6,
+    out: "assets/portraits/solen-mereth-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of SOLEN MERETH, a senior clerk at Cindren & Vhal Hardby in his late forties.
+Tall, lean, balding with a fringe of dark hair, careful clean-shaven features. Wears the firm's senior-clerk livery: a dark green wool coat with a small brass crane-and-coins pin at the breast and a small additional pin denoting head-of-office. Reading lenses on a black silk cord. Speaks (when he must) in short measured sentences.
+Three-quarter view from waist up. He stands at his tall standing desk in the bond-loading office; a wall of bond-loading files behind him; an open ledger and an inkwell on the desk in front. Cool morning window light. His expression is professional, careful, faintly worried — a man whose competent management of a difficult brief has begun, in the last week, to feel like a risk.
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  {
+    id: "p3-ailen-moraven-portrait",
+    tier: 6,
+    out: "assets/portraits/ailen-moraven-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of AILEN MORAVEN, a sculptor's apprentice in her mid-twenties (Tamsin Moraven's daughter).
+Tall, dark hair worn loose to the shoulders, pale gray eyes (her father's). Strong forearms from clay and stone work. Wears a leather work-apron over a plain shirt; sleeves rolled. A small silver locket at the throat (gift from her mother on her sixteenth birthday). Hands clay-dusted, fingernails short.
+Three-quarter view from waist up. She is in her workshop corner: stone dust hangs in slanted afternoon light; a half-shaped bust visible on a turntable behind her; a chisel held in her right hand. Her expression is composed but watchful — she has guessed something is wrong at home and has not yet been told what.
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  {
+    id: "p3-zoria-weis-portrait",
+    tier: 6,
+    out: "assets/portraits/zoria-weis-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of ZORIA WEIS, a Gynarchy under-clerk in her late thirties.
+Plain, careful, neither tall nor short. Brown hair pinned up under a small white cap. Wears the Gynarchy under-clerk's grey-and-cream half-livery — a structured grey wool dress with cream collar and cuffs, a small civic pin at the breast. Speaks in dry careful sentences. Smiles rarely.
+Three-quarter view from waist up. She stands at her desk in the Office of Mercantile Records; behind her, tall pigeonhole shelves of bound civic ledgers. A single lamp lit at her elbow. She is reading a page in front of her, glances up at the viewer with measured neutrality.
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  {
+    id: "p3-vella-tannin-portrait",
+    tier: 6,
+    out: "assets/portraits/vella-tannin-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of VELLA TANNIN, a junior bond-officer at Cindren & Vhal Hardby in her mid-thirties.
+Plain, careful features; auburn hair pinned back; freckles. Wears the firm's junior livery (a darker green wool coat than the senior clerks, simpler cut, no head-of-office pin — only the standard crane-and-coins pin). A small brass watch on a fob chain. Hands ink-stained from a day's bond-clearing work.
+Three-quarter view from waist up. She is in a quiet bread-shop two streets from the firm at her usual lunch hour; a small plate and a teacup in front of her, an open book she is half-reading. Warm interior light. Her expression carries a quiet long-held grief — eight years of it. She looks like someone who has been waiting for the right person to ask.
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  {
+    id: "p3-mira-cindren-portrait",
+    tier: 6,
+    out: "assets/portraits/mira-cindren-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of MIRA CINDREN, junior partner at Cindren & Vhal Hardby in her mid-forties (Veshen Cindren's cousin).
+Tall, polished, dark hair pinned in a careful merchant's coil. Wears the firm's senior livery cut for partner rank — a long dark green wool coat with a heavier brass crane-and-coins clasp at the breast and a partner's white silk neckcloth. Walks straight, speaks composedly, eyes that do not give anything away that has not been authorized.
+Three-quarter view from waist up. She is in her office at the firm, hands clasped before her over a small leather portfolio. Polished oak walls behind. Cool diffuse light from a high leaded window. Her expression: courteous, prepared, plausibly innocent.
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  {
+    id: "p3-reyna-worth-portrait",
+    tier: 6,
+    out: "assets/portraits/reyna-worth-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of REYNA WORTH, a Cindren-aligned overseer and contracted killer in her early forties.
+Lean, hard-faced, dark close-cropped hair, a thin pale scar across the left cheek. Plain practical clothes — a brown leather jerkin over a dark linen shirt, fingerless leather gloves. A short blade at her belt. Eyes that do not look away.
+Three-quarter view from waist up. She stands in the half-light of a warehouse, dust in the air; behind her a stack of bonded crates. Her expression is professional, unrushed, slightly bored — a person whose job has bored her for years and who is good at it nonetheless.
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  {
+    id: "p3-tamsin-moraven-portrait",
+    tier: 6,
+    out: "assets/portraits/tamsin-moraven-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of TAMSIN MORAVEN, a senior Yeomanry grain factor in her mid-fifties.
+Tall, capable, dark hair gone iron-gray at the temples (her daughter's hair before the gray). Wears a Yeomanry merchant's working dress — a dark green wool overdress over a plain shirt, a leather belt with a pouch and quill case, a brass measuring key on a cord at her hip. A small silver pin at the collar marking twelve years' grain-factor standing.
+Three-quarter view from waist up. She stands at her tall standing desk in her counting house on Tannerway, a green-leather ledger open in front of her, a brass weighing scale and a handful of grain samples in cloth bags on the desk. Cool morning light through tall mullioned windows. Her expression: focused, capable, the careful watchfulness of a woman who has begun to suspect she is in danger.
+${ART_STYLE}`,
+    postProcess: null,
+  },
+
+  // ============== TIER 7 — Phase 1/2 polish portraits ==============
+  {
+    id: "p2-doril-veth-portrait",
+    tier: 7,
+    out: "assets/portraits/doril-veth-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of DORIL VETH, a Yeomanry grain-trade chief clerk in his fifties.
+Stout middle-aged man, plain green wool coat, neat short gray hair, careful clean-shaven features, gold-rimmed reading lenses pushed up onto his forehead.
+Three-quarter view from waist up. He stands at his tall standing desk, a green leather-bound ledger open before him, gesturing at a row of entries. Filing cabinets behind him. Cool morning light. His expression: anxious, eager to be helpful, slightly conspiratorial — a clerk who has been waiting for someone to ask the right questions.
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  {
+    id: "p2-reln-pollow-portrait",
+    tier: 7,
+    out: "assets/portraits/reln-pollow-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of RELN POLLOW, a Loftwick contract physician in his mid-forties.
+Soft, anxious man. Balding with sandy unkempt hair at the sides; an unkempt sandy beard. Ink-stained fingers. Wears a stained apothecary's smock over a plain shirt.
+Three-quarter view from waist up. He stands at his cluttered standing desk; shelves of jars and bottled tinctures behind him, a small coal stove glowing red at one side, dried herbs hanging from a beam overhead. He holds a slip of paper as if just lifted from the desk. Late-afternoon window light. His expression: anxious, sweating slightly, the look of a man who has rehearsed an answer he may not be allowed to give.
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  {
+    id: "p2-vellin-moraven-portrait",
+    tier: 7,
+    out: "assets/portraits/vellin-moraven-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of VELLIN MORAVEN, a Yeomanry schoolmaster in his late fifties (Tamsin Moraven's husband).
+Quiet man, gray at the temples, drawn features (he has aged a year in eleven days). Wears a plain dark-gray scholar's coat over a darker shirt. No jewelry. Hands gentle, fingers slightly ink-stained from years of marking school papers.
+Three-quarter view from waist up. He is seated in his small parlor by a low banked fire; behind him a small framed portrait on the mantel showing a woman and a young woman together. Warm hearth glow from one side. He holds a folded slip of paper in his hand and looks down at it, not at the viewer. His expression: heartbreak quietly carried.
+${ART_STYLE}`,
+    postProcess: null,
+  },
+
+  // ============== TIER 8 — Phase 3 set-piece scenes ==============
+  {
+    id: "p3-hardby-approach",
+    tier: 8,
+    out: "assets/illustrations/p3-hardby-approach.png",
+    size: "1536x1024",
+    quality: "high",
+    referenceImages: [
+      "assets/portraits/party/alicia-warlock-blade.png",
+      "assets/portraits/party/selvara-human-sorcerer.jpg",
+      "assets/portraits/party/kitty-druid-cthonic-tiefling.png",
+      "assets/portraits/party/gianni-ranger-.jpg",
+      "assets/portraits/party/elle-halfling-monk.jpg",
+      "assets/portraits/party/Cam-Halfling-Rogue.png",
+    ],
+    prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG adventure module (D&D 5e / Pathfinder / Tales of the Valiant book interior style).
+**Six reference images supplied — the six-PC adventuring party. Identify each by features and match exactly:**
+- **Alicia** — red-haired, high ponytail, blue tunic, golden sword, tattoo sleeve on left arm. **No sparkles, no glowing motes around her — render her cleanly.**
+- **Selvara** — hooded woman in dark red cloak, scar across face with milky pale eye, blue gem pendant.
+- **Kitty** — chthonic-tiefling druid: ashen-grey skin, small dark horns, pale luminescent eyes, dark braided hair, dark slender tail, lynx-painted shield, woven-wood spear. **The horns and tail must be visible.**
+- **Gianni** — dark hair in single thick braid, fierce dark-lined eyes, leather cuirass, quiver of arrows. (She is female.)
+- **Elle** — halfling monk, **halfling height (head about waist of the humans)**, yellow/saffron robes with red sash.
+- **Cam** — halfling rogue, **halfling height**, long brown hair, large yellow eyes, brown leather travel clothes.
+Scene: the six-PC adventuring party arrives at the city of HARDBY by sea or by road (GM's choice based on travel approach). Mid-morning, gray autumn light over the harbor. The city is a coastal Free City — tightly packed two- and three-story stone-and-timber buildings climbing inland from a busy commercial harbor; masts of moored galleys crowd the foreground; the smell of coal smoke, tar, and low tide implied by the heavy gray air. A weathered city wall runs along the harbor's inland edge with a wide stone gate (the South Gate or the harbor gate, depending on approach) where harbor men, fishwives, and dock-warden shifts pass through.
+The party stands together on the cobblestones just inside or just outside the gate, looking at the city. They are travel-worn. Hardby is louder than Loftwick was; the camera catches them noticing.
+Composition: classic "we have arrived in the next city" framing — party slightly small in the foreground against the bulk of the city in the middle distance, harbor masts and tile rooftops climbing up the slope behind.
+Style: painterly digital fantasy illustration, palette of cool gray morning light, weathered stone, dark wood, dull copper rooftops, a touch of harbor blue. NOT 19th-century oil painting. No text or labels.`,
+    postProcess: null,
+  },
+  {
+    id: "p3-coopered-wreck",
+    tier: 8,
+    out: "assets/illustrations/p3-coopered-wreck.png",
+    size: "1536x1024",
+    quality: "high",
+    referenceImages: [
+      "assets/portraits/anver-resh-portrait.png",
+      "assets/portraits/party/alicia-warlock-blade.png",
+      "assets/portraits/party/selvara-human-sorcerer.jpg",
+      "assets/portraits/party/Cam-Halfling-Rogue.png",
+    ],
+    prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG adventure module.
+**Four reference images supplied:**
+- **Anver "Tarsh" Resh** (NPC) — thin, fifties, balding with dark hair fringe worn long, long pale face, yellow stains on his right-hand fingers from pipe smoke, plain dark wool, no jewelry.
+- **Alicia** (PC) — red-haired ponytail, blue tunic, golden sword. No sparkles.
+- **Selvara** (PC) — hooded, dark red cloak, scar, milky pale eye, blue gem pendant.
+- **Cam** (PC) — halfling-sized, long brown hair, large yellow eyes, brown leather. **Halfling height — visibly smaller than the humans.**
+Scene: a low-ceilinged sailors' tavern called THE COOPERED WRECK in Hardby's harbor district. Coal-smoke-dark room with a long bar down one side and three back booths on the opposite wall. The leftmost back booth has a single hanging oil lamp; the rest of the room is in shifting shadow. A few stevedores at the bar in the background, a one-eyed retired bosun (the proprietor) wiping a glass behind the bar.
+TARSH sits in his usual back booth, leaning back, a small clay pipe held loosely in his stained hand, a cup of small beer in front of him. Across from him in the booth: ALICIA seated, holding a folded vellum document open on the table for him to read. Standing at the booth's open side, watching: SELVARA (hood pushed back, watching Tarsh's face for tells) and CAM (smaller, hands clasped behind her back, sharp yellow eyes also on Tarsh).
+Mood: polite tension, the moment a broker realizes he has been brought a paper he would have preferred not to be holding. Smoke-dim atmosphere, warm lamp glow contrasted against deep shadow.
+Style: painterly digital fantasy illustration, palette of warm lamp gold, dark wood, smoke gray, leather brown. NOT 19th-century oil painting. No text.`,
+    postProcess: null,
+  },
+  {
+    id: "p3-cv-hardby-branch",
+    tier: 8,
+    out: "assets/illustrations/p3-cv-hardby-branch.png",
+    size: "1536x1024",
+    quality: "high",
+    referenceImages: [
+      "assets/portraits/solen-mereth-portrait.png",
+      "assets/portraits/party/alicia-warlock-blade.png",
+      "assets/portraits/party/gianni-ranger-.jpg",
+    ],
+    prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG adventure module.
+**Three reference images supplied:**
+- **Solen Mereth** (NPC) — late forties, tall, lean, balding, careful clean-shaven, dark green firm livery with brass crane-and-coins pin and a small head-of-office pin, reading lenses on black silk cord.
+- **Alicia** (PC) — red ponytail, blue tunic, golden sword. No sparkles.
+- **Gianni** (PC, female) — dark hair single braid, fierce dark-lined eyes, leather cuirass, quiver.
+Scene: the BOND-LOADING OFFICE at Cindren & Vhal Hardby — a small private office at the back of the counter-room. Walnut paneling, a tall standing desk (Solen's), a wall of bond-loading files in pigeonhole shelves behind the desk, a tall locked cabinet against the back wall, a small leaded window high on one wall casting cool morning light.
+SOLEN MERETH stands behind his standing desk, both hands flat on its surface, looking at the visitors with composed careful neutrality. His reading lenses sit on the desk. An open ledger and an inkwell to one side.
+Across the desk from him: ALICIA standing slightly forward, asking a measured question; GIANNI behind her at the doorway, arms folded over her leather cuirass, watching Solen for any tell.
+Mood: a polite professional confrontation. Cool window light from one side, warm desk-lamp light on Solen's hands. Solen knows exactly why they are here; he has not yet decided whether to lie.
+Style: painterly digital fantasy illustration, intimate office interior, palette of dark walnut, deep green livery, brass, parchment cream. NOT 19th-century oil painting. No text.`,
+    postProcess: null,
+  },
+  {
+    id: "p3-veska-reveal",
+    tier: 8,
+    out: "assets/illustrations/p3-veska-reveal.png",
+    size: "1536x1024",
+    quality: "high",
+    referenceImages: [
+      "assets/portraits/veska-maelan-portrait.png",
+      "assets/portraits/party/selvara-human-sorcerer.jpg",
+      "assets/portraits/party/alicia-warlock-blade.png",
+    ],
+    prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG adventure module — investigative set piece.
+**Three reference images supplied:**
+- **Veska Maelan** (NPC) — mid-fifties, compact, dark-eyed, gray hair worn short under a soft brown cap; plain dark wool dress; small silver scale-and-scroll badge at the throat; reading lenses on a black silk cord.
+- **Selvara** (PC) — hooded, dark red cloak, scar, milky pale eye, blue gem pendant.
+- **Alicia** (PC) — red ponytail, blue tunic, golden sword. No sparkles.
+Scene: the small ground-floor notary office at WHALEMARKET QUAY in Hardby, late evening. A single brass oil lamp on the desk provides warm gold light; the rest of the office is in shadow. A tall standing-cabinet of ledgers and copybooks against one wall, two visitor chairs, a brass-and-green-glass desk lamp shaded down. A leaded window in the back wall shows full dark outside with a single distant ship's lantern reflected on the harbor.
+VESKA sits at the desk, reading lenses on her nose, leaning over the recovered evidence laid out in front of her — a folded vellum letter of credit, a clipped silver coin held to the lamp in her left hand, a small black-lacquered scroll tube, a torn ledger fragment, a strip of vellum bearing four words. Her right index finger rests on a chop she has just identified.
+Standing across from her, leaning forward to listen: SELVARA (hood pushed back, focused, tracking every word); ALICIA (slightly behind Selvara, arms folded, listening hard).
+Mood: the quiet investigative climax — three professionals in a lamp-lit office at night, naming people for the first time. Warm intimate lamp glow against deep shadow. Tea things on a small side table.
+Style: painterly digital fantasy illustration, intimate interior, palette of warm lamp gold, deep cool shadow, leather brown, parchment cream. NOT 19th-century oil painting. No text.`,
+    postProcess: null,
+  },
+  {
+    id: "p3-burglary",
+    tier: 8,
+    out: "assets/illustrations/p3-burglary.png",
+    size: "1536x1024",
+    quality: "high",
+    referenceImages: [
+      "assets/portraits/party/Cam-Halfling-Rogue.png",
+      "assets/portraits/party/elle-halfling-monk.jpg",
+      "assets/portraits/party/selvara-human-sorcerer.jpg",
+    ],
+    prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG adventure module — heist set piece.
+**Three reference images supplied:**
+- **Cam** (PC, halfling rogue) — halfling height, long brown hair, large yellow eyes, brown leather travel clothes, brown leather satchel.
+- **Elle** (PC, halfling monk) — halfling height, yellow/saffron robes with red sash, brown hair, agile build.
+- **Selvara** (PC) — hooded, dark red cloak, scar, milky pale eye, blue gem pendant. Holds a small bullseye lantern shielded so its light spills only forward.
+Scene: the lower vault of CINDREN & VHAL HARDBY at the third bell after midnight. Stone-walled, vaulted ceiling, a single iron-banded door open in the back. A side cabinet open in the foreground showing a row of three slim leather-bound ledger volumes (the second set of books). The vault's small lantern is unlit; the only light is from Selvara's shielded bullseye lantern.
+CAM crouches at the open side cabinet, lifting one of the three volumes carefully; her satchel open on the stone floor beside her. ELLE stands at the open vault door, glancing out into the corridor as a lookout, perfectly balanced on the balls of her feet. SELVARA stands halfway between, holding the bullseye lantern angled so its light spills onto the cabinet for Cam without spilling backward.
+Mood: tense focused silence. The kind of moment that requires perfect quiet from everyone involved.
+Composition: dramatic chiaroscuro — single light source, deep cool stone shadow, the recovered evidence catching the lamplight as the climax.
+Style: painterly digital fantasy illustration, heist-scene chiaroscuro, palette of warm lantern gold against deep cool stone shadow. NOT 19th-century oil painting. No text.`,
+    postProcess: null,
+  },
+  {
+    id: "p3-tamsin-recovery",
+    tier: 8,
+    out: "assets/illustrations/p3-tamsin-recovery.png",
+    size: "1536x1024",
+    quality: "high",
+    referenceImages: [
+      "assets/portraits/tamsin-moraven-portrait.png",
+      "assets/portraits/party/alicia-warlock-blade.png",
+      "assets/portraits/party/gianni-ranger-.jpg",
+      "assets/portraits/party/kitty-druid-cthonic-tiefling.png",
+    ],
+    prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG adventure module — rescue set piece.
+**Four reference images supplied:**
+- **Tamsin Moraven** (NPC, rescued) — mid-fifties, tall, dark hair iron-gray at the temples, dark green Yeomanry merchant's overdress now travel-worn from twelve days' captivity. Tired, underfed, but standing on her own feet. The watchful careful capable woman the party has heard about.
+- **Alicia** (PC) — red ponytail, blue tunic, golden sword. No sparkles.
+- **Gianni** (PC, female) — dark hair single braid, leather cuirass, quiver.
+- **Kitty** (PC) — chthonic-tiefling druid: **ashen-grey skin, small dark horns, dark slender tail, lynx shield, woven spear**. The horns and tail must be visible.
+Scene: the small clerk's-office room in a harbor warehouse on Black Cog Lane at late night. A barred window in the back wall, a wooden door open behind the party, a thin straw mattress on the floor, a water jug by the door. One of the party's own lanterns has been brought in and set on the mattress. A small open chest of Tamsin's belongings on the floor (the captors apparently brought her a few things; the chest is the size of a hatbox).
+TAMSIN stands in the center of the room, just having stood up from the mattress, one hand still pressed to the wall behind her, her other hand reaching out to take ALICIA's offered hand. Her eyes are on Alicia's face — the first kindness in twelve days. ALICIA half-kneels in front of her, her free hand gesturing back toward the open door (the way out). KITTY stands just inside the door, one ashen-grey hand on the door frame, her tail visible behind her, watching the corridor for Worth's return. GIANNI stands further out in the corridor visible through the door, an arrow nocked but not drawn, watching the warehouse's main floor.
+Mood: a rescue moment, the quiet seconds before they must move quickly. Warm relief in the foreground (Tamsin and Alicia), watchful tension in the background (Kitty and Gianni at the threshold).
+Style: painterly digital fantasy illustration, dramatic warm lantern glow against cool industrial-gray warehouse stone, palette of warm gold + cool blue-gray. NOT 19th-century oil painting. No text.`,
+    postProcess: null,
+  },
+  {
+    id: "p3-gynarchy-registry",
+    tier: 8,
+    out: "assets/illustrations/p3-gynarchy-registry.png",
+    size: "1536x1024",
+    quality: "high",
+    referenceImages: [
+      "assets/portraits/zoria-weis-portrait.png",
+      "assets/portraits/party/selvara-human-sorcerer.jpg",
+      "assets/portraits/party/alicia-warlock-blade.png",
+    ],
+    prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG adventure module.
+**Three reference images supplied:**
+- **Zoria Weis** (NPC) — late thirties, plain careful features, brown hair pinned up under a small white cap, Gynarchy under-clerk's grey-and-cream half-livery.
+- **Selvara** (PC) — hooded, dark red cloak, scar, milky pale eye, blue gem pendant.
+- **Alicia** (PC) — red ponytail, blue tunic, golden sword. No sparkles.
+Scene: a small reading room at the back of the GYNARCHY OFFICE OF MERCANTILE RECORDS in Hardby's Old Quarter, late morning. Walnut-paneled walls. A single tall reading table at the room's center. On the table: a large bound volume open to a two-page spread of harbor commission appointment entries (rows of inked names, dates, dispositions). Two oil lamps on the table provide warm light; the rest of the room is in cool diffuse light from a high leaded window.
+ZORIA stands at the head of the table, one finger pressed to a row of entries (the THREE old-house seats marked vacant). She is reading aloud in a measured voice, gesturing with her free hand at the structure of the page.
+ALICIA and SELVARA stand on the opposite side of the table, leaning forward to read along; ALICIA's expression is dawning understanding; SELVARA's is hardening into focus.
+Mood: the moment a slogan becomes operational law. Tight, scholarly, decisive.
+Style: painterly digital fantasy illustration, intimate civic interior, palette of warm lamp gold, walnut brown, parchment cream, cool stone. NOT 19th-century oil painting. No text.`,
+    postProcess: null,
+  },
+  {
+    id: "p3-castrian-salon",
+    tier: 8,
+    out: "assets/illustrations/p3-castrian-salon.png",
+    size: "1536x1024",
+    quality: "high",
+    referenceImages: [
+      "assets/portraits/castrian-vell-portrait.png",
+      "assets/portraits/party/alicia-warlock-blade.png",
+      "assets/portraits/party/selvara-human-sorcerer.jpg",
+      "assets/portraits/party/elle-halfling-monk.jpg",
+    ],
+    prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG adventure module.
+**Four reference images supplied:**
+- **Castrian Vell** (NPC) — late thirties poet, dark curls graying at temples, plum waistcoat over cream shirt, emerald-and-silver pin at the collar, holding a wineglass.
+- **Alicia** (PC) — red ponytail, blue tunic, golden sword **sheathed behind a sash for the salon — she is in semi-formal mode**. No sparkles.
+- **Selvara** (PC) — hood DOWN for once, scar visible, blue gem pendant; she has dressed for a salon evening (dark wine-colored dress over her usual layers).
+- **Elle** (PC, halfling monk) — halfling height, **dressed in a clean saffron salon robe** (more formal than her travel robes), brown hair brushed.
+Scene: the warm sitting room of CASTRIAN VELL'S TOWNHOUSE on a salon evening. A modest hearth glows on one wall; a small narrow shelf of his published volumes visible on another. Six to eight figures arranged in loose conversational groups: a middle-aged woman in dyer's apron-marks even in her formal dress (the Salters' Quarter dyer), a thin retired ship's captain with a faded blue coat, a Gynarchy under-clerk in her after-hours civilian dress, a sculptor in a paint-marked cravat. Wine and small dishes on a sideboard.
+CASTRIAN stands at the center of one conversational group, turned to introduce the party; his hand half-raised in a poet's gesture. ALICIA stands beside him, smiling a careful merchant's smile (she is in cover); SELVARA hangs back at the edge of the group near a bookshelf (she does not enjoy crowds); ELLE has already moved on to the dyer, talking energetically and gesturing at a length of wool fabric.
+Mood: warm, social, faintly conspiratorial — a working evening dressed as pleasure. Soft hearth light, candle sconces on the walls.
+Style: painterly digital fantasy illustration, intimate sitting-room interior, palette of warm hearth amber, dark wood, deep wine-red and forest-green dress fabrics, candle gold. NOT 19th-century oil painting. No text.`,
+    postProcess: null,
+  },
+
+  // ============== TIER 9 — Phase 3 handouts ==============
+  {
+    id: "p3-tamsin-letter",
+    tier: 9,
+    out: "assets/handouts/tamsin-last-letter.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Aged parchment / vellum prop, photographed flat under soft warm light.
+Hand-written in iron-gall ink with quill, in a careful Yeomanry merchant's hand — neat but tired, the writing of a woman composing it under stress. Subtle wear, fold creases, slight foxing. Edges slightly torn. The paper feels like it has been folded small and carried hidden against a body for several days before delivery.
+The text, exactly as shown, with realistic line breaks for a small folded-letter sheet:
+
+Vellin and Ailen — if you read this, I am not coming home.
+
+I want you to know that I knew what I was doing when I asked the questions, and I would ask them again. The grain that was paid for never existed. The men who paid for it knew it never existed and bought it anyway because the paperwork is a kind of weapon, and they wanted the weapon. I followed the weapon back through three counting houses to the firm, and the firm to a name in Rel Astra, and the name to a man who has been dead, on paper, for nine years. I do not know who the man is. I know only that he is the one I was asking about when they came for me.
+
+Vellin — there is a small lacquered box in the bottom of my wardrobe under the spare linen. Inside it, my filings on the South Province grain. Take them to Caelith Dunivar in Loftwick. He will know what to do with them. He may already know.
+
+Ailen — your work has been the great quiet joy of my life. I have not told you this often enough.
+
+I love you both very much. I am sorry to have left you with this.
+
+— T.
+
+Photographed straight-on, no perspective, no decorative borders. Plain dark surface around the parchment.`,
+    postProcess: null,
+  },
+
+  // ============== TIER 10 — tokens for Phase 3 NPCs ==============
+  {
+    id: "p3-veska-token",
+    tier: 10,
+    out: "assets/tokens/veska-maelan-token.png",
+    sourceFromExisting: "assets/portraits/veska-maelan-portrait.png",
+    skipGeneration: true,
+    postProcess: "round-token-512",
+    dependsOn: "p3-veska-maelan-portrait",
+    // Cool silver — civic, neutral disposition, professional gravity.
+    ring: { base: "#7a7e88", highlight: "#c4c8d0", shadow: "#2a2c30" },
+  },
+  {
+    id: "p3-anver-token",
+    tier: 10,
+    out: "assets/tokens/anver-resh-token.png",
+    sourceFromExisting: "assets/portraits/anver-resh-portrait.png",
+    skipGeneration: true,
+    postProcess: "round-token-512",
+    dependsOn: "p3-anver-resh-portrait",
+    // Dull bronze-brown — broker, ambivalent disposition.
+    ring: { base: "#7a5a36", highlight: "#b89c70", shadow: "#2a1a0c" },
+  },
+
+  // ============== TIER 11 — module banner ==============
+  {
+    id: "module-banner",
+    tier: 11,
+    out: "assets/banners/blooming-rot-2-banner.png",
+    size: "1536x1024",
+    quality: "high",
+    prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG adventure module banner image.
+Wide cinematic landscape banner. Three layered visual zones from left to right, like a triptych without dividers:
+LEFT — the limestone walls of LOFTWICK at dawn, civic spires against a cool gray-pink sky, the ornate baroque guesthouse called the Little Palace just visible behind the wall.
+CENTER — a long oak table with seven small evidence items laid out on numbered linen squares (a battered black spellbook, a black-lacquered scroll tube, a clipped silver coin, a torn ledger fragment, a strip of vellum reading HARBOR BEFORE THRONE, a small cloth pouch of grain, a burned dark-wood ritual focus). Brass chandelier light spilling down from above. The table edge cuts diagonally across the composition.
+RIGHT — the harbor of HARDBY at sunset, dock masts crowded against an orange-red sky, a single galley sail unfurled, the silhouette of a fortified coastal town climbing inland.
+The composition flows left-to-right: dawn → noon investigation → sunset departure. The implied arc of the adventure.
+At the bottom edge of the composition (subtle, no text): a row of three small heraldic devices — the Yeomanry wheatsheaf, the Cindren & Vhal crane-and-three-coins, and the tower-and-three-waves countermark. Embossed in the parchment-textured lower border.
+Style: painterly digital fantasy illustration, dramatic atmospheric perspective, vivid but tonally cohesive palette of dawn pink + lamp gold + sunset orange unified by the warm wood of the central table. Banner-style cinematic composition. NOT 19th-century oil painting.
+No text or labels visible anywhere.`,
+    postProcess: null,
+  },
+
+  // ============== TIER 12 — maps ==============
+  // NOTE: gpt-image-2 is variable at strict top-down tactical maps with grid. These
+  // are best-effort atmospheric / semi-tactical maps suitable as scene backdrops in
+  // Foundry. For pixel-precise gridded battlemaps, prefer Dungeondraft/Dungeon Alchemist.
+  {
+    id: "p3-hardby-city-map",
+    tier: 12,
+    out: "assets/maps/hardby-city-map.png",
+    size: "1536x1024",
+    quality: "high",
+    prompt: `Top-down fantasy city map of HARDBY, a fortified Aerdi-coast harbor city of about 8,000 souls.
+Painterly cartographic style — like a published D&D adventure module city map (Tales of the Valiant / Pathfinder city handout / Greyhawk gazetteer style). Hand-painted feel, parchment substrate, soft sepia and ink palette with limited muted color (rust roofs, gray stone, ochre roads, deep blue-green harbor water).
+NOT a satellite photograph, NOT a modern street map. NOT a 19th-century engraving.
+
+Geography (imagine north = top of the image):
+- A natural deepwater HARBOR opens to the east edge of the map. Two stone breakwaters extend into the bay; lighthouse at the tip of the southern breakwater.
+- The OLD CITY climbs a low headland on the south side of the harbor, walled in dark gray stone, irregular street plan winding up toward an octagonal stone keep called the GYNARCHY HOUSE at the highest point.
+- The NEW CITY sprawls north of the harbor along the flat coastal plain, regular grid plan, lighter limestone walls, broader avenues.
+- The DOCKS run along the southern half of the inner harbor — long rows of warehouses, two dry-docks, a dozen labeled jetties. Densest building cluster on the map.
+- The MERCHANT QUARTER fills the northeast — the Cindren & Vhal counting-house complex (a square block with internal courtyard), other named compting houses, the Trade Hall.
+- The CIVIC QUARTER fills the northwest — registry office, Notary's Hall, militia barracks, civic plaza.
+- A BLACK COG LANE neighborhood at the south edge of the docks — rougher buildings, narrower alleys, the COOPERED WRECK tavern marked with a small sigil.
+- WHITEMOOR ESTATE on the northern outskirts beyond the new city walls — a walled merchant villa with garden grounds.
+- LANDWARD GATES on the west and northwest edges, with roads leading off the map (toward Loftwick / toward the inland Yeomanry).
+- A small RIVER cuts through the new city, north-to-south, emptying into the harbor.
+
+Add a tasteful compass rose in the upper-left corner. Add a small scale bar in the lower-right. NO text labels on any building or quarter — labels will be added separately in Foundry. NO modern symbols. Painted-map feel, not vector.`,
+    postProcess: null,
+  },
+  {
+    id: "p3-coopered-wreck-map",
+    tier: 12,
+    out: "assets/maps/coopered-wreck-interior.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Top-down tactical battlemap of the COOPERED WRECK, a dockside tavern interior in the harbor district of HARDBY.
+Hand-painted fantasy cartography style suitable for a tabletop RPG (Dungeondraft / Mike Schley / Tales of the Valiant interior style). NOT a modern architectural blueprint, NOT a 3D render.
+
+The map is viewed straight down from above. Shows ONE FLOOR — the ground floor / common room of the tavern.
+Building footprint roughly rectangular, longer east-to-west, ~50 ft × 35 ft.
+
+Layout (imagine north = top of the image):
+- MAIN ENTRANCE on the south wall (street side), a heavy iron-bound oak door.
+- COMMON ROOM fills the western two-thirds — irregular arrangement of small wooden tables and benches (about eight tables visible), a long bar along the north wall with rows of clay bottles on shelves behind it, a stone hearth on the west wall with chairs pulled up to it.
+- BACK ROOM (Olfard's office) is a small partitioned room in the northeast corner, accessed by a single door from behind the bar. Has a desk, a strongbox, a back door leading to a service alley on the east wall.
+- KITCHEN / SCULLERY a small room along the south wall, between common room and back room, with a serving hatch onto the bar.
+- A NARROW STAIR in the southeast corner climbs up to a second-floor sleeping loft (not shown on this map).
+- WINDOWS only on the south wall (small, shuttered).
+- Outside the building edges: cobbled dock alley on the south, a narrow service alley on the east.
+
+Render with a soft 5 ft square grid overlaid (faint dark lines, low opacity). Painted plank floors in the common room, slate in the kitchen, threadbare patterned rug under the central tables. Warm lamp-lit atmosphere implied by the palette (amber, dark brown, deep red). NO text labels — annotations will be added in Foundry.`,
+    postProcess: null,
+  },
+  {
+    id: "p3-cv-branch-map",
+    tier: 12,
+    out: "assets/maps/cv-hardby-branch-interior.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Top-down tactical battlemap of the CINDREN & VHAL HARDBY BRANCH counting-house INTERIOR — a private banking office, ground floor only.
+Hand-painted fantasy cartography style suitable for a tabletop RPG (Dungeondraft / Mike Schley interior style). NOT modern architectural blueprint.
+
+Building footprint roughly square, ~60 ft × 60 ft, with an internal central skylight courtyard.
+
+Layout (north at top):
+- PUBLIC ENTRANCE on the south wall — a pair of heavy bronze-bound doors, opening into a small ANTECHAMBER with a clerk's high desk and two waiting benches.
+- MAIN HALL fills the southern half — a long counting-room with three teller cages along the south wall (each cage a small barred booth with its own ledger desk), a customer area in front of the cages, and a private partner's reception alcove on the southeast corner with two leather chairs and a small table.
+- INTERNAL COURTYARD in the dead center — a small skylit atrium with a stone bench and a single planted cypress, surrounded by a pillared walkway. Sky open above.
+- SOLEN MERETH'S OFFICE in the northeast quadrant — a private office with a heavy desk, two visitor chairs, a wall of locked correspondence drawers, a small private hearth. Door from the courtyard walkway.
+- RECORDS ROOM in the northwest quadrant — a windowless interior chamber lined with floor-to-ceiling shelves of bound ledgers, a long reading table down the center. Door from the courtyard walkway.
+- STRONGROOM in the north wall — small (~10 × 12 ft), reinforced stone walls, a heavy iron door with two locks, no windows.
+- STAFF / CLERK ROOM in the northwest corner near the records room — three small writing desks, a small hearth.
+- SERVICE PASSAGE along the east wall connecting the courtyard to a small rear delivery door.
+
+Render with a faint 5 ft square grid. Polished hardwood floors throughout, dark wood paneling on walls, dignified muted palette (deep walnut, brass, oxblood red rugs, ivory plaster). No text labels.`,
+    postProcess: null,
+  },
+  {
+    id: "p3-black-cog-warehouse-map",
+    tier: 12,
+    out: "assets/maps/black-cog-warehouse-interior.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Top-down tactical battlemap of a small derelict harbor WAREHOUSE on BLACK COG LANE in HARDBY.
+Hand-painted fantasy cartography style suitable for a tabletop RPG (Dungeondraft / Mike Schley style). NOT modern blueprint.
+
+Building footprint rectangular, ~40 ft × 60 ft, single story plus a partial loft.
+
+Layout (north at top):
+- LARGE SLIDING CARGO DOOR on the south wall (street side), big enough for a wagon, currently closed.
+- SMALLER PERSONNEL DOOR also on the south wall, beside the cargo door.
+- MAIN WAREHOUSE FLOOR fills most of the interior — open space with rows of stacked CRATES and BARRELS, some toppled, some still neatly stacked. Improvised partition walls of stacked crates create CHOKE POINTS roughly midway through the building. Spilled grain and straw on the floor.
+- A SMALL PARTITIONED ROOM on the northwest corner — a former foreman's office, empty desk, broken chair, this is where TAMSIN MORAVEN is being held tied to the chair.
+- A LOFT runs along the north wall, accessed by a wooden ladder — half-collapsed, suitable as elevated cover for archers.
+- A REAR DOOR on the east wall opens onto a narrow service alley between buildings.
+- Two small high WINDOWS on the west wall, shuttered.
+
+Render with a faint 5 ft square grid. Color palette: rough plank floor, dust and grime, dim amber light implied by a single guttering lantern hung from a ceiling beam (visible as a small bright spot). Cluttered, broken, abandoned — clearly not in active use. NO text labels.`,
+    postProcess: null,
+  },
+
+  // ============== TIER 13 — additional location maps (P2 & P3) ==============
+  {
+    id: "p3-whitemoor-estate-map",
+    tier: 13,
+    out: "assets/maps/whitemoor-estate-grounds.png",
+    size: "1536x1024",
+    quality: "high",
+    prompt: `Top-down tactical battlemap of WHITEMOOR ESTATE — a small walled coastal villa two days east of Hardby, used as a quiet detention site by Cindren-aligned interests. Includes the walled grounds and the main house ground floor.
+Hand-painted fantasy cartography style suitable for a tabletop RPG (Dungeondraft / Mike Schley / Tales of the Valiant style). NOT modern blueprint, NOT photo-realistic.
+
+The map shows the WHOLE ESTATE from above, contained within a stone perimeter wall, roughly rectangular ~150 ft × 100 ft. Imagine north = top.
+
+Layout:
+- WALLED PERIMETER on all four sides, stone wall about 8 ft tall, with iron-railing top.
+- MAIN GATE on the south wall — a wrought-iron double gate, with a small GATEHOUSE (where one or two guards stay).
+- A wide CARRIAGE DRIVE curves from the main gate up to the house entrance.
+- The MAIN HOUSE sits on the north half of the grounds — a two-story stone manor (only the ground-floor footprint is shown), roughly 60 ft × 40 ft. Main entrance hall, dining room, sitting room, kitchen wing on the east side, study on the west side.
+- A CELLAR ENTRANCE on the east side of the house leads down — Tamsin is held in a cellar room (not shown, but the entrance is marked).
+- A FORMAL GARDEN in the southeast corner of the grounds — geometric hedges, a stone bench, a small ornamental pool.
+- A KITCHEN GARDEN on the southwest corner — vegetables, herbs, a small shed.
+- A STABLE BLOCK along the west wall — three stalls, a tack room.
+- A few CYPRESS TREES along the perimeter for visual privacy.
+- A small SIDE GATE on the east wall (locked, key with the housekeeper).
+
+Render with a faint 5 ft square grid. Palette: pale stone walls, terracotta roof on the house, green of the garden, gravel of the carriage drive in warm tan. Atmosphere: prosperous but isolated, deliberately private. NO text labels.`,
+    postProcess: null,
+  },
+  {
+    id: "p3-veska-office-map",
+    tier: 13,
+    out: "assets/maps/veska-notary-office-interior.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Top-down tactical battlemap of VESKA MAELAN's NOTARY & TRADE-CLEARING OFFICE on Whalemarket Quay in HARDBY. A small professional office, ground floor only.
+Hand-painted fantasy cartography style suitable for a tabletop RPG (Dungeondraft / Mike Schley style).
+
+Building footprint rectangular, ~30 ft × 40 ft.
+
+Layout (north at top):
+- FRONT DOOR on the south wall (street side) — a heavy oak door with a small painted sign showing an open scroll and a balance scale.
+- PUBLIC RECEPTION ROOM in the southern half — two waiting benches against the walls, a low side table with a small vase of dried flowers, a tall narrow desk where Veska or a clerk receives visitors and accepts documents. Glass case along one wall holding the bound directory of registered chops.
+- INNER OFFICE in the northern half — a long oak worktable in the center, surrounded by tall narrow lamps for close inspection work. Three walls covered with floor-to-ceiling cabinets of small numbered drawers (the document files). A heavy LOCKED CABINET against the north wall holding sensitive correspondence and current open cases. A reading chair by the small private hearth on the east wall.
+- A SMALL REAR ROOM in the northwest corner — Veska's private quarters, a narrow bed, a wash-stand, a clothes-press. Door from the inner office.
+- A REAR DOOR on the west wall opens to a narrow service alley.
+- TWO SMALL HIGH WINDOWS on the south wall (street).
+
+Render with a faint 5 ft square grid. Palette: warm honey-toned wood throughout, brass lamp fittings, oxblood leather chair. Atmosphere: precise, ordered, professionally calm. NO text labels.`,
+    postProcess: null,
+  },
+  {
+    id: "p3-castrian-house-map",
+    tier: 13,
+    out: "assets/maps/castrian-vell-house-interior.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Top-down tactical battlemap of CASTRIAN VELL's TOWNHOUSE in HARDBY — a Hardby merchant townhouse, ground floor and upper floor shown side by side as two halves of one image.
+Hand-painted fantasy cartography style suitable for a tabletop RPG (Dungeondraft / Mike Schley style).
+
+Building footprint per floor: ~30 ft × 40 ft, two-story stone-fronted townhouse.
+
+LEFT HALF — GROUND FLOOR (north at top):
+- FRONT DOOR on the south wall, brass plate reads VELL.
+- ENTRY HALL with coat-rack and a narrow side-table.
+- SITTING ROOM filling the western two-thirds of the ground floor — a generous comfortable room with a stone hearth on the west wall, three settees and a scatter of armchairs arranged loosely around a central low table, a sideboard with wine and glasses, a small upright spinet against the south wall. This is where the salons happen.
+- KITCHEN / SCULLERY in the northeast corner, with an external door onto the back garden.
+- STUDY off the back hall in the east — Castrian's private writing room, a heavy desk facing a window onto the garden, a wall of books, a single armchair.
+- INTERNAL STAIR rising near the entry.
+- SMALL BACK GARDEN visible at the north edge — a stone path, a single olive tree, a wooden bench.
+
+RIGHT HALF — UPPER FLOOR (north at top):
+- THREE GUEST BEDCHAMBERS along the south side (front of house) — each with a bed, washstand, small chair, narrow window onto the street.
+- CASTRIAN'S OWN BEDCHAMBER in the northwest corner — larger, with its own small fireplace.
+- HOUSEKEEPER'S ROOM (Sarro Pell) in the northeast corner — small, neat, a bed, dresser, chair.
+- A SMALL PRIVATE LIBRARY off the upper hall — a single armchair, a reading lamp, two walls of books.
+- STAIR DOWN at the south end of the upper hall.
+
+Faint 5 ft square grid throughout. Palette: warm wood floors, plastered walls in cream and ochre, oxblood and dark green soft furnishings, brass lamp fittings. Atmosphere: prosperous, lived-in, hospitable. NO text labels.`,
+    postProcess: null,
+  },
+  {
+    id: "p3-gynarchy-registry-map",
+    tier: 13,
+    out: "assets/maps/gynarchy-registry-interior.png",
+    size: "1536x1024",
+    quality: "high",
+    prompt: `Top-down tactical battlemap of the HARDBY GYNARCHY REGISTRY OFFICES — a civic building of the Hardby Gynarchy where formal records of trade, citizenship, property, and credentials are filed and consulted. Ground floor only.
+Hand-painted fantasy cartography style suitable for a tabletop RPG (Dungeondraft / Mike Schley style).
+
+Building footprint rectangular, ~80 ft × 50 ft. North at top.
+
+Layout:
+- GRAND ENTRANCE on the south wall — a pair of bronze double doors, opening into a wide PUBLIC ATRIUM with a checkered marble floor.
+- ATRIUM has a tall arched ceiling (implied by lighter shading), a desk where applicants present credentials to a duty clerk, two long polished benches against the walls.
+- PUBLIC SEARCH ROOM in the southwest quadrant — long oak tables with reading lamps, citizens consulting bound register volumes; tall shelves of public records line the western wall.
+- SECURE STACKS in the northwest quadrant — restricted; a half-height GATE separates this area from the public search room. Beyond the gate: tall locked cabinets, ladder rails on the high shelves, a clerk's desk where a registrar checks credentials before retrieving a document.
+- SENIOR REGISTRAR'S OFFICE in the northeast corner — heavy desk, a small private safe, two visitor chairs, door from the inner hall.
+- CLERK BULLPEN along the east side — six small writing desks for the day's clerks, ink-stands, copy-stands.
+- WORKROOM in the southeast corner — where new entries are inscribed and bound; tall desks, a small bookbinder's press.
+- A SERVICE STAIR in the very northwest corner leads down to the deep records vault (not shown).
+- An INTERNAL CORRIDOR runs east-west across the middle of the building, separating public space from working space.
+
+Render with a faint 5 ft square grid. Palette: cool stone, marble floors, dark walnut shelving, brass lamp fittings, civic gravity. Atmosphere: hushed, official, ordered. NO text labels.`,
+    postProcess: null,
+  },
+  {
+    id: "p2-cv-loftwick-map",
+    tier: 13,
+    out: "assets/maps/cv-loftwick-satellite-interior.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Top-down tactical battlemap of the CINDREN & VHAL LOFTWICK SATELLITE OFFICE — a small branch office of the Hardby counting-house, located in Loftwick. Modest, single floor, narrow street-front.
+Hand-painted fantasy cartography style suitable for a tabletop RPG (Dungeondraft / Mike Schley style).
+
+Building footprint rectangular, ~30 ft × 50 ft. North at top.
+
+Layout:
+- FRONT DOOR on the south wall, glazed in the upper half so the street can see in during business hours.
+- ANTECHAMBER just inside the door — a narrow waiting bench, a coatstand, a small framed copy of the firm's Hardby charter on the wall.
+- TELLER COUNTER spans the room east-to-west — a long polished oak counter with two BARRED TELLER CAGES, a swing-gate at the east end where staff pass through.
+- CUSTOMER FLOOR fills the southern half between the entrance and the counter.
+- MANAGER'S OFFICE behind the counter on the west side — a single private room with a desk, two visitor chairs, a small wall safe.
+- CLERK STATIONS — three small writing desks behind the counter on the east side.
+- SMALL STRONGROOM on the north wall — a reinforced door (single lock; this is a satellite, not a main vault), shallow stone-walled room with shelves of sealed pouches and ledger volumes.
+- A REAR DOOR on the east wall opens into a small service alley.
+- A STAIR in the northwest corner leads up to a closed-off second floor (not shown — used for storage and the manager's overnight cot when needed).
+
+Render with a faint 5 ft square grid. Palette: dark walnut paneling on the lower walls, cream plaster above, brass lamp fittings, deep red runner along the customer floor. NO text labels.`,
+    postProcess: null,
+  },
+  {
+    id: "p2-pollow-office-map",
+    tier: 13,
+    out: "assets/maps/pollow-office-interior.png",
+    size: "1024x1024",
+    quality: "high",
+    prompt: `Top-down tactical battlemap of RELN POLLOW's OFFICE in the Loftwick Audit Hall — a single working chamber and adjoining clerk's antechamber. Pollow is a senior Audit Hall functionary.
+Hand-painted fantasy cartography style suitable for a tabletop RPG (Dungeondraft / Mike Schley style).
+
+Map footprint ~25 ft × 30 ft. North at top.
+
+Layout:
+- ENTRY DOOR on the south wall opens from the Audit Hall's interior corridor.
+- CLERK'S ANTECHAMBER in the southern third — a narrow room with a tall writing desk for the secretary, a single visitor's chair, a wall of pigeonhole shelves for incoming and outgoing correspondence. Inner door to the office on the north wall.
+- POLLOW'S OFFICE in the northern two-thirds — a heavy oak desk centered, two visitor chairs facing the desk, a reading lamp, a private hearth on the west wall (small, civic, unornamented), tall narrow windows on the north wall (overlooking an interior courtyard), a wall of locked correspondence drawers on the east wall, a single bookcase of bound case files.
+- A PRIVATE STRONGBOX (visible as a small heavy iron-bound chest) sits at the desk's right hand.
+- A SMALL SIDE TABLE near the chairs holds a water carafe and two glasses.
+
+Render with a faint 5 ft square grid. Palette: dark wood floor, smoke-grey plaster walls, brass desk fittings, deep oxblood leather chairs. Atmosphere: senior civic functionary's working room — restrained, austere, lived-in. NO text labels.`,
+    postProcess: null,
+  },
+  {
+    id: "p2-vellin-home-map",
+    tier: 13,
+    out: "assets/maps/vellin-moraven-home-interior.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Top-down tactical battlemap of VELLIN MORAVEN's HOME in Loftwick — a modest two-story townhouse where Vellin lives with his daughter Ailen (when she's home). Both floors shown stacked: ground floor below, upper floor above.
+Hand-painted fantasy cartography style suitable for a tabletop RPG (Dungeondraft / Mike Schley style).
+
+Each floor footprint ~25 ft × 30 ft. North at top of each.
+
+LOWER HALF — GROUND FLOOR:
+- FRONT DOOR on the south wall.
+- ENTRY HALL with coat-pegs and a narrow shoe-bench.
+- SITTING / DINING ROOM in the western half — a small hearth on the west wall, a worn but well-kept oak table with four chairs, two reading chairs flanking the hearth, a sideboard against the south wall.
+- KITCHEN in the northeast corner — small, neat, a coal range, a prep table, a back door to a tiny walled yard.
+- VELLIN'S STUDY in the southeast corner — a small writing desk under a window onto the street, a single chair, a bookshelf with worn but well-loved books.
+- STAIR in the northwest corner climbs to the upper floor.
+- TINY WALLED REAR YARD outside the kitchen door, with a single laundry-line and a small herb-pot.
+
+UPPER HALF — UPPER FLOOR:
+- VELLIN'S BEDCHAMBER in the southwest corner — a single bed, a chest at the foot, a wash-stand.
+- AILEN'S ROOM in the southeast corner — a single bed, a small writing desk, a few books, a saddle-bag set against the wall (she travels often).
+- SMALL SHARED WASHROOM in the northeast corner — a copper tub, a shaving stand.
+- LINEN CUPBOARD / STORAGE in the northwest corner.
+- HALL connects all four upper rooms; stair descends at the west end.
+
+Render with a faint 5 ft square grid. Palette: light wood floors, plain cream plaster walls, modest soft furnishings in faded green and brown. Atmosphere: a quiet, private home, not wealthy but cared for. NO text labels.`,
+    postProcess: null,
+  },
+
+  // ============== TIER 14 — Phase 4 portraits, scenes, maps ==============
+  // Portraits
+  {
+    id: "p4-sereth-portrait",
+    tier: 14,
+    out: "assets/portraits/sereth-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of TARLITH VHAL SERETH, an Aerdy commercial-court advocate and senior partner of a Rel Astra counting house, in his late fifties.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting. Clean digital painterly fantasy art.
+
+Tall, narrow-shouldered, very thin. Dark Aerdy complexion (warm brown skin). Hair gone silver-white, worn long, tied back at the nape. A clipped silver beard, neat. Dark eyes that catalogue rather than meet. He wears the dark-grey Aerdy advocate's overcoat (stiff dark broadcloth with a high collar and no ornament except the small silver bar of office at the lapel). A heavy silver seal-ring on his right hand bearing a stylized crane-and-three-coins device — the firm's seal, not personal heraldry.
+He sits at a heavy oak desk in a third-floor private office; the light falls on his face from a tall narrow window slightly behind him on the right. He has a single sheet of parchment in his hand, not yet read; his other hand rests open on the desk. He is not smiling. He is not frowning. He is exactly as composed as he intends to appear.
+Three-quarter view from chest up. Background: warm dark wood paneling, the spine of a four-volume set of the CODEX MERCATUM visible on a small shelf to the right.
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  {
+    id: "p4-halask-portrait",
+    tier: 14,
+    out: "assets/portraits/halask-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of THERION HALASK, a retired Aerdy commercial-court advocate, in his mid-sixties.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting. Clean digital painterly fantasy art.
+
+Aerdy, dark-skinned (warm dark brown), white hair worn close-cropped to the skull. A long pale linen advocate's robe, soft cream, with a faded purple-and-gold sash of an old retired bench (the sash is the kind no one in the room can quite remember the meaning of any more, and Halask wears it for exactly that reason). Reading lenses on a fine silver chain, currently pushed up on his forehead. A heavy plain silver ring on his right hand bearing his own old advocate's seal — a single open scroll above two crossed quills.
+He sits at a small marble cafe table at the BRASS SEXTANT coffee-house on the third quay of Rel Astra, a small cup of strong dark coffee in front of him, an open book and a wax tablet on the table. He is looking up from the tablet, attentive but unhurried, as if a guest has just arrived at his table.
+Three-quarter view from chest up. Background: dappled morning Aerdi sunlight on the cafe wall behind him, a slice of harbor visible through an arched window.
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  {
+    id: "p4-astor-portrait",
+    tier: 14,
+    out: "assets/portraits/astor-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of COUNCILOR BELVEN ASTOR, an Aerdy harbor-ward councilor and former master mariner, in his mid-fifties.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Aerdy, weathered features from twenty years at sea, weathered tan skin, short iron-grey beard close-clipped. Dark wool coat (plain, well-cut, sea-master's old style adapted to civic dress), small enameled wave-and-anchor pin on the lapel — the sigil of a sitting Old Harbor Ward councilor. Calloused hands. A strong stance. Eyes that have read weather in every quarter of the sea.
+He stands behind the customer counter of a chandler's shop (his), with rope, brass shipfittings, lamp wicks, sealed pots of pitch visible on the shelves behind him. The light is afternoon, falling through the front-shop windows. He has just looked up from a ledger.
+Three-quarter view from waist up. Background: chandler's-shop interior, warm wood, brass and rope.
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  {
+    id: "p4-galenix-portrait",
+    tier: 14,
+    out: "assets/portraits/galenix-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of LORD GALENIX NAELAX, an Aerdy noble of House Naelax, currently confined under polite house arrest to the Naelax embassy in Rel Astra. Mid-thirties.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Aerdy noble. Tall, fair-skinned for an Aerdy (warm pale beige), dark hair worn loose to the shoulders, well-trimmed dark beard. The Naelax house ring on his left hand (a stylized eagle on a black field). A smaller signet on his right hand — his mother's family's. Wears the dark Naelax house colors (deep bottle-green and black) but with restraint — the cut is restrained, no embroidery, no chains of office. A leather-bound book under his arm. He has been reading.
+He stands in a long quiet gallery of the Naelax embassy interior — tall narrow windows showing afternoon light over a walled garden, a stone floor, a single old tapestry of a Naelax hunting scene visible behind him. He is not relaxed; he is composed. There is a watchfulness around the eyes.
+Three-quarter view from chest up.
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  {
+    id: "p4-mirelth-portrait",
+    tier: 14,
+    out: "assets/portraits/mirelth-portrait.png",
+    size: "1024x1024",
+    quality: "high",
+    prompt: `Portrait of LORD FAREN MIRELTH, an Aerdy old-house reformist politician (and secretly bankrupt Cindren-debtor) in his late forties. Bust portrait.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Aerdy old-house. Tall, fair (warm pale beige), careful smile, well-groomed dark hair greying at the temples, a thin clean-shaven face. Wears the dark Aerdy noble's coat with the modest "reformist" cut (high collar, plain cuffs, a single small enameled pin of his civic transparency committee). The smile is a public smile; the eyes are tired and just a little hunted. He is photographed (painted) in a small public reading-room, a stack of civic pamphlets on the table next to him.
+Bust / three-quarter view from chest up. Background: dark wood paneling, soft daylight from a window not in shot.
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  {
+    id: "p4-vesh-portrait",
+    tier: 14,
+    out: "assets/portraits/vesh-portrait.png",
+    size: "1024x1024",
+    quality: "high",
+    prompt: `Portrait of MAGISTER ANDRUNE VESH, an Aerdy academic and standard-reference legal scholar, in his late fifties. Bust portrait.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Aerdy mainstream. Medium build, balding with close-trimmed iron-grey hair at the sides, a short well-kept beard, brown skin, intelligent calm eyes behind small round reading lenses. Wears the dark robes of a senior magister of the Aerdy College of Commercial Law, with the small silver-and-pearl academic chain at the throat (his magister's distinction). Looks tired in a way that has been tired for several years. A heavy book is open in his hands — the four-volume CODEX MERCATUM, his own work.
+Bust / three-quarter view from chest up. Background: a college library, deep shelves of bound volumes, warm soft library light.
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  {
+    id: "p4-tenrel-portrait",
+    tier: 14,
+    out: "assets/portraits/tenrel-portrait.png",
+    size: "1024x1024",
+    quality: "high",
+    prompt: `Portrait of MISTRESS CORIATH TENREL, an Aerdy commercial-court advocate in her early forties. Bust portrait.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Aerdy. Dark-skinned (rich dark brown), sharp aquiline features, dark hair worn in the architectural style of the Aerdy commercial-court advocates (sleek up-swept and bound at the back). Wears the dark wine-colored advocate's coat with white linen at the collar, a small gold-and-jet brooch at the throat marking her standing in the court. Sharp, intelligent, ambitious eyes. She is composed and looking directly at the viewer; the smile is the smile of someone who has decided you do not yet warrant her interest.
+Bust / three-quarter view from chest up. Background: a court antechamber, Aerdi columns, soft midday light from a high window.
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  // Sereth confrontation scene
+  {
+    id: "p4-sereth-office",
+    tier: 14,
+    out: "assets/illustrations/p4-sereth-office.png",
+    size: "1536x1024",
+    quality: "high",
+    prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG adventure scene image. NOT 19th-century oil painting.
+
+INTERIOR scene. Tarlith Vhal Sereth's third-floor private working office at the Cindren & Vhal Rel Astra counting house. Late afternoon, warm honey light slanting in through tall narrow windows on the right. Heavy oak desk, two visitor chairs facing it, a small private hearth glowing low, a wall of locked correspondence drawers behind the desk. The firm's seal-press on a side table. A four-volume set of leather-bound books (the CODEX MERCATUM) on a small shelf.
+
+CHARACTERS in the room (5 total):
+- TARLITH VHAL SERETH at the desk: late fifties Aerdy man, tall, very thin, silver-white long hair tied back, clipped silver beard, dark-grey advocate's overcoat, heavy silver firm-seal ring. He is composed; one hand rests open on the desk, the other holds a single folded sheet of parchment. He is the still center of the composition.
+- TWO BODYGUARDS standing flat against the south wall behind Sereth, dressed in plain dark Aerdy household livery, swords scabbarded but visible, hands folded; they are watchful, not aggressive.
+- ONE BODYGUARD CAPTAIN standing near the door, a Knight in fine dark mail under a tabard with the firm's crane-and-coins, sword at hip, helmet under his arm, alert; he is the only guard with his attention split between the party and Sereth.
+- The PARTY (one or more PCs visible from the back/quarter, presenting documents on the desk): adventurers in travel-worn clothing, not nobility — boots, leather, a sword belt or two visible. They have just laid the indictment package on the desk: a bound notarial opinion and several loose documents. Show the back of one PC's head and shoulder, and another PC half-turned toward the camera.
+
+Composition: cinematic, the desk and Sereth occupying the right-third of the frame, the party at the left foreground, the bodyguards at the back wall. Painterly digital fantasy illustration. Warm tonally cohesive palette: deep browns and walnut, brass and gold, the cool steel of the captain's mail, the dark grey of Sereth's coat. NO text or labels visible.`,
+    postProcess: null,
+  },
+  // Halask + Brass Sextant scene
+  {
+    id: "p4-brass-sextant",
+    tier: 14,
+    out: "assets/illustrations/p4-brass-sextant.png",
+    size: "1536x1024",
+    quality: "high",
+    prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG adventure scene image. NOT 19th-century oil painting.
+
+INTERIOR scene. The Brass Sextant coffee-house on the third quay of Rel Astra. Morning. Warm Aerdy sunlight pouring through tall arched windows, a slice of harbor and ship masts visible in the right window. Marble cafe tables, brass fittings, high ceilings, plastered walls hung with a few framed sea charts.
+
+CHARACTERS (4):
+- THERION HALASK at his usual table by the window: Aerdy man in his mid-sixties, dark-skinned, white close-cropped hair, pale linen advocate's robe with a faded purple-and-gold sash, reading lenses pushed up on his forehead, a small cup of dark coffee at his elbow. An open book and a wax tablet in front of him. He has just looked up; his expression is attentive, courteous, unhurried.
+- TWO PARTY MEMBERS approaching his table from the left, presenting Caelith's letter of introduction. One is in front, holding the folded letter; the other a half-step behind. They wear travel-worn but clean garb appropriate to adventurers — linen shirts, leather, a sword belt, a satchel. They are visibly newcomers to Rel Astra (slightly dust-toned compared to the cafe regulars).
+- The CAFE PROPRIETOR (incidental) behind a brass coffee-bar in the background, polishing a cup; he has noted the encounter without comment.
+
+Composition: Halask in the right-center of the frame at his table; the party on the left, mid-ground, walking toward him; the proprietor in the background. Warm morning palette: cream, gold, soft Aerdy sunlight, brass, the deep green of a single potted lemon tree near the window. Painterly digital fantasy illustration. NO text or labels visible.`,
+    postProcess: null,
+  },
+  // Naelax Embassy / Galenix audience scene
+  {
+    id: "p4-naelax-embassy",
+    tier: 14,
+    out: "assets/illustrations/p4-naelax-embassy.png",
+    size: "1536x1024",
+    quality: "high",
+    prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG adventure scene image. NOT 19th-century oil painting.
+
+INTERIOR scene. The long quiet gallery of the Naelax embassy in Rel Astra. Late afternoon. Tall narrow windows on the left show the embassy's walled garden and the Aerdy sky beyond. A stone floor inlaid with a faded geometric Naelax pattern. A single long old tapestry on the right wall depicts a Naelax house hunt — dark greens and gold. Two heavy carved chairs and a small marble side table set out for the audience.
+
+CHARACTERS (3):
+- LORD GALENIX NAELAX standing near the windows: tall, mid-thirties Aerdy noble, fair-skinned for an Aerdy, dark hair to the shoulders, well-trimmed dark beard, dark Naelax house colors (bottle-green and black, restrained cut), the Naelax house ring on his left hand. He has set down a leather-bound book on the side table. His expression is attentive and a touch wary; this is his first private audience in months.
+- ONE PARTY MEMBER seated in one of the carved chairs, presenting a folded document from the indictment package. They are in good Yeomanry traveling clothes, modest but presentable. The other party member stands at their side, listening.
+- A SINGLE NAELAX HOUSEMAN at the door of the gallery, watchful but at the door's discretion (turned away to give the audience privacy); his presence reminds the viewer that the gallery is observed.
+
+Composition: Galenix to the right of the frame, the seated party member center, the standing party member just left of center, the houseman a small figure at the far left near the door. Late-afternoon palette: warm gold from the windows, the bottle-green of Galenix's coat, the dark walnut of the chairs, the soft red of the tapestry. Painterly digital fantasy illustration. NO text or labels visible.`,
+    postProcess: null,
+  },
+  // Harbor commission chamber scene (used for the "three seats" reveal)
+  {
+    id: "p4-harbor-commission",
+    tier: 14,
+    out: "assets/illustrations/p4-harbor-commission.png",
+    size: "1536x1024",
+    quality: "high",
+    prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG adventure scene image. NOT 19th-century oil painting.
+
+INTERIOR scene. The Rel Astra Harbor Commission chamber: a circular Aerdy commercial chamber with seven high-backed carved chairs arranged in a semicircle around a central polished oak floor, each chair on a low stone dais, three of the chairs visibly EMPTY (a wreath of dark ribbon draped over each as a sign of vacancy). Behind the chairs, a tall arched colonnade gives onto a balcony overlooking the Old Harbor; you can see the harbor and ship masts through the arches in the background.
+
+CHARACTERS (4 commissioners + 1 clerk):
+- MISTRESS ALDAEN VETH on the senior commissioner's chair (center): a slight, severe Aerdy woman in her late sixties, white hair, dark commissioner's robes with a brass scroll-and-anchor chain at the throat. Posture upright, expression dour.
+- MASTER HOLD VESHANEN seated to her right: a stout merchant in his fifties, well-dressed in dark wine-colored Aerdy fashion, a gold pin at the lapel.
+- MAGISTER ELED RUTH seated two chairs to Veth's left: a thin academic in his sixties, in an academic's robes over a plain shirt, irritated expression.
+- CAPTAIN VOLIN REACH seated at the far right: an Aerdy imperial officer in oxblood-and-gold uniform, sword at hip, attentive.
+- THE COMMISSION CLERK at a small writing desk in the right foreground: a young Aerdy clerk recording the proceedings, quill in hand.
+
+Composition: wide cinematic shot showing all four sitting commissioners and the three empty chairs, the colonnade behind them, the harbor visible. Painterly digital fantasy illustration. Cool stone and polished oak, dark commissioner's robes, brass and gold, the muted blue-green of the harbor framing it all. NO text or labels visible.`,
+    postProcess: null,
+  },
+  // Tokens with rings
+  {
+    id: "p4-sereth-token",
+    tier: 14,
+    out: "assets/tokens/sereth-token.png",
+    sourceFromExisting: "assets/portraits/sereth-portrait.png",
+    skipGeneration: true,
+    postProcess: "round-token-512",
+    dependsOn: "p4-sereth-portrait",
+    // Cold dark gold — senior partner, hostile
+    ring: { base: "#7a5018", highlight: "#c89238", shadow: "#1a0e04" },
+  },
+  {
+    id: "p4-halask-token",
+    tier: 14,
+    out: "assets/tokens/halask-token.png",
+    sourceFromExisting: "assets/portraits/halask-portrait.png",
+    skipGeneration: true,
+    postProcess: "round-token-512",
+    dependsOn: "p4-halask-portrait",
+    // Soft silver — quiet ally, civic gravity
+    ring: { base: "#7a7e88", highlight: "#c4c8d0", shadow: "#2a2c30" },
+  },
+  // Rel Astra city map
+  {
+    id: "p4-rel-astra-city-map",
+    tier: 14,
+    out: "assets/maps/rel-astra-city-map.png",
+    size: "1536x1024",
+    quality: "high",
+    prompt: `Top-down fantasy city map of REL ASTRA, a great Aerdy port city of approximately 50,000 souls on the eastern coast of the Sea of Gearnat.
+Painterly cartographic style — like a published D&D adventure module city map (Tales of the Valiant / Pathfinder city handout / Greyhawk gazetteer style). Hand-painted feel, parchment substrate, soft sepia and ink palette with limited muted color (terracotta roofs, pale stone, ochre roads, deep blue harbor water).
+NOT a satellite photograph, NOT a modern street map, NOT a 19th-century engraving.
+
+Geography (north = top of the image):
+- A large protected HARBOR opens to the east. Two long stone breakwaters with a STONE LIGHTHOUSE TOWER at the southern breakwater's tip. Imperial mooring on the north side of the harbor (three named berths with the Aerdy imperial standard); merchant quays on the south side.
+- The OLD HARBOR WARD spreads along the south side of the harbor — older, denser, walled-off in pale grey stone, irregular street plan, the Goldsmiths' Quarter on the eastern side rising up a slope of four-story counting houses (one labeled with a discreet "C&V" mark to imply Cindren & Vhal Rel Astra's main building).
+- The CUSTOMS QUAY on the north side of the harbor — formal Aerdy imperial style, regular columns, the imperial customs office, the Hall of the Compass (the diplomatic guesthouse) marked with a small standard.
+- The OLD CITY climbs the rise west of the harbor — even older streets, three temple districts (each ringed by their own walls), a market square, the Naelax embassy compound on the western edge with its own walled garden.
+- The HIGH QUARTER on the higher slopes northwest — the wealthier mercantile residences, broader avenues.
+- The CITY WALLS encircle everything in two rings: the inner imperial wall (older, pale grey stone) around the Old Harbor Ward and Old City; the outer commercial wall (newer, ochre limestone) around the High Quarter and the harbor approaches. Two main GATES marked on the wall: the WEST GATE (old imperial barbican) and the SOUTH GATE (newer, commercial-traffic gate).
+- A single SMALL RIVER cuts down from the northwest, crosses the city, and empties into the harbor at the western inner end.
+- The HARBOR COMMISSION HALL marked as a small circular building on the harbor's edge between the Old Harbor Ward and the Customs Quay.
+- A small COMPASS ROSE in the upper-left corner. A small SCALE BAR in the lower-right.
+
+NO text labels on any building or quarter — labels will be added separately in Foundry. Painted-map feel, NOT vector. Atmosphere: a great old Aerdy port, prosperous and slow.`,
+    postProcess: null,
+  },
+  // Sereth office tactical map
+  {
+    id: "p4-sereth-office-map",
+    tier: 14,
+    out: "assets/maps/sereth-office-third-floor.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Top-down tactical battlemap of TARLITH VHAL SERETH'S third-floor offices at the Cindren & Vhal Rel Astra counting house. Three rooms: a formal audience room, a private working office, a small private study, plus the corridor and stairwell.
+Hand-painted fantasy cartography style suitable for a tabletop RPG (Dungeondraft / Mike Schley interior style). NOT modern blueprint.
+
+Footprint ~50 ft × 40 ft. North at top.
+
+Layout:
+- ARRIVAL STAIR at the south wall, opening into a small CORRIDOR running east-west.
+- FORMAL AUDIENCE ROOM in the southwest quadrant: long oak table down the center with twelve chairs, three tall windows on the south wall, a wall of leather-bound firm history on the east wall, fireplace on the west wall (cold, decorative).
+- SERETH'S PRIVATE WORKING OFFICE in the northwest quadrant: heavy desk facing south (so the light falls on the visitor, not on him), two visitor chairs, a small private hearth on the west wall, a wall of locked correspondence drawers on the north wall, a small bookcase of the CODEX MERCATUM, the firm's seal-press on a side table near the desk.
+- SMALL PRIVATE STUDY in the northeast corner: a single reading chair by a small fire, side table with a carafe and one glass, a single bookcase. This room is private; only Sereth enters.
+- A SECONDARY DOOR from the private office opens into the small private study.
+- The CORRIDOR has the firm's seal carved into the floor at the threshold.
+- A SERVICE STAIR in the southeast corner (the bodyguards' fallback position) leads down to the second floor.
+
+Render with a faint 5 ft square grid. Palette: warm honey-toned wood floors, dark walnut paneling, brass lamp fittings, oxblood leather chairs, soft Aerdy sunlight implied through south windows. Atmosphere: senior commercial officer's stronghold — formal, comfortable, observant. NO text labels.`,
+    postProcess: null,
+  },
+  // Harbor Commission Hall map
+  {
+    id: "p4-harbor-commission-map",
+    tier: 14,
+    out: "assets/maps/harbor-commission-hall.png",
+    size: "1536x1024",
+    quality: "high",
+    prompt: `Top-down tactical battlemap of the REL ASTRA HARBOR COMMISSION HALL — a circular Aerdy civic chamber where the seven harbor commissioners sit. Single chamber plus an antechamber and a small clerk's office.
+Hand-painted fantasy cartography style suitable for a tabletop RPG (Dungeondraft / Mike Schley style).
+
+Building footprint roughly 80 ft × 60 ft, with the round main chamber dominating. North at top.
+
+Layout:
+- ANTECHAMBER on the south side, a wide rectangular foyer with a long polished bench against the west wall, a clerk's high desk near the inner door. Main public entrance (a heavy bronze double door) at the south wall.
+- ROUND CHAMBER in the center / north — circular, ~50 ft diameter, marble-tiled floor with a stylized ship-and-anchor inlay at the center. Seven HIGH-BACKED CARVED COMMISSIONER CHAIRS arranged in a semicircle around the north half of the chamber, each on a low stone dais. Three of the chairs marked vacant (the artist may show small dark wreaths draped over them).
+- TALL ARCHED COLONNADE at the north end of the chamber, opening onto a NARROW BALCONY overlooking the Old Harbor (rendered as a strip of blue-green water at the very top of the map).
+- CLERK'S OFFICE in the southwest corner — a small private workroom with two writing desks, shelves of bound proceedings, a small private hearth.
+- A NARROW SPIRAL STAIR in the northwest corner leads up to a small ARCHIVE LOFT (not shown).
+- A SERVICE DOOR in the northeast corner opens onto a service alley behind the building.
+- Two GUEST GALLERIES (small balconies) hang above the south wall of the round chamber, accessible by short stairs from the antechamber — for visitors permitted to observe sessions.
+
+Render with a faint 5 ft square grid. Palette: pale marble floor, polished dark wood for the chairs, brass fittings, oxblood ceremonial drapes between the colonnade columns. Atmosphere: civic, formal, sea-facing. NO text labels.`,
+    postProcess: null,
+  },
 ];
 
 // ----------------- engine -----------------

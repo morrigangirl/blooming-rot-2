@@ -1,0 +1,156 @@
+{
+  "_key": "!journal!BR2P4RelAstNpcs",
+  "_id": "BR2P4RelAstNpcs",
+  "name": "Phase 4 — Rel Astra NPCs",
+  "pages": [
+    {
+      "_key": "!journal.pages!BR2P4RelAstNpcs.BR2P4RaNpgHalask",
+      "_id": "BR2P4RaNpgHalask",
+      "name": "Therion Halask — Caelith's Rel Astra Correspondent",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/portraits/halask-portrait.png\" alt=\"Portrait of Therion Halask, retired Aerdy advocate, in pale linen robes with the disused color sash of his old bench, reading lenses on a chain.\" style=\"max-width: 580px; border-radius: 4px;\"></p>\n<p style=\"text-align: center; font-style: italic; color: #6b5b3c; font-size: 0.9em;\">Therion Halask. The Brass Sextant, mid-morning, every day for the last twelve years.</p>\n<h2>Therion Halask</h2>\n<p><em>Retired Aerdi advocate. Caelith's quietest Rel Astra contact, accumulated over twenty years of formal letters between two civic functionaries who would not call themselves friends but have, by long correspondence, become each other's most reliable witness. Halask is the party's gateway in Rel Astra.</em></p>\n<h3>Description</h3>\n<p>Mid-sixties. Aerdi, dark-skinned, white hair worn close-cropped. A long pale linen advocate's robe, sash in the disused color of a bench Halask retired from twelve years ago — he wears it because no one in the Brass Sextant can quite remember what it means anymore, and the ambiguity suits him. Reading lenses on a chain. A heavy silver ring on his right hand bearing his old advocate's seal, no longer recognized but still respected by anyone who recognizes the design.</p>\n<h3>Background</h3>\n<p>Practiced thirty years before the bench in Aerdi commercial court. Retired in 1571 CY following an unspecified disagreement with a senior judge who has since been quietly removed for reasons Halask has never publicly discussed. Lives modestly in two rooms above a pastry shop on the third quay; takes coffee at the Brass Sextant every morning between the seventh and ninth bells; receives correspondence at the Brass Sextant by long-standing arrangement with the proprietor.</p>\n<h3>Voice</h3>\n<p>Aerdi-formal, slow, courteous to a fault. Uses the elaborate Aerdi formal address even with shopkeepers (\"esteemed mistress of the bread,\" \"honored sir of the pastry\"). When dealing with serious matters, drops the elaboration entirely and speaks plainly, which is itself a signal that the conversation has changed register. Asks more than he answers; remembers more than he asks.</p>\n<h3>What he knows</h3>\n<ul>\n<li>The harbor commission has three vacant seats. The vacancies are real — two by death within the last eight months, one by a ceremonial \"leave of absence\" that has lasted four months and will not end. The party is correct that this is unusual.</li>\n<li>The candidates being considered for the three seats are <strong>Lord Faren Mirelth</strong> (an old-house political reformer with private debts), <strong>Magister Andrune Vesh</strong> (a respected technocratic legal scholar with family in difficult positions), and <strong>Mistress Coriath Tenrel</strong> (a senior commercial advocate whose advancement depends on the right introductions). Halask has personal acquaintance with Mirelth, professional acquaintance with Tenrel, and an old grudge against the senior judge who is sponsoring Vesh.</li>\n<li>The senior partner of Cindren &amp; Vhal Rel Astra is <strong>Tarlith Vhal Sereth</strong>. Halask has met him three times — twice in court (as opposing advocate; Sereth retains, never represents) and once at a funeral. He considers Sereth precise, patient, and personally cold.</li>\n<li>The Old Harbor Ward Council has three members the conspiracy has cultivated and four it has not. The four can be approached, but only one of them — <strong>Councilor Belven Astor</strong> — is genuinely useful to the party. The others are honest but disinclined to act.</li>\n<li>The Aerdy claimant the conspiracy is positioning behind: <strong>Lord Galenix Naelax</strong>, currently in residence at the Naelax embassy in Rel Astra under a politely restrictive house-arrest by a coalition of opposing Aerdy houses. Sereth is one of his largest private creditors. Galenix has never met Sereth in person.</li>\n</ul>\n<h3>What he wants from the party</h3>\n<p>The opportunity to do, late in his career, one thing his old bench would have respected him for. He will help. He will be slow. He will be precise. He will not let the party act in haste. He will not let the party act in any way that compromises Aerdi commercial court procedure, because that procedure is the one weapon they have that Sereth cannot easily corrupt.</p>\n<h3>What he will not do</h3>\n<ul>\n<li>Lie under oath.</li>\n<li>Provide testimony from someone he has not personally interviewed.</li>\n<li>Take the evidence package out of his own keeping once it has been deposited with him.</li>\n<li>Allow the party to appear before the commercial court without proper preparation.</li>\n</ul>\n<h3>Approach phrase</h3>\n<p>Caelith's letter of introduction (carried since Phase 3) names Halask and includes the phrase: <em>\"By the wheatsheaf and the open scroll.\"</em> The phrase is unique to Caelith's correspondence with Halask. Halask will receive any party member who speaks it.</p>\n<h3>Stat block — non-combatant</h3>\n<p>If forced to fight he yields. CR 1/2. AC 11, HP 18, Speed 30 ft. STR 9 (-1) DEX 10 (+0) CON 11 (+0) INT 18 (+4) WIS 16 (+3) CHA 16 (+3). Saves: INT +6, WIS +5. Skills: History +6, Insight +5, Investigation +6, Persuasion +5. Languages: Common, Old Aerdi, Suloise, Yeomanry diplomatic cipher. Passive Perception 13.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5,
+        "autoplay": false,
+        "loop": false,
+        "timestamp": 0,
+        "width": null,
+        "height": null
+      },
+      "src": null,
+      "system": {},
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "category": null
+    },
+    {
+      "_key": "!journal.pages!BR2P4RelAstNpcs.BR2P4RaNpgSereth",
+      "_id": "BR2P4RaNpgSereth",
+      "name": "Tarlith Vhal Sereth — Senior Partner, C&V Rel Astra",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/portraits/sereth-portrait.png\" alt=\"Portrait of Tarlith Vhal Sereth, senior partner of Cindren & Vhal Rel Astra, in his late fifties, dark-grey advocate's overcoat, silver firm-seal ring, eyes that catalogue.\" style=\"max-width: 580px; border-radius: 4px;\"></p>\n<p style=\"text-align: center; font-style: italic; color: #6b5b3c; font-size: 0.9em;\">Tarlith Vhal Sereth. Composed. Patient. Indictable.</p>\n<h2>Tarlith Vhal Sereth</h2>\n<p><em>The named villain of Phase 4. Senior partner of Cindren &amp; Vhal's Rel Astra branch and the operational hand behind the harbor-commission play. Sereth is not the conspiracy. He is the conspiracy's most senior visible operator. Above him in the chain there is, possibly, no one else any of the party will meet in this campaign.</em></p>\n<h3>Description</h3>\n<p>Late fifties. Tall, narrow-shouldered, very thin. Dark Aerdi complexion, hair gone silver-white and worn long, tied back. A clipped silver beard. Dark eyes that move slowly and miss nothing. He wears the dark-grey Aerdi advocate's overcoat (he was admitted to commercial court in 1556, has never represented a client at trial, and wears the coat as a credential, not a profession). A heavy seal-ring on his right hand: not a personal device, the firm's seal. He smiles only with his mouth.</p>\n<h3>Background</h3>\n<p>Born to a junior branch of House Sereth, an Aerdi mercantile family with no court influence and no land. Apprenticed at sixteen to a Cindren-Vhal junior partner in Rel Astra; admitted to the firm at twenty-six; junior partner at thirty-one; senior partner at forty-eight. Married once, briefly, twenty years ago; widowed; no surviving children of record. Lives in a house adjacent to the Old Harbor Ward chapel, employs four staff, gives modestly to two civic charities and disproportionately to the chapel itself.</p>\n<h3>How he ended up here</h3>\n<p>Sereth is not himself the architect of the harbor-commission play. He is its executor. The plan was laid down — by someone or something whose name does not appear in any document Sereth keeps — approximately ten years ago. Sereth is an extremely competent operator who has, for those ten years, been positioning Cindren-aligned candidates into the right minor offices in Rel Astra in preparation for the moment when three of seven harbor commission seats would simultaneously be open and a sympathetic Aerdy claimant would be in a position to confirm them. He understands his position. He has chosen it. He expects to be paid in continuing seniority within the firm and in a quiet long retirement on Aerdi imperial estates that will be transferred to him after the seating goes through.</p>\n<h3>What he believes</h3>\n<ul>\n<li>That the eastern revenue should belong to whoever is competent enough to take it.</li>\n<li>That the present Overking is in declining health and the Aerdy succession will resolve within the next eight years, possibly sooner.</li>\n<li>That whichever Naelax cousin wins the iron crown will need eastern gold and will be grateful for finding a sympathetic harbor commission already seated.</li>\n<li>That the conspiracy he serves is real, well-funded, and patient — and that his own role in it ends with the seating, not with whatever happens after.</li>\n<li>That the people writing the marginalia he occasionally finds in his mail are not Aerdy and are not, strictly speaking, his concern.</li>\n</ul>\n<h3>What he does NOT believe</h3>\n<ul>\n<li>That the people behind the conspiracy share his political interests.</li>\n<li>That his own retirement will be peaceful or long.</li>\n<li>That the Yeomanry investigation can reach him in Aerdi court without significant procedural error he can exploit. (He is wrong about this in one specific way — see <em>The Sereth Confrontation</em>.)</li>\n<li>That the writer of the marginalia is anywhere in the Aerdy realm.</li>\n</ul>\n<h3>Voice</h3>\n<p>Aerdi-formal, precise, slow. Uses the legal-formal register even in private conversation. Never raises his voice. Never threatens directly. The threat is always in what he does not say. <em>Do not let players bully him into reacting; he is too disciplined to react. Let him deflect, refuse, and outwait them.</em></p>\n<h3>What ends him</h3>\n<p>Three viable resolutions, not exclusive:</p>\n<ol>\n<li><strong>Indictment in Aerdi commercial court.</strong> The Veska-notarized opinion plus the Hardby branch records plus the Sereth blotter rubbing plus the recovered defect-stamp (the indictment package from Phase 3) plus Halask's carefully-prepared procedural framework can be filed before the Aerdi commercial court. Trial within sixty days. Conviction on conspiracy-to-defraud and on procedural fraud. Sentence: removal from the firm, forfeiture of personal estates, twenty-year exclusion from any commercial office in Aerdi territory. Not death. Not imprisonment. Aerdi commercial court does not execute, and Sereth has no Aerdy or imperial standing to lose. <em>This is the outcome that hurts the conspiracy most. The seating fails because Sereth is no longer in any position to call in the debts that would seat the three commissioners.</em></li>\n<li><strong>Private removal.</strong> The party, by means of what they know, force Sereth to leave the firm and the city quietly. He resigns &quot;for reasons of personal health,&quot; transfers his seniority to a junior partner of the conspiracy's choosing, and departs Rel Astra for an Aerdi country estate that has been waiting for him. The seating is delayed but not stopped — the conspiracy sets up a new operator within twelve months. <em>This is the fastest outcome and the one with the lowest cost to the party. It is also the one Caelith would not choose.</em></li>\n<li><strong>Kinetic removal.</strong> The party kills Sereth. This is possible — Sereth has bodyguards, but he is not himself a combatant. The cost: Aerdi commercial court is closed to the party afterward; the documentary trail goes dead in the firm's reorganization; the conspiracy reorganizes within six months under a different operator and a tighter security posture; the party is, in Aerdi commercial circles, marked as a Yeomanry hit squad rather than a legitimate Yeomanry inquiry. <em>This is the option of last resort, suitable only if procedural and political options have been visibly closed off.</em></li>\n</ol>\n<h3>Stat block (kinetic confrontation only)</h3>\n<p>If the party tries to take Sereth in person, use the following. Otherwise treat him as a non-combatant.</p>\n<p><strong>CR 5, PB +3.</strong> AC 13 (fine wool coat over hidden mail, no shield) · HP 65 (10d8+20) · Speed 30 ft. · Init +1 · Passive Perception 14</p>\n<p>STR 10 (+0) · DEX 12 (+1) · CON 14 (+2) · INT 18 (+4) · WIS 14 (+2) · CHA 16 (+3)</p>\n<p>Saves: INT +7, WIS +5, CHA +6. Skills: Deception +6, History +7, Insight +5, Investigation +7, Persuasion +6.</p>\n<p>Languages: Common, Old Aerdi, Suloise, Aerdi imperial cipher. Senses: Passive Perception 14.</p>\n<ul>\n<li><strong>Cunning Action.</strong> Bonus action to Disengage or Hide.</li>\n<li><strong>Reader of Rooms.</strong> Advantage on Insight and Investigation against any creature whose intentions he has read for at least one round.</li>\n<li><strong>The Senior Partner's Guard.</strong> Sereth is always accompanied at his offices by <strong>two Bodyguards</strong> (use Veteran statblock, CR 3 each) and a <strong>Bodyguard Captain</strong> (use Knight statblock with Fighting Style: Defense, CR 3). Outside his offices, by one Bodyguard. He travels in a closed carriage with a driver who is also a competent fighter (Bandit Captain).</li>\n<li><strong>Yields.</strong> If reduced to half HP and not within reach of his guards, surrenders and offers terms. <em>Never make a killing blow himself.</em></li>\n</ul>\n<h3>Actions</h3>\n<ul>\n<li><strong>Hand Crossbow (only as last resort).</strong> Ranged Weapon Attack +4, range 30/120. <em>Hit:</em> 1d6+1 piercing.</li>\n<li><strong>Concealed Dagger (last resort).</strong> Melee Weapon Attack +4, reach 5 ft. <em>Hit:</em> 1d4+1 piercing.</li>\n</ul>\n<p><em>Sereth is not built to fight the party. He is built to be the political problem the party solves. Combat is the failure mode for both sides; treat it that way.</em></p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5,
+        "autoplay": false,
+        "loop": false,
+        "timestamp": 0,
+        "width": null,
+        "height": null
+      },
+      "src": null,
+      "system": {},
+      "sort": 200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "category": null
+    },
+    {
+      "_key": "!journal.pages!BR2P4RelAstNpcs.BR2P4RaNpgAstor",
+      "_id": "BR2P4RaNpgAstor",
+      "name": "Councilor Belven Astor — Old Harbor Ward",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/portraits/astor-portrait.png\" alt=\"Portrait of Councilor Belven Astor in his chandlery, weathered features, iron-grey beard, dark wool coat with the wave-and-anchor pin.\" style=\"max-width: 580px; border-radius: 4px;\"></p>\n<p style=\"text-align: center; font-style: italic; color: #6b5b3c; font-size: 0.9em;\">Belven Astor, councilor and chandler. Loses 4-3 votes and brings them again.</p>\n<h2>Councilor Belven Astor</h2>\n<p><em>One of seven elected councilors of the Old Harbor Ward Council. Honest, conservative, and quietly furious about the harbor commission vacancies. The party's only reliable institutional ally inside Rel Astra civic structure.</em></p>\n<h3>Description</h3>\n<p>Mid-fifties. Aerdi, weathered features from twenty years at sea before he came ashore to run his late uncle's chandler's business. Short iron-grey beard, weathered hands, plain dark wool coat with the small enameled wave-and-anchor pin of a sitting councilor. Speaks in the clipped Aerdi-coastal accent of his original profession.</p>\n<h3>Background</h3>\n<p>Master mariner before he was a councilor; ran a coastal trader of his own for fifteen years; came ashore at thirty-eight to take over the family chandler's after his uncle died without sons; elected to the Old Harbor Ward Council on his second attempt, six years ago. Has refused junior-partner offers from two counting houses (not Cindren &amp; Vhal, but adjacent) on the grounds that a councilor's chandlery does not need their financing. Married, three grown daughters, all in coastal trade.</p>\n<h3>What he knows</h3>\n<ul>\n<li>The harbor commission's three vacancies are not natural. Two of the three are accounted for (one death by stroke, one death by drowning) but he believes — without proof — that the second death was assisted. The third vacancy (the leave of absence) is openly suspicious.</li>\n<li>The candidates being considered are wrong for the work. He has met Lord Mirelth and considers him pleasant and weak. He has not met Magister Vesh but has read his published commentaries and considers him a man whose judgment can be bought through his sister-in-law. He has met Mistress Tenrel twice and considers her capable but ambitious to a degree that would make her a problem within five years.</li>\n<li>He has tried, twice, to raise the matter on the council floor. Both times the senior councilor (an old man named <strong>Solvard Mein</strong>, openly Sereth-aligned) has tabled the discussion. Astor has stopped trying because the third attempt would force a vote he would lose 4–3.</li>\n<li>He does not know the firm is involved. He suspects the harbor commission is being manipulated by old-house interests, but he has not connected those interests to Cindren &amp; Vhal Rel Astra specifically.</li>\n</ul>\n<h3>What he wants from the party</h3>\n<p>Evidence he can present to the Aerdi commercial court without invoking the council's name. He cannot risk being seen to have brought the case; he can risk being seen to have <em>encouraged</em> someone else to bring the case. The party becomes that someone else.</p>\n<h3>How to approach him</h3>\n<p>His chandlery on the second quay (the Wave-and-Anchor) is open during business hours. The party can simply walk in and request a private word with the proprietor. He will receive them in his small office above the shop. He responds well to professional courtesy and to evidence presented in proper order; he responds badly to threats, to bluster, and to any suggestion that the council is corrupt as a body. Phrase it that two or three of the seven are compromised, and he will agree.</p>\n<h3>What he will do</h3>\n<ul>\n<li>Provide signed statements about the unusual character of the vacancies and the candidates' weaknesses.</li>\n<li>Introduce the party privately to the four uncompromised council members (only one of whom — Halask's old colleague <strong>Adra Sayan</strong> — will agree to give a statement).</li>\n<li>Brief the party on the Aerdi commercial court's filing procedures and the timing constraints.</li>\n<li>Coordinate, from his end, the post-confrontation aftermath: if Sereth is indicted, Astor will move to suspend the candidate selection on the council floor while the trial proceeds; if Sereth is privately removed, Astor will quietly let the matter rest until a clearer pattern emerges; if Sereth is killed, Astor will not be seen with the party again.</li>\n</ul>\n<h3>What he will NOT do</h3>\n<ul>\n<li>Provide forged or composite evidence.</li>\n<li>Speak publicly against the council before a court filing is in motion.</li>\n<li>House the party. (His chandlery is too visible.)</li>\n<li>Continue to associate with the party if they pursue kinetic resolution.</li>\n</ul>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5,
+        "autoplay": false,
+        "loop": false,
+        "timestamp": 0,
+        "width": null,
+        "height": null
+      },
+      "src": null,
+      "system": {},
+      "sort": 300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "category": null
+    },
+    {
+      "_key": "!journal.pages!BR2P4RelAstNpcs.BR2P4RaNpgGalenix",
+      "_id": "BR2P4RaNpgGalenix",
+      "name": "Lord Galenix Naelax — The Aerdy Claimant",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/illustrations/p4-naelax-embassy.png\" alt=\"Galenix in the long quiet gallery of the Naelax embassy, late afternoon, the party in private audience.\" style=\"max-width: 580px; border-radius: 4px;\"></p>\n<p style=\"text-align: center; font-style: italic; color: #6b5b3c; font-size: 0.9em;\">The Naelax embassy gallery, late afternoon. The audience the four-house coalition does not know about.</p>\n<p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/portraits/galenix-portrait.png\" alt=\"Portrait of Lord Galenix Naelax in the Naelax embassy gallery, dark Naelax house colors, Naelax house ring, leather-bound book under arm.\" style=\"max-width: 580px; border-radius: 4px;\"></p>\n<p style=\"text-align: center; font-style: italic; color: #6b5b3c; font-size: 0.9em;\">Lord Galenix Naelax. Confined to his own embassy. Owes the firm 38,000 gp he does not yet entirely understand.</p>\n<h2>Lord Galenix Naelax</h2>\n<p><em>The Aerdy claimant the conspiracy is positioning to inherit at the next Overking succession. Currently in residence at the Naelax embassy in Rel Astra under a politely restrictive house-arrest by an opposing-house coalition. The party will not necessarily meet him, but his shadow is over the whole of Phase 4.</em></p>\n<h3>Description</h3>\n<p>Mid-thirties. Aerdy noble, House Naelax cousin to the current Overking. Tall, fair-skinned for an Aerdy, dark hair worn loose, the Naelax house ring on his left hand and a smaller signet on his right (his mother's family). Wears the dark Naelax house colors with restraint — these are difficult years for House Naelax in Rel Astra and ostentation would invite further restriction. Soft-spoken; reads constantly; has not been seen drunk in seven years.</p>\n<h3>Background</h3>\n<p>Cousin (not direct heir) to the current Overking. Sent to Rel Astra at twenty-four as a junior diplomatic representative of House Naelax. Found himself, within three years, the senior Naelax presence in the city after his uncle (then Lord Ambassador) returned to Rauxes for what proved to be a final illness. Has been the de facto Naelax voice in Rel Astra for ten years.</p>\n<p>The house arrest is not formal. Galenix has the use of the embassy and its grounds, may receive visitors, may correspond freely; he may not leave the city without the consent of a four-house Aerdi coalition that has decided he is too dangerous to allow free movement. The arrest has lasted eleven months and may last another five years; or it may end tomorrow with a single letter from Rauxes.</p>\n<h3>His relationship to the conspiracy</h3>\n<ul>\n<li>He has never met Tarlith Vhal Sereth.</li>\n<li>He has never met Castrian Vell, Solen Mereth, Anver Resh, or anyone else the party has named.</li>\n<li>He owes Cindren &amp; Vhal approximately 38,000 gold pieces in private debt — accumulated over six years of embassy operations on inadequate Naelax funding. The debt is structured as a series of personal loans; some Galenix knows about, some he believes were taken on his behalf by his now-deceased predecessor.</li>\n<li>He believes the debt will be called when his political fortunes turn. He does not yet understand that the debt has already been called — it is being held against him as the price of conspiracy support, and the conspiracy expects to be repaid in eastern harbor revenue once the iron crown is on a Naelax head.</li>\n<li>He is, by Aerdy noble standards, an honest man. He believes — incorrectly — that the firm has been a quiet friend to House Naelax during the embassy's difficult years. He does not understand the price.</li>\n</ul>\n<h3>What the party can do with him</h3>\n<p>Three options exist; the party need not pursue any.</p>\n<ol>\n<li><strong>Brief him.</strong> Halask can arrange a private audience at the embassy, no record kept, no public connection. If briefed honestly, with the indictment package as backing, Galenix will <em>privately repudiate the conspiracy and refuse the harbor commission's votes when seated.</em> This is the cleanest political outcome; it does not stop the conspiracy from finding another claimant, but it removes their preferred one. <strong>It also makes Galenix a target.</strong></li>\n<li><strong>Leave him alone.</strong> The conspiracy continues to operate as if he is its instrument; the trial against Sereth proceeds without his knowledge; he learns of his role only after the indictment is filed and the press picks it up. Cleaner for the party, harder for Galenix.</li>\n<li><strong>Use him.</strong> The party offers Galenix the indictment package as their gift to him; he uses it to consolidate his own political standing, presents himself to the four-house coalition as the noble who exposed the conspiracy, and <em>negotiates an end to his house arrest in exchange for the cooperation of his testimony.</em> This is the most politically aggressive option; it makes Galenix a friend (and a debtor) of the party for the next several years. It also accelerates whatever the conspiracy is going to do next.</li>\n</ol>\n<p><em>None of these options is wrong. Players should choose, and the GM should hold the consequences over the campaign's later beats.</em></p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5,
+        "autoplay": false,
+        "loop": false,
+        "timestamp": 0,
+        "width": null,
+        "height": null
+      },
+      "src": null,
+      "system": {},
+      "sort": 400000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "category": null
+    }
+  ],
+  "folder": null,
+  "sort": 200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "blooming-rot-2": {
+      "phase": 4
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "_key": "!journal!BR2P4ThreeSeats",
+  "_id": "BR2P4ThreeSeats",
+  "name": "Phase 4 — The Three Seats",
+  "pages": [
+    {
+      "_key": "!journal.pages!BR2P4ThreeSeats.BR2P4TsPgOver",
+      "_id": "BR2P4TsPgOver",
+      "name": "The Harbor Commission — Overview",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/illustrations/p4-harbor-commission.png\" alt=\"The Rel Astra Harbor Commission chamber: seven high-backed chairs in semicircle, three vacant and draped in dark ribbon, four sitting commissioners with the clerk taking down proceedings.\" style=\"max-width: 580px; border-radius: 4px;\"></p>\n<p style=\"text-align: center; font-style: italic; color: #6b5b3c; font-size: 0.9em;\">The Harbor Commission chamber. Three seats vacant. Three candidates queued.</p>\n<h2>The Harbor Commission of Rel Astra</h2>\n<p><em>Seven seats. Three are vacant. Three candidates have been quietly advanced to fill them. The candidates do not need to be a majority of the commission — they need to be the bloc that votes together first, on the matters that come up first, before the rest of the commission notices what is happening.</em></p>\n<h3>What the commission does</h3>\n<p>The Rel Astra Harbor Commission sets shipping fees, allocates berth assignments, certifies registry chops, arbitrates disputes between the harbor's many concerns, and — most importantly to the conspiracy — controls the disbursement of the eastern revenue. Roughly <strong>three hundred and forty thousand gold pieces a year</strong> in customs duties, anchorage fees, transit tolls, and registry fees flow through the commission. Most of that revenue is spent on harbor maintenance, the imperial garrison, and the various civic and ecclesiastical bodies of the city. <em>About forty thousand a year is discretionary</em> — paid out as &quot;commercial improvement&quot; subventions to qualifying counting houses, registries, and trade-clearing operations.</p>\n<p>The conspiracy does not need control of all three hundred and forty thousand. It needs control of the forty thousand discretionary, plus the registry-certification process, plus the dispute-arbitration calendar. <em>Three commissioners voting together first can deliver all three.</em></p>\n<h3>The seven seats</h3>\n<ol>\n<li><strong>Senior Commissioner</strong> — currently held by <strong>Mistress Aldaen Veth</strong>, sixty-eight, eight years in office, due to retire next year. Old-house, conservative, openly skeptical of the conspiracy's three candidates but politically isolated.</li>\n<li><strong>Commerce Seat</strong> — held by <strong>Master Hold Veshanen</strong>, fifty-four, a respected merchant. Sereth-aligned but not formally part of the conspiracy. Will vote with the conspiracy bloc when it forms; would not himself have organized it.</li>\n<li><strong>Civic Seat</strong> — held by <strong>Magister Eled Ruth</strong>, sixty-two, an old academic. Independent and irritable; cannot be predicted; likely to vote against the conspiracy bloc on the first vote out of dislike for any organized effort to do anything quickly. <em>Useful to the party as an unwitting ally.</em></li>\n<li><strong>Imperial Seat</strong> — held by <strong>Captain Volin Reach</strong>, forty-seven, the imperial garrison's harbor liaison. Votes the imperial line, which means he votes whatever Rauxes tells him to vote, which is usually nothing. Will abstain on most discretionary matters.</li>\n<li><strong>Vacant Seat (death by stroke, eight months ago)</strong> — to be filled by <strong>Lord Faren Mirelth</strong> (conspiracy candidate).</li>\n<li><strong>Vacant Seat (death by drowning, four months ago, possibly assisted)</strong> — to be filled by <strong>Magister Andrune Vesh</strong> (conspiracy candidate).</li>\n<li><strong>Vacant Seat (ceremonial leave of absence, four months and indefinite)</strong> — to be filled by <strong>Mistress Coriath Tenrel</strong> (conspiracy candidate).</li>\n</ol>\n<h3>How seating works</h3>\n<p>The commission seats new commissioners by majority vote of sitting commissioners, confirmed by the Old Harbor Ward Council. Currently four commissioners are sitting (Veth, Veshanen, Ruth, Reach). The four-vote bloc must produce three majorities for three candidates. Veshanen will reliably vote yes for all three; Veth will reliably vote no; Ruth and Reach are independent.</p>\n<p>The conspiracy's plan is straightforward: bring all three candidates to a vote on the same day, with a ceremonial visit by the Aerdi imperial herald scheduled for the following day. Veshanen votes yes on all three. Reach abstains (imperial neutrality). Ruth, irritated at being asked to vote three at once, votes against the first one on procedural objection — which the conspiracy <em>wants</em>, because it means Mirelth is held over for re-vote later, and meanwhile Vesh and Tenrel pass 2-1 with Veth alone in dissent. The Old Harbor Ward Council is then asked to confirm two of the three new commissioners. Astor (and possibly Sayan) vote against; the other five councilors vote with the harbor commission majority. <strong>Vesh and Tenrel are seated.</strong></p>\n<p>From there, the conspiracy controls the swing two votes (Vesh + Tenrel + Veshanen) on every discretionary matter for as long as Veshanen remains alive and the council does not unseat them.</p>\n<h3>What the party can do</h3>\n<p>Three lines of attack:</p>\n<ol>\n<li><strong>Disqualify a candidate.</strong> If any one of Mirelth, Vesh, or Tenrel can be shown to have a conflict-of-interest disqualification (Aerdi commercial code is specific about what disqualifies a candidate; Halask knows the rules), they cannot be seated. Mirelth is the easiest target. <em>This delays the seating by months but does not stop it.</em></li>\n<li><strong>Indict the broker.</strong> If Sereth is indicted, the candidates' sponsorships unravel and the seating is suspended pending investigation. <em>This stops the seating in the current cycle.</em></li>\n<li><strong>Brief the imperial seat.</strong> Captain Reach votes whatever Rauxes tells him to vote. <em>If the party can route a discreet warning through Aerdi imperial intelligence (Halask knows the channel), the imperial seat shifts from abstention to opposition on the next vote.</em> 2-2 with Ruth's procedural irritation in play, and the seating fails.</li>\n</ol>\n<p>The party need not choose only one. <strong>Disqualify Mirelth, indict Sereth, and brief the imperial seat</strong> — taken together, the conspiracy's harbor-commission play collapses for at least two years.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5,
+        "autoplay": false,
+        "loop": false,
+        "timestamp": 0,
+        "width": null,
+        "height": null
+      },
+      "src": null,
+      "system": {},
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "category": null
+    },
+    {
+      "_key": "!journal.pages!BR2P4ThreeSeats.BR2P4TsPgMirelth",
+      "_id": "BR2P4TsPgMirelth",
+      "name": "Lord Faren Mirelth — The Reformer",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/portraits/mirelth-portrait.png\" alt=\"Portrait of Lord Faren Mirelth, public reformer with a private debt, late forties, careful smile, tired eyes.\" style=\"max-width: 580px; border-radius: 4px;\"></p>\n<p style=\"text-align: center; font-style: italic; color: #6b5b3c; font-size: 0.9em;\">Faren Mirelth. The smile is for the public; the debt is for the firm.</p>\n<h2>Lord Faren Mirelth</h2>\n<p><em>Conspiracy candidate for the eighth seat (the stroke vacancy). The most easily disqualified of the three. Public reformer, private debtor. The party's most accessible target if they want to tear down one candidate without pursuing Sereth directly.</em></p>\n<h3>Public face</h3>\n<p>Late forties. Aerdi old-house — Mirelth is a minor branch of an old Rel Astra commercial family. Tall, fair, careful smile. Has spent the last six years building a public reputation as a reformist on harbor matters: published a pamphlet against \"opaque berth allocation\" in 1580; chaired a civic committee on registry transparency in 1581; gave a well-attended lecture at the Goldsmiths' Hall on \"the necessity of independent commissioners\" in 1582. Married, two adult children, lives in a respectable Aerdy townhouse in the Old Harbor Ward.</p>\n<h3>Private truth</h3>\n<p>Mirelth has been bankrupt in private fact, if not in public ledger, for four years. The Mirelth shipping concern (his late father's business) collapsed in 1578 after a bad season and three uninsured cargo losses. To preserve the public Mirelth name, Faren took private loans from <strong>Cindren &amp; Vhal Rel Astra</strong> — twelve thousand gold pieces in 1579, eight thousand more in 1581. The loans are structured as &quot;personal advances against future earnings,&quot; which is a polite Aerdi phrase for &quot;we own you.&quot;</p>\n<p>Sereth has not yet called the loans. He has, instead, suggested that Mirelth might wish to put himself forward for the harbor commission's eighth seat, where his public reformist record would be a credit to the commission. Mirelth understood the suggestion. He filed his candidacy six weeks later. The loans have not been mentioned since.</p>\n<h3>What disqualifies him</h3>\n<p>Aerdi commercial code §187 (the Conflict-of-Interest Disqualification): no person may sit on the harbor commission while indebted to any counting house with active commercial business before the commission. The C&amp;V loans are a textbook case. <em>The disqualification is automatic if the loans can be documented and presented to the commission.</em></p>\n<h3>Where the documentation lives</h3>\n<ul>\n<li>The original loan agreements are in the C&amp;V Rel Astra strongroom. Out of reach without burglary or warrant.</li>\n<li><strong>Copies of the loan agreements are in Solen Mereth's compromised correspondence cabinet at C&amp;V Hardby.</strong> The party may already have these from Phase 3 (Path 1 burglary or Path 3 subpoena). If they don't, Halask can compel a deposition from Solen by Aerdi commercial subpoena within ten days.</li>\n<li>Mirelth himself, confronted in private with proof the party already holds, will quietly withdraw his candidacy &quot;for personal reasons.&quot; <em>He prefers withdrawal to disqualification; disqualification ends his political career, withdrawal merely pauses it.</em></li>\n</ul>\n<h3>How to handle Mirelth</h3>\n<p>Three options:</p>\n<ol>\n<li><strong>Quiet conversation.</strong> Approach Mirelth privately at his home or at the Goldsmiths' Hall reading-room. Show him the loan documents. Suggest withdrawal. He will agree within an hour. <em>The conspiracy has a backup candidate ready (a junior cousin of the Mirelth house) but the backup is weaker; the indictment delays the seating by at least two months.</em></li>\n<li><strong>Public disqualification.</strong> File the documents with the harbor commission's procedural clerk and require the commission to vote on Mirelth's candidacy with the disqualification on the record. The commission will reject 4-0; Mirelth will be publicly humiliated and his political career ends; the conspiracy will be visibly embarrassed. <em>This is louder; it accelerates the conspiracy's response and may push them toward kinetic measures against the party.</em></li>\n<li><strong>Hold in reserve.</strong> Keep the disqualification documented but unfiled. Use it as leverage in the Sereth confrontation — &quot;agree to our terms or we file these on the morning of the vote.&quot; <em>This is the most politically clever option. It's also the one Mirelth himself would choose.</em></li>\n</ol>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5,
+        "autoplay": false,
+        "loop": false,
+        "timestamp": 0,
+        "width": null,
+        "height": null
+      },
+      "src": null,
+      "system": {},
+      "sort": 200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "category": null
+    },
+    {
+      "_key": "!journal.pages!BR2P4ThreeSeats.BR2P4TsPgVesh",
+      "_id": "BR2P4TsPgVesh",
+      "name": "Magister Andrune Vesh — The Technocrat",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/portraits/vesh-portrait.png\" alt=\"Portrait of Magister Andrune Vesh in academic robes with the silver-and-pearl academic chain, the Codex Mercatum open in his hands.\" style=\"max-width: 580px; border-radius: 4px;\"></p>\n<p style=\"text-align: center; font-style: italic; color: #6b5b3c; font-size: 0.9em;\">Andrune Vesh. Honest, exhausted, and out of options.</p>\n<h2>Magister Andrune Vesh</h2>\n<p><em>Conspiracy candidate for the ninth seat (the drowning vacancy). The most respected of the three candidates and, technically, the hardest to disqualify. The lever against him is his sister-in-law, who is in difficulty the party can resolve.</em></p>\n<h3>Public face</h3>\n<p>Late fifties. Aerdy mainstream — Vesh is from Rauxes originally, came to Rel Astra at twenty-seven to take a magister's seat at the Aerdy College of Commercial Law. Has held the seat for thirty years. Author of the standard reference on Aerdi commercial procedure (the four-volume <em>Codex Mercatum</em>, which Halask owns and Sereth keeps a copy of in his office). Widely respected; reasonably honest; not himself corrupt.</p>\n<h3>Why he is the conspiracy's candidate</h3>\n<p>Vesh has, for the last fourteen months, been carrying an unsustainable private burden: his sister-in-law (Lyla Vesh, his late brother's widow, fifty-one) has fallen into a difficulty involving forged customs documents that her late husband's small import business filed in the years before his death. The customs forgeries came to imperial attention nine months ago. Lyla is currently free on a recognizance bond, but she faces twenty years' imperial prison if convicted, and the conviction looks likely.</p>\n<p>Sereth has, through intermediaries, made Vesh aware that Cindren &amp; Vhal has private acquaintance with the imperial advocate prosecuting Lyla's case, and that this acquaintance could result in the case being dropped on a technical procedural ground if Vesh were to accept the harbor commission seat being offered to him. Vesh has not formally agreed; he has, however, accepted the candidacy. The implication has been understood.</p>\n<p>Vesh is not enthusiastic. He is, simply, out of options.</p>\n<h3>What the party can do for him</h3>\n<p>Halask, given two weeks and the indictment package, can <strong>resolve the customs case independently</strong>. The forgeries were filed by Lyla's late husband, not by Lyla; the imperial advocate's case rests on a presumption of spousal knowledge that Halask can demolish on Aerdi precedent grounds. <em>If Halask is asked to do this, he will. Vesh will, in return, withdraw his candidacy publicly and refer the eighth-seat vacancy back to open nomination.</em></p>\n<p>The party may also <strong>brief Vesh directly</strong>. He is an honest man; if shown the indictment package and the threat to Lyla and the offer of legal help, he will agree to whatever Halask thinks is procedurally cleanest. Vesh is not the enemy. He is the leverage point that lets the conspiracy reach into the academic establishment.</p>\n<h3>What disqualifies him</h3>\n<p>Strictly speaking, nothing. The customs case against Lyla is not a conflict of interest under §187 because Lyla is not a counting house and the imperial customs office has no commercial business before the harbor commission. <em>The party cannot disqualify Vesh procedurally. They can only persuade him to withdraw, by removing the pressure that pushed him into the candidacy.</em></p>\n<h3>Cost-benefit</h3>\n<p>Resolving Lyla's customs case takes two weeks of Halask's time and approximately 800 gp in filing fees, expert witness honoraria, and Aerdi clerical fees. If the party covers the cost, the candidacy collapses cleanly and Halask owes them no further favors. If the party asks Halask to cover the cost from his own funds, he will — but he will then be reluctant to commit further resources to the Sereth indictment, and the party may need to pursue Sereth without his full support.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5,
+        "autoplay": false,
+        "loop": false,
+        "timestamp": 0,
+        "width": null,
+        "height": null
+      },
+      "src": null,
+      "system": {},
+      "sort": 300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "category": null
+    },
+    {
+      "_key": "!journal.pages!BR2P4ThreeSeats.BR2P4TsPgTenrel",
+      "_id": "BR2P4TsPgTenrel",
+      "name": "Mistress Coriath Tenrel — The Advocate",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/portraits/tenrel-portrait.png\" alt=\"Portrait of Mistress Coriath Tenrel in dark wine-colored advocate's coat, sharp features, hair architectural and bound at the back.\" style=\"max-width: 580px; border-radius: 4px;\"></p>\n<p style=\"text-align: center; font-style: italic; color: #6b5b3c; font-size: 0.9em;\">Coriath Tenrel. Did not need to be pressured; asked to be on the slate.</p>\n<h2>Mistress Coriath Tenrel</h2>\n<p><em>Conspiracy candidate for the tenth seat (the leave-of-absence vacancy). The most ambitious and the most willing of the three candidates. Cannot be approached as a victim of pressure; can only be opposed.</em></p>\n<h3>Public face</h3>\n<p>Early forties. Aerdi, dark-skinned, sharp features, dark hair worn in the architectural style of the Aerdi commercial-court advocates. Practiced before the Aerdi commercial bench for eighteen years; specialist in registry-and-chop disputes; respected by colleagues, feared by opposing counsel, well-regarded by the bench. Married to a senior Goldsmiths' Hall functionary; one young child; lives in a tasteful and very expensive house in the high quarter.</p>\n<h3>Why she is the conspiracy's candidate</h3>\n<p>Tenrel is on the candidate slate because she <em>asked to be</em>. She approached Sereth eighteen months ago with a proposal: she would deliver a sympathetic vote on the harbor commission for ten years in exchange for the firm's support of her ambitions for the senior commissioner's seat when Aldaen Veth retires. Sereth accepted. Tenrel is not bribed and is not pressured. She has chosen her position knowingly and is comfortable with it.</p>\n<h3>What this means</h3>\n<p>The party cannot remove Tenrel by removing pressure (there is none). The party cannot disqualify Tenrel under §187 (she has no debts to C&amp;V; she has been careful). The party cannot persuade Tenrel to withdraw (she will not).</p>\n<p><em>The party can only oppose Tenrel by stopping the seating itself.</em> The two main routes — indicting Sereth (which suspends the candidacy slate pending investigation) and briefing the imperial seat (which shifts Reach from abstention to opposition) — both work against Tenrel as well as against Mirelth and Vesh. There is no Tenrel-specific intervention.</p>\n<h3>What she will do if her candidacy fails</h3>\n<p>Tenrel will return to her commercial-court practice and wait. <em>She will be a problem in any future Phase 4-equivalent campaign in Rel Astra.</em> If the party is squeamish about a future where Tenrel quietly cultivates the next Sereth, they may wish to consider whether her commercial-court practice has its own procedural vulnerabilities. Halask, asked, can identify two of them: a 1579 deposition where Tenrel suborned a witness (verifiable but difficult to prove); and an undeclared retainer arrangement with a junior counting house that would, on her seat at the harbor commission, constitute a §187 violation in its own right (declarable now to preempt her future candidacy).</p>\n<p><em>Pursuing these is not Phase 4 work. It is a Phase 5 question. Halask will note them in his files and make a copy available to the party should they ever return to Rel Astra.</em></p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5,
+        "autoplay": false,
+        "loop": false,
+        "timestamp": 0,
+        "width": null,
+        "height": null
+      },
+      "src": null,
+      "system": {},
+      "sort": 400000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "category": null
+    }
+  ],
+  "folder": null,
+  "sort": 300000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "blooming-rot-2": {
+      "phase": 4
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

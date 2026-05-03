@@ -1,0 +1,193 @@
+{
+  "_key": "!journal!BR2P4ArrivalJrnl",
+  "_id": "BR2P4ArrivalJrnl",
+  "name": "Phase 4 — Arrival in Rel Astra",
+  "pages": [
+    {
+      "_key": "!journal.pages!BR2P4ArrivalJrnl.BR2P4ArPgGmBrf",
+      "_id": "BR2P4ArPgGmBrf",
+      "name": "GM Brief — Phase 4 Purpose",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><em>Phase 4 is the long climax of <strong>Blooming Rot, Part 2</strong>. The party arrives in Rel Astra carrying everything Phase 3 produced and walks into the city the conspiracy actually operates from. Their job in this phase is to identify the three commissioner candidates the conspiracy intends to seat on Rel Astra's harbor commission, and to either stop the seating, indict Tarlith Vhal Sereth in Aerdi court, or remove him from play.</em></p>\n<h2>What this phase delivers</h2>\n<ul>\n<li><strong>The shape of the conspiracy in operation.</strong> Phase 3 named the firm. Phase 4 names the three seats and the candidates intended for them. The party will be able to draw a clean diagram by the end, and will know which candidate is the weak link.</li>\n<li><strong>A confrontation with Tarlith Vhal Sereth.</strong> Three viable resolutions: legal indictment in Aerdi commercial court (slow, public, certain if the deposition holds); private removal (the party can leverage what they know to force his exit and a sealed succession at the firm); or kinetic removal (this is Rel Astra and Sereth has bodyguards, but it's not impossible — the cost is that the conspiracy buries the documentary trail and the party gains a reputation they will not lose).</li>\n<li><strong>The Aerdy claimant.</strong> The conspiracy is positioning the harbor revenue for one specific Naelax claimant to inherit at the next succession. Phase 4 names him. (Default: Lord Galenix Naelax, a cousin of the current Overking, currently in Rel Astra under a politely restrictive house-arrest by his political opponents.)</li>\n<li><strong>The first whisper of \"E.\"</strong> Veska's three observations about how the letter was formed will, in Rel Astra, find a second instance — a registry document whose annotation is in the same hand. Phase 4 does not name Eclavdra. Phase 4 does not even confirm the writer is non-human. It only lets the party assemble a fourth and fifth observation, and notice that the writer is not, by any conventional reading, an Aerdy hand.</li>\n</ul>\n<h2>What this phase does NOT deliver</h2>\n<ul>\n<li>The Drow city is not named. The Vault is not visited.</li>\n<li>The reason behind the operation — why the eastern harbor revenue matters to the writer of the marginalia — is not stated. The party may infer.</li>\n<li>The succession itself does not occur in this campaign. The Wars do not begin in this campaign. The conspiracy is positioned for an event that has not yet happened.</li>\n</ul>\n<h2>Tier and DC assumptions</h2>\n<p>Tier 2–3 (levels 7–11). Investigation DCs cap at 18, social DCs at 17. The big combat encounter (the Sereth confrontation, kinetic version) is calibrated for a six-PC level-9 party with appropriate gear; tune for your table.</p>\n<h2>Pacing</h2>\n<ol>\n<li><strong>Day 1–2:</strong> Arrival, settling into Rel Astra, first contact with Caelith's Rel Astra correspondent (see NPCs).</li>\n<li><strong>Day 3–6:</strong> Investigation of the three commissioner candidates; identify the weak link.</li>\n<li><strong>Day 5–8:</strong> Approach to Sereth (one of three paths).</li>\n<li><strong>Day 7–10:</strong> The confrontation. Resolution.</li>\n<li><strong>Day 9–12:</strong> Departure / aftermath. Caelith's final letter. The \"E.\" thread is closed for this campaign and opened for the next.</li>\n</ol>\n<p>The Pressure Clock for Phase 4 is shorter (four segments) but the segments hit harder; see <em>Phase 4 Pressure Clock</em>.</p>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5,
+        "autoplay": false,
+        "loop": false,
+        "timestamp": 0,
+        "width": null,
+        "height": null
+      },
+      "src": null,
+      "system": {},
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "category": null
+    },
+    {
+      "_key": "!journal.pages!BR2P4ArrivalJrnl.BR2P4ArPgArr01Sea",
+      "_id": "BR2P4ArPgArr01Sea",
+      "name": "Arrival — Old Harbor (By Sea)",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/illustrations/p4-brass-sextant.png\" alt=\"Halask at his usual table at the Brass Sextant coffee-house, third quay, mid-morning; the party approaches with Caelith's letter of introduction.\" style=\"max-width: 580px; border-radius: 4px;\"></p>\n<p style=\"text-align: center; font-style: italic; color: #6b5b3c; font-size: 0.9em;\">The Brass Sextant. Caelith's letter is the door.</p>\n<p><em>Read aloud as the party reaches Rel Astra. Use this version only if they took the Lacquer Wave from Hardby (Route 1).</em></p>\n<blockquote>\n<p>The Lacquer Wave makes its turn into the Old Harbor on the morning of the seventh day, with the wind on her port quarter and the Aerdi sun already high enough to burn the haze off the water. You see Rel Astra a long while before you reach her — the city climbs the rise above the harbor in tiers of pale stone and warm tile, the four-story counting houses of the Goldsmiths' Quarter prominent on the eastern slope, the older quarter to the west crowded with red-roofed warrens, and the imperial walls of the Old Harbor Ward grey-faced and long.</p>\n<p>The harbor itself is a working port. Three Aerdi galleys lie at the imperial moorings to the east; a half-dozen smaller hulls are berthed along the merchant quays; a single Yeomanry-flagged coaster (you do not know her) is moored on the far side of the basin. The lighthouse at the harbor's mouth — a square stone tower three stories tall, weathered by four centuries of salt — flies the current Aerdi imperial standard and beneath it, smaller, the white-and-blue swallow-tail of the Old Harbor Ward.</p>\n<p>Captain Yorra Mel does not bring the Lacquer Wave to the imperial mooring. She slides her into a working berth on the merchant quay, hands you your half-fares back, says \"Good business, then,\" and turns to her own paperwork without watching you go. She has done this for you before; she will do it again.</p>\n<p>The harbor clerk who comes down the quay to check passengers takes your false names (or your real ones, depending on what you wrote on the manifest), copies them carefully into a bound register, hands you back the small silver tag you'll need for your return passage, and waves you up the quay toward the city. The whole transaction takes less than three minutes. Rel Astra, this morning, has not been told to look for you.</p>\n<p>It is the eleventh hour. The Goldsmiths' Quarter clock — the city's master clock, set in the tower above the merchants' guild hall — is just chiming the hour. The harbor's clock and the imperial clock and the merchants' clock all chime together. They keep the same time. Rel Astra is older than that and has had time to fix what Hardby never bothered to fix.</p>\n</blockquote>\n<hr>\n<h2>What's true on this approach</h2>\n<ul>\n<li>The party arrives unobserved by the conspiracy. They have approximately twelve hours before Cindren &amp; Vhal Rel Astra is told the Lacquer Wave brought passengers from Hardby. The harbor's passenger lists go to the harbor commission first, and the harbor commission's morning summary goes to the major counting houses by the next dawn.</li>\n<li>Their evidence package is intact and concealed in the Lacquer Wave's cargo manifest as wool. They can collect it from Yorra at any time in the next three days; she will hold it without asking why.</li>\n<li>They arrive in the Old Harbor Ward — Rel Astra's harbor district, its commercial heart, and the district where Cindren &amp; Vhal Rel Astra has its main counting house. They are inside the conspiracy's home district from the moment they step off the gangway.</li>\n<li><strong>Caelith's Rel Astra correspondent</strong> — a retired Aerdi advocate named <strong>Therion Halask</strong>, see NPCs — keeps morning hours at the Brass Sextant coffee-house on the third quay. The party may approach him today.</li>\n</ul>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5,
+        "autoplay": false,
+        "loop": false,
+        "timestamp": 0,
+        "width": null,
+        "height": null
+      },
+      "src": null,
+      "system": {},
+      "sort": 200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "category": null
+    },
+    {
+      "_key": "!journal.pages!BR2P4ArrivalJrnl.BR2P4ArPgArr02Lnd",
+      "_id": "BR2P4ArPgArr02Lnd",
+      "name": "Arrival — West Gate (By Land)",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/illustrations/p4-brass-sextant.png\" alt=\"Halask at his usual table at the Brass Sextant coffee-house, third quay, mid-morning.\" style=\"max-width: 580px; border-radius: 4px;\"></p>\n<p style=\"text-align: center; font-style: italic; color: #6b5b3c; font-size: 0.9em;\">By morning of the second day, the party is expected at the Brass Sextant.</p>\n<p><em>Read aloud as the party reaches Rel Astra. Use this version only if they took the overland coastal road from Hardby (Route 2).</em></p>\n<blockquote>\n<p>You crest the last low ridge five days out of Hardby and Rel Astra opens below you in the late-afternoon light: a long arc of pale stone curving inland from the bay, the four-story counting houses on the eastern slope catching the sun, the imperial walls of the Old Harbor Ward grey and shadowed at this hour, and beyond the city the open Aerdi sea, blue going to copper at the horizon.</p>\n<p>The road from the west drops down into a switchback through olive groves and scrub, and joins the West Gate caravan road two miles out. By the time you reach the gate, you are riding in a thin afternoon traffic of cart-drovers, returning fishermen with empty creels, and a single Aerdi imperial courier on a fresh horse who passes you without looking back.</p>\n<p>The West Gate is the imperial gate of Rel Astra — older than the city's commercial walls, set in a deep barbican, manned by Aerdi imperial guards in the oxblood-and-gold of the current Overking's household. The corporal who reviews your papers (your false-name papers, or whatever you carry) glances at them, glances at the party, asks one perfunctory question about your business, and waves you through. The Aerdi imperial gate-watch is, famously, very fast and very disinterested. Whoever it is the conspiracy has paid in this city, it is not the imperial gate-watch.</p>\n<p>Inside the West Gate, you are immediately in the Old City — a tangle of stepped streets, herb-vendors, basket-makers, three temples of three separate Aerdi deities each ringing a different evening bell. You can see the rise of the Goldsmiths' Quarter to the east, four-story counting houses cresting the next slope. The Old Harbor Ward is below them, and the harbor below that.</p>\n<p>You have arrived on the evening of the fifth day. It is not yet dark. The clocks of Rel Astra all begin to chime the seventh hour, together, the way the clocks of Hardby never quite managed.</p>\n</blockquote>\n<hr>\n<h2>What's true on this approach</h2>\n<ul>\n<li>The party arrived overland and the West Gate has not particularly noticed them. The imperial gate-roster will note their entry only by paper, not by name, and the conspiracy's network does not extend to it. <strong>They have a clean entry and are not yet observed.</strong></li>\n<li>If they took the road under Commercial Cover and survived the day-three blade attempt, the conspiracy in Hardby knows they tried — but does not yet know they made it. Rel Astra Cindren-aligned ears will not hear of them for a day and a half.</li>\n<li>If they took the road under Official Delegation, the carriage and escort have arrived a half-day later by a wider route; they enter the city as accredited diplomats, with formal lodgings prepared. <em>The conspiracy in Rel Astra knows everything about their arrival, and the harbor commission has already prepared the polite delays.</em></li>\n<li>Their evidence package is in their saddlebags and is the most exposed it has been since Hardby; recommend they offload to <strong>Therion Halask</strong> (see NPCs) within their first forty-eight hours.</li>\n</ul>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5,
+        "autoplay": false,
+        "loop": false,
+        "timestamp": 0,
+        "width": null,
+        "height": null
+      },
+      "src": null,
+      "system": {},
+      "sort": 300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "category": null
+    },
+    {
+      "_key": "!journal.pages!BR2P4ArrivalJrnl.BR2P4ArPgArr03Crg",
+      "_id": "BR2P4ArPgArr03Crg",
+      "name": "Arrival — Customs Quay (Diplomatic Carriage)",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/illustrations/p4-brass-sextant.png\" alt=\"Halask at his usual table at the Brass Sextant coffee-house, third quay, mid-morning.\" style=\"max-width: 580px; border-radius: 4px;\"></p>\n<p style=\"text-align: center; font-style: italic; color: #6b5b3c; font-size: 0.9em;\">Even under diplomatic seal, the morning visit to the Brass Sextant happens.</p>\n<p><em>Read aloud as the party reaches Rel Astra. Use this version only if they took the diplomatic carriage from Hardby (Route 3, Official Delegation only).</em></p>\n<blockquote>\n<p>The diplomatic carriage rolls through Rel Astra's Customs Quay gate on the morning of the eighth day. There has been a small Aerdi delegation waiting at the quay since dawn — three minor functionaries from the Old Harbor Ward Council, two clerks from the harbor commission, a single liveried herald in oxblood and gold who delivers the bows of formal welcome.</p>\n<p>The councilman steps down from the lead carriage. The bows are exchanged. The clerks hand him a folded card listing the audiences arranged for the next nine days: an audience with the Old Harbor Ward Council on the third day; a courtesy reception at the harbor commission on the fifth; an opportunity to present credentials at the Goldsmiths' Hall on the seventh; and on the morning of the ninth day, a private interview with the senior partner of Cindren &amp; Vhal Rel Astra — Tarlith Vhal Sereth — at his offices.</p>\n<p>You are then escorted, in the same procession, through the imperial-style streets of the Old Harbor Ward to the formal lodgings prepared for the delegation: the Hall of the Compass, a three-story Aerdi guest residence on the Customs Quay, two streets from the harbor commission's hall and three streets from Sereth's office. The hall is staffed by Aerdi imperial servants and is, you understand without anyone needing to say so, comprehensively under observation by every faction in the city that has an interest in why a Yeomanry delegation has come to Rel Astra at this season.</p>\n<p>The Aerdi sun is high. The city smells of lemon, dust, and clean salt water. Below the windows of the Hall of the Compass, the harbor's clock chimes ten, and every other clock in Rel Astra chimes with it.</p>\n</blockquote>\n<hr>\n<h2>What's true on this approach</h2>\n<ul>\n<li>The party has full diplomatic standing. They cannot be detained, they cannot be harassed, they cannot be physically attacked without an act-of-war level incident. <strong>This protection is the entire reason this approach was worth the speed cost.</strong></li>\n<li>The party has a scheduled private interview with <strong>Tarlith Vhal Sereth</strong> on the ninth day. This audience does not happen on any other approach. The price they paid for the audience is that the conspiracy has had over three weeks to prepare for it.</li>\n<li>The court-issued warrant from Hardby (if they obtained one in Phase 3 Path 3) can be presented to the harbor commission and executed at C&amp;V Rel Astra by Aerdi watch on the seventh day. The harbor commission will slow-walk the procedure as much as it can; the warrant will execute, but every locked drawer will have been emptied.</li>\n<li>The councilman is, as ever, polite, formal, slow, and reporting back to his own faction by every dispatch. The party should plan to operate around him, not through him.</li>\n<li>Their evidence package is in formal diplomatic dispatch cases under imperial seal. <em>It is also being read by every Aerdi imperial intelligence officer in the city.</em> Recommend they brief Therion Halask the morning after arrival.</li>\n</ul>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5,
+        "autoplay": false,
+        "loop": false,
+        "timestamp": 0,
+        "width": null,
+        "height": null
+      },
+      "src": null,
+      "system": {},
+      "sort": 400000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "category": null
+    },
+    {
+      "_key": "!journal.pages!BR2P4ArrivalJrnl.BR2P4ArPgCltLtr",
+      "_id": "BR2P4ArPgCltLtr",
+      "name": "Caelith's Continuing Letters (4–6)",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><em>Three more letters from Caelith reach the party in Rel Astra, by separate couriers, each two to three days behind the news that prompted them.</em></p>\n<h2>Letter 4 — within three days of arrival</h2>\n<blockquote>\n<p>Yours from Hardby's last post-house reached me on the second day after you sailed (or rode, or were carried in the councilman's carriage; you have not yet told me which, and I am refraining from reading the harbor news for the pleasure of being told by you).</p>\n<p>Two things you should know.</p>\n<p>First — the original of Veska's notarial opinion is in Trina's strongroom. Trina has read it. She has decided, on her own initiative and without consulting me, to send a sealed copy by separate courier to a person she names only as \"my old correspondent in the wood.\" I do not know who this is. I have not asked. Trina trusts what Trina trusts. The opinion will, by some path, find at least one set of eyes that no Aerdi or Yeomanry court will ever recognize as having read it. Whether this matters to you, on the ground in Rel Astra, depends on what you do next.</p>\n<p>Second — Brane's Civic Reconciliation Closure motion passed in the Council on the seventh day after you sailed. The matter of Haskur Vandrell is, in Loftwick civic record, declared resolved. The Audit Hall has formally withdrawn clerical support from any further inquiry into the Vandrell matter. <em>This means I am writing to you privately and on my own paper.</em> I am still in the post Caelith holds. I no longer have any institutional standing to direct an inquiry. Anything you accomplish in Rel Astra, you accomplish on the strength of what you can prove in Aerdi court, not on the strength of any letter I can write you.</p>\n<p>Halask is the man you want. He will not be the man you expect.</p>\n<p>— C.</p>\n</blockquote>\n<h2>Letter 5 — about a week into Phase 4</h2>\n<blockquote>\n<p>The clerk in my office is named Ostren Pell. I have known this for nineteen days. I have done nothing about it. He continues to come to work. He continues to forward my correspondence wherever he forwards it. I am keeping him in place because his removal would tell whoever pays him that I know, and I would prefer they continue to believe that I do not.</p>\n<p>This is not a position I am proud of. I tell you because, in Rel Astra, you may be tempted to reason from the corruption you can see to the corruption you cannot. <em>Sometimes the people who know are the ones who appear to be doing nothing.</em> Treat Halask under this rule. Treat the Old Harbor Ward Council members under this rule. Treat anyone in the harbor commission who has done you a small public courtesy under this rule.</p>\n<p>I have one piece of news from outside Loftwick. The Yeomanry's quiet contact in the Domain of Greyhawk — not someone I know personally, but someone whose name comes up in correspondence I am not supposed to read — has sent word that a man fitting Haskur Vandrell's description was seen, briefly, in Greyhawk City three weeks ago, in the company of a younger man the contact did not recognize. The younger man wore no rings and no insignia. The contact, who has good eyes for these things, says the younger man's gait was not Aerdi and not Yeomanry. <em>I tell you this for what it is worth, which may be very little.</em> If Vandrell is alive and on the move with a successor in tow, that may shape what you do with Sereth.</p>\n<p>Trina sends her regards. So does Alicia, by Trina's hand.</p>\n<p>— C.</p>\n</blockquote>\n<h2>Letter 6 — toward the end of Phase 4</h2>\n<blockquote>\n<p>If you have read this and not yet written me back, then I assume Sereth is either indicted, removed, or dead, and the matter of the three commissioners is settled one way or another.</p>\n<p>I will not ask which.</p>\n<p>I will only say this. The conspiracy you have named is not the conspiracy. The conspiracy is positioned to take advantage of the next Aerdy succession, and the next Aerdy succession will happen, and the harbor commission will sit, and a name you have not yet heard will be the name that sits behind whichever Naelax cousin wins the iron crown. Three commissioners, three votes that move together first, and a great deal of patience. Whoever drew this plan drew it ten years ago.</p>\n<p>The annotation Veska could not place. You will, in Rel Astra, find a second instance of it. Possibly a third. Notice the small details. Do not pursue the writer. The writer is not in Rel Astra. The writer was, at the time the marginalia was written, several thousand miles from any sea any of us have ever sailed. <em>I do not know who the writer is.</em> I know what a hand looks like that has not spent its life under Aerdi or Yeomanry sun, and I have seen exactly one person in twenty years whose hand looked like that, and she would not write on Rel Astran vellum.</p>\n<p>Come home alive. We will talk.</p>\n<p>— C.</p>\n</blockquote>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5,
+        "autoplay": false,
+        "loop": false,
+        "timestamp": 0,
+        "width": null,
+        "height": null
+      },
+      "src": null,
+      "system": {},
+      "sort": 500000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "category": null
+    }
+  ],
+  "folder": null,
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "blooming-rot-2": {
+      "phase": 4
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

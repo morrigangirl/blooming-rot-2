@@ -1,0 +1,156 @@
+{
+  "_key": "!journal!BR2P4Sereth",
+  "_id": "BR2P4Sereth",
+  "name": "Phase 4 — The Sereth Confrontation",
+  "pages": [
+    {
+      "_key": "!journal.pages!BR2P4Sereth.BR2P4SerPgOffice",
+      "_id": "BR2P4SerPgOffice",
+      "name": "Sereth's Offices — The Geography",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/illustrations/p4-sereth-office.png\" alt=\"Sereth at his third-floor desk in late afternoon, two bodyguards against the south wall, a captain near the door, the party presenting documents.\" style=\"max-width: 580px; border-radius: 4px;\"></p>\n<p style=\"text-align: center; font-style: italic; color: #6b5b3c; font-size: 0.9em;\">Sereth's private working office. He has chosen the room; the choice is the message.</p>\n<h2>Cindren &amp; Vhal Rel Astra — Sereth's Offices</h2>\n<p><em>The C&amp;V Rel Astra branch is the firm's commercial heart and Sereth's seat. The party will need to enter the building three times: once to reconnoitre, once to deliver a subpoena (if filing through the court), and once to confront Sereth in person. The geography matters because Sereth chooses what room he meets the party in, and that choice itself communicates.</em></p>\n<h3>The building</h3>\n<p>Four-story brownstone-fronted commercial building on the Goldsmiths' Quarter side of the Old Harbor Ward, two streets from the harbor commission's hall. Brass plate beside the door reads <strong>CINDREN &amp; VHAL — REL ASTRA OFFICES — EST. 1462 CY</strong>. Two liveried attendants at the door during business hours; one armed guard at night.</p>\n<h3>Floors</h3>\n<ul>\n<li><strong>Ground floor:</strong> public counting hall, six teller cages, customer floor, manager-on-duty office, antechamber. Open to walk-in business between the seventh and the seventeenth bells.</li>\n<li><strong>Mezzanine:</strong> clerk bullpen, chop-and-seal workroom, courier dispatch, internal correspondence sorting room. Restricted to staff.</li>\n<li><strong>Second floor:</strong> junior partners' offices (four of them), shared records library, formal reception salon for senior client meetings, private dining room for partner-level lunches. Restricted to staff and invited clients.</li>\n<li><strong>Third floor:</strong> Sereth's offices. Three rooms — the formal audience room, his private working office, and a small private study where he reads in the evenings. Restricted to senior staff and to Sereth's specific invitation. <em>This is where he meets the party if he wants to communicate that he respects them. If he meets them in the second-floor formal salon instead, he wishes to communicate that he does not.</em></li>\n<li><strong>Strongroom (basement):</strong> three vault chambers behind two doors that require both Sereth's key and the senior junior partner's key to open. The original loan documents that disqualify Mirelth are here, along with the firm's internal correspondence dating to 1572 CY. <em>Untouchable except by court warrant or by burglary that the party will not survive in good political standing.</em></li>\n</ul>\n<h3>Rooms in detail (third floor)</h3>\n<h4>The Formal Audience Room</h4>\n<p>Long oak table. Twelve chairs. A wall of leather-bound firm history on the east wall. Three tall windows on the north wall overlooking the Old Harbor Ward roof line. Sereth sits at the head of the table, two bodyguards stand against the south wall, the party sits ranged along the long sides. <em>This is the room he meets formal delegations in.</em></p>\n<h4>The Private Working Office</h4>\n<p>Sereth's working room. Heavy desk facing south (away from the windows; the light falls on the visitor, not on him). Two visitor chairs. Small private hearth. A wall of locked correspondence drawers, a small bookcase of Aerdi commercial code, the firm's seal-press on a side table. <em>This is where he meets people he is dealing with one-to-one. If he meets the party here, the party should understand that they are being treated as a serious problem rather than as a delegation.</em></p>\n<h4>The Private Study</h4>\n<p>Small. A single reading chair by a small fire. A small carafe of Aerdi-coastal red wine and a single glass on a side table. A book always open on the chair's arm — currently a four-volume set of the <em>Codex Mercatum</em>. <em>Sereth meets nobody here.</em> If the party penetrates this room (they should not), they have committed a serious breach of Aerdi commercial-court etiquette and Sereth will treat them, from then on, as outlaws.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5,
+        "autoplay": false,
+        "loop": false,
+        "timestamp": 0,
+        "width": null,
+        "height": null
+      },
+      "src": null,
+      "system": {},
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "category": null
+    },
+    {
+      "_key": "!journal.pages!BR2P4Sereth.BR2P4SerPgPath1",
+      "_id": "BR2P4SerPgPath1",
+      "name": "Path 1 — Indictment in Aerdi Commercial Court",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h2>Path 1 — Indictment in Aerdi Commercial Court</h2>\n<p><em>The procedurally clean path. Halask drives this. The party provides the indictment package, supports the depositions, and stays out of the way. Slow, public, certain. The conspiracy's hardest outcome to recover from.</em></p>\n<h3>Prerequisites</h3>\n<ul>\n<li>The Phase 3 indictment package: Veska's notarized opinion, the C&amp;V Hardby branch records (whether by burglary, copy-reading, or subpoena), the Sereth blotter rubbing, the chipped Hardby clearing-stamp.</li>\n<li>Halask's procedural framework — see his NPC entry. He drafts the formal court filing, identifies the right venue (the Aerdi Commercial Court of Rel Astra, sitting under Magister Velren Ostrach, who Halask knows is honest and dislikes Sereth), and prepares the procedural exhibits.</li>\n<li>At least two corroborating depositions: ideally Solen Mereth (compelled by subpoena) and one other (Vella Tannin, if extracted; or Hesren Vesh, if extracted; or, in extremis, Mira Cindren, if leveraged).</li>\n<li>The Mirelth disqualification documented (see Three Seats &gt; Mirelth) — used to demonstrate the broader pattern.</li>\n</ul>\n<h3>Timeline</h3>\n<ol>\n<li><strong>Days 1–4 (Halask preparing the filing).</strong> Halask works in his rooms, takes only meals at the Brass Sextant, asks the party for one specific document or detail per day. The party uses this time to prepare witnesses (extract Hesren if not yet done; secure Vella if not yet done; brief Astor; brief Sayan).</li>\n<li><strong>Day 5 (filing).</strong> Halask submits the formal indictment to the Aerdi Commercial Court at the seventh bell of morning. By the eleventh bell, the court has docketed it and Sereth has been informed. By dusk, the firm's senior staff are reading copies. The clerks of the harbor commission are reading copies by the next morning.</li>\n<li><strong>Days 6–10 (preliminary motions).</strong> Sereth's defense files three motions to dismiss on procedural grounds. Halask anticipated all three. Magister Ostrach denies all three within a week.</li>\n<li><strong>Days 11–28 (depositions).</strong> Solen Mereth is compelled to depose. Vella Tannin and Hesren Vesh, if available, depose. Halask deposes one C&amp;V Rel Astra junior partner — name him at the GM's discretion; the choice depends on which of them can be persuaded to cooperate without becoming a target. <em>This is the period when the party is most exposed to retaliation. The Pressure Clock advances aggressively. Run two of the four Pressure Clock segments during this window.</em></li>\n<li><strong>Day 29 (preliminary hearing).</strong> Magister Ostrach holds a preliminary hearing and accepts the indictment for trial. Sereth's bail is set at 50,000 gp (he posts it within the hour). The harbor commission suspends candidate selection for the three vacant seats pending the trial's resolution. <em>The conspiracy's harbor-commission play is paused.</em></li>\n<li><strong>Days 30–60 (trial preparation, the party may leave Rel Astra).</strong> The trial itself is scheduled for sixty days after the preliminary. The party need not stay for the trial; Halask can carry it. Their role from here on is to provide additional evidence as Halask requests it by post.</li>\n<li><strong>Conviction (off-screen, ninety days after departure).</strong> By post: Sereth convicted on conspiracy-to-defraud and procedural-fraud counts. Sentence as outlined in Sereth's NPC entry: removal from the firm, forfeiture of personal estates, twenty-year exclusion from any commercial office in Aerdi territory. The firm reorganizes. The harbor commission unseats the candidate slate and re-opens nominations under closer scrutiny.</li>\n</ol>\n<h3>What this costs</h3>\n<ul>\n<li>Time. Sixty days of formal procedure plus thirty days of trial.</li>\n<li>Pressure. The Pressure Clock for Phase 4 will reach segment 3 or 4 during the deposition window. Witness loss is likely. Plan around it.</li>\n<li>Money. Halask's procedural costs run about 1,200 gp. The party may cover or Halask may absorb; if Halask absorbs, he becomes reluctant to pursue the &quot;E.&quot; thread later in the phase.</li>\n</ul>\n<h3>What this buys</h3>\n<ul>\n<li>The conspiracy's harbor-commission play collapses for at least two years.</li>\n<li>Sereth is removed from the firm and from Aerdi commercial office permanently.</li>\n<li>The pattern of Cindren &amp; Vhal procedural fraud is documented in court record. Future investigations have a baseline to refer to.</li>\n<li>Caelith's standing in Loftwick is partially restored — the Civic Reconciliation Closure motion is, by inference, exposed as having been a mistake. Brane's faction loses standing.</li>\n<li>The party emerges as competent investigators with a procedurally clean win. <em>Aerdi commercial-court advocates remember.</em></li>\n</ul>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5,
+        "autoplay": false,
+        "loop": false,
+        "timestamp": 0,
+        "width": null,
+        "height": null
+      },
+      "src": null,
+      "system": {},
+      "sort": 200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "category": null
+    },
+    {
+      "_key": "!journal.pages!BR2P4Sereth.BR2P4SerPgPath2",
+      "_id": "BR2P4SerPgPath2",
+      "name": "Path 2 — Private Removal",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h2>Path 2 — Private Removal</h2>\n<p><em>The fast path. The party uses the indictment package as leverage rather than as evidence. They confront Sereth in his offices, present the consequences of refusal, and accept his quiet resignation in exchange for not filing. Lower cost to the party. Higher cost to the long-term suppression of the conspiracy.</em></p>\n<h3>Prerequisites</h3>\n<ul>\n<li>Same indictment package as Path 1 — without it, Sereth has no reason to negotiate.</li>\n<li>An audience with Sereth — easiest to arrange under Official Delegation (the Day 9 audience is pre-scheduled), available with effort under the other approaches (a written request through Halask, citing &quot;a private matter of mutual commercial interest&quot;).</li>\n<li>A clear demand. The party should know going in what they want Sereth to agree to.</li>\n</ul>\n<h3>Sample demands the party may present</h3>\n<ol>\n<li><strong>Resignation from the firm within thirty days, departure from Rel Astra within sixty days.</strong> Sereth will accept this without much resistance; it is, after all, his planned retirement timing accelerated by ten years.</li>\n<li><strong>Withdrawal of all three commissioner candidates.</strong> Sereth will accept Mirelth's withdrawal (he has the documents in any case) and Vesh's withdrawal (he understands Halask is handling Lyla's case independently). He will refuse Tenrel's withdrawal — Tenrel is not his to withdraw, and pretending she is would expose how thin his actual control is.</li>\n<li><strong>The original loan documents on Mirelth.</strong> Sereth will provide these. They are not, individually, dispositive of much.</li>\n<li><strong>The names of his correspondents in Hardby beyond Solen Mereth and Tarsh.</strong> Sereth will provide one name (a junior C&amp;V Hardby partner he uses for routine document handling) and not the second name the party probably suspects exists.</li>\n<li><strong>A written private statement that the firm's harbor-commission positioning was &quot;a personal initiative of the senior partner, not firm policy.&quot;</strong> Sereth will sign this. It is a lie. The firm wrote the policy. But the lie protects the firm and, in exchange, Sereth gets his quiet exit.</li>\n<li><strong>The annotation hand.</strong> If asked specifically about the &quot;E.&quot; marginalia, Sereth will say only this: <em>&quot;The annotations are not from this side of the great desert. I have not met the writer. I do not know whether the writer is a person, an office, or a guild. I have, perhaps once a year, received a note in that hand, and the firm has acted on what was in the note. The notes were always correct. I do not ask further.&quot;</em> This is the truth. He really does not know. He has, however, just confirmed for the party that the writer exists, that the writer is foreign by some significant margin, and that the firm follows the writer's direction without question.</li>\n</ol>\n<h3>What Sereth will not concede</h3>\n<ul>\n<li>His own firm shares (he transfers seniority but retains his stake; he is not bankrupt).</li>\n<li>The firm's other operations (he has no authority over the Hardby branch's reorganization).</li>\n<li>Any statement that would expose the conspiracy's continuing existence (he will frame everything as his personal action).</li>\n<li>Any cooperation in court should the party ever decide to file the indictment after all.</li>\n</ul>\n<h3>How the conversation should run at the table</h3>\n<p>Sereth is not a beggar. He recognizes the party has leverage; he negotiates from the position of someone who has lost a hand he did not expect to lose, but who still has a great deal of game left. <em>He should not appear panicked. He should not appear desperate. He should appear, throughout, exactly what he is: a senior commercial operator handling an unexpected procedural problem at a level appropriate to its difficulty.</em></p>\n<p>If the party tries to humiliate him, he will not become angry. He will become, instead, less generous. The party loses concessions for every needless escalation.</p>\n<p>If the party offers him dignity in exchange for cooperation, he will provide more — though he will never provide everything.</p>\n<h3>What this costs</h3>\n<ul>\n<li>The conspiracy is paused, not stopped. The firm reorganizes within twelve months under a new senior partner; the harbor-commission play resumes, in a more careful form, within twenty-four months.</li>\n<li>Sereth retires comfortably to an Aerdi country estate. He is not punished. <em>Caelith would not approve. Some PCs may not approve.</em></li>\n<li>The party gains the &quot;E.&quot; admission. This is genuinely useful and will not be available on Path 1.</li>\n</ul>\n<h3>What this buys</h3>\n<ul>\n<li>Speed. The whole confrontation can resolve in a single long evening. The party can leave Rel Astra within days of the meeting.</li>\n<li>The annotation-hand confirmation.</li>\n<li>Mirelth and Vesh withdrawn from the candidate slate. Tenrel still in play, but isolated.</li>\n<li>Witness preservation. None of the depositions need to happen; Solen, Vella, Hesren, and the others are not exposed to the post-deposition retaliation that Path 1 invites.</li>\n</ul>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5,
+        "autoplay": false,
+        "loop": false,
+        "timestamp": 0,
+        "width": null,
+        "height": null
+      },
+      "src": null,
+      "system": {},
+      "sort": 300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "category": null
+    },
+    {
+      "_key": "!journal.pages!BR2P4Sereth.BR2P4SerPgPath3",
+      "_id": "BR2P4SerPgPath3",
+      "name": "Path 3 — Kinetic Removal",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h2>Path 3 — Kinetic Removal</h2>\n<p><em>The path of last resort. The party kills Sereth. Available only when the procedural and political paths have visibly closed. Entirely possible — Sereth's bodyguards are competent but not extraordinary — and entirely costly. The conspiracy reorganizes faster, the documentary trail goes cold, and the party becomes, in Aerdi commercial circles, a Yeomanry hit squad rather than a legitimate inquiry.</em></p>\n<h3>When this becomes the right answer</h3>\n<p>Three conditions, any of which justify it:</p>\n<ol>\n<li><strong>Halask is killed or compromised.</strong> Without him, the procedural path is closed.</li>\n<li><strong>Sereth has had the indictment package and has destroyed the corroborating depositions.</strong> Without corroboration, the trial fails.</li>\n<li><strong>Sereth refuses both indictment and resignation, and has the political cover to ride out a public scandal.</strong> This requires very specific circumstances (a sympathetic Magister Ostrach replaced by a Sereth-aligned successor; a sudden shift in Aerdi imperial position) that the GM should make visible to the party rather than spring on them.</li>\n</ol>\n<h3>The encounter</h3>\n<p>If the party attempts kinetic removal at Sereth's offices:</p>\n<ul>\n<li><strong>Tarlith Vhal Sereth</strong> — see NPC entry. CR 5 non-combatant; will yield at half HP.</li>\n<li><strong>Two Bodyguards (Veteran)</strong> — CR 3 each. Trained, reliable, will not retreat unless Sereth orders.</li>\n<li><strong>Bodyguard Captain (Knight, Fighting Style: Defense)</strong> — CR 3. Tactically intelligent, prioritizes Sereth's safety over offense.</li>\n<li><strong>Driver (Bandit Captain)</strong> — CR 2. Stationed at the building's back service entrance; engages if alerted.</li>\n<li><strong>Two Junior Partners (Mage, no offensive spells; treat as Acolyte with one casting of <em>shield</em>)</strong> — CR 1/4 each. Present if attack is during business hours; will not fight; will flee and raise the alarm.</li>\n</ul>\n<p><strong>Encounter calibration:</strong> a level-9 party of six can win this fight. A level-9 party of four will struggle and should expect at least one PC down. A level-7 party should not attempt it.</p>\n<p><strong>Building features:</strong> three floors of office space; multiple choke points at stairwells; tall narrow windows that can be used for entry or escape; a back service stair that is the bodyguards' fallback position. <em>The building is not built as a fortress; it is an office. Most cover is light (desks, doors). The strongroom in the basement is the only part of the building that resembles a defensive position; the bodyguards will not retreat there unless Sereth is killed and they are trying to deny the party access to the documents.</em></p>\n<h3>Aftermath</h3>\n<ul>\n<li><strong>The Aerdi watch responds within ten minutes.</strong> The party has a window to recover documents (Sereth's body has the strongroom keys; the senior junior partner has the second key) but cannot stay long. Recommend pre-planned exit route.</li>\n<li><strong>The firm reorganizes within forty-eight hours under a successor senior partner</strong>, who immediately empties the strongroom and shifts all sensitive correspondence to a Rauxes deposit. The documentary trail goes cold.</li>\n<li><strong>The harbor-commission play is paused</strong> for approximately six months while the firm assesses the new operating environment, then resumes with tighter security and possibly a different slate of candidates.</li>\n<li><strong>The party is named in Aerdi imperial bulletins</strong> as wanted for the murder of an Aerdi commercial officer. Halask cannot represent them; they are advised to leave Rel Astra by sea within twelve hours of the killing.</li>\n<li><strong>Caelith will not write again until the party is back in Loftwick.</strong> When he does write, he will be measured. He will say: <em>&quot;You did what you decided to do. I will not pretend I would have chosen as you did. I will also not pretend the world is worse for Sereth's removal. The harm is to the procedural ground we needed to stand on. We will rebuild it. Come home.&quot;</em></li>\n</ul>\n<h3>What this buys (very little)</h3>\n<ul>\n<li>Sereth is dead and cannot personally direct further conspiracy operations.</li>\n<li>The party can recover the strongroom contents during their post-killing window — including the Mirelth loan originals, the firm's 1572-onward correspondence, and (with luck and a good Investigation roll) <strong>two further instances of the &quot;E.&quot; annotation hand</strong>.</li>\n<li>The party demonstrates, to whatever audience matters to them, that the line they would not let be crossed has been respected.</li>\n</ul>\n<p><em>This is the worst Phase 4 outcome. Don't recommend it. Make sure the party has refused or exhausted Paths 1 and 2 before they ask to take it.</em></p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5,
+        "autoplay": false,
+        "loop": false,
+        "timestamp": 0,
+        "width": null,
+        "height": null
+      },
+      "src": null,
+      "system": {},
+      "sort": 400000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "category": null
+    }
+  ],
+  "folder": null,
+  "sort": 400000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "blooming-rot-2": {
+      "phase": 4
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

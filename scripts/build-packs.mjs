@@ -14,7 +14,9 @@ const PACKS = [
   "phase-2-journals",
   "phase-2-actors",
   "phase-3-journals",
-  "phase-3-actors"
+  "phase-3-actors",
+  "phase-4-journals",
+  "phase-4-actors"
 ];
 
 for (const pack of PACKS) {

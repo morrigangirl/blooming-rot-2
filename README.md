@@ -46,6 +46,10 @@ packs/_source/                    editable JSON (one file per top-level doc)
   phase-1-scenes/
   phase-2-journals/
   phase-2-actors/
+  phase-3-journals/
+  phase-3-actors/
+  phase-4-journals/
+  phase-4-actors/
 packs/                            compiled LevelDB (regenerate after editing)
 assets/
   maps/                           little-palace-{main-floor,2nd-floor,cellar}.webp; Loftwick.jpg
@@ -98,3 +102,42 @@ The horror is administrative: forged paperwork, a quietly-murdered clerk, a miss
 
 - **Trina Alvere** — Warlock 10 (Archfey, pact: Tasha / Iggwilv as the Quiet Patroness). CR 7, AC 14, HP 70. CHA 20, save DC 16, spell attack +8. Two 5th-level Pact slots. *Eldritch Blast* + *Agonizing Blast*; *misty step*, *hypnotic pattern*, *dimension door*, *greater invisibility*, *hold monster*, plus *Misty Visions* and *Mask of Many Faces* at will. Will not fight in Phase 2.
 - **Merev Sarth** — professional thief, CR 4, AC 15, HP 65. Sneak Attack +14 (4d6), Cunning Action, Uncanny Dodge, Evasion. On a retrieval contract, not a kill contract; surrenders rather than dies if cornered.
+
+## What's in Phase 3 — *Hardby Variant: Harbor Before Throne*
+
+Phase 3 takes the party to **Hardby**, the small Free City on the south shore of the Wooly Bay where Cindren &amp; Vhal actually banks and operates day-to-day. The Loftwick satellite the party investigated in Phase 2 was a tiny outpost; the Hardby branch is the firm's commercial heart.
+
+- **Three arrival modes** — Official Delegation, Commercial Cover, Quiet Pursuit — each with a different opening scene, set of available witnesses, and Pressure Clock starting position.
+- **Veska Maelan**, trade-clearing notary on Whalemarket Quay — Caelith's quietest contact and the procedural anchor for the Phase 3 investigation. Reads the Aerdi clearing-marks better than anyone outside the firms.
+- **Anver "Tarsh" Resh**, the broker who hired Merev Sarth — confronted at the Coopered Wreck tavern in the dock district. The clerk who left the office and never quite stopped clerking. Will not personally kill; surrenders rather than make a killing blow himself.
+- **Three paths into the C&amp;V Hardby branch** — Path 1 the burglary (Quiet Pursuit only), Path 2 the sympathetic clerk Vella Tannin (Commercial Cover), Path 3 the subpoena (Official Delegation).
+- **Three Tamsin Moraven recoveries** — alive in a Hardby warehouse on Black Cog Lane (Quiet Pursuit), alive at the Whitemoor Estate two days east (Commercial Cover), or her body and smuggled last letter (Official Delegation).
+- **The "Harbor Before Throne" reveal** — operational reveal at Castrian Vell's salon: the conspiracy is positioning to seat three commissioners on Rel Astra's harbor commission *before* the next Aerdy succession resolves the throne.
+- **Caelith's continuing letters (1–3)** by post from Loftwick.
+- **Six-segment Phase 3 Pressure Clock** — faster than Loftwick's because Hardby is faster than Loftwick.
+- **Three departure routes** to Rel Astra, with full route consequences.
+
+## Phase 3 NPCs (shipped as Foundry actors)
+
+- **Veska Maelan** (CR 1 non-combatant), **Anver Resh** (CR 6 broker — Cunning Action, Sneak Attack 4d6, Uncanny Dodge, Evasion, smoke pellets; will not personally kill).
+- **Solen Mereth** (CR 0 compromised senior clerk), **Castrian Vell** (CR 0 social host), **Hesren Vesh** (CR 0 recalled junior clerk), **Ailen Moraven** (CR 1/8 Tamsin's daughter), **Zoria Weis** (CR 1/4 Gynarchy under-clerk asset), **Mira Cindren** (CR 1 Hardby junior partner).
+
+## What's in Phase 4 — *Rel Astra*
+
+Phase 4 is the long climax. The party arrives in the city the conspiracy actually operates from. Their job: identify the three commissioner candidates the conspiracy intends to seat on Rel Astra's harbor commission, and either stop the seating, indict Tarlith Vhal Sereth in Aerdi commercial court, or remove him from play.
+
+- **Three arrival modes** — by sea (the Lacquer Wave to the Old Harbor), by land (overland coastal road to the West Gate), or by diplomatic carriage (Customs Quay arrival with full Aerdi accreditation).
+- **Therion Halask**, retired Aerdy advocate at the Brass Sextant coffee-house — Caelith's Rel Astra correspondent and the procedural anchor for any indictment.
+- **The seven-seat Harbor Commission with three vacancies**, with a complete diagram of the conspiracy's intended seating play.
+- **Three candidate dossiers** — Lord Faren Mirelth (the reformer with private debts; easily disqualified under §187), Magister Andrune Vesh (the technocrat pressured through his sister-in-law's customs case), and Mistress Coriath Tenrel (the volunteer ambitious for senior commissioner; cannot be removed by relieving pressure).
+- **Tarlith Vhal Sereth** — senior partner of C&amp;V Rel Astra, the named villain. Late fifties, Aerdy, very thin, silver-white hair, dark-grey advocate's overcoat. Three viable resolutions: indictment in Aerdi commercial court (Path 1, slow + certain), private removal (Path 2, fast + costly long-term), kinetic removal (Path 3, last resort).
+- **Lord Galenix Naelax**, the Aerdy claimant the conspiracy is positioning behind. Three party options: brief him, leave him alone, or use him as the political vehicle for their own purposes.
+- **Caelith's continuing letters (4–6)** including the late spoiler-careful reveal that *"the conspiracy you have named is not the conspiracy."*
+- **Four-segment Phase 4 Pressure Clock** — fewer segments, harder hits.
+- **The "E." thread** — two more observations of the foreign annotation hand bring the total to five. Phase 4 does not name the writer, does not confirm species, does not name the city or organization. It only confirms that the writer exists, is not Aerdy, has been advising the firm for at least a decade, and is not someone Sereth has ever met.
+
+## Phase 4 NPCs (shipped as Foundry actors)
+
+- **Tarlith Vhal Sereth** (CR 5 non-combatant villain with bodyguard chain — Two Veterans + Knight Bodyguard Captain at his offices; he yields if isolated and reduced to half HP; will not personally kill).
+- **Therion Halask** (CR 1/2 procedural anchor; killing him closes Path 1).
+- **Belven Astor** (CR 1/2 honest councilor + chandler), **Galenix Naelax** (CR 1 Aerdy claimant), **Faren Mirelth** (CR 1/4 reformer), **Andrune Vesh** (CR 1/2 academic), **Coriath Tenrel** (CR 1 advocate).

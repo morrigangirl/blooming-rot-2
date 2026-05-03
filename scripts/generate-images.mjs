@@ -43,6 +43,15 @@ const SIGIL_STYLE = "Heraldic emblem, single composition centered on a plain dar
   "Symmetric, suitable for use as a token icon. " +
   "Subject only — no banners, no shields, no surrounding ornament unless requested.";
 
+// Append to interior map prompts to enforce sane door rendering.
+const DOOR_RULES = "\n\nCRITICAL DOOR RULES — READ CAREFULLY:\n" +
+  "- Every door is CLOSED. Do NOT depict any door as open, ajar, or swung outward.\n" +
+  "- Every door is exactly 1 grid square (5 ft) wide and is rendered as a small SOLID RECTANGULAR PANEL set FLUSH with the wall it is in.\n" +
+  "- A door must sit centered in a clean break in the wall line. The door panel must touch the wall on BOTH SIDES — no gap, no floating door, no door embedded inside the wall.\n" +
+  "- A small visible HINGE MARK at one short edge of each door panel indicates which side hinges. Do not render hinges as decorative arcs or open-door swing arcs.\n" +
+  "- If you would draw a door open or with gaps, instead draw it closed and flush. If in doubt, make the door look like a section of darker wood inset into the wall, the same thickness as the wall itself.\n" +
+  "- A failure mode looks like: doors floating in the middle of a wall with empty space on either side; doors shown swung 90 degrees open; doors thicker than the wall; or doors drifting outside the room boundary. Avoid all of these.";
+
 const JOBS = [
   // ============== TIER 1 — must-have ==============
   {
@@ -1149,22 +1158,21 @@ Render with a soft 5 ft square grid overlaid (faint dark lines, low opacity). Pa
     out: "assets/maps/cv-hardby-branch-interior.png",
     size: "1024x1536",
     quality: "high",
-    prompt: `Top-down tactical battlemap of the CINDREN & VHAL HARDBY BRANCH counting-house INTERIOR — a private banking office, ground floor only.
-Hand-painted fantasy cartography style suitable for a tabletop RPG (Dungeondraft / Mike Schley interior style). NOT modern architectural blueprint.
+    prompt: `Top-down tactical floor plan of a small fantasy merchant office building. Single ground floor. Hand-painted parchment-style cartography for a tabletop role-playing game. Painted-map feel, like a published adventure module city handout (Mike Schley / Tales of the Valiant interior style).
 
-Building footprint roughly square, ~60 ft × 60 ft, with an internal central skylight courtyard.
+Building footprint roughly square, ~60 ft x 60 ft. North at the top.
 
-Layout (north at top):
-- PUBLIC ENTRANCE on the south wall — a pair of heavy bronze-bound doors, opening into a small ANTECHAMBER with a clerk's high desk and two waiting benches.
-- MAIN HALL fills the southern half — a long counting-room with three teller cages along the south wall (each cage a small barred booth with its own ledger desk), a customer area in front of the cages, and a private partner's reception alcove on the southeast corner with two leather chairs and a small table.
-- INTERNAL COURTYARD in the dead center — a small skylit atrium with a stone bench and a single planted cypress, surrounded by a pillared walkway. Sky open above.
-- SOLEN MERETH'S OFFICE in the northeast quadrant — a private office with a heavy desk, two visitor chairs, a wall of locked correspondence drawers, a small private hearth. Door from the courtyard walkway.
-- RECORDS ROOM in the northwest quadrant — a windowless interior chamber lined with floor-to-ceiling shelves of bound ledgers, a long reading table down the center. Door from the courtyard walkway.
-- STRONGROOM in the north wall — small (~10 × 12 ft), reinforced stone walls, a heavy iron door with two locks, no windows.
-- STAFF / CLERK ROOM in the northwest corner near the records room — three small writing desks, a small hearth.
-- SERVICE PASSAGE along the east wall connecting the courtyard to a small rear delivery door.
+Rooms to depict:
+- A formal entry vestibule at the south wall, with two waiting benches and a clerk's standing desk.
+- A main public hall filling the southern third — three teller booths along the south wall (each booth a small enclosed cubicle), an open customer area in front of them, a small private alcove at the southeast corner with two leather chairs.
+- A small interior atrium courtyard in the very center, with a stone bench and a single planted cypress tree, ringed by a pillared walkway open to the sky above.
+- A senior clerk's private office in the northeast quadrant, with a desk, two chairs, and a small hearth.
+- A records reading room in the northwest quadrant, lined with tall shelves of bound ledger volumes and a long central reading table.
+- A small archive chamber on the north wall (shown as a small windowless side-room with thicker walls than the rest, accessed through a single heavy door).
+- A staff workroom near the archive chamber, with three small writing desks.
+- A service corridor along the east wall connecting the atrium to a small rear delivery door.
 
-Render with a faint 5 ft square grid. Polished hardwood floors throughout, dark wood paneling on walls, dignified muted palette (deep walnut, brass, oxblood red rugs, ivory plaster). No text labels.`,
+Render with a faint 5-foot square grid overlaid. Polished hardwood floors, dark wood paneling, soft warm palette of deep walnut, brass, oxblood-red rugs, ivory plaster. No text labels anywhere on the map. Painted, not vector.${DOOR_RULES}`,
     postProcess: null,
   },
   {
@@ -1187,7 +1195,7 @@ Layout (north at top):
 - A REAR DOOR on the east wall opens onto a narrow service alley between buildings.
 - Two small high WINDOWS on the west wall, shuttered.
 
-Render with a faint 5 ft square grid. Color palette: rough plank floor, dust and grime, dim amber light implied by a single guttering lantern hung from a ceiling beam (visible as a small bright spot). Cluttered, broken, abandoned — clearly not in active use. NO text labels.`,
+Render with a faint 5 ft square grid. Color palette: rough plank floor, dust and grime, dim amber light implied by a single guttering lantern hung from a ceiling beam (visible as a small bright spot). Cluttered, broken, abandoned — clearly not in active use. NO text labels.${DOOR_RULES}`,
     postProcess: null,
   },
 
@@ -1215,7 +1223,7 @@ Layout:
 - A few CYPRESS TREES along the perimeter for visual privacy.
 - A small SIDE GATE on the east wall (locked, key with the housekeeper).
 
-Render with a faint 5 ft square grid. Palette: pale stone walls, terracotta roof on the house, green of the garden, gravel of the carriage drive in warm tan. Atmosphere: prosperous but isolated, deliberately private. NO text labels.`,
+Render with a faint 5 ft square grid. Palette: pale stone walls, terracotta roof on the house, green of the garden, gravel of the carriage drive in warm tan. Atmosphere: prosperous but isolated, deliberately private. NO text labels.${DOOR_RULES}`,
     postProcess: null,
   },
   {
@@ -1237,7 +1245,7 @@ Layout (north at top):
 - A REAR DOOR on the west wall opens to a narrow service alley.
 - TWO SMALL HIGH WINDOWS on the south wall (street).
 
-Render with a faint 5 ft square grid. Palette: warm honey-toned wood throughout, brass lamp fittings, oxblood leather chair. Atmosphere: precise, ordered, professionally calm. NO text labels.`,
+Render with a faint 5 ft square grid. Palette: warm honey-toned wood throughout, brass lamp fittings, oxblood leather chair. Atmosphere: precise, ordered, professionally calm. NO text labels.${DOOR_RULES}`,
     postProcess: null,
   },
   {
@@ -1267,7 +1275,7 @@ RIGHT HALF — UPPER FLOOR (north at top):
 - A SMALL PRIVATE LIBRARY off the upper hall — a single armchair, a reading lamp, two walls of books.
 - STAIR DOWN at the south end of the upper hall.
 
-Faint 5 ft square grid throughout. Palette: warm wood floors, plastered walls in cream and ochre, oxblood and dark green soft furnishings, brass lamp fittings. Atmosphere: prosperous, lived-in, hospitable. NO text labels.`,
+Faint 5 ft square grid throughout. Palette: warm wood floors, plastered walls in cream and ochre, oxblood and dark green soft furnishings, brass lamp fittings. Atmosphere: prosperous, lived-in, hospitable. NO text labels.${DOOR_RULES}`,
     postProcess: null,
   },
   {
@@ -1292,7 +1300,7 @@ Layout:
 - A SERVICE STAIR in the very northwest corner leads down to the deep records vault (not shown).
 - An INTERNAL CORRIDOR runs east-west across the middle of the building, separating public space from working space.
 
-Render with a faint 5 ft square grid. Palette: cool stone, marble floors, dark walnut shelving, brass lamp fittings, civic gravity. Atmosphere: hushed, official, ordered. NO text labels.`,
+Render with a faint 5 ft square grid. Palette: cool stone, marble floors, dark walnut shelving, brass lamp fittings, civic gravity. Atmosphere: hushed, official, ordered. NO text labels.${DOOR_RULES}`,
     postProcess: null,
   },
   {
@@ -1317,7 +1325,7 @@ Layout:
 - A REAR DOOR on the east wall opens into a small service alley.
 - A STAIR in the northwest corner leads up to a closed-off second floor (not shown — used for storage and the manager's overnight cot when needed).
 
-Render with a faint 5 ft square grid. Palette: dark walnut paneling on the lower walls, cream plaster above, brass lamp fittings, deep red runner along the customer floor. NO text labels.`,
+Render with a faint 5 ft square grid. Palette: dark walnut paneling on the lower walls, cream plaster above, brass lamp fittings, deep red runner along the customer floor. NO text labels.${DOOR_RULES}`,
     postProcess: null,
   },
   {
@@ -1338,7 +1346,7 @@ Layout:
 - A PRIVATE STRONGBOX (visible as a small heavy iron-bound chest) sits at the desk's right hand.
 - A SMALL SIDE TABLE near the chairs holds a water carafe and two glasses.
 
-Render with a faint 5 ft square grid. Palette: dark wood floor, smoke-grey plaster walls, brass desk fittings, deep oxblood leather chairs. Atmosphere: senior civic functionary's working room — restrained, austere, lived-in. NO text labels.`,
+Render with a faint 5 ft square grid. Palette: dark wood floor, smoke-grey plaster walls, brass desk fittings, deep oxblood leather chairs. Atmosphere: senior civic functionary's working room — restrained, austere, lived-in. NO text labels.${DOOR_RULES}`,
     postProcess: null,
   },
   {
@@ -1368,7 +1376,7 @@ UPPER HALF — UPPER FLOOR:
 - LINEN CUPBOARD / STORAGE in the northwest corner.
 - HALL connects all four upper rooms; stair descends at the west end.
 
-Render with a faint 5 ft square grid. Palette: light wood floors, plain cream plaster walls, modest soft furnishings in faded green and brown. Atmosphere: a quiet, private home, not wealthy but cared for. NO text labels.`,
+Render with a faint 5 ft square grid. Palette: light wood floors, plain cream plaster walls, modest soft furnishings in faded green and brown. Atmosphere: a quiet, private home, not wealthy but cared for. NO text labels.${DOOR_RULES}`,
     postProcess: null,
   },
 
@@ -1624,7 +1632,7 @@ Layout:
 - The CORRIDOR has the firm's seal carved into the floor at the threshold.
 - A SERVICE STAIR in the southeast corner (the bodyguards' fallback position) leads down to the second floor.
 
-Render with a faint 5 ft square grid. Palette: warm honey-toned wood floors, dark walnut paneling, brass lamp fittings, oxblood leather chairs, soft Aerdy sunlight implied through south windows. Atmosphere: senior commercial officer's stronghold — formal, comfortable, observant. NO text labels.`,
+Render with a faint 5 ft square grid. Palette: warm honey-toned wood floors, dark walnut paneling, brass lamp fittings, oxblood leather chairs, soft Aerdy sunlight implied through south windows. Atmosphere: senior commercial officer's stronghold — formal, comfortable, observant. NO text labels.${DOOR_RULES}`,
     postProcess: null,
   },
   // Harbor Commission Hall map
@@ -1648,7 +1656,59 @@ Layout:
 - A SERVICE DOOR in the northeast corner opens onto a service alley behind the building.
 - Two GUEST GALLERIES (small balconies) hang above the south wall of the round chamber, accessible by short stairs from the antechamber — for visitors permitted to observe sessions.
 
-Render with a faint 5 ft square grid. Palette: pale marble floor, polished dark wood for the chairs, brass fittings, oxblood ceremonial drapes between the colonnade columns. Atmosphere: civic, formal, sea-facing. NO text labels.`,
+Render with a faint 5 ft square grid. Palette: pale marble floor, polished dark wood for the chairs, brass fittings, oxblood ceremonial drapes between the colonnade columns. Atmosphere: civic, formal, sea-facing. NO text labels.${DOOR_RULES}`,
+    postProcess: null,
+  },
+
+  // ============== TIER 15 — Whitemoor Estate upper floor + cellar ==============
+  {
+    id: "p3-whitemoor-upper-map",
+    tier: 15,
+    out: "assets/maps/whitemoor-estate-upper-floor.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Top-down tactical battlemap of the UPPER FLOOR of WHITEMOOR ESTATE — a small walled coastal Aerdi villa, formerly a wine-house, two days east of Hardby. Currently used as a quiet detention site.
+Hand-painted fantasy cartography style suitable for a tabletop RPG (Dungeondraft / Mike Schley style). NOT modern blueprint. Painted-map feel.
+
+Building footprint matches the ground floor: the upper floor of the main house, ~60 ft x 40 ft. North at top.
+
+Layout (upper floor):
+- A central UPPER HALL running east-west across the middle of the floor, lit by a tall narrow window at each end.
+- THE MASTER BEDCHAMBER in the northwest corner — a wide bed, wash-stand, dressing alcove, a writing desk under a window onto the formal garden. Currently used by the OVERSEER (a hired manager retained by the firm).
+- THE STEWARD'S BEDCHAMBER in the southwest corner — smaller, simpler, single bed, chair, dresser. The household's day-to-day manager.
+- TWO GUEST BEDCHAMBERS along the south wall — currently both occupied by HIRED ENFORCERS. Each has a simple bed, dresser, and chair.
+- A SMALL PRIVATE STUDY in the northeast corner (window onto the kitchen garden) — writing desk, single bookshelf, small private fireplace. The overseer's working room — letters, ledgers, a small lockbox.
+- A LINEN AND STORAGE ROOM tucked off the upper hall, north side.
+- A SMALL SHARED WASHROOM off the upper hall, south side — copper basin, dressing-bench.
+- THE STAIR DOWN to the ground-floor entry hall, in the very center of the upper hall.
+- A NARROW SERVICE STAIR in the southeast corner descends to the kitchen.
+- A SHUTTERED CASEMENT on the north wall opens onto a small ROOFTOP TERRACE accessible only from the master bedchamber.
+
+Render with a faint 5 ft square grid. Palette: pale plastered walls, terracotta tile floor, restrained Aerdi villa decoration in muted greens and gold, dark walnut beds and dressers. Atmosphere: comfortable but not lavish. NO text labels.${DOOR_RULES}`,
+    postProcess: null,
+  },
+  {
+    id: "p3-whitemoor-cellar-map",
+    tier: 15,
+    out: "assets/maps/whitemoor-estate-cellar.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Top-down tactical battlemap of the CELLAR LEVEL of WHITEMOOR ESTATE — a small walled coastal Aerdi villa, formerly a wine-house, currently a detention site for one captive.
+Hand-painted fantasy cartography style suitable for a tabletop RPG (Dungeondraft / Mike Schley style). NOT modern blueprint.
+
+Cellar footprint smaller than the floors above: ~50 ft x 35 ft. North at top.
+
+Layout:
+- CELLAR STAIRWAY descending from a side entrance in the courtyard above (rendered as a small landing in the southeast corner, with a heavy oak door at its top).
+- A SHORT CORRIDOR leads west from the stair landing into the main cellar area.
+- THE WINE CELLAR fills the western half — long ROWS OF WINE RACKS standing in parallel, casting good cover lines across the room. About fifty bottles still in the racks. Cool stone walls, packed-earth floor.
+- A COOPER'S WORKBENCH and a single broken cask in the southwest corner.
+- THE OLD VINTNER'S OFFICE in the northwest corner — a small windowless side chamber, currently set up as a watchman's room: a small table, two chairs, a heavy iron-bound chest, a hooded lantern, and a guttering candle. ONE GUARD here at all times.
+- A REINFORCED HOLDING CHAMBER in the northeast corner — small (~10 x 10 ft), heavy iron-banded oak door with a small barred grille, a single low cot, a ceramic basin. THIS IS WHERE THE CAPTIVE IS HELD.
+- A SECOND DOOR at the north end of the corridor leads to a UTILITY ROOM — a coal store, household tools.
+- A SEALED OLD DOOR on the very east wall (locked, no longer used) was once a goods-in entrance from outside the wall — possibly forceable as an emergency exit.
+
+Render with a faint 5 ft square grid. Palette: damp stone in cool blue-grey, packed-earth floor in warm tan, the warm amber glow of a single lantern in the watchman's room. Atmosphere: quiet, cold, lived-in only at the vintner's office. NO text labels.${DOOR_RULES}`,
     postProcess: null,
   },
 ];

@@ -312,7 +312,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "modules/blooming-rot-2/assets/portraits/ailen-moraven-portrait.png",
+      "src": "modules/blooming-rot-2/assets/tokens/ailen-moraven-token.png",
       "scaleX": 1,
       "scaleY": 1,
       "offsetX": 0,

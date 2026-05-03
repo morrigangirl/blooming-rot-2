@@ -312,7 +312,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "modules/blooming-rot-2/assets/portraits/mirelth-portrait.png",
+      "src": "modules/blooming-rot-2/assets/tokens/mirelth-token.png",
       "scaleX": 1,
       "scaleY": 1,
       "offsetX": 0,

@@ -44,13 +44,7 @@ const SIGIL_STYLE = "Heraldic emblem, single composition centered on a plain dar
   "Subject only — no banners, no shields, no surrounding ornament unless requested.";
 
 // Append to interior map prompts to enforce sane door rendering.
-const DOOR_RULES = "\n\nCRITICAL DOOR RULES — READ CAREFULLY:\n" +
-  "- Every door is CLOSED. Do NOT depict any door as open, ajar, or swung outward.\n" +
-  "- Every door is exactly 1 grid square (5 ft) wide and is rendered as a small SOLID RECTANGULAR PANEL set FLUSH with the wall it is in.\n" +
-  "- A door must sit centered in a clean break in the wall line. The door panel must touch the wall on BOTH SIDES — no gap, no floating door, no door embedded inside the wall.\n" +
-  "- A small visible HINGE MARK at one short edge of each door panel indicates which side hinges. Do not render hinges as decorative arcs or open-door swing arcs.\n" +
-  "- If you would draw a door open or with gaps, instead draw it closed and flush. If in doubt, make the door look like a section of darker wood inset into the wall, the same thickness as the wall itself.\n" +
-  "- A failure mode looks like: doors floating in the middle of a wall with empty space on either side; doors shown swung 90 degrees open; doors thicker than the wall; or doors drifting outside the room boundary. Avoid all of these.";
+const DOOR_RULES = "\n\nDoor rendering rules: Every door is shown CLOSED, exactly 1 grid square (5 ft) wide, drawn as a small solid rectangular panel set flush with the wall on both sides. The wall continues cleanly into the door panel; no gap on either side. A small hinge mark at one short edge indicates the hinge side. Doors are never shown open or ajar.";
 
 const JOBS = [
   // ============== TIER 1 — must-have ==============
@@ -1158,21 +1152,21 @@ Render with a soft 5 ft square grid overlaid (faint dark lines, low opacity). Pa
     out: "assets/maps/cv-hardby-branch-interior.png",
     size: "1024x1536",
     quality: "high",
-    prompt: `Top-down tactical floor plan of a small fantasy merchant office building. Single ground floor. Hand-painted parchment-style cartography for a tabletop role-playing game. Painted-map feel, like a published adventure module city handout (Mike Schley / Tales of the Valiant interior style).
+    prompt: `Hand-painted top-down floor plan in fantasy parchment cartography style for a tabletop game. Painted-map feel similar to published adventure module handouts. Single floor, viewed straight from above.
 
-Building footprint roughly square, ~60 ft x 60 ft. North at the top.
+The floor plan shows a modest stone building — about 60 by 60 feet, square in shape. North faces the top edge.
 
-Rooms to depict:
-- A formal entry vestibule at the south wall, with two waiting benches and a clerk's standing desk.
-- A main public hall filling the southern third — three teller booths along the south wall (each booth a small enclosed cubicle), an open customer area in front of them, a small private alcove at the southeast corner with two leather chairs.
-- A small interior atrium courtyard in the very center, with a stone bench and a single planted cypress tree, ringed by a pillared walkway open to the sky above.
-- A senior clerk's private office in the northeast quadrant, with a desk, two chairs, and a small hearth.
-- A records reading room in the northwest quadrant, lined with tall shelves of bound ledger volumes and a long central reading table.
-- A small archive chamber on the north wall (shown as a small windowless side-room with thicker walls than the rest, accessed through a single heavy door).
-- A staff workroom near the archive chamber, with three small writing desks.
-- A service corridor along the east wall connecting the atrium to a small rear delivery door.
+Inside the building, please draw:
+- An entry vestibule at the south side with two long benches and a tall standing desk.
+- A wide reception hall taking up the southern portion, with three small enclosed booths arranged along the south wall, an open visitor area in front of them, and a quiet alcove with two armchairs at the southeast corner.
+- A small open-air atrium right in the middle of the building, with a stone bench and a single small tree, surrounded by a pillared walkway.
+- A private study in the northeast quarter, with a writing desk, two chairs, and a small fireplace.
+- A reading room in the northwest quarter, with tall bookshelves along the walls and a long study table down the center.
+- A narrow service hallway running along the east wall, connecting the atrium to a small rear doorway.
+- A small windowless storage room at the north wall, shown with thicker stone walls than the others.
+- A small workroom for scribes near the storage room, with three writing desks.
 
-Render with a faint 5-foot square grid overlaid. Polished hardwood floors, dark wood paneling, soft warm palette of deep walnut, brass, oxblood-red rugs, ivory plaster. No text labels anywhere on the map. Painted, not vector.${DOOR_RULES}`,
+Add a faint 5-foot square grid lightly drawn over the whole image. Use a warm muted palette of dark walnut, brass, deep red rugs, and ivory plaster. Polished wood floors. No words or letters anywhere. Painted, not vector.${DOOR_RULES}`,
     postProcess: null,
   },
   {
@@ -1642,21 +1636,21 @@ Render with a faint 5 ft square grid. Palette: warm honey-toned wood floors, dar
     out: "assets/maps/harbor-commission-hall.png",
     size: "1536x1024",
     quality: "high",
-    prompt: `Top-down tactical battlemap of the REL ASTRA HARBOR COMMISSION HALL — a circular Aerdy civic chamber where the seven harbor commissioners sit. Single chamber plus an antechamber and a small clerk's office.
-Hand-painted fantasy cartography style suitable for a tabletop RPG (Dungeondraft / Mike Schley style).
+    prompt: `Hand-painted top-down floor plan in fantasy parchment cartography style for a tabletop game. Painted-map feel similar to published adventure module handouts. Single floor, viewed straight from above.
 
-Building footprint roughly 80 ft × 60 ft, with the round main chamber dominating. North at top.
+The floor plan shows a small fantasy meeting hall — about 80 by 60 feet. North faces the top edge.
 
-Layout:
-- ANTECHAMBER on the south side, a wide rectangular foyer with a long polished bench against the west wall, a clerk's high desk near the inner door. Main public entrance (a heavy bronze double door) at the south wall.
-- ROUND CHAMBER in the center / north — circular, ~50 ft diameter, marble-tiled floor with a stylized ship-and-anchor inlay at the center. Seven HIGH-BACKED CARVED COMMISSIONER CHAIRS arranged in a semicircle around the north half of the chamber, each on a low stone dais. Three of the chairs marked vacant (the artist may show small dark wreaths draped over them).
-- TALL ARCHED COLONNADE at the north end of the chamber, opening onto a NARROW BALCONY overlooking the Old Harbor (rendered as a strip of blue-green water at the very top of the map).
-- CLERK'S OFFICE in the southwest corner — a small private workroom with two writing desks, shelves of bound proceedings, a small private hearth.
-- A NARROW SPIRAL STAIR in the northwest corner leads up to a small ARCHIVE LOFT (not shown).
-- A SERVICE DOOR in the northeast corner opens onto a service alley behind the building.
-- Two GUEST GALLERIES (small balconies) hang above the south wall of the round chamber, accessible by short stairs from the antechamber — for visitors permitted to observe sessions.
+Inside the building, please draw:
+- A wide rectangular foyer at the south, with a long polished bench against one wall and a tall standing desk for a clerk near the inner doorway. Main entrance at the south wall.
+- A large round main hall in the center and north — circular, about 50 feet across, marble-tiled floor with a simple ship-and-anchor inlay at the center.
+- Seven tall carved chairs arranged in a curve around the north half of the round hall, each chair on a small low platform.
+- A row of tall pillars at the north edge of the round hall, opening onto a narrow balcony that overlooks a strip of blue-green water at the very top of the image (the harbor).
+- A small private workroom in the southwest corner with two writing desks, bookshelves, and a small fireplace.
+- A narrow spiral stair in the northwest corner.
+- A small side door in the northeast corner.
+- Two small balcony platforms hanging above the south side of the round hall, reached by short stairs from the foyer.
 
-Render with a faint 5 ft square grid. Palette: pale marble floor, polished dark wood for the chairs, brass fittings, oxblood ceremonial drapes between the colonnade columns. Atmosphere: civic, formal, sea-facing. NO text labels.${DOOR_RULES}`,
+Add a faint 5-foot square grid lightly drawn over the whole image. Use a palette of pale marble, dark polished wood, brass, and deep red drapery. No words or letters anywhere on the map. Painted, not vector.${DOOR_RULES}`,
     postProcess: null,
   },
 
@@ -1711,6 +1705,55 @@ Layout:
 Render with a faint 5 ft square grid. Palette: damp stone in cool blue-grey, packed-earth floor in warm tan, the warm amber glow of a single lantern in the watchman's room. Atmosphere: quiet, cold, lived-in only at the vintner's office. NO text labels.${DOOR_RULES}`,
     postProcess: null,
   },
+
+  // ============== TIER 16 — round-ringed tokens for new actor NPCs ==============
+  // ImageMagick-cropped from existing portraits. No API call.
+  // Phase 3 NPCs:
+  { id: "p3-solen-token",    tier: 16, out: "assets/tokens/solen-mereth-token.png",
+    sourceFromExisting: "assets/portraits/solen-mereth-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#7a5018", highlight: "#c89238", shadow: "#1a0e04" } /* dark gold — compromised */ },
+  { id: "p3-castrian-token", tier: 16, out: "assets/tokens/castrian-vell-token.png",
+    sourceFromExisting: "assets/portraits/castrian-vell-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#5a7a4c", highlight: "#a8c490", shadow: "#1a2a14" } /* mossy green — host */ },
+  { id: "p3-hesren-token",   tier: 16, out: "assets/tokens/hesren-vesh-token.png",
+    sourceFromExisting: "assets/portraits/hesren-vesh-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#8a8470", highlight: "#d4ccae", shadow: "#2a261a" } /* tarnished brass — anxious witness */ },
+  { id: "p3-ailen-token",    tier: 16, out: "assets/tokens/ailen-moraven-token.png",
+    sourceFromExisting: "assets/portraits/ailen-moraven-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#7a5238", highlight: "#c08a64", shadow: "#1a0e08" } /* warm copper — Tamsin's daughter */ },
+  { id: "p3-zoria-token",    tier: 16, out: "assets/tokens/zoria-weis-token.png",
+    sourceFromExisting: "assets/portraits/zoria-weis-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#6a6a78", highlight: "#a8acb8", shadow: "#1a1a22" } /* steel grey — gynarchy clerk */ },
+  { id: "p3-mira-token",     tier: 16, out: "assets/tokens/mira-cindren-token.png",
+    sourceFromExisting: "assets/portraits/mira-cindren-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#7a3a3a", highlight: "#c46868", shadow: "#1a0808" } /* oxblood — hostile junior partner */ },
+  // Phase 4 NPCs:
+  { id: "p4-astor-token",    tier: 16, out: "assets/tokens/astor-token.png",
+    sourceFromExisting: "assets/portraits/astor-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#3a567a", highlight: "#7898c0", shadow: "#08111a" } /* sea-blue — mariner ally */ },
+  { id: "p4-galenix-token",  tier: 16, out: "assets/tokens/galenix-token.png",
+    sourceFromExisting: "assets/portraits/galenix-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#3a5a3a", highlight: "#789878", shadow: "#08110a" } /* Naelax bottle-green */ },
+  { id: "p4-mirelth-token",  tier: 16, out: "assets/tokens/mirelth-token.png",
+    sourceFromExisting: "assets/portraits/mirelth-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#7a7060", highlight: "#c0b694", shadow: "#1a1610" } /* faded gold — bankrupt reformer */ },
+  { id: "p4-vesh-token",     tier: 16, out: "assets/tokens/vesh-token.png",
+    sourceFromExisting: "assets/portraits/vesh-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#5a5a72", highlight: "#9498b4", shadow: "#0a0a14" } /* muted indigo — academic */ },
+  { id: "p4-tenrel-token",   tier: 16, out: "assets/tokens/tenrel-token.png",
+    sourceFromExisting: "assets/portraits/tenrel-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#623038", highlight: "#a05868", shadow: "#16080a" } /* wine-dark — ambitious advocate */ },
 ];
 
 // ----------------- engine -----------------

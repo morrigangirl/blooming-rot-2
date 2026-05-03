@@ -304,7 +304,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "modules/blooming-rot-2/assets/portraits/hesren-vesh-portrait.png",
+      "src": "modules/blooming-rot-2/assets/tokens/hesren-vesh-token.png",
       "scaleX": 1,
       "scaleY": 1,
       "offsetX": 0,

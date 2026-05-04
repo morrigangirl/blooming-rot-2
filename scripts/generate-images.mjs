@@ -847,7 +847,7 @@ ${ART_STYLE}`,
     prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG adventure module (D&D 5e / Pathfinder / Tales of the Valiant book interior style).
 **Six reference images supplied — the six-PC adventuring party. Identify each by features and match exactly:**
 - **Alicia** — red-haired, high ponytail, blue tunic, holding a CLOSED BOOK with a colorful artistically stylized cover (cradled in her hands), tattoo sleeve on left arm. **No sparkles, no glowing motes around her — render her cleanly.**
-- **Selvara** — hooded woman in dark red cloak, scar across face with milky pale eye, blue gem pendant.
+- **Selvara** — hooded woman in dark red cloak, scar across face with milky pale eye, blue gem pendant, holds a TALL WOODEN STAFF.
 - **Kitty** — chthonic-tiefling druid: ashen-grey skin, small dark horns, pale luminescent eyes, dark braided hair, dark slender tail, lynx-painted shield, woven-wood spear. **The horns and tail must be visible.**
 - **Gianni** — dark hair in single thick braid, fierce dark-lined eyes, leather cuirass, quiver of arrows. (She is female.)
 - **Elle** — halfling monk, **halfling height (head about waist of the humans)**, yellow/saffron robes with red sash.

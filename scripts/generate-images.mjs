@@ -2266,7 +2266,7 @@ CRITICAL OVERALL: There are exactly 6 PCs in this scene. Three are women with re
 
 - KITTY (reference image #2): CHTHONIC TIEFLING DRUID — a tiefling woman with GREY-BLUE ASHEN skin, large dark HORNS curving back from her temples, PALE/WHITE eyes, long DARK BRAIDED HAIR with side braids. Wears a sleeveless GREEN druid's top over leather gear, a skirt or wrap below. A long TAIL is visible behind her. She carries a TALL DARK WOODEN STAFF in one hand and a ROUND WOODEN SHIELD in the other (the shield's face painted with a stylized LYNX). Stands at the CENTER-BACK of the group, slightly taller than Cam and Elle. CRITICAL: If Kitty looks like a normal dark-haired human, you have failed this prompt. CRITICAL: Kitty's skin is grey-blue and she has horns and a tail.
 
-- ALICIA (reference image #3): WARLOCK (BLADE PACT) — a human woman. RED-AUBURN hair worn in a HIGH PONYTAIL. FRECKLED FAIR SKIN. Wears a SLEEVELESS LIGHT-BLUE TUNIC with a brown belt, and dark fitted trousers/leggings. Long DARK SCROLLWORK TATTOOS visible down her bare RIGHT ARM (her warlock pact marks). Carries a GOLD METAL RAPIER (slim, ornate basket-hilt, scabbarded at her hip — NOT glowing magical). Stands at the CENTER of the group beside Selvara. RENDER ALICIA CLEANLY — no floating particles, no glowing sparkles, no swirling motes around her. Her weapon is a plain gold rapier, not magical. CRITICAL: If Alicia has glowing magic around her, you have failed this prompt.
+- ALICIA (reference image #3): WARLOCK — a human woman. RED-AUBURN hair worn loose to her shoulders. FRECKLED FAIR SKIN. Wears a SLEEVELESS LIGHT-BLUE TUNIC with a brown belt, and dark fitted trousers/leggings. Long DARK SCROLLWORK TATTOOS visible down her bare RIGHT ARM (her warlock pact marks). Carries NO WEAPON. Instead, she holds in BOTH HANDS a CLOSED BOOK with an ARTISTICALLY STYLIZED COLORFUL COVER — the cover painted with rich saturated colors and an ornate non-literal pattern (think illuminated medieval book of hours / arcane grimoire / artist's portfolio: deep blues, oxblood reds, gold leaf accents, hand-painted geometric or floral motif, no readable text). The book is held cradled-flat in her arms, slightly inclined toward the viewer so the cover is visible. CRITICAL: Alicia is NOT holding a sword, NOT holding a rapier, NOT holding any weapon. She holds the book, only the book. RENDER ALICIA CLEANLY — no floating particles, no glowing sparkles, no swirling motes around her. The book is a mundane physical object with a beautiful cover, NOT a glowing magical tome. Stands at the CENTER of the group beside Selvara. CRITICAL: If Alicia has a sword or rapier in this image, you have failed this prompt. If Alicia has glowing magic around her, you have failed this prompt.
 
 - GIANNI (reference image #5): HUMAN RANGER — a human woman. DARK BLACK HAIR worn in long BRAIDED PIGTAILS framing her face. GREY-GREEN INTENSE EYES (smouldering, watchful). Wears dark LEATHER ARMOR over a cream linen shirt. A LONGBOW strapped across her back; a QUIVER at her hip. Stands at the RIGHT side of the party group, her attention on the surrounding rooftops and the customs-quay perimeter (a ranger watching the angles). CRITICAL: Gianni is a WOMAN with black braided pigtails, not a man.
 
@@ -2485,6 +2485,504 @@ LABELING: A small parchment cartouche in the upper-left corner reads "MERCHANT Q
 Palette: pale stone facades with brass trim, terracotta roofs, warm tan streets, deep walnut and brass civic accents, the soft green of small civic gardens, soft sepia overall. NO grid lines on the map. The named locations have text labels; everything else uses numbered markers. Painted, not vector. The district should feel prosperous, ordered, and slightly cooler in temperament than the docks below.`,
     postProcess: null,
   },
+
+  // ============== TIER 20 — Sandbox anchor NPC portraits (22 jobs) ==============
+  // ---- LOFTWICK ----
+  {
+    id: "sbx-loftwick-mira-welk-portrait",
+    tier: 20,
+    out: "assets/portraits/sandbox/mira-welk-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of MISTRESS MIRA WELK, a Loftwick fence and pawnshop owner in her sixties, half-orc with halfling ancestry on her mother's side.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Half-orc with halfling-mother heritage — built like neither parent: medium-tall but stocky, broad-shouldered, with subtle half-orc tusks just visible at the corners of her mouth and slightly elongated ears with a halfling-like point. Skin warm-tan with a hint of green undertone. Hair dark-iron-grey, gone grey at the temples, worn in a thick braid down her back. Strong calloused hands with a single brass thumb-ring. A simple dark wool dress under a heavier brown wool work-apron. A small brass scale-and-anchor pin at her collar — the mark of her trade.
+She stands behind the polished walnut counter of her Wick Lane pawnshop, a brass weight-scale visible beside her on the counter, a wall of pigeonhole shelves with pawned items behind. Late-afternoon light from a small front window. She is examining a small object in her hand with an appraiser's care; her expression is professional, unhurried, faintly amused.
+Three-quarter view from waist up. Background: dark walnut shelving, brass fittings, a single brass kettle on a side stove.
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  {
+    id: "sbx-loftwick-brother-ashan-portrait",
+    tier: 20,
+    out: "assets/portraits/sandbox/brother-ashan-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of BROTHER ASHAN VELL, a Yeomanry monk in his fifties, formerly a militia drill-sergeant before he took monastic vows. Of the Cloister of the Open Way, attached to a temple of Phaulkon (god of the open sky).
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Stout middle-aged human, Yeomanry-born, fair-skinned weathered tan from outdoor practice. BALD, broad-shouldered, thick-armed in the way a former soldier ages. Plain monk's robes in dark blue-grey wool tied with a sash of pale undyed linen. A small wooden Phaulkon symbol (a stylized hawk with spread wings) on a leather cord at his throat. Calloused hands held loosely at his sides. Slow, measured expression — neither stern nor soft, the face of a teacher who has been patient with many students.
+He stands in the sand-floored sparring courtyard of the Cloister, an open sky visible above him with a single hawk circling at distance. The courtyard's stone walls are pale Loftwick limestone. A practice staff is leaning against the wall behind him.
+Three-quarter view from waist up. Background: pale stone walls, sand-floor, the sky and circling hawk visible above.
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  {
+    id: "sbx-loftwick-mother-felun-portrait",
+    tier: 20,
+    out: "assets/portraits/sandbox/mother-felun-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of MOTHER FELUN, an old Flan hedge-druid in her late seventies, lives at the Reedrush wetland southwest of Loftwick.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Late seventies, human Flan ancestry. Skin weathered DARK BROWN-TAN like driftwood, deep crow's-feet at her eyes, the long-faced lined beauty of someone who has been outdoors most of her life. Long iron-grey hair pulled back loosely with a leather thong. Wears a plain BROWN WOOL DRESS, simple and well-worn. A single distinctive necklace at her throat: small bones strung on a leather cord — visibly a rabbit jaw, an otter vertebrae, a kingfisher skull (each gathered, never killed; small enough to look like keepsakes rather than trophies). A short willow walking-staff in her right hand.
+She stands at the edge of the Reedrush wetland at first light: tall reeds in soft blue-green, willows behind her bent over still water, a marsh-harrier circling distantly above. Mist on the water. The light is dawn-cold and pale.
+Three-quarter view from waist up. Background: reeds, willows, the misted water, the distant harrier.
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  {
+    id: "sbx-loftwick-sergeant-hurst-portrait",
+    tier: 20,
+    out: "assets/portraits/sandbox/sergeant-hurst-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of SERGEANT DORAL HURST, a retired Yeomanry militia archer in his late fifties, runs the Southwall archery yard in Loftwick.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Late fifties, human Yeomanry. Fair-skinned, weathered tan, lined face. Iron-grey beard worn close-cropped, matching short hair. Stands with a slight favor on his left leg (an old knee that no longer holds him in a long march). Dressed in a plain Yeomanry militia coat — heavy dark-green wool with brass buttons, the small bronze archer's pin at his lapel. Strong calloused archer's hands. Holds a practice longbow in his left hand, butt-down on the sand.
+He stands on the sand-floored Southwall archery yard, three straw-butt firing-targets visible in the distance behind him, a small armory shed to one side. The light is mid-morning, falling from his right.
+Three-quarter view from waist up. Background: the archery yard's sand floor, the distant butts, a single Yeomanry standard hanging slack from a flagstaff.
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  {
+    id: "sbx-loftwick-master-ferrick-portrait",
+    tier: 20,
+    out: "assets/portraits/sandbox/master-ferrick-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of MASTER OLEN FERRICK, a retired Yeomanry academician and scholar of magical theory in his late sixties, keeps a private reading room behind a Loftwick bookbinder's shop.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Late sixties, human Yeomanry. Fair-skinned, lined. BALD on top of his head with a fringe of grey hair around the sides. A SINGLE THICK GREY BEARD worn full and slightly square — a beard he is in the habit of pulling thoughtfully when working through a problem. Dark scholar's robes over a plain linen shirt; an old reader's lens on a black silk cord around his neck, currently down on his chest. A heavy bronze academician's pin at his lapel.
+He sits at a polished walnut reading table in his private reading room, an open folio volume in front of him, a small cup of tea at his elbow, a brass reading-lamp providing warm directional light from the right. The wall behind him is lined with bound volumes. He has just looked up from his reading; his expression is attentive, slightly distracted, kindly.
+Three-quarter view from waist up. Background: the dark-walnut reading table, bound volumes on the wall behind, soft warm lamplight.
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  // ---- HARDBY ----
+  {
+    id: "sbx-hardby-hesp-olfair-portrait",
+    tier: 20,
+    out: "assets/portraits/sandbox/hesp-olfair-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of HESP OLFAIR, a one-eyed Hardby fence in his late forties, runs a pawn-and-fence operation in the Salters' Quarter.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Late forties, human Hardby-born. Weathered fair skin with a sailor's tan. ONE EYE — left eye is missing, covered with a simple leather patch worn diagonally across his face from a tavern accident in his twenties. Dark-brown hair gone grey at the temples, cropped short. A short grey-streaked beard. Wears a dark Hardby merchant's coat with a single brass-and-coral pin at the lapel (subtle — the mark of an old Salters' Quarter family). His one eye is sharp and amused; the patched side does not move.
+He stands behind the counter of his pawn-and-fence shop, a small set of brass scales beside him on the counter, a heavy iron gate visible behind him at the back of the shop. Late-afternoon light from a small barred window.
+Three-quarter view from waist up. Background: dark wooden shelving, the iron gate, a single oil-lamp.
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  {
+    id: "sbx-hardby-sister-wren-portrait",
+    tier: 20,
+    out: "assets/portraits/sandbox/sister-wren-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of SISTER WREN, an old Flan monk and lay-keeper of an Ehlonna shrine in Hardby's Temple Precinct, in her late seventies.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Late seventies, human Flan. Skin weathered DARK BROWN-TAN, deeply lined, a face that has seen many seasons in the same garden. WHITE hair worn in a long thin braid down her back. Slight build but visibly weathered to a knot of muscle and bone — she has been practicing Old Faith breathing forms for seventy years and it shows. Wears a plain undyed linen wrap over a faded green tunic, with a single small Ehlonna leaf-symbol at her throat (carved from oak). No shoes — bare-footed in the temple garden. Her hands are clasped loosely in front of her.
+She stands at the edge of a small stone-walled temple garden in the Old City of Hardby — a single cypress tree visible behind her, soft sand floor, a small herb-garden in the foreground. Light is morning-cool, falling from her right.
+Three-quarter view from waist up. Background: the cypress, the stone walls, the herb-garden.
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  {
+    id: "sbx-hardby-helka-fenn-portrait",
+    tier: 20,
+    out: "assets/portraits/sandbox/helka-fenn-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of HELKA FENN, a wisewoman in her mid-sixties, lives in a stilt-house in the salt-fens east of Hardby.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Mid-sixties, human Suel-Flan-mixed ancestry. Skin warm-bronze with sun-creases, the lived-in face of someone who has spent her life on the salt-fens. Iron-grey hair pulled back into a thick knot at the nape of her neck. Wears a plain dark-blue wool overdress with rolled sleeves, over a faded undershirt; a length of cord at her waist. Carries a tall WILLOW STAFF in her right hand — the wood pale and worn smooth from years of use. A single small bronze ring on her left hand.
+She stands on the worn-plank deck of her stilt-house at the edge of the salt-fens. Reed-thatched roof above her, salt-marsh stretching away behind into dawn mist. A tame heron is visible perched on the deck's rail to her right. Cool morning light, blue-grey sky.
+Three-quarter view from waist up. Background: reed-thatched roof, salt-marsh receding into mist, the heron on the rail.
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  {
+    id: "sbx-hardby-captain-fels-portrait",
+    tier: 20,
+    out: "assets/portraits/sandbox/captain-fels-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of CAPTAIN TARLIN FELS, a Hardby city watch captain in her mid-forties, runs the west-gate watch-yard.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Mid-forties, human Hardby-born woman. Olive-tan skin, dark hair worn cropped short under a Hardby city watch helm currently in the crook of her arm (not on her head). Distinctively missing the lower half of her LEFT EAR — the upper half is intact, the lower half clearly gone from a southern-district bandit incident years ago. The scar is healed but visible. Strong jaw, weathered face, intelligent eyes. Wears a Hardby city watch coat — dark teal-and-brass, with the captain's brass gorget at her throat (an open-hand device, the Gynarchy's mark). A short-sword scabbarded at her hip.
+She stands in the small courtyard of the west-gate watch-yard, a covered shooting range visible behind her, a small Hardby standard hanging from a flagstaff at the courtyard's center. Mid-morning light from her left.
+Three-quarter view from waist up. Background: pale stone walls, the covered shooting range, the standard.
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  {
+    id: "sbx-hardby-mistress-korr-portrait",
+    tier: 20,
+    out: "assets/portraits/sandbox/mistress-korr-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of MISTRESS VELLA KORR, a retired Hardby trade-clearing notary in her late fifties, hosts the Scribe's Tea Society at her tea-house.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Late fifties, human Hardby-born. Fair skin, sandy hair gone half-grey, worn neatly pinned up. Wears a notary's high-collared cream linen blouse under a dark teal-grey overdress, with a small silver scale-and-scroll badge at her throat (her old notarial seal of office, kept past retirement). Reading lenses on a fine silver chain at her neck. Her hands are warm-brown-stained (years of tea-handling and ink). Calm, intelligent expression.
+She stands behind the counter of her tea-house, a small brass tea-kettle on a low brazier beside her, shelves of tea-canisters visible on the back wall. A single small porcelain cup is set on the counter in front of her, ready for a guest. Late-afternoon warm interior light.
+Three-quarter view from waist up. Background: the tea-house counter, dark walnut shelving with tea-canisters, brass kettle.
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  {
+    id: "sbx-hardby-vell-marad-portrait",
+    tier: 20,
+    out: "assets/portraits/sandbox/vell-marad-portrait.png",
+    size: "1024x1024",
+    quality: "high",
+    prompt: `Bust portrait of VELL MARAD, a Hardby sorcerer and member of the Scribe's Tea Society, in his early fifties.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Early fifties, human Hardby-born. Fair skin, dark hair gone grey at the temples, worn loose to the shoulders. A short trimmed dark beard going grey. Slightly distracted, intelligent expression — the look of someone whose mind is occasionally somewhere else. Wears a Hardby scholar's coat (medium-grey wool with a single small brass pin at the lapel). Carries a small bound notebook in his left hand, a quill behind his ear. Reading lenses pushed up on his forehead.
+He stands at a side-table in Mistress Korr's tea-house upper library, a small folio volume open in front of him. Soft afternoon library light from a high window.
+Bust view from upper chest up. Background: walnut bookshelves, soft afternoon light.
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  // ---- REL ASTRA ----
+  {
+    id: "sbx-rel-astra-rinya-dane-portrait",
+    tier: 20,
+    out: "assets/portraits/sandbox/rinya-dane-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of RINYA DANE, an Aerdy half-elf fence in her late forties (looks early thirties due to half-elven longevity), runs a fence-and-pawn shop in Rel Astra's Old Harbor Ward.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Half-elf, Aerdy heritage. Looks thirty though she is forty-eight. Slim build, sharp angular features (mother was human Aerdy, father elven). Subtly elongated ear-tips, just visible. Skin warm-tan with a hint of olive. Long dark-auburn hair worn pulled back into a single sleek tail. Sharp dark-hazel eyes, polite without warmth. Wears a tailored dark Aerdy walking-coat (deep grey-green wool with bronze buttons) over a linen blouse. A small brass scale-and-anchor pin at her collar — the mark of Old Harbor Ward fences. A heavy silver thumb-ring on her right hand.
+She stands behind a polished walnut counter in her shop, a brass scale beside her, a wall of small drawers and small numbered pigeonholes behind her. The light is afternoon, falling from a single tall window to her left.
+Three-quarter view from waist up. Background: warm walnut shelving, brass fittings, the tall narrow window.
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  {
+    id: "sbx-rel-astra-brother-ostrik-portrait",
+    tier: 20,
+    out: "assets/portraits/sandbox/brother-ostrik-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of BROTHER OSTRIK VAERIN, a militant brother of Heironeous in his mid-fifties, oversees the Heironeous training yard in Rel Astra's Old City.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Mid-fifties, human Aerdy. Tall for an Aerdy (broad-shouldered, built solid). Dark-tan skin. Short iron-grey hair, a short military beard. Distinctive: MISSING the small finger of his LEFT HAND (lost to a southern Aerdy campaign) — visible as he holds his hand at his side. Wears the dark-oxblood Heironeous training tunic (sleeveless, heavy linen, with the silver Heironeous lightning-bolt symbol embroidered on the chest), over plain dark trousers. Cinched at the waist with a leather belt; a wooden practice sword scabbarded at his hip. Calm, plain-spoken expression.
+He stands in the sand-floored Heironeous training yard, a tall practice post visible behind him, the temple's pale stone wall in the further distance. Late-afternoon Aerdy light, warm gold from his right.
+Three-quarter view from waist up. Background: training yard sand, practice post, pale stone wall.
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  {
+    id: "sbx-rel-astra-edril-thence-portrait",
+    tier: 20,
+    out: "assets/portraits/sandbox/edril-thence-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of EDRIL THENCE, an old Aerdy druid in his late seventies, keeps the Three-Tree Grove on the Aerdy coast north of Rel Astra.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Late seventies, human Aerdy. Tall and lean, weathered. Skin warm-tan, deeply lined. WHITE hair worn long to the shoulders, with a long well-kept WHITE BEARD. Wears a faded OXBLOOD-AND-CREAM linen robe (the colors slightly washed-out from years in the sun), tied at the waist with a hand-twisted leather cord. A single piece of polished sea-driftwood worn as a pendant at his throat. Holds a tall driftwood walking-staff in his right hand. Calm, slightly distant expression — the look of someone who has been listening to tides for fifty years.
+He stands in the Three-Tree Grove — three twisted cypress-and-olive trees framing him, a small private spring visible at his feet, the Aerdy coast and sea visible distantly through a gap in the cliffs behind. Mid-afternoon coastal light.
+Three-quarter view from waist up. Background: the three trees, the spring, the distant sea.
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  {
+    id: "sbx-rel-astra-lieutenant-mada-portrait",
+    tier: 20,
+    out: "assets/portraits/sandbox/lieutenant-mada-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of LIEUTENANT KORVEN MADA, an Aerdy imperial archer in his late thirties, seconded to the customs garrison's training annex in Rel Astra.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Late thirties, human Aerdy. DARK-SKINNED (deep brown), lean, athletic build. Short black hair worn close-cropped under his helm (currently in the crook of his arm). A short trim mustache. Confident, disciplined expression. Wears the Aerdy IMPERIAL uniform: dark oxblood-and-gold tabard over chain hauberk, the imperial archer's lieutenant's badge at his throat (a stylized arrow above a sun-disk). A composite recurve bow strapped across his back; a small quiver of arrows at his hip. A long-handled imperial-pattern dagger scabbarded at his belt.
+He stands in the Aerdy imperial garrison's training annex — sand-floored shooting yard, three target butts visible behind him, an imperial standard hanging from a flagstaff. The light is early-morning, the harbor visible distantly to his left.
+Three-quarter view from waist up. Background: sand-floor, target butts, imperial standard, distant harbor.
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  {
+    id: "sbx-rel-astra-magister-vaden-portrait",
+    tier: 20,
+    out: "assets/portraits/sandbox/magister-vaden-portrait.png",
+    size: "1024x1024",
+    quality: "high",
+    prompt: `Bust portrait of MAGISTER ILEN VADEN, a junior magister of the Aerdy College of Commercial Law (with a quiet arcane chair) in his mid-forties.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Mid-forties, human Aerdy. Lean build. Warm-tan skin. Dark hair gone slightly grey at the temples, worn neatly combed. Clean-shaven. Wears the dark Aerdy magister's robes (deep purple-black wool with cream linen at the high collar), with a small silver-and-pearl academic chain at his throat (the College's distinction). Reading lenses pushed up on his forehead. Holds a small folio volume in his left hand, a quill in his right. Quietly intelligent, attentive expression.
+He stands in the College's quiet annex — a small reading room with tall narrow shelves of bound volumes behind him, a single brass reading-lamp on the table to his right providing warm directional light.
+Bust view from upper chest up. Background: walnut bookshelves, brass lamp.
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  {
+    id: "sbx-rel-astra-veth-avir-portrait",
+    tier: 20,
+    out: "assets/portraits/sandbox/veth-avir-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of MISTRESS VETH-AVIR, an old Aerdy archivist of pact-related correspondence in her late seventies, keeps a private archive in Rel Astra's Old City.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Late seventies, human Aerdy. WHITE hair worn pulled back into a single neat coil at the nape. Pale fair skin, deeply lined. Sharp pale-blue eyes that have read manuscripts for sixty years. Wears austere dark linen robes — almost black, with cream linen at the cuffs and high collar. A single small bronze ring on her right hand bearing a worn device (a sword crossed with a quill — the archive's old emblem). No other ornament. Holds a sealed correspondence packet in her left hand.
+She stands in her private archive's reading room. The walls are lined floor to ceiling with shelves of sealed correspondence — small stacks of folded letters and pact-related documents in numbered pigeonhole shelves. A single tall candle on a side table provides the only warm light; the room is otherwise cool and shadowed. The archive's atmosphere is hushed.
+Three-quarter view from waist up. Background: numbered pigeonhole shelves of sealed correspondence, the single candle.
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  // ---- GREYHAWK CITY ----
+  {
+    id: "sbx-greyhawk-skarrel-portrait",
+    tier: 20,
+    out: "assets/portraits/sandbox/skarrel-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of SKARREL, a halfling fence in his forties, runs the Folded Cup pawn-and-fence operation in Greyhawk City's Foreign Quarter.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Halfling man, indeterminate age (probably forties). CRITICAL: he is a HALFLING — three-and-a-half feet tall with halfling proportions, halfling head shape, halfling hands. Originally from Elmshire south of Greyhawk; settled in the city. Curly brown hair gone slightly grey at the sides. A neat short trimmed brown beard. Hazel eyes, sharp and friendly. Wears a Foreign Quarter halfling's coat — warm tan-and-rust wool with brass buttons, a small leather pouch at his belt, a brass-and-iron necklace of small charm-coins at his throat (the receiver's mark, common to Greyhawk fences). A small silver thumb-ring.
+He stands on a wooden stool behind the counter of the Folded Cup (the stool brings him to counter-height). Brass scales beside him, a wall of pigeonhole shelves behind. The shop is lit by a single brass oil-lamp providing warm interior light. Late evening.
+Three-quarter view from waist up. CRITICAL: If Skarrel looks like a tall human, you have failed this prompt.
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  {
+    id: "sbx-greyhawk-kell-marrow-portrait",
+    tier: 20,
+    out: "assets/portraits/sandbox/kell-marrow-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of KELL MARROW, a retired Greyhawk pugilist in his late fifties, runs the Gravestone sporting yard in the Garden Quarter.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Late fifties, human Greyhawk-born. Olive-tan skin. BROAD-SHOULDERED, thick-armed in the way an old fighter ages — clearly muscular but slightly thickened. Dark-grey hair worn close-cropped, with a similar short beard. A flattened nose (broken multiple times in his career). A small visible scar through his left eyebrow. Walks with a slight limp on his left leg from an old fight. Wears a plain Greyhawk linen tunic, sleeves rolled, with a heavy leather work-belt. A small bronze pugilist's medal at his collar.
+He stands at the edge of the Gravestone's covered ring — sand-floored sparring circle visible behind him, raised wooden seating in the further background, late-afternoon light from above. He has just raised a hand, a small acknowledgment to a sparring student off-frame.
+Three-quarter view from waist up. Background: the sparring ring, sand floor, raised seating.
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  {
+    id: "sbx-greyhawk-brisa-wood-portrait",
+    tier: 20,
+    out: "assets/portraits/sandbox/brisa-wood-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of BRISA WOOD, a hedge-witch in her mid-fifties, keeps a small herb-stall under the Ash Tree at the eastern edge of Greyhawk City's Foreign Quarter.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Mid-fifties, human Flan-Suel-mixed ancestry. Skin warm-bronze, weathered, lined at the eyes. Long graying-dark hair worn loose with a single small braid at one side. Wears plain Greyhawk linen — a faded forest-green wrap dress, with a heavier brown wool overcloak. A distinctive HERB-BUNDLE worn at her throat (small bundle of dried lavender, sage, and a single sprig of mistletoe, tied with a leather cord). Calm, watchful expression, the kind of patience a city-hedge-witch develops over decades. Carries a small wicker basket of herb-bundles in her left hand.
+She stands at the foot of the ASH TREE — a single old ash with grey-silver bark and broad branches reaching up out of the frame. The tree grows in an empty city lot, surrounded by Foreign Quarter buildings visible in the distance. A small wooden stall with hanging dried herbs is set up behind her. Soft afternoon light, slightly hazy.
+Three-quarter view from waist up. Background: the ash tree's bark, the herb-stall, distant Foreign Quarter buildings.
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  {
+    id: "sbx-greyhawk-sergeant-vandros-portrait",
+    tier: 20,
+    out: "assets/portraits/sandbox/sergeant-vandros-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of SERGEANT BREL VANDROS, a Greyhawk City Watch sergeant in his late forties, runs the Foreign Quarter watch station's day-shift.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Late forties, human Greyhawk-born. Skin medium tan, weathered. Short iron-grey hair, a stubbled beard going grey. Distinctively MISSING the small finger and ring finger of his RIGHT HAND (visible at his side; clean amputation, healed long ago — left-handed since). Wears the Greyhawk City Watch uniform: a heavy dark-blue coat with brass buttons and the city's gryphon device at the lapel, a sergeant's brass collar-pin, and a sword-belt with a short-sword on the LEFT hip (he draws with his left hand). Practical, tired, intelligent expression.
+He stands at the front of the Foreign Quarter watch station — a small civic building with the Greyhawk gryphon over the door, narrow street and Foreign Quarter buildings visible behind. Mid-morning street activity in the further distance. Late-spring light.
+Three-quarter view from waist up. Background: the watch station's facade, the Foreign Quarter street.
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  {
+    id: "sbx-greyhawk-iren-velash-portrait",
+    tier: 20,
+    out: "assets/portraits/sandbox/iren-velash-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of IREN VELASH, a half-Suel manuscript dealer in her mid-fifties, runs a small manuscript shop in Greyhawk City's Garden Quarter.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Mid-fifties, half-Suel ancestry. Pale fair skin (Suel paleness, less common in Greyhawk than human-mixed populations). Long pale-blonde hair gone slightly silver, worn in a single thick braid down her back. Cool grey eyes — quiet, honest, not friendly. Wears a Garden Quarter scholar's overdress (deep green wool with bronze buttons) over a cream linen blouse. Reading lenses on a thin silver chain around her neck, currently down on her chest. A single bronze pin at her throat — a stylized open book with a quill. Stained ink-fingertips on her right hand. Calm, focused expression.
+She stands at the worn wooden counter of her manuscript shop. Walls lined floor-to-ceiling with bound folios and rolled scrolls in wooden racks. A small open folio is on the counter in front of her, a quill held loosely in her right hand mid-annotation. Soft warm afternoon light from a high window.
+Three-quarter view from waist up. Background: the wall of bound folios, the open volume on the counter, soft afternoon light.
+${ART_STYLE}`,
+    postProcess: null,
+  },
+
+  // ============== TIER 21 — Sandbox atmospheric location scenes (4 jobs) ==============
+  {
+    id: "sbx-loftwick-reedrush-scene",
+    tier: 21,
+    out: "assets/illustrations/sbx-loftwick-reedrush.png",
+    size: "1536x1024",
+    quality: "high",
+    prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG sandbox-layer atmospheric scene. NOT 19th-century oil painting.
+
+EXTERIOR scene at first light. THE REEDRUSH — a small wetland a mile southwest of Loftwick. Tall reeds in soft blue-green stand thick along still water; a stand of willow trees behind them lean over the marsh, branches trailing into the surface. Mist rises in small drifts from the water. A pair of marsh-harriers circles in the pale dawn sky.
+
+Mother Felun is visible in the middle distance — a small figure in a brown wool dress at a low stone bench almost lost in the reeds, her bone necklace just visible at her throat. She is sitting still, watching the water. The light is dawn-cold, pale-blue sky going to soft pink at the eastern horizon.
+
+Composition: wide cinematic landscape shot. The reeds and willows occupy the foreground; Mother Felun in the mid-ground; the dawn sky and circling harriers in the background. Painterly digital fantasy illustration. Atmosphere: profound quiet, the sense of a place that has been undisturbed for generations. NO floating sparkles or magical particles. Cool blue-pink palette overall, with the warm brown of Mother Felun's dress as the only saturated color in the frame.`,
+    postProcess: null,
+  },
+  {
+    id: "sbx-hardby-helka-stilt-house-scene",
+    tier: 21,
+    out: "assets/illustrations/sbx-hardby-helka-stilt-house.png",
+    size: "1536x1024",
+    quality: "high",
+    prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG sandbox-layer atmospheric scene. NOT 19th-century oil painting.
+
+EXTERIOR scene in early-morning mist. HELKA'S STILT-HOUSE — a small reed-thatched dwelling on raised wooden pilings standing two body-heights above the salt-fen surface, half a day's walk east of Hardby. The dwelling has a covered porch wrapping its front side, with a worn-plank deck. A reed-thatched roof slopes steeply down on all sides.
+
+A tame heron is perched on the deck's rail, looking out across the fens. Salt-marsh stretches away in all directions — soft green-grey reeds, patches of standing water reflecting the pale morning sky, a few distant cypress-stumps. A faint path of wooden walking-planks zigzags away from the stilt-house through the marsh.
+
+Helka Fenn is visible standing at the edge of her porch in the middle distance — a small figure in a dark-blue overdress with her willow staff, watching the morning. The light is dawn-cool, blue-grey going to pale gold at the horizon.
+
+Composition: wide cinematic landscape shot. The stilt-house and porch occupy the right-mid-ground; the salt-fen extends to the horizon on the left. Painterly digital fantasy illustration. Atmosphere: an outpost of one woman's careful tending in a vast indifferent marsh. NO floating sparkles or magical particles. Cool grey-green-blue palette, with the warm thatch of the roof as the only warm tone.`,
+    postProcess: null,
+  },
+  {
+    id: "sbx-rel-astra-three-tree-grove-scene",
+    tier: 21,
+    out: "assets/illustrations/sbx-rel-astra-three-tree-grove.png",
+    size: "1536x1024",
+    quality: "high",
+    prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG sandbox-layer atmospheric scene. NOT 19th-century oil painting.
+
+EXTERIOR scene in mid-afternoon Aerdy coastal light. THE THREE-TREE GROVE — a small grove on the Aerdy coast a mile north of Rel Astra. Three twisted ancient trees frame the scene: two cypress (dark spires) and one olive (silver-green canopy), their roots gripping a fold of weathered cliff-stone. Between them, a small private spring wells up from a stone basin set into the ground; the water is clear, the basin rimmed with smooth river-pebbles.
+
+Beyond the grove, the Aerdy sea is visible through a gap in the cliffs to the right — a strip of deep blue-green water reaching to a soft pale horizon. A pair of sea-otters can be glimpsed swimming in the distance.
+
+Edril Thence is visible in the mid-ground — an old white-bearded druid in faded oxblood-and-cream linen, leaning on his driftwood staff at the edge of the spring. He is looking down at the water, listening rather than speaking.
+
+Composition: wide cinematic landscape shot. The three trees frame the spring in the center foreground; the cliff-fold and sea visible to the right; Edril stands as a small figure beside the spring. Painterly digital fantasy illustration. Atmosphere: ancient, quiet, coastal. The grove is inhabited but uncrowded. NO floating sparkles or magical particles. Warm Aerdy afternoon palette: cypress green, olive silver, weathered cliff-stone gold, deep blue-green sea, the soft cream of Edril's robe.`,
+    postProcess: null,
+  },
+  {
+    id: "sbx-greyhawk-ash-tree-scene",
+    tier: 21,
+    out: "assets/illustrations/sbx-greyhawk-ash-tree.png",
+    size: "1536x1024",
+    quality: "high",
+    prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG sandbox-layer atmospheric scene. NOT 19th-century oil painting.
+
+EXTERIOR scene in soft late-afternoon city light. THE ASH TREE — a single old ash tree growing in an empty city lot at the eastern edge of Greyhawk City's Foreign Quarter. The tree is tall and broad, with grey-silver bark and pale-green spring leaves; its branches reach up beyond the top of the frame. The empty lot is a small irregular space the city has not built on for forty years — packed earth, a few tufts of grass, a small worn stone bench at the tree's base.
+
+Foreign Quarter buildings rise on three sides of the lot in the middle distance — three- and four-story stone-and-timber buildings with shuttered windows and warm interior light just beginning to glow as evening approaches. The Foreign Quarter's narrow streets meet the lot at two corners.
+
+Brisa Wood's small wooden stall is set up under the tree — a low wooden table with hanging dried herb-bundles, a small wicker basket of fresh herbs, and a hand-lettered sign too small to read. Brisa herself is visible at the stall, a small figure in a dark-green wrap dress, arranging her herbs. A single small grey city-cat sits on the bench at the tree's base, watching her work.
+
+Composition: wide cinematic landscape shot. The ash tree dominates the center; the empty lot in the foreground; Foreign Quarter buildings on three sides; soft evening light from the upper-left. Painterly digital fantasy illustration. Atmosphere: a small surviving wildness inside a large old city. NO floating sparkles or magical particles. Late-afternoon palette: grey-silver bark, pale-green leaves, warm-tan packed earth, soft grey city stone, the warm interior glow just beginning at the building windows.`,
+    postProcess: null,
+  },
+
+  // ============== TIER 22 — Sandbox anchor ringed tokens (22 jobs, post-process) ==============
+  // Loftwick (5)
+  { id: "sbx-mira-welk-token",          tier: 22, out: "assets/tokens/sandbox/mira-welk-token.png",
+    sourceFromExisting: "assets/portraits/sandbox/mira-welk-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#7a6a48", highlight: "#b09a70", shadow: "#1a1408" } /* tarnished brass — fence */ },
+  { id: "sbx-brother-ashan-token",      tier: 22, out: "assets/tokens/sandbox/brother-ashan-token.png",
+    sourceFromExisting: "assets/portraits/sandbox/brother-ashan-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#5a5a72", highlight: "#9498b4", shadow: "#0a0a14" } /* monk grey-blue */ },
+  { id: "sbx-mother-felun-token",       tier: 22, out: "assets/tokens/sandbox/mother-felun-token.png",
+    sourceFromExisting: "assets/portraits/sandbox/mother-felun-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#6a5a3a", highlight: "#a89878", shadow: "#1a1208" } /* bone-and-driftwood */ },
+  { id: "sbx-sergeant-hurst-token",     tier: 22, out: "assets/tokens/sandbox/sergeant-hurst-token.png",
+    sourceFromExisting: "assets/portraits/sandbox/sergeant-hurst-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#4a5a3a", highlight: "#8a9a78", shadow: "#0a1208" } /* Yeomanry militia green */ },
+  { id: "sbx-master-ferrick-token",     tier: 22, out: "assets/tokens/sandbox/master-ferrick-token.png",
+    sourceFromExisting: "assets/portraits/sandbox/master-ferrick-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#5a3a18", highlight: "#9a7848", shadow: "#1a0e04" } /* dark walnut */ },
+  // Hardby (6)
+  { id: "sbx-hesp-olfair-token",        tier: 22, out: "assets/tokens/sandbox/hesp-olfair-token.png",
+    sourceFromExisting: "assets/portraits/sandbox/hesp-olfair-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#8a7038", highlight: "#c4a868", shadow: "#1a1408" } /* Hardby brass */ },
+  { id: "sbx-sister-wren-token",        tier: 22, out: "assets/tokens/sandbox/sister-wren-token.png",
+    sourceFromExisting: "assets/portraits/sandbox/sister-wren-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#4a5a3a", highlight: "#7a8a68", shadow: "#0a1208" } /* Old Faith green */ },
+  { id: "sbx-helka-fenn-token",         tier: 22, out: "assets/tokens/sandbox/helka-fenn-token.png",
+    sourceFromExisting: "assets/portraits/sandbox/helka-fenn-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#5a6a7a", highlight: "#94a4b8", shadow: "#0a1018" } /* salt-fen blue-grey */ },
+  { id: "sbx-captain-fels-token",       tier: 22, out: "assets/tokens/sandbox/captain-fels-token.png",
+    sourceFromExisting: "assets/portraits/sandbox/captain-fels-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#1a3a5a", highlight: "#5878a0", shadow: "#08111a" } /* Hardby civic deep blue */ },
+  { id: "sbx-mistress-korr-token",      tier: 22, out: "assets/tokens/sandbox/mistress-korr-token.png",
+    sourceFromExisting: "assets/portraits/sandbox/mistress-korr-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#7a6a4a", highlight: "#b8a888", shadow: "#1a1408" } /* tea-house warm cream */ },
+  { id: "sbx-vell-marad-token",         tier: 22, out: "assets/tokens/sandbox/vell-marad-token.png",
+    sourceFromExisting: "assets/portraits/sandbox/vell-marad-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#4a3a5a", highlight: "#8478a4", shadow: "#0a081a" } /* scholarly purple */ },
+  // Rel Astra (6)
+  { id: "sbx-rinya-dane-token",         tier: 22, out: "assets/tokens/sandbox/rinya-dane-token.png",
+    sourceFromExisting: "assets/portraits/sandbox/rinya-dane-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#6a7878", highlight: "#a4b8b8", shadow: "#0a1212" } /* cool silver */ },
+  { id: "sbx-brother-ostrik-token",     tier: 22, out: "assets/tokens/sandbox/brother-ostrik-token.png",
+    sourceFromExisting: "assets/portraits/sandbox/brother-ostrik-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#7a3838", highlight: "#c46a6a", shadow: "#1a0808" } /* Heironeous oxblood */ },
+  { id: "sbx-edril-thence-token",       tier: 22, out: "assets/tokens/sandbox/edril-thence-token.png",
+    sourceFromExisting: "assets/portraits/sandbox/edril-thence-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#3a6a5a", highlight: "#78a898", shadow: "#08120e" } /* coastal verdigris */ },
+  { id: "sbx-lieutenant-mada-token",    tier: 22, out: "assets/tokens/sandbox/lieutenant-mada-token.png",
+    sourceFromExisting: "assets/portraits/sandbox/lieutenant-mada-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#8a5018", highlight: "#c89238", shadow: "#1a0e04" } /* Aerdy imperial gold */ },
+  { id: "sbx-magister-vaden-token",     tier: 22, out: "assets/tokens/sandbox/magister-vaden-token.png",
+    sourceFromExisting: "assets/portraits/sandbox/magister-vaden-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#3a2a5a", highlight: "#7868a4", shadow: "#08051a" } /* College deep purple */ },
+  { id: "sbx-veth-avir-token",          tier: 22, out: "assets/tokens/sandbox/veth-avir-token.png",
+    sourceFromExisting: "assets/portraits/sandbox/veth-avir-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#3a3a4a", highlight: "#7a7a90", shadow: "#08080e" } /* archive shadow */ },
+  // Greyhawk (5)
+  { id: "sbx-skarrel-token",            tier: 22, out: "assets/tokens/sandbox/skarrel-token.png",
+    sourceFromExisting: "assets/portraits/sandbox/skarrel-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#6a4a28", highlight: "#a87858", shadow: "#1a0c08" } /* halfling-warm brown */ },
+  { id: "sbx-kell-marrow-token",        tier: 22, out: "assets/tokens/sandbox/kell-marrow-token.png",
+    sourceFromExisting: "assets/portraits/sandbox/kell-marrow-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#4a4a4a", highlight: "#8a8a8a", shadow: "#0a0a0a" } /* pugilist iron */ },
+  { id: "sbx-brisa-wood-token",         tier: 22, out: "assets/tokens/sandbox/brisa-wood-token.png",
+    sourceFromExisting: "assets/portraits/sandbox/brisa-wood-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#5a6a4a", highlight: "#94a888", shadow: "#0a1208" } /* ash-tree silver-green */ },
+  { id: "sbx-sergeant-vandros-token",   tier: 22, out: "assets/tokens/sandbox/sergeant-vandros-token.png",
+    sourceFromExisting: "assets/portraits/sandbox/sergeant-vandros-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#5a5a6a", highlight: "#94949c", shadow: "#0a0a14" } /* Foreign Quarter civic gray */ },
+  { id: "sbx-iren-velash-token",        tier: 22, out: "assets/tokens/sandbox/iren-velash-token.png",
+    sourceFromExisting: "assets/portraits/sandbox/iren-velash-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#6a5a3a", highlight: "#a89878", shadow: "#1a1208" } /* manuscript vellum brown */ },
 ];
 
 // ----------------- engine -----------------

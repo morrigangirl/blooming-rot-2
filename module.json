@@ -123,6 +123,17 @@
       "path": "packs/phase-5-actors",
       "type": "Actor",
       "system": "dnd5e"
+    },
+    {
+      "name": "sandbox-journals",
+      "label": "Sandbox — Beyond the Investigation",
+      "path": "packs/sandbox-journals",
+      "type": "JournalEntry",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     }
   ],
   "packFolders": [
@@ -165,6 +176,13 @@
       "packs": [
         "phase-5-journals",
         "phase-5-actors"
+      ]
+    },
+    {
+      "name": "Blooming Rot 2 — Sandbox",
+      "sorting": "m",
+      "packs": [
+        "sandbox-journals"
       ]
     }
   ]

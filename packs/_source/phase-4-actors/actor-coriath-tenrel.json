@@ -397,7 +397,122 @@
     },
     "flags": {}
   },
-  "items": [],
+  "items": [
+    {
+      "_key": "!actors.items!BR2P4ActTenrel.BR2I34c0f42b84fe",
+      "_id": "BR2I34c0f42b84fe",
+      "name": "Aerdy Commercial-Court Advocate's Pin",
+      "type": "loot",
+      "img": "icons/sundries/misc/pin-bronze.webp",
+      "system": {
+        "description": {
+          "value": "<p>A small gold-and-jet pin marking her standing in the Aerdi commercial bar. Worn at the throat of her wine-colored advocate's coat.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Blooming Rot 2",
+          "book": "",
+          "page": ""
+        },
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "identified": true,
+        "equipped": false,
+        "type": {
+          "value": "trinket",
+          "subtype": ""
+        },
+        "properties": []
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_key": "!actors.items!BR2P4ActTenrel.BR2I6110f97ab2b0",
+      "_id": "BR2I6110f97ab2b0",
+      "name": "Wine-Colored Advocate's Coat",
+      "type": "equipment",
+      "img": "icons/equipment/chest/coat-leather-brown-old.webp",
+      "system": {
+        "description": {
+          "value": "<p>Dark wine-red Aerdi commercial-court advocate's coat with white linen at the collar and cuffs. Tailored. Tenrel's grooming is precise and her wardrobe is more expensive than her listed income.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Blooming Rot 2",
+          "book": "",
+          "page": ""
+        },
+        "quantity": 1,
+        "weight": {
+          "value": 1,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "identified": true,
+        "equipped": true,
+        "armor": {
+          "value": 10,
+          "type": "clothing",
+          "dex": null,
+          "magicalBonus": 0
+        },
+        "strength": 0,
+        "stealth": false,
+        "properties": [],
+        "type": {
+          "value": "clothing",
+          "baseItem": ""
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    }
+  ],
   "effects": [],
   "folder": null,
   "sort": 700000,

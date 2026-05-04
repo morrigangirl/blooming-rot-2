@@ -397,7 +397,339 @@
     },
     "flags": {}
   },
-  "items": [],
+  "items": [
+    {
+      "_key": "!actors.items!BR2P4ActGalenx.BR2I94e042a726fe",
+      "_id": "BR2I94e042a726fe",
+      "name": "Shortsword",
+      "type": "weapon",
+      "img": "icons/weapons/swords/shortsword-guard-gold.webp",
+      "system": {
+        "description": {
+          "value": "<p>A finesse, light martial melee weapon. Mastery: Vex.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "PHB 2024",
+          "book": "PHB",
+          "page": ""
+        },
+        "quantity": 1,
+        "weight": {
+          "value": 2,
+          "units": "lb"
+        },
+        "price": {
+          "value": 10,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "identified": true,
+        "equipped": true,
+        "proficient": 1,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst"
+        },
+        "target": {
+          "value": "",
+          "width": null,
+          "units": "",
+          "type": "creature"
+        },
+        "range": {
+          "value": 5,
+          "long": null,
+          "units": "ft"
+        },
+        "damage": {
+          "parts": [
+            [
+              "1d6 + @mod",
+              "piercing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "properties": [
+          "fin",
+          "lgt"
+        ],
+        "weaponType": "martialM",
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "ability": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dnd-players-handbook.items.Item.weapon-shortsword"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_key": "!actors.items!BR2P4ActGalenx.BR2I0ec6ffd0f747",
+      "_id": "BR2I0ec6ffd0f747",
+      "name": "Naelax House Ring",
+      "type": "loot",
+      "img": "icons/equipment/finger/ring-engraved-band-gold.webp",
+      "system": {
+        "description": {
+          "value": "<p>A heavy gold ring bearing the Naelax house device — a stylized eagle on a black field. Worn on his left hand. Marks him as a Naelax cousin.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Blooming Rot 2",
+          "book": "",
+          "page": ""
+        },
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "identified": true,
+        "equipped": false,
+        "type": {
+          "value": "trinket",
+          "subtype": ""
+        },
+        "properties": []
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_key": "!actors.items!BR2P4ActGalenx.BR2I1149e9a3f674",
+      "_id": "BR2I1149e9a3f674",
+      "name": "Mother's Family Signet",
+      "type": "loot",
+      "img": "icons/equipment/finger/ring-band-thick-silver.webp",
+      "system": {
+        "description": {
+          "value": "<p>A smaller silver signet ring on his right hand — his mother's family. Worn quietly; the signet is small and the family is minor.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Blooming Rot 2",
+          "book": "",
+          "page": ""
+        },
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "identified": true,
+        "equipped": false,
+        "type": {
+          "value": "trinket",
+          "subtype": ""
+        },
+        "properties": []
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_key": "!actors.items!BR2P4ActGalenx.BR2I9949a1a4abb9",
+      "_id": "BR2I9949a1a4abb9",
+      "name": "Naelax House Coat",
+      "type": "equipment",
+      "img": "icons/equipment/chest/coat-leather-brown-old.webp",
+      "system": {
+        "description": {
+          "value": "<p>Restrained noble cut in deep bottle-green and black — the Naelax house colors. The cut is restrained because the times are restrictive: ostentation would invite further restriction from the four-house coalition holding him under polite house arrest.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Blooming Rot 2",
+          "book": "",
+          "page": ""
+        },
+        "quantity": 1,
+        "weight": {
+          "value": 1,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "identified": true,
+        "equipped": true,
+        "armor": {
+          "value": 10,
+          "type": "clothing",
+          "dex": null,
+          "magicalBonus": 0
+        },
+        "strength": 0,
+        "stealth": false,
+        "properties": [],
+        "type": {
+          "value": "clothing",
+          "baseItem": ""
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_key": "!actors.items!BR2P4ActGalenx.BR2Ib299fff70c93",
+      "_id": "BR2Ib299fff70c93",
+      "name": "Aerdy Noble's Bearing",
+      "type": "feat",
+      "img": "icons/sundries/scrolls/scroll-rolled-tan.webp",
+      "system": {
+        "description": {
+          "value": "<p><strong>Advantage</strong> on Persuasion checks at Aerdy noble gatherings or in formal Aerdi court settings. Galenix has spent ten years as the senior Naelax presence in Rel Astra; he knows the room.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Blooming Rot 2 (NPC feature)",
+          "book": "",
+          "page": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": "",
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": [],
+          "spent": 0
+        },
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "requirements": "",
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": []
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 500,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    }
+  ],
   "effects": [],
   "folder": null,
   "sort": 400000,

@@ -397,7 +397,122 @@
     },
     "flags": {}
   },
-  "items": [],
+  "items": [
+    {
+      "_key": "!actors.items!BR2P3ActMira.BR2Idd55ab8d9a40",
+      "_id": "BR2Idd55ab8d9a40",
+      "name": "C&V Hardby Junior Partner's Pin",
+      "type": "loot",
+      "img": "icons/sundries/misc/pin-bronze.webp",
+      "system": {
+        "description": {
+          "value": "<p>A bronze-and-enamel pin marking her Hardby branch junior partner standing. Worn at the throat of her tailored Hardby mercantile coat.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Blooming Rot 2",
+          "book": "",
+          "page": ""
+        },
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "identified": true,
+        "equipped": false,
+        "type": {
+          "value": "trinket",
+          "subtype": ""
+        },
+        "properties": []
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_key": "!actors.items!BR2P3ActMira.BR2Ia657c349c59f",
+      "_id": "BR2Ia657c349c59f",
+      "name": "Tailored Hardby Mercantile Coat",
+      "type": "equipment",
+      "img": "icons/equipment/chest/coat-leather-brown-old.webp",
+      "system": {
+        "description": {
+          "value": "<p>A polished merchant's coat — well-cut, well-kept, the kind of dignified outerwear a Hardby junior partner wears for her daily work. Subtly more expensive than it looks.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Blooming Rot 2",
+          "book": "",
+          "page": ""
+        },
+        "quantity": 1,
+        "weight": {
+          "value": 1,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "identified": true,
+        "equipped": true,
+        "armor": {
+          "value": 10,
+          "type": "clothing",
+          "dex": null,
+          "magicalBonus": 0
+        },
+        "strength": 0,
+        "stealth": false,
+        "properties": [],
+        "type": {
+          "value": "clothing",
+          "baseItem": ""
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    }
+  ],
   "effects": [],
   "folder": null,
   "sort": 800000,

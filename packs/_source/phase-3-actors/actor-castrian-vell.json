@@ -397,7 +397,122 @@
     },
     "flags": {}
   },
-  "items": [],
+  "items": [
+    {
+      "_key": "!actors.items!BR2P3ActCastrn.BR2Ib3224e7d4100",
+      "_id": "BR2Ib3224e7d4100",
+      "name": "Poet's Notebook",
+      "type": "loot",
+      "img": "icons/sundries/scrolls/scroll-bound-brown.webp",
+      "system": {
+        "description": {
+          "value": "<p>A small leather-bound notebook of unfinished poems and salon-night lists, kept in his study. Castrian's salons are referenced throughout it.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Blooming Rot 2",
+          "book": "",
+          "page": ""
+        },
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "identified": true,
+        "equipped": false,
+        "type": {
+          "value": "trinket",
+          "subtype": ""
+        },
+        "properties": []
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_key": "!actors.items!BR2P3ActCastrn.BR2I6dd91c3213f9",
+      "_id": "BR2I6dd91c3213f9",
+      "name": "Plain Hardby Wool Coat",
+      "type": "equipment",
+      "img": "icons/equipment/chest/coat-leather-brown-old.webp",
+      "system": {
+        "description": {
+          "value": "<p>A respectable but not lavish dark wool coat. Castrian's wardrobe is curated for the poet's-studio aesthetic — nothing ostentatious.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Blooming Rot 2",
+          "book": "",
+          "page": ""
+        },
+        "quantity": 1,
+        "weight": {
+          "value": 1,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "identified": true,
+        "equipped": true,
+        "armor": {
+          "value": 10,
+          "type": "clothing",
+          "dex": null,
+          "magicalBonus": 0
+        },
+        "strength": 0,
+        "stealth": false,
+        "properties": [],
+        "type": {
+          "value": "clothing",
+          "baseItem": ""
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    }
+  ],
   "effects": [],
   "folder": null,
   "sort": 400000,

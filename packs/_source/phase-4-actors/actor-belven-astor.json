@@ -389,7 +389,286 @@
     },
     "flags": {}
   },
-  "items": [],
+  "items": [
+    {
+      "_key": "!actors.items!BR2P4ActAstor.BR2Ieb04b1242e65",
+      "_id": "BR2Ieb04b1242e65",
+      "name": "Heavy Clasp-Knife",
+      "type": "weapon",
+      "img": "icons/weapons/daggers/dagger-utility.webp",
+      "system": {
+        "description": {
+          "value": "<p>A heavy folding knife — uses dagger statistics. A working sailor's blade kept since Astor's mariner days.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "PHB 2024 (Dagger statistics)",
+          "book": "PHB",
+          "page": ""
+        },
+        "quantity": 1,
+        "weight": {
+          "value": 1,
+          "units": "lb"
+        },
+        "price": {
+          "value": 2,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "identified": true,
+        "equipped": true,
+        "proficient": 1,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst"
+        },
+        "target": {
+          "value": "",
+          "width": null,
+          "units": "",
+          "type": "creature"
+        },
+        "range": {
+          "value": 5,
+          "long": null,
+          "units": "ft"
+        },
+        "damage": {
+          "parts": [
+            [
+              "1d4 + @mod",
+              "piercing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "properties": [
+          "fin",
+          "lgt"
+        ],
+        "weaponType": "simpleM",
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "ability": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dnd-players-handbook.items.Item.weapon-dagger"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_key": "!actors.items!BR2P4ActAstor.BR2If396c91cef15",
+      "_id": "BR2If396c91cef15",
+      "name": "Wave-and-Anchor Pin",
+      "type": "loot",
+      "img": "icons/sundries/misc/pin-bronze.webp",
+      "system": {
+        "description": {
+          "value": "<p>A small enameled wave-and-anchor pin — the mark of a sitting Old Harbor Ward councilor. Astor wears it always; he was a councilor before he was a chandler-and-councilor.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Blooming Rot 2",
+          "book": "",
+          "page": ""
+        },
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "identified": true,
+        "equipped": false,
+        "type": {
+          "value": "trinket",
+          "subtype": ""
+        },
+        "properties": []
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_key": "!actors.items!BR2P4ActAstor.BR2I5729395abbf5",
+      "_id": "BR2I5729395abbf5",
+      "name": "Chandler's Apron and Wool Coat",
+      "type": "equipment",
+      "img": "icons/equipment/chest/coat-collared-leather-tan.webp",
+      "system": {
+        "description": {
+          "value": "<p>A heavy work coat with a leather chandler's apron over it. The coat is older than most of Astor's customers' marriages.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Blooming Rot 2",
+          "book": "",
+          "page": ""
+        },
+        "quantity": 1,
+        "weight": {
+          "value": 1,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "identified": true,
+        "equipped": true,
+        "armor": {
+          "value": 10,
+          "type": "clothing",
+          "dex": null,
+          "magicalBonus": 0
+        },
+        "strength": 0,
+        "stealth": false,
+        "properties": [],
+        "type": {
+          "value": "clothing",
+          "baseItem": ""
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_key": "!actors.items!BR2P4ActAstor.BR2I2a673b4c84b0",
+      "_id": "BR2I2a673b4c84b0",
+      "name": "Sea-Master's Eye",
+      "type": "feat",
+      "img": "icons/sundries/scrolls/scroll-rolled-tan.webp",
+      "system": {
+        "description": {
+          "value": "<p><strong>Advantage</strong> on Perception checks involving the harbor, ships, weather, or the small commercial movements of the Old Harbor Ward. Twenty years' experience as a master mariner before he came ashore.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Blooming Rot 2 (NPC feature)",
+          "book": "",
+          "page": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": "",
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": [],
+          "spent": 0
+        },
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "requirements": "",
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": []
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    }
+  ],
   "effects": [],
   "folder": null,
   "sort": 300000,

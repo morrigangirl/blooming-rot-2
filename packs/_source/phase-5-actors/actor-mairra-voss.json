@@ -397,7 +397,226 @@
     },
     "flags": {}
   },
-  "items": [],
+  "items": [
+    {
+      "_key": "!actors.items!BR2P5ActVoss.BR2I6a558fd2954d",
+      "_id": "BR2I6a558fd2954d",
+      "name": "Old Notarial Silver Scale-and-Scroll Badge",
+      "type": "loot",
+      "img": "icons/sundries/scrolls/scroll-symbol-coin-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p>Mairra's old notarial seal of office, kept past retirement. Worn at her throat over her notary's high-collared linen blouse. Functions as identification only; the seal-press is in storage.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Blooming Rot 2",
+          "book": "",
+          "page": ""
+        },
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "identified": true,
+        "equipped": false,
+        "type": {
+          "value": "trinket",
+          "subtype": ""
+        },
+        "properties": []
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_key": "!actors.items!BR2P5ActVoss.BR2Ibb5d9fc877bf",
+      "_id": "BR2Ibb5d9fc877bf",
+      "name": "Reading Lenses on Black Silk Cord",
+      "type": "loot",
+      "img": "icons/sundries/gaming/glasses-half-moon.webp",
+      "system": {
+        "description": {
+          "value": "<p>Fine reading lenses on a black silk cord around her neck.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Blooming Rot 2",
+          "book": "",
+          "page": ""
+        },
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "identified": true,
+        "equipped": false,
+        "type": {
+          "value": "trinket",
+          "subtype": ""
+        },
+        "properties": []
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_key": "!actors.items!BR2P5ActVoss.BR2I77d9a61a5159",
+      "_id": "BR2I77d9a61a5159",
+      "name": "Notary's Library Reference Volumes",
+      "type": "loot",
+      "img": "icons/sundries/books/book-stack.webp",
+      "system": {
+        "description": {
+          "value": "<p>A small stack of reference volumes Mairra keeps at her seat in the Council chamber — the most complete trade-clearing reference library in the Yeomanry outside the Audit Hall itself.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Blooming Rot 2",
+          "book": "",
+          "page": ""
+        },
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "identified": true,
+        "equipped": false,
+        "type": {
+          "value": "trinket",
+          "subtype": ""
+        },
+        "properties": []
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_key": "!actors.items!BR2P5ActVoss.BR2Iccc667a63f76",
+      "_id": "BR2Iccc667a63f76",
+      "name": "Calligrapher's Supplies",
+      "type": "tool",
+      "img": "icons/tools/scribal/ink-quill-pink.webp",
+      "system": {
+        "description": {
+          "value": "<p>Quills, ink, parchment, sealing wax, signet seal. Used by clerks, notaries, and paleographers.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "PHB 2024",
+          "book": "PHB",
+          "page": ""
+        },
+        "quantity": 1,
+        "weight": {
+          "value": 5,
+          "units": "lb"
+        },
+        "price": {
+          "value": 10,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "identified": true,
+        "equipped": false,
+        "proficient": 1,
+        "ability": "int",
+        "type": {
+          "value": "art",
+          "baseItem": "calligrapher"
+        },
+        "properties": []
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dnd-players-handbook.items.Item.tool-calligraphers-supplies"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    }
+  ],
   "effects": [],
   "folder": null,
   "sort": 500000,

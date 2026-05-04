@@ -2,7 +2,7 @@
   "id": "blooming-rot-2",
   "title": "Blooming Rot, Part 2",
   "description": "A Greyhawk adventure set in the pre-Wars Yeomanry, in five phases: Loftwick's return, the dead man's receipts, the Hardby investigation, the Rel Astra confrontation, and The Small Matter (the Loftwick counterintelligence aftermath).",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "compatibility": {
     "minimum": "13",
     "verified": "13.351",

@@ -5,6 +5,7 @@ A Greyhawk D&D adventure module for FoundryVTT V13, set in the pre-Greyhawk-Wars
 - **Foundry compatibility:** V13 (verified 13.351)
 - **System:** dnd5e 5.3.0 (verified)
 - **Rules:** D&D 2024 ("One D&D")
+- **NPC actors ship with populated items, features, and spells** as embedded compendium documents. Where the user has the official D&D 2024 PHB / DMG / MM modules installed, items carry `flags.core.sourceId` hints that auto-link on import; if the user's installation differs, items still function with their full embedded data and the GM can drag-replace at leisure. See *NPC Actor Loadouts* below.
 
 ## What's in Phase 1
 
@@ -169,3 +170,17 @@ Phase 5 advances the "E." thread further but does not name Eclavdra, House Eilse
 - **Mairra Voss** (CR 0 sympathetic councilor) — the party's procedural ally, will sponsor a renewed vote with documented case in hand.
 - **Marshal Rennic Thale** (CR 4 militia commander) — Loftwick militia. Council-instructed to be aware of the party's movements; persuadable to provide quiet support and optional combat backup.
 - **Vesten Quill** (CR 2 hostile courier handler) — the layer above Pell's courier; the only optional combat encounter in Phase 5.
+
+## NPC Actor Loadouts (v0.6.0+)
+
+As of v0.6.0, every NPC actor in the module ships with a **populated `items` array** — weapons, armor, signature gear, NPC features, and (for Trina Alvere only) a full Warlock 10 spell loadout. Items appear on the Foundry NPC sheet under Inventory / Features / Spells tabs and are immediately actionable in the combat tracker.
+
+Items are fully embedded with their `system` data, so they function regardless of the user's compendium installation. Where the official D&D 2024 modules (`dnd-players-handbook`, `dnd-dungeon-masters-guide`, `dnd-monster-manual`) are present, items also carry `flags.core.sourceId` hints toward expected compendium UUIDs. Foundry will auto-link on import where pack names match; otherwise the GM can drag-replace any item at any time without breaking the actor.
+
+**Generation pipeline:**
+- `scripts/populate-actor-items.mjs` — declarative templates (weapons, armor, feats, spells) plus a per-actor item plan. Run with `node scripts/populate-actor-items.mjs`. Idempotent: item `_id`s are deterministic SHA-256-derived from actor + slug, so re-running produces identical output.
+- The 5 combat NPCs (Caelith, Merev Sarth, Anver Resh, Marshal Thale, Vesten Quill) have full feature sets including Cunning Action / Sneak Attack / Multiattack / Parry as appropriate.
+- Trina ships with 12 spells + 6 invocation/pact features wired through her two 5th-level Pact slots.
+- Sereth's bodyguards (2× Veteran + Knight Captain + Bandit Captain driver) are referenced as MM 2024 drag-ins via a feat-card on his sheet — they are not separate actors in this module.
+
+**Item totals:** 147 items across 25 actors. Phase 1 (1 actor / 8 items), Phase 2 (2 / 33), Phase 3 (7 / 33), Phase 4 (7 / 33), Phase 5 (8 / 40).

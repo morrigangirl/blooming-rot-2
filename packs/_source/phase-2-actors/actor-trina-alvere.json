@@ -6,24 +6,111 @@
   "img": "modules/blooming-rot-2/assets/portraits/trina-alvere-portrait.png",
   "system": {
     "abilities": {
-      "str": { "value": 8, "proficient": 0, "max": null, "bonuses": { "check": "", "save": "" } },
-      "dex": { "value": 14, "proficient": 0, "max": null, "bonuses": { "check": "", "save": "" } },
-      "con": { "value": 16, "proficient": 0, "max": null, "bonuses": { "check": "", "save": "" } },
-      "int": { "value": 14, "proficient": 0, "max": null, "bonuses": { "check": "", "save": "" } },
-      "wis": { "value": 12, "proficient": 1, "max": null, "bonuses": { "check": "", "save": "" } },
-      "cha": { "value": 20, "proficient": 1, "max": null, "bonuses": { "check": "", "save": "" } }
+      "str": {
+        "value": 8,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "dex": {
+        "value": 14,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "con": {
+        "value": 16,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "int": {
+        "value": 14,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "wis": {
+        "value": 12,
+        "proficient": 1,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "cha": {
+        "value": 20,
+        "proficient": 1,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      }
     },
     "attributes": {
-      "init": { "ability": "dex", "bonus": "" },
-      "movement": { "burrow": 0, "climb": 0, "fly": 0, "swim": 0, "walk": 30, "units": "ft", "hover": false },
-      "attunement": { "max": 3 },
-      "senses": { "darkvision": 0, "blindsight": 0, "tremorsense": 0, "truesight": 0, "units": "ft", "special": "" },
+      "init": {
+        "ability": "dex",
+        "bonus": ""
+      },
+      "movement": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 0,
+        "swim": 0,
+        "walk": 30,
+        "units": "ft",
+        "hover": false
+      },
+      "attunement": {
+        "max": 3
+      },
+      "senses": {
+        "darkvision": 0,
+        "blindsight": 0,
+        "tremorsense": 0,
+        "truesight": 0,
+        "units": "ft",
+        "special": ""
+      },
       "spellcasting": "cha",
       "exhaustion": 0,
-      "concentration": { "ability": "", "bonuses": { "save": "" }, "limit": 1 },
-      "hp": { "value": 70, "max": 70, "temp": 0, "tempmax": 0, "formula": "10d8+20" },
-      "ac": { "flat": 14, "calc": "natural", "formula": "" },
-      "death": { "success": 0, "failure": 0 },
+      "concentration": {
+        "ability": "",
+        "bonuses": {
+          "save": ""
+        },
+        "limit": 1
+      },
+      "hp": {
+        "value": 70,
+        "max": 70,
+        "temp": 0,
+        "tempmax": 0,
+        "formula": "10d8+20"
+      },
+      "ac": {
+        "flat": 14,
+        "calc": "natural",
+        "formula": ""
+      },
+      "death": {
+        "success": 0,
+        "failure": 0
+      },
       "inspiration": false
     },
     "details": {
@@ -33,58 +120,215 @@
       },
       "alignment": "Neutral Good",
       "race": null,
-      "type": { "value": "humanoid", "subtype": "human", "swarm": "", "custom": "" },
+      "type": {
+        "value": "humanoid",
+        "subtype": "human",
+        "swarm": "",
+        "custom": ""
+      },
       "environment": "",
       "cr": 7,
       "spellLevel": 5,
-      "source": { "custom": "Blooming Rot, Part 2", "book": "", "page": "", "license": "" }
+      "source": {
+        "custom": "Blooming Rot, Part 2",
+        "book": "",
+        "page": "",
+        "license": ""
+      }
     },
     "traits": {
       "size": "med",
-      "di": { "value": [], "bypasses": [], "custom": "" },
-      "dr": { "value": [], "bypasses": [], "custom": "" },
-      "dv": { "value": [], "bypasses": [], "custom": "" },
-      "dm": { "amount": {}, "bypasses": [] },
-      "ci": { "value": ["charmed"], "custom": "" },
+      "di": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dm": {
+        "amount": {},
+        "bypasses": []
+      },
+      "ci": {
+        "value": [
+          "charmed"
+        ],
+        "custom": ""
+      },
       "languages": {
-        "value": ["common", "sylvan", "infernal"],
+        "value": [
+          "common",
+          "sylvan",
+          "infernal"
+        ],
         "custom": ""
       }
     },
-    "currency": { "pp": 0, "gp": 0, "ep": 0, "sp": 0, "cp": 0 },
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
     "skills": {
-      "arc": { "value": 1, "ability": "int", "bonuses": { "check": "", "passive": "" } },
-      "his": { "value": 1, "ability": "int", "bonuses": { "check": "", "passive": "" } },
-      "ins": { "value": 1, "ability": "wis", "bonuses": { "check": "", "passive": "" } },
-      "prc": { "value": 0, "ability": "wis", "bonuses": { "check": "", "passive": "" } },
-      "prs": { "value": 1, "ability": "cha", "bonuses": { "check": "", "passive": "" } },
-      "dec": { "value": 1, "ability": "cha", "bonuses": { "check": "", "passive": "" } },
-      "prf": { "value": 1, "ability": "cha", "bonuses": { "check": "", "passive": "" } }
+      "arc": {
+        "value": 1,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "his": {
+        "value": 1,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ins": {
+        "value": 1,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "prc": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "prs": {
+        "value": 1,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "dec": {
+        "value": 1,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "prf": {
+        "value": 1,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      }
     },
     "spells": {
-      "spell1": { "value": 0, "override": 0, "max": 0 },
-      "spell2": { "value": 0, "override": 0, "max": 0 },
-      "spell3": { "value": 0, "override": 0, "max": 0 },
-      "spell4": { "value": 0, "override": 0, "max": 0 },
-      "spell5": { "value": 0, "override": 0, "max": 0 },
-      "spell6": { "value": 0, "override": 0, "max": 0 },
-      "spell7": { "value": 0, "override": 0, "max": 0 },
-      "spell8": { "value": 0, "override": 0, "max": 0 },
-      "spell9": { "value": 0, "override": 0, "max": 0 },
-      "pact": { "value": 2, "override": 2, "max": 2, "level": 5 }
+      "spell1": {
+        "value": 0,
+        "override": 0,
+        "max": 0
+      },
+      "spell2": {
+        "value": 0,
+        "override": 0,
+        "max": 0
+      },
+      "spell3": {
+        "value": 0,
+        "override": 0,
+        "max": 0
+      },
+      "spell4": {
+        "value": 0,
+        "override": 0,
+        "max": 0
+      },
+      "spell5": {
+        "value": 0,
+        "override": 0,
+        "max": 0
+      },
+      "spell6": {
+        "value": 0,
+        "override": 0,
+        "max": 0
+      },
+      "spell7": {
+        "value": 0,
+        "override": 0,
+        "max": 0
+      },
+      "spell8": {
+        "value": 0,
+        "override": 0,
+        "max": 0
+      },
+      "spell9": {
+        "value": 0,
+        "override": 0,
+        "max": 0
+      },
+      "pact": {
+        "value": 2,
+        "override": 2,
+        "max": 2,
+        "level": 5
+      }
     },
     "resources": {
-      "legact": { "value": 0, "max": 0 },
-      "legres": { "value": 0, "max": 0 },
-      "lair": { "value": false, "initiative": null }
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": false,
+        "initiative": null
+      }
     },
     "bonuses": {
-      "mwak": { "attack": "", "damage": "" },
-      "rwak": { "attack": "", "damage": "" },
-      "msak": { "attack": "", "damage": "" },
-      "rsak": { "attack": "", "damage": "" },
-      "abilities": { "check": "", "save": "", "skill": "" },
-      "spell": { "dc": "" }
+      "mwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "msak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rsak": {
+        "attack": "",
+        "damage": ""
+      },
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      },
+      "spell": {
+        "dc": ""
+      }
     }
   },
   "prototypeToken": {
@@ -113,8 +357,12 @@
     "alpha": 1,
     "disposition": 1,
     "displayBars": 20,
-    "bar1": { "attribute": "attributes.hp" },
-    "bar2": { "attribute": null },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
     "light": {
       "alpha": 0.5,
       "angle": 360,
@@ -127,8 +375,16 @@
       "saturation": 0,
       "contrast": 0,
       "shadows": 0,
-      "animation": { "type": null, "speed": 5, "intensity": 5, "reverse": false },
-      "darkness": { "min": 0, "max": 1 },
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
       "negative": false,
       "priority": 0
     },
@@ -144,20 +400,1714 @@
       "contrast": 0
     },
     "detectionModes": [],
-    "occludable": { "radius": 0 },
+    "occludable": {
+      "radius": 0
+    },
     "ring": {
       "enabled": false,
-      "colors": { "ring": null, "background": null },
+      "colors": {
+        "ring": null,
+        "background": null
+      },
       "effects": 1,
-      "subject": { "scale": 1, "texture": null }
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
     },
     "flags": {}
   },
-  "items": [],
+  "items": [
+    {
+      "_key": "!actors.items!BR2ActrTrinaAlvr.BR2I80fbf3f9bf8f",
+      "_id": "BR2I80fbf3f9bf8f",
+      "name": "Pact Weapon — Stiletto",
+      "type": "weapon",
+      "img": "icons/weapons/daggers/dagger-handled-jeweled.webp",
+      "system": {
+        "description": {
+          "value": "<p>Trina's Pact-of-the-Blade weapon, summoned at will: a slim silver stiletto with a leaf-shaped pommel matching her Quiet-Patroness pendant. Uses Charisma for attack and damage. Counts as magical for the purpose of overcoming resistance.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "PHB 2024 (Warlock Pact of the Blade)",
+          "book": "PHB",
+          "page": ""
+        },
+        "quantity": 1,
+        "weight": {
+          "value": 1,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "rarity": "uncommon",
+        "identified": true,
+        "equipped": true,
+        "proficient": 1,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst"
+        },
+        "target": {
+          "value": "",
+          "width": null,
+          "units": "",
+          "type": "creature"
+        },
+        "range": {
+          "value": 5,
+          "long": null,
+          "units": "ft"
+        },
+        "damage": {
+          "parts": [
+            [
+              "1d4 + @abilities.cha.mod",
+              "piercing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "properties": [
+          "fin",
+          "lgt",
+          "mgc"
+        ],
+        "weaponType": "simpleM",
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "ability": "cha"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_key": "!actors.items!BR2ActrTrinaAlvr.BR2Ib10b1796baf7",
+      "_id": "BR2Ib10b1796baf7",
+      "name": "Silver Leaf Pendant",
+      "type": "loot",
+      "img": "icons/equipment/neck/pendant-silver-leaf.webp",
+      "system": {
+        "description": {
+          "value": "<p>Trina's pact focus — a small silver leaf-shaped pendant on a fine chain. The mark of the Quiet Patroness (Tasha / Iggwilv as the Archfey patron). Pulses faintly when she has cast or prepared a spell within the hour. Worn at her collar at all times.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Blooming Rot 2",
+          "book": "",
+          "page": ""
+        },
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "identified": true,
+        "equipped": false,
+        "type": {
+          "value": "trinket",
+          "subtype": ""
+        },
+        "properties": []
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_key": "!actors.items!BR2ActrTrinaAlvr.BR2I29a3e8e9f400",
+      "_id": "BR2I29a3e8e9f400",
+      "name": "Pact of the Blade",
+      "type": "feat",
+      "img": "icons/sundries/scrolls/scroll-rolled-tan.webp",
+      "system": {
+        "description": {
+          "value": "<p><strong>Bonus Action.</strong> Summon a melee pact weapon of any kind into a free hand. The weapon counts as magical and uses Charisma for attack and damage rolls. Trina's pact form is a slim silver stiletto matching her leaf pendant.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Blooming Rot 2 (NPC feature)",
+          "book": "",
+          "page": ""
+        },
+        "activation": {
+          "type": "bonus",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": "",
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": [],
+          "spent": 0
+        },
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "requirements": "",
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": []
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dnd-players-handbook.classfeatures.Item.warlock-pact-of-the-blade"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_key": "!actors.items!BR2ActrTrinaAlvr.BR2I5aefdeaf46e4",
+      "_id": "BR2I5aefdeaf46e4",
+      "name": "Eldritch Invocation: Agonizing Blast",
+      "type": "feat",
+      "img": "icons/sundries/scrolls/scroll-rolled-tan.webp",
+      "system": {
+        "description": {
+          "value": "<p>When Trina casts <em>Eldritch Blast</em>, she adds her Charisma modifier (+5) to the damage of each ray it deals.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Blooming Rot 2 (NPC feature)",
+          "book": "",
+          "page": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": "",
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": [],
+          "spent": 0
+        },
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "requirements": "",
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": []
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dnd-players-handbook.classfeatures.Item.warlock-invocation-agonizing-blast"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_key": "!actors.items!BR2ActrTrinaAlvr.BR2I19267376d11f",
+      "_id": "BR2I19267376d11f",
+      "name": "Eldritch Invocation: Devil's Sight",
+      "type": "feat",
+      "img": "icons/sundries/scrolls/scroll-rolled-tan.webp",
+      "system": {
+        "description": {
+          "value": "<p>Trina sees normally in <strong>darkness, both magical and nonmagical</strong>, to a distance of 120 feet.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Blooming Rot 2 (NPC feature)",
+          "book": "",
+          "page": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": "",
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": [],
+          "spent": 0
+        },
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "requirements": "",
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": []
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 500,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dnd-players-handbook.classfeatures.Item.warlock-invocation-devils-sight"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_key": "!actors.items!BR2ActrTrinaAlvr.BR2I0417f14e1182",
+      "_id": "BR2I0417f14e1182",
+      "name": "Eldritch Invocation: Mask of Many Faces",
+      "type": "feat",
+      "img": "icons/sundries/scrolls/scroll-rolled-tan.webp",
+      "system": {
+        "description": {
+          "value": "<p>Trina can cast <em>Disguise Self</em> at will, without expending a spell slot.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Blooming Rot 2 (NPC feature)",
+          "book": "",
+          "page": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": "",
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": [],
+          "spent": 0
+        },
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "requirements": "",
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": []
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 600,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dnd-players-handbook.classfeatures.Item.warlock-invocation-mask-of-many-faces"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_key": "!actors.items!BR2ActrTrinaAlvr.BR2If75f55f687c7",
+      "_id": "BR2If75f55f687c7",
+      "name": "Eldritch Invocation: Misty Visions",
+      "type": "feat",
+      "img": "icons/sundries/scrolls/scroll-rolled-tan.webp",
+      "system": {
+        "description": {
+          "value": "<p>Trina can cast <em>Silent Image</em> at will, without expending a spell slot or material components.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Blooming Rot 2 (NPC feature)",
+          "book": "",
+          "page": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": "",
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": [],
+          "spent": 0
+        },
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "requirements": "",
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": []
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 700,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dnd-players-handbook.classfeatures.Item.warlock-invocation-misty-visions"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_key": "!actors.items!BR2ActrTrinaAlvr.BR2I5680ce7bb824",
+      "_id": "BR2I5680ce7bb824",
+      "name": "Mystic Arcanum (5th level): Hold Monster",
+      "type": "feat",
+      "img": "icons/sundries/scrolls/scroll-rolled-tan.webp",
+      "system": {
+        "description": {
+          "value": "<p>Trina can cast <em>Hold Monster</em> once per long rest as a Mystic Arcanum, without expending a spell slot.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Blooming Rot 2 (NPC feature)",
+          "book": "",
+          "page": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": "",
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 1,
+          "max": "1",
+          "recovery": [
+            {
+              "period": "lr",
+              "type": "recoverAll"
+            }
+          ],
+          "spent": 0
+        },
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "requirements": "",
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": []
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 800,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dnd-players-handbook.classfeatures.Item.warlock-mystic-arcanum-5"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_key": "!actors.items!BR2ActrTrinaAlvr.BR2I5916dad0a7b2",
+      "_id": "BR2I5916dad0a7b2",
+      "name": "Eldritch Blast",
+      "type": "spell",
+      "img": "icons/magic/control/silhouette-hold-change-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p>A beam of crackling energy streaks toward a creature within range. Make a ranged spell attack against the target. On a hit, the target takes <strong>1d10 force damage</strong>. The spell creates more than one beam when you reach higher levels: two beams at 5th level, three beams at 11th level, four beams at 17th level. With Trina's <em>Agonizing Blast</em> invocation, each hit adds her Charisma modifier (+5) to the damage.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "PHB 2024",
+          "book": "PHB",
+          "page": ""
+        },
+        "level": 0,
+        "school": "evo",
+        "components": {
+          "verbal": true,
+          "somatic": true,
+          "material": false,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": 1
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst"
+        },
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature"
+        },
+        "range": {
+          "value": 120,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": [],
+          "spent": 0
+        },
+        "properties": []
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 900,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dnd-players-handbook.spells.Item.spell-eldritch-blast"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_key": "!actors.items!BR2ActrTrinaAlvr.BR2I54d3b63ac89e",
+      "_id": "BR2I54d3b63ac89e",
+      "name": "Mage Hand",
+      "type": "spell",
+      "img": "icons/magic/control/silhouette-hold-change-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p>A spectral, floating hand appears at a point within 30 feet. The hand can manipulate objects up to 10 lbs, open unlocked doors and containers, retrieve items from open containers, etc.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "PHB 2024",
+          "book": "PHB",
+          "page": ""
+        },
+        "level": 0,
+        "school": "con",
+        "components": {
+          "verbal": true,
+          "somatic": true,
+          "material": false,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": 1
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 1,
+          "units": "minute"
+        },
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "object"
+        },
+        "range": {
+          "value": 30,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": [],
+          "spent": 0
+        },
+        "properties": []
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dnd-players-handbook.spells.Item.spell-mage-hand"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_key": "!actors.items!BR2ActrTrinaAlvr.BR2I2b2c01b2d6dc",
+      "_id": "BR2I2b2c01b2d6dc",
+      "name": "Minor Illusion",
+      "type": "spell",
+      "img": "icons/magic/control/silhouette-hold-change-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p>Create a sound or an image of an object within range that lasts for the duration. The illusion ends if you dismiss it as an action or cast this spell again.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "PHB 2024",
+          "book": "PHB",
+          "page": ""
+        },
+        "level": 0,
+        "school": "ill",
+        "components": {
+          "verbal": false,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "A bit of fleece",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": 1
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 1,
+          "units": "minute"
+        },
+        "target": {
+          "value": 5,
+          "width": null,
+          "units": "ft",
+          "type": "cube"
+        },
+        "range": {
+          "value": 30,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": [],
+          "spent": 0
+        },
+        "properties": []
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dnd-players-handbook.spells.Item.spell-minor-illusion"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_key": "!actors.items!BR2ActrTrinaAlvr.BR2Iccca0fd8fa37",
+      "_id": "BR2Iccca0fd8fa37",
+      "name": "Prestidigitation",
+      "type": "spell",
+      "img": "icons/magic/control/silhouette-hold-change-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p>This minor magical trick performs a number of small, simple effects: light, clean, douse, mark, etc.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "PHB 2024",
+          "book": "PHB",
+          "page": ""
+        },
+        "level": 0,
+        "school": "trs",
+        "components": {
+          "verbal": true,
+          "somatic": true,
+          "material": false,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": 1
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 1,
+          "units": "hour"
+        },
+        "target": {
+          "value": "",
+          "width": null,
+          "units": "",
+          "type": "self"
+        },
+        "range": {
+          "value": 10,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": [],
+          "spent": 0
+        },
+        "properties": []
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dnd-players-handbook.spells.Item.spell-prestidigitation"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_key": "!actors.items!BR2ActrTrinaAlvr.BR2I1467a8b8779a",
+      "_id": "BR2I1467a8b8779a",
+      "name": "Hex",
+      "type": "spell",
+      "img": "icons/magic/control/silhouette-hold-change-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p><strong>Concentration, up to 1 hour.</strong> Place a curse on a creature you can see. Until the spell ends, you deal an extra <strong>1d6 necrotic damage</strong> to the target whenever you hit it with an attack. You also choose one ability when cast; the target has disadvantage on ability checks made with that ability.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "PHB 2024",
+          "book": "PHB",
+          "page": ""
+        },
+        "level": 1,
+        "school": "enc",
+        "components": {
+          "verbal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": true
+        },
+        "materials": {
+          "value": "The petrified eye of a newt",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": 1
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "activation": {
+          "type": "bonus",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 1,
+          "units": "hour"
+        },
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature"
+        },
+        "range": {
+          "value": 90,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": [],
+          "spent": 0
+        },
+        "properties": []
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dnd-players-handbook.spells.Item.spell-hex"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_key": "!actors.items!BR2ActrTrinaAlvr.BR2I339c47425794",
+      "_id": "BR2I339c47425794",
+      "name": "Mage Armor",
+      "type": "spell",
+      "img": "icons/magic/control/silhouette-hold-change-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p>You touch a willing creature who is not wearing armor. Until the spell ends, the target's base AC becomes <strong>13 + their Dex modifier</strong>. The spell ends if the target dons armor or if you dismiss it as an action.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "PHB 2024",
+          "book": "PHB",
+          "page": ""
+        },
+        "level": 1,
+        "school": "abj",
+        "components": {
+          "verbal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "A piece of cured leather",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": 1
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 8,
+          "units": "hour"
+        },
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature"
+        },
+        "range": {
+          "value": 0,
+          "long": null,
+          "units": "touch"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": [],
+          "spent": 0
+        },
+        "properties": []
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dnd-players-handbook.spells.Item.spell-mage-armor"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_key": "!actors.items!BR2ActrTrinaAlvr.BR2I7d53649b328a",
+      "_id": "BR2I7d53649b328a",
+      "name": "Misty Step",
+      "type": "spell",
+      "img": "icons/magic/control/silhouette-hold-change-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p><strong>Bonus Action.</strong> Briefly surrounded by silvery mist, you teleport up to <strong>30 feet</strong> to an unoccupied space you can see.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "PHB 2024",
+          "book": "PHB",
+          "page": ""
+        },
+        "level": 2,
+        "school": "con",
+        "components": {
+          "verbal": true,
+          "somatic": true,
+          "material": false,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": 1
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "activation": {
+          "type": "bonus",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst"
+        },
+        "target": {
+          "value": "",
+          "width": null,
+          "units": "",
+          "type": "self"
+        },
+        "range": {
+          "value": 30,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": [],
+          "spent": 0
+        },
+        "properties": []
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1500,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dnd-players-handbook.spells.Item.spell-misty-step"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_key": "!actors.items!BR2ActrTrinaAlvr.BR2Iac2dd79d57a1",
+      "_id": "BR2Iac2dd79d57a1",
+      "name": "Suggestion",
+      "type": "spell",
+      "img": "icons/magic/control/silhouette-hold-change-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p><strong>Concentration, up to 8 hours.</strong> Suggest a course of activity (limited to a sentence or two) and magically influence a creature you can see within range that can hear and understand you. The target must succeed on a Wisdom save or pursue the suggested course as best it can.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "PHB 2024",
+          "book": "PHB",
+          "page": ""
+        },
+        "level": 2,
+        "school": "enc",
+        "components": {
+          "verbal": true,
+          "somatic": false,
+          "material": true,
+          "ritual": false,
+          "concentration": true
+        },
+        "materials": {
+          "value": "A snake's tongue and a drop of honey",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": 1
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 8,
+          "units": "hour"
+        },
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature"
+        },
+        "range": {
+          "value": 30,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": [],
+          "spent": 0
+        },
+        "properties": []
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1600,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dnd-players-handbook.spells.Item.spell-suggestion"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_key": "!actors.items!BR2ActrTrinaAlvr.BR2I2619dda9fce5",
+      "_id": "BR2I2619dda9fce5",
+      "name": "Hypnotic Pattern",
+      "type": "spell",
+      "img": "icons/magic/control/silhouette-hold-change-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p><strong>Concentration, up to 1 minute.</strong> Create a twisting pattern of colors in a 30-foot cube within range. Each creature in the area that can see the pattern must make a Wisdom save or be charmed for the duration. While charmed, the creature is incapacitated and has a speed of 0.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "PHB 2024",
+          "book": "PHB",
+          "page": ""
+        },
+        "level": 3,
+        "school": "ill",
+        "components": {
+          "verbal": false,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": true
+        },
+        "materials": {
+          "value": "A glowing stick of incense or a crystal vial filled with phosphorescent material",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": 1
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 1,
+          "units": "minute"
+        },
+        "target": {
+          "value": 30,
+          "width": null,
+          "units": "ft",
+          "type": "cube"
+        },
+        "range": {
+          "value": 120,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": [],
+          "spent": 0
+        },
+        "properties": []
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1700,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dnd-players-handbook.spells.Item.spell-hypnotic-pattern"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_key": "!actors.items!BR2ActrTrinaAlvr.BR2I37aa42e66bdf",
+      "_id": "BR2I37aa42e66bdf",
+      "name": "Counterspell",
+      "type": "spell",
+      "img": "icons/magic/control/silhouette-hold-change-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p><strong>Reaction</strong>, when you see a creature within 60 feet casting a spell. Attempt to interrupt that spell. If the spell is 3rd level or lower, it fails automatically. If 4th level or higher, make an ability check using your spellcasting ability — the DC equals 10 + the spell's level. On a success, the creature's spell fails.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "PHB 2024",
+          "book": "PHB",
+          "page": ""
+        },
+        "level": 3,
+        "school": "abj",
+        "components": {
+          "verbal": false,
+          "somatic": true,
+          "material": false,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": 1
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "activation": {
+          "type": "reaction",
+          "cost": 1,
+          "condition": "Seeing a creature within 60 feet cast a spell"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst"
+        },
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature"
+        },
+        "range": {
+          "value": 60,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": [],
+          "spent": 0
+        },
+        "properties": []
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1800,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dnd-players-handbook.spells.Item.spell-counterspell"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_key": "!actors.items!BR2ActrTrinaAlvr.BR2I596fea4ec14a",
+      "_id": "BR2I596fea4ec14a",
+      "name": "Dimension Door",
+      "type": "spell",
+      "img": "icons/magic/control/silhouette-hold-change-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p>You teleport yourself from your current location to any other spot within range. You arrive at exactly the spot desired. You can also teleport one willing creature with you, who must be within 5 feet when the spell is cast.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "PHB 2024",
+          "book": "PHB",
+          "page": ""
+        },
+        "level": 4,
+        "school": "con",
+        "components": {
+          "verbal": true,
+          "somatic": true,
+          "material": false,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": 1
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst"
+        },
+        "target": {
+          "value": "",
+          "width": null,
+          "units": "",
+          "type": "self"
+        },
+        "range": {
+          "value": 500,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": [],
+          "spent": 0
+        },
+        "properties": []
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1900,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dnd-players-handbook.spells.Item.spell-dimension-door"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_key": "!actors.items!BR2ActrTrinaAlvr.BR2I1d95eb4e2925",
+      "_id": "BR2I1d95eb4e2925",
+      "name": "Hold Monster",
+      "type": "spell",
+      "img": "icons/magic/control/silhouette-hold-change-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p><strong>Concentration, up to 1 minute.</strong> Choose a creature within range. The target must succeed on a Wisdom save or be paralyzed for the duration. The creature can repeat the save at the end of each of its turns.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "PHB 2024",
+          "book": "PHB",
+          "page": ""
+        },
+        "level": 5,
+        "school": "enc",
+        "components": {
+          "verbal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": true
+        },
+        "materials": {
+          "value": "A small, straight piece of iron",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": 1
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 1,
+          "units": "minute"
+        },
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature"
+        },
+        "range": {
+          "value": 90,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": [],
+          "spent": 0
+        },
+        "properties": []
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 2000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dnd-players-handbook.spells.Item.spell-hold-monster"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    }
+  ],
   "effects": [],
   "folder": null,
   "sort": 100000,
-  "ownership": { "default": 0 },
+  "ownership": {
+    "default": 0
+  },
   "flags": {
     "blooming-rot-2": {
       "dossier": "Compendium.blooming-rot-2.phase-2-journals.JournalEntry.BR2P2TrinaJournl.JournalEntryPage.BR2P2TrPgProfile",

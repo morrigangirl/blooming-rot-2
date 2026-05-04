@@ -6,24 +6,111 @@
   "img": "modules/blooming-rot-2/assets/portraits/merev-sarth-portrait.png",
   "system": {
     "abilities": {
-      "str": { "value": 11, "proficient": 0, "max": null, "bonuses": { "check": "", "save": "" } },
-      "dex": { "value": 17, "proficient": 1, "max": null, "bonuses": { "check": "", "save": "" } },
-      "con": { "value": 14, "proficient": 0, "max": null, "bonuses": { "check": "", "save": "" } },
-      "int": { "value": 13, "proficient": 1, "max": null, "bonuses": { "check": "", "save": "" } },
-      "wis": { "value": 11, "proficient": 0, "max": null, "bonuses": { "check": "", "save": "" } },
-      "cha": { "value": 12, "proficient": 0, "max": null, "bonuses": { "check": "", "save": "" } }
+      "str": {
+        "value": 11,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "dex": {
+        "value": 17,
+        "proficient": 1,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "con": {
+        "value": 14,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "int": {
+        "value": 13,
+        "proficient": 1,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "wis": {
+        "value": 11,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "cha": {
+        "value": 12,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      }
     },
     "attributes": {
-      "init": { "ability": "dex", "bonus": "" },
-      "movement": { "burrow": 0, "climb": 0, "fly": 0, "swim": 0, "walk": 30, "units": "ft", "hover": false },
-      "attunement": { "max": 3 },
-      "senses": { "darkvision": 0, "blindsight": 0, "tremorsense": 0, "truesight": 0, "units": "ft", "special": "" },
+      "init": {
+        "ability": "dex",
+        "bonus": ""
+      },
+      "movement": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 0,
+        "swim": 0,
+        "walk": 30,
+        "units": "ft",
+        "hover": false
+      },
+      "attunement": {
+        "max": 3
+      },
+      "senses": {
+        "darkvision": 0,
+        "blindsight": 0,
+        "tremorsense": 0,
+        "truesight": 0,
+        "units": "ft",
+        "special": ""
+      },
       "spellcasting": "",
       "exhaustion": 0,
-      "concentration": { "ability": "", "bonuses": { "save": "" }, "limit": 1 },
-      "hp": { "value": 65, "max": 65, "temp": 0, "tempmax": 0, "formula": "10d8+20" },
-      "ac": { "flat": 15, "calc": "natural", "formula": "" },
-      "death": { "success": 0, "failure": 0 },
+      "concentration": {
+        "ability": "",
+        "bonuses": {
+          "save": ""
+        },
+        "limit": 1
+      },
+      "hp": {
+        "value": 65,
+        "max": 65,
+        "temp": 0,
+        "tempmax": 0,
+        "formula": "10d8+20"
+      },
+      "ac": {
+        "flat": 15,
+        "calc": "natural",
+        "formula": ""
+      },
+      "death": {
+        "success": 0,
+        "failure": 0
+      },
       "inspiration": false
     },
     "details": {
@@ -33,57 +120,203 @@
       },
       "alignment": "Lawful Neutral",
       "race": null,
-      "type": { "value": "humanoid", "subtype": "human", "swarm": "", "custom": "" },
+      "type": {
+        "value": "humanoid",
+        "subtype": "human",
+        "swarm": "",
+        "custom": ""
+      },
       "environment": "urban",
       "cr": 4,
       "spellLevel": 0,
-      "source": { "custom": "Blooming Rot, Part 2", "book": "", "page": "", "license": "" }
+      "source": {
+        "custom": "Blooming Rot, Part 2",
+        "book": "",
+        "page": "",
+        "license": ""
+      }
     },
     "traits": {
       "size": "med",
-      "di": { "value": [], "bypasses": [], "custom": "" },
-      "dr": { "value": [], "bypasses": [], "custom": "" },
-      "dv": { "value": [], "bypasses": [], "custom": "" },
-      "dm": { "amount": {}, "bypasses": [] },
-      "ci": { "value": [], "custom": "" },
+      "di": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dm": {
+        "amount": {},
+        "bypasses": []
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
       "languages": {
-        "value": ["common"],
+        "value": [
+          "common"
+        ],
         "custom": "Thieves' Cant"
       }
     },
-    "currency": { "pp": 0, "gp": 0, "ep": 0, "sp": 0, "cp": 0 },
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
     "skills": {
-      "acr": { "value": 1, "ability": "dex", "bonuses": { "check": "", "passive": "" } },
-      "dec": { "value": 1, "ability": "cha", "bonuses": { "check": "", "passive": "" } },
-      "inv": { "value": 1, "ability": "int", "bonuses": { "check": "", "passive": "" } },
-      "prc": { "value": 2, "ability": "wis", "bonuses": { "check": "", "passive": "" } },
-      "slt": { "value": 2, "ability": "dex", "bonuses": { "check": "", "passive": "" } },
-      "ste": { "value": 2, "ability": "dex", "bonuses": { "check": "", "passive": "" } }
+      "acr": {
+        "value": 1,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "dec": {
+        "value": 1,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "inv": {
+        "value": 1,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "prc": {
+        "value": 2,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "slt": {
+        "value": 2,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ste": {
+        "value": 2,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      }
     },
     "spells": {
-      "spell1": { "value": 0, "override": 0, "max": 0 },
-      "spell2": { "value": 0, "override": 0, "max": 0 },
-      "spell3": { "value": 0, "override": 0, "max": 0 },
-      "spell4": { "value": 0, "override": 0, "max": 0 },
-      "spell5": { "value": 0, "override": 0, "max": 0 },
-      "spell6": { "value": 0, "override": 0, "max": 0 },
-      "spell7": { "value": 0, "override": 0, "max": 0 },
-      "spell8": { "value": 0, "override": 0, "max": 0 },
-      "spell9": { "value": 0, "override": 0, "max": 0 },
-      "pact": { "value": 0, "override": null, "max": 0, "level": 0 }
+      "spell1": {
+        "value": 0,
+        "override": 0,
+        "max": 0
+      },
+      "spell2": {
+        "value": 0,
+        "override": 0,
+        "max": 0
+      },
+      "spell3": {
+        "value": 0,
+        "override": 0,
+        "max": 0
+      },
+      "spell4": {
+        "value": 0,
+        "override": 0,
+        "max": 0
+      },
+      "spell5": {
+        "value": 0,
+        "override": 0,
+        "max": 0
+      },
+      "spell6": {
+        "value": 0,
+        "override": 0,
+        "max": 0
+      },
+      "spell7": {
+        "value": 0,
+        "override": 0,
+        "max": 0
+      },
+      "spell8": {
+        "value": 0,
+        "override": 0,
+        "max": 0
+      },
+      "spell9": {
+        "value": 0,
+        "override": 0,
+        "max": 0
+      },
+      "pact": {
+        "value": 0,
+        "override": null,
+        "max": 0,
+        "level": 0
+      }
     },
     "resources": {
-      "legact": { "value": 0, "max": 0 },
-      "legres": { "value": 0, "max": 0 },
-      "lair": { "value": false, "initiative": null }
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": false,
+        "initiative": null
+      }
     },
     "bonuses": {
-      "mwak": { "attack": "", "damage": "" },
-      "rwak": { "attack": "", "damage": "" },
-      "msak": { "attack": "", "damage": "" },
-      "rsak": { "attack": "", "damage": "" },
-      "abilities": { "check": "", "save": "", "skill": "" },
-      "spell": { "dc": "" }
+      "mwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "msak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rsak": {
+        "attack": "",
+        "damage": ""
+      },
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      },
+      "spell": {
+        "dc": ""
+      }
     }
   },
   "prototypeToken": {
@@ -112,8 +345,12 @@
     "alpha": 1,
     "disposition": -1,
     "displayBars": 40,
-    "bar1": { "attribute": "attributes.hp" },
-    "bar2": { "attribute": null },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
     "light": {
       "alpha": 0.5,
       "angle": 360,
@@ -126,8 +363,16 @@
       "saturation": 0,
       "contrast": 0,
       "shadows": 0,
-      "animation": { "type": null, "speed": 5, "intensity": 5, "reverse": false },
-      "darkness": { "min": 0, "max": 1 },
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
       "negative": false,
       "priority": 0
     },
@@ -143,20 +388,979 @@
       "contrast": 0
     },
     "detectionModes": [],
-    "occludable": { "radius": 0 },
+    "occludable": {
+      "radius": 0
+    },
     "ring": {
       "enabled": false,
-      "colors": { "ring": null, "background": null },
+      "colors": {
+        "ring": null,
+        "background": null
+      },
       "effects": 1,
-      "subject": { "scale": 1, "texture": null }
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
     },
     "flags": {}
   },
-  "items": [],
+  "items": [
+    {
+      "_key": "!actors.items!BR2ActrMerevSrth.BR2I275828ceef6b",
+      "_id": "BR2I275828ceef6b",
+      "name": "Shortsword",
+      "type": "weapon",
+      "img": "icons/weapons/swords/shortsword-guard-gold.webp",
+      "system": {
+        "description": {
+          "value": "<p>A finesse, light martial melee weapon. Mastery: Vex.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "PHB 2024",
+          "book": "PHB",
+          "page": ""
+        },
+        "quantity": 1,
+        "weight": {
+          "value": 2,
+          "units": "lb"
+        },
+        "price": {
+          "value": 10,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "identified": true,
+        "equipped": true,
+        "proficient": 1,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst"
+        },
+        "target": {
+          "value": "",
+          "width": null,
+          "units": "",
+          "type": "creature"
+        },
+        "range": {
+          "value": 5,
+          "long": null,
+          "units": "ft"
+        },
+        "damage": {
+          "parts": [
+            [
+              "1d6 + @mod",
+              "piercing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "properties": [
+          "fin",
+          "lgt"
+        ],
+        "weaponType": "martialM",
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "ability": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dnd-players-handbook.items.Item.weapon-shortsword"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_key": "!actors.items!BR2ActrMerevSrth.BR2I35a492e9d781",
+      "_id": "BR2I35a492e9d781",
+      "name": "Hand Crossbow",
+      "type": "weapon",
+      "img": "icons/weapons/crossbows/crossbow-hand.webp",
+      "system": {
+        "description": {
+          "value": "<p>A martial ranged weapon. Light, loading. Mastery: Vex.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "PHB 2024",
+          "book": "PHB",
+          "page": ""
+        },
+        "quantity": 1,
+        "weight": {
+          "value": 3,
+          "units": "lb"
+        },
+        "price": {
+          "value": 75,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "identified": true,
+        "equipped": true,
+        "proficient": 1,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst"
+        },
+        "target": {
+          "value": "",
+          "width": null,
+          "units": "",
+          "type": "creature"
+        },
+        "range": {
+          "value": 30,
+          "long": 120,
+          "units": "ft"
+        },
+        "damage": {
+          "parts": [
+            [
+              "1d6 + @mod",
+              "piercing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "properties": [
+          "amm",
+          "lgt",
+          "lod"
+        ],
+        "weaponType": "martialR",
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "ability": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dnd-players-handbook.items.Item.weapon-hand-crossbow"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_key": "!actors.items!BR2ActrMerevSrth.BR2Ib541d3a177ba",
+      "_id": "BR2Ib541d3a177ba",
+      "name": "Crossbow Bolts (10)",
+      "type": "consumable",
+      "img": "icons/weapons/ammunition/arrows-bodkin-brown.webp",
+      "system": {
+        "description": {
+          "value": "<p>10 crossbow bolts in a quiver or wallet.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "PHB 2024",
+          "book": "PHB",
+          "page": ""
+        },
+        "quantity": 10,
+        "weight": {
+          "value": 0.075,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0.05,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "identified": true,
+        "equipped": false,
+        "type": {
+          "value": "ammo",
+          "subtype": "crossbowBolt"
+        },
+        "uses": {
+          "value": 10,
+          "max": 10,
+          "recovery": [],
+          "spent": 0
+        },
+        "properties": []
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dnd-players-handbook.items.Item.ammo-crossbow-bolts"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_key": "!actors.items!BR2ActrMerevSrth.BR2I8d820f38d55b",
+      "_id": "BR2I8d820f38d55b",
+      "name": "Studded Leather Armor",
+      "type": "equipment",
+      "img": "icons/equipment/chest/breastplate-leather-brown.webp",
+      "system": {
+        "description": {
+          "value": "<p>Light armor. AC 12 + Dex modifier.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "PHB 2024",
+          "book": "PHB",
+          "page": ""
+        },
+        "quantity": 1,
+        "weight": {
+          "value": 13,
+          "units": "lb"
+        },
+        "price": {
+          "value": 45,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "identified": true,
+        "equipped": true,
+        "armor": {
+          "value": 12,
+          "type": "light",
+          "dex": null,
+          "magicalBonus": 0
+        },
+        "strength": 0,
+        "stealth": false,
+        "properties": [],
+        "type": {
+          "value": "light",
+          "baseItem": "studded"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dnd-players-handbook.items.Item.armor-studded-leather"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_key": "!actors.items!BR2ActrMerevSrth.BR2Ie45c8c784d19",
+      "_id": "BR2Ie45c8c784d19",
+      "name": "Yeomanry Courier Tabard",
+      "type": "equipment",
+      "img": "icons/equipment/chest/coat-tabard-tan.webp",
+      "system": {
+        "description": {
+          "value": "<p>A genuine Yeomanry courier's tabard, dull green over a darker undershirt — purchased through proper channels, not stolen. A uniform she wears, not earned.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Blooming Rot 2",
+          "book": "",
+          "page": ""
+        },
+        "quantity": 1,
+        "weight": {
+          "value": 1,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "identified": true,
+        "equipped": true,
+        "armor": {
+          "value": 10,
+          "type": "clothing",
+          "dex": null,
+          "magicalBonus": 0
+        },
+        "strength": 0,
+        "stealth": false,
+        "properties": [],
+        "type": {
+          "value": "clothing",
+          "baseItem": ""
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 500,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_key": "!actors.items!BR2ActrMerevSrth.BR2Id12029110841",
+      "_id": "BR2Id12029110841",
+      "name": "Smoke Pellet ×3",
+      "type": "consumable",
+      "img": "icons/magic/air/cloud-tendril-grey.webp",
+      "system": {
+        "description": {
+          "value": "<p><strong>Action:</strong> Throw at a point within 30 ft. Creates a 10-ft cube of acrid smoke (heavily obscured) for 1 minute or until dispersed. Each creature inside at the start of its turn must succeed on a DC 13 Constitution save or be Blinded until the start of its next turn.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Blooming Rot 2 (Homebrew)",
+          "book": "",
+          "page": ""
+        },
+        "quantity": 3,
+        "weight": {
+          "value": 0.5,
+          "units": "lb"
+        },
+        "price": {
+          "value": 50,
+          "denomination": "gp"
+        },
+        "rarity": "uncommon",
+        "identified": true,
+        "equipped": false,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 1,
+          "units": "minute"
+        },
+        "range": {
+          "value": 30,
+          "long": null,
+          "units": "ft"
+        },
+        "target": {
+          "value": 10,
+          "width": null,
+          "units": "ft",
+          "type": "cube"
+        },
+        "type": {
+          "value": "trinket",
+          "subtype": ""
+        },
+        "uses": {
+          "value": 3,
+          "max": 3,
+          "recovery": [
+            {
+              "period": "lr",
+              "type": "recoverAll"
+            }
+          ],
+          "spent": 0
+        },
+        "properties": [
+          "mgc"
+        ]
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 600,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_key": "!actors.items!BR2ActrMerevSrth.BR2I588f5045a6bc",
+      "_id": "BR2I588f5045a6bc",
+      "name": "Forged Inspection Writ",
+      "type": "loot",
+      "img": "icons/sundries/misc/pin-bronze.webp",
+      "system": {
+        "description": {
+          "value": "<p>A folded paper bearing a Loftwick civic seal that almost — but not quite — matches a real Audit Hall stamp. Sufficient for a tired gate-watch; insufficient for any serious examination.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Blooming Rot 2",
+          "book": "",
+          "page": ""
+        },
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "identified": true,
+        "equipped": false,
+        "type": {
+          "value": "trinket",
+          "subtype": ""
+        },
+        "properties": []
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 700,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_key": "!actors.items!BR2ActrMerevSrth.BR2I1b9b9b700051",
+      "_id": "BR2I1b9b9b700051",
+      "name": "Thieves' Tools",
+      "type": "tool",
+      "img": "icons/tools/hand/lockpicks-brown.webp",
+      "system": {
+        "description": {
+          "value": "<p>A small file, narrow-bladed scissors, a pair of pliers, a set of lockpicks, a small mirror on a metal handle, narrow tweezers.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "PHB 2024",
+          "book": "PHB",
+          "page": ""
+        },
+        "quantity": 1,
+        "weight": {
+          "value": 1,
+          "units": "lb"
+        },
+        "price": {
+          "value": 25,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "identified": true,
+        "equipped": false,
+        "proficient": 1,
+        "ability": "dex",
+        "type": {
+          "value": "kit",
+          "baseItem": "thief"
+        },
+        "properties": []
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 800,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dnd-players-handbook.items.Item.tool-thieves-tools"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_key": "!actors.items!BR2ActrMerevSrth.BR2Ib6b2719709a9",
+      "_id": "BR2Ib6b2719709a9",
+      "name": "Cunning Action",
+      "type": "feat",
+      "img": "icons/sundries/scrolls/scroll-rolled-tan.webp",
+      "system": {
+        "description": {
+          "value": "<p><strong>Bonus Action.</strong> Take the Dash, Disengage, or Hide action.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Blooming Rot 2 (NPC feature)",
+          "book": "",
+          "page": ""
+        },
+        "activation": {
+          "type": "bonus",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": "",
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": [],
+          "spent": 0
+        },
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "requirements": "",
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": []
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 900,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dnd-players-handbook.classfeatures.Item.rogue-cunning-action"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_key": "!actors.items!BR2ActrMerevSrth.BR2Ic9f9dac78a59",
+      "_id": "BR2Ic9f9dac78a59",
+      "name": "Sneak Attack (4d6)",
+      "type": "feat",
+      "img": "icons/sundries/scrolls/scroll-rolled-tan.webp",
+      "system": {
+        "description": {
+          "value": "<p><strong>1/Turn.</strong> Deal an extra <strong>4d6</strong> damage on a weapon attack with advantage on the attack roll, or when an ally of the rogue is within 5 feet of the target. The weapon must have the finesse or ranged property.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Blooming Rot 2 (NPC feature)",
+          "book": "",
+          "page": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": "",
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": [],
+          "spent": 0
+        },
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "requirements": "",
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": []
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dnd-players-handbook.classfeatures.Item.rogue-sneak-attack"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_key": "!actors.items!BR2ActrMerevSrth.BR2I0e47d394895c",
+      "_id": "BR2I0e47d394895c",
+      "name": "Uncanny Dodge",
+      "type": "feat",
+      "img": "icons/sundries/scrolls/scroll-rolled-tan.webp",
+      "system": {
+        "description": {
+          "value": "<p><strong>Reaction.</strong> When an attacker hits with an attack the rogue can see, halve the damage of that attack.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Blooming Rot 2 (NPC feature)",
+          "book": "",
+          "page": ""
+        },
+        "activation": {
+          "type": "reaction",
+          "cost": 1,
+          "condition": "Hit by an attack the rogue can see"
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": "",
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": [],
+          "spent": 0
+        },
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "requirements": "",
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": []
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dnd-players-handbook.classfeatures.Item.rogue-uncanny-dodge"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_key": "!actors.items!BR2ActrMerevSrth.BR2I83664c1473ef",
+      "_id": "BR2I83664c1473ef",
+      "name": "Evasion",
+      "type": "feat",
+      "img": "icons/sundries/scrolls/scroll-rolled-tan.webp",
+      "system": {
+        "description": {
+          "value": "<p>When subjected to an effect that allows a Dex save for half damage, the rogue takes <strong>no damage</strong> on a successful save and only half damage on a failed save.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Blooming Rot 2 (NPC feature)",
+          "book": "",
+          "page": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": "",
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": [],
+          "spent": 0
+        },
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "requirements": "",
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": []
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dnd-players-handbook.classfeatures.Item.rogue-evasion"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_key": "!actors.items!BR2ActrMerevSrth.BR2I5863e62127be",
+      "_id": "BR2I5863e62127be",
+      "name": "On Retrieval, Not Kill",
+      "type": "feat",
+      "img": "icons/sundries/scrolls/scroll-rolled-tan.webp",
+      "system": {
+        "description": {
+          "value": "<p>Merev is contracted to retrieve evidence, not to kill the party. She will not initiate lethal combat unless cornered with no escape route. If reduced below half HP and offered a way out, she <strong>surrenders</strong> rather than die for a fee.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Blooming Rot 2 (NPC feature)",
+          "book": "",
+          "page": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": "",
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": [],
+          "spent": 0
+        },
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "requirements": "",
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": []
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    }
+  ],
   "effects": [],
   "folder": null,
   "sort": 200000,
-  "ownership": { "default": 0 },
+  "ownership": {
+    "default": 0
+  },
   "flags": {
     "blooming-rot-2": {
       "role": "retrieval-thief",

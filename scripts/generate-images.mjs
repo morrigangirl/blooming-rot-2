@@ -290,8 +290,8 @@ ${SIGIL_STYLE}`,
     ],
     prompt: `Modern high-fantasy illustration / digital concept art in the style of contemporary tabletop-RPG book covers (D&D, Pathfinder, Critical Role). Cinematic wide landscape, autumn late-afternoon golden hour.
 **Six reference images supplied — the six-PC adventuring party. Identify each by features and match exactly:**
-- **Alicia** (human Warlock) — red-haired, high ponytail, blue tunic with gold piping, slim gold rapier at hip, tattoo sleeve on left arm.
-- **Selvara** (human Sorcerer) — hooded, dark red cloak, scar across face with one milky pale eye, blue gem pendant, holds a spear.
+- **Alicia** (human Warlock) — red-haired, high ponytail, blue tunic with gold piping, holding a CLOSED BOOK with a colorful artistically stylized cover (cradled in her hands, NOT a weapon at hip), tattoo sleeve on left arm.
+- **Selvara** (human Sorcerer) — hooded, dark red cloak, scar across face with one milky pale eye, blue gem pendant, holds a tall wooden staff.
 - **Kitty** (chthonic-tiefling Druid) — ashen-grey skin, small dark curving horns, pale luminescent eyes, dark hair in long braids, sigil-veining at temples, dark slender tail, woven-wood spear, lynx shield.
 - **Gianni** (human Ranger) — dark hair in single thick braid, fierce dark-lined eyes, leather cuirass over yellow-cream tunic, quiver of arrows.
 - **Elle** (halfling Monk) — halfling-sized, yellow/saffron robes with red sash, brown hair, agile build.
@@ -366,8 +366,8 @@ No text.`,
 **Eight reference images supplied. The first is the architectural reference; the rest are characters.**
 - **(Architecture reference)** — the wide architectural photo shows THE LITTLE PALACE ENTRANCE. The scene must be set on these exact steps and portico: white-and-ivory limestone facade with ornate baroque gilt carving, broad red-carpeted limestone steps, gilded balustrades flanking the steps with stone urns and small cypress trees, twin gilded onion-domed turrets above, an arched gilt entrance pediment, twin tall lanterns flanking the doors, a red banner with a heraldic device hanging at left. Match this architecture exactly.
 - **Caelith Dunivar** (NPC) — bearded dark-haired lean man in a dark scholar's coat with subtle gold detail and a small brass quill-pin.
-- **Alicia** (PC, human Warlock) — red-haired woman, hair in a high ponytail, blue tunic with gold piping, holds a slim gold rapier (her Pact weapon), tattoo sleeve on her left arm, pink/lavender glove on right hand.
-- **Selvara** (PC, human Sorcerer) — hooded woman in a dark red cloak, scar across her face with one milky pale eye, blue gem pendant, holds a spear.
+- **Alicia** (PC, human Warlock) — red-haired woman, hair in a high ponytail, blue tunic with gold piping, holds a closed book with a colorful artistically stylized cover (her sorcerer-companion's notebook; she is no longer Pact-of-the-Blade), tattoo sleeve on her left arm, pink/lavender glove on right hand.
+- **Selvara** (PC, human Sorcerer) — hooded woman in a dark red cloak, scar across her face with one milky pale eye, blue gem pendant, holds a tall wooden staff.
 - **Kitty** (PC, chthonic-tiefling Druid) — ashen-grey skinned tiefling, small dark horns curving back from her temples, pale luminescent eyes, dark hair in long braids, dark sigil-veining at the temples, slender dark tail visible at her hip, woven-wood spear, oval shield painted with a lynx face.
 - **Gianni** (PC, human Ranger) — dark-haired woman, hair in a thick single braid, fierce dark-lined eyes, leather cuirass over a yellow-cream tunic, quiver of arrows visible at one shoulder.
 - **Elle** (PC, halfling Monk) — halfling-sized woman in flowing yellow/saffron robes with a red sash, brown hair, agile build.
@@ -375,7 +375,7 @@ No text.`,
 Scene: the formal civic welcome of the adventuring party on the red-carpeted limestone steps of an ornate guesthouse called the Little Palace, late afternoon, autumn light.
 At the top of the steps under a baroque columned portico stands CAELITH DUNIVAR with both hands raised palms-out in a ceremonial gesture, mid-speech.
 Halfway down the steps, between Caelith above and the crowd below: ALL SIX PCs of the adventuring party in a loose semicircle, weary from the road, facing a Yeomanry COUNCIL PAGE who hands each of them a small wooden token. **The COUNCIL PAGE is a young human in dark Yeomanry livery (dark coat with green sash) holding a small flat polished wooden tray. On the tray: six round wooden disc tokens the size of a large coin, each pressed with a red wax seal showing the Yeomanry wheatsheaf. The tokens are CLEARLY WOODEN DISCS WITH WAX SEALS — not pastries, not biscuits, not food.** The page holds the tray with both hands at chest height; one PC at a time steps forward to take a token.\nEVERY ONE of the six PCs must be visibly present and distinct, and **none of the PCs is holding the tray** — it is in the council page's hands only:
-1. ALICIA front-left, the red-haired warlock with the slim gold rapier at her hip and the tattoo sleeve on her left arm.
+1. ALICIA front-left, the red-haired warlock holding a CLOSED BOOK with a colorful artistically stylized cover and the tattoo sleeve on her left arm.
 2. SELVARA behind Alicia, the hooded sorcerer in the dark red cloak, scar and milky pale eye visible.
 3. KITTY in the center back, the chthonic-tiefling druid — the two small dark horns curving back from her temples must be clearly visible above her braided dark hair, dark slender tail at her hip, lynx shield slung on her back.
 4. GIANNI to Kitty's right, the dark-haired ranger with the single thick braid and the quiver of arrows.
@@ -401,11 +401,11 @@ Style: painterly digital fantasy illustration, vivid but tonally cohesive palett
     prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG adventure module (D&D 5e / Pathfinder book interior style).
 **Three reference images supplied. Identify each by features and match exactly:**
 - **Caelith Dunivar** (NPC) — bearded dark-haired lean man, dark scholar's coat with subtle gold detail, small brass quill-pin.
-- **Alicia** (human Warlock) — red-haired woman, high ponytail, blue tunic with gold piping, slim gold Pact-of-the-Blade rapier, tattoo sleeve on her left arm.
+- **Alicia** (human Warlock) — red-haired woman, high ponytail, blue tunic with gold piping, closed book with a colorful artistically stylized cover (Alicia is now Pact-of-the-Tome rather than Pact-of-the-Blade — show the BOOK, not a weapon), tattoo sleeve on her left arm.
 - **Selvara** (human Sorcerer) — hooded woman, dark red cloak, scar across her face with one milky pale eye, blue gem pendant.
 Scene: late evening, Caelith Dunivar's wood-paneled second-floor study in a fantasy republic guesthouse. Intimate, conspiratorial atmosphere.
 At a heavy dark-oak desk facing the viewer sits CAELITH DUNIVAR. A small framed eighth-century ribbon-and-medallion hangs above the desk. He has just placed a flat brass token on the desk between himself and the visitors — the token shows a quill above a closed gate (the Hand of the Duke insignia). His expression is grave but trusting.
-Across from him, in two visitors' chairs: ALICIA leaning forward to look at the token, her slim gold rapier sheathed at her hip; SELVARA beside her, hood pushed back slightly, watching Caelith carefully with her one good eye. Both lean in.
+Across from him, in two visitors' chairs: ALICIA leaning forward to look at the token, her closed stylized book held loosely in her hands; SELVARA beside her, hood pushed back slightly, watching Caelith carefully with her one good eye. Both lean in.
 A small private hearth crackles low at left; a single tall candle on the desk; warm intimate firelight. Tall leaded window behind Caelith opens onto a dark inner courtyard at night. A locked correspondence cupboard at right, a small bookcase, a plain side table with a half-empty teapot.
 Mood: secrecy, the moment trust is offered. Dramatic warm rim-light from candle and hearth, deep shadows in the corners.
 Style: painterly digital fantasy illustration, palette of warm amber candlelight, dark walnut paneling, ember-orange firelight, deep blue night through the window. NOT 19th-century oil painting. No text.`,
@@ -426,7 +426,7 @@ Style: painterly digital fantasy illustration, palette of warm amber candlelight
     prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG adventure module (D&D 5e style).
 **Four reference images supplied. Identify each by features and match exactly:**
 - **Caelith Dunivar** (NPC) — bearded dark-haired lean man, dark scholar's coat, brass quill-pin.
-- **Alicia** (human Warlock) — red-haired, high ponytail, blue tunic with gold piping, slim gold rapier.
+- **Alicia** (human Warlock) — red-haired, high ponytail, blue tunic with gold piping, holding a CLOSED BOOK with a colorful artistically stylized cover (cradled in her hands, NOT a weapon).
 - **Cam** (halfling Rogue) — halfling-sized woman, long brown hair, large yellow eyes, brown leather travel clothes.
 - **Kitty** (chthonic-tiefling Druid) — ashen-grey skinned tiefling with small dark horns, pale luminescent eyes, dark hair in long braids, sigil-veining at the temples, dark slender tail.
 Scene: deep cellar Strong Room of an old fantasy guesthouse, late at night. Vaulted stone ceiling, rough-cut grey stone walls, a slate floor. A single hanging iron lantern provides warm gold light; the room's corners drop into shadow.
@@ -457,7 +457,7 @@ Style: painterly digital fantasy illustration, palette of warm gold lantern, dee
 **Eight reference images supplied. Identify each character by features and match exactly:**
 - **Caelith Dunivar** (NPC) — bearded dark-haired lean man, dark scholar's coat, brass quill-pin.
 - **Trina Alvere** (NPC) — brown-skinned woman in her thirties with long dark hair (often braided), faintly luminescent violet fey-markings on her arms, forest-dusk colored dress, silver leaf pendant.
-- **Alicia** (human Warlock) — red-haired, high ponytail, blue tunic with gold piping, slim gold rapier, tattoo sleeve on left arm.
+- **Alicia** (human Warlock) — red-haired, high ponytail, blue tunic with gold piping, holding a CLOSED BOOK with a colorful artistically stylized cover (the book is her sorcerer-companion focus, NOT a weapon), tattoo sleeve on left arm.
 - **Selvara** (human Sorcerer) — hooded woman, dark red cloak, scar across face with one milky pale eye, blue gem pendant.
 - **Kitty** (chthonic-tiefling Druid) — ashen-grey skin, small dark curving horns, pale luminescent eyes, dark hair in long braids, sigil-veining at the temples, dark slender tail.
 - **Gianni** (human Ranger) — dark-haired, hair in a thick single braid, fierce dark-lined eyes, leather cuirass over yellow-cream tunic, quiver of arrows.
@@ -472,8 +472,8 @@ At the far end of the table:
 1. **CAELITH DUNIVAR** seated, leaning over the burned spell focus with one gloved finger touching it. He is the only bearded man in the scene.
 2. **TRINA ALVERE** seated beside Caelith, a small porcelain cup of pale tea balanced on one knee. Her violet fey-markings should glow faintly on her arm in the chandelier light.
 At the table's near end (the side closer to the viewer), standing in a loose group, all just entered:
-3. **ALICIA** front-left of the party group — red ponytail, blue tunic with gold piping, slim gold rapier at her hip, tattoo sleeve on left arm. **No sparkles, no glowing motes around her — render her cleanly.**
-4. **SELVARA** beside Alicia. **Selvara is a HOODED SORCERER, NOT a leather-clad ranger. Do NOT render her as another Gianni.** She wears a heavy DARK RED CLOAK with the HOOD UP framing her face; she does NOT wear leather armor; she does NOT carry a quiver. Her face shows a long thin RED SCAR running across one eye, and that eye is MILKY PALE / blind-looking. A round BLUE GEM PENDANT hangs at her throat. She holds a plain wooden spear. **There is exactly ONE Selvara and exactly ONE Gianni — they look completely different. If two characters in your output look like Gianni (both with leather and quiver), you have failed this prompt — one of them is supposed to be the hooded scarred sorceress.**
+3. **ALICIA** front-left of the party group — red ponytail, blue tunic with gold piping, holding a CLOSED BOOK with a colorful artistically stylized cover (cradled in her hands, NOT a weapon at her hip), tattoo sleeve on left arm. **No sparkles, no glowing motes around her — render her cleanly.**
+4. **SELVARA** beside Alicia. **Selvara is a HOODED SORCERER, NOT a leather-clad ranger. Do NOT render her as another Gianni.** She wears a heavy DARK RED CLOAK with the HOOD UP framing her face; she does NOT wear leather armor; she does NOT carry a quiver. Her face shows a long thin RED SCAR running across one eye, and that eye is MILKY PALE / blind-looking. A round BLUE GEM PENDANT hangs at her throat. She holds a tall plain wooden staff. **There is exactly ONE Selvara and exactly ONE Gianni — they look completely different. If two characters in your output look like Gianni (both with leather and quiver), you have failed this prompt — one of them is supposed to be the hooded scarred sorceress.**
 5. **KITTY (CHTHONIC TIEFLING — see CRITICAL note above)** standing prominently at the front-center of the party group so her horns and tail are unmistakable. Ashen-grey skin, two small dark horns curving back from her temples, pale luminescent eyes, dark braided hair, dark slender tail at her hip, woven-wood spear in hand, lynx-painted wooden shield slung on her back.
 6. **GIANNI** the human ranger (a WOMAN with dark hair in a single thick braid, fierce dark-lined eyes, leather cuirass over yellow-cream tunic, quiver of arrows over one shoulder). She is NOT male.
 7. **ELLE** the halfling monk — **halfling height, head about waist-height of the humans** — flowing yellow/saffron robes with red sash, brown hair, agile build.
@@ -496,9 +496,9 @@ Style: painterly digital fantasy illustration, cinematic composition, palette of
     prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG adventure module.
 **Two reference images supplied. Identify each by features and match exactly:**
 - **Trina Alvere** (NPC) — brown-skinned woman in her thirties, long dark hair, faintly luminescent violet fey-markings visible on her arm, forest-dusk colored dress, silver leaf pendant.
-- **Alicia** (human Warlock PC, Trina's mentee) — red-haired woman, hair in a high ponytail, blue tunic with gold piping, slim gold rapier sheathed at her hip, tattoo sleeve on her left arm.
+- **Alicia** (human Warlock PC, Trina's mentee) — red-haired woman, hair in a high ponytail, blue tunic with gold piping, holding a CLOSED BOOK with a colorful artistically stylized cover (cradled in her hands, NOT scabbarded at her hip), tattoo sleeve on her left arm.
 Scene: a small hidden records alcove behind a paneled door in the library of a fantasy republic guesthouse, mid-morning. Two walls lined floor-to-ceiling with leather-bound civic records — bound charter rolls, ledgers, treasury registers, commercial-marks volumes. A single brass oil lamp on a small reading table provides warm light; the rest of the alcove glows in soft gold.
-At the reading table: TRINA ALVERE — one finger flat on a page of an open volume, looking up to comment. Across from her, ALICIA cross-referencing a different bound volume on a small writing slope. There is a quiet mentor-and-student warmth between them; Trina watches Alicia read with the patience of someone who has been waiting for this exact moment of focus. Alicia's slim gold rapier leans against her chair.
+At the reading table: TRINA ALVERE — one finger flat on a page of an open volume, looking up to comment. Across from her, ALICIA cross-referencing a different bound volume on a small writing slope. There is a quiet mentor-and-student warmth between them; Trina watches Alicia read with the patience of someone who has been waiting for this exact moment of focus. Alicia's closed stylized book sits on the table beside her chair.
 Behind them, the paneled doorway visible — a hinge of normal wood with no obvious latch.
 Atmosphere: warm, intimate, the calm of careful work. The alcove feels secret without feeling threatening.
 Mood: scholarly, hopeful, on the verge of identifying a name.
@@ -520,7 +520,7 @@ Style: painterly digital fantasy illustration, cinematic close-quarters interior
     prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG adventure module.
 **Four reference images supplied. Identify each by features and match exactly:**
 - **Hesren Vesh** (NPC) — young man, early thirties, dark hair, lean clean-shaven features, wearing Cindren & Vhal firm livery: dark green wool coat with a small brass crane-and-coins pin at the breast.
-- **Alicia** (human Warlock PC) — red-haired woman, hair in a high ponytail, blue tunic with gold piping, slim gold rapier at her hip, tattoo sleeve on her left arm. **Render her clean — no glowing motes, no sparkles, no magical particles. The weapon is a plain gold rapier, not magical.**
+- **Alicia** (human Warlock PC) — red-haired woman, hair in a high ponytail, blue tunic with gold piping, holding a CLOSED BOOK with a colorful artistically stylized cover (cradled in her hands, NOT a weapon at her hip), tattoo sleeve on her left arm. **Render her clean — no glowing motes, no sparkles, no magical particles. The book is a mundane physical object with a beautiful cover, not magical.**
 - **Selvara** (human Sorcerer PC) — hooded woman in a dark red cloak, scar across her face with one milky pale eye, blue gem pendant.
 - **Cam** (halfling Rogue PC) — halfling-sized woman, long brown hair, large yellow eyes, brown leather travel clothes. Visibly halfling height (head about waist-height of the humans).
 Scene: small front office of the Cindren & Vhal Bonded Factors satellite on Wick Lane, mid-morning. Small but expensive — dark walnut paneling, a polished desk, a small leaded window casting cool gray light, a brass-and-green-glass desk lamp lit on the desk corner, two heavy visitors' chairs (currently empty — the visitors are standing).
@@ -559,7 +559,7 @@ Style: painterly digital fantasy illustration, cinematic interior, palette of co
     ],
     prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG adventure module.
 **Two reference images supplied. Identify each by features and match exactly:**
-- **Selvara** (human Sorcerer PC) — hooded woman in a dark red cloak, scar across her face with one milky pale eye, blue gem pendant at her throat, holds a plain wooden spear. **Selvara is HOODED, NOT in leather kit. Do NOT render her as another Gianni.**
+- **Selvara** (human Sorcerer PC) — hooded woman in a dark red cloak, scar across her face with one milky pale eye, blue gem pendant at her throat, holds a tall plain wooden staff. **Selvara is HOODED, NOT in leather kit. Do NOT render her as another Gianni.**
 - **Gianni** (human Ranger PC, female) — dark hair in a single thick braid, fierce dark-lined eyes, leather cuirass over yellow-cream tunic, quiver of arrows over one shoulder.
 Scene: small contract physician's office on a quiet street, late afternoon. The room is cluttered, slightly squalid but professional — an examination cot at right with a thin mattress, shelves of jars and bottled tinctures, a workbench with a brass mortar and pestle, dried herbs hanging from a beam. A small coal stove glows red at one side.
 At a tall standing desk in the center: RELN POLLOW — a soft anxious man in his mid-forties, balding, ink-stained fingers, unkempt sandy beard, wearing a stained apothecary's smock over a plain shirt. He holds a slip of paper as if just lifted from the desk; his eyes are on the visitors, not the paper, and he is sweating slightly. His posture suggests a man who has rehearsed an answer he may not be allowed to give.
@@ -582,12 +582,12 @@ Style: painterly digital fantasy illustration, palette of warm coal-stove glow, 
     ],
     prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG adventure module.
 **Two reference images supplied. Identify each by features and match exactly:**
-- **Alicia** (human Warlock PC) — red-haired woman, hair in a high ponytail, blue tunic with gold piping, slim gold rapier at her hip, tattoo sleeve on her left arm. **No sparkles, no glowing motes around her — render her cleanly.**
+- **Alicia** (human Warlock PC) — red-haired woman, hair in a high ponytail, blue tunic with gold piping, holding a CLOSED BOOK with a colorful artistically stylized cover (cradled in her hands, NOT a weapon at her hip), tattoo sleeve on her left arm. **No sparkles, no glowing motes around her — render her cleanly.**
 - **Cam** (halfling Rogue PC) — halfling-sized woman, long brown hair, large yellow eyes, brown leather travel clothes, brown leather satchel. **Cam is halfling height — her head is about waist-height of the humans; she stands on tiptoe or on a low stool to read at the standing desk.**
 Scene: the working business office of a missing senior grain factor, on a fantasy-medieval merchant street. Mid-morning, gray autumn light through tall mullioned windows. The room is paneled in worn pale oak; one wall holds a tall standing desk with a green leather-bound ledger book open on it; the opposite wall has built-in cabinets full of tied bundles of carbons and bound annual returns. A round table near the windows holds a brass weighing scale and a small handful of grain samples in cloth bags.
 At the standing desk: DORIL VETH — a stout middle-aged man in his fifties, plain green wool coat, neat short gray hair, careful clean-shaven features, gold-rimmed reading lenses pushed up onto his forehead. He is turning a page in the ledger and gesturing at a row of entries; his expression is anxious, eager to be helpful, slightly conspiratorial — a clerk who has been waiting for someone to ask the right questions.
 Standing across the desk from him, leaning forward to read the ledger:
-1. **ALICIA** at the desk, one hand braced on the edge, leaning to read the entries Veth is showing her. Her slim gold rapier sheathed at her hip.
+1. **ALICIA** at the desk, one hand braced on the edge, leaning to read the entries Veth is showing her. She holds a closed book with a colorful stylized cover at her side.
 2. **CAM** beside Alicia, standing on tiptoe (she is halfling-height) to see the ledger over the desk's edge, her sharp yellow eyes tracking the lines closely — she is the one most likely to spot the discrepancy.
 The room feels paused — the missing principal's (Tamsin's) empty chair behind a separate small desk in the background, neatly pushed in, a folded shawl draped over its back.
 Mood: a working business with its center missing. Concerned, focused, quietly hopeful.
@@ -635,7 +635,7 @@ Style: painterly digital fantasy illustration, intimate interior, palette of war
 **Eight reference images supplied. Identify each character by features and match exactly:**
 - **Caelith Dunivar** (NPC) — bearded dark-haired lean man, dark scholar's coat, brass quill-pin.
 - **Trina Alvere** (NPC) — brown-skinned woman in her thirties, long dark hair, faintly luminescent violet fey-markings on her arms, forest-dusk dress, silver leaf pendant.
-- **Alicia** (human Warlock) — red-haired, high ponytail, blue tunic, slim gold rapier.
+- **Alicia** (human Warlock) — red-haired, high ponytail, blue tunic, holding a CLOSED BOOK with a colorful artistically stylized cover (cradled in her hands, NOT a weapon).
 - **Selvara** (human Sorcerer) — hooded, dark red cloak, scar, milky pale eye, blue gem pendant.
 - **Kitty** (chthonic-tiefling Druid) — ashen-grey skin, small dark horns, pale luminescent eyes, dark braids, sigil-veining at temples, dark slender tail.
 - **Gianni** (human Ranger) — dark-haired with single thick braid, fierce eyes, leather cuirass, quiver.
@@ -846,7 +846,7 @@ ${ART_STYLE}`,
     ],
     prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG adventure module (D&D 5e / Pathfinder / Tales of the Valiant book interior style).
 **Six reference images supplied — the six-PC adventuring party. Identify each by features and match exactly:**
-- **Alicia** — red-haired, high ponytail, blue tunic, slim gold rapier, tattoo sleeve on left arm. **No sparkles, no glowing motes around her — render her cleanly.**
+- **Alicia** — red-haired, high ponytail, blue tunic, holding a CLOSED BOOK with a colorful artistically stylized cover (cradled in her hands), tattoo sleeve on left arm. **No sparkles, no glowing motes around her — render her cleanly.**
 - **Selvara** — hooded woman in dark red cloak, scar across face with milky pale eye, blue gem pendant.
 - **Kitty** — chthonic-tiefling druid: ashen-grey skin, small dark horns, pale luminescent eyes, dark braided hair, dark slender tail, lynx-painted shield, woven-wood spear. **The horns and tail must be visible.**
 - **Gianni** — dark hair in single thick braid, fierce dark-lined eyes, leather cuirass, quiver of arrows. (She is female.)
@@ -873,7 +873,7 @@ Style: painterly digital fantasy illustration, palette of cool gray morning ligh
     prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG adventure module.
 **Four reference images supplied:**
 - **Anver "Tarsh" Resh** (NPC) — thin, fifties, balding with dark hair fringe worn long, long pale face, yellow stains on his right-hand fingers from pipe smoke, plain dark wool, no jewelry.
-- **Alicia** (PC) — red-haired ponytail, blue tunic, slim gold rapier. No sparkles.
+- **Alicia** (PC) — red-haired ponytail, blue tunic, holding a CLOSED BOOK with a colorful artistically stylized cover (cradled in her hands). No sparkles.
 - **Selvara** (PC) — hooded, dark red cloak, scar, milky pale eye, blue gem pendant.
 - **Cam** (PC) — halfling-sized, long brown hair, large yellow eyes, brown leather. **Halfling height — visibly smaller than the humans.**
 Scene: a low-ceilinged sailors' tavern called THE COOPERED WRECK in Hardby's harbor district. Coal-smoke-dark room with a long bar down one side and three back booths on the opposite wall. The leftmost back booth has a single hanging oil lamp; the rest of the room is in shifting shadow. A few stevedores at the bar in the background, a one-eyed retired bosun (the proprietor) wiping a glass behind the bar.
@@ -896,7 +896,7 @@ Style: painterly digital fantasy illustration, palette of warm lamp gold, dark w
     prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG adventure module.
 **Three reference images supplied:**
 - **Solen Mereth** (NPC) — late forties, tall, lean, balding, careful clean-shaven, dark green firm livery with brass crane-and-coins pin and a small head-of-office pin, reading lenses on black silk cord.
-- **Alicia** (PC) — red ponytail, blue tunic, slim gold rapier. No sparkles.
+- **Alicia** (PC) — red ponytail, blue tunic, holding a CLOSED BOOK with a colorful artistically stylized cover (cradled in her hands). No sparkles.
 - **Gianni** (PC, female) — dark hair single braid, fierce dark-lined eyes, leather cuirass, quiver.
 Scene: the BOND-LOADING OFFICE at Cindren & Vhal Hardby — a small private office at the back of the counter-room. Walnut paneling, a tall standing desk (Solen's), a wall of bond-loading files in pigeonhole shelves behind the desk, a tall locked cabinet against the back wall, a small leaded window high on one wall casting cool morning light.
 SOLEN MERETH stands behind his standing desk, both hands flat on its surface, looking at the visitors with composed careful neutrality. His reading lenses sit on the desk. An open ledger and an inkwell to one side.
@@ -920,7 +920,7 @@ Style: painterly digital fantasy illustration, intimate office interior, palette
 **Three reference images supplied:**
 - **Veska Maelan** (NPC) — mid-fifties, compact, dark-eyed, gray hair worn short under a soft brown cap; plain dark wool dress; small silver scale-and-scroll badge at the throat; reading lenses on a black silk cord.
 - **Selvara** (PC) — hooded, dark red cloak, scar, milky pale eye, blue gem pendant.
-- **Alicia** (PC) — red ponytail, blue tunic, slim gold rapier. No sparkles.
+- **Alicia** (PC) — red ponytail, blue tunic, holding a CLOSED BOOK with a colorful artistically stylized cover (cradled in her hands). No sparkles.
 Scene: the small ground-floor notary office at WHALEMARKET QUAY in Hardby, late evening. A single brass oil lamp on the desk provides warm gold light; the rest of the office is in shadow. A tall standing-cabinet of ledgers and copybooks against one wall, two visitor chairs, a brass-and-green-glass desk lamp shaded down. A leaded window in the back wall shows full dark outside with a single distant ship's lantern reflected on the harbor.
 VESKA sits at the desk, reading lenses on her nose, leaning over the recovered evidence laid out in front of her — a folded vellum letter of credit, a clipped silver coin held to the lamp in her left hand, a small black-lacquered scroll tube, a torn ledger fragment, a strip of vellum bearing four words. Her right index finger rests on a chop she has just identified.
 Standing across from her, leaning forward to listen: SELVARA (hood pushed back, focused, tracking every word); ALICIA (slightly behind Selvara, arms folded, listening hard).
@@ -966,7 +966,7 @@ Style: painterly digital fantasy illustration, heist-scene chiaroscuro, palette 
     prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG adventure module — rescue set piece.
 **Four reference images supplied:**
 - **Tamsin Moraven** (NPC, rescued) — mid-fifties, tall, dark hair iron-gray at the temples, dark green Yeomanry merchant's overdress now travel-worn from twelve days' captivity. Tired, underfed, but standing on her own feet. The watchful careful capable woman the party has heard about.
-- **Alicia** (PC) — red ponytail, blue tunic, slim gold rapier. No sparkles.
+- **Alicia** (PC) — red ponytail, blue tunic, holding a CLOSED BOOK with a colorful artistically stylized cover (cradled in her hands). No sparkles.
 - **Gianni** (PC, female) — dark hair single braid, leather cuirass, quiver.
 - **Kitty** (PC) — chthonic-tiefling druid: **ashen-grey skin, small dark horns, dark slender tail, lynx shield, woven spear**. The horns and tail must be visible.
 Scene: the small clerk's-office room in a harbor warehouse on Black Cog Lane at late night. A barred window in the back wall, a wooden door open behind the party, a thin straw mattress on the floor, a water jug by the door. One of the party's own lanterns has been brought in and set on the mattress. A small open chest of Tamsin's belongings on the floor (the captors apparently brought her a few things; the chest is the size of a hatbox).
@@ -990,7 +990,7 @@ Style: painterly digital fantasy illustration, dramatic warm lantern glow agains
 **Three reference images supplied:**
 - **Zoria Weis** (NPC) — late thirties, plain careful features, brown hair pinned up under a small white cap, Gynarchy under-clerk's grey-and-cream half-livery.
 - **Selvara** (PC) — hooded, dark red cloak, scar, milky pale eye, blue gem pendant.
-- **Alicia** (PC) — red ponytail, blue tunic, slim gold rapier. No sparkles.
+- **Alicia** (PC) — red ponytail, blue tunic, holding a CLOSED BOOK with a colorful artistically stylized cover (cradled in her hands). No sparkles.
 Scene: a small reading room at the back of the GYNARCHY OFFICE OF MERCANTILE RECORDS in Hardby's Old Quarter, late morning. Walnut-paneled walls. A single tall reading table at the room's center. On the table: a large bound volume open to a two-page spread of harbor commission appointment entries (rows of inked names, dates, dispositions). Two oil lamps on the table provide warm light; the rest of the room is in cool diffuse light from a high leaded window.
 ZORIA stands at the head of the table, one finger pressed to a row of entries (the THREE old-house seats marked vacant). She is reading aloud in a measured voice, gesturing with her free hand at the structure of the page.
 ALICIA and SELVARA stand on the opposite side of the table, leaning forward to read along; ALICIA's expression is dawning understanding; SELVARA's is hardening into focus.
@@ -1013,7 +1013,7 @@ Style: painterly digital fantasy illustration, intimate civic interior, palette 
     prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG adventure module.
 **Four reference images supplied:**
 - **Castrian Vell** (NPC) — late thirties poet, dark curls graying at temples, plum waistcoat over cream shirt, emerald-and-silver pin at the collar, holding a wineglass.
-- **Alicia** (PC) — red ponytail, blue tunic, slim gold rapier **sheathed behind a sash for the salon — she is in semi-formal mode**. No sparkles.
+- **Alicia** (PC) — red ponytail, blue tunic, closed stylized book **held cradled in both hands at the salon a sash for the salon — she is in semi-formal mode**. No sparkles.
 - **Selvara** (PC) — hood DOWN for once, scar visible, blue gem pendant; she has dressed for a salon evening (dark wine-colored dress over her usual layers).
 - **Elle** (PC, halfling monk) — halfling height, **dressed in a clean saffron salon robe** (more formal than her travel robes), brown hair brushed.
 Scene: the warm sitting room of CASTRIAN VELL'S TOWNHOUSE on a salon evening. A modest hearth glows on one wall; a small narrow shelf of his published volumes visible on another. Six to eight figures arranged in loose conversational groups: a middle-aged woman in dyer's apron-marks even in her formal dress (the Salters' Quarter dyer), a thin retired ship's captain with a faded blue coat, a Gynarchy under-clerk in her after-hours civilian dress, a sculptor in a paint-marked cravat. Wine and small dishes on a sideboard.
@@ -2270,7 +2270,7 @@ CRITICAL OVERALL: There are exactly 6 PCs in this scene. Three are women with re
 
 - GIANNI (reference image #5): HUMAN RANGER — a human woman. DARK BLACK HAIR worn in long BRAIDED PIGTAILS framing her face. GREY-GREEN INTENSE EYES (smouldering, watchful). Wears dark LEATHER ARMOR over a cream linen shirt. A LONGBOW strapped across her back; a QUIVER at her hip. Stands at the RIGHT side of the party group, her attention on the surrounding rooftops and the customs-quay perimeter (a ranger watching the angles). CRITICAL: Gianni is a WOMAN with black braided pigtails, not a man.
 
-- SELVARA (reference image #6): HUMAN SORCERER — a human woman. AUBURN-REDDISH HAIR worn long, partly hidden under a DEEP-RED HOODED CLOAK (hood pushed back to reveal her face). Wears a DEEP TEAL/GREEN long-sleeved DRESS under the cloak, with a single BLUE STONE PENDANT on a thin chain at her throat. PALE BLUE EYES, FRECKLED SKIN, and a faint distinctive SCAR running across the bridge of her nose. Carries a SIMPLE WOODEN SPEAR in her right hand, butt-down on the cobbles (her sorcerer's focus). Stands at the CENTER-BACK of the group beside Alicia, slightly behind Kitty. CRITICAL: Selvara is a HUMAN WOMAN with a DEEP-RED HOODED CLOAK and a SPEAR. CRITICAL: If Selvara looks like Gianni or Cam, you have failed this prompt — she is a human woman with auburn hair, a red hooded cloak, and a spear.
+- SELVARA (reference image #6): HUMAN SORCERER — a human woman. AUBURN-REDDISH HAIR worn long, partly hidden under a DEEP-RED HOODED CLOAK (hood pushed back to reveal her face). Wears a DEEP TEAL/GREEN long-sleeved DRESS under the cloak, with a single BLUE STONE PENDANT on a thin chain at her throat. PALE BLUE EYES, FRECKLED SKIN, and a faint distinctive SCAR running across the bridge of her nose. Carries a TALL WOODEN STAFF in her right hand, butt-down on the cobbles (her sorcerer's focus). Stands at the CENTER-BACK of the group beside Alicia, slightly behind Kitty. CRITICAL: Selvara is a HUMAN WOMAN with a DEEP-RED HOODED CLOAK and a STAFF. CRITICAL: If Selvara looks like Gianni or Cam, you have failed this prompt — she is a human woman with auburn hair, a red hooded cloak, and a staff.
 
 COMPOSITION: cinematic wide shot. The party occupies the LEFT TWO-THIRDS of the frame as the focus; the Aerdi delegation occupies the RIGHT THIRD as background. Warm Aerdy morning palette: cream limestone, brass, oxblood-and-gold of the herald's livery, the cool blue-green of harbor water. Yeomanry-Council and Aerdy-imperial standards visible. NO text or labels visible.
 

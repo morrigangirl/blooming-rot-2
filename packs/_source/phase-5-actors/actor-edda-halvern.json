@@ -395,91 +395,212 @@
       "_id": "BR2I6a5a547bc256",
       "name": "Shortsword",
       "type": "weapon",
-      "img": "icons/weapons/swords/shortsword-guard-gold.webp",
+      "img": "modules/dnd-players-handbook/assets/icons/items/shortsword.webp",
       "system": {
         "description": {
-          "value": "<p>A finesse, light martial melee weapon. Mastery: Vex.</p>",
+          "value": "",
           "chat": ""
-        },
-        "source": {
-          "custom": "PHB 2024",
-          "book": "PHB",
-          "page": ""
-        },
-        "quantity": 1,
-        "weight": {
-          "value": 2,
-          "units": "lb"
         },
         "price": {
           "value": 10,
           "denomination": "gp"
         },
-        "rarity": "",
+        "source": {
+          "custom": "",
+          "rules": "2024"
+        },
         "identified": true,
+        "unidentified": {
+          "description": ""
+        },
+        "container": null,
+        "quantity": 1,
+        "weight": {
+          "value": 2,
+          "units": "lb"
+        },
+        "rarity": "",
+        "attunement": "",
+        "attuned": false,
         "equipped": true,
-        "proficient": 1,
-        "activation": {
-          "type": "action",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": "",
-          "units": "inst"
-        },
-        "target": {
-          "value": "",
-          "width": null,
-          "units": "",
-          "type": "creature"
-        },
+        "cover": null,
+        "crewed": false,
         "range": {
-          "value": 5,
+          "value": null,
           "long": null,
-          "units": "ft"
+          "units": "ft",
+          "reach": null
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
         },
         "damage": {
-          "parts": [
-            [
-              "1d6 + @mod",
+          "versatile": {
+            "number": null,
+            "denomination": null,
+            "bonus": "",
+            "types": [],
+            "custom": {
+              "enabled": true,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": null,
+              "formula": ""
+            }
+          },
+          "base": {
+            "number": 1,
+            "denomination": 6,
+            "types": [
               "piercing"
-            ]
-          ],
-          "versatile": ""
+            ],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            },
+            "bonus": ""
+          }
         },
+        "armor": {
+          "value": null
+        },
+        "hp": {
+          "value": null,
+          "max": null,
+          "dt": null,
+          "conditions": ""
+        },
+        "type": {
+          "value": "martialM",
+          "baseItem": "shortsword"
+        },
+        "magicalBonus": null,
         "properties": [
           "fin",
           "lgt"
         ],
-        "weaponType": "martialM",
-        "attack": {
-          "bonus": "",
-          "flat": false
+        "proficient": null,
+        "activities": {
+          "42jdrHDfDRCcYeL4": {
+            "type": "attack",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": "5",
+              "units": "ft",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": false,
+              "override": false
+            },
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "sort": 0,
+            "_id": "42jdrHDfDRCcYeL4",
+            "name": "",
+            "img": "",
+            "appliedEffects": []
+          }
         },
-        "ability": ""
+        "ammunition": {},
+        "mastery": "vex",
+        "identifier": "shortsword"
       },
       "effects": [],
-      "folder": null,
+      "folder": "fd3qxAXCv2FhExPp",
       "sort": 100,
       "ownership": {
         "default": 0
       },
       "flags": {
+        "dnd5e": {
+          "riders": {
+            "activity": [],
+            "effect": []
+          }
+        },
         "core": {
-          "sourceId": "Compendium.dnd-players-handbook.items.Item.weapon-shortsword"
+          "sourceId": "Compendium.dnd-players-handbook.equipment.Item.phbwepShortsword"
         }
       },
       "_stats": {
-        "compendiumSource": null,
+        "compendiumSource": "Compendium.dnd-players-handbook.equipment.Item.phbwepShortsword",
         "duplicateSource": null,
-        "exportSource": null,
         "coreVersion": "13.351",
         "systemId": "dnd5e",
         "systemVersion": "5.3.0",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
+        "createdTime": 1724425920034,
+        "modifiedTime": 1726075773434,
+        "lastModifiedBy": "dnd5ebuilder0000",
+        "exportSource": null
       }
     },
     {

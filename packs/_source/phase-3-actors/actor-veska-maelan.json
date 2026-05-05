@@ -509,17 +509,21 @@
       "_id": "BR2Ia0b56d0edb15",
       "name": "Calligrapher's Supplies",
       "type": "tool",
-      "img": "icons/tools/scribal/ink-quill-pink.webp",
+      "img": "icons/tools/scribal/pen-steel-grey-brown.webp",
       "system": {
         "description": {
-          "value": "<p>Quills, ink, parchment, sealing wax, signet seal. Used by clerks, notaries, and paleographers.</p>",
+          "value": "<p class=\"phb-meta\"><strong>Ability:</strong> Dexterity</p><p class=\"phb-meta\"><strong>Utilize:</strong> Write text with impressive flourishes that guard against forgery (DC 15)</p><p class=\"phb-meta\"><strong>Craft:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInk00000000]{Ink}, <em>Spell Scroll</em></p>",
           "chat": ""
         },
         "source": {
-          "custom": "PHB 2024",
-          "book": "PHB",
-          "page": ""
+          "custom": "",
+          "rules": "2024"
         },
+        "identified": true,
+        "unidentified": {
+          "description": ""
+        },
+        "container": null,
         "quantity": 1,
         "weight": {
           "value": 5,
@@ -530,37 +534,124 @@
           "denomination": "gp"
         },
         "rarity": "",
-        "identified": true,
+        "attunement": "",
+        "attuned": false,
         "equipped": false,
-        "proficient": 1,
-        "ability": "int",
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
         "type": {
           "value": "art",
           "baseItem": "calligrapher"
         },
-        "properties": []
+        "ability": "dex",
+        "chatFlavor": "",
+        "proficient": null,
+        "properties": [],
+        "bonus": "",
+        "activities": {
+          "PVMIlNQvLAyrF4kP": {
+            "type": "check",
+            "activation": {
+              "type": "action",
+              "value": null,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "units": "self",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": false,
+              "override": false
+            },
+            "check": {
+              "ability": "dex",
+              "dc": {
+                "calculation": "",
+                "formula": "15"
+              },
+              "associated": []
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "sort": 0,
+            "_id": "PVMIlNQvLAyrF4kP",
+            "name": "",
+            "img": "",
+            "appliedEffects": []
+          }
+        },
+        "identifier": "calligraphers-supplies"
       },
       "effects": [],
-      "folder": null,
+      "folder": "V8KHbNkEWoXQP3Pj",
       "sort": 300,
       "ownership": {
         "default": 0
       },
       "flags": {
+        "dnd5e": {
+          "riders": {
+            "activity": [],
+            "effect": []
+          }
+        },
         "core": {
-          "sourceId": "Compendium.dnd-players-handbook.items.Item.tool-calligraphers-supplies"
+          "sourceId": "Compendium.dnd-players-handbook.equipment.Item.phbtulCalligraph"
         }
       },
       "_stats": {
-        "compendiumSource": null,
+        "compendiumSource": "Compendium.dnd-players-handbook.equipment.Item.phbtulCalligraph",
         "duplicateSource": null,
-        "exportSource": null,
         "coreVersion": "13.351",
         "systemId": "dnd5e",
         "systemVersion": "5.3.0",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
+        "createdTime": 1724425916416,
+        "modifiedTime": 1726581961607,
+        "lastModifiedBy": "dnd5ebuilder0000",
+        "exportSource": null
       }
     },
     {

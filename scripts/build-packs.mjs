@@ -19,8 +19,7 @@ const PACKS = [
   "phase-4-actors",
   "phase-5-journals",
   "phase-5-actors",
-  "sandbox-journals",
-  "module-macros"
+  "sandbox-journals"
 ];
 
 for (const pack of PACKS) {

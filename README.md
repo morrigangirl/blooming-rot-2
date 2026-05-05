@@ -175,22 +175,13 @@ Phase 5 advances the "E." thread further but does not name Eclavdra, House Eilse
 
 As of v0.6.0, every NPC actor in the module ships with a **populated `items` array** — weapons, armor, signature gear, NPC features, and (for Trina Alvere only) a full Warlock 10 spell loadout. Items appear on the Foundry NPC sheet under Inventory / Features / Spells tabs and are immediately actionable in the combat tracker.
 
-Items are fully embedded with their `system` data, so they function regardless of the user's compendium installation. The bundled item data is a usable approximation; for the *real* PHB/DMG/MM 2024 documents (proper icons, weapon masteries, full chat-card text), see the **post-install relink macro** below.
+As of **v0.6.2**, items are pre-linked at build time to the official D&D 2024 *Player's Handbook*, *Dungeon Master's Guide*, and *Monster Manual* compendiums. Every weapon, armor, spell, tool, class feature, and standard NPC feature on a BR2 actor carries the real PHB/DMG/MM document data and a `_stats.compendiumSource` UUID pointing back to its origin. If you have the official modules installed, items show the official 2024 icons, weapon **masteries** (Vex / Sap / Topple / Nick / Push / etc.), and Foundry's "Compendium" link badge — right-click → "Update from Compendium" works for future PHB updates.
 
-## One-time post-install step (recommended, v0.6.1+)
+If you don't have the official 2024 modules, the items still function — they ship with full mechanical data — they just won't auto-link.
 
-If you have the official D&D 2024 *Player's Handbook*, *Dungeon Master's Guide*, and *Monster Manual* modules installed, do this once after activating Blooming Rot 2:
+Items without an official 2024 equivalent (custom Yeomanry gear like *Smoke Pellet* or *Forged Inspection Writ*, NPC-specific features like *The Senior Partner's Yields*, house signets and badges) stay as BR2-original content.
 
-1. Open the **Compendiums** tab.
-2. Find **Blooming Rot 2 — Utility Macros** under "Blooming Rot 2 — Utilities".
-3. Drag **"Relink BR2 Actors to PHB/DMG/MM"** to your hotbar.
-4. Click it once.
-
-The macro walks every BR2 actor pack and replaces each item it can name-match against your installed PHB/DMG/MM with the real document — proper icon, official 2024 weapon masteries (Vex / Sap / Topple / Nick / etc.), the full rules text, and Foundry chat cards. It whispers a summary report to you when it finishes.
-
-Items without an official 2024 equivalent (custom Yeomanry gear like *Smoke Pellet* or *Forged Inspection Writ*, NPC-specific features like *The Senior Partner's Yields*, house signets and badges) stay exactly as shipped.
-
-The macro is **GM-only** and **idempotent** — running it a second time is harmless. It edits actors inside the BR2 compendium packs (briefly unlocking and re-locking them), so any actors you've already imported into your world are unaffected; re-import them or drag the relinked compendium copies over.
+**74 of 147 items** across all 25 actors are linked to PHB/DMG/MM 2024; the remaining 73 are intentional BR2-custom content.
 
 **Generation pipeline:**
 - `scripts/populate-actor-items.mjs` — declarative templates (weapons, armor, feats, spells) plus a per-actor item plan. Run with `node scripts/populate-actor-items.mjs`. Idempotent: item `_id`s are deterministic SHA-256-derived from actor + slug, so re-running produces identical output.

@@ -387,91 +387,212 @@
       "_id": "BR2I7d6b71b2a135",
       "name": "Scimitar",
       "type": "weapon",
-      "img": "icons/weapons/swords/scimitar-curved-eastern.webp",
+      "img": "modules/dnd-players-handbook/assets/icons/items/scimitar.webp",
       "system": {
         "description": {
-          "value": "<p>A finesse, light martial melee weapon. Mastery: Nick.</p>",
+          "value": "",
           "chat": ""
-        },
-        "source": {
-          "custom": "PHB 2024",
-          "book": "PHB",
-          "page": ""
-        },
-        "quantity": 1,
-        "weight": {
-          "value": 3,
-          "units": "lb"
         },
         "price": {
           "value": 25,
           "denomination": "gp"
         },
-        "rarity": "",
+        "source": {
+          "custom": "",
+          "rules": "2024"
+        },
         "identified": true,
+        "unidentified": {
+          "description": ""
+        },
+        "container": null,
+        "quantity": 1,
+        "weight": {
+          "value": 3,
+          "units": "lb"
+        },
+        "rarity": "",
+        "attunement": "",
+        "attuned": false,
         "equipped": true,
-        "proficient": 1,
-        "activation": {
-          "type": "action",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": "",
-          "units": "inst"
-        },
-        "target": {
-          "value": "",
-          "width": null,
-          "units": "",
-          "type": "creature"
-        },
+        "cover": null,
+        "crewed": false,
         "range": {
-          "value": 5,
+          "value": null,
           "long": null,
-          "units": "ft"
+          "units": "ft",
+          "reach": null
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
         },
         "damage": {
-          "parts": [
-            [
-              "1d6 + @mod",
+          "versatile": {
+            "number": null,
+            "denomination": null,
+            "bonus": "",
+            "types": [],
+            "custom": {
+              "enabled": true,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": null,
+              "formula": ""
+            }
+          },
+          "base": {
+            "number": 1,
+            "denomination": 6,
+            "types": [
               "slashing"
-            ]
-          ],
-          "versatile": ""
+            ],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            },
+            "bonus": ""
+          }
         },
+        "armor": {
+          "value": null
+        },
+        "hp": {
+          "value": null,
+          "max": null,
+          "dt": null,
+          "conditions": ""
+        },
+        "type": {
+          "value": "martialM",
+          "baseItem": "scimitar"
+        },
+        "magicalBonus": null,
         "properties": [
           "fin",
           "lgt"
         ],
-        "weaponType": "martialM",
-        "attack": {
-          "bonus": "",
-          "flat": false
+        "proficient": null,
+        "activities": {
+          "YOx3cikY6oPu6Ojh": {
+            "type": "attack",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": "5",
+              "units": "ft",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": false,
+              "override": false
+            },
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "sort": 0,
+            "_id": "YOx3cikY6oPu6Ojh",
+            "name": "",
+            "img": "",
+            "appliedEffects": []
+          }
         },
-        "ability": ""
+        "ammunition": {},
+        "mastery": "nick",
+        "identifier": "scimitar"
       },
       "effects": [],
-      "folder": null,
+      "folder": "fd3qxAXCv2FhExPp",
       "sort": 100,
       "ownership": {
         "default": 0
       },
       "flags": {
+        "dnd5e": {
+          "riders": {
+            "activity": [],
+            "effect": []
+          }
+        },
         "core": {
-          "sourceId": "Compendium.dnd-players-handbook.items.Item.weapon-scimitar"
+          "sourceId": "Compendium.dnd-players-handbook.equipment.Item.phbwepScimitar00"
         }
       },
       "_stats": {
-        "compendiumSource": null,
+        "compendiumSource": "Compendium.dnd-players-handbook.equipment.Item.phbwepScimitar00",
         "duplicateSource": null,
-        "exportSource": null,
         "coreVersion": "13.351",
         "systemId": "dnd5e",
         "systemVersion": "5.3.0",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
+        "createdTime": 1724425919963,
+        "modifiedTime": 1726075773365,
+        "lastModifiedBy": "dnd5ebuilder0000",
+        "exportSource": null
       }
     },
     {
@@ -479,92 +600,213 @@
       "_id": "BR2I9829a55c1122",
       "name": "Dagger",
       "type": "weapon",
-      "img": "icons/weapons/daggers/dagger-curved-glow.webp",
+      "img": "modules/dnd-players-handbook/assets/icons/items/dagger.webp",
       "system": {
         "description": {
-          "value": "<p>A finesse, light, thrown simple melee weapon. Mastery: Nick.</p>",
+          "value": "",
           "chat": ""
-        },
-        "source": {
-          "custom": "PHB 2024",
-          "book": "PHB",
-          "page": ""
-        },
-        "quantity": 1,
-        "weight": {
-          "value": 1,
-          "units": "lb"
         },
         "price": {
           "value": 2,
           "denomination": "gp"
         },
-        "rarity": "",
+        "source": {
+          "custom": "",
+          "rules": "2024"
+        },
         "identified": true,
+        "unidentified": {
+          "description": ""
+        },
+        "container": null,
+        "quantity": 1,
+        "weight": {
+          "value": 1,
+          "units": "lb"
+        },
+        "rarity": "",
+        "attunement": "",
+        "attuned": false,
         "equipped": true,
-        "proficient": 1,
-        "activation": {
-          "type": "action",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": "",
-          "units": "inst"
-        },
-        "target": {
-          "value": "",
-          "width": null,
-          "units": "",
-          "type": "creature"
-        },
+        "cover": null,
+        "crewed": false,
         "range": {
-          "value": 5,
+          "value": 20,
           "long": 60,
-          "units": "ft"
+          "units": "ft",
+          "reach": null
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
         },
         "damage": {
-          "parts": [
-            [
-              "1d4 + @mod",
+          "versatile": {
+            "number": null,
+            "denomination": null,
+            "bonus": "",
+            "types": [],
+            "custom": {
+              "enabled": true,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": null,
+              "formula": ""
+            }
+          },
+          "base": {
+            "number": 1,
+            "denomination": 4,
+            "types": [
               "piercing"
-            ]
-          ],
-          "versatile": ""
+            ],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            },
+            "bonus": ""
+          }
         },
+        "armor": {
+          "value": null
+        },
+        "hp": {
+          "value": null,
+          "max": null,
+          "dt": null,
+          "conditions": ""
+        },
+        "type": {
+          "value": "simpleM",
+          "baseItem": "dagger"
+        },
+        "magicalBonus": null,
         "properties": [
           "fin",
           "lgt",
           "thr"
         ],
-        "weaponType": "simpleM",
-        "attack": {
-          "bonus": "",
-          "flat": false
+        "proficient": null,
+        "activities": {
+          "3SJSAL3pv9gKkAM9": {
+            "type": "attack",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": "20",
+              "units": "ft",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": false,
+              "override": false
+            },
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "sort": 0,
+            "_id": "3SJSAL3pv9gKkAM9",
+            "name": "",
+            "img": "",
+            "appliedEffects": []
+          }
         },
-        "ability": ""
+        "ammunition": {},
+        "mastery": "nick",
+        "identifier": "dagger"
       },
       "effects": [],
-      "folder": null,
+      "folder": "FL1Jee9DzStc7vM3",
       "sort": 200,
       "ownership": {
         "default": 0
       },
       "flags": {
+        "dnd5e": {
+          "riders": {
+            "activity": [],
+            "effect": []
+          }
+        },
         "core": {
-          "sourceId": "Compendium.dnd-players-handbook.items.Item.weapon-dagger"
+          "sourceId": "Compendium.dnd-players-handbook.equipment.Item.phbwepDagger0000"
         }
       },
       "_stats": {
-        "compendiumSource": null,
+        "compendiumSource": "Compendium.dnd-players-handbook.equipment.Item.phbwepDagger0000",
         "duplicateSource": null,
-        "exportSource": null,
         "coreVersion": "13.351",
         "systemId": "dnd5e",
         "systemVersion": "5.3.0",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
+        "createdTime": 1724425918352,
+        "modifiedTime": 1726075772544,
+        "lastModifiedBy": "dnd5ebuilder0000",
+        "exportSource": null
       }
     },
     {
@@ -572,155 +814,302 @@
       "_id": "BR2Ib11d26afc7a8",
       "name": "Hand Crossbow",
       "type": "weapon",
-      "img": "icons/weapons/crossbows/crossbow-hand.webp",
+      "img": "modules/dnd-players-handbook/assets/icons/items/hand-crossbow.webp",
       "system": {
         "description": {
-          "value": "<p>A martial ranged weapon. Light, loading. Mastery: Vex.</p>",
+          "value": "",
           "chat": ""
-        },
-        "source": {
-          "custom": "PHB 2024",
-          "book": "PHB",
-          "page": ""
-        },
-        "quantity": 1,
-        "weight": {
-          "value": 3,
-          "units": "lb"
         },
         "price": {
           "value": 75,
           "denomination": "gp"
         },
-        "rarity": "",
+        "source": {
+          "custom": "",
+          "rules": "2024"
+        },
         "identified": true,
+        "unidentified": {
+          "description": ""
+        },
+        "container": null,
+        "quantity": 1,
+        "weight": {
+          "value": 3,
+          "units": "lb"
+        },
+        "rarity": "",
+        "attunement": "",
+        "attuned": false,
         "equipped": true,
-        "proficient": 1,
-        "activation": {
-          "type": "action",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": "",
-          "units": "inst"
-        },
-        "target": {
-          "value": "",
-          "width": null,
-          "units": "",
-          "type": "creature"
-        },
+        "cover": null,
+        "crewed": false,
         "range": {
           "value": 30,
           "long": 120,
-          "units": "ft"
+          "units": "ft",
+          "reach": null
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
         },
         "damage": {
-          "parts": [
-            [
-              "1d6 + @mod",
+          "versatile": {
+            "number": null,
+            "denomination": null,
+            "bonus": "",
+            "types": [],
+            "custom": {
+              "enabled": true,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": null,
+              "formula": ""
+            }
+          },
+          "base": {
+            "number": 1,
+            "denomination": 6,
+            "types": [
               "piercing"
-            ]
-          ],
-          "versatile": ""
+            ],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            },
+            "bonus": ""
+          }
         },
+        "armor": {
+          "value": null
+        },
+        "hp": {
+          "value": null,
+          "max": null,
+          "dt": null,
+          "conditions": ""
+        },
+        "type": {
+          "value": "martialR",
+          "baseItem": "handcrossbow"
+        },
+        "magicalBonus": null,
         "properties": [
           "amm",
           "lgt",
           "lod"
         ],
-        "weaponType": "martialR",
-        "attack": {
-          "bonus": "",
-          "flat": false
+        "proficient": null,
+        "activities": {
+          "CJjRI7JX8tziGFSo": {
+            "type": "attack",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": "30",
+              "units": "ft",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": false,
+              "override": false
+            },
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "ranged",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "sort": 0,
+            "_id": "CJjRI7JX8tziGFSo",
+            "name": "",
+            "img": "",
+            "appliedEffects": []
+          }
         },
-        "ability": ""
+        "ammunition": {
+          "type": "crossbowBolt"
+        },
+        "mastery": "vex",
+        "identifier": "hand-crossbow"
       },
       "effects": [],
-      "folder": null,
+      "folder": "0qKr1rbesCSNE0MA",
       "sort": 300,
       "ownership": {
         "default": 0
       },
       "flags": {
+        "dnd5e": {
+          "riders": {
+            "activity": [],
+            "effect": []
+          }
+        },
         "core": {
-          "sourceId": "Compendium.dnd-players-handbook.items.Item.weapon-hand-crossbow"
+          "sourceId": "Compendium.dnd-players-handbook.equipment.Item.phbwepHandCrossb"
         }
       },
       "_stats": {
-        "compendiumSource": null,
+        "compendiumSource": "Compendium.dnd-players-handbook.equipment.Item.phbwepHandCrossb",
         "duplicateSource": null,
-        "exportSource": null,
         "coreVersion": "13.351",
         "systemId": "dnd5e",
         "systemVersion": "5.3.0",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
+        "createdTime": 1724425919025,
+        "modifiedTime": 1726075772810,
+        "lastModifiedBy": "dnd5ebuilder0000",
+        "exportSource": null
       }
     },
     {
       "_key": "!actors.items!BR2P5ActQuill.BR2Ie2be11473851",
       "_id": "BR2Ie2be11473851",
-      "name": "Crossbow Bolts (10)",
+      "name": "Bolts",
       "type": "consumable",
-      "img": "icons/weapons/ammunition/arrows-bodkin-brown.webp",
+      "img": "icons/weapons/ammunition/arrow-broadhead-white.webp",
       "system": {
         "description": {
-          "value": "<p>10 crossbow bolts in a quiver or wallet.</p>",
+          "value": "<p><em><strong>Storage:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCaseCrossbo]{Case}</em></p><p>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAmmunitionV]{Ammunition} is required by a weapon that has the Ammunition property. A weapon’s description specifies the type of ammunition used by the weapon. The Ammunition table lists the different types and the amount you get when you buy them. The table also lists the item that is typically used to store each type; storage must be bought separately.</p>",
           "chat": ""
         },
-        "source": {
-          "custom": "PHB 2024",
-          "book": "PHB",
-          "page": ""
+        "price": {
+          "value": 1,
+          "denomination": "gp"
         },
+        "source": {
+          "custom": "",
+          "rules": "2024"
+        },
+        "identified": true,
+        "unidentified": {
+          "description": ""
+        },
+        "container": null,
         "quantity": 10,
         "weight": {
           "value": 0.075,
           "units": "lb"
         },
-        "price": {
-          "value": 0.05,
-          "denomination": "gp"
-        },
         "rarity": "",
-        "identified": true,
+        "attunement": "",
+        "attuned": false,
         "equipped": false,
+        "uses": {
+          "max": "",
+          "autoDestroy": false,
+          "spent": 0,
+          "recovery": []
+        },
+        "damage": {
+          "base": {
+            "number": null,
+            "denomination": 0,
+            "types": [],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            },
+            "bonus": ""
+          },
+          "replace": false
+        },
         "type": {
           "value": "ammo",
           "subtype": "crossbowBolt"
         },
-        "uses": {
-          "value": 10,
-          "max": 10,
-          "recovery": [],
-          "spent": 0
-        },
-        "properties": []
+        "magicalBonus": null,
+        "properties": [],
+        "activities": {},
+        "identifier": "bolts"
       },
       "effects": [],
-      "folder": null,
+      "folder": "EkXAWGxKr4wYpODe",
       "sort": 400,
       "ownership": {
         "default": 0
       },
       "flags": {
+        "dnd5e": {},
         "core": {
-          "sourceId": "Compendium.dnd-players-handbook.items.Item.ammo-crossbow-bolts"
+          "sourceId": "Compendium.dnd-players-handbook.equipment.Item.phbamoBolts00000"
         }
       },
       "_stats": {
-        "compendiumSource": null,
+        "compendiumSource": "Compendium.dnd-players-handbook.equipment.Item.phbamoBolts00000",
         "duplicateSource": null,
-        "exportSource": null,
         "coreVersion": "13.351",
         "systemId": "dnd5e",
         "systemVersion": "5.3.0",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
+        "createdTime": 1724425913096,
+        "modifiedTime": 1726451878443,
+        "lastModifiedBy": "dnd5ebuilder0000",
+        "exportSource": null
       }
     },
     {
@@ -728,64 +1117,88 @@
       "_id": "BR2Id9a8a2cf25ab",
       "name": "Studded Leather Armor",
       "type": "equipment",
-      "img": "icons/equipment/chest/breastplate-leather-brown.webp",
+      "img": "modules/dnd-players-handbook/assets/icons/armor/studded-leather-armor.webp",
       "system": {
         "description": {
-          "value": "<p>Light armor. AC 12 + Dex modifier.</p>",
+          "value": "",
           "chat": ""
-        },
-        "source": {
-          "custom": "PHB 2024",
-          "book": "PHB",
-          "page": ""
-        },
-        "quantity": 1,
-        "weight": {
-          "value": 13,
-          "units": "lb"
         },
         "price": {
           "value": 45,
           "denomination": "gp"
         },
-        "rarity": "",
+        "source": {
+          "custom": "",
+          "rules": "2024"
+        },
         "identified": true,
+        "unidentified": {
+          "description": ""
+        },
+        "container": null,
+        "quantity": 1,
+        "weight": {
+          "value": 13,
+          "units": "lb"
+        },
+        "rarity": "",
+        "attunement": "",
+        "attuned": false,
         "equipped": true,
+        "cover": null,
+        "crewed": false,
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
         "armor": {
           "value": 12,
-          "type": "light",
-          "dex": null,
-          "magicalBonus": 0
+          "magicalBonus": null,
+          "dex": null
         },
-        "strength": 0,
-        "stealth": false,
-        "properties": [],
+        "hp": {
+          "value": null,
+          "max": null,
+          "dt": null,
+          "conditions": ""
+        },
         "type": {
           "value": "light",
           "baseItem": "studded"
-        }
+        },
+        "properties": [],
+        "speed": {
+          "value": null,
+          "conditions": ""
+        },
+        "strength": null,
+        "proficient": null,
+        "activities": {},
+        "identifier": "studded-leather-armor"
       },
       "effects": [],
-      "folder": null,
+      "folder": "G3X11BbtmEqLmEnK",
       "sort": 500,
       "ownership": {
         "default": 0
       },
       "flags": {
+        "dnd5e": {},
         "core": {
-          "sourceId": "Compendium.dnd-players-handbook.items.Item.armor-studded-leather"
+          "sourceId": "Compendium.dnd-players-handbook.equipment.Item.phbarmStuddedLea"
         }
       },
       "_stats": {
-        "compendiumSource": null,
+        "compendiumSource": "Compendium.dnd-players-handbook.equipment.Item.phbarmStuddedLea",
         "duplicateSource": null,
-        "exportSource": null,
         "coreVersion": "13.351",
         "systemId": "dnd5e",
         "systemVersion": "5.3.0",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
+        "createdTime": 1724425914455,
+        "modifiedTime": 1726084118849,
+        "lastModifiedBy": "dnd5ebuilder0000",
+        "exportSource": null
       }
     },
     {
@@ -907,151 +1320,248 @@
       "_id": "BR2I5b4d2f0742f3",
       "name": "Multiattack",
       "type": "feat",
-      "img": "icons/sundries/scrolls/scroll-rolled-tan.webp",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
       "system": {
-        "description": {
-          "value": "<p>Quill makes two melee attacks (scimitar + dagger, or two scimitar) and one Hand Crossbow attack.</p>",
-          "chat": ""
-        },
-        "source": {
-          "custom": "Blooming Rot 2 (NPC feature)",
-          "book": "",
-          "page": ""
-        },
-        "activation": {
-          "type": "action",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": "",
-          "units": ""
-        },
-        "target": {
-          "value": "",
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": null,
-          "max": "",
-          "recovery": [],
-          "spent": 0
-        },
-        "recharge": {
-          "value": null,
-          "charged": false
-        },
-        "requirements": "",
         "type": {
           "value": "monster",
           "subtype": ""
         },
-        "properties": []
+        "activities": {
+          "Ms63W7e3Mv2Margn": {
+            "type": "utility",
+            "name": "Use",
+            "_id": "Ms63W7e3Mv2Margn",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {},
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft"
+              },
+              "affects": {
+                "choice": false
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": []
+            },
+            "roll": {
+              "prompt": false,
+              "visible": false
+            }
+          }
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "description": {
+          "value": "<p>The [[lookup @name lowercase]] makes {count} [[/item]] attacks and uses [[/item]].</p>",
+          "chat": ""
+        },
+        "identifier": "multiattack",
+        "source": {
+          "revision": 1,
+          "rules": "2024"
+        },
+        "enchant": {},
+        "prerequisites": {
+          "level": null
+        },
+        "properties": [],
+        "requirements": ""
       },
       "effects": [],
-      "folder": null,
+      "folder": "4T18pEvubPMQLzvD",
       "sort": 800,
       "ownership": {
         "default": 0
       },
       "flags": {
+        "dnd5e": {
+          "riders": {
+            "activity": [],
+            "effect": []
+          }
+        },
         "core": {
-          "sourceId": "Compendium.dnd-monster-manual.actions.Item.multiattack"
+          "sourceId": "Compendium.dnd-monster-manual.features.Item.mmMultiattack000"
         }
       },
       "_stats": {
-        "compendiumSource": null,
+        "compendiumSource": "Compendium.dnd-monster-manual.features.Item.mmMultiattack000",
         "duplicateSource": null,
-        "exportSource": null,
         "coreVersion": "13.351",
         "systemId": "dnd5e",
         "systemVersion": "5.3.0",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
+        "createdTime": 1733432292956,
+        "modifiedTime": 1737515542020,
+        "lastModifiedBy": "dnd5ebuilder0000",
+        "exportSource": null
       }
     },
     {
       "_key": "!actors.items!BR2P5ActQuill.BR2Id47f9385e3a8",
       "_id": "BR2Id47f9385e3a8",
-      "name": "Parry (+2 AC)",
+      "name": "Parry",
       "type": "feat",
-      "img": "icons/sundries/scrolls/scroll-rolled-tan.webp",
+      "img": "icons/skills/melee/shield-block-bash-blue.webp",
       "system": {
         "description": {
-          "value": "<p><strong>Reaction.</strong> When hit by a melee attack the creature can see, add <strong>+2</strong> to its AC against that attack, potentially turning the hit into a miss.</p>",
+          "value": "<p>When another creature damages you with a melee attack roll, you can take a Reaction and expend one Superiority Die to reduce the damage by the number you roll on your Superiority Die plus your Strength or Dexterity modifier (your choice).</p><section class=\"secret\" id=\"secret-0wY3O9dAMQDKj066\"><p><strong>Foundry Note</strong></p><p>This feature includes a Healing Reaction activity which can be used to retroactively recover the received damage.</p></section>",
           "chat": ""
         },
         "source": {
-          "custom": "Blooming Rot 2 (NPC feature)",
-          "book": "",
-          "page": ""
-        },
-        "activation": {
-          "type": "reaction",
-          "cost": 1,
-          "condition": "Hit by a melee attack"
-        },
-        "duration": {
-          "value": "",
-          "units": ""
-        },
-        "target": {
-          "value": "",
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
+          "custom": "",
+          "rules": "2024"
         },
         "uses": {
-          "value": null,
           "max": "",
-          "recovery": [],
-          "spent": 0
+          "spent": 0,
+          "recovery": []
         },
-        "recharge": {
-          "value": null,
-          "charged": false
-        },
-        "requirements": "",
         "type": {
-          "value": "monster",
-          "subtype": ""
+          "value": "class",
+          "subtype": "maneuver"
         },
-        "properties": []
+        "prerequisites": {
+          "level": 3
+        },
+        "properties": [],
+        "requirements": "",
+        "activities": {
+          "F4UxiihGgkdv4orJ": {
+            "type": "heal",
+            "_id": "F4UxiihGgkdv4orJ",
+            "activation": {
+              "type": "reaction",
+              "value": null,
+              "override": false,
+              "condition": "When another creature damages you with a melee attack roll"
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": [
+                {
+                  "type": "itemUses",
+                  "value": "1",
+                  "target": "Compendium.dnd-players-handbook.classes.Item.phbftrCombatSupe"
+                }
+              ]
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self",
+              "special": ""
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "count": "",
+                "type": "self",
+                "special": ""
+              },
+              "override": false,
+              "prompt": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "sort": 0,
+            "healing": {
+              "number": null,
+              "denomination": "",
+              "types": [
+                "healing"
+              ],
+              "custom": {
+                "enabled": true,
+                "formula": "@scale.battle-master.superiority.die + max(@abilities.str.mod, @abilities.dex.mod)"
+              },
+              "scaling": {
+                "number": 1
+              },
+              "bonus": ""
+            },
+            "name": "",
+            "img": "",
+            "appliedEffects": []
+          }
+        },
+        "enchant": {},
+        "identifier": "parry"
       },
       "effects": [],
-      "folder": null,
+      "folder": "tgLxjBJ1GxcEPcIC",
       "sort": 900,
       "ownership": {
         "default": 0
       },
       "flags": {
+        "dnd5e": {
+          "riders": {
+            "activity": [],
+            "effect": []
+          }
+        },
         "core": {
-          "sourceId": "Compendium.dnd-monster-manual.actions.Item.parry"
+          "sourceId": "Compendium.dnd-players-handbook.classes.Item.phbmnvParry00000"
         }
       },
       "_stats": {
-        "compendiumSource": null,
+        "compendiumSource": "Compendium.dnd-players-handbook.classes.Item.phbmnvParry00000",
         "duplicateSource": null,
-        "exportSource": null,
         "coreVersion": "13.351",
         "systemId": "dnd5e",
         "systemVersion": "5.3.0",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
+        "createdTime": 1724425980078,
+        "modifiedTime": 1755018572500,
+        "lastModifiedBy": "dnd5ebuilder0000",
+        "exportSource": null
       }
     }
   ],

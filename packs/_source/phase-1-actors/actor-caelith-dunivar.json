@@ -417,90 +417,211 @@
       "_id": "BR2I5f84c0723f65",
       "name": "Rapier",
       "type": "weapon",
-      "img": "icons/weapons/swords/rapier-blue.webp",
+      "img": "modules/dnd-players-handbook/assets/icons/items/rapier.webp",
       "system": {
         "description": {
-          "value": "<p>A finesse martial melee weapon. Pairs with Sneak Attack and Mastery: Vex.</p>",
+          "value": "",
           "chat": ""
-        },
-        "source": {
-          "custom": "PHB 2024",
-          "book": "PHB",
-          "page": ""
-        },
-        "quantity": 1,
-        "weight": {
-          "value": 2,
-          "units": "lb"
         },
         "price": {
           "value": 25,
           "denomination": "gp"
         },
-        "rarity": "",
+        "source": {
+          "custom": "",
+          "rules": "2024"
+        },
         "identified": true,
+        "unidentified": {
+          "description": ""
+        },
+        "container": null,
+        "quantity": 1,
+        "weight": {
+          "value": 2,
+          "units": "lb"
+        },
+        "rarity": "",
+        "attunement": "",
+        "attuned": false,
         "equipped": true,
-        "proficient": 1,
-        "activation": {
-          "type": "action",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": "",
-          "units": "inst"
-        },
-        "target": {
-          "value": "",
-          "width": null,
-          "units": "",
-          "type": "creature"
-        },
+        "cover": null,
+        "crewed": false,
         "range": {
-          "value": 5,
+          "value": null,
           "long": null,
-          "units": "ft"
+          "units": "ft",
+          "reach": null
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
         },
         "damage": {
-          "parts": [
-            [
-              "1d8 + @mod",
+          "versatile": {
+            "number": null,
+            "denomination": null,
+            "bonus": "",
+            "types": [],
+            "custom": {
+              "enabled": true,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": null,
+              "formula": ""
+            }
+          },
+          "base": {
+            "number": 1,
+            "denomination": 8,
+            "types": [
               "piercing"
-            ]
-          ],
-          "versatile": ""
+            ],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            },
+            "bonus": ""
+          }
         },
+        "armor": {
+          "value": null
+        },
+        "hp": {
+          "value": null,
+          "max": null,
+          "dt": null,
+          "conditions": ""
+        },
+        "type": {
+          "value": "martialM",
+          "baseItem": "rapier"
+        },
+        "magicalBonus": null,
         "properties": [
           "fin"
         ],
-        "weaponType": "martialM",
-        "attack": {
-          "bonus": "",
-          "flat": false
+        "proficient": null,
+        "activities": {
+          "0PGNisis4CVkSml5": {
+            "type": "attack",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": "5",
+              "units": "ft",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": false,
+              "override": false
+            },
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "sort": 0,
+            "_id": "0PGNisis4CVkSml5",
+            "name": "",
+            "img": "",
+            "appliedEffects": []
+          }
         },
-        "ability": ""
+        "ammunition": {},
+        "mastery": "vex",
+        "identifier": "rapier"
       },
       "effects": [],
-      "folder": null,
+      "folder": "fd3qxAXCv2FhExPp",
       "sort": 100,
       "ownership": {
         "default": 0
       },
       "flags": {
+        "dnd5e": {
+          "riders": {
+            "activity": [],
+            "effect": []
+          }
+        },
         "core": {
-          "sourceId": "Compendium.dnd-players-handbook.items.Item.weapon-rapier"
+          "sourceId": "Compendium.dnd-players-handbook.equipment.Item.phbwepRapier0000"
         }
       },
       "_stats": {
-        "compendiumSource": null,
+        "compendiumSource": "Compendium.dnd-players-handbook.equipment.Item.phbwepRapier0000",
         "duplicateSource": null,
-        "exportSource": null,
         "coreVersion": "13.351",
         "systemId": "dnd5e",
         "systemVersion": "5.3.0",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
+        "createdTime": 1724425919935,
+        "modifiedTime": 1726075773340,
+        "lastModifiedBy": "dnd5ebuilder0000",
+        "exportSource": null
       }
     },
     {
@@ -508,92 +629,213 @@
       "_id": "BR2Ib4116620d0dd",
       "name": "Dagger",
       "type": "weapon",
-      "img": "icons/weapons/daggers/dagger-curved-glow.webp",
+      "img": "modules/dnd-players-handbook/assets/icons/items/dagger.webp",
       "system": {
         "description": {
-          "value": "<p>A finesse, light, thrown simple melee weapon. Mastery: Nick.</p>",
+          "value": "",
           "chat": ""
-        },
-        "source": {
-          "custom": "PHB 2024",
-          "book": "PHB",
-          "page": ""
-        },
-        "quantity": 1,
-        "weight": {
-          "value": 1,
-          "units": "lb"
         },
         "price": {
           "value": 2,
           "denomination": "gp"
         },
-        "rarity": "",
+        "source": {
+          "custom": "",
+          "rules": "2024"
+        },
         "identified": true,
+        "unidentified": {
+          "description": ""
+        },
+        "container": null,
+        "quantity": 1,
+        "weight": {
+          "value": 1,
+          "units": "lb"
+        },
+        "rarity": "",
+        "attunement": "",
+        "attuned": false,
         "equipped": true,
-        "proficient": 1,
-        "activation": {
-          "type": "action",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": "",
-          "units": "inst"
-        },
-        "target": {
-          "value": "",
-          "width": null,
-          "units": "",
-          "type": "creature"
-        },
+        "cover": null,
+        "crewed": false,
         "range": {
-          "value": 5,
+          "value": 20,
           "long": 60,
-          "units": "ft"
+          "units": "ft",
+          "reach": null
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
         },
         "damage": {
-          "parts": [
-            [
-              "1d4 + @mod",
+          "versatile": {
+            "number": null,
+            "denomination": null,
+            "bonus": "",
+            "types": [],
+            "custom": {
+              "enabled": true,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": null,
+              "formula": ""
+            }
+          },
+          "base": {
+            "number": 1,
+            "denomination": 4,
+            "types": [
               "piercing"
-            ]
-          ],
-          "versatile": ""
+            ],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            },
+            "bonus": ""
+          }
         },
+        "armor": {
+          "value": null
+        },
+        "hp": {
+          "value": null,
+          "max": null,
+          "dt": null,
+          "conditions": ""
+        },
+        "type": {
+          "value": "simpleM",
+          "baseItem": "dagger"
+        },
+        "magicalBonus": null,
         "properties": [
           "fin",
           "lgt",
           "thr"
         ],
-        "weaponType": "simpleM",
-        "attack": {
-          "bonus": "",
-          "flat": false
+        "proficient": null,
+        "activities": {
+          "3SJSAL3pv9gKkAM9": {
+            "type": "attack",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": "20",
+              "units": "ft",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": false,
+              "override": false
+            },
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "sort": 0,
+            "_id": "3SJSAL3pv9gKkAM9",
+            "name": "",
+            "img": "",
+            "appliedEffects": []
+          }
         },
-        "ability": ""
+        "ammunition": {},
+        "mastery": "nick",
+        "identifier": "dagger"
       },
       "effects": [],
-      "folder": null,
+      "folder": "FL1Jee9DzStc7vM3",
       "sort": 200,
       "ownership": {
         "default": 0
       },
       "flags": {
+        "dnd5e": {
+          "riders": {
+            "activity": [],
+            "effect": []
+          }
+        },
         "core": {
-          "sourceId": "Compendium.dnd-players-handbook.items.Item.weapon-dagger"
+          "sourceId": "Compendium.dnd-players-handbook.equipment.Item.phbwepDagger0000"
         }
       },
       "_stats": {
-        "compendiumSource": null,
+        "compendiumSource": "Compendium.dnd-players-handbook.equipment.Item.phbwepDagger0000",
         "duplicateSource": null,
-        "exportSource": null,
         "coreVersion": "13.351",
         "systemId": "dnd5e",
         "systemVersion": "5.3.0",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
+        "createdTime": 1724425918352,
+        "modifiedTime": 1726075772544,
+        "lastModifiedBy": "dnd5ebuilder0000",
+        "exportSource": null
       }
     },
     {
@@ -715,17 +957,21 @@
       "_id": "BR2Iaf7ab874233c",
       "name": "Calligrapher's Supplies",
       "type": "tool",
-      "img": "icons/tools/scribal/ink-quill-pink.webp",
+      "img": "icons/tools/scribal/pen-steel-grey-brown.webp",
       "system": {
         "description": {
-          "value": "<p>Quills, ink, parchment, sealing wax, signet seal. Used by clerks, notaries, and paleographers.</p>",
+          "value": "<p class=\"phb-meta\"><strong>Ability:</strong> Dexterity</p><p class=\"phb-meta\"><strong>Utilize:</strong> Write text with impressive flourishes that guard against forgery (DC 15)</p><p class=\"phb-meta\"><strong>Craft:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInk00000000]{Ink}, <em>Spell Scroll</em></p>",
           "chat": ""
         },
         "source": {
-          "custom": "PHB 2024",
-          "book": "PHB",
-          "page": ""
+          "custom": "",
+          "rules": "2024"
         },
+        "identified": true,
+        "unidentified": {
+          "description": ""
+        },
+        "container": null,
         "quantity": 1,
         "weight": {
           "value": 5,
@@ -736,37 +982,124 @@
           "denomination": "gp"
         },
         "rarity": "",
-        "identified": true,
+        "attunement": "",
+        "attuned": false,
         "equipped": false,
-        "proficient": 1,
-        "ability": "int",
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
         "type": {
           "value": "art",
           "baseItem": "calligrapher"
         },
-        "properties": []
+        "ability": "dex",
+        "chatFlavor": "",
+        "proficient": null,
+        "properties": [],
+        "bonus": "",
+        "activities": {
+          "PVMIlNQvLAyrF4kP": {
+            "type": "check",
+            "activation": {
+              "type": "action",
+              "value": null,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "units": "self",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": false,
+              "override": false
+            },
+            "check": {
+              "ability": "dex",
+              "dc": {
+                "calculation": "",
+                "formula": "15"
+              },
+              "associated": []
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "sort": 0,
+            "_id": "PVMIlNQvLAyrF4kP",
+            "name": "",
+            "img": "",
+            "appliedEffects": []
+          }
+        },
+        "identifier": "calligraphers-supplies"
       },
       "effects": [],
-      "folder": null,
+      "folder": "V8KHbNkEWoXQP3Pj",
       "sort": 500,
       "ownership": {
         "default": 0
       },
       "flags": {
+        "dnd5e": {
+          "riders": {
+            "activity": [],
+            "effect": []
+          }
+        },
         "core": {
-          "sourceId": "Compendium.dnd-players-handbook.items.Item.tool-calligraphers-supplies"
+          "sourceId": "Compendium.dnd-players-handbook.equipment.Item.phbtulCalligraph"
         }
       },
       "_stats": {
-        "compendiumSource": null,
+        "compendiumSource": "Compendium.dnd-players-handbook.equipment.Item.phbtulCalligraph",
         "duplicateSource": null,
-        "exportSource": null,
         "coreVersion": "13.351",
         "systemId": "dnd5e",
         "systemVersion": "5.3.0",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
+        "createdTime": 1724425916416,
+        "modifiedTime": 1726581961607,
+        "lastModifiedBy": "dnd5ebuilder0000",
+        "exportSource": null
       }
     },
     {
@@ -774,151 +1107,442 @@
       "_id": "BR2I5dd193404785",
       "name": "Cunning Action",
       "type": "feat",
-      "img": "icons/sundries/scrolls/scroll-rolled-tan.webp",
+      "img": "icons/skills/movement/figure-running-gray.webp",
       "system": {
         "description": {
-          "value": "<p><strong>Bonus Action.</strong> Take the Dash, Disengage, or Hide action.</p>",
+          "value": "<p>Your quick thinking and agility allow you to move and act quickly. On your turn, you can take one of the following actions as a Bonus Action: &amp;Reference[Dash], &amp;Reference[Disengage], or &amp;Reference[Hide].</p>",
           "chat": ""
         },
         "source": {
-          "custom": "Blooming Rot 2 (NPC feature)",
-          "book": "",
-          "page": ""
-        },
-        "activation": {
-          "type": "bonus",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": "",
-          "units": ""
-        },
-        "target": {
-          "value": "",
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
+          "custom": "",
+          "rules": "2024"
         },
         "uses": {
-          "value": null,
           "max": "",
-          "recovery": [],
-          "spent": 0
+          "spent": 0,
+          "recovery": []
         },
-        "recharge": {
-          "value": null,
-          "charged": false
-        },
-        "requirements": "",
         "type": {
-          "value": "monster",
+          "value": "class",
           "subtype": ""
         },
-        "properties": []
+        "prerequisites": {
+          "level": 2
+        },
+        "properties": [],
+        "requirements": "",
+        "activities": {
+          "NtS3iThuWWwm8O62": {
+            "type": "utility",
+            "_id": "NtS3iThuWWwm8O62",
+            "activation": {
+              "type": "bonus",
+              "value": null,
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self",
+              "special": ""
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "count": "",
+                "type": ""
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "sort": 100000,
+            "roll": {
+              "prompt": false,
+              "visible": false,
+              "name": "",
+              "formula": ""
+            },
+            "name": "Dash",
+            "img": "",
+            "appliedEffects": []
+          },
+          "AeCciDTvw3kS583a": {
+            "type": "utility",
+            "name": "Disengage",
+            "_id": "AeCciDTvw3kS583a",
+            "activation": {
+              "type": "bonus",
+              "value": null,
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self",
+              "special": ""
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "count": "",
+                "type": ""
+              },
+              "override": false,
+              "prompt": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "sort": 300000,
+            "roll": {
+              "prompt": false,
+              "visible": false,
+              "name": "",
+              "formula": ""
+            },
+            "img": "",
+            "appliedEffects": []
+          },
+          "NiI5qEhg9TepZxMh": {
+            "type": "utility",
+            "_id": "NiI5qEhg9TepZxMh",
+            "activation": {
+              "type": "bonus",
+              "value": null,
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [
+              {
+                "_id": "YLfpwyCVUObRTopP"
+              }
+            ],
+            "range": {
+              "override": false,
+              "units": "self",
+              "special": ""
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "count": "",
+                "type": "self"
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "sort": 0,
+            "roll": {
+              "prompt": false,
+              "visible": false,
+              "name": "",
+              "formula": ""
+            },
+            "name": "Hide",
+            "img": "",
+            "appliedEffects": []
+          }
+        },
+        "enchant": {},
+        "identifier": "cunning-action"
       },
-      "effects": [],
-      "folder": null,
+      "effects": [
+        {
+          "name": "Hiding",
+          "img": "icons/skills/movement/figure-running-gray.webp",
+          "origin": "Compendium.dnd-players-handbook.classes.Item.phbrgeCunningAct",
+          "transfer": false,
+          "_id": "YLfpwyCVUObRTopP",
+          "type": "base",
+          "system": {},
+          "changes": [],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "",
+          "tint": "#ffffff",
+          "statuses": [
+            "hiding"
+          ],
+          "sort": 0,
+          "flags": {},
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "13.346",
+            "systemId": "dnd5e",
+            "systemVersion": "4.0.0",
+            "createdTime": 1724986029023,
+            "modifiedTime": 1726859963646,
+            "lastModifiedBy": "rL0ykqNFC97PcTW6",
+            "exportSource": null
+          },
+          "_key": "!items.effects!phbrgeCunningAct.YLfpwyCVUObRTopP"
+        }
+      ],
+      "folder": "ymTkGscp5QEOwDlv",
       "sort": 600,
       "ownership": {
         "default": 0
       },
       "flags": {
+        "dnd5e": {},
         "core": {
-          "sourceId": "Compendium.dnd-players-handbook.classfeatures.Item.rogue-cunning-action"
+          "sourceId": "Compendium.dnd-players-handbook.classes.Item.phbrgeCunningAct"
         }
       },
       "_stats": {
-        "compendiumSource": null,
+        "compendiumSource": "Compendium.dnd-players-handbook.classes.Item.phbrgeCunningAct",
         "duplicateSource": null,
-        "exportSource": null,
         "coreVersion": "13.351",
         "systemId": "dnd5e",
         "systemVersion": "5.3.0",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
+        "createdTime": 1724425981415,
+        "modifiedTime": 1726075582469,
+        "lastModifiedBy": "dnd5ebuilder0000",
+        "exportSource": null
       }
     },
     {
       "_key": "!actors.items!BR2ActrCaelithDn.BR2I2eef48e5ad5e",
       "_id": "BR2I2eef48e5ad5e",
-      "name": "Sneak Attack (4d6 (14))",
+      "name": "Sneak Attack",
       "type": "feat",
-      "img": "icons/sundries/scrolls/scroll-rolled-tan.webp",
+      "img": "icons/skills/melee/strike-dagger-white-orange.webp",
       "system": {
         "description": {
-          "value": "<p><strong>1/Turn.</strong> Deal an extra <strong>4d6 (14)</strong> damage on a weapon attack with advantage on the attack roll, or when an ally of the rogue is within 5 feet of the target. The weapon must have the finesse or ranged property.</p>",
+          "value": "<p>You know how to strike subtly and exploit a foe’s distraction. Once per turn, you can deal an extra 1d6 damage to one creature you hit with an attack roll if you have Advantage on the roll and the attack uses a Finesse or a Ranged weapon. The extra damage’s type is the same as the weapon’s type.</p><p>You don’t need Advantage on the attack roll if at least one of your allies is within 5 feet of the target, the ally doesn’t have the Incapacitated condition, and you don’t have Disadvantage on the attack roll.</p><p>The extra damage increases as you gain Rogue levels, as shown in the Sneak Attack column of the Rogue Features table.</p><p><strong>Current Sneak Attack Damage:</strong> [[lookup @scale.rogue.sneak-attack]]</p><section class=\"secret\" id=\"secret-ulLpai4CguAExpmN\"><p><strong>Foundry Note</strong></p><p>Your sneak attack damage will automatically scale as you level up. You can select the damage type in the damage roll's dialog box.</p></section>",
           "chat": ""
         },
         "source": {
-          "custom": "Blooming Rot 2 (NPC feature)",
+          "custom": "",
+          "rules": "2024",
           "book": "",
-          "page": ""
-        },
-        "activation": {
-          "type": "",
-          "cost": null,
-          "condition": ""
-        },
-        "duration": {
-          "value": "",
-          "units": ""
-        },
-        "target": {
-          "value": "",
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
+          "page": "",
+          "license": "",
+          "revision": 2
         },
         "uses": {
-          "value": null,
           "max": "",
-          "recovery": [],
-          "spent": 0
+          "spent": 0,
+          "recovery": []
         },
-        "recharge": {
-          "value": null,
-          "charged": false
-        },
-        "requirements": "",
         "type": {
-          "value": "monster",
+          "value": "class",
           "subtype": ""
         },
-        "properties": []
+        "prerequisites": {
+          "level": 1
+        },
+        "properties": [],
+        "requirements": "",
+        "activities": {
+          "a1T6nHaqmvbLpyJr": {
+            "type": "damage",
+            "activation": {
+              "type": "",
+              "value": null,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "units": "self",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "1",
+                "type": "creature",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": false,
+              "override": false
+            },
+            "damage": {
+              "critical": {
+                "allow": true,
+                "bonus": ""
+              },
+              "parts": [
+                {
+                  "custom": {
+                    "enabled": true,
+                    "formula": "@scale.rogue.sneak-attack"
+                  },
+                  "number": null,
+                  "denomination": null,
+                  "bonus": "",
+                  "types": [
+                    "acid",
+                    "bludgeoning",
+                    "cold",
+                    "fire",
+                    "force",
+                    "lightning",
+                    "necrotic",
+                    "piercing",
+                    "poison",
+                    "psychic",
+                    "radiant",
+                    "slashing",
+                    "thunder"
+                  ]
+                }
+              ]
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": "1"
+            },
+            "sort": 0,
+            "_id": "a1T6nHaqmvbLpyJr",
+            "name": "",
+            "img": "",
+            "appliedEffects": []
+          }
+        },
+        "enchant": {},
+        "identifier": "sneak-attack"
       },
       "effects": [],
-      "folder": null,
+      "folder": "ymTkGscp5QEOwDlv",
       "sort": 700,
       "ownership": {
         "default": 0
       },
       "flags": {
+        "dnd5e": {
+          "riders": {
+            "activity": [],
+            "effect": []
+          }
+        },
         "core": {
-          "sourceId": "Compendium.dnd-players-handbook.classfeatures.Item.rogue-sneak-attack"
+          "sourceId": "Compendium.dnd-players-handbook.classes.Item.phbrgeSneakAttac"
         }
       },
       "_stats": {
-        "compendiumSource": null,
+        "compendiumSource": "Compendium.dnd-players-handbook.classes.Item.phbrgeSneakAttac",
         "duplicateSource": null,
-        "exportSource": null,
         "coreVersion": "13.351",
         "systemId": "dnd5e",
         "systemVersion": "5.3.0",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
+        "createdTime": 1724425981963,
+        "modifiedTime": 1740696321890,
+        "lastModifiedBy": "dnd5ebuilder0000",
+        "exportSource": null
       }
     },
     {

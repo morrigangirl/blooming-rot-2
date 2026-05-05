@@ -27,7 +27,11 @@ const SOURCES = [
   { module: "dnd-dungeon-masters-guide", pack: "equipment" }, // magic items
   { module: "dnd-dungeon-masters-guide", pack: "features" },  // DMG features
   { module: "dnd-dungeon-masters-guide", pack: "bastions" },
-  { module: "dnd-monster-manual", pack: "features" }       // NPC features (Multiattack, Parry, etc.)
+  { module: "dnd-monster-manual", pack: "features" },      // NPC features (Multiattack, Parry, etc.)
+  // NPC actor stat blocks — used as templates when generating BR2 named-NPC actors
+  { module: "dnd-monster-manual", pack: "actors" },
+  { module: "dnd-players-handbook", pack: "actors" },
+  { module: "dnd-dungeon-masters-guide", pack: "actors" }
 ];
 
 fs.rmSync(OUT, { recursive: true, force: true });

@@ -31,7 +31,13 @@ for (const phase of PHASES) {
     // ---- weapon proficient/equipped ----
     for (const item of j.items || []) {
       if (item.type === "weapon") {
-        if (item.system?.equipped !== true) {
+        // MM features-pack "weapons" (spell-attack-as-weapon items like Arcane
+        // Burst on NPC casters) don't carry an `equipped` field by design.
+        // They're always-available attack actions, not gear.
+        const fromMMFeatures =
+          (item.flags?.core?.sourceId || "").startsWith("Compendium.dnd-monster-manual.features.") ||
+          (item._stats?.compendiumSource || "").startsWith("Compendium.dnd-monster-manual.features.");
+        if (!fromMMFeatures && item.system?.equipped !== true) {
           issues.push(`${tag}: weapon "${item.name}" not equipped (system.equipped = ${item.system?.equipped})`);
         }
         // proficient: null (inherit), 0 (no), 1 (yes), 2 (expertise)

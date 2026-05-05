@@ -2,7 +2,7 @@
   "id": "blooming-rot-2",
   "title": "Blooming Rot, Part 2",
   "description": "A Greyhawk adventure set in the pre-Wars Yeomanry, in five phases: Loftwick's return, the dead man's receipts, the Hardby investigation, the Rel Astra confrontation, and The Small Matter (the Loftwick counterintelligence aftermath).",
-  "version": "0.6.3",
+  "version": "0.6.4",
   "compatibility": {
     "minimum": "13",
     "verified": "13.351",
@@ -16,7 +16,7 @@
   ],
   "url": "https://github.com/morrigangirl/blooming-rot-2",
   "manifest": "https://github.com/morrigangirl/blooming-rot-2/releases/latest/download/module.json",
-  "download": "https://github.com/morrigangirl/blooming-rot-2/releases/download/v0.6.3/module.zip",
+  "download": "https://github.com/morrigangirl/blooming-rot-2/releases/download/v0.6.4/module.zip",
   "readme": "https://github.com/morrigangirl/blooming-rot-2/blob/main/README.md",
   "bugs": "https://github.com/morrigangirl/blooming-rot-2/issues",
   "changelog": "https://github.com/morrigangirl/blooming-rot-2/releases",
@@ -140,6 +140,13 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       }
+    },
+    {
+      "name": "sandbox-actors",
+      "label": "Sandbox — Anchors & Crafters",
+      "path": "packs/sandbox-actors",
+      "type": "Actor",
+      "system": "dnd5e"
     }
   ],
   "packFolders": [
@@ -188,7 +195,8 @@
       "name": "Blooming Rot 2 — Sandbox",
       "sorting": "m",
       "packs": [
-        "sandbox-journals"
+        "sandbox-journals",
+        "sandbox-actors"
       ]
     }
   ]

@@ -30,7 +30,8 @@ const ACTOR_PHASES = [
   "phase-2-actors",
   "phase-3-actors",
   "phase-4-actors",
-  "phase-5-actors"
+  "phase-5-actors",
+  "sandbox-actors"
 ];
 
 const APPLY = process.argv.includes("--apply");
@@ -201,6 +202,15 @@ for (const phase of ACTOR_PHASES) {
       const realDoc = match.doc;
       const realUuid = `Compendium.${match.moduleId}.${match.packName}.Item.${realDoc._id}`;
 
+      // Re-key any active effects so they belong to THIS actor's item, not
+      // the source compendium's item. Otherwise multiple actors carrying the
+      // same PHB feat (e.g. Cunning Action) collide on effect _key during
+      // pack compile.
+      const reKeyedEffects = (realDoc.effects ?? []).map((eff) => ({
+        ...eff,
+        _key: `!actors.items.effects!${actor._id}.${item._id}.${eff._id}`
+      }));
+
       const newItem = {
         // Order matches what the existing actor JSONs use for diff-friendliness
         _key: item._key,
@@ -209,7 +219,7 @@ for (const phase of ACTOR_PHASES) {
         type: realDoc.type,
         img: realDoc.img,
         system: realDoc.system,
-        effects: realDoc.effects ?? [],
+        effects: reKeyedEffects,
         folder: item.folder ?? realDoc.folder ?? null,
         sort: item.sort ?? 0,
         ownership: item.ownership ?? { default: 0 },

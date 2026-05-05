@@ -1548,8 +1548,8 @@
           "supply": 0
         },
         "preparation": {
-          "mode": "always",
-          "prepared": 1
+          "mode": "atwill",
+          "prepared": true
         },
         "activities": {
           "bs1cjAs0zaHB959h": {
@@ -1728,8 +1728,8 @@
           "supply": 0
         },
         "preparation": {
-          "mode": "always",
-          "prepared": 1
+          "mode": "atwill",
+          "prepared": true
         },
         "activities": {
           "QdMC2s97UJKjUBoD": {
@@ -1907,8 +1907,8 @@
           "supply": 0
         },
         "preparation": {
-          "mode": "always",
-          "prepared": 1
+          "mode": "atwill",
+          "prepared": true
         },
         "activities": {
           "XkQLfFVopYW3SasN": {
@@ -2154,8 +2154,8 @@
           "supply": 0
         },
         "preparation": {
-          "mode": "always",
-          "prepared": 1
+          "mode": "atwill",
+          "prepared": true
         },
         "activities": {
           "gbdxQQmWwEAL1zpH": {
@@ -2303,8 +2303,8 @@
           "supply": 0
         },
         "preparation": {
-          "mode": "always",
-          "prepared": 1
+          "mode": "pact",
+          "prepared": true
         },
         "activities": {
           "dnd5eactivity000": {
@@ -2946,8 +2946,8 @@
           "supply": 0
         },
         "preparation": {
-          "mode": "always",
-          "prepared": 1
+          "mode": "pact",
+          "prepared": true
         },
         "activities": {
           "dnd5eactivity000": {
@@ -3141,8 +3141,8 @@
           "supply": 0
         },
         "preparation": {
-          "mode": "always",
-          "prepared": 1
+          "mode": "pact",
+          "prepared": true
         },
         "activities": {
           "dnd5eactivity000": {
@@ -3282,8 +3282,8 @@
           "supply": 0
         },
         "preparation": {
-          "mode": "always",
-          "prepared": 1
+          "mode": "pact",
+          "prepared": true
         },
         "activities": {
           "dnd5eactivity000": {
@@ -3475,8 +3475,8 @@
           "supply": 0
         },
         "preparation": {
-          "mode": "always",
-          "prepared": 1
+          "mode": "pact",
+          "prepared": true
         },
         "activities": {
           "dnd5eactivity000": {
@@ -3695,8 +3695,8 @@
           "supply": 0
         },
         "preparation": {
-          "mode": "always",
-          "prepared": 1
+          "mode": "pact",
+          "prepared": true
         },
         "activities": {
           "dnd5eactivity000": {
@@ -3839,8 +3839,8 @@
           "supply": 0
         },
         "preparation": {
-          "mode": "always",
-          "prepared": 1
+          "mode": "pact",
+          "prepared": true
         },
         "activities": {
           "dnd5eactivity000": {
@@ -4005,8 +4005,8 @@
           "supply": 0
         },
         "preparation": {
-          "mode": "always",
-          "prepared": 1
+          "mode": "pact",
+          "prepared": true
         },
         "activities": {
           "dnd5eactivity000": {

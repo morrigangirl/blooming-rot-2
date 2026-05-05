@@ -96,7 +96,11 @@ const NAME_ALIASES = new Map([
   ["eldritch invocation mask of many faces", "mask of many faces"],
   ["eldritch invocation misty visions", "misty visions"],
   // Trina's combined feat name → drop spell suffix to match PHB's class feature
-  ["mystic arcanum 5th level hold monster", "mystic arcanum"]
+  ["mystic arcanum 5th level hold monster", "mystic arcanum"],
+  // BR2 flavor weapons/armor → mechanical PHB equivalents (user prefers
+  // ease-of-execution over flavor names)
+  ["heavy clasp knife", "dagger"],
+  ["hidden mail shirt", "chain shirt"]
 ]);
 
 function aliasNormalize(s) {
@@ -239,9 +243,25 @@ for (const phase of ACTOR_PHASES) {
         newItem.system = { ...newItem.system, equipped: item.system.equipped };
       }
 
-      // Spell prep: if BR2 had a prepared/known state for spells, preserve it.
-      if (item.type === "spell" && item.system?.preparation && newItem.system) {
-        newItem.system = { ...newItem.system, preparation: item.system.preparation };
+      // Spell prep: for Warlocks, leveled spells use pact magic, cantrips
+      // are at-will. Auto-detect Warlocks via pact slots configured on actor.
+      if (item.type === "spell" && newItem.system) {
+        const isWarlock = (actor.system?.spells?.pact?.max ?? 0) > 0;
+        const lvl = newItem.system.level ?? 0;
+        let mode;
+        if (isWarlock) {
+          mode = lvl === 0 ? "atwill" : "pact";
+        } else {
+          // For non-warlock casters or noncasters with at-will utility spells
+          mode = item.system?.preparation?.mode ?? "prepared";
+        }
+        newItem.system = {
+          ...newItem.system,
+          preparation: {
+            mode,
+            prepared: true
+          }
+        };
       }
 
       newItems.push(newItem);

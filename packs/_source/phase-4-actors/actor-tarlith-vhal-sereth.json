@@ -918,66 +918,90 @@
     {
       "_key": "!actors.items!BR2P4ActSereth.BR2Ib0a39e167003",
       "_id": "BR2Ib0a39e167003",
-      "name": "Hidden Mail Shirt",
+      "name": "Chain Shirt",
       "type": "equipment",
-      "img": "icons/equipment/chest/shirt-collared-brown.webp",
+      "img": "modules/dnd-players-handbook/assets/icons/armor/chain-shirt.webp",
       "system": {
         "description": {
-          "value": "<p>A close-woven mail shirt worn under a fine wool overcoat. Light armor: AC 13 + Dex modifier (max 2). Sereth wears it concealed during all his offices' meetings.</p>",
+          "value": "",
           "chat": ""
-        },
-        "source": {
-          "custom": "PHB 2024 (Chain Shirt statistics)",
-          "book": "PHB",
-          "page": ""
-        },
-        "quantity": 1,
-        "weight": {
-          "value": 20,
-          "units": "lb"
         },
         "price": {
           "value": 50,
           "denomination": "gp"
         },
-        "rarity": "",
+        "source": {
+          "custom": "",
+          "rules": "2024"
+        },
         "identified": true,
+        "unidentified": {
+          "description": ""
+        },
+        "container": null,
+        "quantity": 1,
+        "weight": {
+          "value": 20,
+          "units": "lb"
+        },
+        "rarity": "",
+        "attunement": "",
+        "attuned": false,
         "equipped": true,
+        "cover": null,
+        "crewed": false,
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
         "armor": {
           "value": 13,
-          "type": "medium",
-          "dex": 2,
-          "magicalBonus": 0
+          "magicalBonus": null,
+          "dex": 2
         },
-        "strength": 0,
-        "stealth": false,
-        "properties": [],
+        "hp": {
+          "value": null,
+          "max": null,
+          "dt": null,
+          "conditions": ""
+        },
         "type": {
           "value": "medium",
-          "baseItem": "chainShirt"
-        }
+          "baseItem": "chainshirt"
+        },
+        "properties": [],
+        "speed": {
+          "value": null,
+          "conditions": ""
+        },
+        "strength": null,
+        "proficient": null,
+        "activities": {},
+        "identifier": "chain-shirt"
       },
       "effects": [],
-      "folder": null,
+      "folder": "tNySLDnz2qPVahU7",
       "sort": 400,
       "ownership": {
         "default": 0
       },
       "flags": {
+        "dnd5e": {},
         "core": {
-          "sourceId": "Compendium.dnd-players-handbook.items.Item.armor-chain-shirt"
+          "sourceId": "Compendium.dnd-players-handbook.equipment.Item.phbarmChainShirt"
         }
       },
       "_stats": {
-        "compendiumSource": null,
+        "compendiumSource": "Compendium.dnd-players-handbook.equipment.Item.phbarmChainShirt",
         "duplicateSource": null,
-        "exportSource": null,
         "coreVersion": "13.351",
         "systemId": "dnd5e",
         "systemVersion": "5.3.0",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
+        "createdTime": 1724425913648,
+        "modifiedTime": 1726075770674,
+        "lastModifiedBy": "dnd5ebuilder0000",
+        "exportSource": null
       }
     },
     {

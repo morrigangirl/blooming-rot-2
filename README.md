@@ -175,7 +175,22 @@ Phase 5 advances the "E." thread further but does not name Eclavdra, House Eilse
 
 As of v0.6.0, every NPC actor in the module ships with a **populated `items` array** — weapons, armor, signature gear, NPC features, and (for Trina Alvere only) a full Warlock 10 spell loadout. Items appear on the Foundry NPC sheet under Inventory / Features / Spells tabs and are immediately actionable in the combat tracker.
 
-Items are fully embedded with their `system` data, so they function regardless of the user's compendium installation. Where the official D&D 2024 modules (`dnd-players-handbook`, `dnd-dungeon-masters-guide`, `dnd-monster-manual`) are present, items also carry `flags.core.sourceId` hints toward expected compendium UUIDs. Foundry will auto-link on import where pack names match; otherwise the GM can drag-replace any item at any time without breaking the actor.
+Items are fully embedded with their `system` data, so they function regardless of the user's compendium installation. The bundled item data is a usable approximation; for the *real* PHB/DMG/MM 2024 documents (proper icons, weapon masteries, full chat-card text), see the **post-install relink macro** below.
+
+## One-time post-install step (recommended, v0.6.1+)
+
+If you have the official D&D 2024 *Player's Handbook*, *Dungeon Master's Guide*, and *Monster Manual* modules installed, do this once after activating Blooming Rot 2:
+
+1. Open the **Compendiums** tab.
+2. Find **Blooming Rot 2 — Utility Macros** under "Blooming Rot 2 — Utilities".
+3. Drag **"Relink BR2 Actors to PHB/DMG/MM"** to your hotbar.
+4. Click it once.
+
+The macro walks every BR2 actor pack and replaces each item it can name-match against your installed PHB/DMG/MM with the real document — proper icon, official 2024 weapon masteries (Vex / Sap / Topple / Nick / etc.), the full rules text, and Foundry chat cards. It whispers a summary report to you when it finishes.
+
+Items without an official 2024 equivalent (custom Yeomanry gear like *Smoke Pellet* or *Forged Inspection Writ*, NPC-specific features like *The Senior Partner's Yields*, house signets and badges) stay exactly as shipped.
+
+The macro is **GM-only** and **idempotent** — running it a second time is harmless. It edits actors inside the BR2 compendium packs (briefly unlocking and re-locking them), so any actors you've already imported into your world are unaffected; re-import them or drag the relinked compendium copies over.
 
 **Generation pipeline:**
 - `scripts/populate-actor-items.mjs` — declarative templates (weapons, armor, feats, spells) plus a per-actor item plan. Run with `node scripts/populate-actor-items.mjs`. Idempotent: item `_id`s are deterministic SHA-256-derived from actor + slug, so re-running produces identical output.

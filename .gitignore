@@ -13,3 +13,11 @@ packs/*/LOCK
 packs/*/LOG
 packs/*/LOG.old
 dist/
+
+# GM prep PDFs are generated artifacts — keep the docs/README.md tracked
+# but not the (large) PDFs. Rebuild with scripts/build-gm-prep-pdf.py.
+docs/*.pdf
+
+# Transient build caches and local Python venv for the PDF generator
+.build/
+.venv-docs/

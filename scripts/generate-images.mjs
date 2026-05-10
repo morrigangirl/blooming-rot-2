@@ -3499,6 +3499,1599 @@ Walls drawn in heavy black ink to suggest old stone. Water in the channel render
     sourceFromExisting: "assets/portraits/captain-jarn-heshet-portrait.png", skipGeneration: true,
     postProcess: "round-token-512",
     ring: { base: "#3a4a5a", highlight: "#7888a0", shadow: "#080a14" } /* City Watch steel */ },
+  // ============== TIER 27/28/29 — bulk NPC portraits + tokens (auto-generated) ==============
+  {
+    id: "polish-brennan-kepf-portrait",
+    tier: 27,
+    out: "assets/portraits/brennan-kepf-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of BRENNAN KEPF, a ordinary working person.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Cook at the Little Palace, sixties, decades in service. Knocks at midnight in the Cook's Niece complication if the GM uses that hook. Knows every name and routine of the household.
+
+Three-quarter view from waist up. Plain, period-appropriate background suited to the character's setting. Atmosphere over ornament. NO floating particles, NO glowing magic effects, NO obvious adventurer's gear unless the character is plainly martial.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  { id: "polish-brennan-kepf-token", tier: 29, out: "assets/tokens/brennan-kepf-token.png",
+    sourceFromExisting: "assets/portraits/brennan-kepf-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#5a544a", highlight: "#9a8e74", shadow: "#1a1408" } /* commoner */ },
+  {
+    id: "polish-elsbet-vael-portrait",
+    tier: 27,
+    out: "assets/portraits/elsbet-vael-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of ELSBET VAEL, a civic functionary or commercial firm partner; wears polished commercial dress.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Household steward of the Little Palace. Holds the Strong Room key. Brings the post in Scene 7. Reappears in Phase 5 when the party returns to Loftwick. Aerdi-trained, scrupulously discreet.
+
+Three-quarter view from waist up. Plain, period-appropriate background suited to the character's setting. Atmosphere over ornament. NO floating particles, NO glowing magic effects, NO obvious adventurer's gear unless the character is plainly martial.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  { id: "polish-elsbet-vael-token", tier: 29, out: "assets/tokens/elsbet-vael-token.png",
+    sourceFromExisting: "assets/portraits/elsbet-vael-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#7a6a48", highlight: "#b09a70", shadow: "#1a1408" } /* noble */ },
+  {
+    id: "polish-haskur-vandrell-portrait",
+    tier: 27,
+    out: "assets/portraits/haskur-vandrell-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of HASKUR VANDRELL, a scholar or magister in formal academic dress; restrained, intelligent.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Alias in Phase 6: H. V. Andren. Currently lodged above the Brass Crow on Tinker's Way, Greyhawk City. Stat block upgraded to Mage analog (CR 6) for Phase 6 confrontation; original Phase 1 contingency safety is spent. Late forties. A man who walked a long way after being reduced to nothing in Phase 1. Thinner than the party last saw. Tired around the eyes. Worn Aerdy travel clothes, new but not bespoke; a coat one size too large; a sword he is unlikely to draw. Alive but diminished. Original contingency safety is spent . New clothes, new money, new alias, but not fully resupplied. Dependent on Korre and Kethren. Resents this dependency. Knows enough to be dangerous and not enough to be centra
+
+Three-quarter view from waist up. Plain, period-appropriate background suited to the character's setting. Atmosphere over ornament. NO floating particles, NO glowing magic effects, NO obvious adventurer's gear unless the character is plainly martial.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  { id: "polish-haskur-vandrell-token", tier: 29, out: "assets/tokens/haskur-vandrell-token.png",
+    sourceFromExisting: "assets/portraits/haskur-vandrell-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#3a4a7a", highlight: "#7898c8", shadow: "#08101c" } /* mage */ },
+  {
+    id: "polish-holyn-sevarian-portrait",
+    tier: 27,
+    out: "assets/portraits/holyn-sevarian-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of HOLYN SEVARIAN, a subtle observer; non-obvious clothing; the kind of person no one stops in the street.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Rel Astran counting-house clerk Caelith names as a witness who can corroborate the Loftwick correspondence. Lives by daylight in a counting-room and by night in the Aerdi advocate quarter.
+
+Three-quarter view from waist up. Plain, period-appropriate background suited to the character's setting. Atmosphere over ornament. NO floating particles, NO glowing magic effects, NO obvious adventurer's gear unless the character is plainly martial.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  { id: "polish-holyn-sevarian-token", tier: 29, out: "assets/tokens/holyn-sevarian-token.png",
+    sourceFromExisting: "assets/portraits/holyn-sevarian-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#3a3a48", highlight: "#7c7c88", shadow: "#080810" } /* spy */ },
+  {
+    id: "polish-mira-holt-portrait",
+    tier: 27,
+    out: "assets/portraits/mira-holt-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of MIRA HOLT, a ordinary working person.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Kitchen-girl at the Little Palace, three days in service when the party arrives. Quiet, watchful, has not yet learned where the Strong Room is.
+
+Three-quarter view from waist up. Plain, period-appropriate background suited to the character's setting. Atmosphere over ornament. NO floating particles, NO glowing magic effects, NO obvious adventurer's gear unless the character is plainly martial.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  { id: "polish-mira-holt-token", tier: 29, out: "assets/tokens/mira-holt-token.png",
+    sourceFromExisting: "assets/portraits/mira-holt-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#5a544a", highlight: "#9a8e74", shadow: "#1a1408" } /* commoner */ },
+  {
+    id: "polish-arthen-moll-portrait",
+    tier: 27,
+    out: "assets/portraits/arthen-moll-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of ARTHEN MOLL, a ordinary working person.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Wagon-driver who offers the party an alternate route in the 'Three Travel Approaches' scene. Honest, slow, knows the Yeomanry roads as well as anyone.
+
+Three-quarter view from waist up. Plain, period-appropriate background suited to the character's setting. Atmosphere over ornament. NO floating particles, NO glowing magic effects, NO obvious adventurer's gear unless the character is plainly martial.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  { id: "polish-arthen-moll-token", tier: 29, out: "assets/tokens/arthen-moll-token.png",
+    sourceFromExisting: "assets/portraits/arthen-moll-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#5a544a", highlight: "#9a8e74", shadow: "#1a1408" } /* commoner */ },
+  {
+    id: "polish-brell-kostan-portrait",
+    tier: 27,
+    out: "assets/portraits/brell-kostan-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of BRELL KOSTAN, a weathered career soldier in plain leather or coat.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Yeomanry sergeant, twenty years in. Disarms Merev Sarth in the pre-dawn retrieval-attempt scene. Stat block: MM Warrior Veteran. Reluctant participant, follows orders, dislikes the operation he's part of.
+
+Three-quarter view from waist up. Plain, period-appropriate background suited to the character's setting. Atmosphere over ornament. NO floating particles, NO glowing magic effects, NO obvious adventurer's gear unless the character is plainly martial.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  { id: "polish-brell-kostan-token", tier: 29, out: "assets/tokens/brell-kostan-token.png",
+    sourceFromExisting: "assets/portraits/brell-kostan-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#5a4a3a", highlight: "#988070", shadow: "#1a0808" } /* veteran */ },
+  {
+    id: "polish-doman-reith-portrait",
+    tier: 27,
+    out: "assets/portraits/doman-reith-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of DOMAN REITH, a ordinary working person.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+The party reaches him too late. His final words are 'I am sorry. They had a writ.' His receipts and his death are the case the party is investigating. Stat block included for narrative tokens; he has no living-actor function.
+
+Three-quarter view from waist up. Plain, period-appropriate background suited to the character's setting. Atmosphere over ornament. NO floating particles, NO glowing magic effects, NO obvious adventurer's gear unless the character is plainly martial.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  { id: "polish-doman-reith-token", tier: 29, out: "assets/tokens/doman-reith-token.png",
+    sourceFromExisting: "assets/portraits/doman-reith-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#5a544a", highlight: "#9a8e74", shadow: "#1a1408" } /* commoner */ },
+  {
+    id: "polish-doril-veth-portrait",
+    tier: 27,
+    out: "assets/portraits/doril-veth-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of DORIL VETH, a civic functionary or commercial firm partner; wears polished commercial dress.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Tamsin Moraven's chief clerk at her counting house on Tannerway. Mid-fifties, methodical, has run her books for eleven years. Knows what the missing receipts mean and is afraid of saying so out loud.
+
+Three-quarter view from waist up. Plain, period-appropriate background suited to the character's setting. Atmosphere over ornament. NO floating particles, NO glowing magic effects, NO obvious adventurer's gear unless the character is plainly martial.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  { id: "polish-doril-veth-token", tier: 29, out: "assets/tokens/doril-veth-token.png",
+    sourceFromExisting: "assets/portraits/doril-veth-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#7a6a48", highlight: "#b09a70", shadow: "#1a1408" } /* noble */ },
+  {
+    id: "polish-halir-anwic-portrait",
+    tier: 27,
+    out: "assets/portraits/halir-anwic-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of HALIR ANWIC, a weathered career soldier in plain leather or coat.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Yeomanry sergeant who was on Tamsin Moraven's case until he was reassigned. Approaches the party privately with what he was not allowed to write down. Senior to Brell Kostan, more cynical.
+
+Three-quarter view from waist up. Plain, period-appropriate background suited to the character's setting. Atmosphere over ornament. NO floating particles, NO glowing magic effects, NO obvious adventurer's gear unless the character is plainly martial.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  { id: "polish-halir-anwic-token", tier: 29, out: "assets/tokens/halir-anwic-token.png",
+    sourceFromExisting: "assets/portraits/halir-anwic-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#5a4a3a", highlight: "#988070", shadow: "#1a0808" } /* veteran */ },
+  {
+    id: "polish-merro-gilst-portrait",
+    tier: 27,
+    out: "assets/portraits/merro-gilst-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of MERRO GILST, a ordinary working person.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Witness whose room is tossed during Phase 2 evidence-gathering. Identified in research; the party may track him for what he saw. Anxious, lives alone, keeps written copies of every receipt he ever signs.
+
+Three-quarter view from waist up. Plain, period-appropriate background suited to the character's setting. Atmosphere over ornament. NO floating particles, NO glowing magic effects, NO obvious adventurer's gear unless the character is plainly martial.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  { id: "polish-merro-gilst-token", tier: 29, out: "assets/tokens/merro-gilst-token.png",
+    sourceFromExisting: "assets/portraits/merro-gilst-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#5a544a", highlight: "#9a8e74", shadow: "#1a1408" } /* commoner */ },
+  {
+    id: "polish-reln-pollow-portrait",
+    tier: 27,
+    out: "assets/portraits/reln-pollow-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of RELN POLLOW, a junior temple cleric in modest clerical robes.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Contract-physician. Confronted at his office in three Phase 2 scenes. Forty, careful with his words, knows Tamsin's case from when he attended Doman in his last hour.
+
+Three-quarter view from waist up. Plain, period-appropriate background suited to the character's setting. Atmosphere over ornament. NO floating particles, NO glowing magic effects, NO obvious adventurer's gear unless the character is plainly martial.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  { id: "polish-reln-pollow-token", tier: 29, out: "assets/tokens/reln-pollow-token.png",
+    sourceFromExisting: "assets/portraits/reln-pollow-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#a89878", highlight: "#d8c8a0", shadow: "#3a2a14" } /* acolyte */ },
+  {
+    id: "polish-vellin-moraven-portrait",
+    tier: 27,
+    out: "assets/portraits/vellin-moraven-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of VELLIN MORAVEN, a ordinary working person.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Tamsin Moraven's husband. Potential hostage thread in Phase 2; at risk if the party moves too publicly. Forty, mild, manages the household while Tamsin runs the counting house.
+
+Three-quarter view from waist up. Plain, period-appropriate background suited to the character's setting. Atmosphere over ornament. NO floating particles, NO glowing magic effects, NO obvious adventurer's gear unless the character is plainly martial.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  { id: "polish-vellin-moraven-token", tier: 29, out: "assets/tokens/vellin-moraven-token.png",
+    sourceFromExisting: "assets/portraits/vellin-moraven-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#5a544a", highlight: "#9a8e74", shadow: "#1a1408" } /* commoner */ },
+  {
+    id: "polish-veshen-cindren-portrait",
+    tier: 27,
+    out: "assets/portraits/veshen-cindren-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of VESHEN CINDREN, a civic functionary or commercial firm partner; wears polished commercial dress.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Senior partner of Cindren & Vhal in Greyhawk. Hosts the Festival of Lamps reception where the party may first encounter the firm's leadership. Cordial, evasive, careful.
+
+Three-quarter view from waist up. Plain, period-appropriate background suited to the character's setting. Atmosphere over ornament. NO floating particles, NO glowing magic effects, NO obvious adventurer's gear unless the character is plainly martial.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  { id: "polish-veshen-cindren-token", tier: 29, out: "assets/tokens/veshen-cindren-token.png",
+    sourceFromExisting: "assets/portraits/veshen-cindren-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#7a6a48", highlight: "#b09a70", shadow: "#1a1408" } /* noble */ },
+  {
+    id: "polish-dren-marsh-portrait",
+    tier: 27,
+    out: "assets/portraits/dren-marsh-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of DREN MARSH, a weathered career soldier in plain leather or coat.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Former harbor-watch corporal, now sleeping guard at the C&V Hardby branch. Stat block: MM Warrior Veteran (per journal attribution). Half-asleep when first encountered; sharper than he looks.
+
+Three-quarter view from waist up. Plain, period-appropriate background suited to the character's setting. Atmosphere over ornament. NO floating particles, NO glowing magic effects, NO obvious adventurer's gear unless the character is plainly martial.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  { id: "polish-dren-marsh-token", tier: 29, out: "assets/tokens/dren-marsh-token.png",
+    sourceFromExisting: "assets/portraits/dren-marsh-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#5a4a3a", highlight: "#988070", shadow: "#1a0808" } /* veteran */ },
+  {
+    id: "polish-edrin-saetar-portrait",
+    tier: 27,
+    out: "assets/portraits/edrin-saetar-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of EDRIN SAETAR, a ordinary working person.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Sculptor master in the Salters' Quarter. Tutoring Ailen Moraven free of charge — a small kindness in honor of Tamsin's father, who he served under decades ago.
+
+Three-quarter view from waist up. Plain, period-appropriate background suited to the character's setting. Atmosphere over ornament. NO floating particles, NO glowing magic effects, NO obvious adventurer's gear unless the character is plainly martial.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  { id: "polish-edrin-saetar-token", tier: 29, out: "assets/tokens/edrin-saetar-token.png",
+    sourceFromExisting: "assets/portraits/edrin-saetar-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#5a544a", highlight: "#9a8e74", shadow: "#1a1408" } /* commoner */ },
+  {
+    id: "polish-halver-onn-portrait",
+    tier: 27,
+    out: "assets/portraits/halver-onn-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of HALVER ONN, a civic functionary or commercial firm partner; wears polished commercial dress.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Mid-fifties vault clerk at the C&V Hardby branch. Former Aerdi treasury clerk. Recognizes the firm's seals on sight and can read Aerdi commercial cipher fluently.
+
+Three-quarter view from waist up. Plain, period-appropriate background suited to the character's setting. Atmosphere over ornament. NO floating particles, NO glowing magic effects, NO obvious adventurer's gear unless the character is plainly martial.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  { id: "polish-halver-onn-token", tier: 29, out: "assets/tokens/halver-onn-token.png",
+    sourceFromExisting: "assets/portraits/halver-onn-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#7a6a48", highlight: "#b09a70", shadow: "#1a1408" } /* noble */ },
+  {
+    id: "polish-hella-voren-portrait",
+    tier: 27,
+    out: "assets/portraits/hella-voren-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of HELLA VOREN, a ordinary working person.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Veska Maelan's apprentice scribe at the Quay clearing-house. Twenty-three, half-Suel, daughter of harbor pilots. Unrelated to the false 'Voren' name on Haskur Vandrell's letter.
+
+Three-quarter view from waist up. Plain, period-appropriate background suited to the character's setting. Atmosphere over ornament. NO floating particles, NO glowing magic effects, NO obvious adventurer's gear unless the character is plainly martial.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  { id: "polish-hella-voren-token", tier: 29, out: "assets/tokens/hella-voren-token.png",
+    sourceFromExisting: "assets/portraits/hella-voren-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#5a544a", highlight: "#9a8e74", shadow: "#1a1408" } /* commoner */ },
+  {
+    id: "polish-joren-krill-portrait",
+    tier: 27,
+    out: "assets/portraits/joren-krill-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of JOREN KRILL, a subtle observer; non-obvious clothing; the kind of person no one stops in the street.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Hardby weighmaster, on Cindren & Vhal's payroll. Named in Tamsin Moraven's unsent letters as the man who signed off on weights that did not exist. Knows enough to be dangerous; trades information for safe passage.
+
+Three-quarter view from waist up. Plain, period-appropriate background suited to the character's setting. Atmosphere over ornament. NO floating particles, NO glowing magic effects, NO obvious adventurer's gear unless the character is plainly martial.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  { id: "polish-joren-krill-token", tier: 29, out: "assets/tokens/joren-krill-token.png",
+    sourceFromExisting: "assets/portraits/joren-krill-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#3a3a48", highlight: "#7c7c88", shadow: "#080810" } /* spy */ },
+  {
+    id: "polish-olfard-portrait",
+    tier: 27,
+    out: "assets/portraits/olfard-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of OLFARD, a subtle observer; non-obvious clothing; the kind of person no one stops in the street.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Barkeep at the Coopered Wreck on the Hardby waterfront. Sixty, broken nose from a long-ago brawl, pretends not to listen and remembers everything. Will not fight; will sell what he knows for the right reason.
+
+Three-quarter view from waist up. Plain, period-appropriate background suited to the character's setting. Atmosphere over ornament. NO floating particles, NO glowing magic effects, NO obvious adventurer's gear unless the character is plainly martial.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  { id: "polish-olfard-token", tier: 29, out: "assets/tokens/olfard-token.png",
+    sourceFromExisting: "assets/portraits/olfard-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#3a3a48", highlight: "#7c7c88", shadow: "#080810" } /* spy */ },
+  {
+    id: "polish-olo-crask-portrait",
+    tier: 27,
+    out: "assets/portraits/olo-crask-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of OLO CRASK, a weather-beaten leader of working men; once a respectable soldier, now isn't.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Retired Aerdi marine captain hired to guard the recovery target. Stat block: MM Bandit Captain. Leads five Thugs (MM). Will surrender for a fair price and a quiet exit.
+
+Three-quarter view from waist up. Plain, period-appropriate background suited to the character's setting. Atmosphere over ornament. NO floating particles, NO glowing magic effects, NO obvious adventurer's gear unless the character is plainly martial.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  { id: "polish-olo-crask-token", tier: 29, out: "assets/tokens/olo-crask-token.png",
+    sourceFromExisting: "assets/portraits/olo-crask-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#5a3a3a", highlight: "#a07070", shadow: "#1a0808" } /* banditCaptain */ },
+  {
+    id: "polish-reyna-worth-portrait",
+    tier: 27,
+    out: "assets/portraits/reyna-worth-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of REYNA WORTH, a subtle observer; non-obvious clothing; the kind of person no one stops in the street.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Cindren-aligned overseer who runs a daily check at the third bell. Fifties, Aerdi expat, paid by the firm to notice things and to forget them in the right order.
+
+Three-quarter view from waist up. Plain, period-appropriate background suited to the character's setting. Atmosphere over ornament. NO floating particles, NO glowing magic effects, NO obvious adventurer's gear unless the character is plainly martial.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  { id: "polish-reyna-worth-token", tier: 29, out: "assets/tokens/reyna-worth-token.png",
+    sourceFromExisting: "assets/portraits/reyna-worth-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#3a3a48", highlight: "#7c7c88", shadow: "#080810" } /* spy */ },
+  {
+    id: "polish-sarro-pell-portrait",
+    tier: 27,
+    out: "assets/portraits/sarro-pell-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of SARRO PELL, a subtle observer; non-obvious clothing; the kind of person no one stops in the street.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Widow housekeeper for Castrian Vell, eleven years' service. 'Notices everything.' Late forties, Hardby-born, distantly related to Ostren Pell of Loftwick (no living connection).
+
+Three-quarter view from waist up. Plain, period-appropriate background suited to the character's setting. Atmosphere over ornament. NO floating particles, NO glowing magic effects, NO obvious adventurer's gear unless the character is plainly martial.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  { id: "polish-sarro-pell-token", tier: 29, out: "assets/tokens/sarro-pell-token.png",
+    sourceFromExisting: "assets/portraits/sarro-pell-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#3a3a48", highlight: "#7c7c88", shadow: "#080810" } /* spy */ },
+  {
+    id: "polish-tamsin-moraven-portrait",
+    tier: 27,
+    out: "assets/portraits/tamsin-moraven-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of TAMSIN MORAVEN, a ordinary working person.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+The rescued captive whose disappearance triggers Phase 2 and 3. Forty, runs (ran) a counting house on Tannerway. Mother of Ailen, wife of Vellin. Recovered alive but altered by the experience.
+
+Three-quarter view from waist up. Plain, period-appropriate background suited to the character's setting. Atmosphere over ornament. NO floating particles, NO glowing magic effects, NO obvious adventurer's gear unless the character is plainly martial.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  { id: "polish-tamsin-moraven-token", tier: 29, out: "assets/tokens/tamsin-moraven-token.png",
+    sourceFromExisting: "assets/portraits/tamsin-moraven-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#5a544a", highlight: "#9a8e74", shadow: "#1a1408" } /* commoner */ },
+  {
+    id: "polish-vella-tannin-portrait",
+    tier: 27,
+    out: "assets/portraits/vella-tannin-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of VELLA TANNIN, a subtle observer; non-obvious clothing; the kind of person no one stops in the street.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Sympathetic clerk at the C&V Hardby branch. Path-2 contact who feeds the party intel without revealing herself to her employer. Recurs into Phase 4 and Phase 5.
+
+Three-quarter view from waist up. Plain, period-appropriate background suited to the character's setting. Atmosphere over ornament. NO floating particles, NO glowing magic effects, NO obvious adventurer's gear unless the character is plainly martial.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  { id: "polish-vella-tannin-token", tier: 29, out: "assets/tokens/vella-tannin-token.png",
+    sourceFromExisting: "assets/portraits/vella-tannin-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#3a3a48", highlight: "#7c7c88", shadow: "#080810" } /* spy */ },
+  {
+    id: "polish-yorra-mel-portrait",
+    tier: 27,
+    out: "assets/portraits/yorra-mel-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of YORRA MEL, a ship captain in waterproofed coat and salt-rimed boots, hat optional.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Hardby ship captain who runs paying passengers east when the harbor commission has its eyes elsewhere. Stat block: MM Pirate. Recurs in the Hardby sandbox and Phase 4 arrival options.
+
+Three-quarter view from waist up. Plain, period-appropriate background suited to the character's setting. Atmosphere over ornament. NO floating particles, NO glowing magic effects, NO obvious adventurer's gear unless the character is plainly martial.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  { id: "polish-yorra-mel-token", tier: 29, out: "assets/tokens/yorra-mel-token.png",
+    sourceFromExisting: "assets/portraits/yorra-mel-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#3a4a4a", highlight: "#788888", shadow: "#080a0a" } /* pirate */ },
+  {
+    id: "polish-adra-sayan-portrait",
+    tier: 27,
+    out: "assets/portraits/adra-sayan-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of ADRA SAYAN, a subtle observer; non-obvious clothing; the kind of person no one stops in the street.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Therion Halask's old uncompromised colleague. Will give a statement to a properly seated commercial-court advocate. Sixties, retired from active practice, lives in a small house off Imperial Way.
+
+Three-quarter view from waist up. Plain, period-appropriate background suited to the character's setting. Atmosphere over ornament. NO floating particles, NO glowing magic effects, NO obvious adventurer's gear unless the character is plainly martial.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  { id: "polish-adra-sayan-token", tier: 29, out: "assets/tokens/adra-sayan-token.png",
+    sourceFromExisting: "assets/portraits/adra-sayan-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#3a3a48", highlight: "#7c7c88", shadow: "#080810" } /* spy */ },
+  {
+    id: "polish-captain-volin-reach-portrait",
+    tier: 27,
+    out: "assets/portraits/captain-volin-reach-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of CAPTAIN VOLIN REACH, a officer of the watch or imperial guard in fitted leathers and a polished gorget.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Imperial garrison harbor liaison. Holds the Imperial Seat on the Harbor Commission. Stat block: MM Knight. Aerdy-loyal but procedurally honest; will not vote for what he cannot see in writing.
+
+Three-quarter view from waist up. Plain, period-appropriate background suited to the character's setting. Atmosphere over ornament. NO floating particles, NO glowing magic effects, NO obvious adventurer's gear unless the character is plainly martial.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  { id: "polish-captain-volin-reach-token", tier: 29, out: "assets/tokens/captain-volin-reach-token.png",
+    sourceFromExisting: "assets/portraits/captain-volin-reach-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#3a4a5a", highlight: "#7888a0", shadow: "#080a14" } /* knight */ },
+  {
+    id: "polish-lyla-vesh-portrait",
+    tier: 27,
+    out: "assets/portraits/lyla-vesh-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of LYLA VESH, a civic functionary or commercial firm partner; wears polished commercial dress.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Imperial advocate handling the Cindren & Vhal case. Her reassignment is a Pressure-Clock beat. Thirties, Aerdy-trained, painfully honest in a system that makes that expensive.
+
+Three-quarter view from waist up. Plain, period-appropriate background suited to the character's setting. Atmosphere over ornament. NO floating particles, NO glowing magic effects, NO obvious adventurer's gear unless the character is plainly martial.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  { id: "polish-lyla-vesh-token", tier: 29, out: "assets/tokens/lyla-vesh-token.png",
+    sourceFromExisting: "assets/portraits/lyla-vesh-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#7a6a48", highlight: "#b09a70", shadow: "#1a1408" } /* noble */ },
+  {
+    id: "polish-magister-eled-ruth-portrait",
+    tier: 27,
+    out: "assets/portraits/magister-eled-ruth-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of MAGISTER ELED RUTH, a junior scholar or hedge-mage in plain working dress.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Civic Seat holder, irritable academic in his late fifties. Stat block: MM Mage Apprentice. Knows commercial law better than half the advocates in the city; has no patience for ceremony.
+
+Three-quarter view from waist up. Plain, period-appropriate background suited to the character's setting. Atmosphere over ornament. NO floating particles, NO glowing magic effects, NO obvious adventurer's gear unless the character is plainly martial.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  { id: "polish-magister-eled-ruth-token", tier: 29, out: "assets/tokens/magister-eled-ruth-token.png",
+    sourceFromExisting: "assets/portraits/magister-eled-ruth-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#4a5a7a", highlight: "#88a0c8", shadow: "#0a121c" } /* apprentice */ },
+  {
+    id: "polish-magister-velren-ostrach-portrait",
+    tier: 27,
+    out: "assets/portraits/magister-velren-ostrach-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of MAGISTER VELREN OSTRACH, a civic functionary or commercial firm partner; wears polished commercial dress.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Aerdi Commercial Court judge. Path-1 venue if the party wants Sereth heard in a court rather than a commission. Stern, by-the-book, despises both sides equally.
+
+Three-quarter view from waist up. Plain, period-appropriate background suited to the character's setting. Atmosphere over ornament. NO floating particles, NO glowing magic effects, NO obvious adventurer's gear unless the character is plainly martial.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  { id: "polish-magister-velren-ostrach-token", tier: 29, out: "assets/tokens/magister-velren-ostrach-token.png",
+    sourceFromExisting: "assets/portraits/magister-velren-ostrach-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#7a6a48", highlight: "#b09a70", shadow: "#1a1408" } /* noble */ },
+  {
+    id: "polish-master-hold-veshanen-portrait",
+    tier: 27,
+    out: "assets/portraits/master-hold-veshanen-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of MASTER HOLD VESHANEN, a civic functionary or commercial firm partner; wears polished commercial dress.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Commerce Seat holder, Sereth-aligned merchant. Forty-five, smooth, owes Sereth's firm money. Will vote with Sereth unless given a clear public reason not to.
+
+Three-quarter view from waist up. Plain, period-appropriate background suited to the character's setting. Atmosphere over ornament. NO floating particles, NO glowing magic effects, NO obvious adventurer's gear unless the character is plainly martial.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  { id: "polish-master-hold-veshanen-token", tier: 29, out: "assets/tokens/master-hold-veshanen-token.png",
+    sourceFromExisting: "assets/portraits/master-hold-veshanen-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#7a6a48", highlight: "#b09a70", shadow: "#1a1408" } /* noble */ },
+  {
+    id: "polish-mistress-aldaen-veth-portrait",
+    tier: 27,
+    out: "assets/portraits/mistress-aldaen-veth-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of MISTRESS ALDAEN VETH, a civic functionary or commercial firm partner; wears polished commercial dress.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Senior Commissioner of the Rel Astra Harbor Commission, age 68. Aerdy noble who has held her seat through three imperial transitions. Holds the deciding vote on most matters; cordial to all parties on principle.
+
+Three-quarter view from waist up. Plain, period-appropriate background suited to the character's setting. Atmosphere over ornament. NO floating particles, NO glowing magic effects, NO obvious adventurer's gear unless the character is plainly martial.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  { id: "polish-mistress-aldaen-veth-token", tier: 29, out: "assets/tokens/mistress-aldaen-veth-token.png",
+    sourceFromExisting: "assets/portraits/mistress-aldaen-veth-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#7a6a48", highlight: "#b09a70", shadow: "#1a1408" } /* noble */ },
+  {
+    id: "polish-solvard-mein-portrait",
+    tier: 27,
+    out: "assets/portraits/solvard-mein-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of SOLVARD MEIN, a civic functionary or commercial firm partner; wears polished commercial dress.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Senior councilor of the Old Harbor Ward, openly Sereth-aligned. Tables Belven Astor's motions whenever they threaten the firm's interests. Sixties, jovial in person, ruthless in committee.
+
+Three-quarter view from waist up. Plain, period-appropriate background suited to the character's setting. Atmosphere over ornament. NO floating particles, NO glowing magic effects, NO obvious adventurer's gear unless the character is plainly martial.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  { id: "polish-solvard-mein-token", tier: 29, out: "assets/tokens/solvard-mein-token.png",
+    sourceFromExisting: "assets/portraits/solvard-mein-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#7a6a48", highlight: "#b09a70", shadow: "#1a1408" } /* noble */ },
+  {
+    id: "polish-edrik-vone-portrait",
+    tier: 27,
+    out: "assets/portraits/edrik-vone-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of EDRIK VONE, a subtle observer; non-obvious clothing; the kind of person no one stops in the street.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Greyhawk customs and courier archive operator. Forties, fastidious, keeps written records that he is not legally required to keep. Will exchange copies for protection of his own paperwork.
+
+Three-quarter view from waist up. Plain, period-appropriate background suited to the character's setting. Atmosphere over ornament. NO floating particles, NO glowing magic effects, NO obvious adventurer's gear unless the character is plainly martial.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  { id: "polish-edrik-vone-token", tier: 29, out: "assets/tokens/edrik-vone-token.png",
+    sourceFromExisting: "assets/portraits/edrik-vone-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#3a3a48", highlight: "#7c7c88", shadow: "#080810" } /* spy */ },
+  {
+    id: "polish-iren-velash-portrait",
+    tier: 27,
+    out: "assets/portraits/iren-velash-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of IREN VELASH, a junior scholar or hedge-mage in plain working dress.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Half-Suel manuscript dealer in Greyhawk's Garden Quarter. Intel contact whose paper-trail expertise helps the party trace Haskur Vandrell. Forty, quiet, knows everyone in the Aerdy book trade.
+
+Three-quarter view from waist up. Plain, period-appropriate background suited to the character's setting. Atmosphere over ornament. NO floating particles, NO glowing magic effects, NO obvious adventurer's gear unless the character is plainly martial.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  { id: "polish-iren-velash-token", tier: 29, out: "assets/tokens/iren-velash-token.png",
+    sourceFromExisting: "assets/portraits/iren-velash-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#4a5a7a", highlight: "#88a0c8", shadow: "#0a121c" } /* apprentice */ },
+  {
+    id: "polish-pell-garven-portrait",
+    tier: 27,
+    out: "assets/portraits/pell-garven-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of PELL GARVEN, a ordinary working person.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Honest woman who runs the civic courier desk in the Loftwick Audit Hall. No relation to Ostren Pell (a name coincidence the party will need to verify). Knows every courier route and timetable.
+
+Three-quarter view from waist up. Plain, period-appropriate background suited to the character's setting. Atmosphere over ornament. NO floating particles, NO glowing magic effects, NO obvious adventurer's gear unless the character is plainly martial.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  { id: "polish-pell-garven-token", tier: 29, out: "assets/tokens/pell-garven-token.png",
+    sourceFromExisting: "assets/portraits/pell-garven-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#5a544a", highlight: "#9a8e74", shadow: "#1a1408" } /* commoner */ },
+  {
+    id: "polish-sera-pell-portrait",
+    tier: 27,
+    out: "assets/portraits/sera-pell-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of SERA PELL, a ordinary working person.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Ostren Pell's daughter, twenty-two, dressmaker apprentice on Wick Lane. The hostage thread that keeps Ostren cooperating. Quiet, pragmatic, has known she was the leverage for years.
+
+Three-quarter view from waist up. Plain, period-appropriate background suited to the character's setting. Atmosphere over ornament. NO floating particles, NO glowing magic effects, NO obvious adventurer's gear unless the character is plainly martial.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  { id: "polish-sera-pell-token", tier: 29, out: "assets/tokens/sera-pell-token.png",
+    sourceFromExisting: "assets/portraits/sera-pell-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#5a544a", highlight: "#9a8e74", shadow: "#1a1408" } /* commoner */ },
+  {
+    id: "polish-tellan-verth-portrait",
+    tier: 27,
+    out: "assets/portraits/tellan-verth-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of TELLAN VERTH, a weathered career soldier in plain leather or coat.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Retired militia sergeant in the Greyhawk Foreign Quarter. Spotted Haskur Vandrell at the Brass Crow on a recent evening. Sixty, lame in one knee, drinks at the same tavern every night.
+
+Three-quarter view from waist up. Plain, period-appropriate background suited to the character's setting. Atmosphere over ornament. NO floating particles, NO glowing magic effects, NO obvious adventurer's gear unless the character is plainly martial.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  { id: "polish-tellan-verth-token", tier: 29, out: "assets/tokens/tellan-verth-token.png",
+    sourceFromExisting: "assets/portraits/tellan-verth-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#5a4a3a", highlight: "#988070", shadow: "#1a0808" } /* veteran */ },
+  {
+    id: "polish-tellis-maro-portrait",
+    tier: 27,
+    out: "assets/portraits/tellis-maro-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of TELLIS MARO, a civic functionary or commercial firm partner; wears polished commercial dress.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Cindren-aligned junior advocate. Rumor source for Vector D in the Phase 5 leak operation. Twenty-eight, ambitious, willing to talk to the right person at the right cost.
+
+Three-quarter view from waist up. Plain, period-appropriate background suited to the character's setting. Atmosphere over ornament. NO floating particles, NO glowing magic effects, NO obvious adventurer's gear unless the character is plainly martial.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  { id: "polish-tellis-maro-token", tier: 29, out: "assets/tokens/tellis-maro-token.png",
+    sourceFromExisting: "assets/portraits/tellis-maro-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#7a6a48", highlight: "#b09a70", shadow: "#1a1408" } /* noble */ },
+  {
+    id: "polish-trell-portrait",
+    tier: 27,
+    out: "assets/portraits/trell-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of TRELL, a ordinary working person.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+The courier himself. First name only — overheard from a baker's apprentice. Mid-twenties, runs Loftwick-to-Greyhawk in three days flat, paid in coin he does not deposit.
+
+Three-quarter view from waist up. Plain, period-appropriate background suited to the character's setting. Atmosphere over ornament. NO floating particles, NO glowing magic effects, NO obvious adventurer's gear unless the character is plainly martial.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  { id: "polish-trell-token", tier: 29, out: "assets/tokens/trell-token.png",
+    sourceFromExisting: "assets/portraits/trell-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#5a544a", highlight: "#9a8e74", shadow: "#1a1408" } /* commoner */ },
+  {
+    id: "polish-ven-sallis-portrait",
+    tier: 27,
+    out: "assets/portraits/ven-sallis-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of VEN SALLIS, a ordinary working person.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Quiet old printer beside the Audit Hall stream. Sixty-two, prints civic forms and the occasional private letter. Operates a node in the Phase 5 courier-chain location.
+
+Three-quarter view from waist up. Plain, period-appropriate background suited to the character's setting. Atmosphere over ornament. NO floating particles, NO glowing magic effects, NO obvious adventurer's gear unless the character is plainly martial.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  { id: "polish-ven-sallis-token", tier: 29, out: "assets/tokens/ven-sallis-token.png",
+    sourceFromExisting: "assets/portraits/ven-sallis-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#5a544a", highlight: "#9a8e74", shadow: "#1a1408" } /* commoner */ },
+  {
+    id: "polish-mell-portrait",
+    tier: 27,
+    out: "assets/portraits/mell-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of MELL, a subtle observer; non-obvious clothing; the kind of person no one stops in the street.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+One of V. Korre's two paid agents. Handles intimidation and lock work. Loyalty: low (paid weekly). Will flee if Korre flees. Will not fight to the death. Stat: Spy (CR 1).
+
+Three-quarter view from waist up. Plain, period-appropriate background suited to the character's setting. Atmosphere over ornament. NO floating particles, NO glowing magic effects, NO obvious adventurer's gear unless the character is plainly martial.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  { id: "polish-mell-token", tier: 29, out: "assets/tokens/mell-token.png",
+    sourceFromExisting: "assets/portraits/mell-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#3a3a48", highlight: "#7c7c88", shadow: "#080810" } /* spy */ },
+  {
+    id: "polish-saern-portrait",
+    tier: 27,
+    out: "assets/portraits/saern-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of SAERN, a rough working enforcer in dark wool, scar visible somewhere.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+One of V. Korre's two paid agents. Handles forgery, lock work, and packet-burning. In the cistern climax, Saern's combat priority is the brazier — he will move directly there and start burning the packet within two rounds. Stat: Tough / Thug analog (CR 1/2).
+
+Three-quarter view from waist up. Plain, period-appropriate background suited to the character's setting. Atmosphere over ornament. NO floating particles, NO glowing magic effects, NO obvious adventurer's gear unless the character is plainly martial.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  { id: "polish-saern-token", tier: 29, out: "assets/tokens/saern-token.png",
+    sourceFromExisting: "assets/portraits/saern-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#3a3a3a", highlight: "#6a6a6a", shadow: "#080808" } /* thug */ },
+  {
+    id: "polish-brisa-wood-portrait",
+    tier: 28,
+    out: "assets/portraits/sandbox/brisa-wood-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of BRISA WOOD, a ordinary working person.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Herb-stall proprietor under the Ash Tree in Greyhawk's Garden Quarter. Kitty's primary Greyhawk anchor. Forty, half-elf, sells herbs and quiet wisdom in equal measure.
+
+Three-quarter view from waist up. Plain, period-appropriate background suited to the character's setting. Atmosphere over ornament. NO floating particles, NO glowing magic effects, NO obvious adventurer's gear unless the character is plainly martial.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  { id: "polish-brisa-wood-token", tier: 29, out: "assets/tokens/sandbox/brisa-wood-token.png",
+    sourceFromExisting: "assets/portraits/sandbox/brisa-wood-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#5a544a", highlight: "#9a8e74", shadow: "#1a1408" } /* commoner */ },
+  {
+    id: "polish-brother-ashan-vell-portrait",
+    tier: 28,
+    out: "assets/portraits/sandbox/brother-ashan-vell-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of BROTHER ASHAN VELL, a senior temple cleric in clerical robes, calm authority.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Cleric of Heironeous at the Cloister of the Open Way in Loftwick. Elle's primary anchor in this city. Mid-fifties, plain-spoken, runs the morning training in the practice yard.
+
+Three-quarter view from waist up. Plain, period-appropriate background suited to the character's setting. Atmosphere over ornament. NO floating particles, NO glowing magic effects, NO obvious adventurer's gear unless the character is plainly martial.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  { id: "polish-brother-ashan-vell-token", tier: 29, out: "assets/tokens/sandbox/brother-ashan-vell-token.png",
+    sourceFromExisting: "assets/portraits/sandbox/brother-ashan-vell-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#a89878", highlight: "#d8c8a0", shadow: "#3a2a14" } /* priest */ },
+  {
+    id: "polish-brother-ostrik-vaerin-portrait",
+    tier: 28,
+    out: "assets/portraits/sandbox/brother-ostrik-vaerin-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of BROTHER OSTRIK VAERIN, a senior temple cleric in clerical robes, calm authority.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Cleric of Heironeous at the Temple of Heironeous training yard in Rel Astra. Elle's primary Rel Astra anchor. Forty, Aerdy-born, runs disciplined training to Aerdi standards.
+
+Three-quarter view from waist up. Plain, period-appropriate background suited to the character's setting. Atmosphere over ornament. NO floating particles, NO glowing magic effects, NO obvious adventurer's gear unless the character is plainly martial.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  { id: "polish-brother-ostrik-vaerin-token", tier: 29, out: "assets/tokens/sandbox/brother-ostrik-vaerin-token.png",
+    sourceFromExisting: "assets/portraits/sandbox/brother-ostrik-vaerin-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#a89878", highlight: "#d8c8a0", shadow: "#3a2a14" } /* priest */ },
+  {
+    id: "polish-captain-tarlin-fels-portrait",
+    tier: 28,
+    out: "assets/portraits/sandbox/captain-tarlin-fels-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of CAPTAIN TARLIN FELS, a officer of the watch or imperial guard in fitted leathers and a polished gorget.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Captain of the Hardby West Gate watch-yard. Gianni's primary Hardby anchor. Forty-five, Aerdy-trained, runs the only formal officer's drill in the city.
+
+Three-quarter view from waist up. Plain, period-appropriate background suited to the character's setting. Atmosphere over ornament. NO floating particles, NO glowing magic effects, NO obvious adventurer's gear unless the character is plainly martial.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  { id: "polish-captain-tarlin-fels-token", tier: 29, out: "assets/tokens/sandbox/captain-tarlin-fels-token.png",
+    sourceFromExisting: "assets/portraits/sandbox/captain-tarlin-fels-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#3a4a5a", highlight: "#7888a0", shadow: "#080a14" } /* knight */ },
+  {
+    id: "polish-edril-thence-portrait",
+    tier: 28,
+    out: "assets/portraits/sandbox/edril-thence-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of EDRIL THENCE, a druid of mixed-elf or local-folk descent in earth-tone leather and undyed wool, no obvious magic.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Druid of the Three-Tree Grove on the outskirts of Rel Astra. Kitty's primary Rel Astra anchor. Half-elf, late thirties, comfortable with chthonic ancestry where most are not.
+
+Three-quarter view from waist up. Plain, period-appropriate background suited to the character's setting. Atmosphere over ornament. NO floating particles, NO glowing magic effects, NO obvious adventurer's gear unless the character is plainly martial.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  { id: "polish-edril-thence-token", tier: 29, out: "assets/tokens/sandbox/edril-thence-token.png",
+    sourceFromExisting: "assets/portraits/sandbox/edril-thence-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#5a6a4a", highlight: "#94a888", shadow: "#0a1208" } /* druid */ },
+  {
+    id: "polish-helka-fenn-portrait",
+    tier: 28,
+    out: "assets/portraits/sandbox/helka-fenn-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of HELKA FENN, a druid of mixed-elf or local-folk descent in earth-tone leather and undyed wool, no obvious magic.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Greyhawk druid figure, recognized openly for her own chthonic ancestry. Sixty, lives near Mother Felun, available for advanced druid training.
+
+Three-quarter view from waist up. Plain, period-appropriate background suited to the character's setting. Atmosphere over ornament. NO floating particles, NO glowing magic effects, NO obvious adventurer's gear unless the character is plainly martial.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  { id: "polish-helka-fenn-token", tier: 29, out: "assets/tokens/sandbox/helka-fenn-token.png",
+    sourceFromExisting: "assets/portraits/sandbox/helka-fenn-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#5a6a4a", highlight: "#94a888", shadow: "#0a1208" } /* druid */ },
+  {
+    id: "polish-hesp-olfair-portrait",
+    tier: 28,
+    out: "assets/portraits/sandbox/hesp-olfair-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of HESP OLFAIR, a subtle observer; non-obvious clothing; the kind of person no one stops in the street.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Halfling cant-speaker and fence in the Hardby underworld. Cam's primary Hardby anchor. Forty, runs a small but reliable network across all four sandbox cities.
+
+Three-quarter view from waist up. Plain, period-appropriate background suited to the character's setting. Atmosphere over ornament. NO floating particles, NO glowing magic effects, NO obvious adventurer's gear unless the character is plainly martial.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  { id: "polish-hesp-olfair-token", tier: 29, out: "assets/tokens/sandbox/hesp-olfair-token.png",
+    sourceFromExisting: "assets/portraits/sandbox/hesp-olfair-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#3a3a48", highlight: "#7c7c88", shadow: "#080810" } /* spy */ },
+  {
+    id: "polish-hesp-veld-portrait",
+    tier: 28,
+    out: "assets/portraits/sandbox/hesp-veld-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of HESP VELD, a ordinary working person.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Civic Way smith. Sixties, halfling, runs the only forge in Loftwick that takes commissions for halfling-fitted gear without comment.
+
+Three-quarter view from waist up. Plain, period-appropriate background suited to the character's setting. Atmosphere over ornament. NO floating particles, NO glowing magic effects, NO obvious adventurer's gear unless the character is plainly martial.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  { id: "polish-hesp-veld-token", tier: 29, out: "assets/tokens/sandbox/hesp-veld-token.png",
+    sourceFromExisting: "assets/portraits/sandbox/hesp-veld-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#5a544a", highlight: "#9a8e74", shadow: "#1a1408" } /* commoner */ },
+  {
+    id: "polish-kell-marrow-portrait",
+    tier: 28,
+    out: "assets/portraits/sandbox/kell-marrow-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of KELL MARROW, a weathered career soldier in plain leather or coat.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Sporting-yard proprietor at the Gravestone in Greyhawk. Elle's primary Greyhawk anchor. Forty-eight, retired city watch, runs sparring rings and weapons drill for paying members.
+
+Three-quarter view from waist up. Plain, period-appropriate background suited to the character's setting. Atmosphere over ornament. NO floating particles, NO glowing magic effects, NO obvious adventurer's gear unless the character is plainly martial.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  { id: "polish-kell-marrow-token", tier: 29, out: "assets/tokens/sandbox/kell-marrow-token.png",
+    sourceFromExisting: "assets/portraits/sandbox/kell-marrow-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#5a4a3a", highlight: "#988070", shadow: "#1a0808" } /* veteran */ },
+  {
+    id: "polish-lieutenant-korven-mada-portrait",
+    tier: 28,
+    out: "assets/portraits/sandbox/lieutenant-korven-mada-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of LIEUTENANT KORVEN MADA, a officer of the watch or imperial guard in fitted leathers and a polished gorget.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Imperial garrison officer at the training annex. Gianni's primary Rel Astra anchor. Thirty-five, Aerdy military aristocrat, runs formal officer drill to imperial standards.
+
+Three-quarter view from waist up. Plain, period-appropriate background suited to the character's setting. Atmosphere over ornament. NO floating particles, NO glowing magic effects, NO obvious adventurer's gear unless the character is plainly martial.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  { id: "polish-lieutenant-korven-mada-token", tier: 29, out: "assets/tokens/sandbox/lieutenant-korven-mada-token.png",
+    sourceFromExisting: "assets/portraits/sandbox/lieutenant-korven-mada-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#3a4a5a", highlight: "#7888a0", shadow: "#080a14" } /* knight */ },
+  {
+    id: "polish-magister-ilen-vaden-portrait",
+    tier: 28,
+    out: "assets/portraits/sandbox/magister-ilen-vaden-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of MAGISTER ILEN VADEN, a scholar or magister in formal academic dress; restrained, intelligent.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Senior magister at the Aerdy College of Commercial Law. Selvara's primary Rel Astra anchor. Late sixties, half-elf, accepts students by introduction only. Referenced from afar in Greyhawk as 'Magister Vaden.'
+
+Three-quarter view from waist up. Plain, period-appropriate background suited to the character's setting. Atmosphere over ornament. NO floating particles, NO glowing magic effects, NO obvious adventurer's gear unless the character is plainly martial.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  { id: "polish-magister-ilen-vaden-token", tier: 29, out: "assets/tokens/sandbox/magister-ilen-vaden-token.png",
+    sourceFromExisting: "assets/portraits/sandbox/magister-ilen-vaden-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#3a4a7a", highlight: "#7898c8", shadow: "#08101c" } /* mage */ },
+  {
+    id: "polish-mara-olest-portrait",
+    tier: 28,
+    out: "assets/portraits/sandbox/mara-olest-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of MARA OLEST, a ordinary working person.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Loftwick harness-maker who fits halfling-sized leather and chain. Fifties, fast, charges fair.
+
+Three-quarter view from waist up. Plain, period-appropriate background suited to the character's setting. Atmosphere over ornament. NO floating particles, NO glowing magic effects, NO obvious adventurer's gear unless the character is plainly martial.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  { id: "polish-mara-olest-token", tier: 29, out: "assets/tokens/sandbox/mara-olest-token.png",
+    sourceFromExisting: "assets/portraits/sandbox/mara-olest-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#5a544a", highlight: "#9a8e74", shadow: "#1a1408" } /* commoner */ },
+  {
+    id: "polish-master-drael-portrait",
+    tier: 28,
+    out: "assets/portraits/sandbox/master-drael-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of MASTER DRAEL, a ordinary working person.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Old Harbor Ward weaponer in Rel Astra. Specializes in the Aerdy rapier — narrow blade, ornate hilt. Sixty, an artist as much as a smith.
+
+Three-quarter view from waist up. Plain, period-appropriate background suited to the character's setting. Atmosphere over ornament. NO floating particles, NO glowing magic effects, NO obvious adventurer's gear unless the character is plainly martial.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  { id: "polish-master-drael-token", tier: 29, out: "assets/tokens/sandbox/master-drael-token.png",
+    sourceFromExisting: "assets/portraits/sandbox/master-drael-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#5a544a", highlight: "#9a8e74", shadow: "#1a1408" } /* commoner */ },
+  {
+    id: "polish-master-hael-portrait",
+    tier: 28,
+    out: "assets/portraits/sandbox/master-hael-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of MASTER HAEL, a ordinary working person.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Garden Quarter weaponsmith in Greyhawk. Mid-fifties, takes commissions on a six-week schedule, refuses no honest work.
+
+Three-quarter view from waist up. Plain, period-appropriate background suited to the character's setting. Atmosphere over ornament. NO floating particles, NO glowing magic effects, NO obvious adventurer's gear unless the character is plainly martial.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  { id: "polish-master-hael-token", tier: 29, out: "assets/tokens/sandbox/master-hael-token.png",
+    sourceFromExisting: "assets/portraits/sandbox/master-hael-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#5a544a", highlight: "#9a8e74", shadow: "#1a1408" } /* commoner */ },
+  {
+    id: "polish-master-olen-ferrick-portrait",
+    tier: 28,
+    out: "assets/portraits/sandbox/master-olen-ferrick-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of MASTER OLEN FERRICK, a junior scholar or hedge-mage in plain working dress.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Bookbinder and proprietor of a small reading room beside the Civic Way. Selvara's primary Loftwick anchor. Mid-sixties, half-elf, keeps copies of restricted commercial law for trusted clients.
+
+Three-quarter view from waist up. Plain, period-appropriate background suited to the character's setting. Atmosphere over ornament. NO floating particles, NO glowing magic effects, NO obvious adventurer's gear unless the character is plainly martial.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  { id: "polish-master-olen-ferrick-token", tier: 29, out: "assets/tokens/sandbox/master-olen-ferrick-token.png",
+    sourceFromExisting: "assets/portraits/sandbox/master-olen-ferrick-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#4a5a7a", highlight: "#88a0c8", shadow: "#0a121c" } /* apprentice */ },
+  {
+    id: "polish-master-vellan-portrait",
+    tier: 28,
+    out: "assets/portraits/sandbox/master-vellan-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of MASTER VELLAN, a ordinary working person.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Aerdy-trained bowyer in the Hardby Merchant Quarter. Mid-fifties, exacting, makes high-end longbows and the occasional Aerdi composite.
+
+Three-quarter view from waist up. Plain, period-appropriate background suited to the character's setting. Atmosphere over ornament. NO floating particles, NO glowing magic effects, NO obvious adventurer's gear unless the character is plainly martial.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  { id: "polish-master-vellan-token", tier: 29, out: "assets/tokens/sandbox/master-vellan-token.png",
+    sourceFromExisting: "assets/portraits/sandbox/master-vellan-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#5a544a", highlight: "#9a8e74", shadow: "#1a1408" } /* commoner */ },
+  {
+    id: "polish-master-wenra-holst-portrait",
+    tier: 28,
+    out: "assets/portraits/sandbox/master-wenra-holst-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of MASTER WENRA HOLST, a ordinary working person.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Hardby's best weaponsmith. Fifty, runs a busy shop on the Iron Way, takes commissions four months out.
+
+Three-quarter view from waist up. Plain, period-appropriate background suited to the character's setting. Atmosphere over ornament. NO floating particles, NO glowing magic effects, NO obvious adventurer's gear unless the character is plainly martial.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  { id: "polish-master-wenra-holst-token", tier: 29, out: "assets/tokens/sandbox/master-wenra-holst-token.png",
+    sourceFromExisting: "assets/portraits/sandbox/master-wenra-holst-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#5a544a", highlight: "#9a8e74", shadow: "#1a1408" } /* commoner */ },
+  {
+    id: "polish-mistress-mira-welk-portrait",
+    tier: 28,
+    out: "assets/portraits/sandbox/mistress-mira-welk-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of MISTRESS MIRA WELK, a subtle observer; non-obvious clothing; the kind of person no one stops in the street.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Proprietor of 'Old Mira's Pawn-and-Borrow' on Wick Lane. Cam's primary Loftwick anchor. Forty-five, halfling, fence and information broker for those who can pay her in trust as well as coin.
+
+Three-quarter view from waist up. Plain, period-appropriate background suited to the character's setting. Atmosphere over ornament. NO floating particles, NO glowing magic effects, NO obvious adventurer's gear unless the character is plainly martial.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  { id: "polish-mistress-mira-welk-token", tier: 29, out: "assets/tokens/sandbox/mistress-mira-welk-token.png",
+    sourceFromExisting: "assets/portraits/sandbox/mistress-mira-welk-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#3a3a48", highlight: "#7c7c88", shadow: "#080810" } /* spy */ },
+  {
+    id: "polish-mistress-reva-lodd-portrait",
+    tier: 28,
+    out: "assets/portraits/sandbox/mistress-reva-lodd-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of MISTRESS REVA LODD, a scholar or magister in formal academic dress; restrained, intelligent.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Retired Yeomanry magical theorist, age 81. Lives in Two-Brooks village outside Loftwick. Will speak with Selvara on advanced theory if introduced by Master Ferrick.
+
+Three-quarter view from waist up. Plain, period-appropriate background suited to the character's setting. Atmosphere over ornament. NO floating particles, NO glowing magic effects, NO obvious adventurer's gear unless the character is plainly martial.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  { id: "polish-mistress-reva-lodd-token", tier: 29, out: "assets/tokens/sandbox/mistress-reva-lodd-token.png",
+    sourceFromExisting: "assets/portraits/sandbox/mistress-reva-lodd-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#3a4a7a", highlight: "#7898c8", shadow: "#08101c" } /* mage */ },
+  {
+    id: "polish-mistress-vella-korr-portrait",
+    tier: 28,
+    out: "assets/portraits/sandbox/mistress-vella-korr-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of MISTRESS VELLA KORR, a junior scholar or hedge-mage in plain working dress.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Proprietor of a tea-house in the Merchant Quarter and host of the Scribe's Tea Society. Selvara's primary Hardby anchor. Sixties, half-elf, brings together the city's quiet sorcerers and scholars.
+
+Three-quarter view from waist up. Plain, period-appropriate background suited to the character's setting. Atmosphere over ornament. NO floating particles, NO glowing magic effects, NO obvious adventurer's gear unless the character is plainly martial.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  { id: "polish-mistress-vella-korr-token", tier: 29, out: "assets/tokens/sandbox/mistress-vella-korr-token.png",
+    sourceFromExisting: "assets/portraits/sandbox/mistress-vella-korr-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#4a5a7a", highlight: "#88a0c8", shadow: "#0a121c" } /* apprentice */ },
+  {
+    id: "polish-mistress-veth-avir-portrait",
+    tier: 28,
+    out: "assets/portraits/sandbox/mistress-veth-avir-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of MISTRESS VETH-AVIR, a junior scholar or hedge-mage in plain working dress.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Holder of a private archive of pact correspondence — letters between mortals and their otherworldly patrons. Alicia's primary Rel Astra anchor. Mid-fifties, will share the archive with the right student.
+
+Three-quarter view from waist up. Plain, period-appropriate background suited to the character's setting. Atmosphere over ornament. NO floating particles, NO glowing magic effects, NO obvious adventurer's gear unless the character is plainly martial.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  { id: "polish-mistress-veth-avir-token", tier: 29, out: "assets/tokens/sandbox/mistress-veth-avir-token.png",
+    sourceFromExisting: "assets/portraits/sandbox/mistress-veth-avir-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#4a5a7a", highlight: "#88a0c8", shadow: "#0a121c" } /* apprentice */ },
+  {
+    id: "polish-mother-felun-portrait",
+    tier: 28,
+    out: "assets/portraits/sandbox/mother-felun-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of MOTHER FELUN, a druid of mixed-elf or local-folk descent in earth-tone leather and undyed wool, no obvious magic.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Greyhawk anchor figure who is calm about chthonic ancestry where the rest of the city is not. Late seventies, half-elf, runs a small grove the city watch leaves alone.
+
+Three-quarter view from waist up. Plain, period-appropriate background suited to the character's setting. Atmosphere over ornament. NO floating particles, NO glowing magic effects, NO obvious adventurer's gear unless the character is plainly martial.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  { id: "polish-mother-felun-token", tier: 29, out: "assets/tokens/sandbox/mother-felun-token.png",
+    sourceFromExisting: "assets/portraits/sandbox/mother-felun-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#5a6a4a", highlight: "#94a888", shadow: "#0a1208" } /* druid */ },
+  {
+    id: "polish-old-tellis-portrait",
+    tier: 28,
+    out: "assets/portraits/sandbox/old-tellis-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of OLD TELLIS, a ordinary working person.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Loftwick bowyer. Eighty, slow, does the best yew-and-horn work in the Yeomanry. Named comparatively in Hardby talk ('not as good as Old Tellis').
+
+Three-quarter view from waist up. Plain, period-appropriate background suited to the character's setting. Atmosphere over ornament. NO floating particles, NO glowing magic effects, NO obvious adventurer's gear unless the character is plainly martial.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  { id: "polish-old-tellis-token", tier: 29, out: "assets/tokens/sandbox/old-tellis-token.png",
+    sourceFromExisting: "assets/portraits/sandbox/old-tellis-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#5a544a", highlight: "#9a8e74", shadow: "#1a1408" } /* commoner */ },
+  {
+    id: "polish-rinya-dane-portrait",
+    tier: 28,
+    out: "assets/portraits/sandbox/rinya-dane-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of RINYA DANE, a subtle observer; non-obvious clothing; the kind of person no one stops in the street.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Halfling fence in Rel Astra. Cam's primary Rel Astra anchor. Thirty-eight, runs a quiet operation out of a chandlery on the harbor.
+
+Three-quarter view from waist up. Plain, period-appropriate background suited to the character's setting. Atmosphere over ornament. NO floating particles, NO glowing magic effects, NO obvious adventurer's gear unless the character is plainly martial.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  { id: "polish-rinya-dane-token", tier: 29, out: "assets/tokens/sandbox/rinya-dane-token.png",
+    sourceFromExisting: "assets/portraits/sandbox/rinya-dane-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#3a3a48", highlight: "#7c7c88", shadow: "#080810" } /* spy */ },
+  {
+    id: "polish-sergeant-brel-vandros-portrait",
+    tier: 28,
+    out: "assets/portraits/sandbox/sergeant-brel-vandros-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of SERGEANT BREL VANDROS, a weathered career soldier in plain leather or coat.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Watch sergeant at the Greyhawk Foreign Quarter station. Gianni's primary Greyhawk anchor. Late forties, Free-City native, runs the steadiest training schedule in the city.
+
+Three-quarter view from waist up. Plain, period-appropriate background suited to the character's setting. Atmosphere over ornament. NO floating particles, NO glowing magic effects, NO obvious adventurer's gear unless the character is plainly martial.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  { id: "polish-sergeant-brel-vandros-token", tier: 29, out: "assets/tokens/sandbox/sergeant-brel-vandros-token.png",
+    sourceFromExisting: "assets/portraits/sandbox/sergeant-brel-vandros-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#5a4a3a", highlight: "#988070", shadow: "#1a0808" } /* veteran */ },
+  {
+    id: "polish-sergeant-doral-hurst-portrait",
+    tier: 28,
+    out: "assets/portraits/sandbox/sergeant-doral-hurst-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of SERGEANT DORAL HURST, a weathered career soldier in plain leather or coat.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Yeomanry militia sergeant at the Southwall Yard archers' practice. Gianni's primary anchor in Loftwick. Forty, strict, will train any soldier who will train at his hours.
+
+Three-quarter view from waist up. Plain, period-appropriate background suited to the character's setting. Atmosphere over ornament. NO floating particles, NO glowing magic effects, NO obvious adventurer's gear unless the character is plainly martial.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  { id: "polish-sergeant-doral-hurst-token", tier: 29, out: "assets/tokens/sandbox/sergeant-doral-hurst-token.png",
+    sourceFromExisting: "assets/portraits/sandbox/sergeant-doral-hurst-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#5a4a3a", highlight: "#988070", shadow: "#1a0808" } /* veteran */ },
+  {
+    id: "polish-sianna-reff-portrait",
+    tier: 28,
+    out: "assets/portraits/sandbox/sianna-reff-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of SIANNA REFF, a junior scholar or hedge-mage in plain working dress.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Hardby sorcerer, age 23, Tea Society absentee. Sub-Team Mini-Quest target — stopped attending after an incident the Society does not discuss publicly.
+
+Three-quarter view from waist up. Plain, period-appropriate background suited to the character's setting. Atmosphere over ornament. NO floating particles, NO glowing magic effects, NO obvious adventurer's gear unless the character is plainly martial.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  { id: "polish-sianna-reff-token", tier: 29, out: "assets/tokens/sandbox/sianna-reff-token.png",
+    sourceFromExisting: "assets/portraits/sandbox/sianna-reff-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#4a5a7a", highlight: "#88a0c8", shadow: "#0a121c" } /* apprentice */ },
+  {
+    id: "polish-sister-marrin-portrait",
+    tier: 28,
+    out: "assets/portraits/sandbox/sister-marrin-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of SISTER MARRIN, a junior temple cleric in modest clerical robes.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Vowed sister at the Temple of Ehlonna, age 22. Sub-Team Mini-Quest target — went missing during a remote pilgrimage. Devout, naive in dangerous ways.
+
+Three-quarter view from waist up. Plain, period-appropriate background suited to the character's setting. Atmosphere over ornament. NO floating particles, NO glowing magic effects, NO obvious adventurer's gear unless the character is plainly martial.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  { id: "polish-sister-marrin-token", tier: 29, out: "assets/tokens/sandbox/sister-marrin-token.png",
+    sourceFromExisting: "assets/portraits/sandbox/sister-marrin-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#a89878", highlight: "#d8c8a0", shadow: "#3a2a14" } /* acolyte */ },
+  {
+    id: "polish-sister-wren-portrait",
+    tier: 28,
+    out: "assets/portraits/sandbox/sister-wren-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of SISTER WREN, a junior temple cleric in modest clerical robes.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Vowed sister at the Temple of Ehlonna in Hardby. Elle's primary Hardby anchor. Twenty-eight, runs the practice yard hours that align with the party's downtime.
+
+Three-quarter view from waist up. Plain, period-appropriate background suited to the character's setting. Atmosphere over ornament. NO floating particles, NO glowing magic effects, NO obvious adventurer's gear unless the character is plainly martial.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  { id: "polish-sister-wren-token", tier: 29, out: "assets/tokens/sandbox/sister-wren-token.png",
+    sourceFromExisting: "assets/portraits/sandbox/sister-wren-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#a89878", highlight: "#d8c8a0", shadow: "#3a2a14" } /* acolyte */ },
+  {
+    id: "polish-skarrel-portrait",
+    tier: 28,
+    out: "assets/portraits/sandbox/skarrel-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of SKARREL, a subtle observer; non-obvious clothing; the kind of person no one stops in the street.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Fence and pawn-broker at the Folded Cup in Greyhawk's Foreign Quarter. Cam's primary Greyhawk anchor. Tiefling, fifty, runs the most discreet operation in the city's underworld.
+
+Three-quarter view from waist up. Plain, period-appropriate background suited to the character's setting. Atmosphere over ornament. NO floating particles, NO glowing magic effects, NO obvious adventurer's gear unless the character is plainly martial.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  { id: "polish-skarrel-token", tier: 29, out: "assets/tokens/sandbox/skarrel-token.png",
+    sourceFromExisting: "assets/portraits/sandbox/skarrel-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#3a3a48", highlight: "#7c7c88", shadow: "#080810" } /* spy */ },
+  {
+    id: "polish-vell-marad-portrait",
+    tier: 28,
+    out: "assets/portraits/sandbox/vell-marad-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of VELL MARAD, a junior scholar or hedge-mage in plain working dress.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Tea Society sorcerer, secondary anchor introduced via Mistress Vella Korr. Late twenties, ambitious, looking for a tutor with restricted knowledge.
+
+Three-quarter view from waist up. Plain, period-appropriate background suited to the character's setting. Atmosphere over ornament. NO floating particles, NO glowing magic effects, NO obvious adventurer's gear unless the character is plainly martial.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  { id: "polish-vell-marad-token", tier: 29, out: "assets/tokens/sandbox/vell-marad-token.png",
+    sourceFromExisting: "assets/portraits/sandbox/vell-marad-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#4a5a7a", highlight: "#88a0c8", shadow: "#0a121c" } /* apprentice */ },
+
+  // ============== TIER 30 — Faction sigils (drop-in handouts) ==============
+  {
+    id: "sigil-brass-crow",
+    tier: 30,
+    out: "assets/sigils/brass-crow-sigil.png",
+    size: "1024x1024",
+    quality: "high",
+    prompt: `Heraldic device — a small Aerdy counting-house emblem. A polished BRASS CROW with folded wings, in profile, perched on a small heraldic pedestal. The crow is rendered as cast brass with patinated soot in the recesses, the metal catching warm light. The bird is alert, watchful, slightly stylized; the eye is a small dark gem (jet or onyx). Background is a plain dark walnut field, suggesting the lintel of a counting-house. \${SIGIL_STYLE}`,
+    postProcess: null,
+  },
+  {
+    id: "sigil-kestrel-and-reed",
+    tier: 30,
+    out: "assets/sigils/kestrel-and-reed-sigil.png",
+    size: "1024x1024",
+    quality: "high",
+    prompt: `Heraldic device — a Hardby letter agency mark. A KESTREL in profile holding a single REED in its talons, rendered as embossed silver-and-pewter on a dark green-blue field. The kestrel is precise, formal, slightly small in scale; the reed is fine and visibly pliable. Composition is symmetric, suitable for printing on commercial wax-stamp dies. Subject only. \${SIGIL_STYLE}`,
+    postProcess: null,
+  },
+  {
+    id: "sigil-cindren-and-vhal",
+    tier: 30,
+    out: "assets/sigils/cindren-and-vhal-sigil.png",
+    size: "1024x1024",
+    quality: "high",
+    prompt: `Heraldic device — the seal of an Aerdy commercial firm, "Cindren & Vhal." Two interlocking iron CARRIAGE WHEELS on a dark wine-red field, joined by a small central HEX (six-sided) keystone. The wheels are detailed but symmetrical; the keystone bears a small pressed letter that is illegible (period commercial cipher mark). Style: pressed wax/embossed metal, polished but slightly worn. \${SIGIL_STYLE}`,
+    postProcess: null,
+  },
+  {
+    id: "sigil-hand-of-the-duke",
+    tier: 30,
+    out: "assets/sigils/hand-of-the-duke-sigil.png",
+    size: "1024x1024",
+    quality: "high",
+    prompt: `Heraldic device — the BRASS QUILL PIN of the Hand of the Duke, the Yeomanry civic spymaster's office. A single brass QUILL crossed at the spine by a thin SILVER BAR (oath-bar). The quill nib is sharp; the feather is rendered in fine relief. The whole emblem is small, neat, suitable for a coat-collar pin. Background: dark walnut wood field. \${SIGIL_STYLE}`,
+    postProcess: null,
+  },
+  {
+    id: "sigil-hand-of-the-duke-broken",
+    tier: 30,
+    out: "assets/sigils/hand-of-the-duke-broken-sigil.png",
+    size: "1024x1024",
+    quality: "high",
+    prompt: `Heraldic device — the BRASS QUILL PIN of the Hand of the Duke, BROKEN: the silver oath-bar visibly snapped in two halves, the brass quill bent slightly out of true. The pin is laid flat on a dark wood surface as if just removed and set down. The break is clean, deliberate, ceremonial. The same quill-and-bar device as the intact version, but with the bar split. \${SIGIL_STYLE}`,
+    postProcess: null,
+  },
+  {
+    id: "sigil-unknown-wax-recipe-family",
+    tier: 30,
+    out: "assets/sigils/unknown-wax-recipe-family-sigil.png",
+    size: "1024x1024",
+    quality: "high",
+    prompt: `A small wax sealing impression on parchment — the device is unfamiliar, ancient, not from any standard heraldic tradition. The motif: SEVEN SHORT VERTICAL LINES descending under a low arched curve (a hill silhouette). The wax is an UNUSUAL DARK PURPLE-BROWN color (not Aerdy red, not Suloise gold, not Yeomanry green). The wax has a slightly oily sheen suggesting an unknown recipe-family. The impression is small (one inch across) and slightly damaged at the edges, as if pressed by a hand uncomfortable with the symbol. The subject is the wax seal itself, photographed flat on a sheet of cream parchment.
+
+Modern high-fantasy illustration / digital concept art, photographed flat under soft warm light. NOT 19th-century painting. Subject only — no text, no border. The unease is in the shape and the color.`,
+    postProcess: null,
+  },
+  {
+    id: "sigil-yeomanry-wheatsheaf",
+    tier: 30,
+    out: "assets/sigils/yeomanry-wheatsheaf-sigil.png",
+    size: "1024x1024",
+    quality: "high",
+    prompt: `Heraldic device — the YEOMANRY councilor's bronze WHEATSHEAF pin. A single sheaf of wheat, neat and proper, bound at the center with a thin band, rendered as cast bronze on a dark green field. Three full grain heads visible, each slightly distinct, in restrained period heraldic style. The pin's surface catches warm light. Subject only — no banner, no shield. \${SIGIL_STYLE}`,
+    postProcess: null,
+  },
+  // ============== TIER 31 — Party PC token rings (post-process from existing portraits) ==============
+  { id: "pc-cam-token", tier: 31, out: "assets/tokens/party/cam-token.png",
+    sourceFromExisting: "assets/portraits/party/Cam-Halfling-Rogue.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#5a4438", highlight: "#a48068", shadow: "#1a0c08" } /* halfling rogue brown */ },
+  { id: "pc-kitty-token", tier: 31, out: "assets/tokens/party/kitty-token.png",
+    sourceFromExisting: "assets/portraits/party/kitty-druid-cthonic-tiefling.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#383a3a", highlight: "#787a7a", shadow: "#080a0a" } /* chthonic ash */ },
+  { id: "pc-alicia-token", tier: 31, out: "assets/tokens/party/alicia-token.png",
+    sourceFromExisting: "assets/portraits/party/alicia-warlock-blade.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#4a5a7a", highlight: "#88a0c8", shadow: "#0a121c" } /* warlock blue */ },
+  { id: "pc-selvara-token", tier: 31, out: "assets/tokens/party/selvara-token.png",
+    sourceFromExisting: "assets/portraits/party/selvara-human-sorcerer.jpg", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#5a3030", highlight: "#a06060", shadow: "#1a0808" } /* sorcerer crimson hood */ },
+  { id: "pc-elle-token", tier: 31, out: "assets/tokens/party/elle-token.png",
+    sourceFromExisting: "assets/portraits/party/elle-halfling-monk.jpg", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#806030", highlight: "#d8b070", shadow: "#241808" } /* monk amber */ },
+  { id: "pc-gianni-token", tier: 31, out: "assets/tokens/party/gianni-token.png",
+    sourceFromExisting: "assets/portraits/party/gianni-ranger-.jpg", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#3a4a3a", highlight: "#7c8c7c", shadow: "#080a08" } /* ranger green */ },
 ];
 
 // ----------------- engine -----------------

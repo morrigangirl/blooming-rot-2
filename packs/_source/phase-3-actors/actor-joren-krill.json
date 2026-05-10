@@ -2,7 +2,7 @@
   "_id": "BR2P3A888c9961cf",
   "name": "Joren Krill",
   "type": "npc",
-  "img": "modules/dnd-monster-manual/assets/journal-art/spies.webp",
+  "img": "modules/blooming-rot-2/assets/portraits/joren-krill-portrait.png",
   "system": {
     "currency": {
       "pp": 0,
@@ -535,7 +535,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "modules/dnd-monster-manual/assets/tokens/spy-master-*.webp",
+      "src": "modules/blooming-rot-2/assets/tokens/joren-krill-token.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

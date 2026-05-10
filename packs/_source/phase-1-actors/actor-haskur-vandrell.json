@@ -2,7 +2,7 @@
   "_id": "BR2P1A4151703066",
   "name": "Haskur Vandrell",
   "type": "npc",
-  "img": "modules/dnd-monster-manual/assets/journal-art/mages.webp",
+  "img": "modules/blooming-rot-2/assets/portraits/haskur-vandrell-portrait.png",
   "system": {
     "currency": {
       "pp": 0,
@@ -540,7 +540,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "modules/dnd-monster-manual/assets/tokens/mage.webp",
+      "src": "modules/blooming-rot-2/assets/tokens/haskur-vandrell-token.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

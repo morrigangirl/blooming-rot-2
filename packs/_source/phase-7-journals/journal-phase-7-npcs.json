@@ -1,0 +1,117 @@
+{
+  "_key": "!journal!BR2P7NpcsJrnl",
+  "_id": "BR2P7NpcsJrnl",
+  "name": "Phase 7 — NPCs",
+  "pages": [
+    {
+      "_id": "BR2P7NpPgIndex",
+      "_key": "!journal.pages!BR2P7NpcsJrnl.BR2P7NpPgIndex",
+      "name": "NPC Index — Phase 7",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 50000,
+      "ownership": { "default": -1 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "text": {
+        "format": 1,
+        "content": "<h1>Phase 7 NPC Index</h1><p>Nine NPCs matter in Phase 7. Most return from earlier phases with expanded roles. One is new.</p><h2>Returning NPCs (extended for Phase 7)</h2><ul><li><strong>Iren Velash</strong> &mdash; manuscript dealer, Garden Quarter. Now actively invested in the chase.</li><li><strong>Mistress Aldea Veren</strong> &mdash; correspondent in the wood. Reads matter the way Iren reads paper.</li><li><strong>Edrik Vone</strong> &mdash; courier archivist, High Quay. More expensive, more frightened.</li><li><strong>Caelith Dunivar</strong> &mdash; Hand of the Duke. Appears by letter unless Closure didn't pass.</li><li><strong>Haskur Vandrell</strong> &mdash; only if captured.</li><li><strong>Kethren Ilvath</strong> &mdash; only if captured.</li><li><strong>Veyra Korre</strong> &mdash; only if captured.</li></ul><h2>New for Phase 7</h2><ul><li><strong>Dalmor Vetch</strong> &mdash; retired Greyhawk mining surveyor. The Guild's living memory of stairs.</li></ul><h2>Optional (legal pressure)</h2><ul><li><strong>Ortwell Brane</strong> or a Greyhawk legal proxy &mdash; if previous political heat needs follow-up. Optional, by letter or via a Greyhawk advocate. See Phase 5 if needed.</li></ul>"
+      }
+    },
+    {
+      "_id": "BR2P7NpPgVetch",
+      "_key": "!journal.pages!BR2P7NpcsJrnl.BR2P7NpPgVetch",
+      "name": "Dalmor Vetch — Retired Surveyor (NEW)",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 100000,
+      "ownership": { "default": -1 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "text": {
+        "format": 1,
+        "content": "<h1>Dalmor Vetch</h1><p><strong>Retired Greyhawk mining surveyor. The Guild's living memory of stairs. New for Phase 7.</strong></p><h2>Quick read</h2><ul><li><strong>Age</strong>: late sixties.</li><li><strong>Frame</strong>: short, sturdy, missing the ring and little fingers of his right hand &mdash; lost in a winch accident in 552 CY. He still drinks from his right hand because he likes the way it surprises strangers.</li><li><strong>Dress</strong>: working wool, plain leather, a heavy walking-stick used as a cane. A small silver Guild surveyor's pin sewn flat into the lining of his coat (he is no longer entitled to wear it openly, having retired with grievances).</li><li><strong>Manner</strong>: blunt, suspicious, hates clean maps.</li><li><strong>Stat block</strong>: <em>Commoner</em> (MM 2024, CR 0) with proficiencies in Investigation, History, and Survival; expertise in cartography and mining terminology. Treat as a CR 0 NPC for combat; he will not fight unless cornered, but his words are sharper than most weapons in this phase.</li></ul><h2>Motive</h2><p>Vetch wants to be paid and not dragged into Guild politics. He spent forty years surveying for the Guild and retired with a grievance: he believes the Guild has been quietly destroying old records of unprofitable stairs at the behest of clients he doesn't know. He has been waiting twenty years for someone to ask him the right questions.</p><p>He likes the party because they came to him directly, not through the Guild.</p><h2>Tell</h2><p>When someone says &ldquo;road,&rdquo; Vetch <strong>taps his cane on the floor</strong>, once, with a small finality. It is the most reliable opinion he has ever had.</p><h2>Fear</h2><p>That the Guild will figure out who he's been talking to and quietly stop paying his pension.</p><h2>Leverage</h2><ul><li>Cash. 20 gp opens his front door for an afternoon. 50 gp opens his back room.</li><li>Honest interest in stairs. Vetch will talk to anyone who knows the difference between a road and a stair.</li><li>Tellan Verth (the Hand of Coals' barkeep is Vetch's cousin's brother-in-law) is a free introduction.</li></ul><p>What does <em>not</em> work: bringing Guild authority to his door. He will be cordial, useless, and unreachable for a week.</p><h2>What Vetch knows</h2><ol><li>The Cairn Hills hold at least <strong>three old mining stairs</strong> that the Guild stopped letting people survey in the 540s. He visited two of them; the third (the one he calls &ldquo;the Tarnsmere Spur&rdquo;) is the closest match to what the party is describing.</li><li>The <strong>Tarnsmere Spur</strong> ends at a ruined tollhouse called <strong>Tarnsmere Toll</strong>, beyond which the Spur becomes a footpath, then a cairn line, then a cairn marked with seven descending cuts beneath a black hill symbol.</li><li>The <strong>seven cuts</strong> are not a count. They are a <em>permission mark</em>. He learned this from an old Aerdy mining-charter glossary he was once allowed to read, before the glossary was removed from the Guild library.</li><li>The <strong>black hill</strong> is a surveyor's convention for a <em>sealed entrance</em>. It does not mean &ldquo;hill.&rdquo; It means &ldquo;a way down that has been closed by authority.&rdquo;</li><li>He knows that someone has been removing Spur-related records from the Guild archive over the last three weeks. He doesn't know who. He's been keeping a private list of which records went missing.</li></ol><h2>What Vetch does not know</h2><ul><li>The deeper faction.</li><li>The destination below the Stair.</li><li>The name of the current client buying records.</li><li>Anything about &ldquo;E.&rdquo;, Eclavdra, Eilserv, or the Vault.</li></ul><h2>Useful Vetch lines</h2><ul><li>&ldquo;A road is what merchants call it when they can charge toll. Miners call it a stair when the earth charges first.&rdquo;</li><li>&ldquo;Roads end. Stairs continue.&rdquo;</li><li>&ldquo;The seventh cut tells you which kind you've found.&rdquo;</li><li>&ldquo;You came to me. That means you already know not to trust the Guild map. I respect that.&rdquo;</li></ul><h2>Vetch's sketched map</h2><p>For 20 gp and a promise not to mention him to the Guild, Vetch will draw the party a rough hand-sketched map from memory. <strong>This is Handout 5</strong> &mdash; <em>Dalmor Vetch's Sketched Map.</em> Includes: the old eastern trade route turn-off, the dry ford, the split ash tree, the ruined tollhouse, and the cairn with seven descending cuts.</p>"
+      }
+    },
+    {
+      "_id": "BR2P7NpPgIrenP7",
+      "_key": "!journal.pages!BR2P7NpcsJrnl.BR2P7NpPgIrenP7",
+      "name": "Iren Velash — Phase 7 expansion",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 200000,
+      "ownership": { "default": -1 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "text": {
+        "format": 1,
+        "content": "<h1>Iren Velash — Phase 7</h1><p>Iren returns as the party's interpretive anchor. See Phase 6 &mdash; Greyhawk NPCs for her full Phase-6 dossier. Phase 7 changes for her are below.</p><h2>What's different in Phase 7</h2><ul><li>She is finally <em>invested</em>. She has stopped pretending she does not care.</li><li>She closes the shop earlier each day to spend the evenings reading what the party brings her.</li><li>She has begun her own discreet correspondence with two Aerdy book traders to see what they remember about VII account-class entries. She has not told the party this yet.</li><li>She has stopped blinking when she reads. <em>The shop's other regulars have noticed.</em></li></ul><h2>What Iren wants from the party</h2><p>Permission to keep the analysis. She is building, page by page, the most complete reading anyone has done on this kind of route in fifty years. When the party reaches Phase 8, she wants to be told whether she was right.</p><h2>Iren's Phase 7 risk</h2><p>If the Route-Cleansing Clock reaches 4, the conspiracy notices her correspondence. By segment 5, an &ldquo;Aerdy commercial advocate&rdquo; visits her shop and asks polite questions. By segment 6, the shop is broken into overnight and the locked paper press is forced. <strong>She is alive throughout</strong>, but her glossary is lost unless the party has had her copy it to a safer location.</p><h2>Iren's protective option</h2><p>Caelith, by courier, can arrange a safer location for Iren's papers if the party requests it. The party can also offer their own safe storage. Either action removes the Route-Cleansing risk to Iren.</p>"
+      }
+    },
+    {
+      "_id": "BR2P7NpPgAldeaP7",
+      "_key": "!journal.pages!BR2P7NpcsJrnl.BR2P7NpPgAldeaP7",
+      "name": "Mistress Aldea Veren — Phase 7 expansion",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 300000,
+      "ownership": { "default": -1 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "text": {
+        "format": 1,
+        "content": "<h1>Mistress Aldea Veren — Phase 7</h1><p>See Phase 5 &mdash; Loftwick NPCs for Aldea's full dossier. Phase 7 changes below.</p><h2>What's different in Phase 7</h2><ul><li>Aldea has been waiting forty years to read the material the party is bringing her. She is calm about it; she is also moving more carefully than she has in a decade.</li><li>If Lie 2 was used in Phase 6, her cottage was turned over and she has gone to a safer location &mdash; either temporarily, with help from Caelith, or on her own if Caelith cannot openly act.</li><li>She is <strong>thinking</strong> &mdash; in the way old archivists think &mdash; that the deeper organisation may be older than she previously believed. She will not say so to the party. She will, however, ask narrow questions that hint at this.</li></ul><h2>What Aldea wants in Phase 7</h2><p>Better material. She wants the party to bring her <em>everything</em> they have recovered, all at once, so she can do a single proper reading. She does not want speculation. She wants matter.</p><h2>Aldea's Phase 7 risk</h2><p>If Lie 2 was active or if the Route-Cleansing Clock reaches 3, someone is following the party's couriers to her dead-drop. By segment 4, her packets are being intercepted and copied. By segment 5, the conspiracy knows what she has determined.</p><h2>Useful Aldea line</h2><blockquote><p>&ldquo;You are looking for a road because the paper taught you to. Stop obeying the paper.&rdquo;</p></blockquote>"
+      }
+    },
+    {
+      "_id": "BR2P7NpPgVoneP7",
+      "_key": "!journal.pages!BR2P7NpcsJrnl.BR2P7NpPgVoneP7",
+      "name": "Edrik Vone — Phase 7 expansion",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 400000,
+      "ownership": { "default": -1 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "text": {
+        "format": 1,
+        "content": "<h1>Edrik Vone — Phase 7</h1><p>See Phase 5 / Phase 6 dossiers for the baseline. Phase 7 changes below.</p><h2>What's different in Phase 7</h2><ul><li>Vone is more expensive. He is also more nervous. The single sheet of paper on his desk is no longer perpendicular; Insight DC 13 reads the tell.</li><li>He has begun his own quiet preparations to vanish. He has been moving the irregular ledger out of the building, one folder at a time, into a private cellar three streets away.</li><li>He has noticed that <strong>someone is buying older records too</strong> &mdash; not Korre's accounts, but older ones, from the 540s. He doesn't know who.</li></ul><h2>Vone's optional fate</h2><table><tbody><tr><th>Route-Cleansing Clock</th><th>Vone's state</th></tr><tr><td>0&ndash;2</td><td>Still working from his archive. More expensive.</td></tr><tr><td>3</td><td>His reception is locked. Pesh (terrified assistant) can be tracked down at a Garden Quarter cousin's.</td></tr><tr><td>4&ndash;5</td><td>Vone has fled to the unsanctioned cellar on Bracken Lane. The party can find him with a day's searching.</td></tr><tr><td>6</td><td>Vone is gone from Greyhawk City. His irregular ledger is in his private cellar; the party can find it if they get the address from Pesh.</td></tr></tbody></table><h2>Useful Vone line</h2><blockquote><p>&ldquo;A courier ledger says where things went. A route-exception says where the clerk was told not to ask. You want the second sort. You will not find them filed where they belong.&rdquo;</p></blockquote>"
+      }
+    },
+    {
+      "_id": "BR2P7NpPgCaelithP7",
+      "_key": "!journal.pages!BR2P7NpcsJrnl.BR2P7NpPgCaelithP7",
+      "name": "Caelith Dunivar — Phase 7 by courier",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 500000,
+      "ownership": { "default": -1 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "text": {
+        "format": 1,
+        "content": "<h1>Caelith Dunivar — Phase 7</h1><p>The Hand of the Duke. Appears by courier unless the campaign needs him in person, in which case the party rides back to Loftwick (one full day each way).</p><h2>What Caelith wants in Phase 7</h2><ul><li>The party alive.</li><li>Evidence preserved.</li><li>Loftwick not used as a mouthpiece for whatever they recover.</li></ul><h2>What Caelith knows</h2><ul><li>Old Yeomanry border reports mention <strong>missing surveyors</strong> in the late 540s &mdash; including one Yeomanry surveyor named Garrold Eft who disappeared while documenting an old Cairn Hills mining spur. Caelith never had a satisfactory explanation.</li><li>Two <strong>closed descent claims</strong> in the Yeomanry's own old mining ledger were administratively closed in the same week of 542 CY. He did not notice the pattern until the party gave him reason to look.</li><li>The Tarnsmere Spur, by name, does not appear in Yeomanry records. <em>That itself is interesting.</em></li></ul><h2>Caelith's constraint</h2><p>If the Closure motion passed in Phase 5, Caelith cannot openly act. His letters are unsigned, never use full names, and arrive irregularly. He writes only when the party asks the right narrow question.</p><p>If the Closure motion was held over or defeated, Caelith can act &mdash; he can arrange Aldea's protective relocation, write a writ for Guild archive access, and provide a Greyhawk advocate's introduction. <em>But each public action draws attention to the party</em>; the Route-Cleansing Clock advances by 1 each time Caelith intervenes publicly.</p><h2>Useful Caelith line by courier</h2><blockquote><p>&ldquo;You are no longer following a man. You are following the permissions around him. Roads are watched from the sides. <em>Descents are watched from below.</em>&rdquo;</p></blockquote>"
+      }
+    },
+    {
+      "_id": "BR2P7NpPgPrisonersP7",
+      "_key": "!journal.pages!BR2P7NpcsJrnl.BR2P7NpPgPrisonersP7",
+      "name": "Captured NPCs — Haskur, Kethren, Korre",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 600000,
+      "ownership": { "default": -1 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "text": {
+        "format": 1,
+        "content": "<h1>Captured NPCs in Phase 7</h1><p>For full Phase-6 dossiers, see <em>Phase 6 &mdash; Greyhawk NPCs</em>. Phase 7-specific notes below.</p><h2>Haskur Vandrell (if captured)</h2><p>See <em>Phase 7 &mdash; Opening A</em> for interrogation mechanics. Phase 7 additions:</p><ul><li>Haskur will <strong>not</strong> name the deeper faction. He does not know it.</li><li>If the party offers him survival, he will testify against Korre in a Greyhawk court &mdash; <em>but Greyhawk has no jurisdiction over Korre's eight-month account</em>. His testimony is therefore valuable only as background.</li><li>Haskur will, by the end of Phase 7, ask once whether the party intends to take him with them when they descend. He <em>does not</em> want to descend. He wants to die in a quiet Aerdy town.</li></ul><h2>Kethren Ilvath (if captured)</h2><p>See <em>Phase 7 &mdash; Opening E</em> for interrogation rules. Phase 7 additions:</p><ul><li>Kethren is <strong>terrified of being recalled</strong>. By the third day of captivity, he will once say <em>&ldquo;Do not return me. Whatever you do, do not return me.&rdquo;</em></li><li>He will not voluntarily provide Place coordinates beyond &ldquo;northeast.&rdquo; He <em>will</em> confirm or deny specifics if the party names them.</li><li>If the party finds the Seven-Cut Cairn before Phase 8 ends, Kethren can identify the marker on sight. His face does not change. <em>That tells you everything.</em></li></ul><h2>Veyra Korre (if captured)</h2><p>See <em>Phase 7 &mdash; Opening F</em> for negotiation terms. Phase 7 additions:</p><ul><li>Korre will testify <em>only</em> if her terms are met. She is not loyal to anyone but herself.</li><li>If the party brings her the Tarnsmere chits or the Seven-Cut Cairn name, she will confirm they match the route-account she received instructions about.</li><li>She will <strong>not</strong> testify about people. She will testify about <em>structures</em>: accounts, intermediaries, ledgers, addresses. Her loyalty is to the discipline of her trade, not to any individual.</li></ul><h2>The recall rule</h2><p>Kethren's recall fear is real. By the end of Phase 7, the party should sense that whoever administered Kethren has a way of pulling him back. The campaign does not yet explain how. <em>Do not explain it.</em>"
+      }
+    }
+  ],
+  "folder": null,
+  "sort": 400000,
+  "ownership": { "default": -1 },
+  "flags": { "blooming-rot-2": { "phase": 7 } },
+  "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null }
+}

@@ -2,7 +2,7 @@
   "_id": "BR2P5A6c62f904cc",
   "name": "Edrik Vone",
   "type": "npc",
-  "img": "modules/dnd-monster-manual/assets/journal-art/spies.webp",
+  "img": "modules/blooming-rot-2/assets/portraits/edrik-vone-portrait.png",
   "system": {
     "currency": {
       "pp": 0,
@@ -443,7 +443,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p>Greyhawk customs and courier archive operator. Forties, fastidious, keeps written records that he is not legally required to keep. Will exchange copies for protection of his own paperwork.</p>",
+        "value": "<h2>Edrik Vone — Courier Archivist</h2><p><em>Private courier archive operator. High Quay, near the Greyhawk customs house. Phase 5 contact, central to Phase 6.</em></p><h3>Quick read</h3><ul><li><strong>Age</strong>: forties.</li><li><strong>Frame</strong>: tall, thin, fastidious; ink-stained shirt cuffs that he replaces twice a week.</li><li><strong>Background</strong>: former imperial customs official, dismissed for selling certified copies of cargo lists. Greyhawk hired him within a month to do the same work privately.</li><li><strong>Manner</strong>: precise, dry, professionally unimpressed. He sells records because records are worth more than honour and less than prison.</li></ul><h3>Motive</h3><p>Vone wants his archive to outlive him. He wants protection for the records he is not legally allowed to keep. He wants enough money to retire to a small house outside the city walls, but he wants it without ever being seen leaving.</p><h3>Tell</h3><p>When Vone is lying, he lays his pen down at exactly right angles to the paper.</p><h3>Fear</h3><p>The Greyhawk City Watch finally sealing the third drawer of his oldest cabinet.</p><h3>Leverage</h3><p>Coin, blackmail material on a customs colleague, evidence that protects his archive, or fear of formal exposure. He is bribable, blackmailable, persuadable, or frightenable — any one of these is sufficient. Stacking them is rude.</p><h3>Access costs (Phase 6)</h3><ul><li>Regular ledger: 50 gp</li><li>Irregular ledger: 200 gp</li><li>Lie 1 from Phase 5 reduces; Path C (kinetic) increases.</li><li>Yeomanry papers shown openly: +100 gp or refusal.</li></ul><h3>Cross-references</h3><p>See <em>Phase 6 — The Greyhawk Investigation</em> for full clue set.</p>",
         "public": ""
       },
       "alignment": "Neutral",
@@ -535,7 +535,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "modules/dnd-monster-manual/assets/tokens/spy-master-*.webp",
+      "src": "modules/blooming-rot-2/assets/tokens/edrik-vone-token.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

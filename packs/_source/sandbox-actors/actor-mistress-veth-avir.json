@@ -2,7 +2,7 @@
   "_id": "BR2Sbxf5cf5e149e",
   "name": "Mistress Veth-Avir",
   "type": "npc",
-  "img": "modules/dnd-monster-manual/assets/portraits/mage-apprentice.webp",
+  "img": "modules/blooming-rot-2/assets/portraits/sandbox/mistress-veth-avir-portrait.png",
   "system": {
     "currency": {
       "pp": 0,
@@ -538,7 +538,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "modules/dnd-monster-manual/assets/tokens/mage-apprentice.webp",
+      "src": "modules/blooming-rot-2/assets/tokens/sandbox/mistress-veth-avir-token.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

@@ -1,0 +1,118 @@
+{
+  "_key": "!journal!BR2FactSigJrnl",
+  "_id": "BR2FactSigJrnl",
+  "name": "Blooming Rot 2 — Faction Sigils & Wax",
+  "pages": [
+    {
+      "_id": "BR2SigPgIndex",
+      "_key": "!journal.pages!BR2FactSigJrnl.BR2SigPgIndex",
+      "name": "Index — Drop-In Sigils",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 50000,
+      "ownership": { "default": 0 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "text": {
+        "format": 1,
+        "content": "<h1>Faction Sigils &amp; Wax</h1><p>Seven drop-in sigil handouts you can show at the table when a faction enters the scene. The pages below are page-per-sigil for easy showcase mode in Foundry; the images themselves live at <code>modules/blooming-rot-2/assets/sigils/</code>.</p><ul><li><strong>Brass Crow</strong> &mdash; the brass figure above the lintel of the Foreign Quarter counting-house in Greyhawk City. Show when the party first reaches Tinker's Way.</li><li><strong>Kestrel &amp; Reed, Foreign Letters</strong> &mdash; pressed silver-and-pewter on dark teal. Show on K&amp;R packets or receipts.</li><li><strong>Cindren &amp; Vhal</strong> &mdash; interlocking iron carriage-wheels on wine-red. Show on any firm correspondence in Phases 2&ndash;4.</li><li><strong>Hand of the Duke (intact)</strong> &mdash; brass quill crossed by a silver oath-bar. Caelith's pin in Phases 1&ndash;4.</li><li><strong>Hand of the Duke (broken)</strong> &mdash; the same device, oath-bar snapped. Caelith's pin <em>after</em> Closure passes in Phase 5.</li><li><strong>Yeomanry Wheatsheaf</strong> &mdash; bronze sheaf on dark green; Loftwick councilor insignia.</li><li><strong>Unknown Wax Recipe-Family</strong> &mdash; dark purple-brown wax seal, seven vertical lines under a low arch. The thing Aldea cannot place. <em>Show only when the party recovers a marked packet.</em></li></ul>"
+      }
+    },
+    {
+      "_id": "BR2SigPgBrassCrow",
+      "_key": "!journal.pages!BR2FactSigJrnl.BR2SigPgBrassCrow",
+      "name": "Brass Crow",
+      "type": "image",
+      "src": "modules/blooming-rot-2/assets/sigils/brass-crow-sigil.png",
+      "image": { "caption": "The brass crow above the lintel of the counting-house on Tinker's Way, Foreign Quarter, Greyhawk City." },
+      "title": { "show": true, "level": 1 },
+      "sort": 100000,
+      "ownership": { "default": 0 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null }
+    },
+    {
+      "_id": "BR2SigPgKR",
+      "_key": "!journal.pages!BR2FactSigJrnl.BR2SigPgKR",
+      "name": "Kestrel & Reed, Foreign Letters",
+      "type": "image",
+      "src": "modules/blooming-rot-2/assets/sigils/kestrel-and-reed-sigil.png",
+      "image": { "caption": "Kestrel & Reed, Foreign Letters — Hardby-based letter agency, Greyhawk office on Hawkstone Way." },
+      "title": { "show": true, "level": 1 },
+      "sort": 200000,
+      "ownership": { "default": 0 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null }
+    },
+    {
+      "_id": "BR2SigPgCV",
+      "_key": "!journal.pages!BR2FactSigJrnl.BR2SigPgCV",
+      "name": "Cindren & Vhal",
+      "type": "image",
+      "src": "modules/blooming-rot-2/assets/sigils/cindren-and-vhal-sigil.png",
+      "image": { "caption": "Cindren & Vhal, the Aerdy commercial firm at the heart of Phases 2–4." },
+      "title": { "show": true, "level": 1 },
+      "sort": 300000,
+      "ownership": { "default": 0 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null }
+    },
+    {
+      "_id": "BR2SigPgHandIntact",
+      "_key": "!journal.pages!BR2FactSigJrnl.BR2SigPgHandIntact",
+      "name": "Hand of the Duke (intact)",
+      "type": "image",
+      "src": "modules/blooming-rot-2/assets/sigils/hand-of-the-duke-sigil.png",
+      "image": { "caption": "Caelith Dunivar's pin — brass quill, silver oath-bar. Worn in Phases 1–4." },
+      "title": { "show": true, "level": 1 },
+      "sort": 400000,
+      "ownership": { "default": 0 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null }
+    },
+    {
+      "_id": "BR2SigPgHandBroken",
+      "_key": "!journal.pages!BR2FactSigJrnl.BR2SigPgHandBroken",
+      "name": "Hand of the Duke (broken)",
+      "type": "image",
+      "src": "modules/blooming-rot-2/assets/sigils/hand-of-the-duke-broken-sigil.png",
+      "image": { "caption": "The same pin after Closure passes in Phase 5. Oath-bar snapped, ring intact." },
+      "title": { "show": true, "level": 1 },
+      "sort": 500000,
+      "ownership": { "default": 0 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null }
+    },
+    {
+      "_id": "BR2SigPgYeo",
+      "_key": "!journal.pages!BR2FactSigJrnl.BR2SigPgYeo",
+      "name": "Yeomanry Wheatsheaf",
+      "type": "image",
+      "src": "modules/blooming-rot-2/assets/sigils/yeomanry-wheatsheaf-sigil.png",
+      "image": { "caption": "The Yeomanry councilor's bronze wheatsheaf pin — worn by Brane, Halvern, Voss, and other Loftwick councilors." },
+      "title": { "show": true, "level": 1 },
+      "sort": 600000,
+      "ownership": { "default": 0 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null }
+    },
+    {
+      "_id": "BR2SigPgWax",
+      "_key": "!journal.pages!BR2FactSigJrnl.BR2SigPgWax",
+      "name": "Unknown Wax Recipe-Family",
+      "type": "image",
+      "src": "modules/blooming-rot-2/assets/sigils/unknown-wax-recipe-family-sigil.png",
+      "image": { "caption": "Recovered wax impression. Dark purple-brown, oily sheen. The recipe-family Aldea cannot place." },
+      "title": { "show": true, "level": 1 },
+      "sort": 700000,
+      "ownership": { "default": -1 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null }
+    }
+  ],
+  "folder": null,
+  "sort": 200,
+  "ownership": { "default": -1 },
+  "flags": { "blooming-rot-2": { "kind": "faction-sigils" } },
+  "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null }
+}

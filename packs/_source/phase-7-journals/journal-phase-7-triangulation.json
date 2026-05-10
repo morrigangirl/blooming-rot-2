@@ -1,0 +1,27 @@
+{
+  "_key": "!journal!BR2P7TriangJrnl",
+  "_id": "BR2P7TriangJrnl",
+  "name": "Phase 7 — Triangulating the Stair",
+  "pages": [
+    {
+      "_id": "BR2P7TrPgSystem",
+      "_key": "!journal.pages!BR2P7TriangJrnl.BR2P7TrPgSystem",
+      "name": "The System — Five Evidence Categories",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 100000,
+      "ownership": { "default": -1 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "text": {
+        "format": 1,
+        "content": "<h1>Triangulating the Stair</h1><p>Phase 7's investigative spine is a lightweight system. The party collects evidence in five categories. Different combinations produce different outcomes.</p><h2>The five categories</h2><table><tbody><tr><th>#</th><th>Category</th><th>Confirms</th></tr><tr><td>1</td><td><strong>Name</strong></td><td>&ldquo;Seventh Stair&rdquo; or <em>VII Stair</em> is the route's working name.</td></tr><tr><td>2</td><td><strong>Function</strong></td><td>The route is a descent, not a metaphor, port code, or surface road.</td></tr><tr><td>3</td><td><strong>Permission</strong></td><td>The route is controlled by authorization (a permission to descend), not just geography. One is admitted; one does not simply find it.</td></tr><tr><td>4</td><td><strong>Material</strong></td><td>Wax, stone dust, mineral residue, seed ash, ink, or route-marks tie the evidence to a specific region.</td></tr><tr><td>5</td><td><strong>Place</strong></td><td>Old mining records, survey maps, claim ledgers, or waymarks connect to a specific surface site &mdash; the Seven-Cut Cairn.</td></tr></tbody></table><h2>Triangulation outcomes</h2><table><tbody><tr><th>Categories collected</th><th>Result</th></tr><tr><td><strong>0&ndash;1</strong></td><td>Party follows a false lead first (see Node 6 &mdash; The False Stair).</td></tr><tr><td><strong>2</strong></td><td>Party reaches the right region (southern Cairn Hills) but not the site. Field search required.</td></tr><tr><td><strong>3</strong></td><td>Party reaches the right region <em>and</em> can search effectively. Outcome C.</td></tr><tr><td><strong>4</strong></td><td>Party locates the Seven-Cut Cairn. Outcome B (with some enemy preparation).</td></tr><tr><td><strong>5</strong></td><td>Party locates it <em>before</em> enemy route-cleansers finish their work. Outcome A.</td></tr></tbody></table><h2>System flexibility</h2><p>Triangulation does not require an exact sequence. The party may consult sources in any order. A single source may contribute to multiple categories. Captured NPCs are valid sources; so are letters, witness statements, and field observations.</p><h2>Source-to-category guide</h2><table><tbody><tr><th>Source</th><th>Categories it can deliver</th></tr><tr><td>Iren Velash (Node 1)</td><td>Name, Function, partial Place</td></tr><tr><td>Aldea Veren (Node 2)</td><td>Material, Function, partial Place</td></tr><tr><td>Edrik Vone (Node 3)</td><td>Permission, Place, Name</td></tr><tr><td>Guild + Dalmor Vetch (Node 4)</td><td>Place, Function, Material</td></tr><tr><td>Captured Haskur (Node 5)</td><td>Name, Permission</td></tr><tr><td>Captured Kethren (Node 5)</td><td>Function, Permission, partial Place</td></tr><tr><td>Captured Korre (Node 5)</td><td>Place, Permission, Name</td></tr><tr><td>Kestrel &amp; Reed staff (Node 5)</td><td>Permission, partial Place</td></tr><tr><td>The False Stair (Node 6)</td><td>Reverse-evidence; the party learns one wrong thing they can rule out</td></tr><tr><td>Field reconnaissance (Node 7)</td><td>Material, Place</td></tr><tr><td>Caelith by courier</td><td>Background on missing Yeomanry surveyors; can supply partial Place if asked correctly</td></tr></tbody></table><h2>Tracking the count</h2><p>The GM should track categories without making the players see the tracking. Use the <strong>BR2 &mdash; Campaign State Snapshot</strong> macro to log them privately, or a simple sheet on your side of the screen. The players experience this as gradually <em>understanding</em> what they're looking at, not as filling in a progress bar.</p><h2>Reward triangulation</h2><p>If a single source could deliver everything, the phase would be a one-NPC errand. Cross-referencing two or three sources produces a sharper reading than the sum of its parts. <strong>Iren in particular reads better when she has more to read.</strong> Aldea reads better when given material that has been read first by Iren. Vone reads better when shown a name he has already filed under another spelling.</p><h2>Anti-bottleneck rule</h2><p>If the party gets stuck at 2 categories and is genuinely confused, give them a passive prompt: a courier delivers a re-copy of a previous handout with one new detail highlighted, or a friendly NPC remembers a phrase they overheard, or the False Stair appears as a planted misdirection that itself reveals what is being hidden. <strong>The phase must not dead-end.</strong></p>"
+      }
+    }
+  ],
+  "folder": null,
+  "sort": 200000,
+  "ownership": { "default": -1 },
+  "flags": { "blooming-rot-2": { "phase": 7 } },
+  "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null }
+}

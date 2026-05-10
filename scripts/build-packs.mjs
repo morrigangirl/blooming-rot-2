@@ -8,21 +8,30 @@ const SOURCE_ROOT = path.join(ROOT, "packs", "_source");
 const OUTPUT_ROOT = path.join(ROOT, "packs");
 
 const PACKS = [
+  "welcome",
+  "module-macros",
   "phase-1-journals",
   "phase-1-actors",
   "phase-1-scenes",
   "phase-2-journals",
   "phase-2-actors",
+  "phase-2-scenes",
   "phase-3-journals",
   "phase-3-actors",
+  "phase-3-scenes",
   "phase-4-journals",
   "phase-4-actors",
+  "phase-4-scenes",
   "phase-5-journals",
   "phase-5-actors",
+  "phase-5-scenes",
   "sandbox-journals",
   "sandbox-actors",
   "phase-6-journals",
-  "phase-6-actors"
+  "phase-6-actors",
+  "phase-6-scenes",
+  "phase-7-journals",
+  "phase-7-actors"
 ];
 
 for (const pack of PACKS) {

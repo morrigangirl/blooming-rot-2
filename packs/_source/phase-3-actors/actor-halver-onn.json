@@ -2,7 +2,7 @@
   "_id": "BR2P3A3c0367a197",
   "name": "Halver Onn",
   "type": "npc",
-  "img": "modules/dnd-monster-manual/assets/portraits/noble.webp",
+  "img": "modules/blooming-rot-2/assets/portraits/halver-onn-portrait.png",
   "system": {
     "currency": {
       "pp": 0,
@@ -534,7 +534,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "modules/dnd-monster-manual/assets/tokens/noble.webp",
+      "src": "modules/blooming-rot-2/assets/tokens/halver-onn-token.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

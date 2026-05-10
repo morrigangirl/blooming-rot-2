@@ -2,7 +2,7 @@
   "_id": "BR2P4Abde8fa29a8",
   "name": "Lyla Vesh",
   "type": "npc",
-  "img": "modules/dnd-monster-manual/assets/portraits/noble.webp",
+  "img": "modules/blooming-rot-2/assets/portraits/lyla-vesh-portrait.png",
   "system": {
     "currency": {
       "pp": 0,
@@ -534,7 +534,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "modules/dnd-monster-manual/assets/tokens/noble.webp",
+      "src": "modules/blooming-rot-2/assets/tokens/lyla-vesh-token.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

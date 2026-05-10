@@ -2,7 +2,7 @@
   "_id": "BR2P2Ae625f033ce",
   "name": "Reln Pollow",
   "type": "npc",
-  "img": "modules/dnd-monster-manual/assets/portraits/priest-acolyte-01.webp",
+  "img": "modules/blooming-rot-2/assets/portraits/reln-pollow-portrait.png",
   "system": {
     "currency": {
       "pp": 0,
@@ -538,7 +538,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "modules/dnd-monster-manual/assets/tokens/priest-acolyte-*.webp",
+      "src": "modules/blooming-rot-2/assets/tokens/reln-pollow-token.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

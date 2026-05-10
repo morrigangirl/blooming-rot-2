@@ -2,7 +2,7 @@
   "_id": "BR2Sbx6b662435eb",
   "name": "Sergeant Brel Vandros",
   "type": "npc",
-  "img": "modules/dnd-monster-manual/assets/portraits/warrior-veteran.webp",
+  "img": "modules/blooming-rot-2/assets/portraits/sandbox/sergeant-brel-vandros-portrait.png",
   "system": {
     "currency": {
       "pp": 0,
@@ -534,7 +534,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "modules/dnd-monster-manual/assets/tokens/warrior-veteran.webp",
+      "src": "modules/blooming-rot-2/assets/tokens/sandbox/sergeant-brel-vandros-token.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

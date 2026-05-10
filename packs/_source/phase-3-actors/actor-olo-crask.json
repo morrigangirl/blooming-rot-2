@@ -2,7 +2,7 @@
   "_id": "BR2P3A154ca78240",
   "name": "Olo Crask",
   "type": "npc",
-  "img": "modules/dnd-monster-manual/assets/portraits/bandit-captain.webp",
+  "img": "modules/blooming-rot-2/assets/portraits/olo-crask-portrait.png",
   "system": {
     "currency": {
       "pp": 0,
@@ -531,7 +531,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "modules/dnd-monster-manual/assets/tokens/bandit-captain.webp",
+      "src": "modules/blooming-rot-2/assets/tokens/olo-crask-token.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

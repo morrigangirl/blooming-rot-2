@@ -74,6 +74,7 @@ PHASES = [
     {"n": 4, "title": "The Rel Astra Confrontation", "color": "#3d3d5a"},
     {"n": 5, "title": "The Small Matter", "color": "#5a3d5a"},
     {"n": 6, "title": "The Brass Crow", "color": "#3d3d3d"},
+    {"n": 7, "title": "The Seventh Question", "color": "#4a3d2a"},
 ]
 
 PALETTE = {
@@ -559,6 +560,24 @@ FLOW = {
         "edges": [
             ("arr","brief"), ("brief","npcs"), ("npcs","leak"),
             ("leak","decide"), ("decide","leads"),
+        ],
+    },
+    7: {
+        "title": "Phase 7 Flow — The Seventh Question (Cairn Hills)",
+        "nodes": [
+            ("aftermath", "Phase 6 aftermath:\nsort evidence + prisoners", "scene"),
+            ("interp", "Consult interpretive\nsources (Iren, Aldea, Vone, Vetch)", "scene"),
+            ("triang", "Build the triangulation:\n5 evidence categories", "scene"),
+            ("counter", "Enemy countermeasures:\nroute-cleansing, false maps", "scene"),
+            ("recon", "Field reconnaissance\ntoward Cairn Hills", "scene"),
+            ("decide", "Did the party reach\nthe site in time?", "decision"),
+            ("cairn", "Seven-Cut Cairn:\nsurface threshold found", "scene"),
+            ("false", "False Stair (optional):\nenemy misdirection", "side"),
+        ],
+        "edges": [
+            ("aftermath","interp"), ("interp","triang"), ("triang","counter"),
+            ("counter","recon"), ("recon","decide"), ("decide","cairn"),
+            ("counter","false"),
         ],
     },
     6: {

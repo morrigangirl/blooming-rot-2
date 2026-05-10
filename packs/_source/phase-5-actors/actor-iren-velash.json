@@ -2,7 +2,7 @@
   "_id": "BR2P5A62005cf7c7",
   "name": "Iren Velash",
   "type": "npc",
-  "img": "modules/dnd-monster-manual/assets/portraits/mage-apprentice.webp",
+  "img": "modules/blooming-rot-2/assets/portraits/iren-velash-portrait.png",
   "system": {
     "currency": {
       "pp": 0,
@@ -443,7 +443,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p>Half-Suel manuscript dealer in Greyhawk's Garden Quarter. Intel contact whose paper-trail expertise helps the party trace Haskur Vandrell. Forty, quiet, knows everyone in the Aerdy book trade.</p>",
+        "value": "<h2>Iren Velash — Manuscript Dealer</h2><p><em>Half-Suel manuscript dealer. Velash Manuscripts &amp; Bindings, Garden Quarter, Greyhawk City. Phase 5 contact, central to Phase 6.</em></p><h3>Quick read</h3><ul><li><strong>Age</strong>: early fifties.</li><li><strong>Frame</strong>: small, careful, ink under all ten fingernails.</li><li><strong>Dress</strong>: a quiet half-Suel cut, dark, slightly worn. Reading-glass on a chain at her belt.</li><li><strong>Manner</strong>: not friendly. Honest. Knows everyone in the Aerdy book trade and is owed favours by half of them.</li></ul><h3>The phrase</h3><p><strong>\"The seventh question of the third volume.\"</strong> Caelith taught her this in 568 CY. She does not know why. If a stranger speaks it inside her shop with an honest face, she will close the front shutters, lock the door, and put a kettle on.</p><h3>Motive</h3><p>Iren reads things for a living. She has wanted, for fifteen years, to read something that mattered. Caelith's commissions are the closest she has come.</p><h3>Tell</h3><p>When she is reading something she finds genuinely interesting, she stops blinking.</p><h3>Fear</h3><p>That the next reading will be the one that kills someone she likes.</p><h3>Leverage</h3><p>Iren can be paid (modestly), but she is not for sale. She works for honest scholars, and for people Caelith has vouched for.</p><h3>What Iren can read</h3><p>For each item the party brings, Iren can produce a one-page written analysis within a day. She does not waste paper. She does not redraft. She analyses Aldea's reply, Haskur's false papers, the Korre ledger hand, any \"E.\" marginalia, and — keystone — the phrase <strong>\"Seventh Stair.\"</strong></p><h3>Cross-references</h3><p>See <em>Phase 6 — Greyhawk NPCs</em> for full reveals and the keystone reading.</p>",
         "public": ""
       },
       "alignment": "Neutral",
@@ -538,7 +538,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "modules/dnd-monster-manual/assets/tokens/mage-apprentice.webp",
+      "src": "modules/blooming-rot-2/assets/tokens/iren-velash-token.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

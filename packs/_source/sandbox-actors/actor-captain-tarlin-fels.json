@@ -2,7 +2,7 @@
   "_id": "BR2Sbx2df7d276a0",
   "name": "Captain Tarlin Fels",
   "type": "npc",
-  "img": "modules/dnd-monster-manual/assets/portraits/knight.webp",
+  "img": "modules/blooming-rot-2/assets/portraits/sandbox/captain-tarlin-fels-portrait.png",
   "system": {
     "currency": {
       "pp": 0,
@@ -535,7 +535,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "modules/dnd-monster-manual/assets/tokens/knight.webp",
+      "src": "modules/blooming-rot-2/assets/tokens/sandbox/captain-tarlin-fels-token.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

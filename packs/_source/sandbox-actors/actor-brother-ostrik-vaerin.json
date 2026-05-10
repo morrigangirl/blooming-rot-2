@@ -2,7 +2,7 @@
   "_id": "BR2Sbx95783687b8",
   "name": "Brother Ostrik Vaerin",
   "type": "npc",
-  "img": "modules/dnd-monster-manual/assets/journal-art/priests.webp",
+  "img": "modules/blooming-rot-2/assets/portraits/sandbox/brother-ostrik-vaerin-portrait.png",
   "system": {
     "currency": {
       "pp": 0,
@@ -538,7 +538,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "modules/dnd-monster-manual/assets/tokens/priest.webp",
+      "src": "modules/blooming-rot-2/assets/tokens/sandbox/brother-ostrik-vaerin-token.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

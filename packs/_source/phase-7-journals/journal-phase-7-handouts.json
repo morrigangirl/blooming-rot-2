@@ -1,0 +1,147 @@
+{
+  "_key": "!journal!BR2P7HandoutsJrnl",
+  "_id": "BR2P7HandoutsJrnl",
+  "name": "Phase 7 — Player Handouts",
+  "pages": [
+    {
+      "_id": "BR2P7HoPgInventory",
+      "_key": "!journal.pages!BR2P7HandoutsJrnl.BR2P7HoPgInventory",
+      "name": "Handout 1B — Inventory of H. V. Andren's Effects",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 50000,
+      "ownership": { "default": 1 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "text": {
+        "format": 1,
+        "content": "<h1>Handout 1B — Inventory of H. V. Andren's Effects</h1><p><em>Use if Haskur was killed at the Old Stonecistern. Plain inventory sheet, hand-written by the party member who took stock. Format as a borrowed cellar's working list.</em></p><pre style=\"font-family: 'Courier New', monospace; padding: 1em; background-color: #f7f1e3; border-left: 3px solid #8a7a5e;\">EFFECTS OF H. V. ANDREN (HASKUR VANDRELL)\nRecovered from Old Stonecistern, Greyhawk City, Foreign Quarter\nDate of death: night of Sunsebb 16, current year\n\nCLOTHING\n  1 worn Aerdy travel coat, dark wool, lining tampered with\n  1 cream linen shirt (bloodstained)\n  1 dark trousers\n  1 pair leather boots, well-worn\n  1 leather travel-belt, stained\n  1 dark wool cloak with wax-stained hem\n\nIN COAT LINING\n  1 brass button (decoy) concealing folded slip:\n    -> reads only: \"V. K. — 8th of Patchett\"\n\nIN BELT LINING\n  1 small silver crescent (Aerdy commercial-house token, defaced)\n\nPURSE CONTENTS\n  38 gp, 12 sp\n  2 pewter trade-chits stamped \"Tarnsmere Toll — route account\"\n\nSEPARATE POCKET (interior right of coat)\n  1 small canvas pouch of stone dust\n    -> not quarry stone, not river stone\n    -> heavy, slightly oily\n    -> iron-grey with a thread of green\n\nHIDDEN POCKET (left of coat, behind seam)\n  1 folded paper, half-burned at the edge\n    -> reads: \"… no sail. no road. VII. cairn under the …\"\n\nIN SECONDARY POUCH (behind back of belt)\n  1 small brass crow figurine, hollow\n    -> inside: cipher slip with three letters: T · S · C\n\nWEAPONS\n  none</pre><h2>What the items mean</h2><ul><li><strong>The brass button slip (V. K. — 8th of Patchett)</strong> ties Haskur to Korre's most recent monthly cycle.</li><li><strong>The Tarnsmere chits</strong> are <em>route-account</em> markers &mdash; bring to Vone, who can read the account class.</li><li><strong>The stone dust</strong> is for Aldea. She will recognise the recipe-family.</li><li><strong>The burned paper fragment</strong> contains the keystone phrase: <em>no sail. no road. VII.</em></li><li><strong>The cipher slip T &middot; S &middot; C</strong> resolves later as <strong>Tarnsmere Spur Cairn</strong>.</li></ul>"
+      }
+    },
+    {
+      "_id": "BR2P7HoPgIrenGloss",
+      "_key": "!journal.pages!BR2P7HandoutsJrnl.BR2P7HoPgIrenGloss",
+      "name": "Handout 1 — Iren Velash's Glossary Note",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 100000,
+      "ownership": { "default": 1 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "text": {
+        "format": 1,
+        "content": "<h1>Handout 1 — Iren Velash's Glossary Note</h1><p><em>One page, half-Suel commercial paper, Iren's small steady hand. Delivered the morning after she reads the party's materials.</em></p><blockquote><p>To the party:</p><p>I have completed an initial reading of the materials you brought. The conclusions below are preliminary; I will revise on receipt of further evidence.</p><p><strong>I.</strong> The phrase &ldquo;Seventh Stair,&rdquo; written either as <em>Seventh Stair</em> or <em>VII Stair</em>, appears in <em>one</em> source I have access to: an obsolete mining-route glossary published in Aerdy commercial circles in the late fifth century. The phrase indicates a route belonging to the seventh class of permitted descents in old Aerdy administrative practice.</p><p><strong>II.</strong> The numeral <em>VII</em> is not a sequence in a ledger. It is an <em>account-class marker</em>. Routes were classified by the number of permissions required to traverse them. Class VII required &mdash; in 487 CY &mdash; written authority from the relevant Guild, the relevant landholder, and a now-defunct commercial body called the Aerdy Permissive Survey.</p><p><strong>III.</strong> The phrase &ldquo;Seventh Question&rdquo; appears in old Aerdy index tradition as a route-survey term. The seventh question on the standard surveyor's intake form asks: <em>&ldquo;Does this route descend past the Surveyor General's mandate?&rdquo;</em> Routes for which the answer was &ldquo;yes&rdquo; were filed under VII regardless of their geography. Most such routes were closed administratively by the eighth century. The Aerdy Permissive Survey was dissolved in 542 CY.</p><p><strong>IV.</strong> &ldquo;No sail. No road.&rdquo; is not metaphorical. It is the standard Class VII transit condition: <em>not on water, not on a chartered surface road.</em> Class VII routes were always artificial descents.</p><p><strong>V.</strong> The hand that wrote the Ashen Itinerary is not the hand that wrote V. Korre's ledger annotations. The wax is unfamiliar to me &mdash; bring it to your contact in the wood.</p><p><strong>VI.</strong> The script on the Itinerary was produced by someone trained in Aerdy commercial-court shorthand but who learned the long-stroke <em>after</em> learning the abbreviations. This is unusual. The writer's first script was something else.</p><p><strong>VII.</strong> The seventh cut on a Class VII waymark is a <em>permission cut</em>. It is not added at the time of road-cutting; it is added by the holder of the relevant authority, in soot, at the time the route is admitted. The mark indicates that <em>this</em> descent has been authorised. Without the seventh cut, the route is closed.</p><p>Read this and burn it. I will not say so again.</p><p>Velash.</p></blockquote>"
+      }
+    },
+    {
+      "_id": "BR2P7HoPgAldea",
+      "_key": "!journal.pages!BR2P7HandoutsJrnl.BR2P7HoPgAldea",
+      "name": "Handout 2 — Aldea Veren's Material Reply",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 200000,
+      "ownership": { "default": 1 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "text": {
+        "format": 1,
+        "content": "<h1>Handout 2 — Aldea Veren's Material Reply</h1><p><em>One page, plain woodland paper, Aldea's careful hand. Delivered by the same indifferent courier who carried the materials. Or, if visited in person, set on the workbench after her reading.</em></p><blockquote><p>The materials you sent me are old. I am sending back what I have read in them.</p><p><strong>The wax.</strong> The recipe-family is the third I have encountered in forty years. The first was on a Suloise hill-country forgery; the second I have not written of and will not. The third is yours. It contains a darkening agent associated with cool, lightless storage &mdash; not damp storage, not cave storage, but a kind of <em>contained</em> storage that does not have weather. There is also a resin component I last saw on a 200-year-old sealed survey from the Cairn Hills. The wax was meant to outlast its document.</p><p><strong>The stone dust.</strong> Worked stone, not river-stone. The iron-grey is consistent with limestone of certain inland deposits. The thread of green is a mineral consistent with two regions: the southern Cairn Hills and the Stark Mounds. The Cairn Hills are the closer match.</p><p><strong>The route mark.</strong> The cut technique is not Yeomanry, not modern Aerdy, not Suel. It is older than any of those. The &ldquo;hill&rdquo; is a surveyor's mark for a sealed entrance &mdash; it is not topography. The seven cuts are a permission count, not a sequence.</p><p><strong>The burned paper.</strong> Treated with an old mining-charter fixative. Not commercial stationery. It was meant to be official.</p><p>You are looking for a road because the paper taught you to. Stop obeying the paper. The material does not remember a harbor. It remembers something else.</p><p>I will read more if you send more.</p><p>Aldea.</p><p style=\"text-align: right;\"><em>P.S. — Someone copied the inside seam of the last envelope. If you do not know who, you should care. If you do know who, send me a name and I will care for both of us.</em></p></blockquote>"
+      }
+    },
+    {
+      "_id": "BR2P7HoPgVoneLedger",
+      "_key": "!journal.pages!BR2P7HandoutsJrnl.BR2P7HoPgVoneLedger",
+      "name": "Handout 3 — Vone's Route-Exception Ledger",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 300000,
+      "ownership": { "default": 1 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "text": {
+        "format": 1,
+        "content": "<h1>Handout 3 — Vone's Route-Exception Ledger</h1><p><em>A copied page from Vone's irregular archive, hand-copied for the party. Vone's small sloped hand. Several entries are red herrings.</em></p><pre style=\"font-family: 'Courier New', monospace; padding: 1em; background-color: #f7f1e3; border-left: 3px solid #8a7a5e;\">ROUTE-EXCEPTION ARCHIVE — selected entries\nTransferred from working copy, Vone's hand\n\n[Patchett 17]    Reln Pollow / Aerdy phys. corr.   normal\n[Patchett 19]    Korre channel — pkt rcvd            Aerdy normal\n[Patchett 22]    Korre channel — pkt fwd K&amp;R          K&amp;R intermediate\n[Patchett 28]    Korre channel — exception           STAIR / NO SAIL NO ROAD\n                 acct prefix: VII\n                 dest: Tarnsmere Toll (route acct)\n                 carrier: K. unfamiliar; sig single vertical\n\n[Ready'reat 4]   Foreign tradeline — Hardby           normal\n[Ready'reat 11]  K— pkt H.V.A. → Brass Crow div     STAIR exception\n                 (forwarding chit reads: NE SPUR — route exception)\n[Ready'reat 15]  Reln Pollow / Greyhawk apoth.       normal\n[Ready'reat 21]  Korre channel — pkt rcvd            account closed by sender\n                 NOTE: sender preparing close-of-account\n                 NOTE: T·S·C cross-ref appears\n                 NOTE: do not file under K&amp;R; file under MINING ACCT\n\n[Sunsebb 3]      Korre channel — final pkt          STAIR exception\n                 acct: VII / NE SPUR / TARNSMERE\n                 close-of-account scheduled for 18 Sunsebb\n\n[Sunsebb 14]     Internal Vone note: T·S·C resolves\n                 → Tarnsmere Spur Cairn (mining record)\n                 → cross-ref: Guild old map sheet 47\n                 → CONFIRM with surveyor (Vetch?)</pre><h2>Reading the page</h2><ul><li>The phrase <strong>&ldquo;STAIR&rdquo;</strong> appears <em>only</em> in route-exception entries, never in normal courier traffic.</li><li><strong>Account prefix VII</strong> ties Korre's traffic to the Aerdy Permissive Survey's old classification.</li><li><strong>Tarnsmere Toll</strong> is the destination, treated as a route-account, not a place.</li><li><strong>NE SPUR &mdash; route exception</strong> identifies the direction (northeast) and the road class (mining spur).</li><li>The signature &ldquo;K. unfamiliar; sig single vertical&rdquo; is Kethren's signature mark.</li><li>Vone's note <strong>T &middot; S &middot; C resolves &rarr; Tarnsmere Spur Cairn</strong> is the crucial cross-reference Vone made himself but kept private.</li><li><strong>Guild old map sheet 47</strong> is the map that has been substituted in the Guild archive (per Route-Cleansing Clock).</li><li><strong>CONFIRM with surveyor (Vetch?)</strong> &mdash; Vone was about to do exactly what the party is doing.</li></ul>"
+      }
+    },
+    {
+      "_id": "BR2P7HoPgGuildClaim",
+      "_key": "!journal.pages!BR2P7HandoutsJrnl.BR2P7HoPgGuildClaim",
+      "name": "Handout 4 — Guild Mining Claim Extract",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 400000,
+      "ownership": { "default": 1 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "text": {
+        "format": 1,
+        "content": "<h1>Handout 4 — Guild Mining Claim Extract</h1><p><em>An old claim record from the Greyhawk Guild of Miners &amp; Jewelers, copied from the obsolete claims archive. Heavy parchment. Two seals at the foot: one Guild, one Aerdy Permissive Survey (the latter visibly re-waxed years after the original).</em></p><pre style=\"font-family: 'Courier New', monospace; padding: 1em; background-color: #f7f1e3; border-left: 3px solid #8a7a5e;\">GUILD OF MINERS AND JEWELERS, FREE CITY OF GREYHAWK\nClaim Record — Old Filed Archive, sheet 47\n\nClaim name:        TARNSMERE SPUR\nClaim no.:         VII / 0341\nDate filed:        487 CY\nClaimant:          [name redacted, scraped, illegible]\nLocation:          [scraped, partial: \"NE of Greyhawk City, off old Tarn-\n                    smere Toll road, ending at the surveyed cairn\"]\nSurvey class:      Class VII (Aerdy Permissive Survey)\nLast survey:       542 CY\nLast survey by:    Garrold Eft, Yeomanry surveyor (RETIRED — see margin)\n\nMARGIN NOTE [contemporary]:\n  Marked UNPROFITABLE. Closed administratively, 542 CY.\n  See Surveyor General's note for justification.\n\nMARGIN NOTE [later, different hand]:\n  Surveyor Eft did not return from final survey.\n  Surveyor General's note unavailable.\n  Re-waxed by clerk's authority, 549 CY.\n\nMARGIN NOTE [recent, fresh ink, smaller hand]:\n  Filed under \"unprofitable\" per client request.\n  No further survey to be authorised.\n  Underclerk Y.P., 14 Sunsebb [current year].</pre><h2>Reading the page</h2><ul><li><strong>Claim no. VII/0341</strong> &mdash; Class VII permission route. Confirms Iren's analysis.</li><li>The <strong>claimant's name has been scraped</strong> from the record &mdash; not redacted, scraped. Someone went back and erased it physically.</li><li>The location partial confirms northeast of Greyhawk, off the old Tarnsmere Toll road, ending at a <strong>surveyed cairn</strong>.</li><li><strong>Garrold Eft</strong> is the missing Yeomanry surveyor Caelith referenced. He went out to do the 542 CY survey and did not return. The Surveyor General's note that should explain why is unavailable.</li><li>The record was <strong>re-waxed in 549 CY</strong> &mdash; meaning the Aerdy Permissive Survey seal at the bottom is not the original. It was applied <em>after</em> the Survey itself was dissolved in 542. Someone wanted the record to look legitimate.</li><li><strong>Underclerk Y.P.</strong> is Yorth Pell &mdash; the Guild underclerk being paid to swap records. The most recent margin note is his.</li></ul>"
+      }
+    },
+    {
+      "_id": "BR2P7HoPgVetchMap",
+      "_key": "!journal.pages!BR2P7HandoutsJrnl.BR2P7HoPgVetchMap",
+      "name": "Handout 5 — Dalmor Vetch's Sketched Map",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 500000,
+      "ownership": { "default": 1 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "text": {
+        "format": 1,
+        "content": "<h1>Handout 5 — Dalmor Vetch's Sketched Map</h1><p><em>A folded sheet of plain paper. Drawn with a heavy iron-gall pen by a man with seven fingers. Compass orientation rough. Distance marks in his own hand &mdash; not standard Guild notation, but legible. He gave it to the party for 20 gp and a promise not to mention him to the Guild.</em></p><blockquote><p>(<em>The map is described in prose. Imagine it as a hand-drawn parchment, slightly crumpled, with a few coffee or beer stains.</em>)</p><h3>Vetch's sketch — top to bottom, north to south</h3><p><strong>1.</strong> Greyhawk City &mdash; a small circle at the south edge of the sheet, labelled simply &ldquo;GHC.&rdquo;</p><p><strong>2.</strong> Northeast from GHC, the <strong>Old Eastern Trade Route</strong> &mdash; a thick wandering line, well-marked, going east-northeast.</p><p><strong>3.</strong> After roughly 14 miles (Vetch's mark: &ldquo;abt 14 mi.&rdquo;), a smaller line branches off to the left/north: the <strong>Tarnsmere Spur</strong>. Vetch has drawn this line in dashes &mdash; meaning the road is abandoned.</p><p><strong>4.</strong> Along the Tarnsmere Spur, a <strong>dry ford</strong> at a small unnamed stream. Marked with a wavy line and the note: &ldquo;not deep, low summer.&rdquo;</p><p><strong>5.</strong> Past the dry ford, a <strong>split ash tree</strong>. Drawn carefully &mdash; a tree with two trunks rising from a single base. Vetch has written: &ldquo;leftward from here.&rdquo;</p><p><strong>6.</strong> Then a slow climb up into the low folds of the southern Cairn Hills. The dashed line of the Spur fades into single dots toward the end &mdash; meaning the road is barely visible.</p><p><strong>7.</strong> At the end of the dotted line: a small symbol of a roofless rectangle &mdash; <strong>the ruined tollhouse</strong>. Labelled &ldquo;Tarnsmere Toll.&rdquo;</p><p><strong>8.</strong> Just past the tollhouse, slightly to the east: a small mound of stones drawn as overlapping triangles. <strong>The Seven-Cut Cairn.</strong> Vetch has marked it with a tiny seven-cut symbol of his own beside the drawing.</p><p><strong>9.</strong> At the bottom of the sheet, in different ink, a single sentence in Vetch's hand: <em>&ldquo;If the seventh cut is gone, you are too late, or you are at the wrong cairn.&rdquo;</em></p></blockquote><h2>Reading the map</h2><p>Distance from Greyhawk to the cairn: roughly 18&ndash;22 miles total. Two days at travel pace; one and a half if pushed. The party will follow the Old Eastern Trade Route to the spur, the spur to the dry ford, the ford to the split ash tree, then north-northwest into the hills.</p>"
+      }
+    },
+    {
+      "_id": "BR2P7HoPgFalseStair",
+      "_key": "!journal.pages!BR2P7HandoutsJrnl.BR2P7HoPgFalseStair",
+      "name": "Handout 6 — False Stair Map (planted)",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 600000,
+      "ownership": { "default": 1 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "text": {
+        "format": 1,
+        "content": "<h1>Handout 6 — False Stair Map</h1><p><em>Use only if the party encounters Node 6 (the False Stair). A planted map presented to them by a stranger, a forged document, or a coerced statement. The map is plausibly wrong: similar enough to Vetch's sketch to convince a careless party, different enough to be caught by careful comparison.</em></p><blockquote><p><em>(The false map is described in prose, as Vetch's was. Imagine it as a hand-drawn parchment, presented as authentic.)</em></p><h3>The false sketch</h3><p><strong>1.</strong> Greyhawk City &mdash; same starting point.</p><p><strong>2.</strong> Northeast on the Old Eastern Trade Route, but turning <em>north</em> instead of north by northwest after the dry ford.</p><p><strong>3.</strong> Past the ford, a <em>single oak tree</em> (not a split ash).</p><p><strong>4.</strong> Then a climb to a <strong>dry quarry shaft</strong> on the wrong side of the ridge &mdash; a real surface feature, just not the right one.</p><p><strong>5.</strong> At the bottom of the quarry: a stone marker, partially overgrown, with <strong>six cuts</strong> beneath a hill symbol.</p><p><strong>6.</strong> No tollhouse is shown. No survey station ruin. No textured stairwell stone.</p><p><strong>7.</strong> The line work is <em>too clean</em> &mdash; the parchment is recent, the ink unfaded. The stranger who provided it claims it is &ldquo;old.&rdquo;</p></blockquote><h2>How to catch the forgery</h2><table><tbody><tr><th>Check</th><th>DC</th><th>Reveals</th></tr><tr><td>Investigation (compare with Vetch's sketch)</td><td>12</td><td>Six cuts vs. seven. The route description is wrong by one tree species.</td></tr><tr><td>Investigation (parchment age)</td><td>13</td><td>The parchment is new &mdash; this season, not last decade.</td></tr><tr><td>History (Tarnsmere Spur vs. North Quarry route)</td><td>14</td><td>The northern route is a different mining claim. It was never Class VII.</td></tr><tr><td>Insight (the stranger who provided the map)</td><td>13</td><td>They are not local; they are not retired Guild. They are too eager.</td></tr></tbody></table><h2>If the party falls for it</h2><p>They will lose a day walking to the wrong quarry. They will find a small ambush there (see Node 6 &mdash; The False Stair). They will recover the map at the end and realise it is a forgery. <em>The realisation itself is a clue</em> &mdash; the enemy knows they're close.</p>"
+      }
+    },
+    {
+      "_id": "BR2P7HoPgCaelith",
+      "_key": "!journal.pages!BR2P7HandoutsJrnl.BR2P7HoPgCaelith",
+      "name": "Handout 7 — Caelith's Courier Addendum",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 700000,
+      "ownership": { "default": 1 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "text": {
+        "format": 1,
+        "content": "<h1>Handout 7 — Caelith's Courier Addendum</h1><p><em>A single folded paper, unsigned. The hand is unmistakable. If Closure passed in Phase 5, the paper carries no Audit Hall seal and no official mark. If Closure was held over or defeated, the paper carries a single small wax seal &mdash; not the Yeomanry sigil, but a private one Caelith has used in his correspondence with Trina and Aldea for fifteen years.</em></p><blockquote><p>You are no longer following a man.</p><p>You are following the permissions around him.</p><p>Roads are watched from the sides. Descents are watched from below.</p><p>If you find what you are looking for, do not treat it as a road. Do not approach it as a road. Do not announce yourselves the way a road would expect to be announced.</p><p>Whatever is at the foot of that stair, it was already there when the surface forgot how to read the marker.</p><p>Be ready. Be slow. Send word back when you can. If you cannot, I will assume you have descended, and I will keep your office open until the third week of next month.</p><p>If anyone asks me where you are, I have not seen you in some time.</p></blockquote>"
+      }
+    },
+    {
+      "_id": "BR2P7HoPgWaymark",
+      "_key": "!journal.pages!BR2P7HandoutsJrnl.BR2P7HoPgWaymark",
+      "name": "Handout 8 — Final Waymark Description",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 800000,
+      "ownership": { "default": 1 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "text": {
+        "format": 1,
+        "content": "<h1>Handout 8 — Final Waymark Description</h1><p><em>Player-facing description of the Seven-Cut Cairn waymark and its symbol, for use when the party first reaches the site and examines the cairn closely. Hand this to the players as if they are looking at the cairn themselves.</em></p><blockquote><p>The cairn stands chest-high on a small rise where the abandoned mining spur ends. It is built of local fieldstone, mortared with a lime-and-ash mix that is older than your grandparents. The wind comes off the southern Cairn Hills constantly and does not feel like weather. It feels like a kind of attention.</p><p>On the cairn's east face, cut into the largest single block of stone, you see the route mark.</p><p>It is seven descending slashes, one above the other, in soot-blackened cuts that go deep into the stone. The cuts are not parallel; each is angled slightly so that the seven of them together suggest a stairway descending into the rock. Above the topmost cut, a single curved arc &mdash; a hill silhouette &mdash; with the inside of the curve filled in with old, weathered charcoal.</p><p>The seventh cut, at the bottom, is sharper than the other six. The blackening is not as worn. Whoever made the seventh cut made it later than the others, and made it on purpose.</p><p>You have seen this symbol before. It is the same shape that was scratched, in fresh soot, into the wall of the Old Stonecistern in Greyhawk City, on the night you watched a man in grey-and-bone clothing carry a slim packet through a sluice gate you could not follow.</p><p>This is the surface end of the same route.</p><p>The seventh cut is what tells you the route has been admitted.</p></blockquote><h2>GM note</h2><p>If the party examines the cairn closely, they may take a rubbing &mdash; a thin paper rubbed with charcoal to reproduce the mark. This rubbing matches the route-mark sketch from Phase 6 exactly. Hand this confirmation across the table; it is the moment the campaign clicks into place for the players.</p>"
+      }
+    }
+  ],
+  "folder": null,
+  "sort": 800000,
+  "ownership": { "default": -1 },
+  "flags": { "blooming-rot-2": { "phase": 7 } },
+  "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null }
+}

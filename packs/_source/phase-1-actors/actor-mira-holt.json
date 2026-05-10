@@ -2,7 +2,7 @@
   "_id": "BR2P1Ad1ae19456c",
   "name": "Mira Holt",
   "type": "npc",
-  "img": "modules/dnd-monster-manual/assets/portraits/commoner-01.webp",
+  "img": "modules/blooming-rot-2/assets/portraits/mira-holt-portrait.png",
   "system": {
     "currency": {
       "pp": 0,
@@ -530,7 +530,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "modules/dnd-monster-manual/assets/tokens/commoner-*.webp",
+      "src": "modules/blooming-rot-2/assets/tokens/mira-holt-token.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

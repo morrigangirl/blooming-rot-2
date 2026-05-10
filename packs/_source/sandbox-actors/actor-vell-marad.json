@@ -2,7 +2,7 @@
   "_id": "BR2Sbx9a2b236d85",
   "name": "Vell Marad",
   "type": "npc",
-  "img": "modules/dnd-monster-manual/assets/portraits/mage-apprentice.webp",
+  "img": "modules/blooming-rot-2/assets/portraits/sandbox/vell-marad-portrait.png",
   "system": {
     "currency": {
       "pp": 0,
@@ -538,7 +538,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "modules/dnd-monster-manual/assets/tokens/mage-apprentice.webp",
+      "src": "modules/blooming-rot-2/assets/tokens/sandbox/vell-marad-token.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

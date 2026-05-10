@@ -2,7 +2,7 @@
   "_id": "BR2P6Afe4bb77b5c",
   "name": "Saern",
   "type": "npc",
-  "img": "modules/dnd-monster-manual/assets/journal-art/toughs.webp",
+  "img": "modules/blooming-rot-2/assets/portraits/saern-portrait.png",
   "system": {
     "currency": {
       "pp": 0,
@@ -530,7 +530,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "modules/dnd-monster-manual/assets/tokens/tough.webp",
+      "src": "modules/blooming-rot-2/assets/tokens/saern-token.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

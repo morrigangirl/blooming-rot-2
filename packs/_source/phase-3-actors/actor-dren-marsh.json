@@ -2,7 +2,7 @@
   "_id": "BR2P3A27830df5c2",
   "name": "Dren Marsh",
   "type": "npc",
-  "img": "modules/dnd-monster-manual/assets/portraits/warrior-veteran.webp",
+  "img": "modules/blooming-rot-2/assets/portraits/dren-marsh-portrait.png",
   "system": {
     "currency": {
       "pp": 0,

@@ -2,7 +2,7 @@
   "id": "blooming-rot-2",
   "title": "Blooming Rot, Part 2",
   "description": "A Greyhawk adventure set in the pre-Wars Yeomanry, in five phases: Loftwick's return, the dead man's receipts, the Hardby investigation, the Rel Astra confrontation, and The Small Matter (the Loftwick counterintelligence aftermath).",
-  "version": "0.7.1",
+  "version": "0.8.0",
   "compatibility": {
     "minimum": "13",
     "verified": "13.351",
@@ -16,7 +16,7 @@
   ],
   "url": "https://github.com/morrigangirl/blooming-rot-2",
   "manifest": "https://github.com/morrigangirl/blooming-rot-2/releases/latest/download/module.json",
-  "download": "https://github.com/morrigangirl/blooming-rot-2/releases/download/v0.7.1/module.zip",
+  "download": "https://github.com/morrigangirl/blooming-rot-2/releases/download/v0.8.0/module.zip",
   "readme": "https://github.com/morrigangirl/blooming-rot-2/blob/main/README.md",
   "bugs": "https://github.com/morrigangirl/blooming-rot-2/issues",
   "changelog": "https://github.com/morrigangirl/blooming-rot-2/releases",
@@ -33,6 +33,28 @@
     ]
   },
   "packs": [
+    {
+      "name": "welcome",
+      "label": "Blooming Rot 2 — Read Me First",
+      "path": "packs/welcome",
+      "type": "JournalEntry",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OBSERVER"
+      }
+    },
+    {
+      "name": "module-macros",
+      "label": "Blooming Rot 2 — Utility Macros",
+      "path": "packs/module-macros",
+      "type": "Macro",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OBSERVER"
+      }
+    },
     {
       "name": "phase-1-journals",
       "label": "Phase 1 — Journals",
@@ -77,6 +99,13 @@
       "system": "dnd5e"
     },
     {
+      "name": "phase-2-scenes",
+      "label": "Phase 2 — Scenes",
+      "path": "packs/phase-2-scenes",
+      "type": "Scene",
+      "system": "dnd5e"
+    },
+    {
       "name": "phase-3-journals",
       "label": "Phase 3 — Journals",
       "path": "packs/phase-3-journals",
@@ -92,6 +121,13 @@
       "label": "Phase 3 — NPCs",
       "path": "packs/phase-3-actors",
       "type": "Actor",
+      "system": "dnd5e"
+    },
+    {
+      "name": "phase-3-scenes",
+      "label": "Phase 3 — Scenes",
+      "path": "packs/phase-3-scenes",
+      "type": "Scene",
       "system": "dnd5e"
     },
     {
@@ -113,6 +149,13 @@
       "system": "dnd5e"
     },
     {
+      "name": "phase-4-scenes",
+      "label": "Phase 4 — Scenes",
+      "path": "packs/phase-4-scenes",
+      "type": "Scene",
+      "system": "dnd5e"
+    },
+    {
       "name": "phase-5-journals",
       "label": "Phase 5 — Journals",
       "path": "packs/phase-5-journals",
@@ -128,6 +171,13 @@
       "label": "Phase 5 — NPCs",
       "path": "packs/phase-5-actors",
       "type": "Actor",
+      "system": "dnd5e"
+    },
+    {
+      "name": "phase-5-scenes",
+      "label": "Phase 5 — Scenes",
+      "path": "packs/phase-5-scenes",
+      "type": "Scene",
       "system": "dnd5e"
     },
     {
@@ -163,6 +213,31 @@
       "name": "phase-6-actors",
       "label": "Phase 6 — NPCs",
       "path": "packs/phase-6-actors",
+      "type": "Actor",
+      "system": "dnd5e"
+    },
+    {
+      "name": "phase-6-scenes",
+      "label": "Phase 6 — Scenes",
+      "path": "packs/phase-6-scenes",
+      "type": "Scene",
+      "system": "dnd5e"
+    },
+    {
+      "name": "phase-7-journals",
+      "label": "Phase 7 — Journals",
+      "path": "packs/phase-7-journals",
+      "type": "JournalEntry",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "phase-7-actors",
+      "label": "Phase 7 — NPCs",
+      "path": "packs/phase-7-actors",
       "type": "Actor",
       "system": "dnd5e"
     }

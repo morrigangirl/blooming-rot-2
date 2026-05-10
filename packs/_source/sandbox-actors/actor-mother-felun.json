@@ -2,7 +2,7 @@
   "_id": "BR2Sbxf67fc96457",
   "name": "Mother Felun",
   "type": "npc",
-  "img": "modules/dnd-monster-manual/assets/portraits/druid-01.webp",
+  "img": "modules/blooming-rot-2/assets/portraits/sandbox/mother-felun-portrait.png",
   "system": {
     "currency": {
       "pp": 0,
@@ -536,7 +536,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "modules/dnd-monster-manual/assets/tokens/druid-*.webp",
+      "src": "modules/blooming-rot-2/assets/tokens/sandbox/mother-felun-token.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

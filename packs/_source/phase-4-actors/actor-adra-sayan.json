@@ -2,7 +2,7 @@
   "_id": "BR2P4A7c4c955d43",
   "name": "Adra Sayan",
   "type": "npc",
-  "img": "modules/dnd-monster-manual/assets/journal-art/spies.webp",
+  "img": "modules/blooming-rot-2/assets/portraits/adra-sayan-portrait.png",
   "system": {
     "currency": {
       "pp": 0,
@@ -535,7 +535,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "modules/dnd-monster-manual/assets/tokens/spy-master-*.webp",
+      "src": "modules/blooming-rot-2/assets/tokens/adra-sayan-token.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

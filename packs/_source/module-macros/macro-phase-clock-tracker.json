@@ -1,0 +1,32 @@
+{
+  "_key": "!macros!BR2MacroPhaseCl",
+  "_id": "BR2MacroPhaseCl",
+  "name": "BR2 — Phase Clock Tracker",
+  "type": "script",
+  "author": null,
+  "img": "icons/svg/clockwork.svg",
+  "scope": "global",
+  "command": "(async () => {\n  if (!game.user.isGM) { ui.notifications.warn(\"BR2 Phase Clock: GM only.\"); return; }\n  const FLAG_NS = \"blooming-rot-2\";\n  const FLAG_KEY = \"phase-clocks\";\n  const current = game.world.getFlag(FLAG_NS, FLAG_KEY) ?? { phase: 1, trailClock: 0, heatClock: 0 };\n  const html = '<form><p>Set the current phase and clock state.</p>' +\n    '<div class=\"form-group\"><label>Phase (1-9):</label><input type=\"number\" name=\"phase\" min=\"1\" max=\"9\" value=\"' + current.phase + '\"/></div>' +\n    '<div class=\"form-group\"><label>Haskur Trail Clock (0-6):</label><input type=\"number\" name=\"trail\" min=\"0\" max=\"6\" value=\"' + current.trailClock + '\"/></div>' +\n    '<div class=\"form-group\"><label>Greyhawk Heat Clock (0-6):</label><input type=\"number\" name=\"heat\" min=\"0\" max=\"6\" value=\"' + current.heatClock + '\"/></div></form>';\n  new Dialog({\n    title: \"BR2 Phase Clock Tracker\",\n    content: html,\n    buttons: {\n      save: {\n        label: \"Save\",\n        callback: async (htmlEl) => {\n          const form = htmlEl[0].querySelector(\"form\");\n          const next = {\n            phase: Number(form.elements.phase.value) || 1,\n            trailClock: Number(form.elements.trail.value) || 0,\n            heatClock: Number(form.elements.heat.value) || 0\n          };\n          await game.world.setFlag(FLAG_NS, FLAG_KEY, next);\n          ChatMessage.create({\n            content: '<div style=\"border:1px solid #8a7a5e;padding:6px;border-radius:4px;background:#f3ead9;\">' +\n              '<h3 style=\"margin:0 0 4px 0;\">BR2 Phase ' + next.phase + '</h3>' +\n              '<p style=\"margin:2px 0;\"><strong>Haskur Trail Clock:</strong> ' + next.trailClock + ' / 6</p>' +\n              '<p style=\"margin:2px 0;\"><strong>Greyhawk Heat Clock:</strong> ' + next.heatClock + ' / 6</p>' +\n              '</div>',\n            whisper: [game.user.id]\n          });\n        }\n      },\n      report: {\n        label: \"Show only\",\n        callback: () => {\n          const v = game.world.getFlag(FLAG_NS, FLAG_KEY) ?? current;\n          ChatMessage.create({\n            content: '<div style=\"border:1px solid #8a7a5e;padding:6px;border-radius:4px;background:#f3ead9;\">' +\n              '<h3 style=\"margin:0 0 4px 0;\">BR2 Phase ' + v.phase + '</h3>' +\n              '<p style=\"margin:2px 0;\"><strong>Haskur Trail Clock:</strong> ' + v.trailClock + ' / 6</p>' +\n              '<p style=\"margin:2px 0;\"><strong>Greyhawk Heat Clock:</strong> ' + v.heatClock + ' / 6</p>' +\n              '</div>',\n            whisper: [game.user.id]\n          });\n        }\n      },\n      cancel: { label: \"Cancel\" }\n    },\n    default: \"save\"\n  }).render(true);\n})();\n",
+  "folder": null,
+  "sort": 100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "blooming-rot-2": {
+      "kind": "utility-macro",
+      "purpose": "phase-clock"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

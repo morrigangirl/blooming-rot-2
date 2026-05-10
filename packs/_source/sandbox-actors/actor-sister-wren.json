@@ -2,7 +2,7 @@
   "_id": "BR2Sbx5d79bbd453",
   "name": "Sister Wren",
   "type": "npc",
-  "img": "modules/dnd-monster-manual/assets/portraits/priest-acolyte-01.webp",
+  "img": "modules/blooming-rot-2/assets/portraits/sandbox/sister-wren-portrait.png",
   "system": {
     "currency": {
       "pp": 0,
@@ -538,7 +538,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "modules/dnd-monster-manual/assets/tokens/priest-acolyte-*.webp",
+      "src": "modules/blooming-rot-2/assets/tokens/sandbox/sister-wren-token.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

@@ -2,7 +2,7 @@
   "_id": "BR2P5Ae83b4690ca",
   "name": "Tellan Verth",
   "type": "npc",
-  "img": "modules/dnd-monster-manual/assets/portraits/warrior-veteran.webp",
+  "img": "modules/blooming-rot-2/assets/portraits/tellan-verth-portrait.png",
   "system": {
     "currency": {
       "pp": 0,
@@ -443,7 +443,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p>Retired militia sergeant in the Greyhawk Foreign Quarter. Spotted Haskur Vandrell at the Brass Crow on a recent evening. Sixty, lame in one knee, drinks at the same tavern every night.</p>",
+        "value": "<h2>Tellan Verth — Witness</h2><p><em>Retired Yeomanry militia sergeant. Phase 5 actor; central to Phase 6 as the witness who saw Haskur Vandrell at the Brass Crow.</em></p><h3>Quick read</h3><ul><li><strong>Age</strong>: sixty.</li><li><strong>Frame</strong>: lame in one knee, walks with a brass-headed cane.</li><li><strong>Dress</strong>: brown wool, cleaned daily, the Yeomanry sergeant's brass pin sewn flat into the lining of his coat.</li><li><strong>Drinks</strong>: at the Hand of Coals (Foreign Quarter, Greyhawk City) every evening from the second bell after dusk until the watch passes at the first bell after midnight.</li></ul><h3>Motive</h3><p>Verth is not a coward, and he hates that a calm afternoon five days ago made him act like one. He saw a man he half-recognised at a counting-house door, saw the man enter with a younger companion who walked wrong, and decided not to follow. He has been drinking through that decision since.</p><h3>Tell</h3><p>When the conversation gets close to the Brass Crow, he sets his cane very carefully against the bench, as if he expects to need to stand quickly and will not be able to.</p><h3>Fear</h3><p>That whatever he saw is going to come back through Greyhawk and find him before he tells someone who can act on it.</p><h3>Leverage</h3><p>None of the obvious kinds. Verth cannot be bribed, threatened, or romanced. He <em>can</em> be approached as a fellow soldier, as a Yeomanry officer's representative, or as someone who already knows the answer and only needs his confirmation.</p><h3>What Verth saw at the Brass Crow</h3><ol><li>The man was Haskur Vandrell.</li><li>Haskur entered at the third bell after noon, on Tinker's Way.</li><li>Haskur used the alias <strong>H. V. Andren</strong>.</li><li>The younger man was already inside; came in from the back alley.</li><li>The younger man wore <strong>grey-and-bone clothing</strong>, unfamiliar cut.</li><li>His <em>gait was wrong</em> — small constant corrections, as if walking somewhere narrower.</li><li>He watched the door lintel and the street's reflection, not people.</li><li>Haskur listened more than he spoke.</li><li>Verth could not follow them out.</li></ol><h3>Cross-references</h3><p>See <em>Phase 6 — Greyhawk NPCs</em> for the full Phase 6 dossier and tavern scene; <em>Phase 5 — Leads &amp; Finale (Vector A)</em> for the original sighting report.</p>",
         "public": ""
       },
       "alignment": "Neutral",
@@ -534,7 +534,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "modules/dnd-monster-manual/assets/tokens/warrior-veteran.webp",
+      "src": "modules/blooming-rot-2/assets/tokens/tellan-verth-token.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

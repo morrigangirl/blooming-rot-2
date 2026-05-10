@@ -2986,6 +2986,519 @@ Composition: wide cinematic landscape shot. The ash tree dominates the center; t
     sourceFromExisting: "assets/portraits/sandbox/iren-velash-portrait.png", skipGeneration: true,
     postProcess: "round-token-512",
     ring: { base: "#6a5a3a", highlight: "#a89878", shadow: "#1a1208" } /* manuscript vellum brown */ },
+  // ============== TIER 23 — Phase 6 illustrations ==============
+  {
+    id: "p6-greyhawk-arrival",
+    tier: 23,
+    out: "assets/illustrations/p6-greyhawk-arrival.png",
+    size: "1536x1024",
+    quality: "high",
+    referenceImages: [
+      "assets/portraits/party/Cam-Halfling-Rogue.png",
+      "assets/portraits/party/kitty-druid-cthonic-tiefling.png",
+      "assets/portraits/party/alicia-warlock-blade.png",
+      "assets/portraits/party/selvara-human-sorcerer.jpg",
+      "assets/portraits/party/elle-halfling-monk.jpg",
+      "assets/portraits/party/gianni-ranger-.jpg"
+    ],
+    prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG adventure scene. NOT 19th-century oil painting.
+
+EXTERIOR landscape. Late afternoon arrival at the West Gate bridge over the Selintan River, Greyhawk City, late autumn. The bridge is choked with empty wagons going out and full ones coming in. Beyond the gate the Foreign Quarter unfolds: narrow streets that lean a little southward, four-storey houses with rented rooms above counting-rooms, soot from a hundred chimneys.
+
+THE PARTY (EXACTLY 6 figures, traveling together as a tight group, slightly left of center). NO other figures in the central group of six. Each character must match their reference image. Background figures (a toll-clerk, barge-hands, two old women on a doorstep) are in the BACKGROUND only, never grouped with the party.
+
+CRITICAL — render each PC distinctly. If you draw a generic blonde, a generic elf, or a generic guard among the six, you have FAILED this prompt.
+
+1. ALICIA (reference image #3 — warlock with blade pact): HUMAN woman in her twenties, FRECKLED, COPPER-RED HAIR worn back in a HIGH PONYTAIL. She wears a sleeveless light-blue tunic with a brown belt; faint dark sigil-tattoos visible on her LEFT FOREARM. CRITICAL: Alicia carries a CLOSED BOOK with a colorful, artistically stylized cover — NOT a sword, NOT a rapier. The book is held in one hand at her side or hugged against her chest.
+
+2. KITTY (reference image #2 — chthonic tiefling druid): TIEFLING woman in her twenties. CRITICAL — she has clearly visible CURLING HORNS at her temples, ASHEN-GREY skin (NOT human flesh tone), a long TAIL visible behind her, dark BRAIDED HAIR (almost black), pointed ears. She wears green-and-grey druid leathers and carries a TALL WOODEN STAFF in one hand and a wooden ROUND SHIELD with a painted lynx face on the other arm. If Kitty looks like a normal human, you have FAILED this prompt.
+
+3. CAM (reference image #1 — halfling rogue): HALFLING, FEMALE-presenting, with chestnut wavy hair to the shoulders, amber-yellow eyes. CRITICAL — Cam is a HALFLING, approximately three-and-a-half feet tall, with halfling proportions (small body, slightly larger head proportionally). She wears practical brown rogue leathers and carries a small Yeomanry-style courier satchel slung diagonally. If Cam stands as tall as the human PCs, you have FAILED this prompt.
+
+4. ELLE (reference image #5 — halfling monk): HALFLING, FEMALE, with chestnut WAVY HAIR worn loose, pointed halfling ears. CRITICAL — Elle is also a HALFLING, three-and-a-half feet tall. She wears YELLOW-AND-RED monk garb (yellow tunic, dark-red sash). No armor, no helmet. Hands free at her sides.
+
+5. SELVARA (reference image #4 — human sorcerer): HUMAN woman in her late twenties, AUBURN hair (NOT blonde), wearing a DARK RED hood pulled up over her head and a TEAL/DARK-GREEN robe with a BLUE GEMSTONE PENDANT at her throat. CRITICAL — Selvara carries a TALL PLAIN WOODEN STAFF (NOT a spear, NO metal cap, NO bladed point). One of her eyes appears clouded/cataract-pale; the other is bright blue. If you draw her with a spear or a blonde, you have FAILED this prompt.
+
+6. GIANNI (reference image #6 — ranger): HUMAN woman, full-sized adult (NOT halfling), with BLACK braided hair pulled back, dark eyes, leather armor over a cream linen shirt. A wooden longbow visible across her back. CRITICAL — Gianni is HUMAN-sized, taller than the halflings, with athletic build. NOT a halfling.
+
+GROUP COMPOSITION on the bridge: The party walks together. The four taller PCs (Alicia, Kitty, Selvara, Gianni) are at the back of the group; the two halflings (Cam, Elle) are visible in the foreground at halfling height. Kitty's staff and Selvara's staff should both be visible. The book in Alicia's hand should be a clearly readable visual element.
+
+CITY DETAILS (background only, NOT among the party group): a bored toll-clerk in a wooden booth at the gate waving traffic through; barge-hands working a barge below the bridge; two old women on a doorstep registering the party's passage. NO additional adventurer figures. NO additional blonde figures. NO guards in the central group.
+
+NO grid lines. NO text. NO floating particles. Painterly digital fantasy illustration. Cool autumn-evening palette, warm low sun catching the wet bridge stones. Cinematic landscape composition, the SIX named PCs as the central focus.`,
+    postProcess: null,
+  },
+  {
+    id: "p6-brass-crow-exterior",
+    tier: 23,
+    out: "assets/illustrations/p6-brass-crow-exterior.png",
+    size: "1536x1024",
+    quality: "high",
+    prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG adventure scene. NOT 19th-century oil painting.
+
+EXTERIOR scene. The front of THE BRASS CROW counting-house, Tinker's Way, Foreign Quarter of Greyhawk City. Two streets north of the main square. Narrow Aerdy-style facade: brass-bound oak doors on the ground floor, small leaded windows above, three storeys plus an attic gable. A small brass figure of a CROW above the lintel, wings folded, polished but tarnished by city soot. The lane is narrow; the buildings on either side lean inward toward each other. Wet cobbles from a recent shower, late afternoon.
+
+ATMOSPHERE: a wedge of late sun coming through the gap between buildings catches the brass crow as a strong gold accent. The street is busy but careful: a Foreign Quarter runner ducks past with a satchel; a respectable Aerdi merchant in a dark wool coat enters the door; an old woman across the street watches from a doorway without expression.
+
+The viewer's POV is from across the street, slightly elevated (as if from a second-storey cobbler's window). The viewer sees the Brass Crow door at three-quarter angle, the alley to its right (leading to a back-alley exit and steps down to a cellar service door), and a hint of the upper-floor guest window where lamplight is showing.
+
+NO grid lines. NO text or labels visible. The "BRASS CROW" sign is implied but not legible. Painterly digital fantasy illustration. Foreign Quarter palette: grey stone, brass, oxblood door panels, the cool wet-grey of cobbles and the warm gold of the lit attic window.`,
+    postProcess: null,
+  },
+  {
+    id: "p6-tellan-tavern",
+    tier: 23,
+    out: "assets/illustrations/p6-tellan-tavern.png",
+    size: "1536x1024",
+    quality: "high",
+    referenceImages: [
+      "assets/portraits/party/gianni-ranger-.jpg",
+      "assets/portraits/party/kitty-druid-cthonic-tiefling.png"
+    ],
+    prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG adventure scene. NOT 19th-century oil painting.
+
+INTERIOR scene. The Hand of Coals, a small Foreign Quarter tavern in Greyhawk City, four streets east of the Brass Crow. Late evening, after the dinner rush. The room is panelled in pitch-pine darkened by two generations of smoke. Three small tables, a bench along the back wall, a stairwell up to rented rooms. Low lamplight; a single candle on each table. A cast-iron chimney stove in the back-left corner radiates heat.
+
+THE FIGURE (1 central, plus 2 party members at the same table):
+- TELLAN VERTH, retired Yeomanry militia sergeant, age 60. Sits at the back-left bench beside the chimney. Brown wool coat, cleaned daily. Sergeant's brass pin sewn FLAT INTO THE LINING (not visible from outside). Lame in one knee — a brass-headed cane propped carefully against his bench. Iron-grey hair worn short, weathered face, blue-grey eyes. His expression is the small frozen attentiveness of a man who has been waiting for the door to open and now does not know what to feel about it. He is not drinking; a half-finished mug of small beer sits in front of him, untouched for some time.
+- TWO PARTY MEMBERS opposite him: GIANNI (halfling fighter, reference image — CRITICAL: HALFLING, three-and-a-half feet tall) at the bench, leaning slightly forward; and KITTY (chthonic tiefling druid, reference image — CRITICAL: HORNS, ASHEN-GREY skin, TAIL, SIGIL-VEINING) standing slightly behind Gianni's shoulder, hood up to be less conspicuous in the public room.
+
+ATMOSPHERE: A thin man at the bar, water glass in hand, watches the conversation in the polished-brass mirror behind the bottles (TASSEL, the Brass Crow runner). Other patrons in the background: two dock-workers playing dice, a half-Suel woman knitting at the corner table, all unaware. The barkeep is wiping cups behind the counter and not looking at anyone.
+
+Composition: medium-wide shot, the back-left corner of the room as the focal triangle (Tellan, his cane, the chimney). The bar with the listening man is in the right-third middle ground. Painterly digital fantasy illustration. Warm dim lamplight, the iron stove giving a dull red glow. NO text. NO floating particles.`,
+    postProcess: null,
+  },
+  {
+    id: "p6-iren-shop",
+    tier: 23,
+    out: "assets/illustrations/p6-iren-shop.png",
+    size: "1536x1024",
+    quality: "high",
+    prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG adventure scene. NOT 19th-century oil painting.
+
+INTERIOR scene. VELASH MANUSCRIPTS & BINDINGS, Garden Quarter of Greyhawk City. A small shop on a quiet old street. The room is paper-smelling, cool, even. Three walls of low shelves stacked with bound and unbound manuscripts; a long reading table at the centre with a single chair, a brass reading lamp, a small inkwell. A binding bench at the back-left with threads, awls, a hand-press, jars of paste. A locked paper press against the back wall — dark walnut, a heavy iron lock — visibly older than anything else in the room. A small black-iron stove for warmth.
+
+THE FIGURE (1):
+- IREN VELASH, half-Suel manuscript dealer, early fifties. Small, careful, ink under all ten fingernails. Quiet half-Suel cut to her dress: dark green wool, slightly worn, no ornament. A reading-glass on a thin chain at her belt. Hair worn back in a low knot, lightly streaked with grey. She is standing at the reading table, examining a single page held in both hands at chest height, not blinking. The reading lamp catches one side of her face; the room behind her is in soft amber-shadow.
+
+A folded letter is on the reading table in front of her, with a fragment of unfamiliar wax exposed beside it. The locked paper press behind her is closed. The shutters are half-closed — the light from the street is the same amber as the reading lamp.
+
+Composition: portrait-orientation cinematic shot. Iren in three-quarter view, slightly off-center to the right. The locked paper press as a strong vertical to her left (frame-right). The reading lamp as the warmest point in the frame. NO text. Painterly digital fantasy illustration. Quiet, warm, amber and dark green palette.`,
+    postProcess: null,
+  },
+  {
+    id: "p6-vone-archive",
+    tier: 23,
+    out: "assets/illustrations/p6-vone-archive.png",
+    size: "1536x1024",
+    quality: "high",
+    prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG adventure scene. NOT 19th-century oil painting.
+
+INTERIOR scene. The reception room of EDRIK VONE'S PRIVATE COURIER ARCHIVE, second floor of a four-storey building near the Greyhawk customs house, High Quay. A small room: one desk, one client chair on the visitor's side, a panelled door behind Vone leading to the archive proper. The archive is dry, papery, dim. The smell would be old paste and pen-iron.
+
+THE FIGURE (1):
+- EDRIK VONE, former imperial customs official, forties. Tall, thin, fastidious. Ink-stained shirt cuffs that he replaces twice a week. Iron-grey waistcoat over a plain white shirt. A precision-cut beard, kept short. His pen is laid EXACTLY perpendicular to a single sheet of paper on the desk in front of him — this should be visually emphasised. He has just looked up at the viewer; his expression is professionally unimpressed.
+
+DESK DETAILS: the perpendicular pen, the single sheet of paper, a small reading lamp burning low, a locked cashbox to one side, a small kettle on a brazier in the corner behind him. A panelled oak door behind him at frame-right with iron hinges and a brass plate reading nothing legible.
+
+Composition: medium shot, Vone seated behind the desk, the desk running diagonally across the lower third of the frame, the panelled door visible behind him at right. The viewer sees Vone slightly from above, as a client would on entering. NO grid lines. NO text. Painterly digital fantasy illustration. Dim amber-lamp palette with cool grey-green walls.`,
+    postProcess: null,
+  },
+  {
+    id: "p6-kestrel-reed",
+    tier: 23,
+    out: "assets/illustrations/p6-kestrel-reed.png",
+    size: "1536x1024",
+    quality: "high",
+    prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG adventure scene. NOT 19th-century oil painting.
+
+INTERIOR scene. The front counter of KESTREL & REED, FOREIGN LETTERS, Hawkstone Way, Greyhawk City — the Greyhawk office of a Hardby-based letter agency. Mid-morning, business hours. A practical room: a long oak counter with a half-door; a small standing desk; an ink-pot stand bolted to the counter; a brass weighing-balance for letter-rate calculations. The half-door is open; through it, the sorting room is visible — three sorting tables and the iron LOCKBOX WALL at the far back: twenty numbered iron boxes set into the wall, each with a small brass keyhole.
+
+THE FIGURE (1):
+- DORAS KEMMEL, senior clerk, age 40s. Hardby-born, Greyhawk-resident for a decade. Plain Aerdy commercial dress: dark wool sleeve-protectors over a white shirt, a clerk's grey waistcoat, a thin black silk cravat. Bookkeeper-formal, slightly too-neat. He is at the counter, having just written something into the receipt ledger; his hand is still on the pen, but he has looked up at the viewer with an expression of careful, professional patience that is thinly hiding fatigue and suspicion.
+
+DETAIL: the lockbox wall is the room's strongest vertical visual element, slightly out-of-focus in the deeper background. A junior clerk is just-visible at the cipher desk to the left of the lockbox wall, head down. NO text on the boxes. NO text on the brass plate that should be on the door (only the weighing balance and the clerk's tools are sharp).
+
+Composition: medium-wide shot from the visitor's side of the counter, the counter running along the lower third of the frame, Doras center-frame, the lockbox wall as the deep-frame focal point. Painterly digital fantasy illustration. Cool grey-blue morning light through a side window; warm amber from the small lamp on Doras's desk. NO grid lines. NO text.`,
+    postProcess: null,
+  },
+  {
+    id: "p6-korre-apartment",
+    tier: 23,
+    out: "assets/illustrations/p6-korre-apartment.png",
+    size: "1536x1024",
+    quality: "high",
+    prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG adventure scene. NOT 19th-century oil painting.
+
+INTERIOR scene. V. KORRE'S MONTHLY ADDRESS — a rented room above a Tannerway bakery, two streets east of the Brass Crow. Two rooms plus a hall and small privy; this view is the OUTER ROOM (parlour). Cheap and recent. Plain rented furniture, none of it matched: a small writing desk with an oil lamp, a brazier with a small fire burning low, two chairs, a folded blanket on the third. The window has been shuttered from inside. The smell would be yeast from the bakery below, candle-wax, paper, and a faint metallic note.
+
+THE FIGURE (1, plus 2 background):
+- VEYRA KORRE, Greyhawk handler, late thirties to early forties. Medium build, dark hair pinned up, hands always free. She is at the writing desk, in three-quarter view, sealing a small leather travelling-case. Her expression is composed — she has been doing this for ten years and is doing it now without urgency. She wears a plain dark-grey wool dress with a black overcloak laid across the back of the chair.
+- BACKGROUND: TWO AGENTS. One (Mell, hard-faced man in his thirties, plain dark coat, leather-bound forearm bracers) is at the doorway to the inner room, putting papers into a satchel. The other (Saern, lean and shorter, hood drawn up) is feeding strips of letter into the brazier — the brazier glows, white-hot at the centre, with the dark crinkle of paper flame.
+
+DESK DETAILS: a small slip on the desk corner with the words "VII Stair" struck through and rewritten — visible but not foregrounded. A wax flake on the desk surface. The desk has the disciplined emptiness of a workspace someone is in the process of abandoning.
+
+Composition: medium-wide shot, the desk and Korre at frame-center, the brazier and Saern at frame-right (the brazier is the warmest point in the frame), the inner doorway and Mell at frame-left. Painterly digital fantasy illustration. Cool grey-green walls, warm fire-red from the brazier as accent. NO text. NO grid lines.`,
+    postProcess: null,
+  },
+  {
+    id: "p6-stonecistern",
+    tier: 23,
+    out: "assets/illustrations/p6-stonecistern.png",
+    size: "1536x1024",
+    quality: "high",
+    prompt: `Modern high-fantasy illustration / digital concept art for a tabletop RPG adventure scene. NOT 19th-century oil painting.
+
+INTERIOR scene. THE OLD STONECISTERN beneath a disused bathhouse in the Foreign Quarter of Greyhawk City. Eleventh bell of the night. The room is large — about 70 ft east-to-west by 40 ft north-to-south, irregular. The southern half is a DRY PLATFORM of cracked old bath tiles, raised eighteen inches above the wet channel. The northern half is the WET LOWER CHANNEL, knee-to-chest deep in green-black water. A 24-inch-wide pipe section crosses the channel near center as a footbridge. At the east end, an iron lattice SLUICE GATE (sealed, the deeper drain). At the west end of the platform, a locked SERVICE DOOR. A ceiling grate to the street above gives the only natural light, where a streetlamp flickers like bad coin on the surface of the water. A small IRON BRAZIER on the platform's far end, lit, with the dark crinkle of paper flame inside it.
+
+ATMOSPHERE: slick stone, mineral smell, faint sweetness of standing water. Old bath tiles, fragments still glazed. Iron grates rusting at the joints. Muffled street noise overhead. Torchlight from the brazier and the ceiling grate reflecting like bad coin on the green-black water.
+
+VISIBLE FIGURES (silhouetted, distant): two figures at the platform's far end near the brazier — a slim younger man in GREY-AND-BONE clothing handing a slim packet to an older man in worn Aerdy travel coat. Their faces are in shadow; only the silhouettes are clear. A third figure in a hood is at the brazier itself, feeding strips of paper into the flame.
+
+CRITICAL: a small ROUTE MARK is scratched into the stone wall of the platform, visible to the viewer as a thin pale line: SEVEN DESCENDING STEPS CUT BENEATH THE SILHOUETTE OF A HILL. The mark is in old soot; render it like a graffiti scratching, small but clearly readable as a symbol when the eye finds it.
+
+Composition: cinematic wide shot from the upper cellar entrance looking down across the dry platform. The brazier is the warmest accent and the most distant focal point; the ceiling grate is overhead-left as a soft glow column; the figures are small and silhouetted, not the focus of the frame. The CISTERN ITSELF is the protagonist of the image. NO grid lines. NO text. Painterly digital fantasy illustration. Mineral grey-green palette with red-orange brazier accent and pale grate-light.`,
+    postProcess: null,
+  },
+  {
+    id: "p6-route-mark",
+    tier: 23,
+    out: "assets/illustrations/p6-route-mark.png",
+    size: "1024x1024",
+    quality: "high",
+    prompt: `Close-up handout-style illustration. NOT 19th-century oil painting.
+
+A photograph-style close-up of an OLD STONE WALL — pre-Reformation Greyhawk masonry, rough-cut blocks bound with ancient mortar, slick with mineral seepage and patches of dark moss. On the central block, scratched into the soot in a thin steady line, a SMALL ROUTE MARK: seven descending steps cut beneath the silhouette of a low hill. The steps are unevenly spaced. The hill is rendered as a single flat shape, no detail. The whole symbol fits within a four-inch span and is set slightly off-center on the block.
+
+The mark is fresh. Around it, the soot of the wall is otherwise undisturbed except for one earlier mark — partially worn — that has been scratched out. Faint scoring lines suggest someone has tested the symbol's depth with the back of a knife.
+
+Composition: square, the route mark at the visual center but slightly low. The wall fills the frame; the mark occupies a small portion of it. Lighting is from above-left, as if from a hand-held lamp. NO text. NO labels. NO grid. Painterly photograph-style fantasy realism.`,
+    postProcess: null,
+  },
+
+  // ============== TIER 24 — Phase 6 portraits ==============
+  {
+    id: "p6-veyra-korre-portrait",
+    tier: 24,
+    out: "assets/portraits/veyra-korre-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of VEYRA KORRE (alias V. KORRE), the Greyhawk handler in her late thirties to early forties — a deliberately unreadable woman who has worked at making her age and origin difficult to place.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Medium build, contained, hands always free. Pale-olive skin, dark hair worn in a low knot at the back of her head, slightly streaked with very early grey at the temples. Grey-hazel eyes, watchful. Plain dark-grey wool dress under a charcoal overcloak; no jewelry except a thin black silk band at her wrist. NO Aerdy or Suel cultural markers — she has dressed for nowhere and everywhere. Her expression is composed and politely empty, the face of a woman who is listening more than she appears to be.
+
+Three-quarter view from waist up. She stands beside a small writing desk in a cheap rented room — only a corner of the desk visible at frame-edge, with a single travel-case and an oil lamp. Behind her the wall is plain plaster, the only ornament a folded shutter against a window. She holds nothing in her hands; her right hand is at her side, her left hand is at her left wrist, the thumb just barely touching it (a small unconscious tell, almost not visible).
+
+NOT a noble. NOT an obvious criminal. She looks like a respectable foreign-correspondence handler — which is what she is, professionally — and underneath, like a person who has been disappearing for a decade.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  {
+    id: "p6-kethren-ilvath-portrait",
+    tier: 24,
+    out: "assets/portraits/kethren-ilvath-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of KETHREN ILVATH (working alias), the YOUNGER MAN who arrived in Greyhawk before Haskur Vandrell — a deep-route courier whose species the campaign has not yet revealed.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+CRITICAL — DO NOT REVEAL HIS SPECIES. Do not draw him as obviously elf, drow, dwarf, half-orc, gnome, or halfling. Render him as a "young adult" of indeterminate origin: faintly grey-toned fair skin (paler than Aerdy or Yeomanry but not pure white), silver-pale hair worn loose to the shoulders, very pale eyes (storm-grey, not red, not solid black). Slight build, balanced, unhurried. The wrongness is in his posture and palette, not in any racial marker.
+
+Dress: unfamiliar GREY-AND-BONE clothing — a soft grey hooded shorter cloak over an off-white tunic, dark trousers, soft boots without obvious cleats. The cut is unfamiliar to surface fashion: the seams sit slightly differently, the fastenings are not standard Aerdy or Suel. NO emblems, NO rank insignia, NO visible weapon. A single thin pouch at his belt.
+
+Three-quarter view from waist up. He stands very lightly, balanced on the balls of his feet, with a faint forward lean. He is NOT looking at the viewer — his head is slightly turned, watching a reflective surface (a polished brass sconce, just barely visible at the frame's edge). His expression is attentive, contained, slightly tired. He is in shadow behind him, and a faint cool light from the side; he is comfortable in dim conditions.
+
+The viewer should feel he is wrong for the surface without being told why. The wrongness is in the way he stands, the pallor of his palette, the absence of cultural markers, and the way he watches something other than the camera. NO floating particles, NO glowing eyes, NO visible magic.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  {
+    id: "p6-aerel-mossen-portrait",
+    tier: 24,
+    out: "assets/portraits/aerel-mossen-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of AEREL MOSSEN, proprietor of the Brass Crow counting-house in Greyhawk City's Foreign Quarter. Fifties, half-Aerdy by maternal line, fee-driven and fearful but not conspiracy-aligned.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Medium build, slight paunch, balding crown with iron-grey hair at the sides kept short. Pale Aerdi skin, a careful goatee. He wears Aerdi commercial dress: a dark wine-coloured wool coat with brass buttons, a high-collared white shirt, a small enamelled brass crow at his lapel (the counting-house's emblem). Ink-stained fingertips. A fine gold ring on his right hand, an old wedding band on his left.
+
+He stands behind his counting-house's outer desk, three-quarter view from waist up. His hands are clasped just below the desk's edge, professional cordiality at the surface and visible tension underneath. His expression is the small careful watchfulness of a man who has spent twenty years pretending not to notice his clients' foreign accents and wax. He has just looked up at a customer he is not certain he wants to serve.
+
+Background: dark walnut panelling of the Brass Crow's front ledger hall, the registry shelf visible to one side, a brass crow figurine on a small shelf behind him as a duplicate of the lintel sign.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  {
+    id: "p6-wenna-roost-portrait",
+    tier: 24,
+    out: "assets/portraits/wenna-roost-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of WENNA ROOST, twenty-three, desk clerk at the Brass Crow counting-house. Aerdi-Yeomanry mixed background. First proper job; first proper rooms of her own.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Slim, pale Yeomanry-Aerdi colouring, fair light-brown hair worn back in a low practical knot. Light hazel eyes. Plain clerk's clothes: a dark grey wool dress with white linen collar, sleeve-protectors over the forearms (clerk-issue, ink-stained at the cuffs), a small brass clerk's pin at her collar. Ink under her fingernails on her right hand; her writing hand.
+
+She sits at the outer desk of the Brass Crow's front ledger hall, the registry book open in front of her. Her hands are on the desk. Her right hand has just adjusted the inkwell so that it is exactly straight (her tell). Her expression is careful, polite, very young. She has been treated indifferently in this job and is hoping the customer in front of her is at least neutral.
+
+Three-quarter view from waist up; the desk and the open registry across the lower third, Wenna at center, the ledger hall behind her partially in soft focus.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  {
+    id: "p6-tassel-portrait",
+    tier: 24,
+    out: "assets/portraits/tassel-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of TASSEL, nineteen, runner for the Brass Crow counting-house, Foreign Quarter, Greyhawk City. Half-Suel city-born; quick, quiet, professionally invisible.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Slight build, smaller than average, very fast on his feet. Half-Suel: tan skin, dark eyes, dark hair worn cropped short, the slightly-too-pointed cheekbones of mixed Suloise descent. No facial hair. Plain dark short coat over a darker tunic, leather messenger-bag slung diagonally across his torso, a thin leather belt with a single small purse and no weapon. Soft leather boots that run quietly on cobbles.
+
+He stands in a Foreign Quarter alley, mid-stride, having just paused. Three-quarter view, slightly turned over his shoulder as if he has just noticed something. His expression is the careful neutrality of a young man who has learned not to be remembered — alert, polite, not friendly.
+
+Background: a Greyhawk Foreign Quarter alley, narrow walls leaning inward, wet cobbles, the soft glow of a tavern doorway behind him in the deep middle ground.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  {
+    id: "p6-doras-kemmel-portrait",
+    tier: 24,
+    out: "assets/portraits/doras-kemmel-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of DORAS KEMMEL, senior clerk of Kestrel & Reed, Foreign Letters, Greyhawk City. Forties. Hardby-born, Greyhawk-resident for a decade.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Tired, thin, careful. Pale fair skin, thinning sandy hair worn just-too-long at the back, neat sideburns. Hazel eyes with the slight redness of a man who does not sleep well. Dark wool sleeve-protectors over a white shirt, a clerk's grey waistcoat with a pewter watch-chain, a thin black silk cravat properly knotted. A small enamelled K&R agency pin at his collar. Neat hands, no visible ink.
+
+He stands behind the front counter of the agency's letter office, three-quarter view from waist up. His left hand rests flat on the counter just inside the half-door; his right hand holds a quill that is just lifted from the paper. His expression is careful professional patience that is thinly hiding fatigue and suspicion. He has been keeping his head down for two years and it is wearing on him.
+
+Background: the K&R letter office, the wall of numbered iron lockboxes blurred behind him as a long horizontal element.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  {
+    id: "p6-captain-jarn-heshet-portrait",
+    tier: 24,
+    out: "assets/portraits/captain-jarn-heshet-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of CAPTAIN JARN HESHET, Greyhawk City Watch (Foreign Quarter precinct). Mid-fifties, professionally unimpressed. Not corrupt; not friendly. Has dealt with Yeomanry visitors before and is not impressed.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Greyhawk-native, fair skin, broad-shouldered, iron-grey hair short. A plain neat moustache. Direct grey eyes. He wears Greyhawk City Watch officer's dress: dark grey wool tunic over fitted leathers, a polished steel gorget at the throat, a brass captain's pin at the shoulder, a long-bladed sword at the left hip in a plain scabbard, a polished brass whistle on a black silk cord at his neck. No ostentation.
+
+He stands in a Greyhawk Foreign Quarter street, hands clasped behind his back, three-quarter view from waist up. His expression is polite neutrality with no warmth — the face of a senior officer who is asking routine questions for the second time and has decided he does not believe the answers.
+
+Background: a Greyhawk street corner, blurred figures of two junior watchmen behind him, the soft brick of a quarter wall.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+
+  // ============== TIER 25 — Phase 6 maps ==============
+  {
+    id: "p6-greyhawk-foreign-quarter-overview",
+    tier: 25,
+    out: "assets/maps/greyhawk-foreign-quarter-overview.png",
+    size: "1536x1024",
+    quality: "high",
+    prompt: `Top-down hand-drawn fantasy map. Style: warm sepia-and-ink Greyhawk-era cartography, slightly worn parchment look. NOT a battlemap — this is a quarter-map.
+
+The FOREIGN QUARTER of Greyhawk City. The Selintan River curves along the north edge of the frame; the West Gate bridge crosses it at top-left. The main square of the Foreign Quarter is centered. Streets radiate out: TINKER'S WAY (running north from the main square), HAWKSTONE WAY (running west), TANNERWAY (running east), and the unnamed lanes of the cobbler's row. The High Quay runs along the south edge of the frame, with the customs house drawn small at the southwest corner.
+
+LABELED LOCATIONS (small lettering, period-style):
+- "The Brass Crow" — two streets north of the main square, on Tinker's Way (small brass-crow icon)
+- "The Hand of Coals" — four streets east of Brass Crow, on a dog-leg corner (small flame icon)
+- "Velash Manuscripts & Bindings" — Garden Quarter (south of the Foreign Quarter; small book icon)
+- "Edrik Vone's archive" — High Quay (small ledger icon)
+- "Kestrel & Reed, Foreign Letters" — Hawkstone Way (small letter icon)
+- "Korre's bakery (Tannerway)" — small bakery icon
+- "Old Stonecistern (disused bathhouse)" — south end of Tinker's Way (small spiral-water icon)
+
+DETAILS: trees in the Garden Quarter, ships at the High Quay, simple roof lines, the Selintan with light current marks. NO grid. NO compass rose unless small and unobtrusive in the corner. Period sepia palette.${DOOR_RULES}`,
+    postProcess: null,
+  },
+  {
+    id: "p6-brass-crow-interior",
+    tier: 25,
+    out: "assets/maps/brass-crow-interior.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Top-down keyed interior map for a tabletop RPG. Style: clean fantasy battlemap, period sepia-on-cream palette. NO grid lines.
+
+The BRASS CROW counting-house. Three storeys plus cellar. THIS MAP shows the GROUND FLOOR. Frontage on Tinker's Way (south wall), narrow front door (brass-bound, 5 ft wide), three-storey building extending back deeper than wide. About 24 ft frontage by 50 ft depth.
+
+KEYED ROOMS (numbered, small lettering, no captions inside the map):
+1. Front ledger hall — open room with two trestle tables and the registry shelf along the north wall.
+2. Waiting benches — two benches against the east wall (right-hand side).
+3. Outer desk — Wenna's clerk station, north of the waiting benches.
+4. Registry shelf — locked low cabinet, south wall behind the outer desk.
+5. Private consultation room — east of the front ledger hall, behind a panelled door.
+6. Strong drawer — locked iron drawer in proprietor's office.
+7. Rear counting office — north end of the building, behind the consultation room. Connects to consultation room by an inner door.
+8. Back alley exit — door on the east wall of the rear counting office, leading to a service alley.
+9. Cellar service drain (stair down) — small spiral stair down at the southwest corner, leading to the cistern's drainage.
+
+Doors and walls drawn in clean black ink. Furniture (trestles, the registry shelf, desk, benches, drawer) suggested simply with line-drawings. Period sepia palette.${DOOR_RULES}`,
+    postProcess: null,
+  },
+  {
+    id: "p6-velash-manuscripts-interior",
+    tier: 25,
+    out: "assets/maps/velash-manuscripts-interior.png",
+    size: "1024x1024",
+    quality: "high",
+    prompt: `Top-down keyed interior map for a tabletop RPG. Style: clean fantasy battlemap, period sepia-on-cream palette. NO grid lines.
+
+VELASH MANUSCRIPTS & BINDINGS, Garden Quarter, Greyhawk City. Two storeys plus loft; THIS MAP shows the GROUND FLOOR. Narrow frontage on a Garden Quarter side-street, about 18 ft wide by 35 ft deep.
+
+KEYED ROOMS (numbered, small lettering, no captions inside the map):
+1. Front shelf room — three walls of low shelves, the long reading table at the centre of the room.
+2. Reading table — single chair, brass reading lamp on the table.
+3. Binding bench — back-left, with a small hand-press.
+4. Locked paper press — back wall, against the binding bench, drawn as a tall narrow cabinet.
+5. Stair to upstairs — behind a curtain at the back-left, leading up to Iren's living quarters (not on this floor).
+6. Rear stair to alley — behind the back wall, drawn small. Locked from inside, opens outward.
+
+The shop has half-closed shutters on the front (south) wall. A small black-iron stove drawn at the northeast corner. Doors and walls drawn in clean black ink. Period sepia palette.${DOOR_RULES}`,
+    postProcess: null,
+  },
+  {
+    id: "p6-vone-archive-interior",
+    tier: 25,
+    out: "assets/maps/vone-archive-interior.png",
+    size: "1024x1024",
+    quality: "high",
+    prompt: `Top-down keyed interior map for a tabletop RPG. Style: clean fantasy battlemap, period sepia-on-cream palette. NO grid lines.
+
+EDRIK VONE'S PRIVATE COURIER ARCHIVE — second floor of a four-storey building near the Greyhawk customs house, High Quay. Floor footprint: about 30 ft by 40 ft.
+
+KEYED ROOMS (numbered, small lettering, no captions inside the map):
+1. Reception — small room with a desk and a client chair. Panelled door to the archive at the back wall.
+2. Regular ledger archive — two rooms of cabinet shelves, alphabetised. Drawn as two narrow rectangular rooms with rows of cabinet shelves indicated.
+3. Irregular ledger archive — small room behind a HIDDEN door at the back-right. Drawn with a slightly different wall texture to suggest concealment.
+4. Vone's office — northeast of reception. A small reading lamp and a locked cashbox on the desk.
+5. Back service door — onto a narrow alley (drawn at the east wall of Vone's office).
+
+Stair from the street drawn at the south-center as the entry. Doors and walls drawn in clean black ink. Period sepia palette.${DOOR_RULES}`,
+    postProcess: null,
+  },
+  {
+    id: "p6-kestrel-reed-interior",
+    tier: 25,
+    out: "assets/maps/kestrel-reed-interior.png",
+    size: "1024x1024",
+    quality: "high",
+    prompt: `Top-down keyed interior map for a tabletop RPG. Style: clean fantasy battlemap, period sepia-on-cream palette. NO grid lines.
+
+KESTREL & REED, FOREIGN LETTERS, Hawkstone Way, Greyhawk City. Two storeys plus a flat tar-paper roof; THIS MAP shows the GROUND FLOOR. About 30 ft frontage by 35 ft depth, with a small enclosed yard at the rear (the cart court).
+
+KEYED ROOMS (numbered, small lettering):
+1. Front letter counter — public-facing room, with a long counter and a half-door.
+2. Sorting room — behind the counter, three sorting tables drawn as small rectangles.
+3. Cipher desk — small alcove off the sorting room, against the east wall.
+4. Lockbox wall — twenty numbered iron boxes set into the wall behind the cipher desk. Drawn as a long line of small squares.
+5. Rear cart court — enclosed yard, with a wide gate to the alley.
+6. Cart-court back door — door from the cart court into the sorting room.
+7. Stair to upstairs — at the back-west corner, leading up to the owner's pied-à-terre (not on this floor).
+
+Doors and walls drawn in clean black ink. The lockbox wall as the most distinctive feature. Period sepia palette.${DOOR_RULES}`,
+    postProcess: null,
+  },
+  {
+    id: "p6-korre-apartment-interior",
+    tier: 25,
+    out: "assets/maps/korre-apartment-interior.png",
+    size: "1024x1024",
+    quality: "high",
+    prompt: `Top-down keyed interior map for a tabletop RPG. Style: clean fantasy battlemap, period sepia-on-cream palette. NO grid lines.
+
+V. KORRE'S MONTHLY ADDRESS — second floor over a Tannerway bakery in Greyhawk City's Foreign Quarter. About 16 ft by 20 ft total. Two rooms plus a hall and a small privy.
+
+KEYED ROOMS (numbered, small lettering):
+1. Outer room (parlour) — small room with a writing desk, a brazier, two chairs.
+2. Inner room (sleeping) — plain bed, small chest, window onto the alley.
+3. Privy — small room at the back-left, with a floor hatch to a service drain.
+4. Hall — corridor between the rooms.
+5. Side stair from alley — wooden exterior stair on the side wall (drawn descending from the floor plan to the south).
+6. Bakery side door — interior door from the bottom of the side stair into the bakery's back room (drawn at the south end of the side stair).
+7. Roofline — drawn as a dotted line at the building's east edge, indicating an escape across the bakery's chimney to the next building.
+8. Service drain hatch — small square in the privy floor (drawn as a small dashed square).
+
+The main entry is the side stair from the alley. The desk in the outer room is the focal furniture. Doors and walls drawn in clean black ink. Period sepia palette.${DOOR_RULES}`,
+    postProcess: null,
+  },
+  {
+    id: "p6-old-stonecistern-battlemap",
+    tier: 25,
+    out: "assets/maps/old-stonecistern-battlemap.png",
+    size: "1536x1024",
+    quality: "high",
+    prompt: `Top-down BATTLEMAP for a tabletop RPG. Style: clean fantasy battlemap, period sepia-on-stone palette, suitable for use as a tactical encounter scene. NO grid lines.
+
+THE OLD STONECISTERN beneath a disused bathhouse in the Foreign Quarter of Greyhawk City. Irregular footprint about 70 ft east-to-west by 40 ft north-to-south.
+
+The southern half of the room is a DRY PLATFORM of cracked old bath tiles, raised about 18 inches above the channel. The northern half is the WET LOWER CHANNEL, a flooded basin of green-black water.
+
+KEYED FEATURES (numbered, small lettering, no captions inside the map):
+1. Upper cellar entrance — iron "rain door" from the alley, at the top-right corner of the dry platform. Three uneven steps in.
+2. Broken bathhouse stair — partly collapsed stone stair on the south wall, leading up to the bathhouse main floor.
+3. Dry cistern platform — the southern half of the room. Old broken column-bases drawn as small circles.
+4. Wet lower channel — the northern half. Drawn as a flooded basin with small ripple suggestions.
+5. Old sluice gate — iron lattice at the east end of the channel.
+6. Pipe bridge — a 24-inch-wide pipe section crossing the channel near center, at platform height.
+7. Packet-burning brazier — a small iron brazier on the platform's far west end.
+8. Narrow maintenance crawl — a 30-inch crawlspace at the south wall, west end.
+9. Locked service door — at the west end of the platform, opening to an alley.
+10. Deep water pocket — a darker patch in the channel near center, indicating a deeper drop.
+11. Ceiling grate to street above — drawn as a dashed square in the ceiling, near the east-center.
+12. Hidden route mark — small dot on the platform's south wall, beside the broken stair.
+13. Escape channel (sealed) — heavily grated drain at the west end of the channel.
+
+Walls drawn in heavy black ink to suggest old stone. Water in the channel rendered with a pale green-grey wash. Doors drawn closed. The platform tiles suggested with simple geometric scoring. Period sepia palette.${DOOR_RULES}`,
+    postProcess: null,
+  },
+
+  // ============== TIER 26 — Phase 6 ringed tokens (post-process from portraits) ==============
+  { id: "p6-veyra-korre-token",       tier: 26, out: "assets/tokens/veyra-korre-token.png",
+    sourceFromExisting: "assets/portraits/veyra-korre-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#5a5a6a", highlight: "#94949c", shadow: "#0a0a14" } /* Foreign Quarter civic gray */ },
+  { id: "p6-kethren-ilvath-token",    tier: 26, out: "assets/tokens/kethren-ilvath-token.png",
+    sourceFromExisting: "assets/portraits/kethren-ilvath-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#3a3a48", highlight: "#7c7c88", shadow: "#080810" } /* deep grey-bone */ },
+  { id: "p6-aerel-mossen-token",      tier: 26, out: "assets/tokens/aerel-mossen-token.png",
+    sourceFromExisting: "assets/portraits/aerel-mossen-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#7a4a3a", highlight: "#b08070", shadow: "#1a0808" } /* brass crow oxblood */ },
+  { id: "p6-wenna-roost-token",       tier: 26, out: "assets/tokens/wenna-roost-token.png",
+    sourceFromExisting: "assets/portraits/wenna-roost-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#4a4a5a", highlight: "#888894", shadow: "#0a0a14" } /* clerk grey */ },
+  { id: "p6-tassel-token",            tier: 26, out: "assets/tokens/tassel-token.png",
+    sourceFromExisting: "assets/portraits/tassel-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#3a3a3a", highlight: "#6a6a6a", shadow: "#080808" } /* runner shadow grey */ },
+  { id: "p6-doras-kemmel-token",      tier: 26, out: "assets/tokens/doras-kemmel-token.png",
+    sourceFromExisting: "assets/portraits/doras-kemmel-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#5a5448", highlight: "#988e74", shadow: "#1a1408" } /* K&R agency brass */ },
+  { id: "p6-captain-jarn-heshet-token", tier: 26, out: "assets/tokens/captain-jarn-heshet-token.png",
+    sourceFromExisting: "assets/portraits/captain-jarn-heshet-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#3a4a5a", highlight: "#7888a0", shadow: "#080a14" } /* City Watch steel */ },
 ];
 
 // ----------------- engine -----------------

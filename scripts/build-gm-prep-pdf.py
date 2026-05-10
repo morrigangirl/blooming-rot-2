@@ -949,6 +949,73 @@ def phase_chapter(phase_n, styles):
     story.append(PageBreak())
     return story
 
+def narrative_chapter(styles):
+    """Combine the four narrative-deepening packs (v0.9.0) into one chapter."""
+    story = []
+    story.append(Paragraph("Narrative Deepening", styles["chapter_eyebrow"]))
+    story.append(Paragraph("PC Threads, Counterpart Faction, World Stakes, Relief", styles["chapter_title"]))
+    story.append(Paragraph(
+        "Four parallel additions that make the campaign about <em>these six people</em> "
+        "investigating <em>this</em> specific conspiracy. The investigation as designed in "
+        "the phase chapters is a complete campaign; the material below is what makes it the "
+        "kind of campaign people remember in ten years.",
+        styles["body"]
+    ))
+    story.append(PageBreak())
+
+    # Per-PC plot threads
+    threads = load_jsons(SOURCE / "pc-threads")
+    if threads:
+        story.append(Paragraph("Per-PC Plot Threads", styles["section_h"]))
+        for journal in threads:
+            for page in journal.get("pages", []):
+                story.append(Paragraph(_escape(page.get("name", "")), styles["sub_h"]))
+                story.extend(html_to_flowables(page.get("text", {}).get("content", ""), styles))
+                story.append(Spacer(1, 6))
+        story.append(PageBreak())
+
+    # Aerdy Commercial-Court Network (journal + actor cards)
+    aerdy_journals = load_jsons(SOURCE / "aerdy-network")
+    aerdy_actors = load_jsons(SOURCE / "aerdy-network-actors")
+    if aerdy_journals or aerdy_actors:
+        story.append(Paragraph("The Aerdy Commercial-Court Network", styles["section_h"]))
+        for journal in aerdy_journals:
+            for page in journal.get("pages", []):
+                story.append(Paragraph(_escape(page.get("name", "")), styles["sub_h"]))
+                story.extend(html_to_flowables(page.get("text", {}).get("content", ""), styles))
+                story.append(Spacer(1, 6))
+        if aerdy_actors:
+            story.append(Paragraph("Network NPCs", styles["sub_h"]))
+            for actor in aerdy_actors:
+                if actor.get("system", {}).get("details", {}).get("biography", {}).get("value", ""):
+                    story.extend(npc_card(actor, styles))
+        story.append(PageBreak())
+
+    # World stakes
+    stakes = load_jsons(SOURCE / "world-stakes")
+    if stakes:
+        story.append(Paragraph("World Stakes — Emotional-Cost Vignettes", styles["section_h"]))
+        for journal in stakes:
+            for page in journal.get("pages", []):
+                story.append(Paragraph(_escape(page.get("name", "")), styles["sub_h"]))
+                story.extend(html_to_flowables(page.get("text", {}).get("content", ""), styles))
+                story.append(Spacer(1, 6))
+        story.append(PageBreak())
+
+    # Relief scenes
+    relief = load_jsons(SOURCE / "relief-scenes")
+    if relief:
+        story.append(Paragraph("Relief Scenes — Tonal Counterweight", styles["section_h"]))
+        for journal in relief:
+            for page in journal.get("pages", []):
+                story.append(Paragraph(_escape(page.get("name", "")), styles["sub_h"]))
+                story.extend(html_to_flowables(page.get("text", {}).get("content", ""), styles))
+                story.append(Spacer(1, 6))
+        story.append(PageBreak())
+
+    return story
+
+
 def sandbox_chapter(styles):
     journals = load_jsons(SOURCE / "sandbox-journals")
     sandbox_actors = load_jsons(SOURCE / "sandbox-actors")
@@ -1022,6 +1089,8 @@ def main():
     for phase in PHASES:
         print(f"  Phase {phase['n']}: {phase['title']}...")
         full_story.extend(phase_chapter(phase["n"], styles))
+    print("  Narrative Deepening (PC threads + faction + stakes + relief)...")
+    full_story.extend(narrative_chapter(styles))
     print("  Sandbox & Downtime...")
     full_story.extend(sandbox_chapter(styles))
     full_pdf = DOCS / "blooming-rot-2-gm-prep.pdf"
@@ -1048,6 +1117,15 @@ def main():
     story.extend(sandbox_chapter(styles))
     out = DOCS / "sandbox-gm-prep.pdf"
     build_document(out, story, title=f"BR2 Sandbox & Downtime (v{version})")
+    size_mb = out.stat().st_size / 1024 / 1024
+    print(f"✓ {out} ({size_mb:.1f} MB)")
+
+    # ---- Narrative deepening standalone PDF ----
+    story = []
+    story.extend(cover_page(styles, version))
+    story.extend(narrative_chapter(styles))
+    out = DOCS / "narrative-deepening-gm-prep.pdf"
+    build_document(out, story, title=f"BR2 Narrative Deepening (v{version})")
     size_mb = out.stat().st_size / 1024 / 1024
     print(f"✓ {out} ({size_mb:.1f} MB)")
 

@@ -2,7 +2,7 @@
   "_id": "BR2P1A4151703066",
   "name": "Haskur Vandrell",
   "type": "npc",
-  "img": "modules/dnd-monster-manual/assets/journal-art/spies.webp",
+  "img": "modules/dnd-monster-manual/assets/journal-art/mages.webp",
   "system": {
     "currency": {
       "pp": 0,
@@ -13,7 +13,7 @@
     },
     "abilities": {
       "str": {
-        "value": 10,
+        "value": 9,
         "proficient": 0,
         "max": null,
         "bonuses": {
@@ -22,33 +22,6 @@
         }
       },
       "dex": {
-        "value": 15,
-        "proficient": 0,
-        "max": null,
-        "bonuses": {
-          "check": "",
-          "save": ""
-        }
-      },
-      "con": {
-        "value": 10,
-        "proficient": 0,
-        "max": null,
-        "bonuses": {
-          "check": "",
-          "save": ""
-        }
-      },
-      "int": {
-        "value": 12,
-        "proficient": 0,
-        "max": null,
-        "bonuses": {
-          "check": "",
-          "save": ""
-        }
-      },
-      "wis": {
         "value": 14,
         "proficient": 0,
         "max": null,
@@ -57,8 +30,35 @@
           "save": ""
         }
       },
+      "con": {
+        "value": 11,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "int": {
+        "value": 17,
+        "proficient": 1,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "wis": {
+        "value": 12,
+        "proficient": 1,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
       "cha": {
-        "value": 16,
+        "value": 11,
         "proficient": 0,
         "max": null,
         "bonuses": {
@@ -127,7 +127,7 @@
           "max": null,
           "mode": 0
         },
-        "value": 0,
+        "value": 1,
         "bonuses": {
           "check": "",
           "passive": ""
@@ -153,7 +153,7 @@
           "max": null,
           "mode": 0
         },
-        "value": 1,
+        "value": 0,
         "bonuses": {
           "check": "",
           "passive": ""
@@ -166,7 +166,7 @@
           "max": null,
           "mode": 0
         },
-        "value": 0,
+        "value": 1,
         "bonuses": {
           "check": "",
           "passive": ""
@@ -179,7 +179,7 @@
           "max": null,
           "mode": 0
         },
-        "value": 1,
+        "value": 0,
         "bonuses": {
           "check": "",
           "passive": ""
@@ -205,7 +205,7 @@
           "max": null,
           "mode": 0
         },
-        "value": 2,
+        "value": 0,
         "bonuses": {
           "check": "",
           "passive": ""
@@ -244,7 +244,7 @@
           "max": null,
           "mode": 0
         },
-        "value": 2,
+        "value": 1,
         "bonuses": {
           "check": "",
           "passive": ""
@@ -296,7 +296,7 @@
           "max": null,
           "mode": 0
         },
-        "value": 1,
+        "value": 0,
         "bonuses": {
           "check": "",
           "passive": ""
@@ -309,7 +309,7 @@
           "max": null,
           "mode": 0
         },
-        "value": 2,
+        "value": 0,
         "bonuses": {
           "check": "",
           "passive": ""
@@ -380,11 +380,11 @@
           "max": null,
           "mode": 0
         },
-        "bonus": "@prof"
+        "bonus": ""
       },
       "movement": {
         "burrow": null,
-        "climb": 30,
+        "climb": null,
         "fly": null,
         "swim": null,
         "walk": 30,
@@ -402,7 +402,7 @@
         "units": null,
         "special": ""
       },
-      "spellcasting": "str",
+      "spellcasting": "int",
       "exhaustion": 0,
       "concentration": {
         "ability": "",
@@ -424,11 +424,11 @@
         "spent": 0
       },
       "hp": {
-        "value": 27,
-        "max": 27,
+        "value": 81,
+        "max": 81,
         "temp": null,
         "tempmax": null,
-        "formula": "6d8"
+        "formula": "18d8"
       },
       "death": {
         "ability": "",
@@ -443,7 +443,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p>The surviving antagonist named in the Strong Room evidence. Off-screen for most of the campaign — an Aerdi-aligned cutout passing instructions to Sereth's hand. Spotted by Tellan Verth at the Brass Crow in Greyhawk during Phase 5.</p>",
+        "value": "<h2>Haskur Vandrell — Diminished</h2><p><em>Alias in Phase 6: H. V. Andren. Currently lodged above the Brass Crow on Tinker's Way, Greyhawk City. Stat block upgraded to Mage analog (CR 6) for Phase 6 confrontation; original Phase 1 contingency safety is spent.</em></p><h3>Quick read</h3><ul><li>Late forties.</li><li>A man who walked a long way after being reduced to nothing in Phase 1. Thinner than the party last saw. Tired around the eyes.</li><li>Worn Aerdy travel clothes, new but not bespoke; a coat one size too large; a sword he is unlikely to draw.</li></ul><h3>Current state</h3><ul><li>Alive but diminished.</li><li>Original contingency safety is <strong>spent</strong>.</li><li>New clothes, new money, new alias, but not fully resupplied.</li><li>Dependent on Korre and Kethren.</li><li>Resents this dependency.</li><li>Knows enough to be dangerous and not enough to be central.</li></ul><h3>What Haskur knows</h3><ol><li>Rel Astra received him through a prepared credit route.</li><li>Greyhawk is a transfer point, not a destination.</li><li>V. Korre controls the Greyhawk transfer.</li><li>Kethren controls the route beyond Greyhawk.</li><li>The phrase <strong>\"Seventh Stair\"</strong> is where he is supposed to go next.</li><li>The Blooming Rot operation was not only agricultural. It tested <strong>prediction, control, and recoverability.</strong></li></ol><h3>What Haskur does not know</h3><ul><li>\"E.\"'s identity.</li><li>The true final authority.</li><li>The full deep route.</li><li>The full reason the surface operations were synchronised.</li></ul><h3>Useful lines (under interrogation, if captured)</h3><ul><li>\"You keep asking who paid. That was never the question.\"</li><li>\"Money is how surface men explain obedience.\"</li><li>\"I was not rescued. I was collected.\"</li><li>\"Korre moves paper. The boy moves doors.\"</li><li>\"The Stair is not a place you find by looking down. It is a place you are <em>allowed</em> to reach.\"</li><li>\"Blooming was proof. Rot was proof. Recovery was the question.\"</li></ul><h3>Behaviour</h3><p>Will not fight unless cornered. His magic is for escape and control: <em>misty step, dimension door</em> (one cast remaining), <em>suggestion, hold person, counterspell, fog cloud</em>. Has prepared <em>misty step</em> twice; will use both before fighting. Will bargain. Will talk if it buys him time.</p>",
         "public": ""
       },
       "alignment": "Neutral",
@@ -452,10 +452,13 @@
       "flaw": "",
       "race": null,
       "type": {
-        "value": "humanoid"
+        "value": "humanoid",
+        "subtype": "Wizard",
+        "swarm": "",
+        "custom": ""
       },
       "environment": "",
-      "cr": 1,
+      "cr": 6,
       "spellLevel": 0,
       "habitat": {
         "value": [
@@ -466,7 +469,7 @@
       },
       "treasure": {
         "value": [
-          "implements",
+          "arcana",
           "individual"
         ]
       }
@@ -515,8 +518,10 @@
         "custom": ""
       },
       "languages": {
-        "value": [],
-        "custom": "Common plus one other language",
+        "value": [
+          "common"
+        ],
+        "custom": "Common plus three other languages",
         "communication": {
           "telepathy": {
             "value": null,
@@ -535,7 +540,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "modules/dnd-monster-manual/assets/tokens/spy-master-*.webp",
+      "src": "modules/dnd-monster-manual/assets/tokens/mage.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,
@@ -611,7 +616,7 @@
       }
     },
     "flags": {},
-    "randomImg": true,
+    "randomImg": false,
     "turnMarker": {
       "mode": 1,
       "animation": null,
@@ -622,14 +627,14 @@
   },
   "items": [
     {
-      "_key": "!actors.items!BR2P1A4151703066.BR2Icbbecd52f0a2",
-      "_id": "BR2Icbbecd52f0a2",
-      "name": "Shortsword",
-      "type": "weapon",
-      "img": "modules/dnd-players-handbook/assets/icons/items/shortsword.webp",
+      "_key": "!actors.items!BR2P1A4151703066.BR2Ibdccffe962e1",
+      "_id": "BR2Ibdccffe962e1",
+      "name": "Wand",
+      "type": "equipment",
+      "img": "icons/weapons/staves/staff-orante-gold.webp",
       "system": {
         "description": {
-          "value": "",
+          "value": "<p>An @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]{Arcane Focus} is bejeweled or carved to channel arcane magic. A Sorcerer, Warlock, or Wizard can use such an item as a Spellcasting Focus.</p>",
           "chat": ""
         },
         "price": {
@@ -647,7 +652,7 @@
         "container": null,
         "quantity": 1,
         "weight": {
-          "value": 2,
+          "value": 1,
           "units": "lb"
         },
         "rarity": "",
@@ -656,50 +661,15 @@
         "equipped": true,
         "cover": null,
         "crewed": false,
-        "range": {
-          "value": null,
-          "long": null,
-          "units": "ft",
-          "reach": null
-        },
         "uses": {
           "max": "",
           "spent": 0,
           "recovery": []
         },
-        "damage": {
-          "versatile": {
-            "number": null,
-            "denomination": null,
-            "bonus": "",
-            "types": [],
-            "custom": {
-              "enabled": true,
-              "formula": ""
-            },
-            "scaling": {
-              "mode": "",
-              "number": null,
-              "formula": ""
-            }
-          },
-          "base": {
-            "number": 1,
-            "denomination": 6,
-            "types": [
-              "piercing"
-            ],
-            "custom": {
-              "enabled": false
-            },
-            "scaling": {
-              "number": 1
-            },
-            "bonus": ""
-          }
-        },
         "armor": {
-          "value": null
+          "value": null,
+          "magicalBonus": null,
+          "dex": null
         },
         "hp": {
           "value": null,
@@ -708,326 +678,131 @@
           "conditions": ""
         },
         "type": {
-          "value": "martialM",
-          "baseItem": "shortsword"
+          "value": "trinket",
+          "baseItem": ""
         },
-        "magicalBonus": null,
-        "properties": [
-          "fin",
-          "lgt"
-        ],
+        "properties": [],
+        "speed": {
+          "value": null,
+          "conditions": ""
+        },
+        "strength": null,
         "proficient": null,
-        "activities": {
-          "42jdrHDfDRCcYeL4": {
-            "type": "attack",
-            "activation": {
-              "type": "action",
-              "value": 1,
-              "condition": "",
-              "override": false
-            },
-            "consumption": {
-              "targets": [],
-              "scaling": {
-                "allowed": false,
-                "max": ""
-              },
-              "spellSlot": true
-            },
-            "description": {
-              "chatFlavor": ""
-            },
-            "duration": {
-              "concentration": false,
-              "value": "",
-              "units": "inst",
-              "special": "",
-              "override": false
-            },
-            "effects": [],
-            "range": {
-              "value": "5",
-              "units": "ft",
-              "special": "",
-              "override": false
-            },
-            "target": {
-              "template": {
-                "count": "",
-                "contiguous": false,
-                "type": "",
-                "size": "",
-                "width": "",
-                "height": "",
-                "units": ""
-              },
-              "affects": {
-                "count": "",
-                "type": "",
-                "choice": false,
-                "special": ""
-              },
-              "prompt": false,
-              "override": false
-            },
-            "attack": {
-              "ability": "",
-              "bonus": "",
-              "critical": {
-                "threshold": null
-              },
-              "flat": false,
-              "type": {
-                "value": "melee",
-                "classification": "weapon"
-              }
-            },
-            "damage": {
-              "critical": {
-                "bonus": ""
-              },
-              "includeBase": true,
-              "parts": []
-            },
-            "uses": {
-              "spent": 0,
-              "recovery": [],
-              "max": ""
-            },
-            "sort": 0,
-            "_id": "42jdrHDfDRCcYeL4",
-            "name": "",
-            "img": "",
-            "appliedEffects": []
-          }
-        },
-        "ammunition": {},
-        "mastery": "vex",
-        "identifier": "shortsword"
+        "activities": {},
+        "identifier": "wand"
       },
       "effects": [],
-      "folder": "fd3qxAXCv2FhExPp",
+      "folder": "5qvlWBbvYXzxqIa1",
       "sort": 0,
       "ownership": {
         "default": 0,
         "fINBcNTWMg89nRCp": 3
       },
       "flags": {
-        "dnd5e": {
-          "riders": {
-            "activity": [],
-            "effect": []
-          }
-        },
+        "dnd5e": {},
         "core": {
-          "sourceId": "Compendium.dnd-players-handbook.equipment.Item.phbwepShortsword"
+          "sourceId": "Compendium.dnd-players-handbook.equipment.Item.phbafcWand000000"
         }
       },
       "_stats": {
-        "compendiumSource": "Compendium.dnd-players-handbook.equipment.Item.phbwepShortsword",
+        "compendiumSource": "Compendium.dnd-players-handbook.equipment.Item.phbafcWand000000",
         "duplicateSource": null,
         "coreVersion": "13.351",
         "systemId": "dnd5e",
         "systemVersion": "5.3.0",
-        "createdTime": 1724425920034,
-        "modifiedTime": 1726075773434,
+        "createdTime": 1724425904874,
+        "modifiedTime": 1726449894514,
         "lastModifiedBy": "dnd5ebuilder0000",
         "exportSource": null
       }
     },
     {
-      "_key": "!actors.items!BR2P1A4151703066.BR2I4be72d873bc6",
-      "_id": "BR2I4be72d873bc6",
-      "name": "Hand Crossbow",
-      "type": "weapon",
-      "img": "modules/dnd-players-handbook/assets/icons/items/hand-crossbow.webp",
+      "_key": "!actors.items!BR2P1A4151703066.BR2I4bab4b6047d3",
+      "_id": "BR2I4bab4b6047d3",
+      "name": "Multiattack",
+      "type": "feat",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
       "system": {
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activities": {
+          "Ms63W7e3Mv2Margn": {
+            "type": "utility",
+            "name": "Use",
+            "_id": "Ms63W7e3Mv2Margn",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {},
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft"
+              },
+              "affects": {
+                "choice": false
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": []
+            },
+            "roll": {
+              "prompt": false,
+              "visible": false
+            }
+          }
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
         "description": {
-          "value": "",
+          "value": "<p>The [[lookup @name lowercase]] makes {count} [[/item]] attacks and uses [[/item]].</p>",
           "chat": ""
         },
-        "price": {
-          "value": 75,
-          "denomination": "gp"
-        },
+        "identifier": "multiattack",
         "source": {
-          "custom": "",
+          "revision": 1,
           "rules": "2024"
         },
-        "identified": true,
-        "unidentified": {
-          "description": ""
+        "enchant": {},
+        "prerequisites": {
+          "level": null
         },
-        "container": null,
-        "quantity": 1,
-        "weight": {
-          "value": 3,
-          "units": "lb"
-        },
-        "rarity": "",
-        "attunement": "",
-        "attuned": false,
-        "equipped": true,
-        "cover": null,
-        "crewed": false,
-        "range": {
-          "value": 30,
-          "long": 120,
-          "units": "ft",
-          "reach": null
-        },
-        "uses": {
-          "max": "",
-          "spent": 0,
-          "recovery": []
-        },
-        "damage": {
-          "versatile": {
-            "number": null,
-            "denomination": null,
-            "bonus": "",
-            "types": [],
-            "custom": {
-              "enabled": true,
-              "formula": ""
-            },
-            "scaling": {
-              "mode": "",
-              "number": null,
-              "formula": ""
-            }
-          },
-          "base": {
-            "number": 1,
-            "denomination": 6,
-            "types": [
-              "piercing"
-            ],
-            "custom": {
-              "enabled": false
-            },
-            "scaling": {
-              "number": 1
-            },
-            "bonus": ""
-          }
-        },
-        "armor": {
-          "value": null
-        },
-        "hp": {
-          "value": null,
-          "max": null,
-          "dt": null,
-          "conditions": ""
-        },
-        "type": {
-          "value": "martialR",
-          "baseItem": "handcrossbow"
-        },
-        "magicalBonus": null,
-        "properties": [
-          "amm",
-          "lgt",
-          "lod"
-        ],
-        "proficient": null,
-        "activities": {
-          "CJjRI7JX8tziGFSo": {
-            "type": "attack",
-            "activation": {
-              "type": "action",
-              "value": 1,
-              "condition": "",
-              "override": false
-            },
-            "consumption": {
-              "targets": [],
-              "scaling": {
-                "allowed": false,
-                "max": ""
-              },
-              "spellSlot": true
-            },
-            "description": {
-              "chatFlavor": ""
-            },
-            "duration": {
-              "concentration": false,
-              "value": "",
-              "units": "inst",
-              "special": "",
-              "override": false
-            },
-            "effects": [],
-            "range": {
-              "value": "30",
-              "units": "ft",
-              "special": "",
-              "override": false
-            },
-            "target": {
-              "template": {
-                "count": "",
-                "contiguous": false,
-                "type": "",
-                "size": "",
-                "width": "",
-                "height": "",
-                "units": ""
-              },
-              "affects": {
-                "count": "",
-                "type": "",
-                "choice": false,
-                "special": ""
-              },
-              "prompt": false,
-              "override": false
-            },
-            "attack": {
-              "ability": "",
-              "bonus": "",
-              "critical": {
-                "threshold": null
-              },
-              "flat": false,
-              "type": {
-                "value": "ranged",
-                "classification": "weapon"
-              }
-            },
-            "damage": {
-              "critical": {
-                "bonus": ""
-              },
-              "includeBase": true,
-              "parts": []
-            },
-            "uses": {
-              "spent": 0,
-              "recovery": [],
-              "max": ""
-            },
-            "sort": 0,
-            "_id": "CJjRI7JX8tziGFSo",
-            "name": "",
-            "img": "",
-            "appliedEffects": []
-          }
-        },
-        "ammunition": {
-          "type": "crossbowBolt"
-        },
-        "mastery": "vex",
-        "identifier": "hand-crossbow"
+        "properties": [],
+        "requirements": ""
       },
       "effects": [],
-      "folder": "0qKr1rbesCSNE0MA",
+      "folder": "4T18pEvubPMQLzvD",
       "sort": 0,
       "ownership": {
         "default": 0,
-        "fINBcNTWMg89nRCp": 3
+        "p7W6V9dOCsYphtv6": 3
       },
       "flags": {
         "dnd5e": {
@@ -1037,30 +812,180 @@
           }
         },
         "core": {
-          "sourceId": "Compendium.dnd-players-handbook.equipment.Item.phbwepHandCrossb"
+          "sourceId": "Compendium.dnd-monster-manual.features.Item.mmMultiattack000"
         }
       },
       "_stats": {
-        "compendiumSource": "Compendium.dnd-players-handbook.equipment.Item.phbwepHandCrossb",
+        "compendiumSource": "Compendium.dnd-monster-manual.features.Item.mmMultiattack000",
         "duplicateSource": null,
         "coreVersion": "13.351",
         "systemId": "dnd5e",
         "systemVersion": "5.3.0",
-        "createdTime": 1724425919025,
-        "modifiedTime": 1726075772810,
+        "createdTime": 1733432292956,
+        "modifiedTime": 1737515542020,
         "lastModifiedBy": "dnd5ebuilder0000",
         "exportSource": null
       }
     },
     {
-      "_key": "!actors.items!BR2P1A4151703066.BR2I37f81caaf4ef",
-      "_id": "BR2I37f81caaf4ef",
-      "name": "Cunning Action",
+      "_key": "!actors.items!BR2P1A4151703066.BR2I0bb63e7cbde4",
+      "_id": "BR2I0bb63e7cbde4",
+      "name": "Arcane Burst",
+      "type": "weapon",
+      "img": "icons/magic/unholy/hands-cloud-light-pink.webp",
+      "system": {
+        "type": {
+          "value": "natural",
+          "subtype": ""
+        },
+        "activities": {
+          "YeB7cBHXeaBqxxK2": {
+            "type": "attack",
+            "_id": "YeB7cBHXeaBqxxK2",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "type": ""
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "attack": {
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "",
+                "classification": ""
+              },
+              "ability": "int",
+              "bonus": ""
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "name": "",
+            "img": "",
+            "appliedEffects": []
+          }
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "description": {
+          "value": "<p>[[/attack extended]]. [[/damage average extended]].</p>",
+          "chat": ""
+        },
+        "identifier": "arcane-burst",
+        "source": {
+          "revision": 1,
+          "rules": "2024"
+        },
+        "enchant": {},
+        "prerequisites": {
+          "level": null
+        },
+        "properties": [],
+        "requirements": "",
+        "mastery": "",
+        "range": {
+          "units": "ft",
+          "reach": 5,
+          "value": 120
+        },
+        "damage": {
+          "base": {
+            "denomination": 10,
+            "bonus": "",
+            "number": 2,
+            "types": [
+              "force"
+            ]
+          }
+        }
+      },
+      "effects": [],
+      "folder": "4T18pEvubPMQLzvD",
+      "sort": 1,
+      "ownership": {
+        "default": 0,
+        "p7W6V9dOCsYphtv6": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "activity": [],
+            "effect": []
+          }
+        },
+        "core": {
+          "sourceId": "Compendium.dnd-monster-manual.features.Item.mmArcaneBurst000"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.dnd-monster-manual.features.Item.mmArcaneBurst000",
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": 1733432292956,
+        "modifiedTime": 1737515542020,
+        "lastModifiedBy": "dnd5ebuilder0000",
+        "exportSource": null
+      }
+    },
+    {
+      "_key": "!actors.items!BR2P1A4151703066.BR2I743b2db89ca6",
+      "_id": "BR2I743b2db89ca6",
+      "name": "Spellcasting",
       "type": "feat",
-      "img": "icons/skills/movement/figure-running-gray.webp",
+      "img": "icons/skills/trades/music-notes-sound-blue.webp",
       "system": {
         "description": {
-          "value": "<p>Your quick thinking and agility allow you to move and act quickly. On your turn, you can take one of the following actions as a Bonus Action: &amp;Reference[Dash], &amp;Reference[Disengage], or &amp;Reference[Hide].</p>",
+          "value": "<p>You have learned to cast spells through your bardic arts. See @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.mh3akteBDiLegqFK]{chapter 7} for the rules on spellcasting. The information below details how you use those rules with Bard spells, which appear in the @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.wwia6Wwo4BgE9GSI]{Bard spell list}.</p><p><strong>Cantrips.</strong> You know two cantrips of your choice from the Bard spell list. <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDancingLig]{Dancing Lights}</em> and <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplViciousMoc]{Vicious Mockery}</em> are recommended.</p><p>Whenever you gain a Bard level, you can replace one of your cantrips with another cantrip of your choice from the Bard spell list.</p><p>When you reach Bard levels 4 and 10, you learn another cantrip of your choice from the Bard spell list, as shown in the Cantrips column of the @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbBard000000000.JournalEntryPage.V8pqIWlaL9GhY61t#class-features]{Bard Features} table.</p><p><strong>Spell Slots.</strong> The Bard Features table shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a Long Rest.</p><p><strong>Prepared Spells of Level 1+.</strong> You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose four level 1 spells from the Bard spell list. <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCharmPerso]{Charm Person}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplColorSpray]{Color Spray}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDissonantW]{Dissonant Whispers}</em>, and <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHealingWor]{Healing Word} </em>are recommended.</p><p>The number of spells on your list increases as you gain Bard levels, as shown in the Prepared Spells column of the Bard Features table. Whenever that number increases, choose additional spells from the Bard spell list until the number of spells on your list matches the number on the table. The chosen spells must be of a level for which you have spell slots. For example, if you're a level 3 Bard, your list of prepared spells can include six spells of levels 1 and 2 in any combination.</p><p>If another Bard feature gives you spells that you always have prepared, those spells don't count against the number of spells you can prepare with this feature, but those spells otherwise count as Bard spells for you.</p><p><strong>Changing Your Prepared Spells. </strong>Whenever you gain a Bard level, you can replace one spell on your list with another Bard spell for which you have spell slots.</p><p><strong>Spellcasting Ability. </strong>Charisma is your spellcasting ability for your Bard spells.</p><p><strong>Spellcasting Focus. </strong>You can use a Musical Instrument as a Spellcasting Focus for your Bard spells.</p>",
           "chat": ""
         },
         "source": {
@@ -1077,242 +1002,17 @@
           "subtype": ""
         },
         "prerequisites": {
-          "level": 2
+          "level": 1
         },
         "properties": [],
-        "requirements": "",
-        "activities": {
-          "NtS3iThuWWwm8O62": {
-            "type": "utility",
-            "_id": "NtS3iThuWWwm8O62",
-            "activation": {
-              "type": "bonus",
-              "value": null,
-              "override": false,
-              "condition": ""
-            },
-            "consumption": {
-              "scaling": {
-                "allowed": false
-              },
-              "spellSlot": true,
-              "targets": []
-            },
-            "description": {
-              "chatFlavor": ""
-            },
-            "duration": {
-              "units": "inst",
-              "concentration": false,
-              "override": false
-            },
-            "effects": [],
-            "range": {
-              "override": false,
-              "units": "self",
-              "special": ""
-            },
-            "target": {
-              "template": {
-                "contiguous": false,
-                "units": "ft",
-                "type": ""
-              },
-              "affects": {
-                "choice": false,
-                "count": "",
-                "type": ""
-              },
-              "override": false,
-              "prompt": true
-            },
-            "uses": {
-              "spent": 0,
-              "recovery": [],
-              "max": ""
-            },
-            "sort": 100000,
-            "roll": {
-              "prompt": false,
-              "visible": false,
-              "name": "",
-              "formula": ""
-            },
-            "name": "Dash",
-            "img": "",
-            "appliedEffects": []
-          },
-          "AeCciDTvw3kS583a": {
-            "type": "utility",
-            "name": "Disengage",
-            "_id": "AeCciDTvw3kS583a",
-            "activation": {
-              "type": "bonus",
-              "value": null,
-              "override": false,
-              "condition": ""
-            },
-            "consumption": {
-              "scaling": {
-                "allowed": false
-              },
-              "spellSlot": true,
-              "targets": []
-            },
-            "description": {
-              "chatFlavor": ""
-            },
-            "duration": {
-              "units": "inst",
-              "concentration": false,
-              "override": false
-            },
-            "effects": [],
-            "range": {
-              "override": false,
-              "units": "self",
-              "special": ""
-            },
-            "target": {
-              "template": {
-                "contiguous": false,
-                "units": "ft",
-                "type": ""
-              },
-              "affects": {
-                "choice": false,
-                "count": "",
-                "type": ""
-              },
-              "override": false,
-              "prompt": false
-            },
-            "uses": {
-              "spent": 0,
-              "recovery": [],
-              "max": ""
-            },
-            "sort": 300000,
-            "roll": {
-              "prompt": false,
-              "visible": false,
-              "name": "",
-              "formula": ""
-            },
-            "img": "",
-            "appliedEffects": []
-          },
-          "NiI5qEhg9TepZxMh": {
-            "type": "utility",
-            "_id": "NiI5qEhg9TepZxMh",
-            "activation": {
-              "type": "bonus",
-              "value": null,
-              "override": false,
-              "condition": ""
-            },
-            "consumption": {
-              "scaling": {
-                "allowed": false
-              },
-              "spellSlot": true,
-              "targets": []
-            },
-            "description": {
-              "chatFlavor": ""
-            },
-            "duration": {
-              "units": "inst",
-              "concentration": false,
-              "override": false
-            },
-            "effects": [
-              {
-                "_id": "YLfpwyCVUObRTopP"
-              }
-            ],
-            "range": {
-              "override": false,
-              "units": "self",
-              "special": ""
-            },
-            "target": {
-              "template": {
-                "contiguous": false,
-                "units": "ft",
-                "type": ""
-              },
-              "affects": {
-                "choice": false,
-                "count": "",
-                "type": "self"
-              },
-              "override": false,
-              "prompt": true
-            },
-            "uses": {
-              "spent": 0,
-              "recovery": [],
-              "max": ""
-            },
-            "sort": 0,
-            "roll": {
-              "prompt": false,
-              "visible": false,
-              "name": "",
-              "formula": ""
-            },
-            "name": "Hide",
-            "img": "",
-            "appliedEffects": []
-          }
-        },
+        "requirements": "Bard",
+        "activities": {},
         "enchant": {},
-        "identifier": "cunning-action"
+        "identifier": "spellcasting"
       },
-      "effects": [
-        {
-          "name": "Hiding",
-          "img": "icons/skills/movement/figure-running-gray.webp",
-          "origin": "Compendium.dnd-players-handbook.classes.Item.phbrgeCunningAct",
-          "transfer": false,
-          "_id": "YLfpwyCVUObRTopP",
-          "type": "base",
-          "system": {},
-          "changes": [],
-          "disabled": false,
-          "duration": {
-            "startTime": null,
-            "seconds": null,
-            "combat": null,
-            "rounds": null,
-            "turns": null,
-            "startRound": null,
-            "startTurn": null
-          },
-          "description": "",
-          "tint": "#ffffff",
-          "statuses": [
-            "hiding"
-          ],
-          "sort": 0,
-          "flags": {},
-          "_stats": {
-            "compendiumSource": null,
-            "duplicateSource": null,
-            "coreVersion": "13.346",
-            "systemId": "dnd5e",
-            "systemVersion": "4.0.0",
-            "createdTime": 1724986029023,
-            "modifiedTime": 1726859963646,
-            "lastModifiedBy": "rL0ykqNFC97PcTW6",
-            "exportSource": null
-          },
-          "_key": "!actors.items.effects!BR2P1A4151703066.BR2I37f81caaf4ef.YLfpwyCVUObRTopP"
-        }
-      ],
+      "effects": [],
       "folder": "4T18pEvubPMQLzvD",
-      "sort": 0,
+      "sort": 2,
       "ownership": {
         "default": 0,
         "p7W6V9dOCsYphtv6": 3
@@ -1320,43 +1020,2517 @@
       "flags": {
         "dnd5e": {},
         "core": {
-          "sourceId": "Compendium.dnd-players-handbook.classes.Item.phbrgeCunningAct"
+          "sourceId": "Compendium.dnd-players-handbook.classes.Item.phbbrdSpellcasti"
         }
       },
       "_stats": {
-        "compendiumSource": "Compendium.dnd-players-handbook.classes.Item.phbrgeCunningAct",
+        "compendiumSource": "Compendium.dnd-players-handbook.classes.Item.phbbrdSpellcasti",
         "duplicateSource": null,
         "coreVersion": "13.351",
         "systemId": "dnd5e",
         "systemVersion": "5.3.0",
-        "createdTime": 1724425981415,
-        "modifiedTime": 1726075582469,
+        "createdTime": 1724425962788,
+        "modifiedTime": 1726075573627,
+        "lastModifiedBy": "dnd5ebuilder0000",
+        "exportSource": null
+      }
+    },
+    {
+      "_key": "!actors.items!BR2P1A4151703066.BR2If9599ec7e882",
+      "_id": "BR2If9599ec7e882",
+      "name": "Misty Step",
+      "type": "feat",
+      "img": "icons/magic/lightning/orb-ball-spiral-blue.webp",
+      "system": {
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activities": {
+          "sstmyMnemXbXqI5Y": {
+            "type": "cast",
+            "_id": "sstmyMnemXbXqI5Y",
+            "sort": 0,
+            "activation": {
+              "type": "bonus",
+              "value": null,
+              "override": true,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": [
+                {
+                  "type": "itemUses",
+                  "value": "1",
+                  "target": ""
+                }
+              ]
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "range": {
+              "override": false
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft"
+              },
+              "affects": {
+                "choice": false
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "spell": {
+              "challenge": {
+                "attack": null,
+                "save": null,
+                "override": false
+              },
+              "level": "2",
+              "properties": [
+                "vocal",
+                "somatic",
+                "material"
+              ],
+              "spellbook": true,
+              "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplMistyStep0",
+              "ability": ""
+            },
+            "name": "",
+            "img": ""
+          }
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "day",
+              "type": "recoverAll"
+            }
+          ],
+          "max": "2"
+        },
+        "description": {
+          "value": "<p class=\"feature\">The [[lookup @name lowercase]] casts <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMistyStep0]{Misty Step}</em>, requiring no spell components and using the same spellcasting ability as Spellcasting.</p>",
+          "chat": ""
+        },
+        "identifier": "misty-step",
+        "source": {
+          "revision": 1,
+          "rules": "2024"
+        },
+        "enchant": {},
+        "prerequisites": {
+          "level": null
+        },
+        "properties": [],
+        "requirements": ""
+      },
+      "effects": [],
+      "folder": "4T18pEvubPMQLzvD",
+      "sort": 3,
+      "ownership": {
+        "default": 0,
+        "p7W6V9dOCsYphtv6": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "activity": [],
+            "effect": []
+          }
+        },
+        "core": {
+          "sourceId": "Compendium.dnd-monster-manual.features.Item.mmMistyStep00000"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.dnd-monster-manual.features.Item.mmMistyStep00000",
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": 1733432292956,
+        "modifiedTime": 1736883126656,
+        "lastModifiedBy": "dnd5ebuilder0000",
+        "exportSource": null
+      }
+    },
+    {
+      "_key": "!actors.items!BR2P1A4151703066.BR2I6b30fcd91b1a",
+      "_id": "BR2I6b30fcd91b1a",
+      "name": "Misty Step",
+      "type": "spell",
+      "img": "icons/magic/lightning/orb-ball-spiral-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p>Briefly surrounded by silvery mist, you teleport up to 30 feet to an unoccupied space you can see.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "",
+          "rules": "2024"
+        },
+        "activation": {
+          "type": "bonus",
+          "condition": "",
+          "value": null
+        },
+        "duration": {
+          "value": "",
+          "units": "inst"
+        },
+        "target": {
+          "affects": {
+            "type": "space",
+            "count": "1",
+            "choice": false
+          },
+          "template": {
+            "units": "",
+            "contiguous": false
+          }
+        },
+        "range": {
+          "units": "self"
+        },
+        "uses": {
+          "max": "",
+          "recovery": [],
+          "spent": 0
+        },
+        "level": 2,
+        "school": "con",
+        "properties": [
+          "vocal"
+        ],
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "utility",
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              }
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false
+            },
+            "target": {
+              "prompt": true,
+              "template": {
+                "contiguous": false,
+                "units": "ft"
+              },
+              "affects": {
+                "choice": false
+              },
+              "override": false
+            },
+            "roll": {
+              "formula": "",
+              "name": "",
+              "prompt": false,
+              "visible": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": []
+            },
+            "sort": 0
+          }
+        },
+        "identifier": "misty-step"
+      },
+      "effects": [],
+      "folder": "3SjcO2acsFnWegp4",
+      "sort": 1700000,
+      "ownership": {
+        "default": 0,
+        "p7W6V9dOCsYphtv6": 3
+      },
+      "flags": {
+        "dnd5e": {},
+        "core": {
+          "sourceId": "Compendium.dnd-players-handbook.spells.Item.phbsplMistyStep0"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.dnd-players-handbook.spells.Item.phbsplMistyStep0",
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": 1724425964396,
+        "modifiedTime": 1726075750433,
+        "lastModifiedBy": "dnd5ebuilder0000",
+        "exportSource": null
+      }
+    },
+    {
+      "_key": "!actors.items!BR2P1A4151703066.BR2Ib1b7176c3578",
+      "_id": "BR2Ib1b7176c3578",
+      "name": "Protective Magic",
+      "type": "feat",
+      "img": "icons/magic/defensive/barrier-shield-dome-blue-purple.webp",
+      "system": {
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activities": {
+          "Jc8kZLhCdTcbaImH": {
+            "type": "cast",
+            "_id": "Jc8kZLhCdTcbaImH",
+            "sort": 0,
+            "activation": {
+              "type": "reaction",
+              "value": null,
+              "override": true,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": [
+                {
+                  "type": "itemUses",
+                  "value": "1",
+                  "target": ""
+                }
+              ]
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "range": {
+              "override": false
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft"
+              },
+              "affects": {
+                "choice": false
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "spell": {
+              "challenge": {
+                "attack": null,
+                "save": null,
+                "override": false
+              },
+              "level": "3",
+              "properties": [],
+              "spellbook": true,
+              "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplCounterspe",
+              "ability": ""
+            },
+            "name": "",
+            "img": ""
+          },
+          "1rK9SlZ7cBWEeWnG": {
+            "type": "cast",
+            "_id": "1rK9SlZ7cBWEeWnG",
+            "sort": 0,
+            "activation": {
+              "type": "reaction",
+              "value": null,
+              "override": true,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": [
+                {
+                  "type": "itemUses",
+                  "value": "1",
+                  "target": ""
+                }
+              ]
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "range": {
+              "override": false
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft"
+              },
+              "affects": {
+                "choice": false
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "spell": {
+              "challenge": {
+                "attack": null,
+                "save": null,
+                "override": false
+              },
+              "level": "1",
+              "properties": [],
+              "spellbook": true,
+              "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplShield0000",
+              "ability": ""
+            },
+            "name": "",
+            "img": ""
+          }
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "day",
+              "type": "recoverAll"
+            }
+          ],
+          "max": "3"
+        },
+        "description": {
+          "value": "<p class=\"feature\">The [[lookup @name lowercase]] casts <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCounterspe]{Counterspell}</em> or <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplShield0000]{Shield}</em> in response to the spell’s trigger, using the same spellcasting ability as Spellcasting.</p>",
+          "chat": ""
+        },
+        "identifier": "protective-magic",
+        "source": {
+          "revision": 1,
+          "rules": "2024"
+        },
+        "enchant": {},
+        "prerequisites": {
+          "level": null
+        },
+        "properties": [],
+        "requirements": ""
+      },
+      "effects": [],
+      "folder": "4T18pEvubPMQLzvD",
+      "sort": 4,
+      "ownership": {
+        "default": 0,
+        "p7W6V9dOCsYphtv6": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "activity": [],
+            "effect": []
+          }
+        },
+        "core": {
+          "sourceId": "Compendium.dnd-monster-manual.features.Item.mmProtectiveMagi"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.dnd-monster-manual.features.Item.mmProtectiveMagi",
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": 1733432292956,
+        "modifiedTime": 1737515542020,
+        "lastModifiedBy": "dnd5ebuilder0000",
+        "exportSource": null
+      }
+    },
+    {
+      "_key": "!actors.items!BR2P1A4151703066.BR2I00bb971194a2",
+      "_id": "BR2I00bb971194a2",
+      "name": "Counterspell",
+      "type": "spell",
+      "img": "icons/magic/unholy/hands-circle-light-green.webp",
+      "system": {
+        "description": {
+          "value": "<p>You attempt to interrupt a creature in the process of casting a spell. The creature makes a Constitution saving throw. On a failed save, the spell dissipates with no effect, and the action, Bonus Action, or Reaction used to cast it is wasted. If that spell was cast with a spell slot, the slot isn’t expended.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "",
+          "rules": "2024"
+        },
+        "activation": {
+          "type": "reaction",
+          "condition": "when you see a creature within range casting a spell with Verbal, Somatic, or Material components",
+          "value": null
+        },
+        "duration": {
+          "value": "",
+          "units": "inst"
+        },
+        "target": {
+          "affects": {
+            "type": "creature",
+            "count": "1",
+            "choice": false
+          },
+          "template": {
+            "units": "",
+            "contiguous": false
+          }
+        },
+        "range": {
+          "value": "60",
+          "units": "ft"
+        },
+        "uses": {
+          "max": "",
+          "recovery": [],
+          "spent": 0
+        },
+        "level": 3,
+        "school": "abj",
+        "properties": [
+          "somatic"
+        ],
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "save",
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              }
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false
+            },
+            "target": {
+              "prompt": true,
+              "template": {
+                "contiguous": false,
+                "units": "ft"
+              },
+              "affects": {
+                "choice": false
+              },
+              "override": false
+            },
+            "damage": {
+              "onSave": "half",
+              "parts": []
+            },
+            "save": {
+              "ability": "con",
+              "dc": {
+                "calculation": "spellcasting",
+                "formula": ""
+              }
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": []
+            },
+            "sort": 0
+          }
+        },
+        "identifier": "counterspell"
+      },
+      "effects": [],
+      "folder": "HCovEE4VoPGlIbKi",
+      "sort": 2900000,
+      "ownership": {
+        "default": 0,
+        "p7W6V9dOCsYphtv6": 3
+      },
+      "flags": {
+        "dnd5e": {},
+        "core": {
+          "sourceId": "Compendium.dnd-players-handbook.spells.Item.phbsplCounterspe"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.dnd-players-handbook.spells.Item.phbsplCounterspe",
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": 1724425948028,
+        "modifiedTime": 1726075745839,
+        "lastModifiedBy": "dnd5ebuilder0000",
+        "exportSource": null
+      }
+    },
+    {
+      "_key": "!actors.items!BR2P1A4151703066.BR2Iad5abe415403",
+      "_id": "BR2Iad5abe415403",
+      "name": "Shield",
+      "type": "spell",
+      "img": "icons/equipment/shield/heater-crystal-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p>An imperceptible barrier of magical force protects you. Until the start of your next turn, you have a +5 bonus to AC, including against the triggering attack, and you take no damage from <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMagicMissi]{Magic Missile}</em>.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "",
+          "rules": "2024"
+        },
+        "activation": {
+          "type": "reaction",
+          "condition": "when you are hit by an attack roll or targeted by the Magic Missile spell",
+          "value": null
+        },
+        "duration": {
+          "value": "1",
+          "units": "round"
+        },
+        "target": {
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "self",
+            "special": ""
+          },
+          "template": {
+            "units": "",
+            "contiguous": false,
+            "type": ""
+          }
+        },
+        "range": {
+          "units": "self",
+          "special": ""
+        },
+        "uses": {
+          "max": "",
+          "recovery": [],
+          "spent": 0
+        },
+        "level": 1,
+        "school": "abj",
+        "properties": [
+          "vocal",
+          "somatic"
+        ],
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "utility",
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              }
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "override": false
+            },
+            "effects": [
+              {
+                "_id": "Bv3EoHGfYCprLdG1"
+              }
+            ],
+            "range": {
+              "override": false
+            },
+            "target": {
+              "prompt": true,
+              "template": {
+                "contiguous": false,
+                "units": "ft"
+              },
+              "affects": {
+                "choice": false
+              },
+              "override": false
+            },
+            "roll": {
+              "formula": "",
+              "name": "",
+              "prompt": false,
+              "visible": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "sort": 0,
+            "name": "",
+            "img": "",
+            "appliedEffects": [
+              "Bv3EoHGfYCprLdG1"
+            ]
+          }
+        },
+        "identifier": "shield"
+      },
+      "effects": [
+        {
+          "_id": "Bv3EoHGfYCprLdG1",
+          "flags": {},
+          "changes": [
+            {
+              "key": "system.attributes.ac.bonus",
+              "mode": 2,
+              "value": "5",
+              "priority": null
+            }
+          ],
+          "disabled": true,
+          "duration": {
+            "startTime": null,
+            "rounds": 1,
+            "seconds": null,
+            "combat": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "origin": "Compendium.dnd-players-handbook.spells.Item.phbsplShield0000",
+          "tint": "#ffffff",
+          "transfer": false,
+          "name": "Imperceptible Barrier",
+          "description": "<p>Until the start of your next turn, you have a +5 bonus to AC, including against the triggering attack, and you take no damage from <em>Magic Missile</em>.</p>",
+          "statuses": [],
+          "_stats": {
+            "compendiumSource": "Compendium.dnd5e.spells.Item.z1mx84ONwkXKUZd7.ActiveEffect.6pbotGIvqQkraPva",
+            "duplicateSource": null,
+            "coreVersion": "13.346",
+            "systemId": "dnd5e",
+            "systemVersion": "4.0.0",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "img": "icons/equipment/shield/heater-steel-crystal-red.webp",
+          "type": "base",
+          "system": {},
+          "sort": 0,
+          "_key": "!actors.items.effects!BR2P1A4151703066.BR2Iad5abe415403.Bv3EoHGfYCprLdG1"
+        }
+      ],
+      "folder": "pBaAAtXBCq9FVEnL",
+      "sort": 700000,
+      "ownership": {
+        "default": 0,
+        "p7W6V9dOCsYphtv6": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "activity": [],
+            "effect": []
+          }
+        },
+        "core": {
+          "sourceId": "Compendium.dnd-players-handbook.spells.Item.phbsplShield0000"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.dnd-players-handbook.spells.Item.phbsplShield0000",
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": 1724425970477,
+        "modifiedTime": 1740686188041,
+        "lastModifiedBy": "dnd5ebuilder0000",
+        "exportSource": null
+      }
+    },
+    {
+      "_key": "!actors.items!BR2P1A4151703066.BR2I4c814835d147",
+      "_id": "BR2I4c814835d147",
+      "name": "Detect Magic",
+      "type": "spell",
+      "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+      "system": {
+        "description": {
+          "value": "<p>For the duration, you sense the presence of magical effects within 30 feet of yourself. If you sense such effects, you can take the Magic action to see a faint aura around any visible creature or object in the area that bears the magic, and if an effect was created by a spell, you learn the spell’s school of magic.</p><p>The spell is blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of lead.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "",
+          "rules": "2024"
+        },
+        "activation": {
+          "type": "action",
+          "condition": "",
+          "value": null
+        },
+        "duration": {
+          "value": "10",
+          "units": "minute"
+        },
+        "target": {
+          "affects": {
+            "type": "self",
+            "count": "",
+            "choice": false,
+            "special": ""
+          },
+          "template": {
+            "units": "ft",
+            "contiguous": false,
+            "type": "radius",
+            "size": "30",
+            "count": ""
+          }
+        },
+        "range": {
+          "value": "",
+          "units": "self",
+          "special": ""
+        },
+        "uses": {
+          "max": "",
+          "recovery": [],
+          "spent": 0
+        },
+        "level": 1,
+        "school": "div",
+        "properties": [
+          "vocal",
+          "somatic",
+          "concentration",
+          "ritual"
+        ],
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "utility",
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              }
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "override": false
+            },
+            "effects": [
+              {
+                "_id": "BHw91lQmVgdx39WZ"
+              }
+            ],
+            "range": {
+              "override": false
+            },
+            "target": {
+              "prompt": false,
+              "template": {
+                "contiguous": false,
+                "units": "ft"
+              },
+              "affects": {
+                "choice": false
+              },
+              "override": false
+            },
+            "roll": {
+              "formula": "",
+              "name": "",
+              "prompt": false,
+              "visible": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "sort": 0,
+            "name": "",
+            "img": "",
+            "appliedEffects": [
+              "BHw91lQmVgdx39WZ"
+            ]
+          }
+        },
+        "identifier": "detect-magic"
+      },
+      "effects": [
+        {
+          "name": "Detect Magic",
+          "origin": "Compendium.dnd-players-handbook.spells.Item.phbsplDetectMagi",
+          "duration": {
+            "rounds": null,
+            "startTime": null,
+            "seconds": 600,
+            "combat": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "disabled": false,
+          "flags": {
+            "dnd5e": {}
+          },
+          "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+          "_id": "BHw91lQmVgdx39WZ",
+          "type": "base",
+          "system": {},
+          "changes": [],
+          "description": "",
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "sort": 0,
+          "_stats": {
+            "compendiumSource": "Compendium.dnd-players-handbook.spells.Item.phbsplDetectEvil.ActiveEffect.pOgbtXbKVGdbwjjE",
+            "duplicateSource": null,
+            "coreVersion": "13.346",
+            "systemId": "dnd5e",
+            "systemVersion": "4.0.0",
+            "createdTime": null,
+            "modifiedTime": 1727465727470,
+            "lastModifiedBy": "rL0ykqNFC97PcTW6",
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!BR2P1A4151703066.BR2I4c814835d147.BHw91lQmVgdx39WZ"
+        }
+      ],
+      "folder": "pBaAAtXBCq9FVEnL",
+      "sort": 4100000,
+      "ownership": {
+        "default": 0,
+        "p7W6V9dOCsYphtv6": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "activity": [],
+            "effect": []
+          }
+        },
+        "core": {
+          "sourceId": "Compendium.dnd-players-handbook.spells.Item.phbsplDetectMagi"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.dnd-players-handbook.spells.Item.phbsplDetectMagi",
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": 1724425949563,
+        "modifiedTime": 1740686183764,
+        "lastModifiedBy": "dnd5ebuilder0000",
+        "exportSource": null
+      }
+    },
+    {
+      "_key": "!actors.items!BR2P1A4151703066.BR2If691d65c0b8a",
+      "_id": "BR2If691d65c0b8a",
+      "name": "Light",
+      "type": "spell",
+      "img": "icons/sundries/lights/candle-pillar-lit-yellow.webp",
+      "system": {
+        "description": {
+          "value": "<p>You touch one Large or smaller object that isn’t being worn or carried by someone else. Until the spell ends, the object sheds Bright Light in a 20-foot radius and Dim Light for an additional 20 feet. The light can be colored as you like.</p><p>Covering the object with something opaque blocks the light. The spell ends if you cast it again.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "",
+          "rules": "2024"
+        },
+        "activation": {
+          "type": "action",
+          "condition": "",
+          "value": null
+        },
+        "duration": {
+          "value": "1",
+          "units": "hour"
+        },
+        "target": {
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "template": {
+            "units": "",
+            "contiguous": false,
+            "type": ""
+          }
+        },
+        "range": {
+          "units": "touch",
+          "special": ""
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "level": 0,
+        "school": "evo",
+        "properties": [
+          "vocal",
+          "material"
+        ],
+        "materials": {
+          "value": "a firefly or phosphorescent moss",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": true
+        },
+        "activities": {
+          "EnaiVH67oUJzyHsF": {
+            "type": "summon",
+            "_id": "EnaiVH67oUJzyHsF",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "range": {
+              "override": false
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft"
+              },
+              "affects": {
+                "choice": false
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "bonuses": {
+              "ac": "",
+              "hd": "",
+              "hp": "",
+              "attackDamage": "",
+              "saveDamage": "",
+              "healing": ""
+            },
+            "creatureSizes": [
+              "sm",
+              "med",
+              "lg",
+              "tiny"
+            ],
+            "creatureTypes": [],
+            "match": {
+              "attacks": false,
+              "proficiency": false,
+              "saves": false
+            },
+            "profiles": [
+              {
+                "count": "",
+                "name": "",
+                "_id": "QD99a4WC0JUMMDH7",
+                "uuid": "Compendium.dnd-players-handbook.actors.Actor.phbsplLight00000",
+                "level": {
+                  "min": null,
+                  "max": null
+                }
+              }
+            ],
+            "summon": {
+              "prompt": false,
+              "mode": "",
+              "identifier": ""
+            },
+            "name": "",
+            "img": ""
+          }
+        },
+        "identifier": "light"
+      },
+      "effects": [],
+      "folder": "4FhsY9FJQd7h7MZb",
+      "sort": 1100000,
+      "ownership": {
+        "default": 0,
+        "p7W6V9dOCsYphtv6": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "activity": [],
+            "effect": []
+          }
+        },
+        "core": {
+          "sourceId": "Compendium.dnd-players-handbook.spells.Item.phbsplLight00000"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.dnd-players-handbook.spells.Item.phbsplLight00000",
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": 1724425961356,
+        "modifiedTime": 1740686185791,
+        "lastModifiedBy": "dnd5ebuilder0000",
+        "exportSource": null
+      }
+    },
+    {
+      "_key": "!actors.items!BR2P1A4151703066.BR2I76bc9995f6ff",
+      "_id": "BR2I76bc9995f6ff",
+      "name": "Mage Armor",
+      "type": "spell",
+      "img": "icons/equipment/head/hat-pointed-buckle-leather-purple.webp",
+      "system": {
+        "description": {
+          "value": "<p>You touch a willing creature who isn’t wearing armor. Until the spell ends, the target’s base AC becomes 13 plus its Dexterity modifier. The spell ends early if the target dons armor.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "",
+          "rules": "2024"
+        },
+        "activation": {
+          "type": "action",
+          "condition": "",
+          "value": null
+        },
+        "duration": {
+          "value": "8",
+          "units": "hour"
+        },
+        "target": {
+          "affects": {
+            "type": "willing",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          },
+          "template": {
+            "units": "",
+            "contiguous": false,
+            "type": ""
+          }
+        },
+        "range": {
+          "units": "touch",
+          "special": ""
+        },
+        "uses": {
+          "max": "",
+          "recovery": [],
+          "spent": 0
+        },
+        "level": 1,
+        "school": "abj",
+        "properties": [
+          "vocal",
+          "somatic",
+          "material"
+        ],
+        "materials": {
+          "value": "a piece of cured leather",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "utility",
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              }
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "override": false
+            },
+            "effects": [
+              {
+                "_id": "I59O22yjAwzqZOhN"
+              }
+            ],
+            "range": {
+              "override": false
+            },
+            "target": {
+              "prompt": true,
+              "template": {
+                "contiguous": false,
+                "units": "ft"
+              },
+              "affects": {
+                "choice": false
+              },
+              "override": false
+            },
+            "roll": {
+              "formula": "",
+              "name": "",
+              "prompt": false,
+              "visible": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "sort": 0,
+            "name": "",
+            "img": "",
+            "appliedEffects": [
+              "I59O22yjAwzqZOhN"
+            ]
+          }
+        },
+        "identifier": "mage-armor"
+      },
+      "effects": [
+        {
+          "_id": "I59O22yjAwzqZOhN",
+          "changes": [
+            {
+              "key": "system.attributes.ac.calc",
+              "mode": 5,
+              "value": "mage",
+              "priority": null
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": 28800,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "origin": "Compendium.dnd-players-handbook.spells.Item.phbsplMageArmor0",
+          "transfer": false,
+          "flags": {},
+          "tint": "#ffffff",
+          "name": "Mage Armor",
+          "description": "<p>The target's base AC becomes 13 + its Dexterity modifier.</p>",
+          "statuses": [],
+          "_stats": {
+            "compendiumSource": "Compendium.dnd5e.spells.Item.CKZTpZlxj7hjjo2H.ActiveEffect.cfwMU7LuOJ619Lny",
+            "duplicateSource": null,
+            "coreVersion": "13.346",
+            "systemId": "dnd5e",
+            "systemVersion": "4.0.0",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "img": "icons/equipment/chest/breastplate-helmet-metal.webp",
+          "type": "base",
+          "system": {},
+          "sort": 0,
+          "_key": "!actors.items.effects!BR2P1A4151703066.BR2I76bc9995f6ff.I59O22yjAwzqZOhN"
+        }
+      ],
+      "folder": "pBaAAtXBCq9FVEnL",
+      "sort": 1200000,
+      "ownership": {
+        "default": 0,
+        "p7W6V9dOCsYphtv6": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "activity": [],
+            "effect": []
+          }
+        },
+        "core": {
+          "sourceId": "Compendium.dnd-players-handbook.spells.Item.phbsplMageArmor0"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.dnd-players-handbook.spells.Item.phbsplMageArmor0",
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": 1724425962003,
+        "modifiedTime": 1740686186118,
+        "lastModifiedBy": "dnd5ebuilder0000",
+        "exportSource": null
+      }
+    },
+    {
+      "_key": "!actors.items!BR2P1A4151703066.BR2I31ce1fee7376",
+      "_id": "BR2I31ce1fee7376",
+      "name": "Mage Hand",
+      "type": "spell",
+      "img": "icons/magic/light/hand-sparks-smoke-teal.webp",
+      "system": {
+        "description": {
+          "value": "<p>A spectral, floating hand appears at a point you choose within range. The hand lasts for the duration. The hand vanishes if it is ever more than 30 feet away from you or if you cast this spell again.</p><p>When you cast the spell, you can use the hand to manipulate an object, open an unlocked door or container, stow or retrieve an item from an open container, or pour the contents out of a vial.</p><p>As a Magic action on your later turns, you can control the hand thus again. As part of that action, you can move the hand up to 30 feet.</p><p>The hand can’t attack, activate magic items, or carry more than 10 pounds.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "",
+          "rules": "2024"
+        },
+        "activation": {
+          "type": "action",
+          "condition": "",
+          "value": null
+        },
+        "duration": {
+          "value": "1",
+          "units": "minute"
+        },
+        "target": {
+          "affects": {
+            "choice": false,
+            "count": "1",
+            "type": "space",
+            "special": ""
+          },
+          "template": {
+            "units": "",
+            "contiguous": false,
+            "type": ""
+          }
+        },
+        "range": {
+          "units": "ft",
+          "special": "",
+          "value": "30"
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "level": 0,
+        "school": "con",
+        "properties": [
+          "vocal",
+          "somatic"
+        ],
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": true
+        },
+        "activities": {
+          "QdMC2s97UJKjUBoD": {
+            "type": "summon",
+            "_id": "QdMC2s97UJKjUBoD",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "range": {
+              "override": false
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft"
+              },
+              "affects": {
+                "choice": false
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "bonuses": {
+              "ac": "",
+              "hd": "",
+              "hp": "",
+              "attackDamage": "0",
+              "saveDamage": "0",
+              "healing": "0"
+            },
+            "creatureSizes": [],
+            "creatureTypes": [],
+            "match": {
+              "attacks": false,
+              "proficiency": false,
+              "saves": false
+            },
+            "profiles": [
+              {
+                "count": "",
+                "name": "",
+                "_id": "yXLZxwYBIj9AR2iQ",
+                "uuid": "Compendium.dnd-players-handbook.actors.Actor.phbsplMageHand00",
+                "level": {
+                  "min": null,
+                  "max": null
+                },
+                "types": []
+              }
+            ],
+            "summon": {
+              "prompt": true,
+              "mode": ""
+            },
+            "name": "",
+            "img": "",
+            "appliedEffects": []
+          }
+        },
+        "identifier": "mage-hand"
+      },
+      "effects": [],
+      "folder": "4FhsY9FJQd7h7MZb",
+      "sort": 1000000,
+      "ownership": {
+        "default": 0,
+        "p7W6V9dOCsYphtv6": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "activity": [],
+            "effect": []
+          }
+        },
+        "core": {
+          "sourceId": "Compendium.dnd-players-handbook.spells.Item.phbsplMageHand00"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.dnd-players-handbook.spells.Item.phbsplMageHand00",
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": 1724425962104,
+        "modifiedTime": 1726785052873,
+        "lastModifiedBy": "dnd5ebuilder0000",
+        "exportSource": null
+      }
+    },
+    {
+      "_key": "!actors.items!BR2P1A4151703066.BR2Ia14a45f9c2ab",
+      "_id": "BR2Ia14a45f9c2ab",
+      "name": "Prestidigitation",
+      "type": "spell",
+      "img": "icons/weapons/wands/wand-star-white.webp",
+      "system": {
+        "description": {
+          "value": "<p>You create a magical effect within range. Choose the effect from the options below. If you cast this spell multiple times, you can have up to three of its non-instantaneous effects active at a time.</p><p><strong>Sensory Effect.</strong> You create an instantaneous, harmless sensory effect, such as a shower of sparks, a puff of wind, faint musical notes, or an odd odor.</p><p><strong>Fire Play.</strong> You instantaneously light or snuff out a candle, a torch, or a small campfire.</p><p><strong>Clean or Soil.</strong> You instantaneously clean or soil an object no larger than 1 cubic foot.</p><p><strong>Minor Sensation.</strong> You chill, warm, or flavor up to 1 cubic foot of nonliving material for 1 hour.</p><p><strong>Magic Mark.</strong> You make a color, a small mark, or a symbol appear on an object or a surface for 1 hour.</p><p><strong>Minor Creation.</strong> You create a nonmagical trinket or an illusory image that can fit in your hand. It lasts until the end of your next turn. A trinket can deal no damage and has no monetary worth.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "",
+          "rules": "2024"
+        },
+        "activation": {
+          "type": "action",
+          "condition": "",
+          "value": null
+        },
+        "duration": {
+          "value": "1",
+          "units": "hour"
+        },
+        "target": {
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "template": {
+            "units": "",
+            "contiguous": false,
+            "type": ""
+          }
+        },
+        "range": {
+          "units": "ft",
+          "special": "",
+          "value": "10"
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "level": 0,
+        "school": "trs",
+        "properties": [
+          "vocal",
+          "somatic"
+        ],
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": true
+        },
+        "activities": {
+          "gbdxQQmWwEAL1zpH": {
+            "type": "utility",
+            "name": "",
+            "_id": "gbdxQQmWwEAL1zpH",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {},
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft"
+              },
+              "affects": {
+                "choice": false
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": []
+            },
+            "roll": {
+              "prompt": false,
+              "visible": false
+            }
+          }
+        },
+        "identifier": "prestidigitation"
+      },
+      "effects": [],
+      "folder": "4FhsY9FJQd7h7MZb",
+      "sort": 400000,
+      "ownership": {
+        "default": 0,
+        "p7W6V9dOCsYphtv6": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "activity": [],
+            "effect": []
+          }
+        },
+        "core": {
+          "sourceId": "Compendium.dnd-players-handbook.spells.Item.phbsplPrestidigi"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.dnd-players-handbook.spells.Item.phbsplPrestidigi",
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": 1724425967035,
+        "modifiedTime": 1740686187125,
+        "lastModifiedBy": "dnd5ebuilder0000",
+        "exportSource": null
+      }
+    },
+    {
+      "_key": "!actors.items!BR2P1A4151703066.BR2Ic80071b2f839",
+      "_id": "BR2Ic80071b2f839",
+      "name": "Fireball",
+      "type": "spell",
+      "img": "icons/magic/fire/barrier-shield-explosion-yellow.webp",
+      "system": {
+        "description": {
+          "value": "<p>A bright streak flashes from you to a point you choose within range and then blossoms with a low roar into a fiery explosion. Each creature in a 20-foot-radius Sphere centered on that point makes a Dexterity saving throw, taking 8d6 Fire damage on a failed save or half as much damage on a successful one.</p><p>Flammable objects in the area that aren’t being worn or carried start burning.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage increases by 1d6 for each spell slot level above 3.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "",
+          "rules": "2024"
+        },
+        "activation": {
+          "type": "action",
+          "condition": "",
+          "value": null
+        },
+        "duration": {
+          "value": "",
+          "units": "inst"
+        },
+        "target": {
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature",
+            "special": ""
+          },
+          "template": {
+            "units": "ft",
+            "type": "sphere",
+            "size": "20",
+            "contiguous": false,
+            "count": ""
+          }
+        },
+        "range": {
+          "value": "150",
+          "units": "ft",
+          "special": ""
+        },
+        "uses": {
+          "max": "",
+          "recovery": [],
+          "spent": 0
+        },
+        "level": 3,
+        "school": "evo",
+        "properties": [
+          "vocal",
+          "somatic",
+          "material"
+        ],
+        "materials": {
+          "value": "a ball of bat guano and sulfur",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "save",
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              }
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false
+            },
+            "target": {
+              "prompt": true,
+              "template": {
+                "contiguous": false,
+                "units": "ft"
+              },
+              "affects": {
+                "choice": false
+              },
+              "override": false
+            },
+            "damage": {
+              "onSave": "half",
+              "parts": [
+                {
+                  "number": 8,
+                  "denomination": 6,
+                  "bonus": "",
+                  "types": [
+                    "fire"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "whole",
+                    "number": 1,
+                    "formula": ""
+                  }
+                }
+              ]
+            },
+            "save": {
+              "ability": "dex",
+              "dc": {
+                "calculation": "spellcasting",
+                "formula": ""
+              }
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": []
+            },
+            "sort": 0
+          }
+        },
+        "identifier": "fireball"
+      },
+      "effects": [],
+      "folder": "HCovEE4VoPGlIbKi",
+      "sort": 2100000,
+      "ownership": {
+        "default": 0,
+        "p7W6V9dOCsYphtv6": 3
+      },
+      "flags": {
+        "dnd5e": {},
+        "core": {
+          "sourceId": "Compendium.dnd-players-handbook.spells.Item.phbsplFireball00"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.dnd-players-handbook.spells.Item.phbsplFireball00",
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": 1724425954119,
+        "modifiedTime": 1726075747569,
+        "lastModifiedBy": "dnd5ebuilder0000",
+        "exportSource": null
+      }
+    },
+    {
+      "_key": "!actors.items!BR2P1A4151703066.BR2I58424675140d",
+      "_id": "BR2I58424675140d",
+      "name": "Invisibility",
+      "type": "spell",
+      "img": "icons/creatures/magical/spirit-undead-ghost-purple.webp",
+      "system": {
+        "description": {
+          "value": "<p>A creature you touch has the &amp;Reference[invisible apply=false] condition until the spell ends. The spell ends early immediately after the target makes an attack roll, deals damage, or casts a spell.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You can target one additional creature for each spell slot level above 2.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "",
+          "rules": "2024"
+        },
+        "activation": {
+          "type": "action",
+          "condition": "",
+          "value": 1
+        },
+        "duration": {
+          "value": "1",
+          "units": "hour"
+        },
+        "target": {
+          "affects": {
+            "type": "creature",
+            "count": "@item.level - 1",
+            "choice": false,
+            "special": ""
+          },
+          "template": {
+            "units": "",
+            "contiguous": false,
+            "type": ""
+          }
+        },
+        "range": {
+          "units": "touch",
+          "special": ""
+        },
+        "uses": {
+          "max": "",
+          "recovery": [],
+          "spent": 0
+        },
+        "level": 2,
+        "school": "ill",
+        "properties": [
+          "vocal",
+          "somatic",
+          "material",
+          "concentration"
+        ],
+        "materials": {
+          "value": "an eyelash in gum arabic",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "utility",
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              }
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "override": false
+            },
+            "effects": [
+              {
+                "_id": "9svfDetqjhsFP3ey"
+              }
+            ],
+            "range": {
+              "override": false
+            },
+            "target": {
+              "prompt": true,
+              "template": {
+                "contiguous": false,
+                "units": "ft"
+              },
+              "affects": {
+                "choice": false
+              },
+              "override": false
+            },
+            "roll": {
+              "formula": "",
+              "name": "",
+              "prompt": false,
+              "visible": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": []
+            },
+            "sort": 0
+          }
+        },
+        "identifier": "invisibility"
+      },
+      "effects": [
+        {
+          "name": "Invisible",
+          "origin": "Compendium.dnd-players-handbook.spells.Item.phbsplInvisibili",
+          "duration": {
+            "rounds": null,
+            "startTime": null,
+            "seconds": 3600,
+            "combat": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "disabled": false,
+          "flags": {
+            "dnd5e": {}
+          },
+          "img": "systems/dnd5e/icons/svg/statuses/invisible.svg",
+          "_id": "9svfDetqjhsFP3ey",
+          "type": "base",
+          "system": {},
+          "changes": [],
+          "description": "<p>The spell ends early immediately after the target makes an attack roll, deals damage, or casts a spell.</p>",
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [
+            "invisible"
+          ],
+          "sort": 0,
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "13.346",
+            "systemId": "dnd5e",
+            "systemVersion": "4.0.0",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!BR2P1A4151703066.BR2I58424675140d.9svfDetqjhsFP3ey"
+        }
+      ],
+      "folder": "3SjcO2acsFnWegp4",
+      "sort": 2700000,
+      "ownership": {
+        "default": 0,
+        "p7W6V9dOCsYphtv6": 3
+      },
+      "flags": {
+        "dnd5e": {},
+        "core": {
+          "sourceId": "Compendium.dnd-players-handbook.spells.Item.phbsplInvisibili"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.dnd-players-handbook.spells.Item.phbsplInvisibili",
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": 1724425960202,
+        "modifiedTime": 1726333246469,
+        "lastModifiedBy": "dnd5ebuilder0000",
+        "exportSource": null
+      }
+    },
+    {
+      "_key": "!actors.items!BR2P1A4151703066.BR2I8e9410d7f6c5",
+      "_id": "BR2I8e9410d7f6c5",
+      "name": "Cone of Cold",
+      "type": "spell",
+      "img": "icons/magic/air/wind-tornado-wall-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p>You unleash a blast of cold air. Each creature in a 60-foot Cone originating from you makes a Constitution saving throw, taking 8d8 Cold damage on a failed save or half as much damage on a successful one. A creature killed by this spell becomes a frozen statue until it thaws.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage increases by 1d8 for each spell slot level above 5.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "",
+          "rules": "2024"
+        },
+        "activation": {
+          "type": "action",
+          "condition": "",
+          "value": null
+        },
+        "duration": {
+          "value": "",
+          "units": "inst"
+        },
+        "target": {
+          "affects": {
+            "choice": false
+          },
+          "template": {
+            "units": "ft",
+            "type": "cone",
+            "size": "60",
+            "contiguous": false
+          }
+        },
+        "range": {
+          "units": "self"
+        },
+        "uses": {
+          "max": "",
+          "recovery": [],
+          "spent": 0
+        },
+        "level": 5,
+        "school": "evo",
+        "properties": [
+          "vocal",
+          "somatic",
+          "material"
+        ],
+        "materials": {
+          "value": "a small crystal or glass cone",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "save",
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              }
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false
+            },
+            "target": {
+              "prompt": true,
+              "template": {
+                "contiguous": false,
+                "units": "ft"
+              },
+              "affects": {
+                "choice": false
+              },
+              "override": false
+            },
+            "damage": {
+              "onSave": "half",
+              "parts": [
+                {
+                  "number": 8,
+                  "denomination": 8,
+                  "bonus": "",
+                  "types": [
+                    "cold"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "whole",
+                    "number": 1,
+                    "formula": ""
+                  }
+                }
+              ]
+            },
+            "save": {
+              "ability": "con",
+              "dc": {
+                "calculation": "spellcasting",
+                "formula": ""
+              }
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": []
+            },
+            "sort": 0
+          }
+        },
+        "identifier": "cone-of-cold"
+      },
+      "effects": [],
+      "folder": "beZ8MTpWY2cMEUlp",
+      "sort": 3000000,
+      "ownership": {
+        "default": 0,
+        "p7W6V9dOCsYphtv6": 3
+      },
+      "flags": {
+        "dnd5e": {},
+        "core": {
+          "sourceId": "Compendium.dnd-players-handbook.spells.Item.phbsplConeofCold"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.dnd-players-handbook.spells.Item.phbsplConeofCold",
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": 1724425946160,
+        "modifiedTime": 1726075745338,
+        "lastModifiedBy": "dnd5ebuilder0000",
+        "exportSource": null
+      }
+    },
+    {
+      "_key": "!actors.items!BR2P1A4151703066.BR2Ifed03309cf85",
+      "_id": "BR2Ifed03309cf85",
+      "name": "Fly",
+      "type": "spell",
+      "img": "icons/creatures/birds/songbird-yellow-flying.webp",
+      "system": {
+        "description": {
+          "value": "<p>You touch a willing creature. For the duration, the target gains a Fly Speed of 60 feet and can hover. When the spell ends, the target falls if it is still aloft unless it can stop the fall.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You can target one additional creature for each spell slot level above 3.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "",
+          "rules": "2024"
+        },
+        "activation": {
+          "type": "action",
+          "condition": "",
+          "value": null
+        },
+        "duration": {
+          "value": "10",
+          "units": "minute"
+        },
+        "target": {
+          "affects": {
+            "type": "willing",
+            "count": "@item.level - 2",
+            "choice": false,
+            "special": ""
+          },
+          "template": {
+            "units": "",
+            "contiguous": false,
+            "type": ""
+          }
+        },
+        "range": {
+          "units": "touch",
+          "special": ""
+        },
+        "uses": {
+          "max": "",
+          "recovery": [],
+          "spent": 0
+        },
+        "level": 3,
+        "school": "trs",
+        "properties": [
+          "vocal",
+          "somatic",
+          "material",
+          "concentration"
+        ],
+        "materials": {
+          "value": "a feather",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "utility",
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              }
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "override": false
+            },
+            "effects": [
+              {
+                "_id": "EHFLuTHqI6cXn1zb"
+              }
+            ],
+            "range": {
+              "override": false
+            },
+            "target": {
+              "prompt": true,
+              "template": {
+                "contiguous": false,
+                "units": "ft"
+              },
+              "affects": {
+                "choice": false
+              },
+              "override": false
+            },
+            "roll": {
+              "formula": "",
+              "name": "",
+              "prompt": false,
+              "visible": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": []
+            },
+            "sort": 0
+          }
+        },
+        "identifier": "fly"
+      },
+      "effects": [
+        {
+          "name": "Flight",
+          "origin": "Compendium.dnd-players-handbook.spells.Item.phbsplFly0000000",
+          "duration": {
+            "rounds": null,
+            "startTime": null,
+            "seconds": 600,
+            "combat": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "disabled": false,
+          "flags": {
+            "dnd5e": {}
+          },
+          "img": "icons/creatures/abilities/wings-birdlike-blue.webp",
+          "_id": "EHFLuTHqI6cXn1zb",
+          "type": "base",
+          "system": {},
+          "changes": [
+            {
+              "key": "system.attributes.movement.fly",
+              "mode": 4,
+              "value": "60",
+              "priority": null
+            },
+            {
+              "key": "system.attributes.movement.hover",
+              "mode": 5,
+              "value": "true",
+              "priority": null
+            }
+          ],
+          "description": "",
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "sort": 0,
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "13.346",
+            "systemId": "dnd5e",
+            "systemVersion": "4.0.0",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!BR2P1A4151703066.BR2Ifed03309cf85.EHFLuTHqI6cXn1zb"
+        }
+      ],
+      "folder": "HCovEE4VoPGlIbKi",
+      "sort": 2000000,
+      "ownership": {
+        "default": 0,
+        "p7W6V9dOCsYphtv6": 3
+      },
+      "flags": {
+        "dnd5e": {},
+        "core": {
+          "sourceId": "Compendium.dnd-players-handbook.spells.Item.phbsplFly0000000"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.dnd-players-handbook.spells.Item.phbsplFly0000000",
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": 1724425954637,
+        "modifiedTime": 1726590580103,
         "lastModifiedBy": "dnd5ebuilder0000",
         "exportSource": null
       }
     }
   ],
-  "effects": [],
+  "effects": [
+    {
+      "_id": "BR2E75e94a35b250",
+      "changes": [
+        {
+          "key": "system.attributes.ac.calc",
+          "mode": 5,
+          "value": "mage",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": 0,
+        "seconds": 28800,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Compendium.dnd-players-handbook.spells.Item.phbsplMageArmor0",
+      "transfer": false,
+      "flags": {},
+      "tint": "#ffffff",
+      "name": "Mage Armor",
+      "description": "<p>The target's base AC becomes 13 + its Dexterity modifier.</p>",
+      "statuses": [],
+      "_stats": {
+        "compendiumSource": "Compendium.dnd5e.spells.Item.CKZTpZlxj7hjjo2H.ActiveEffect.cfwMU7LuOJ619Lny",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.2.0",
+        "createdTime": 1737498572716,
+        "modifiedTime": 1737498572716,
+        "lastModifiedBy": "p7W6V9dOCsYphtv6",
+        "exportSource": null
+      },
+      "img": "icons/equipment/chest/breastplate-helmet-metal.webp",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!actors.effects!BR2P1A4151703066.BR2E75e94a35b250"
+    }
+  ],
   "folder": null,
   "flags": {
     "dnd5e": {},
     "core": {
-      "sourceId": "Compendium.dnd-monster-manual.actors.Actor.mmSpy00000000000"
+      "sourceId": "Compendium.dnd-monster-manual.actors.Actor.mmMage0000000000"
     },
     "blooming-rot-2": {
       "kind": "named-npc",
-      "archetype": "spy",
-      "phase": "1"
+      "archetype": "mage",
+      "phase": "1",
+      "upgraded_in_phase": "6"
     }
   },
   "_stats": {
-    "compendiumSource": "Compendium.dnd-monster-manual.actors.Actor.mmSpy00000000000",
+    "compendiumSource": "Compendium.dnd-monster-manual.actors.Actor.mmMage0000000000",
     "duplicateSource": null,
     "coreVersion": "13.351",
     "systemId": "dnd5e",
     "systemVersion": "5.3.0",
     "createdTime": 1732598129404,
-    "modifiedTime": 1740168873617,
+    "modifiedTime": 1739896887350,
     "lastModifiedBy": "dnd5ebuilder0000",
     "exportSource": null
   },

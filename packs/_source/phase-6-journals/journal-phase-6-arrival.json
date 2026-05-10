@@ -1,0 +1,167 @@
+{
+  "_key": "!journal!BR2P6ArrivalJrnl",
+  "_id": "BR2P6ArrivalJrnl",
+  "name": "Phase 6 — Arrival in Greyhawk",
+  "pages": [
+    {
+      "_id": "BR2P6ArPgGmBrf",
+      "_key": "!journal.pages!BR2P6ArrivalJrnl.BR2P6ArPgGmBrf",
+      "name": "GM Brief — Phase 6 Purpose",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 100000,
+      "ownership": { "default": -1 },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "text": {
+        "format": 1,
+        "content": "<h1>Phase 6 — The Brass Crow</h1><p><em>BR2 Phase 6, v0.7 draft. Greyhawk City investigative phase. Tier 2 / early Tier 3, levels 8&ndash;11.</em></p><h2>What this phase is</h2><p>The party has finally reached the living trail of <strong>Haskur Vandrell</strong>, but every step toward him reveals that <em>he is less important than the system moving him.</em> Haskur is the door. The younger man is the question. <strong>V. Korre</strong> is the hinge.</p><p>Phase 6 is a node-based investigation through Greyhawk City: a counting-house, a manuscript shop, a private courier archive, a Hardby-aligned letter agency, a rented handler's room, and a hidden urban cistern. Combat is possible but is not the default solution. The phase climaxes at the <strong>eleventh-bell transfer in the Old Stonecistern</strong> beneath a disused bathhouse.</p><h2>What Phase 6 delivers</h2><ul><li>Confirmation that Haskur is alive and using the alias <strong>H. V. Andren</strong>.</li><li>Identification of <strong>V. Korre</strong> as the Greyhawk handler &mdash; surface operator, not mastermind.</li><li>A clearer picture of the younger man in grey-and-bone clothing.</li><li>An intercepted packet, ledger, or witness statement that mentions <strong>&ldquo;the Seventh Stair.&rdquo;</strong></li><li>The realization that the conspiracy uses Greyhawk City as an information exchange, not as headquarters.</li><li>A choice or hook that points to Phase 7: research and locate the Seventh Stair.</li></ul><h2>What Phase 6 must NOT deliver</h2><ul><li>The full conspiracy.</li><li>The identity of &ldquo;E.&rdquo;</li><li>The names <em>Eclavdra</em>, <em>House Eilserv</em>, <em>Vault</em>, <em>Underdark</em>, <em>Demonweb</em>, <em>Lolth</em>.</li><li>Confirmation that the &ldquo;E.&rdquo; writer is non-human.</li><li>A final defeat of Haskur that closes the investigation.</li><li>A full Greyhawk City sandbox.</li></ul><h2>Tone</h2><p>Urban, investigative, tense, clever, political, slightly predatory. Greyhawk City should feel alive, commercial, self-interested, morally flexible. <strong>The city is not evil. It is busy.</strong> The conspiracy does not need to control Greyhawk. It only needs to rent corners of it.</p><h2>Mechanical assumptions</h2><ul><li>Investigation DCs cap at 18.</li><li>Social DCs cap at 17.</li><li>Combat is possible but not the default; the climactic encounter is optional.</li><li>SRD-compatible NPC analogs: Spy, Veteran, Mage, Bandit Captain, Thug, Scout, Cult Fanatic.</li><li>The party is approximately tier 2 / early tier 3 (levels 8&ndash;11).</li></ul><h2>Phase flow</h2><ol><li><strong>Branching opening</strong> from the Phase 5 vector the party chose.</li><li><strong>Arrival in Greyhawk City.</strong></li><li><strong>Initial surveillance</strong> &mdash; first day, no entry to the Brass Crow.</li><li><strong>Three primary investigative nodes</strong> in any order: Brass Crow, Velash Manuscripts, Vone's archive.</li><li><strong>Two secondary nodes:</strong> Tellan Verth (witness), Kestrel &amp; Reed (intermediary).</li><li><strong>V. Korre identification</strong> &mdash; from any two primary nodes.</li><li><strong>Eleventh-bell transfer</strong> &mdash; from any three primary nodes.</li><li><strong>Climax at the Old Stonecistern.</strong></li><li><strong>End state</strong>: Haskur outcome plus the Seventh Stair clue.</li></ol><h2>Carry-forward from Phase 5</h2><p>Phase 6 reads the variables left behind by Phase 5: Sereth's path (A indicted / B privately removed / C kinetically removed), Closure motion (passed / held over / defeated), Pell's fate (exposed / turned / fed false / shadowed / removed / killed), Vesten Quill (captured / escaped / never reached), and which of <strong>Lies 1&ndash;5</strong> the party chose to feed up the chain. <strong>See:</strong> <em>Phase 6 &mdash; Clocks &amp; Carry-Forward</em> for the full consequence table.</p>"
+      }
+    },
+    {
+      "_id": "BR2P6ArPgArrival",
+      "_key": "!journal.pages!BR2P6ArrivalJrnl.BR2P6ArPgArrival",
+      "name": "Arrival in Greyhawk — Read-Aloud",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 200000,
+      "ownership": { "default": -1 },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "text": {
+        "format": 1,
+        "content": "<h1>Arrival in Greyhawk City</h1><p><em>Read aloud as the party crests the West Gate bridge above the Selintan, late afternoon, regardless of which Phase 5 vector brought them here. Adjust route description in the first paragraph to match their approach.</em></p><blockquote><p>The Selintan widens below the West Gate bridge, brown and busy, smelling of river-silt and tar and the wet wool of barge-hands. The bridge itself is choked: empty wagons going out, full ones coming in, drovers cursing in three trade-tongues. A toll-clerk waves you through without looking up.</p><p>Beyond the gate the Foreign Quarter opens in front of you: narrow streets that lean a little to the south where the river has pulled them, four-storey houses with rented rooms above counting-rooms, the sharp rust-and-honey smell of ship-spice from the High Quay drifting up the side-streets. Soot from a hundred chimneys settles on every flat surface. A shopwoman is throwing dirty water into a gutter that does not appear to slope toward any drain. A gentleman in a wine-coloured coat steps over it without breaking conversation.</p><p>Three things become clear within the first quarter-hour.</p><p><em>One.</em> The city is too large to care whether you are right.</p><p><em>Two.</em> Money is the only language anyone uses without an accent.</p><p><em>Three.</em> You are being noticed, but not yet by name. Two old women on a doorstep watch you go by the way one watches an unfamiliar boat: not unfriendly, only registering.</p></blockquote><h2>GM notes</h2><ul><li><strong>Do not overdo canon exposition.</strong> The PCs do not need a gazetteer. They need to feel the city: useful, crowded, expensive, watchful.</li><li><strong>Caelith's communications are constrained from this point on.</strong> If the Closure motion passed in Phase 5, he writes rarely and never with full names. Even at his most generous, his notes from Loftwick will arrive in single-page formal-courier hand and never mention any of the Greyhawk targets directly.</li><li><strong>Greyhawk's indifference is a feature.</strong> The party will need to become invisible &mdash; or at least uninteresting &mdash; to make progress. Open Yeomanry authority does not work here.</li><li>The Brass Crow is two streets north of the main square, on Tinker's Way. <strong>Caelith's instruction is to watch, not approach, on the first day.</strong> If the party walks in immediately, advance the Haskur Trail Clock by 1 the same evening.</li></ul><h2>What the city looks like for this phase</h2><p>For Phase 6, the GM only needs four districts in mental view. Everything else is set-dressing.</p><ul><li><strong>The Foreign Quarter.</strong> Where the Brass Crow is, where Tellan Verth drinks, where the party should sleep. Mixed Aerdy, Suel, and emigrant-Yeomanry residents. Cheap rooms above counting-houses. The party can pass as travelling merchants without effort.</li><li><strong>The Garden Quarter.</strong> Where Iren Velash keeps her shop. Quieter, older, money-old enough to leave its garden walls in place. The streets are narrower, the buildings older, the residents nosier &mdash; but quietly so.</li><li><strong>The High Quay.</strong> Customs houses, port advocates, courier offices. Edrik Vone's archive is here. The smell is salt and tar; the gait is fast.</li><li><strong>The Old Stonecistern (climax only).</strong> Beneath a disused bathhouse in the Foreign Quarter, accessible by a service drain connected to the Brass Crow. The party will find it through Phase 6 evidence; do not foreshadow before the eleventh-bell scene.</li></ul><h2>Caelith's first message</h2><p>Within two hours of arrival, a runner of indifferent age delivers a folded paper to whichever PC took the lead in Phase 5. The runner is gone before the seal is broken. The note is unsigned but the hand is unmistakable. <strong>Use the appropriate Road Note variant for the party's vector</strong> (see Handouts, Variants A&ndash;D).</p><blockquote><p>You will recognize the address by the sign. Watch from across the street. Note who arrives. Note what they wait for. Do not enter on the first day. Do not give names. The wood reply was correct. The boy is not a subordinate. There is a third hand we have not seen.</p></blockquote>"
+      }
+    },
+    {
+      "_id": "BR2P6ArPgVecA",
+      "_key": "!journal.pages!BR2P6ArrivalJrnl.BR2P6ArPgVecA",
+      "name": "Opening Variant A — Greyhawk Direct",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 300000,
+      "ownership": { "default": -1 },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null, "duplicateSource": null, "exportSource": null,
+        "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0",
+        "createdTime": null, "modifiedTime": null, "lastModifiedBy": null
+      },
+      "text": {
+        "format": 1,
+        "content": "<h1>Opening Variant A &mdash; Greyhawk Direct</h1><p><em>Use if the party chose Phase 5 Vector A: Greyhawk City. They have travelled north along the Loftwick&ndash;Greyhawk road. Letter 7 Variant A is in the lead PC's pack. Convergence to the Foreign Quarter is immediate.</em></p><h2>Read aloud</h2><blockquote><p>The road north of the Yeomanry winds through low pasture and orchard for two days, then crosses the Selintan tributaries on a series of stone bridges that have been there since before any of you were named. By the third afternoon, you can see Greyhawk on the southern bank of the Selintan: a city laid like an irregular coin on the river's edge, walled in older stone than Loftwick, smoking gently from a thousand chimneys.</p><p>The West Gate accepts your party without question. A bored toll-clerk takes a coin from each PC, stamps a passage chit, and gestures you through. The Foreign Quarter unfolds beyond.</p><p>You have arrived during the trade-bell hour. The streets are full. Letter 7 weighs in your pack.</p></blockquote><h2>GM note</h2><p>Vector A is the cleanest opening. The party is on schedule, intentional, and operating under Caelith's planned itinerary. <strong>Caelith's warning matters here:</strong> do not approach the Brass Crow on the first day. Watch who arrives. The younger man arrives before Haskur if the Trail Clock is 0&ndash;2.</p><h2>First scene transition</h2><p>The party is free to choose their first action: find Tellan Verth (Foreign Quarter tavern), watch Brass Crow from a rooftop or doorway across Tinker's Way, find Iren Velash (Garden Quarter), or visit Edrik Vone (High Quay). See <em>Phase 6 &mdash; The Greyhawk Investigation</em>.</p>"
+      }
+    },
+    {
+      "_id": "BR2P6ArPgVecB",
+      "_key": "!journal.pages!BR2P6ArrivalJrnl.BR2P6ArPgVecB",
+      "name": "Opening Variant B — The Wood Correspondent",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 400000,
+      "ownership": { "default": -1 },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null, "duplicateSource": null, "exportSource": null,
+        "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0",
+        "createdTime": null, "modifiedTime": null, "lastModifiedBy": null
+      },
+      "text": {
+        "format": 1,
+        "content": "<h1>Opening Variant B &mdash; The Wood Correspondent</h1><p><em>Use if the party chose Phase 5 Vector B: pursue Trina's old correspondent. They arrive at Aldea Veren's cottage before turning toward Greyhawk. Convergence takes 2&ndash;3 in-game days.</em></p><h2>Read aloud (Aldea present)</h2><blockquote><p>The cottage stands where Trina said it would: a small slate-roofed house at the edge of the wood, with a flagged path of mossed stones and a kitchen-garden gone half to herbs. Smoke is rising from the chimney as you approach. The door is unbarred.</p><p>Mistress Aldea Veren receives you at her own kitchen table. She is in her late seventies, half-elf, and very tired. Her hands are stained with ink, her hair tied back with a length of black silk. She offers you tea. She listens.</p><p>When you place the &ldquo;E.&rdquo; correspondence in front of her, she does not pick it up. She looks at it for a long time, then looks up at you.</p></blockquote><h2>What Aldea will say (in person)</h2><p>If &mdash; and only if &mdash; the party asks the right narrow question (something specific about the wax, the ink, the stroke, or the geographic claim), Aldea will answer with three professional observations beyond what she sent in writing. She still does <strong>not</strong> name the writer, the species, the organization, or the location.</p><ul><li>&ldquo;The wax came from a recipe-family I cannot place. It is old. The closest match I have ever read is a fragment from a pre-Schism text I once handled in Greyhawk &mdash; <strong>Iren Velash</strong> would know it better than I do.&rdquo;</li><li>&ldquo;The hand was trained at the Aerdy commercial-court level but never raised in those courts. There is a stiffness in the long-stroke I would expect of someone copying out of a manual rather than out of practice.&rdquo;</li><li>&ldquo;One of the geographic phrasings is wrong by a long mile. The author writes as if their first geography was below ground and they are guessing at distances above it.&rdquo;</li></ul><p>She will look up after this and add: <em>&ldquo;Bring it to Iren. She has the wax-fragments I do not. And she has the patience.&rdquo;</em></p><h2>Read aloud (Aldea vanished &mdash; only if Lie 2 was used)</h2><blockquote><p>The cottage door is unbarred but the cottage is empty. The kettle is cold. A loom in the front room has been wiped clean. In the corner, a small black hearth has been swept and re-swept, and at the back of it, in the angle between two of the floor-stones, a corner of paper has not entirely burned. The corner reads:</p><p style=\"font-family: monospace; padding-left: 1em;\">&hellip; ne return passage &hellip; via Greyhawk &hellip; Kestrel &amp; Reed &hellip;</p></blockquote><h2>GM note</h2><p>If Lie 2 was used in Phase 5, the conspiracy turned over the wood correspondent's cottage. Aldea is alive but has gone to ground; the burned watch-orders fragment points the party toward Greyhawk and a Hardby-aligned letter agency. Either way, the convergence target is Iren Velash in Greyhawk &mdash; or, failing that, a Kestrel &amp; Reed packet.</p>"
+      }
+    },
+    {
+      "_id": "BR2P6ArPgVecC",
+      "_key": "!journal.pages!BR2P6ArrivalJrnl.BR2P6ArPgVecC",
+      "name": "Opening Variant C — Counter-Leak",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 500000,
+      "ownership": { "default": -1 },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null, "duplicateSource": null, "exportSource": null,
+        "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0",
+        "createdTime": null, "modifiedTime": null, "lastModifiedBy": null
+      },
+      "text": {
+        "format": 1,
+        "content": "<h1>Opening Variant C &mdash; Counter-Leak</h1><p><em>Use if the party chose Phase 5 Vector C: counter-leak operation. Open in Loftwick after the Council vote.</em></p><h2>Read aloud (Quill captured)</h2><blockquote><p>The Loftwick afternoon has gone smoky. Marshal Thale's militia have Quill in a cell at the Southwall Yard, his coat folded on the table beside him, his whistle in a small lead box. He has not been beaten. He has been waited at, by a man who does not blink. He is talking.</p><p>Quill gives you a name and an address before he gives you anything else: <strong>Kestrel &amp; Reed, Foreign Letters, Hawkstone Way, Greyhawk City.</strong> He says he was paid through them for two years. He says he never met the writer. He says he was told to leave the Yeomanry by the third bell after the Council vote and report to Hawkstone Way for re-tasking.</p><p>He does not know what re-tasking means. He says he was told it would be in Hardby. <em>He is wrong.</em></p></blockquote><h2>Read aloud (Quill escaped)</h2><blockquote><p>The Council vote ended at the third bell. By the fifth bell, Vesten Quill was already six miles east of Loftwick, riding hard with two saddle-bags and one of the false packets you fed him still sealed at the bottom. His route lies forward through Hardby and from there, his route master will reassign him &mdash; almost certainly through Greyhawk.</p><p>What you have on your side of the table is one compromised courier receipt &mdash; the carbon you took before you ever touched a packet to him &mdash; and a partial route written in your own hand. The receipt names <strong>Edrik Vone</strong> on the High Quay in Greyhawk City. Or, alternatively, <strong>Kestrel &amp; Reed, Foreign Letters</strong>, on Hawkstone Way. The route does not say which. You will have to find out.</p></blockquote><h2>GM note</h2><p>Vector C converges on Greyhawk through the letter agency. If Quill was captured, the party has Kestrel &amp; Reed's exact address from the start (<em>see clock-state effects</em>). If Quill escaped, Kestrel &amp; Reed has been warned and is harder to penetrate &mdash; the party has only Vone's name as a fallback.</p>"
+      }
+    },
+    {
+      "_id": "BR2P6ArPgVecD",
+      "_key": "!journal.pages!BR2P6ArrivalJrnl.BR2P6ArPgVecD",
+      "name": "Opening Variant D — Rel Astra Continuation",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 600000,
+      "ownership": { "default": -1 },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null, "duplicateSource": null, "exportSource": null,
+        "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0",
+        "createdTime": null, "modifiedTime": null, "lastModifiedBy": null
+      },
+      "text": {
+        "format": 1,
+        "content": "<h1>Opening Variant D &mdash; Rel Astra Legal Continuation</h1><p><em>Use if the party chose Phase 5 Vector D: Halask's legal continuation. Available only if Sereth was indicted (Path A) and Halask was protected. Open aboard a Hardby coastal galley or at a short procedural hearing in Rel Astra.</em></p><h2>Read aloud</h2><blockquote><p>The hearing is the kind no city advertises. Halask sits at the petitioner's table in a long advocate's coat that has seen better mornings. The judge is bored. The clerks are bored. The case is procedurally unremarkable. Then Halask hands across a single deposition, and the judge stops being bored.</p><p>The deposition is short. It names a witness-pressure packet that was delivered to the C&amp;V Rel Astra office <em>five days before</em> Sereth's arraignment. The packet's seal was Aerdy commercial-court; the wax was wrong; the courier's chit lists Greyhawk as the origin point.</p><p>Halask catches your eye over the rim of his spectacles, briefly, and then returns to looking exhausted.</p></blockquote><h2>What Halask will say (privately)</h2><ul><li>&ldquo;The packet came through Greyhawk. Whoever pressured my witness wrote from there. I cannot follow it from here. You can.&rdquo;</li><li>&ldquo;The chit names a hand-altered courier. The hand was not Sereth's people. The hand was someone the Rel Astra office did not recognise.&rdquo;</li><li>&ldquo;If you go, take the chit. <strong>Edrik Vone</strong> on the High Quay can read these. He will charge you. Do not haggle. Do not give him your real names.&rdquo;</li></ul><h2>GM note</h2><p>Vector D is the most procedural opening. Halask preserves the legal front in Rel Astra; the party converges on Greyhawk through V. Korre or the Hardby-aligned letter agency, with Vone's archive as the obvious entry point. <strong>Keep this opening brief.</strong> Phase 6's main body is still Greyhawk City &mdash; spend a session at most on the hearing.</p>"
+      }
+    },
+    {
+      "_id": "BR2P6ArPgChoice",
+      "_key": "!journal.pages!BR2P6ArrivalJrnl.BR2P6ArPgChoice",
+      "name": "First Day in Greyhawk — Choice Tree",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 700000,
+      "ownership": { "default": -1 },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null, "duplicateSource": null, "exportSource": null,
+        "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0",
+        "createdTime": null, "modifiedTime": null, "lastModifiedBy": null
+      },
+      "text": {
+        "format": 1,
+        "content": "<h1>First Day &mdash; Choice Tree</h1><p>By the second bell after their arrival, the party has four reasonable starting points. Order does not matter; <strong>any two primary nodes reveal V. Korre, any three reveal the eleventh-bell transfer.</strong></p><h2>Choice 1 &mdash; Find Tellan Verth (witness)</h2><p>The fastest source of confirmation. Tellan drinks at the same Foreign Quarter tavern every night. He is honest, ashamed, and useful. The party can place Haskur and the younger man at the Brass Crow without ever entering it.</p><h2>Choice 2 &mdash; Watch the Brass Crow (surveillance)</h2><p>Caelith's recommended first move. Across Tinker's Way is a row of cheap rooms above a cobbler's; one rents by the day. From there the party can observe arrivals, departures, and the desk clerk's lintel-checks. <strong>Do not enter on the first day.</strong></p><h2>Choice 3 &mdash; Visit Iren Velash (Garden Quarter)</h2><p>Slowest start, deepest payoff. Iren can read manuscripts and document habits beyond what Aldea sent. She knows Caelith's identification phrase: <em>&ldquo;the seventh question of the third volume.&rdquo;</em> She does not chat.</p><h2>Choice 4 &mdash; Visit Edrik Vone (High Quay)</h2><p>Most expensive start. Vone sells records. The regular ledger is 50 gp; the irregular ledger is 200 gp. Both are negotiable downward (with leverage) or upward (with carelessness).</p><h2>Pacing</h2><p>The phase assumes 4&ndash;6 in-city days before the eleventh-bell transfer. <strong>Every entry into a primary node consumes one in-game day.</strong> Surveillance and Tellan Verth do not consume a day. <strong>Each in-city day, advance the Greyhawk Heat Clock by 1 if the party did anything visible</strong> (entered a node openly, asked after a name in public, used Yeomanry papers).</p><h2>Sleep, food, and small problems</h2><p>The Foreign Quarter has cheap rooms (5 sp/night) and decent ones (1 gp/night). Greyhawk does not feed itself cheaply: assume 5 sp/PC/day for unremarkable food. Stables are 4 sp/night per horse if anyone brought one. <strong>If the party makes the Heat Clock visible, even small services begin to cost more, and the rooms above the cobbler's get rented out from under them.</strong></p>"
+      }
+    }
+  ],
+  "folder": null,
+  "sort": 100000,
+  "ownership": { "default": -1 },
+  "flags": { "blooming-rot-2": { "phase": 6 } },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

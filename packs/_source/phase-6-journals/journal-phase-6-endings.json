@@ -1,0 +1,106 @@
+{
+  "_key": "!journal!BR2P6EndingsJrnl",
+  "_id": "BR2P6EndingsJrnl",
+  "name": "Phase 6 — Endings & Phase 7 Hooks",
+  "pages": [
+    {
+      "_id": "BR2P6EnPgEndA",
+      "_key": "!journal.pages!BR2P6EndingsJrnl.BR2P6EnPgEndA",
+      "name": "Ending A — Haskur Captured",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 100000,
+      "ownership": { "default": -1 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "text": {
+        "format": 1,
+        "content": "<h1>Ending A — Haskur Captured</h1><p>The party has Haskur Vandrell in their custody, alive. Whether they intend to surrender him to a Greyhawk court, deliver him to Caelith in Loftwick, or hold him privately, this is the cleanest end-state of Phase 6.</p><h2>What the party gains</h2><ul><li>Haskur's testimony &mdash; the interrogation fragment (Handout 8) and as much further questioning as the party has time and protection to conduct.</li><li>Confirmation that Haskur was <strong>collected, not rescued</strong>.</li><li>Confirmation of the Seventh Stair as a route, not a metaphor.</li><li>Confirmation that Korre and Kethren are subordinate operators, not principals.</li></ul><h2>What the party did not gain</h2><p>Kethren almost certainly escaped through the sluice gate. The second page of the Itinerary went with him. The party may know what Kethren is, in operational terms; they do not know <em>where</em> he went.</p><h2>Greyhawk consequences</h2><p>If Haskur was captured publicly, the Heat Clock advances by 1 and a Greyhawk court takes formal custody. <strong>The party loses interrogation access</strong> &mdash; Caelith may not be able to recover him for some weeks, and the deeper questions go unanswered.</p><p>If Haskur was captured privately and removed from Greyhawk, the Heat Clock does not advance and Caelith handles the legal cover from Loftwick. The party can question Haskur as long as they wish.</p><h2>Phase 7 begins with</h2><ul><li>Haskur as prisoner, bargaining piece, or political liability.</li><li>The Ashen Itinerary or the route mark or both.</li><li>Iren's analysis. Aldea's reply (if Vector B). Vone's irregular ledger excerpt.</li><li>The clean understanding that the route is below ground.</li></ul>"
+      }
+    },
+    {
+      "_id": "BR2P6EnPgEndB",
+      "_key": "!journal.pages!BR2P6EndingsJrnl.BR2P6EnPgEndB",
+      "name": "Ending B — Haskur Killed",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 200000,
+      "ownership": { "default": -1 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "text": {
+        "format": 1,
+        "content": "<h1>Ending B — Haskur Killed</h1><p>Haskur Vandrell is dead. The party has his body, his papers, and possibly the Ashen Itinerary. The man who has been at the centre of this investigation since Phase 1 will not be answering further questions.</p><h2>What the party gains</h2><p>The papers. Haskur was not the mastermind, but he was a witness, and his belongings carry the plot forward.</p><ul><li>The Ashen Itinerary (intact, partial, or scorched depending on play).</li><li>The route mark on the cistern wall.</li><li>His worn Aerdy travel clothes &mdash; sewn into the lining is a small list of names. None are E.; one is V. Korre; one is &ldquo;K. I.&rdquo; (Kethren); two are unknown. Iren can read the unknowns: one is a forger in Greyhawk, the other is a notary in <em>Hardby</em>.</li></ul><h2>What the party did not gain</h2><p>His testimony. His corrections. His thirty years of evasions and the kernels of truth inside them. Haskur as a piece of evidence is a smaller set than Haskur as a witness.</p><h2>Greyhawk consequences</h2><p>Killing Haskur visibly: <strong>Heat Clock +1</strong>, formal Aerdy commercial-court interest, and a one-line item in the Greyhawk newspapers within two days. Caelith spends a week answering questions in Loftwick that he should not have to.</p><p>Killing Haskur in the cistern, where no surface witness saw it: no Heat Clock change. The body can be left for the conspiracy to handle, or carried out and quietly disposed of.</p><h2>The Phase 7 setup</h2><p>The Ashen Itinerary carries the campaign. Iren can read it. Aldea can read the wax. Caelith can place the route in old civic records. <strong>Kethren or Korre becomes the next living thread.</strong></p><h2>Phase 7 begins with</h2><ul><li>Haskur as a body, not a witness. Useful, but quieter.</li><li>The Ashen Itinerary as the keystone.</li><li>The names sewn into Haskur's coat lining as new threads &mdash; the Hardby notary in particular is a Phase 7 hook.</li></ul>"
+      }
+    },
+    {
+      "_id": "BR2P6EnPgEndC",
+      "_key": "!journal.pages!BR2P6EndingsJrnl.BR2P6EnPgEndC",
+      "name": "Ending C — Haskur Escapes, Evidence Recovered",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 300000,
+      "ownership": { "default": -1 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "text": {
+        "format": 1,
+        "content": "<h1>Ending C — Haskur Escapes, Evidence Recovered</h1><p>This is the default successful ending. The man slips, but the route does not.</p><p>Haskur is gone &mdash; through the alley door, or carried in a courier wagon, or onto a Selintan barge, depending on how the chase went. Kethren is gone too, through the sluice gate. The party has the Ashen Itinerary, or most of it, and the route mark from the cistern wall.</p><h2>What the party gains</h2><ul><li>The Ashen Itinerary (intact or partially burned).</li><li>The route mark (a rubbing or sketch of the seven-step descending hill).</li><li>Iren's keystone reading of the Seventh Stair.</li><li>At least one of Korre or Kethren as a continuing thread.</li><li>The understanding that the conspiracy uses Greyhawk as an information exchange, not as headquarters.</li></ul><h2>What the party did not gain</h2><p>The man at the door. Haskur knew enough to be dangerous and not enough to be central, and that knowledge has now travelled with him. <strong>The party will see Haskur again.</strong> When and where is a Phase 7 question.</p><h2>Greyhawk consequences</h2><p>If the cistern fight stayed below ground and out of sight, the Heat Clock does not advance. The Foreign Quarter knows something happened in the bathhouse, but does not know who. The party is free to leave the city without escalation.</p><h2>Phase 7 begins with</h2><ul><li>The Seventh Stair clue, fully understood as a descent route.</li><li>The Ashen Itinerary as the keystone document.</li><li>Korre or Kethren as the closest living thread.</li><li>Haskur loose in the world &mdash; somewhere on the route &mdash; and the party hunting him for the second time.</li></ul>"
+      }
+    },
+    {
+      "_id": "BR2P6EnPgEndD",
+      "_key": "!journal.pages!BR2P6EndingsJrnl.BR2P6EnPgEndD",
+      "name": "Ending D — Haskur Escapes, Evidence Mostly Burned",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 400000,
+      "ownership": { "default": -1 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "text": {
+        "format": 1,
+        "content": "<h1>Ending D — Haskur Escapes, Evidence Mostly Burned</h1><p>The fail-forward ending. Saern made it to the brazier. The packet is mostly ash. Kethren has the second page. Haskur is two streets away in a courier wagon. The party stands in the cistern with iron-grate water at their boots and the smell of burned paper in the air.</p><p>The campaign continues anyway.</p><h2>What survives</h2><p>Even with the worst tactical loss, at least one of the following is recovered:</p><ul><li>A scorched fragment of the Itinerary with <em>&ldquo;no sail, no road&rdquo;</em> still legible.</li><li>The route mark on the cistern wall (no one had time to scrape it off).</li><li>One wax flake on the platform tiles or in the alley.</li><li>Iren's later reading, if the party brings her any of the above.</li></ul><h2>Phase 7 begins with</h2><ul><li>Weaker evidence in the party's hands.</li><li>Stronger enemy preparation &mdash; Korre has fled the city, Kethren has been instructed to avoid Greyhawk for some months.</li><li>The Seventh Stair clue surviving via Iren's keystone reading and the route mark.</li><li>Haskur, somewhere, free.</li></ul><h2>The encouragement</h2><p>If your players reach Ending D, do not apologise. The investigation has produced four pieces of independent evidence (Vone, Iren, the route mark, the wax) and one named handler (Korre). That is more than enough to find the next door. Phase 7 starts with a quieter scene and an angrier party.</p>"
+      }
+    },
+    {
+      "_id": "BR2P6EnPgReadAloud",
+      "_key": "!journal.pages!BR2P6EndingsJrnl.BR2P6EnPgReadAloud",
+      "name": "Ending Read-Aloud — Route Neutral",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 500000,
+      "ownership": { "default": -1 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "text": {
+        "format": 1,
+        "content": "<h1>Ending Read-Aloud — Route Neutral</h1><p><em>Read aloud after the cistern, or after the party assembles the Seventh Stair clue from their other evidence. Use the appropriate framing word in the first line:</em> &ldquo;ash and water&rdquo; (Endings B, C, D) <em>or</em> &ldquo;water and the prisoner's breath&rdquo; (Ending A).</p><blockquote><p>You climb back out into Tinker's Way at the third bell after midnight. The street is empty. Above you, somewhere in the second row of windows, a baby is crying briefly and is comforted by a tired voice. Two streets over, a watchman's whistle answers a watchman's whistle.</p><p>Greyhawk continues. It does not look down.</p><p>You have ash on your hands &mdash; or wet paper, or a prisoner's slow breath, or all three. You have a phrase you have read three times this week and one you have just read for the first time.</p><p><em>No sail. No road.</em></p><p>You have a sketch of seven steps cut under a black hill, and a manuscript dealer in the Garden Quarter who has stopped blinking when she reads.</p><p>Whatever the next door is, it is not political and it is not mercantile. You will not find it in a port chart. You will not find it by asking which Aerdy noble paid for what.</p><p>You will find it by looking down.</p></blockquote><h2>Caelith's final note</h2><p>The next morning, before the party has packed, a runner of indifferent age delivers an unsigned slip. The hand is unmistakable.</p><blockquote><p>The city was the desk. You have found the drawer.</p></blockquote>"
+      }
+    },
+    {
+      "_id": "BR2P6EnPgPhase7",
+      "_key": "!journal.pages!BR2P6EndingsJrnl.BR2P6EnPgPhase7",
+      "name": "Transition to Phase 7 — The Seventh Question",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 600000,
+      "ownership": { "default": -1 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "text": {
+        "format": 1,
+        "content": "<h1>Transition to Phase 7 — &ldquo;The Seventh Question&rdquo;</h1><p>Phase 7's working title is <strong>&ldquo;The Seventh Question&rdquo;</strong> &mdash; alternate working title <em>&ldquo;The Road That Was Not Sailed.&rdquo;</em></p><h2>Phase 7 purpose</h2><ol><li>Translate the Seventh Stair clue.</li><li>Combine Aldea, Iren, Caelith, and Greyhawk evidence into a single map.</li><li>Locate the surface approach to the deep route.</li><li>Prepare the party for the threshold in Phase 8.</li></ol><h2>Phase 7 hooks (deliver these to the players in the closing scene)</h2><ul><li><strong>Bring the Ashen Itinerary to Iren.</strong> A second reading, with the document in front of her, will produce a longer analysis &mdash; including a possible candidate region.</li><li><strong>Bring the route mark to Aldea.</strong> If she is alive and reachable, she will recognise the symbol from a fragment she has been holding for fifteen years.</li><li><strong>Ask Caelith about old descent routes.</strong> The Audit Hall has civic-mining records back to the founding of Loftwick. The relevant records are sealed; Caelith has the standing to request them, if Closure was held over or defeated.</li><li><strong>Search old mining glossaries for &ldquo;Seventh Stair.&rdquo;</strong> Iren has one. The University of Greyhawk has another, but inquiry there must be private.</li><li><strong>Follow Kethren's trail toward the Cairn Hills.</strong> If the party tracked the cistern's deeper drain, the next sealed grate is in the direction of the hills.</li><li><strong>Interrogate Haskur</strong> if captured. The campaign has reserved a small set of additional answers for him in Phase 7.</li><li><strong>Protect Kestrel &amp; Reed witness</strong> if Doras turned. Doras has additional records that can be retrieved with time.</li></ul><h2>What Phase 7 should not do</h2><ul><li>Reveal the full conspiracy.</li><li>Name Eclavdra.</li><li>Name House Eilserv.</li><li>Name the Vault.</li><li>Say <em>Underdark</em> in player-facing text. <strong>Phase 8 may; Phase 7 may not.</strong></li><li>Confirm that the &ldquo;E.&rdquo; writer is non-human.</li><li>Make Haskur the mastermind.</li><li>Make V. Korre the mastermind.</li><li>Make Greyhawk City itself corrupt or controlled.</li></ul><h2>Phase 8 forecast</h2><p>For the GM's planning only: Phase 8 is the surface threshold and upper descent. Phase 9 is the first true below-ground phase. <strong>Do not foreshadow these explicitly to players in Phase 6 or Phase 7.</strong> Let the table arrive at the threshold expecting a long surface investigation and finding instead that the surface investigation has been over for some time.</p>"
+      }
+    }
+  ],
+  "folder": null,
+  "sort": 700000,
+  "ownership": { "default": -1 },
+  "flags": { "blooming-rot-2": { "phase": 6 } },
+  "_stats": {
+    "compendiumSource": null, "duplicateSource": null, "exportSource": null,
+    "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0",
+    "createdTime": null, "modifiedTime": null, "lastModifiedBy": null
+  }
+}

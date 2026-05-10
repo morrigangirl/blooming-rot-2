@@ -1,0 +1,136 @@
+{
+  "_key": "!journal!BR2P6HandoutsJrnl",
+  "_id": "BR2P6HandoutsJrnl",
+  "name": "Phase 6 — Player Handouts",
+  "pages": [
+    {
+      "_id": "BR2P6HoPgRoadNotes",
+      "_key": "!journal.pages!BR2P6HandoutsJrnl.BR2P6HoPgRoadNotes",
+      "name": "Handout 1 — Caelith's Road Notes (4 variants)",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 100000,
+      "ownership": { "default": 1 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "text": {
+        "format": 1,
+        "content": "<h1>Handout 1 — Caelith's Road Notes</h1><p><em>Use the variant matching the party's Phase 5 vector. All four are clipped, careful, and never use full names unless necessary.</em></p><h2>Variant A &mdash; Greyhawk Direct</h2><blockquote><p>You will recognize the address by the sign. Watch from across the street. Note who arrives. Note what they wait for. Do not enter on the first day. Do not give names. The wood reply was correct. The boy is not a subordinate. There is a third hand we have not seen.</p><p>If you find the manuscript dealer, the seventh question of the third volume.</p><p>Do not write back unless you must.</p></blockquote><h2>Variant B &mdash; Wood Correspondent</h2><blockquote><p>What she said in writing was professional. What she will say in person, if you have asked the right narrow question, is not the answer but the next address.</p><p>The next address is in the city. Find the manuscript dealer. The seventh question of the third volume.</p><p>If the cottage is empty, the corner of paper in the hearth is for you. Do not give the corner to anyone there. It is for the city.</p></blockquote><h2>Variant C &mdash; Counter-Leak</h2><blockquote><p>The chain you traced ends in the city. The agency is on Hawkstone Way. Take the courier's deposition with you, or take the receipt, or take both. Do not present them publicly.</p><p>The archivist on the High Quay is the second name. Do not haggle. Do not give the archivist your real names.</p><p>If the courier escaped, the agency has been warned. Find another door.</p></blockquote><h2>Variant D &mdash; Rel Astra Continuation</h2><blockquote><p>The advocate's deposition you carry is enough to ask for the chit. Do not ask for it formally.</p><p>The archivist on the High Quay is the second name. Show him the chit; do not show him the deposition. Pay quietly. He will read it.</p><p>If you reach the manuscript dealer, the seventh question of the third volume.</p></blockquote><h2>GM Note</h2><p>Caelith does not sign. The hand is unmistakable to anyone who has read his Phase 1 letters. Each variant should be delivered by an indifferent runner who is gone before the seal is broken.</p>"
+      }
+    },
+    {
+      "_id": "BR2P6HoPgVerthStmt",
+      "_key": "!journal.pages!BR2P6HandoutsJrnl.BR2P6HoPgVerthStmt",
+      "name": "Handout 2 — Tellan Verth's Amended Statement",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 200000,
+      "ownership": { "default": 1 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "text": {
+        "format": 1,
+        "content": "<h1>Handout 2 — Tellan Verth's Amended Statement</h1><p><em>Plain paper. Verth's hand: square, blocky, deliberate. The statement is unsealed; he has not signed it. He gives it to the party at the Hand of Coals.</em></p><blockquote><p>I, Tellan Verth, retired sergeant of the Yeomanry militia, residing in Greyhawk City, Foreign Quarter, do further amend my account given to the Loftwick representative on the date below.</p><p>I saw, on the third bell after noon, on Tinker's Way two streets north of the main square, a man whose face I recognise from the Loftwick Audit Hall description as Haskur Vandrell. He was admitted to the counting-house called the Brass Crow. The desk clerk repeated the name <strong>H. V. Andren</strong> aloud as he was admitted.</p><p>There was a younger man in the building before he arrived. The younger man wore grey-and-bone clothing of a cut I have not seen before, in any quarter, in any city, in any year of my service.</p><p>The younger man's gait was wrong. He walked the broad street as if used to walking somewhere narrower. He kept correcting. He watched the door lintel before stepping through it. He watched the street's reflection in a glassed window across the way before he watched any of the people in it.</p><p>Vandrell, when he came out, listened. The younger man spoke. I did not follow.</p><p>I did not follow because of my knee. I have told myself this. I have stopped believing it.</p><p>I believe what I saw matters. I do not know who to bring it to. The party that brought this paper to me may.</p><p>Tellan Verth.</p></blockquote>"
+      }
+    },
+    {
+      "_id": "BR2P6HoPgRegistry",
+      "_key": "!journal.pages!BR2P6HandoutsJrnl.BR2P6HoPgRegistry",
+      "name": "Handout 3 — Brass Crow Registry Page",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 300000,
+      "ownership": { "default": 1 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "text": {
+        "format": 1,
+        "content": "<h1>Handout 3 — Brass Crow Registry Page</h1><p><em>A single page from the Brass Crow's current week registry. Wenna Roost's careful clerk-hand, except for the side marks, which are the proprietor's. Several entries unrelated to the party's interest are present as red herrings; the relevant entry is given here in full.</em></p><h2>Recovered text (week of Sunsebb 12&ndash;18)</h2><pre style=\"font-family: 'Courier New', monospace; padding: 1em; background-color: #f7f1e3; border-left: 3px solid #8a7a5e;\">Day 1.   Maerl Hennon         | foreign trade letter, Aerdy seal     | 4 sp\nDay 1.   T. Velros &amp; Sons     | quarterly statement                  | 12 gp\nDay 1.   Iren Velash          | half-suel manuscript reading        | 0 gp (waived)\nDay 2.   Aerel M. (account)   | rent, third floor guest room       | (internal)\nDay 2.   H. V. Andren         | foreign correspondent acct, new    | 6 gp  | &#9001;\nDay 3.   Doras Kemmel         | weekly courtesy &mdash; nothing recvd  | 0 gp\nDay 3.   Maerl Hennon         | reply, sealed                      | 4 sp\nDay 4.   T. Velros &amp; Sons     | declaration adjustment              | 1 gp\nDay 5.   Aerel M. (account)   | rent, sundry                       | (internal)\nDay 5.   H. V. Andren         | packet rcvd, transferred K&amp;R       | 0 gp  | &#9001;</pre><p><em>Side marks (proprietor's hand): the symbol <strong>&#9001;</strong> beside Andren's two entries marks the foreign-correspondent channel &mdash; a single vertical stroke crossed at three-quarter height by a short horizontal. The same symbol appears beside no other client.</em></p><h2>What the page reveals</h2><ul><li>Andren opened a foreign-correspondent account on Day 2.</li><li>Andren received a packet on Day 5, which was transferred to K&amp;R (Kestrel &amp; Reed).</li><li>The side mark identifies Andren as a marked client &mdash; the lintel-check signal applies.</li><li>Iren Velash's reading was waived; she has a long-standing courtesy with the proprietor.</li><li>Doras Kemmel sends a weekly courtesy slip with no transaction. <em>This is a tell &mdash; legitimate clients do not file courtesy slips. Doras is reporting his presence to a Foreign Quarter network on standing order.</em></li></ul>"
+      }
+    },
+    {
+      "_id": "BR2P6HoPgVoneLedger",
+      "_key": "!journal.pages!BR2P6HandoutsJrnl.BR2P6HoPgVoneLedger",
+      "name": "Handout 4 — Vone's Irregular Courier Ledger Excerpt",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 400000,
+      "ownership": { "default": 1 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "text": {
+        "format": 1,
+        "content": "<h1>Handout 4 — Vone's Irregular Courier Ledger</h1><p><em>An excerpt from Vone's irregular ledger, hand-copied for the party. Vone's lettering is small and sloped. Three entries shown.</em></p><pre style=\"font-family: 'Courier New', monospace; padding: 1em; background-color: #f7f1e3; border-left: 3px solid #8a7a5e;\">[Patchett 28]    Korre  &rarr; V. Korre  &rarr;  K&mdash;\n                 monthly addr: Tannerway, 2 over bakery\n                 incoming K&amp;R, 3 packets / mo, std rate\n\n[Ready'reat 11]  K&mdash; rcvd packet H.V.A.\n                 div'd by hand, see K&amp;R counterpart\n                 (note: same hand redirect first time)\n\n[Sunsebb 14]     pending pickup OBT, 11th bell\n                 [Tinker's Way side, old bath]\n                 reverse confirm K&mdash; / sign:    K--/A\n                 IF clock past four THIS PICKUP IS CANCELLED.</pre><h2>What the excerpt reveals</h2><ul><li>Korre's hand has been altered three times in Vone's record &mdash; first written out, then abbreviated, then dashed.</li><li>K&amp;R is the surface intermediary; three packets per month is the standard cadence.</li><li>The H.V.A. packet was redirected by the same hand that has done previous redirects &mdash; this is Kethren or a Kethren-equivalent.</li><li>The eleventh-bell pickup at &ldquo;OBT&rdquo; (Old Bath, Tinker's) is the climactic transfer.</li><li>Vone's note that the pickup &ldquo;IF clock past four THIS PICKUP IS CANCELLED&rdquo; is his own private contingency &mdash; he tracks his own version of the trail clock to avoid being implicated in pickups that have gone wrong.</li></ul>"
+      }
+    },
+    {
+      "_id": "BR2P6HoPgIrenAnalysis",
+      "_key": "!journal.pages!BR2P6HandoutsJrnl.BR2P6HoPgIrenAnalysis",
+      "name": "Handout 5 — Iren Velash's Manuscript Analysis",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 500000,
+      "ownership": { "default": 1 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "text": {
+        "format": 1,
+        "content": "<h1>Handout 5 — Iren Velash's Manuscript Analysis</h1><p><em>One page, half-Suel commercial paper, Iren's small steady hand, no embellishment. The analysis is delivered the day after the party brings her materials.</em></p><blockquote><p>I have read what you brought.</p><p><strong>Korre's hand</strong> imitates Aerdy commercial-court shorthand. Imitates is the right word. The proportions are wrong: the long-stroke is too short by a quarter; the abbreviation for &ldquo;received&rdquo; is from a period twenty years before the rest of the hand. She copied her training. She did not earn it.</p><p>Korre's hand is <strong>not</strong> the &ldquo;E.&rdquo; hand. The &ldquo;E.&rdquo; hand has stronger proportions and is, in my reading, native to whatever script it imitates &mdash; though it imitates only inconsistently. I have no name for it. I have not read it before in twenty years of work.</p><p>The wax flake matches what your earlier correspondent in the wood found unfamiliar. The recipe-family is not Aerdy, not Suloise, not Yeomanry, not Free City. It is the third such I have read. The first was on a forgery from the Suloise hill country. The second I will not write of in this letter.</p><p>You asked about the phrase. <strong>The Seventh Stair</strong> appears in one obsolete glossary I keep in the back press. It is not a sea-route term. It is not a port term. It is a <em>descent</em> term &mdash; a route-mark for old workings that descend past use. The author of the glossary did not return from his.</p><p>I do not know what is below your Seventh Stair. I do know the route is older than this city. You will not find it on a port chart.</p><p>I will read whatever else you bring. I will not name what I have not read. Do not bring this analysis back to my shop. Read it and burn it.</p><p>Velash.</p></blockquote><h2>GM note</h2><p>Iren means &ldquo;burn it&rdquo; literally. The party should not return the analysis to her shop. If they do, the Heat Clock advances by 1 the next day; if not, the analysis is the cleanest single piece of evidence in their hands at this point in the phase.</p>"
+      }
+    },
+    {
+      "_id": "BR2P6HoPgKestrelSlip",
+      "_key": "!journal.pages!BR2P6HandoutsJrnl.BR2P6HoPgKestrelSlip",
+      "name": "Handout 6 — Kestrel & Reed Packet Slip",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 600000,
+      "ownership": { "default": 1 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "text": {
+        "format": 1,
+        "content": "<h1>Handout 6 — Kestrel & Reed Packet Slip</h1><p><em>A small slip of pale-green paper, the size of a hand. The slip is heat-reactive: held over a candle for ninety seconds, faint silver writing emerges between the visible lines. Both versions are reproduced below.</em></p><h2>Visible text</h2><pre style=\"font-family: 'Courier New', monospace; padding: 1em; background-color: #f7f1e3; border-left: 3px solid #8a7a5e;\">KESTREL &amp; REED, Foreign Letters\n  Hawkstone Way, Greyhawk City\n\nReceipt of correspondent packet, box 17.\nClient: V. Korre.\nDelivered by:  K&mdash; (signature: a single vertical line)\nDate of receipt: Sunsebb 14, current year.\nPacket weight: light.\n\nThis slip is non-negotiable.</pre><h2>Heat-revealed text (visible only when warmed)</h2><pre style=\"font-family: 'Courier New', monospace; padding: 1em; background-color: #fff8e0; border-left: 3px solid #c9a14a; color: #8a6800;\">11th bell, rain door.\nSecond page not burned.\nNo sail. No road.</pre><h2>What the slip reveals</h2><ul><li>The packet was delivered by Kethren (the &ldquo;K&mdash;&rdquo; signature is his).</li><li>The pickup is at the eleventh bell, through the rain door (cellar service entrance).</li><li>The phrase <strong>&ldquo;second page not burned&rdquo;</strong> is a courier instruction &mdash; the second page of the Ashen Itinerary is intended to travel with Kethren, not to be destroyed.</li><li>The phrase <strong>&ldquo;No sail. No road.&rdquo;</strong> is a route classification.</li></ul><blockquote><p><strong>GM note for the table:</strong> if the players don't think to heat the slip, an NPC (Iren is best, Doras second-best) will recognise the paper as heat-reactive and prompt them. Do not let the slip be useless.</p></blockquote>"
+      }
+    },
+    {
+      "_id": "BR2P6HoPgAshen",
+      "_key": "!journal.pages!BR2P6HandoutsJrnl.BR2P6HoPgAshen",
+      "name": "Handout 7 — The Ashen Itinerary",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 700000,
+      "ownership": { "default": 1 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "text": {
+        "format": 1,
+        "content": "<h1>Handout 7 — The Ashen Itinerary</h1><p><em>The phase's key handout. A folded sheet of unfamiliar paper &mdash; pale, heavier than ordinary writing paper, faintly silvered at the edges. Recovered from the cistern brazier in one of three states: intact, partially burned, or scorched and fragmentary. The text is in the same hand as the &ldquo;E.&rdquo; marginalia from earlier phases. The wax that closed it is the unknown recipe-family.</em></p><h2>Intact text (best case &mdash; party prevented burning)</h2><blockquote><p>To the bearer of the second page.</p><p>H. V. Andren transfer completed. The Korre channel is to close within three nights. Foreign paper to be destroyed in place. The bearer is to carry the second page.</p><p><strong>No sail. No road.</strong></p><p><strong>VII Stair.</strong></p><p>Andren walks. He does not ride. He does not embark. He does not pass any clerk's question.</p><p>Should Andren refuse, he is not to be brought.</p><p>Should Andren be taken, the second page is not to be returned to the writing.</p><p>Blooming was proof. Rot was proof. Recovery was the question.</p><p>&mdash; the writer.</p></blockquote><p>At the bottom corner of the sheet, faintly drawn in charcoal: <em>seven steps cut under a black hill.</em></p><h2>Partially burned text (recovery from brazier mid-burn)</h2><blockquote><p>&hellip; bearer of the second page.</p><p>&hellip; transfer completed. The Korre channel &hellip; close within three nights. &hellip; destroyed in place. &hellip; carry the second page.</p><p><strong>No sail. No road.</strong></p><p><strong>VII Stair.</strong></p><p>&hellip; walks. &hellip; not ride. &hellip; not embark. &hellip; pass any clerk's question.</p><p>&hellip; refuse, &hellip; not to be brought.</p><p>&hellip; taken, the second page &hellip; not to be returned to the writing.</p><p>Blooming was proof. Rot was proof. Recovery was the question.</p></blockquote><p>The charcoal stair-mark survives the burning, ironically; it is in the corner that was folded under.</p><h2>Scorched fragmentary text (worst case &mdash; mostly burned)</h2><blockquote><p>&hellip; second page &hellip;</p><p><strong>No sail. No road.</strong></p><p><strong>VII Stair.</strong></p><p>&hellip; walks. &hellip; clerk's question.</p><p>Blooming was proof. Rot was proof. Recovery was the question.</p></blockquote><p>The stair mark is intact.</p><h2>What the Itinerary tells the party</h2><ul><li>Haskur (Andren) is being transferred along a route called <strong>VII Stair / Seventh Stair</strong>.</li><li>The route is not by ship and not by road. (<em>&ldquo;No sail. No road.&rdquo;</em>)</li><li>Andren will walk it.</li><li>The route is recorded by a written marker (the second page). The marker is to leave Greyhawk with the courier.</li><li>The conspiracy considers the Blooming Rot operation a finished test; the open question is <strong>&ldquo;recovery&rdquo;</strong> &mdash; that is, whether the operation can be re-run after exposure. <em>This is the line that should haunt your players.</em></li></ul><h2>What the Itinerary does not tell the party</h2><p>The word <em>Underdark</em>. Any name &mdash; Eclavdra, Eilserv, Vault. The route's destination. The deeper organisation. The species of the writer.</p>"
+      }
+    },
+    {
+      "_id": "BR2P6HoPgInterrog",
+      "_key": "!journal.pages!BR2P6HandoutsJrnl.BR2P6HoPgInterrog",
+      "name": "Handout 8 — Haskur Interrogation Fragment",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 800000,
+      "ownership": { "default": 1 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "text": {
+        "format": 1,
+        "content": "<h1>Handout 8 — Haskur Interrogation Fragment</h1><p><em>Used only if Haskur is captured. A short transcript, the party's interrogator's hand. Haskur does not monologue; his answers are short, pointed, and useful enough that the party should feel they earned them. Format the questions as the party interrogator's, the answers as Haskur's.</em></p><blockquote><p><strong>Q.</strong> Who paid for your contingency at the keep?</p><p><strong>A.</strong> You keep asking who paid. That was never the question.</p><p><strong>Q.</strong> The phrase &ldquo;clean hands drown first.&rdquo; What is it?</p><p><strong>A.</strong> A maxim. Not a code phrase. They told it to me as a courtesy.</p><p><strong>Q.</strong> Who is &ldquo;they&rdquo;?</p><p><strong>A.</strong> I do not know. I was collected, not rescued.</p><p><strong>Q.</strong> Korre. Who pays Korre?</p><p><strong>A.</strong> Korre moves paper. The boy moves doors. Whoever pays them is not in the city.</p><p><strong>Q.</strong> The Seventh Stair. What is it?</p><p><strong>A.</strong> A place I am supposed to go. A place I was not allowed to ask about. The Stair is not a place you find by looking down. It is a place you are <em>allowed</em> to reach.</p><p><strong>Q.</strong> Blooming Rot. What was it for?</p><p><strong>A.</strong> Blooming was proof. Rot was proof. Recovery was the question. Money is how surface men explain obedience. They wanted to know if the operation could be re-run after exposure. That was what the rot was for.</p><p><strong>Q.</strong> Were you the one who chose the &ldquo;E.&rdquo; marginalia?</p><p><strong>A.</strong> I was given them. I did not write them. I do not know who did.</p><p><strong>Q.</strong> Where is the boy taking the second page?</p><p><strong>A.</strong> I do not know. He told me only that I was the package and the page was the route. He told me he would not let me see the route written.</p><p><strong>Q.</strong> Will you give us the boy's name?</p><p><strong>A.</strong> He has many names. The one he uses with me is Kethren. I do not believe it is his.</p></blockquote><h2>GM note</h2><p>Haskur tells the truth here, by his own standards. He does not know &ldquo;E.&rdquo;'s identity. He does not know the destination. He has been giving correct answers to questions he has spent thirty years not asking. This handout is for the GM to print and hand to the player who runs the interrogation.</p>"
+      }
+    }
+  ],
+  "folder": null,
+  "sort": 600000,
+  "ownership": { "default": -1 },
+  "flags": { "blooming-rot-2": { "phase": 6 } },
+  "_stats": {
+    "compendiumSource": null, "duplicateSource": null, "exportSource": null,
+    "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0",
+    "createdTime": null, "modifiedTime": null, "lastModifiedBy": null
+  }
+}

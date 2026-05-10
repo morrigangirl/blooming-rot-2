@@ -31,7 +31,8 @@ const ACTOR_PHASES = [
   "phase-3-actors",
   "phase-4-actors",
   "phase-5-actors",
-  "sandbox-actors"
+  "sandbox-actors",
+  "phase-6-actors"
 ];
 
 const APPLY = process.argv.includes("--apply");

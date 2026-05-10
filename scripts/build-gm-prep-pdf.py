@@ -73,6 +73,7 @@ PHASES = [
     {"n": 3, "title": "The Hardby Investigation", "color": "#3d5a4d"},
     {"n": 4, "title": "The Rel Astra Confrontation", "color": "#3d3d5a"},
     {"n": 5, "title": "The Small Matter", "color": "#5a3d5a"},
+    {"n": 6, "title": "The Brass Crow", "color": "#3d3d3d"},
 ]
 
 PALETTE = {
@@ -558,6 +559,22 @@ FLOW = {
         "edges": [
             ("arr","brief"), ("brief","npcs"), ("npcs","leak"),
             ("leak","decide"), ("decide","leads"),
+        ],
+    },
+    6: {
+        "title": "Phase 6 Flow — The Brass Crow (Greyhawk City)",
+        "nodes": [
+            ("arr", "Arrival in\nGreyhawk City", "scene"),
+            ("verth", "Tellan Verth\n(witness)", "scene"),
+            ("nodes", "Three primary nodes:\nBrass Crow, Iren, Vone", "scene"),
+            ("kr", "Kestrel & Reed\n+ Korre's address", "scene"),
+            ("decide", "Subtle approach\nor force?", "decision"),
+            ("cistern", "Old Stonecistern:\neleventh bell", "scene"),
+            ("vec", "Branching opening\nfrom Phase 5", "side"),
+        ],
+        "edges": [
+            ("arr","verth"), ("verth","nodes"), ("nodes","kr"),
+            ("kr","decide"), ("decide","cistern"), ("arr","vec"),
         ],
     },
 }

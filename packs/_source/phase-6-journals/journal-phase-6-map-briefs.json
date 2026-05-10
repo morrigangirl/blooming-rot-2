@@ -1,0 +1,106 @@
+{
+  "_key": "!journal!BR2P6MapsJrnl",
+  "_id": "BR2P6MapsJrnl",
+  "name": "Phase 6 — Map Briefs",
+  "pages": [
+    {
+      "_id": "BR2P6MpPgIntro",
+      "_key": "!journal.pages!BR2P6MapsJrnl.BR2P6MpPgIntro",
+      "name": "Map Briefs — Introduction",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 50000,
+      "ownership": { "default": -1 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "text": {
+        "format": 1,
+        "content": "<h1>Map Briefs — Introduction</h1><p>Six locations in Phase 6 warrant a map brief: <strong>Brass Crow, Velash Manuscripts, Vone's archive, Kestrel &amp; Reed, V. Korre's monthly address, the Old Stonecistern.</strong> The cistern has its own page in <em>Phase 6 &mdash; The Old Stonecistern</em>; the other five are in this document.</p><p>Each brief includes:</p><ul><li><strong>Mood</strong> &mdash; the sensory anchor.</li><li><strong>Footprint</strong> &mdash; rough size and shape.</li><li><strong>Entrances and exits</strong> &mdash; with locks and risk levels.</li><li><strong>Notable rooms</strong> &mdash; what is in them.</li><li><strong>Where clues are.</strong></li><li><strong>Where guards or staff are.</strong></li><li><strong>Where an NPC flees</strong> &mdash; the path Korre or a clerk takes if pressed.</li><li><strong>What makes the space playable</strong> &mdash; the tactical or social hook.</li></ul><p>No grid. No image. These are briefs for future battlemap or VTT scene generation.</p>"
+      }
+    },
+    {
+      "_id": "BR2P6MpPgBrassCrow",
+      "_key": "!journal.pages!BR2P6MapsJrnl.BR2P6MpPgBrassCrow",
+      "name": "Map Brief — The Brass Crow Counting-House",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 100000,
+      "ownership": { "default": -1 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "text": {
+        "format": 1,
+        "content": "<h1>Map Brief — The Brass Crow Counting-House</h1><h2>Mood</h2><p>Aerdy-restrained: dark wood, brass, a smell of beeswax polish over older smells of paper and ink. The brass crow above the lintel is the only ostentation. Inside, everything is meant to imply that money is being treated with respect.</p><h2>Footprint</h2><p>Three storeys, narrow frontage on Tinker's Way, deeper than wide. About 24 ft frontage by 50 ft depth on each level, plus the cellar service drain.</p><h2>Entrances and exits</h2><ul><li><strong>Main door</strong>: brass-bound, on Tinker's Way. Locked overnight (DC 16). Open during business hours.</li><li><strong>Back alley door</strong>: from the rear of the ground floor, into the alley. Locked from inside (DC 14 from outside; the lock is good but not exceptional).</li><li><strong>Cellar service drain</strong>: a low iron door in the cellar wall, leading to the Old Stonecistern's drainage. Used by Tassel and Kethren. Locked (DC 17). The party can find it if they are looking, especially after the cistern.</li><li><strong>Roofline</strong>: the slate roof connects to the cobbler's next door. From the cobbler's, the third-floor guest window is a 6-ft jump (DC 13 Acrobatics).</li></ul><h2>Notable rooms (ground floor)</h2><ol><li>Front ledger hall &mdash; trestle tables, registry shelf, Wenna's desk.</li><li>Waiting benches &mdash; against the side wall.</li><li>Outer desk (Wenna's station) &mdash; ledger work happens here.</li><li>Registry shelf &mdash; locked low cabinet (DC 14). <strong>Andren's entry</strong> is here.</li><li>Private consultation room &mdash; Korre's preferred meeting space. Empty unless Korre is in the building.</li><li>Strong drawer (in proprietor's office) &mdash; locked (DC 17). <strong>Marked-client list and the &ldquo;second page not burned&rdquo; slip are here.</strong></li><li>Rear counting office (Aerel's) &mdash; door connects to the consultation room.</li></ol><h2>Notable rooms (upper floors)</h2><ol><li>Second floor: clerk dormitory, store-rooms.</li><li>Third floor: <strong>guest room currently rented to H. V. Andren</strong>. Modest furnishings; Haskur's old Aerdy travel coat is in the wardrobe with one Phase 7 hook sewn into the lining (a Hardby notary's name).</li></ol><h2>Where staff are</h2><ul><li><strong>Wenna Roost</strong> &mdash; outer desk during business hours; second floor at night.</li><li><strong>Aerel Mossen</strong> &mdash; rear counting office during business hours; lives off-site.</li><li><strong>Tassel</strong> &mdash; on circuit; in the building only between runs.</li><li><strong>Two junior clerks</strong> &mdash; outer desk and rear counting office.</li></ul><h2>Where Korre flees</h2><p>If Korre is in the consultation room and the party arrives, she leaves through Aerel's office, down the rear stair, out the back alley door, and through the cellar service drain to the cistern. She does not use the main door.</p><h2>What makes the space playable</h2><p>The Brass Crow has <strong>three plausible entries</strong> (front, back alley, roof) and <strong>two layers of access</strong> (public ground floor, private upper floors). A party that goes in social through the front, surveils from the cobbler's roof for the upper floors, and posts a watcher at the alley door covers the entire counting-house at once. <strong>Reward this kind of planning.</strong></p>"
+      }
+    },
+    {
+      "_id": "BR2P6MpPgVelash",
+      "_key": "!journal.pages!BR2P6MapsJrnl.BR2P6MpPgVelash",
+      "name": "Map Brief — Velash Manuscripts & Bindings",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 200000,
+      "ownership": { "default": -1 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "text": {
+        "format": 1,
+        "content": "<h1>Map Brief — Velash Manuscripts & Bindings</h1><h2>Mood</h2><p>Quiet, paper-smelling, cool in summer and warm in winter. Old building, older books, a small black-iron stove for warmth. The shutters are usually half-closed; the light is amber and even.</p><h2>Footprint</h2><p>Two storeys plus a small loft. Narrow frontage on a Garden Quarter side-street; about 18 ft wide by 35 ft deep on the ground floor. The upstairs is Iren's living quarters and is smaller.</p><h2>Entrances and exits</h2><ul><li><strong>Front door</strong>: half-glassed, with a brass handle worn smooth. Locked at night (DC 14).</li><li><strong>Rear stair</strong>: from the upstairs living room down to the alley. Locked from inside (DC 12 from inside, the lock faces inward). Iren's escape route in case of fire or unwelcome visitors.</li><li><strong>No roofline access</strong> &mdash; the building is taller than its neighbours by half a storey.</li></ul><h2>Notable rooms</h2><ol><li>Front shelf room &mdash; three walls of low shelves, the long reading table, Iren's reading lamp.</li><li>Reading table &mdash; single chair, brass lamp, small inkwell. Iren works here.</li><li>Binding bench &mdash; back left, threads, awls, hand-press, paste-jars.</li><li>Locked paper press &mdash; against the back wall, behind the binding bench. <strong>Holds the obsolete mining-route glossary.</strong> Lock DC 16. Inside: the glossary, two folio-format Suel manuscripts of considerable age, and a small cedar box of seal-wax samples.</li><li>Stair to upstairs &mdash; behind a curtain at the back left.</li><li>Upstairs living room &mdash; off limits to clients. Small kitchen, two more bookshelves, a window onto the garden.</li><li>Loft &mdash; reached by ladder from the living room. Iren stores oversize items here.</li></ol><h2>Where Iren is</h2><p>Reading table from the second bell of morning to the first bell of evening, except for two hours at midday. Upstairs after the first bell of evening. Iren does not leave the shop for more than two hours in a typical day.</p><h2>Where Iren flees</h2><p>If unwelcome visitors arrive (forced entry, hostile pressure), Iren retreats up the back stair, locks the upstairs door from her side, and exits through the rear stair to the alley. She does not stay to argue.</p><h2>What makes the space playable</h2><p>Velash Manuscripts is the only Phase 6 location that is genuinely <strong>safe</strong> for the party. Iren is honest, the door locks, and the conspiracy has no standing inquiry against her. The space's role is to be the place where evidence is read and read carefully &mdash; the only social location that rewards <em>bringing more</em>. Treat this as the party's quiet room.</p>"
+      }
+    },
+    {
+      "_id": "BR2P6MpPgVone",
+      "_key": "!journal.pages!BR2P6MapsJrnl.BR2P6MpPgVone",
+      "name": "Map Brief — Vone's Private Courier Archive",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 300000,
+      "ownership": { "default": -1 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "text": {
+        "format": 1,
+        "content": "<h1>Map Brief — Vone's Private Courier Archive</h1><h2>Mood</h2><p>Dry, papery, dim. The High Quay is loud; Vone's archive is quiet behind a heavy oak door. Smell of old paste and pen-iron, with a faint top-note of customs-house tobacco.</p><h2>Footprint</h2><p>Vone occupies the second floor of a narrow four-storey building near the customs house. About 30 ft by 40 ft on his floor. A staircase from the street, a side door from the alley.</p><h2>Entrances and exits</h2><ul><li><strong>Main entry</strong>: the staircase from the street, up to a small landing, into the reception room. Locked at night (DC 15).</li><li><strong>Side service door</strong>: at the back of the second floor, opening to a narrow alley that runs to the customs house. Locked (DC 13 from outside; DC 11 from inside). Vone's escape route.</li><li><strong>Window egress</strong>: not easy &mdash; the second floor is 18 ft above the street. Possible with rope.</li></ul><h2>Notable rooms</h2><ol><li>Reception &mdash; one desk, one client chair, a panelled door to the archive. Vone meets clients here. <strong>The pen always laid perpendicular to the paper.</strong></li><li>Regular ledger archive (two rooms) &mdash; cabinet shelves alphabetised by client. Eight years of declared courier traffic.</li><li>Irregular ledger archive (one small room) &mdash; behind a hidden door (DC 16 to find without a guide). Off-book deliveries.</li><li>Vone's office &mdash; reading lamp, locked cashbox (DC 16), small kettle.</li><li>Side service door &mdash; in the back corridor, behind the office.</li></ol><h2>Where Vone is</h2><p>Vone is in his office during business hours (third bell of morning to first bell of evening). He does not leave the building during business. He lives in a rented house in the Garden Quarter; he walks home alone, taking different routes.</p><h2>Where Vone flees</h2><p>If pressed in his office, Vone goes through the back corridor, out the side service door, and into the alley. He has rehearsed this. He keeps a small sealed packet at his side desk &mdash; a compromised customs colleague's name and a partial financial trail, to be left on the desk if he flees, in case the visitors are the kind who would otherwise wreck his archive.</p><h2>What makes the space playable</h2><p>Vone's archive is <strong>the most negotiable space</strong> in Phase 6. The party walks in, sets a price, walks out, and comes back when they have it. The space rewards <em>preparation</em> &mdash; coming with the right leverage, the right lie, or the right Yeomanry-papers-not-shown. The space punishes <em>haggling</em>: Vone's prices are firm in any single conversation.</p>"
+      }
+    },
+    {
+      "_id": "BR2P6MpPgKestrel",
+      "_key": "!journal.pages!BR2P6MapsJrnl.BR2P6MpPgKestrel",
+      "name": "Map Brief — Kestrel & Reed, Foreign Letters",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 400000,
+      "ownership": { "default": -1 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "text": {
+        "format": 1,
+        "content": "<h1>Map Brief — Kestrel & Reed, Foreign Letters</h1><h2>Mood</h2><p>Brisk, professional, slightly anxious. A letter agency on Hawkstone Way: clerks at sorting tables, ink in the air, a flat tar smell from the cart court behind the building. Doras keeps the front desk tidy because he knows what disorder would draw.</p><h2>Footprint</h2><p>Two storeys plus a flat tar-paper roof. About 30 ft frontage by 35 ft depth, with a small enclosed yard at the rear (the cart court).</p><h2>Entrances and exits</h2><ul><li><strong>Front door</strong>: half-glassed, business hours only. Locked overnight (DC 14).</li><li><strong>Cart-court gate</strong>: at the rear, opens to a narrow alley. Locked (DC 14). Used by incoming and outgoing courier carts.</li><li><strong>Cart-court back door</strong>: from the cart court into the sorting room. Locked (DC 15).</li><li><strong>Roofline access</strong>: a flat roof connecting two adjacent buildings; a ceiling hatch (DC 13) leads into the upstairs rented room.</li></ul><h2>Notable rooms (ground floor)</h2><ol><li>Front letter counter &mdash; the public-facing room. Doras and two clerks during business hours.</li><li>Sorting room &mdash; behind the counter, separated by a half-door. Three sorting tables.</li><li>Cipher desk &mdash; a small alcove off the sorting room. One trustworthy junior clerk.</li><li>Lockbox wall &mdash; twenty numbered iron boxes set into the wall behind the cipher desk. <strong>Box 17 is V. Korre's.</strong> Each box DC 17 to pick. The wall has a small bell that rings if a box is touched without the desk clerk's knowledge.</li><li>Rear cart court &mdash; the enclosed yard.</li></ol><h2>Notable rooms (upper floor)</h2><ol><li>Upstairs rented room &mdash; the owner's Greyhawk pied-&agrave;-terre, currently empty.</li><li>Storage &mdash; old declarations and dead client files, kept by regulation.</li></ol><h2>Where staff are</h2><ul><li><strong>Doras Kemmel</strong> &mdash; front counter during business; lives in the Garden Quarter. He is at the office every day until the second bell of evening.</li><li><strong>Two junior clerks</strong> &mdash; sorting tables; one at the cipher desk on rotation.</li></ul><h2>Where Doras flees</h2><p>If the office is invaded, Doras's first impulse is to close the lockbox-wall bell-cover (which silences it without ringing) and then to leave through the cart-court back door, around the alley, and home. <strong>He does not warn the conspiracy.</strong> Doras has never warned anyone. He has only ever kept his head down.</p><h2>What makes the space playable</h2><p>Kestrel &amp; Reed is the <strong>turn-or-burn space</strong>. It can be approached as bribery, as forgery, as legal procedure, as burglary, or as a witness-protection negotiation. Each works. Each costs something different. The lockbox wall is the central artefact &mdash; <em>the room is built around the wall</em>, and the wall determines what the party can and cannot recover.</p>"
+      }
+    },
+    {
+      "_id": "BR2P6MpPgKorreApt",
+      "_key": "!journal.pages!BR2P6MapsJrnl.BR2P6MpPgKorreApt",
+      "name": "Map Brief — V. Korre's Monthly Address",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 500000,
+      "ownership": { "default": -1 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "text": {
+        "format": 1,
+        "content": "<h1>Map Brief — V. Korre's Monthly Address</h1><h2>Mood</h2><p>Cheap and recent. The room above the bakery has been here for a hundred years; Korre has been here three weeks. Smells of yeast from below, candle-wax, paper, and the faint metallic note of someone who has been carrying iron-bound packets every day. Furniture is rented and unmatched.</p><h2>Footprint</h2><p>Two rooms plus a hall and a small privy, on the second floor over the Tannerway bakery. About 16 ft by 20 ft total. Side stair from the alley; no street access independent of the bakery.</p><h2>Entrances and exits</h2><ul><li><strong>Side stair from alley</strong>: the only way in. Wooden, exterior, runs up the side wall of the bakery. Door at top locked (DC 14).</li><li><strong>Bakery side door (interior)</strong>: at the bottom of the side stair, a connecting door into the bakery's back room. The bakery owner does not know this door is unlocked from Korre's side; she has paid him to forget.</li><li><strong>Roofline</strong>: across the bakery's chimney to the next building, three buildings to the cistern's hidden entrance. Korre uses this in the worst case.</li><li><strong>Service drain</strong>: a small hatch in the privy floor opens to a 14-inch drain that runs under the apartment block. Dirty and dangerous; only used in extremity.</li></ul><h2>Notable rooms</h2><ol><li>Outer room &mdash; small parlour, a desk, a brazier, two chairs. <strong>The desk is where the route notation, the wax flake, and the second sealed packet are.</strong> The brazier is small; suitable for burning a sheet at a time.</li><li>Inner room &mdash; sleeping room, plain bed, a small chest, a window onto the alley.</li><li>Privy &mdash; small, with the floor hatch to the drain.</li><li>Hall &mdash; corridor between the rooms.</li></ol><h2>Where Korre is</h2><p>State A (Trail Clock 0&ndash;2): present and packing in the outer room. Two agents in the hall.</p><p>State B (Trail Clock 3&ndash;4): absent but recently there. One agent on the stair.</p><p>State C (Trail Clock 5): bait. Korre is on the roof; two agents in the inner room; one in the bakery side room.</p><h2>Where Korre flees</h2><p>State A: bakery side door, then through the bakery's customer door onto Tannerway.</p><p>State B (already gone): Korre is two streets ahead of the party.</p><p>State C: roofline to the cistern's hidden entrance.</p><h2>What makes the space playable</h2><p>The Korre apartment is the <strong>most state-dependent space</strong> in Phase 6. It is best when the party arrives with the Trail Clock low, worst when they arrive late. Reward the party for getting here early.</p>"
+      }
+    }
+  ],
+  "folder": null,
+  "sort": 800000,
+  "ownership": { "default": -1 },
+  "flags": { "blooming-rot-2": { "phase": 6 } },
+  "_stats": {
+    "compendiumSource": null, "duplicateSource": null, "exportSource": null,
+    "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0",
+    "createdTime": null, "modifiedTime": null, "lastModifiedBy": null
+  }
+}

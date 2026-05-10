@@ -1,0 +1,132 @@
+{
+  "_key": "!journal!BR2ReliefJrnl",
+  "_id": "BR2ReliefJrnl",
+  "name": "Relief Scenes — Tonal Counterweight",
+  "pages": [
+    {
+      "_id": "BR2RsPgIntro",
+      "_key": "!journal.pages!BR2ReliefJrnl.BR2RsPgIntro",
+      "name": "How to Use Relief Scenes",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 50000,
+      "ownership": { "default": -1 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "text": {
+        "format": 1,
+        "content": "<h1>Relief Scenes — Tonal Counterweight</h1><p>The campaign is relentlessly administrative dread. Without breath, the table goes numb. <strong>These short scenes are the breath.</strong> Each is a moment where the world is also beautiful, or warm, or quietly funny &mdash; not in spite of the conspiracy but in parallel to it. The conspiracy is what is happening; <em>the rest of the world is also still happening.</em></p><h2>How to use them</h2><ul><li><strong>One per phase.</strong> Not two. The contrast works when relief is rare.</li><li><strong>Drop them after a hard scene.</strong> Best landing spots: after the Phase 4 Sereth confrontation, after the Phase 5 leak operation, after the Phase 6 cistern climax.</li><li><strong>Don't add stakes.</strong> Relief scenes are not setups for ambushes. They are not chances for the conspiracy to strike. They are <em>relief</em>. Resist the impulse to put a knife in them.</li><li><strong>Let the players play their characters.</strong> A relief scene is for character beats. Cam picking out a song. Selvara reading aloud. Elle's morning prayer. Kitty's tail flicking under the table when Mother Felun says something true.</li></ul><h2>The relief scenes</h2><ol><li>The Refectory After the Strong Room (Phase 1)</li><li>The Festival of Lamps (Phase 2 &mdash; expanded)</li><li>Castrian Vell's Salon at Dusk (Phase 3)</li><li>The Whitemoor Garden Wall (Phase 4)</li><li>Trina's Letter (Phase 5)</li><li>Iren Puts the Kettle On (Phase 7)</li><li>The Camp Above the Cairn (Phase 7 closing)</li></ol>"
+      }
+    },
+    {
+      "_id": "BR2RsPgRefectory",
+      "_key": "!journal.pages!BR2ReliefJrnl.BR2RsPgRefectory",
+      "name": "Relief 1 — The Refectory After the Strong Room (Phase 1)",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 100000,
+      "ownership": { "default": -1 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "text": {
+        "format": 1,
+        "content": "<h1>Relief 1 — The Refectory After the Strong Room</h1><p><strong>Where:</strong> the Little Palace refectory, the evening after Caelith opens the Strong Room. <strong>When:</strong> Phase 1, after the heaviest information delivery.</p><h2>Read aloud</h2><blockquote><p>The dining-hall has been laid for a quieter meal than the one that greeted you. There are no civic dignitaries; there is no welcome ceremony. There are six places at the long table, lit by three lamps, and a kettle on a small iron stand at one end. The food is plain &mdash; a barley stew with mutton and leeks, dark bread, a wheel of yellow cheese, an apple each, a jug of small beer, and a small pot of honey.</p><p>Brennan Kepf carries the stew in himself. He says quietly, <em>&ldquo;You will need a meal you don't have to think about. I will not ask you anything. Eat.&rdquo;</em></p><p>He pours the small beer and goes back to the kitchen. The lamps are warm. The wind outside is loud against the shutters and not quite getting in.</p></blockquote><h2>What this is</h2><p>The first meal after the Strong Room is heavy. The party has just learned what the case is. Brennan understands &mdash; without being told &mdash; that they need food they don't have to consider. <strong>This is the campaign's first sign that the surface world is not only the case.</strong></p><h2>What might happen</h2><ul><li>One PC tells a story. Cam pickpocketed an apple at age eight and felt so bad about it he gave it back. Gianni's first deer.</li><li>Two PCs argue softly over who gets the second helping. The third PC settles it by giving them both their portion.</li><li>One PC says nothing the entire meal. That's fine.</li><li>Brennan returns at the end with a small dish of honeycomb. He sets it down and goes back to the kitchen without speaking.</li></ul><p><strong>Do not have anything happen.</strong> No courier, no urgent message, no knock at the door. The party gets the meal.</p>"
+      }
+    },
+    {
+      "_id": "BR2RsPgFestLamps",
+      "_key": "!journal.pages!BR2ReliefJrnl.BR2RsPgFestLamps",
+      "name": "Relief 2 — The Festival of Lamps Expanded (Phase 2)",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 200000,
+      "ownership": { "default": -1 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "text": {
+        "format": 1,
+        "content": "<h1>Relief 2 — The Festival of Lamps (Expanded)</h1><p><strong>Where:</strong> Greyhawk City, the Aerdy commercial district. <strong>When:</strong> Phase 2, the Veshen Cindren reception. The Festival of Lamps is a real Aerdy commercial-district observance &mdash; an annual evening where merchant houses hang paper lanterns from every doorway and serve a public buffet to passers-by.</p><h2>Read aloud (use this for the half-hour before the Veshen Cindren reception begins)</h2><blockquote><p>The Aerdy commercial district at dusk on the night of the Festival of Lamps is what the Aerdy commercial district wishes it were every night.</p><p>Paper lanterns hang at every doorway: green and gold and dark red, on cords looped from balcony to balcony. The cobbles are wet with rain that ended an hour ago; the lantern-light pools on them and the wet stones reflect twice the lanterns that are there. The smell is roasted nuts, hot cinnamon wine, and the faint river-tar of the Selintan four streets away.</p><p>The merchant houses have put long tables of food along the public way. Anyone who walks past may take. The food is good: small spiced sausages, candied figs, fresh white cheese, hot bread.</p><p>An Aerdy musician has set up on a side step with a portable hammered dulcimer and is playing something old and merry. A halfling child is dancing on the wet cobbles in front of him, her family laughing behind her.</p><p>Veshen Cindren's house is at the end of the street. The lanterns at his doorway are the same as everyone else's. <em>For this hour, the city is as it always claims to be.</em></p></blockquote><h2>What might happen</h2><ul><li>One PC eats too much and is happy about it.</li><li>One PC dances with the halfling child for a minute. The child's family insists they take a small honey-cake home.</li><li>The musician finishes a tune and another musician &mdash; a half-Suel woman with a small reed pipe &mdash; takes the next round.</li><li>Cam, if present, is openly delighted by the lanterns.</li><li>Kitty's tail flicks under the lantern-light and a passing toddler points at it without fear.</li></ul><p><strong>Resist the impulse to use the festival as a setup for an antagonist's entrance.</strong> The reception with Veshen Cindren is the next scene. The festival is the breath before.</p>"
+      }
+    },
+    {
+      "_id": "BR2RsPgSalonDusk",
+      "_key": "!journal.pages!BR2ReliefJrnl.BR2RsPgSalonDusk",
+      "name": "Relief 3 — Castrian Vell's Salon at Dusk (Phase 3)",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 300000,
+      "ownership": { "default": -1 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "text": {
+        "format": 1,
+        "content": "<h1>Relief 3 — Castrian Vell's Salon at Dusk</h1><p><strong>Where:</strong> Hardby, Castrian Vell's modest front salon. <strong>When:</strong> Phase 3, an evening between investigative scenes.</p><h2>Context</h2><p>Castrian Vell is a Hardby poet of minor reputation and one of the Phase 3 NPCs. He is non-combatant, melancholy, and hospitable. He hosts a small salon two evenings a week. The party can attend as guests of any Hardby NPC who likes them (Mira Cindren, Hesren Vesh, Sarro Pell). The salon is small: six to ten people, a few poets, a sculptor or two, a junior advocate looking to be cultured.</p><h2>Read aloud</h2><blockquote><p>Castrian Vell's salon is a small front room above his late mother's tailor shop. The room has been arranged for company: low chairs, two lamps, a small fire, a side table with wine that is better than it has any right to be, and a plate of pickled walnuts that has been on the table for as long as anyone can remember.</p><p>Six people are already there when you arrive. A young poet you don't know is reading something quietly to two listeners. A sculptor is sketching the back of someone's hand. A junior advocate &mdash; Hardby-born, ambitious, kind &mdash; is arguing with Castrian about whether the second of Vell's published poems is worth keeping.</p><p>Castrian himself is sitting on a low stool near the fire, a glass in his hand, half-listening, half-looking out the window at the rain.</p><p>When you enter, he stands. <em>&ldquo;I had hoped you might come tonight. Sit. There is wine. No one is going to ask you anything important until you have had a glass.&rdquo;</em></p></blockquote><h2>What might happen</h2><ul><li>The young poet asks if anyone has a poem they like. One PC offers one &mdash; their own or remembered. The poet is appreciative.</li><li>The sculptor asks to sketch a PC's hand. The PC says yes. The sculptor gives them the sketch when they leave.</li><li>Castrian reads three lines of his own work, quietly, only because someone asked. He does not put on airs.</li><li>The junior advocate &mdash; we'll call him <strong>Drovan Mell</strong>, twenty-six, no relation to the route-cleansers &mdash; speaks at length with Selvara or Alicia about Aerdy commercial-law reform. He is sincere. He is not a plot hook.</li></ul><p><strong>The salon ends when the rain stops.</strong> No one is poisoned. No information is exchanged. The party leaves with a sketch of a hand and a slightly better idea of how Hardby works when it isn't being investigated.</p>"
+      }
+    },
+    {
+      "_id": "BR2RsPgGardenWall",
+      "_key": "!journal.pages!BR2ReliefJrnl.BR2RsPgGardenWall",
+      "name": "Relief 4 — The Whitemoor Garden Wall (Phase 4)",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 400000,
+      "ownership": { "default": -1 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "text": {
+        "format": 1,
+        "content": "<h1>Relief 4 — The Whitemoor Garden Wall</h1><p><strong>Where:</strong> Rel Astra, the garden wall behind the Whitemoor Estate. <strong>When:</strong> Phase 4, after the Sereth confrontation.</p><h2>Context</h2><p>The Whitemoor Estate is one of the Phase 4 maps. It is currently between owners; the previous tenants left in 567 CY and the estate has been quietly empty since. The garden behind the main house is overgrown but intact. There is a stone wall along the southern edge with a low gate that opens onto a slow stream.</p><h2>Read aloud</h2><blockquote><p>The Sereth confrontation is over. You walked back through the grounds of the Whitemoor Estate to give yourselves a moment before going back into the city. The estate is empty; the gardens are overgrown; the rose canes have not been cut back this year. A pair of wood doves are courting in the cypress at the corner.</p><p>The garden wall along the south edge is warm in the late sunlight. Someone &mdash; a year ago, two years ago &mdash; has left a small ceramic cup on the wall. It is faded almost white from the sun. There is a bird's nest in it.</p><p>You can sit on the wall. The stone has been warm in the sun for hours. The stream beyond it is slow and clear.</p><p>You can stay here for as long as you like. No one is coming. The estate has been empty for two years. The doves are not afraid of you.</p></blockquote><h2>What might happen</h2><ul><li>The party sits in silence for a while. That is the scene.</li><li>One PC asks another a personal question they have been waiting to ask. The other PC answers.</li><li>Gianni notices the dove's nest in the cup and quietly takes a small piece of dried bread from her pack to leave on the wall. She does not say why.</li><li>Alicia tries to feel for her patron and gets, for the first time in weeks, a faint clear sense of <em>presence</em>. The pact-mark is warm. <em>The wax does not reach this far yet.</em></li></ul><p><strong>This scene is the rest before Phase 5.</strong> It will not be referenced again. It does not need to be.</p>"
+      }
+    },
+    {
+      "_id": "BR2RsPgTrinaLetter",
+      "_key": "!journal.pages!BR2ReliefJrnl.BR2RsPgTrinaLetter",
+      "name": "Relief 5 — Trina's Letter (Phase 5)",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 500000,
+      "ownership": { "default": -1 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "text": {
+        "format": 1,
+        "content": "<h1>Relief 5 — Trina's Letter</h1><p><strong>Where:</strong> the Little Palace, an afternoon during Phase 5 between the leak operation and the Council vote. <strong>When:</strong> mid-Phase 5.</p><h2>Context</h2><p>Trina Alvere has not appeared in person since Phase 2. She has been quietly watching the campaign's progress from a remove, through Aldea and through correspondence with two Greyhawk poets. She has decided to write the party a single letter.</p><p>The letter is brought by a Yeomanry courier mid-afternoon, in the middle of an ordinary working day at the Little Palace. The courier is unaccustomed to the kind of letter she carries.</p><h2>The letter (handout)</h2><blockquote><p><em>To the party in care of the Hand of the Duke &mdash;</em></p><p><em>I do not write often, and I will not write often again. Aldea has told me what you have done. I have a half-dozen pieces of unsolicited advice I am not going to give you, because by the time you receive this letter you have already done most of the things I would have advised against. That is not a complaint. I have not done well at avoiding the things I should have avoided.</em></p><p><em>I will give you only this: you have found out that the answer is not the man, and not the firm, and not the noble. The answer is the system. You are going to follow the system to where it goes. I cannot follow you there.</em></p><p><em>I will, however, do for you the small thing I can do. I have written to two old friends. They will know your faces if you come to them. They will not ask you why you have come. They will give you tea and a quiet room. Their names and addresses are folded inside this letter; eat them or burn them, as you like.</em></p><p><em>I would have liked to know you better. I hope you survive enough to come back for that. If you cannot, then I am writing now because I want you to know that you were known. That is the small thing I can offer.</em></p><p><em>Yours, and in a sense that is not the usual sense,</em></p><p><em>Trina Alvere</em></p></blockquote><p><strong>The folded inner slip:</strong> two names and two addresses, one in Greyhawk City, one in a hamlet east of Hardby. The party may use them in Phase 6/7 as quiet safe houses; they are real and kind and have no plot attached.</p><h2>What this is</h2><p>A relief scene in epistolary form. The party is being told, by someone who could not stay, that the work matters. That she has noticed. That she cannot follow them where they are going. That she wishes them well.</p><p><strong>Trina does not appear in person.</strong> She is the campaign's example of someone who survived the previous round of this conspiracy and chose not to descend. The letter is her marker. It is also her gift.</p><h2>Optional table beat</h2><p>After reading the letter, a single PC may write a reply. They will not be able to send it &mdash; Trina has not given a return address. <strong>The act of writing the reply is the scene.</strong> The PC writes it, folds it, and puts it in their pack. The campaign does not need to deliver it.</p>"
+      }
+    },
+    {
+      "_id": "BR2RsPgKettleOn",
+      "_key": "!journal.pages!BR2ReliefJrnl.BR2RsPgKettleOn",
+      "name": "Relief 6 — Iren Puts the Kettle On (Phase 7)",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 600000,
+      "ownership": { "default": -1 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "text": {
+        "format": 1,
+        "content": "<h1>Relief 6 — Iren Puts the Kettle On</h1><p><strong>Where:</strong> Velash Manuscripts &amp; Bindings, late afternoon. <strong>When:</strong> Phase 7, after Iren has delivered her glossary note and before the party leaves Greyhawk for the Cairn Hills.</p><h2>Read aloud</h2><blockquote><p>Iren has finished what she has to tell you for the day. She has cleared the reading table. She has put the Ashen Itinerary back under its silk band and weighted the corners. She has wiped the brass lamp's chimney with a small soft cloth.</p><p>You expect her to send you on. Instead, she goes to the back of the shop and lights the kettle.</p><p>&ldquo;An hour,&rdquo; she says. &ldquo;I am not working. You are not working. I have small Suel biscuits I have been saving for someone I wanted to share them with. I have decided that someone is whoever is here.&rdquo;</p><p>She brings out the tea things on a tray that does not match itself: three cups of different ages, a saucer with the biscuits, a small ceramic pot of honey from the Cairn Hills foothills.</p><p>For an hour, the manuscript dealer who has not blinked while reading for three weeks puts the work down and tells you, instead, about her mother's wedding tea, about the half-Suel woman she courted at twenty and lost track of at twenty-five, about the cat she used to have, about the way the Garden Quarter looked when she was a child.</p><p>The kettle is hot. The biscuits are good. Outside, the city goes about its business. Iren does not.</p></blockquote><h2>What might happen</h2><ul><li>Iren tells one small story. One PC tells one small story back.</li><li>Iren refills the kettle once. No one leaves until the second pot is finished.</li><li>The shop bell rings &mdash; a customer at the door. Iren says quietly, <em>&ldquo;Closed for the hour,&rdquo;</em> through the door, and the customer goes away.</li><li>When the party finally rises to leave, Iren stands up and says, <em>&ldquo;Bring me back what you find. If you cannot, I will still have had this hour with you. That is enough.&rdquo;</em></li></ul><p><strong>The hour is the scene.</strong> Nothing happens. That is the point.</p>"
+      }
+    },
+    {
+      "_id": "BR2RsPgCampCairn",
+      "_key": "!journal.pages!BR2ReliefJrnl.BR2RsPgCampCairn",
+      "name": "Relief 7 — The Camp Above the Cairn (Phase 7 closing)",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 700000,
+      "ownership": { "default": -1 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "text": {
+        "format": 1,
+        "content": "<h1>Relief 7 — The Camp Above the Cairn</h1><p><strong>Where:</strong> the party's camp upslope from the Seven-Cut Cairn. <strong>When:</strong> the night Phase 7 ends, after the discovery scene but before the closing read-aloud. <strong>This is the campaign's last relief scene before the descent.</strong></p><h2>Read aloud</h2><blockquote><p>Camp is small. There is no fire &mdash; the wind is too steady &mdash; but the night is clear, and the stars over the Cairn Hills are extraordinary. You have eaten what you brought. You have set a watch. The cairn is below you, dark against the dark grass, and the ruined tollhouse is dark beyond it.</p><p>It is the kind of night where small things become large. The wind on the grass is a long slow sound. There is a single owl somewhere in the lower folds of the hills. The constellations you can name are all in the wrong place; they are seven months further along the year than the last time you camped together properly.</p><p>You can do whatever you want with this hour. The stair is still there in the morning.</p></blockquote><h2>What might happen</h2><p>Use this scene to give each PC one beat. Some suggestions, but follow what your table wants:</p><ul><li><strong>Cam</strong> takes out Hesp Olfair's list and reads the thirty-one names aloud, quietly, one at a time, into the wind. The wind takes them. He folds the list and puts it back.</li><li><strong>Kitty</strong> sits with her back to the cairn and stares at the stars. She says, after a long while, <em>&ldquo;I think I have always known this place was here. I think I have been pretending I didn't.&rdquo;</em> She does not need anyone to respond.</li><li><strong>Alicia</strong> tries to reach her patron one more time. Tonight, she gets nothing. Not absence. Not silence. <em>Nothing.</em> She sits with the nothing.</li><li><strong>Selvara</strong> finds that her dreams have stopped. She has not dreamed of the cairn since they crested the rise. She does not know whether this is good.</li><li><strong>Elle</strong> reads her order's second-bell prayer aloud at the second bell after midnight. She does not know whether to pray for the 374 CY expedition or for the party. She prays for both.</li><li><strong>Gianni</strong> walks the camp's perimeter once, slowly. Three years of ranger habit. The perimeter is fine. The grass is fine. The wind is fine. The world is intact tonight.</li></ul><h2>What this is</h2><p>The last good night the campaign owes the party. By morning they will open the threshold. By Phase 8, what they are will have changed. <strong>This scene is the hour before that change.</strong> Let it be long. Let it be quiet. Let the players say what they want to say without prompting.</p><p>At the end of the hour, fade to the Phase 7 ending read-aloud (<em>&ldquo;The road ends at the cairn. The stair begins where the maps learned to lie.&rdquo;</em>). The descent is for next session.</p>"
+      }
+    }
+  ],
+  "folder": null,
+  "sort": 600,
+  "ownership": { "default": -1 },
+  "flags": { "blooming-rot-2": { "kind": "relief-scenes" } },
+  "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null }
+}

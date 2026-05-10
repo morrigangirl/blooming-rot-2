@@ -1,0 +1,147 @@
+{
+  "_key": "!journal!BR2WorldStakesJrnl",
+  "_id": "BR2WorldStakesJrnl",
+  "name": "World Stakes — Emotional-Cost Vignettes",
+  "pages": [
+    {
+      "_id": "BR2WsPgIntro",
+      "_key": "!journal.pages!BR2WorldStakesJrnl.BR2WsPgIntro",
+      "name": "How to Use These Vignettes",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 50000,
+      "ownership": { "default": -1 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "text": {
+        "format": 1,
+        "content": "<h1>World Stakes — Emotional-Cost Vignettes</h1><p>The conspiracy is described mostly in administrative terms: ledgers, route accounts, hand-altered records, missing files, missing surveyors. The horror is real but abstract. <strong>These vignettes give the abstraction a face.</strong></p><p>Eight short scenes. Use one per phase as a transition or interlude. Each takes 5&ndash;10 minutes of table time. None are required. They are <em>weight</em> &mdash; the cost of failing the investigation.</p><h2>How to use them</h2><ul><li><strong>Drop them in as transitions.</strong> Between scenes, on the road, while the party rests. Not in the middle of a tense scene.</li><li><strong>Do not solve them.</strong> The party cannot fix these losses. The vignettes are not quests. They are evidence of what the conspiracy <em>does</em>.</li><li><strong>Use them sparingly.</strong> One per phase is plenty. Two is too many. The horror needs space to breathe.</li><li><strong>Tie one to a per-PC thread if possible.</strong> Cam's halfling network thread connects naturally to Vignette 2 (the Pleasant Hill farms) and Vignette 5 (the Rel Astra widow).</li></ul><h2>The vignettes</h2><ol><li>The Empty Bench (Phase 1 &mdash; Loftwick)</li><li>Three Farms Gone Quiet (Phase 2 &mdash; the road to Hardby)</li><li>The Mill That Failed (Phase 3 &mdash; Hardby, off-screen consequence)</li><li>The Widow's Letter (Phase 4 &mdash; Rel Astra)</li><li>The Festival Without Lanterns (Phase 5 &mdash; Loftwick winter)</li><li>The Empty Bakery (Phase 6 &mdash; Greyhawk Foreign Quarter)</li><li>The Survey Hut (Phase 7 &mdash; on the road to the Cairn Hills)</li><li>The Letter to a Closed Address (Phase 7 &mdash; closing vignette)</li></ol>"
+      }
+    },
+    {
+      "_id": "BR2WsPgEmptyBench",
+      "_key": "!journal.pages!BR2WorldStakesJrnl.BR2WsPgEmptyBench",
+      "name": "Vignette 1 — The Empty Bench (Phase 1)",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 100000,
+      "ownership": { "default": -1 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "text": {
+        "format": 1,
+        "content": "<h1>Vignette 1 — The Empty Bench</h1><p><strong>Where:</strong> Loftwick, the second morning at the Little Palace. The party is taking breakfast at one of the long benches in the refectory. <strong>When:</strong> early Phase 1, after the Strong Room reveal.</p><h2>Read aloud</h2><blockquote><p>At the end of the long bench, where the night staff usually eat before going up to bed, there is an empty place set. A bowl, a spoon, a cup. The bowl is fresh; the cook brought it out three minutes ago. No one has come to sit.</p><p>You ask, half-distracted, if you should move along to give them room.</p><p>Brennan Kepf, who has not paused in his work all morning, sets down his ladle and says quietly: <em>&ldquo;That was Hesta's. She didn't come in to her duty yesterday. We've set her place for two weeks. Just in case.&rdquo;</em></p><p>He picks the ladle back up. <em>&ldquo;Hesta's from out past the Stark Mounds. We don't know yet whether to write to her people.&rdquo;</em></p></blockquote><h2>What the party can learn</h2><p>If asked: Hesta was a junior kitchen-girl. She has family in a small Yeomanry hamlet east of the Stark Mounds. She took two days' leave to visit them. She did not come back. The road she would have come back on is a road no one has reported anything unusual on in the last month.</p><p>Brennan will not call it a conspiracy. He will not call it bandits. He will say: <em>&ldquo;Sometimes someone doesn't come back. Sometimes they're back by the third week. We set the place.&rdquo;</em></p><h2>What this is</h2><p>Hesta is the first vanishing the party hears about. It is not connected (yet) to the route-account practice in any way the party can see. <strong>By Phase 5, the party will have enough context to know that Hesta is a number in someone's ledger.</strong> By Phase 7, they will know what kind of ledger.</p><h2>The cost</h2><p>The empty bench should appear again in Phase 5 when the party returns to the Little Palace. <strong>The place is still set.</strong> Brennan still has not written to Hesta's people. There are now two empty places at the bench. Then three. Brennan does not mention them; he just sets them.</p>"
+      }
+    },
+    {
+      "_id": "BR2WsPgThreeFarms",
+      "_key": "!journal.pages!BR2WorldStakesJrnl.BR2WsPgThreeFarms",
+      "name": "Vignette 2 — Three Farms Gone Quiet (Phase 2)",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 200000,
+      "ownership": { "default": -1 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "text": {
+        "format": 1,
+        "content": "<h1>Vignette 2 — Three Farms Gone Quiet</h1><p><strong>Where:</strong> the eastern Yeomanry road, day two of travel from Loftwick toward Hardby. <strong>When:</strong> early Phase 2, before the Three Travel Approaches scene if possible.</p><h2>Read aloud</h2><blockquote><p>The road past Pleasant Hill is the same yellow stone it always is in summer. Three farms run along the eastern verge, with the river-meadows behind them. The farms are quiet.</p><p>You ride past the first. The thresher is in the field where it was set down at the end of last season; the grass has grown up around it. The well-cover is open. No smoke from the chimney.</p><p>You ride past the second. The kitchen-garden has gone to seed. The door is unbarred. The dog-house at the gate has no dog.</p><p>You ride past the third. A single hen is in the dooryard, alive but thin. There is no one calling her in.</p><p>A man at the roadside &mdash; a tinker, mending a kettle &mdash; sees you looking. He says, without ceremony: <em>&ldquo;Took an eastbound contract, the lot of 'em. Some kind of caravan work. Three families, four months back. Haven't seen 'em.&rdquo;</em></p><p>You ask if he is worried about them.</p><p>The tinker shrugs. <em>&ldquo;Their fields ain't worried. I'll be passing through next month. Maybe they'll be back.&rdquo;</em></p></blockquote><h2>Cam's thread connection</h2><p>If Cam is present, the tinker mentions specifically that two of the three families had halfling cousins. The cousins also went. This is the moment Cam's halfling-network thread first hardens from rumour to data: he knows the tinker is right, and he knows the families won't be coming back.</p><h2>The cost</h2><p>Three farms. Three families. An unknown number of halfling cousins. No bodies, no robberies, no overt sign of harm. <strong>Just an empty road and a hen that won't get fed when the tinker moves on.</strong></p>"
+      }
+    },
+    {
+      "_id": "BR2WsPgMillFailed",
+      "_key": "!journal.pages!BR2WorldStakesJrnl.BR2WsPgMillFailed",
+      "name": "Vignette 3 — The Mill That Failed (Phase 3)",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 300000,
+      "ownership": { "default": -1 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "text": {
+        "format": 1,
+        "content": "<h1>Vignette 3 — The Mill That Failed</h1><p><strong>Where:</strong> Hardby, the warehouse district, during Phase 3's investigative middle.</p><h2>Read aloud</h2><blockquote><p>You take a wrong turn coming back from Anver Resh's office and pass a closed mill at the corner of two narrow streets. The doors are barred from outside. A notice in formal Aerdy script has been pasted across the lintel: <em>&ldquo;Stocks contaminated. By order of the City Health Officer, this mill is closed. Investigation pending.&rdquo;</em></p><p>An older man in a miller's apron is sitting on the steps. He looks up at you, sees that you are not from Hardby, and looks back down.</p><p>If anyone speaks to him, he answers without looking up: <em>&ldquo;Two seasons' work. All my grain. Aerdy stock, certified at the dock. The rot started a week after I bought it. It wasn't damp. It wasn't weevils. It just&hellip; turned.&rdquo;</em></p><p>He picks at the hem of his apron. <em>&ldquo;The Health Officer keeps saying the inquiry is going. The inquiry is going nowhere. I'm sixty-three. I'm not starting again.&rdquo;</em></p></blockquote><h2>What this is</h2><p>The Blooming Rot was not a metaphor. It was an agricultural test. The conspiracy used it to evaluate the surface's reaction to a localised, deliberate failure of food storage. <strong>This is what the test looked like to the people it tested.</strong></p><p>The miller is real. His name is Olbar Hessen. He will not appear again in the campaign except as background. He represents about fifteen Hardby families who lost mills, granaries, or grain businesses in the season the Blooming Rot ran. <em>None of them know that they were a test.</em></p><h2>The cost</h2><p>Olbar Hessen will lose his mill within the month. He will not get certification to buy new stock. The Aerdy merchants who sold him the contaminated grain will not be held to account &mdash; the certifying customs official has been quietly moved to another post. <strong>The party can do nothing for Olbar.</strong> They can sit beside him on the steps for a minute. That is all.</p>"
+      }
+    },
+    {
+      "_id": "BR2WsPgWidowLetter",
+      "_key": "!journal.pages!BR2WorldStakesJrnl.BR2WsPgWidowLetter",
+      "name": "Vignette 4 — The Widow's Letter (Phase 4)",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 400000,
+      "ownership": { "default": -1 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "text": {
+        "format": 1,
+        "content": "<h1>Vignette 4 — The Widow's Letter</h1><p><strong>Where:</strong> Rel Astra, the Foreign Quarter wash-house. <strong>When:</strong> Phase 4, during a routine errand &mdash; or, if Cam is splitting from the rest of the party, as a Cam-specific scene.</p><h2>The widow</h2><p><strong>Name:</strong> Mistress Annet Pell (no relation to Ostren or Sera). Aerdy widow, half-Suel. Late thirties. Two small children at home.</p><p>Her husband, <strong>Boren Pell</strong>, was a caravan teamster. He took an unusual contract eight months ago: better pay, no questions about cargo, route undisclosed. He sent two letters home. He did not come back.</p><h2>The letter she gives the party</h2><p>Read aloud as Annet hands a folded paper to the lead PC. The paper has been folded and unfolded so often that the creases have begun to give. Boren's hand is blocky and uncertain.</p><blockquote><p><em>&ldquo;Annet, my love &mdash;</em></p><p><em>I am writing this from a place where the bells don't reach. We were given lodging two days ago in a stone building that smells of old water. The people who run the caravan are not the people who hired the caravan. There is a man here who never speaks except to give instructions, and the master listens.</em></p><p><em>I do not know what the cargo is. I have been forbidden to look. I have not looked.</em></p><p><em>I have been told we will be paid on return. I have been told the return is in three weeks. I cannot count three weeks from when, because I cannot count from where I am.</em></p><p><em>Kiss the children. Tell them I am working. I do not know what else to write.</em></p><p><em>&mdash; Boren&rdquo;</em></p></blockquote><h2>What this is</h2><p>Boren is one of perhaps three hundred surface workers the conspiracy has used as expendable transport labour over the last decade. They do not come back. The conspiracy does not bother to fake their return; the families absorb the loss and the surface economy does not notice.</p><p>Cam's halfling-network thread connects here: Boren was Aerdy, not halfling, but the pattern is the same as the Hardby and Hesp Olfair lists. <strong>If the party combines Annet's letter with Cam's data, they have evidence of a non-halfling parallel.</strong></p><h2>The cost</h2><p>The party can do little for Annet. They can pay her rent for a month. They can promise to find Boren &mdash; but they cannot promise to bring him back. The most honest thing they can offer is to <em>not</em> promise: <em>&ldquo;If we find anything, we will tell you. We will not lie to you. That is what we can give.&rdquo;</em></p>"
+      }
+    },
+    {
+      "_id": "BR2WsPgFestNoLanterns",
+      "_key": "!journal.pages!BR2WorldStakesJrnl.BR2WsPgFestNoLanterns",
+      "name": "Vignette 5 — The Festival Without Lanterns (Phase 5)",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 500000,
+      "ownership": { "default": -1 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "text": {
+        "format": 1,
+        "content": "<h1>Vignette 5 — The Festival Without Lanterns</h1><p><strong>Where:</strong> Loftwick, the Yeomanry winter solstice. <strong>When:</strong> mid-Phase 5, when the party has been back in Loftwick for some days.</p><h2>Context</h2><p>The Yeomanry winter solstice is normally marked by hanging paper lanterns from every doorway and shop-front in Loftwick. The lanterns are made over the course of the autumn by family groups, and the lighting begins at the second bell after dusk on the longest night.</p><p>This year, fewer lanterns are hanging. The shops have them. The civic buildings have them. The Audit Hall has them. <strong>The eastern quarter, where many of the recent vanished came from, has fewer than usual.</strong> The southern quarter, where Hesta's family would have hung theirs, has none.</p><h2>Read aloud</h2><blockquote><p>The longest night of the year is clear and very cold. From a height &mdash; the upper windows of the Little Palace, the cathedral roof, the bell-tower &mdash; you can see the city in lantern-light: a constellation of warm orange points where the festival is being kept. The pattern is familiar. The pattern is also incomplete.</p><p>The eastern quarter, where many of the recent vanished came from, is darker than it should be. The southern quarter is darker still. Whole rows of doorways have not been lit.</p><p>Below you, in the Audit Hall courtyard, three young clerks are arguing softly. One of them &mdash; a half-elf, sandy-haired &mdash; says: <em>&ldquo;My mother stopped making the lanterns this year. She said she didn't have anyone to light them for.&rdquo;</em></p><p>The other two do not answer. They go back to lighting their own.</p></blockquote><h2>What this is</h2><p>This is the cost made visible. The Yeomanry's winter festival is a small public ritual that depends on every household participating. <strong>When enough households stop, the ritual breaks.</strong></p><p>The conspiracy is not trying to break the Yeomanry's festival. It is using the surface economy in a way that has, as a side effect, broken several hundred families' relationship to a small annual ritual. <em>That is what the cost looks like.</em></p><h2>Per-PC connections</h2><ul><li><strong>Elle</strong> may light a lantern at her order's cloister specifically for &ldquo;those who descended.&rdquo; The Second-Bell prayer matches the festival's timing.</li><li><strong>Cam</strong> walks the eastern quarter with Hesp Olfair's list (if delivered by now) and counts. He stops counting at sixteen.</li><li><strong>Gianni</strong> notices that one of the darker streets corresponds to a road on her current map but to <em>no</em> road on the previous year's map.</li></ul>"
+      }
+    },
+    {
+      "_id": "BR2WsPgEmptyBakery",
+      "_key": "!journal.pages!BR2WorldStakesJrnl.BR2WsPgEmptyBakery",
+      "name": "Vignette 6 — The Empty Bakery (Phase 6)",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 600000,
+      "ownership": { "default": -1 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "text": {
+        "format": 1,
+        "content": "<h1>Vignette 6 — The Empty Bakery</h1><p><strong>Where:</strong> Greyhawk City, Foreign Quarter, the bakery on Tannerway &mdash; the same building V. Korre's apartment sat above.</p><h2>Context</h2><p>Use this vignette in Phase 6 <em>after</em> the eleventh-bell transfer at the Old Stonecistern, when the party has had time to revisit the locations they touched. Korre is gone (escaped, captured, or killed). The bakery is still operating. The bakery's proprietor &mdash; an Aerdi widow named <strong>Marta Ostren</strong> &mdash; has run it for seventeen years.</p><h2>Read aloud</h2><blockquote><p>The bakery is open. The smell of new bread is in the street. Marta Ostren is at the front counter, wrapping a loaf for a customer.</p><p>When the customer leaves, she turns to you. She is in her early sixties. Her hands are steady. Her eyes are not.</p><p>&ldquo;You know who lived above,&rdquo; she says. &ldquo;You know I knew. I knew enough. I was paid not to ask further.&rdquo;</p><p>She wraps another loaf without anyone asking her to. She sets it on the counter in front of you.</p><p>&ldquo;Take this. I'm sorry for what I didn't ask. I'm not asking now either. I'm telling you that I have a granddaughter who is fourteen and starting her apprenticeship next month, and I was not going to be the woman who answered too many questions and lost her my building.&rdquo;</p><p>She looks at the loaf, and at you. <em>&ldquo;I would have rather been a better woman. I will spend the rest of my life knowing that I was not.&rdquo;</em></p></blockquote><h2>What this is</h2><p>The conspiracy did not need to coerce Marta. It needed her to be paid enough not to ask. <strong>She was paid. She did not ask.</strong> She is now living with the fact that her bakery's quiet income for the last year came from the same purse that paid for the eleventh-bell transfer.</p><p>The party cannot absolve her. They cannot prosecute her. They can take the loaf or leave it.</p><h2>The cost</h2><p>Marta will keep the bakery. She will keep her granddaughter's apprenticeship. She will also keep, for the rest of her life, the fact that she made the trade. That is the cost.</p>"
+      }
+    },
+    {
+      "_id": "BR2WsPgSurveyHut",
+      "_key": "!journal.pages!BR2WorldStakesJrnl.BR2WsPgSurveyHut",
+      "name": "Vignette 7 — The Survey Hut (Phase 7)",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 700000,
+      "ownership": { "default": -1 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "text": {
+        "format": 1,
+        "content": "<h1>Vignette 7 — The Survey Hut</h1><p><strong>Where:</strong> on the Tarnsmere Spur, day two of field reconnaissance, between the dry ford and the ruined tollhouse. <strong>When:</strong> Phase 7, Node 7 (field reconnaissance).</p><h2>Read aloud</h2><blockquote><p>A little way off the Spur, half-hidden by alder regrowth, is a small abandoned hut. It was a Yeomanry surveyor's seasonal shelter once. The roof has fallen in on the east side; the western half is still under timber. The door has been gone for years.</p><p>Inside, the bunk is collapsed. A few rusted nails stand in the wall. On a small table at the back, weighted with a stone, lies a folded paper. The fold is old. The stone is not.</p><p>The paper is half a page of a surveyor's day-book. The hand is careful. The date is twenty-seven years ago.</p></blockquote><h2>The page (handout)</h2><p>Hand the party this paper as a small handout. The hand is precise; the language is professional; the second half of the page is torn cleanly off.</p><blockquote><p><em>&ldquo;15th of Reaping, 542 CY. Spent the morning at the cairn. Sunlight from the east at the seventh cut, just as G.E. described. Took rubbings (attached). Took the stone-dust sample I was warned to take. Did not enter the lower opening (G.E. specifically warned).</em></p><p><em>16th of Reaping, 542 CY. The lower opening was not as G.E. described. There is a stair. I will not write down what I think it leads to. I will take the long way home and report in person.</em></p><p><em>17th of Reaping &hellip;&rdquo;</em></p></blockquote><h2>What this is</h2><p>This is the journal of <strong>Garrold Eft</strong>, the Yeomanry surveyor who went missing on the Tarnsmere Spur in 542 CY. His journal page survived because the stone holding it down is not the original stone; someone replaced it within the last year. <strong>Someone has been here recently and chose not to remove Eft's last writing.</strong></p><p>Why? Either a route-cleanser forgot, or a route-cleanser disagreed with the operation, or the page was left as a warning. The campaign does not tell the party which.</p><h2>Gianni's thread connection</h2><p>If Gianni is present, this is where her thread converges. Eft was on her list of missing Yeomanry surveyors. <strong>Now she has his last words.</strong> Eft did not come back. The page does not say what happened to him on the 17th. It does not need to.</p><h2>The cost</h2><p>Garrold Eft died because he could not unsee what he saw on the Tarnsmere Spur. The party is about to see the same thing. <em>They have been warned by a man who could not stop himself from warning them.</em></p>"
+      }
+    },
+    {
+      "_id": "BR2WsPgClosedAddress",
+      "_key": "!journal.pages!BR2WorldStakesJrnl.BR2WsPgClosedAddress",
+      "name": "Vignette 8 — The Letter to a Closed Address (Phase 7 closing)",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 800000,
+      "ownership": { "default": -1 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "text": {
+        "format": 1,
+        "content": "<h1>Vignette 8 — The Letter to a Closed Address</h1><p><strong>Where:</strong> the party's camp upslope from the Seven-Cut Cairn, on the night Phase 7 ends. <strong>When:</strong> after the ending read-aloud, before fade-to-Phase-8.</p><h2>Read aloud</h2><blockquote><p>Before the watch rotates at the third bell, a rider arrives in the dark.</p><p>It is a Yeomanry courier. He has been riding for three days. He is half-asleep in the saddle. He has come to deliver one letter.</p><p>The letter is addressed to a name he does not recognise. The address is <em>&ldquo;Tarnsmere Toll, Surveyor's Hut, by way of the Tarnsmere Spur.&rdquo;</em> The hand on the front is a mother's careful copperplate.</p><p>He has been told to deliver it to the recipient if found. He has been told to bring it back to Loftwick if not.</p><p>He is too tired to ride back tonight. He hands the letter to the lead PC and says, <em>&ldquo;If you know him, tell him his mother is still writing.&rdquo;</em></p><p>He sleeps in the camp. By morning he is gone.</p></blockquote><h2>The letter (the party may open it)</h2><p>The letter is to <strong>Garrold Eft</strong>. The writer is Eft's mother. Eft has been missing for twenty-seven years. The mother is in her eighties, dictating to a neighbour's child because her own hand is no longer steady.</p><blockquote><p><em>&ldquo;Garrold, my dearest &mdash;</em></p><p><em>I have been told for many years now that you are not coming back. I am still writing. I am eighty-one. I do not expect a reply. I have been writing since the year your father died, and the writing keeps me company.</em></p><p><em>The new clerk at the post-house says he will send this with the Yeomanry rider going east on the Spur road. He says the rider will leave it where it can be found, if it can. He is a kind young man. I have given him cake.</em></p><p><em>If you are reading this somehow, my love, I am proud of you. I have always been proud of you. The fact that you went out to do your work and did not come back does not change that.</em></p><p><em>Come home if you can. If you cannot, know that I am still here. I will not be here forever, but I am here today.</em></p><p><em>&mdash; Your mother.&rdquo;</em></p></blockquote><h2>What this is</h2><p>The cost of the route is borne by people who never know they are paying. Garrold Eft's mother has been writing to a dead son for twenty-seven years. She does not know what happened to him. She does not know that her letters are read by a Loftwick clerk and forwarded on a system that has no chance of delivering them. <strong>She does not know that her son went down a stair he was warned about.</strong></p><p>The party now has the letter. They cannot deliver it. They cannot tell her what happened to her son &mdash; not without going to Loftwick and saying <em>&ldquo;your son is dead, has been dead for twenty-seven years, and we are about to go down the stair that killed him.&rdquo;</em></p><h2>The choice</h2><p>The party can:</p><ul><li><strong>Keep the letter</strong> and try to find Eft (or what's left of him) below.</li><li><strong>Burn it</strong> on the campfire, as a small private memorial.</li><li><strong>Bring it back to her</strong> in Loftwick, with a story that gives her closure. This is what Caelith would want.</li><li><strong>Leave it</strong> at the Seven-Cut Cairn, beneath the seventh cut, where Eft would have seen it if he had come back.</li></ul><p>None of these is right. Any of them is meaningful. <strong>This is the last cost of Phase 7</strong>: the party knows now that the route has been killing people slowly, for at least twenty-seven years, and they are about to go down it themselves.</p>"
+      }
+    }
+  ],
+  "folder": null,
+  "sort": 500,
+  "ownership": { "default": -1 },
+  "flags": { "blooming-rot-2": { "kind": "world-stakes" } },
+  "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null }
+}

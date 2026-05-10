@@ -31,7 +31,12 @@ const PACKS = [
   "phase-6-actors",
   "phase-6-scenes",
   "phase-7-journals",
-  "phase-7-actors"
+  "phase-7-actors",
+  "pc-threads",
+  "aerdy-network",
+  "aerdy-network-actors",
+  "world-stakes",
+  "relief-scenes"
 ];
 
 for (const pack of PACKS) {

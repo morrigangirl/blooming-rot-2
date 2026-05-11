@@ -1,0 +1,147 @@
+{
+  "_key": "!journal!BR2P8ArrivalJrnl",
+  "_id": "BR2P8ArrivalJrnl",
+  "name": "Phase 8 — Arrival & Branching Openings",
+  "pages": [
+    {
+      "_id": "BR2P8ArPgGmBrf",
+      "_key": "!journal.pages!BR2P8ArrivalJrnl.BR2P8ArPgGmBrf",
+      "name": "GM Brief — Phase 8 Purpose",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 100000,
+      "ownership": { "default": -1 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "text": {
+        "format": 1,
+        "content": "<h1>Phase 8 — The Stair Beneath Tarnsmere</h1><p><em>Alternate title: &ldquo;The Threshold Below the Tollhouse.&rdquo; BR2 Phase 8, v0.7 draft. Tier 3, levels 8&ndash;11. The threshold dungeon. The last surface-facing phase.</em></p><h2>What this phase is</h2><p>Phase 8 is the <strong>threshold dungeon and upper descent</strong>. A compact adventure site, not a sprawling megadungeon. The party explores the ruined tollhouse, discovers the sealed stairhouse, bypasses or breaks the threshold permissions, confronts route-cleaners or first guardians, and confirms that Haskur, Kethren, or the conspiracy passed this way.</p><p><strong>This is the last surface-facing phase.</strong> It should end with the party crossing the point after which normal roads, courts, and ledgers no longer protect them. Phase 9 begins in the deep route.</p><h2>Tone</h2><p>Old-stone dread, surface silence, buried bureaucracy, threshold horror. <strong>The administrative horror should become architectural</strong>: permissions carved into stone, seals made physical, route marks cut into lintels, toll ledgers turned into access rules, old names scratched out of maps and into walls.</p><p>The site should feel like a forgotten civic / mining structure that was repurposed long ago into a controlled descent. <em>Not a wizard dungeon. Not a monster cave. A tollhouse for a road that goes down.</em></p><h2>Player-facing language constraint</h2><p>Do <strong>not</strong> use the word <em>Underdark</em> in read-aloud, handouts, or NPC dialogue. Use instead: <em>below</em>, <em>deep road</em>, <em>descent</em>, <em>old stair</em>, <em>under-road</em>, <em>permitted descent</em>, <em>sealed route</em>, <em>stair beneath the tollhouse</em>, <em>the road under roads</em>.</p><h2>What Phase 8 delivers</h2><ul><li>The Seven-Cut Cairn is the last surface marker, <em>not</em> the entrance.</li><li>The true entrance lies <strong>beneath</strong> Tarnsmere Tollhouse.</li><li>The Seven-Cut mark appears physically carved into stone, repeatedly, with increasing severity as the party descends.</li><li><em>&ldquo;No sail. No road.&rdquo;</em> is confirmed as a literal access instruction, not metaphor.</li><li>The route is old and <strong>permission-based</strong> &mdash; admitted, not entered.</li><li>Someone has <em>recently</em> used or attempted to reseal the threshold.</li><li>Haskur's route either continues below or ended here, depending on prior outcomes.</li><li>Kethren's route knowledge becomes more important than Haskur's.</li><li>The party reaches the first actual descent.</li></ul><h2>What Phase 8 must NOT deliver</h2><ul><li>The full conspiracy.</li><li>The identity of &ldquo;E.&rdquo;</li><li>The names <em>Eclavdra</em>, <em>House Eilserv</em>, <em>Vault</em>, <em>Underdark</em>.</li><li>Confirmation that the &ldquo;E.&rdquo; writer is non-human.</li><li>A full deep-road exploration.</li><li>A final defeat of the conspiracy.</li><li>A mandatory Haskur or Kethren appearance if they are dead, captured, or unavailable.</li></ul><h2>Phase flow</h2><ol><li>Arrival at Seven-Cut Cairn.</li><li>Surface investigation (cairn, tollhouse, survey station, dry well, yard).</li><li>Discovery of the hidden stairhouse beneath the tollhouse hearth.</li><li>Descent through the toll vault, broken registry, old guardroom.</li><li>Opening the Permission Door (five+ valid methods).</li><li>Route-cleaner or guardian confrontation.</li><li>Recovery of threshold evidence.</li><li>Final descent through the Stair Gallery to the Final Threshold Landing.</li><li>Phase 9 hook.</li></ol><h2>Pacing</h2><p>One to two sessions. <strong>One session</strong> if the party moves efficiently and opens the door through evidence-based methods. <strong>Two sessions</strong> if they investigate carefully, deal with route-cleaners, recover the Tarnsmere descent token from the toll vault, and search the broken registry properly.</p><h2>GM summary (one paragraph)</h2><blockquote><p>Phase 8 is about proving the route exists and crossing from surface investigation into the deep road. The party turns a phrase into a place in Phase 7; in Phase 8 they turn the place into a passage. The threshold is not a fight. It is a tollhouse asking to be paid. Whatever the party pays &mdash; a token, a phrase, evidence, blood, force, a captured handler's authorisation &mdash; the door opens. Beyond it, the surface stops keeping their accounts.</p></blockquote>"
+      }
+    },
+    {
+      "_id": "BR2P8ArPgOpenRA",
+      "_key": "!journal.pages!BR2P8ArrivalJrnl.BR2P8ArPgOpenRA",
+      "name": "Opening Read-Aloud — Route Neutral",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 200000,
+      "ownership": { "default": -1 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "text": {
+        "format": 1,
+        "content": "<h1>Opening Read-Aloud</h1><p><em>Read at the start of Phase 8, after the party has rested upslope from the Seven-Cut Cairn through the Phase 7 closing camp. Use regardless of which Phase 7 outcome applies; the specific variations follow on the opening pages.</em></p><blockquote><p>Morning at the Seven-Cut Cairn is the same colour as paper. The wind across the Cairn Hills has not stopped during the night and does not stop now; it moves the grass in long slow waves and goes nowhere in particular.</p><p>Below your camp, the ruined tollhouse stands where it has stood since before any of you were born. The collapsed survey station downslope. The half-buried waystone. The dry well beside the tollhouse, which is not really a well. The cairn at its small rise, with the seven descending cuts beneath the blackened hill mark, still visible from where you have rolled your bedrolls.</p><p>There is no Greyhawk bell. There has not been a Greyhawk bell since you turned onto the mining spur two mornings ago. There is no market noise. There is no paper. The road that brought you here ends at the cairn.</p><p>You have a phrase you have read in three different hands now. <em>No sail. No road.</em> You have a sketch of seven cuts beneath a black hill, copied in three different inks. You have an iron key on a silver chain whose lock you have not yet seen.</p><p>You have come to do what was done in 374 CY by a party with one fewer survivor.</p><p>The road ends at the cairn. The stair begins where the maps learned to lie.</p></blockquote><h2>GM note</h2><p>This opening assumes the party has read the Phase 7 ending materials and has been camping upslope. The mention of 374 CY connects Elle's per-PC thread (her order's failed expedition). If Elle is not present or her thread is dormant, drop that line.</p><p>The opening establishes <strong>silence</strong> as the campaign's new texture. The administrative horror has stopped being verbal &mdash; no clerks, no ledgers, no city bells. The new horror is geographic and structural. <em>The walls are about to start enforcing rules.</em></p>"
+      }
+    },
+    {
+      "_id": "BR2P8ArPgOpenA",
+      "_key": "!journal.pages!BR2P8ArrivalJrnl.BR2P8ArPgOpenA",
+      "name": "Opening A — Outcome A (Clean Triangulation, Low Clock)",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 300000,
+      "ownership": { "default": -1 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "text": {
+        "format": 1,
+        "content": "<h1>Opening A — Clean Triangulation</h1><p><em>Use if Phase 7 ended with Outcome A: the party reached the Seven-Cut Cairn with all five evidence categories and the Route-Cleansing Clock at 3 or below. The party is ahead of the enemy.</em></p><h2>State of the site</h2><ul><li>The Seven-Cut Cairn is <strong>intact</strong>. All seven cuts are visible, the blackening is undisturbed.</li><li>The tollhouse interior is quiet. No fresh bootprints inside. <strong>One</strong> set of older bootprints &mdash; a week old at minimum &mdash; leads from the cairn to the back of the tollhouse and stops at the hearth.</li><li>The dry well's iron rungs show <em>recent</em> soot from a lamp. Someone has been here in the last seven days, but not in the last two.</li><li>The Permission Door, when reached, is sealed but <strong>not yet trapped</strong>.</li><li><strong>Threshold Lockdown Clock starts at 0.</strong> <strong>Structural Failure Clock starts at 0.</strong></li></ul><h2>What this means at the table</h2><p>The party has earned this. They have time to investigate carefully. They can search the survey station before approaching the tollhouse. They can rest a half-day before opening the hearth. They can locate the toll vault, recover the descent token, decipher the registry phrase, and approach the Permission Door with evidence rather than improvisation.</p><h2>The hidden urgency</h2><p>Route-cleaners are <em>en route</em>. The party does not know when they will arrive, but they will arrive. <strong>By the morning of the party's second in-site day</strong>, a route-cleaner team reaches the surface. If the party is still on the surface, the cleaners' job is to deface the cairn and burn the registry. If the party has already descended, the cleaners' job is to reseal the threshold behind them.</p><h2>Opening words to the table</h2><blockquote><p>You came down from your camp at first light. The wind is the same wind. The tollhouse is the same tollhouse. The cairn is intact.</p><p>Whatever the conspiracy was doing to erase this site, they have not yet done it here. You are early.</p><p>You may use that.</p></blockquote>"
+      }
+    },
+    {
+      "_id": "BR2P8ArPgOpenB",
+      "_key": "!journal.pages!BR2P8ArrivalJrnl.BR2P8ArPgOpenB",
+      "name": "Opening B — Outcome B (Full Triangulation, High Clock)",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 400000,
+      "ownership": { "default": -1 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "text": {
+        "format": 1,
+        "content": "<h1>Opening B — Triangulated Late</h1><p><em>Use if Phase 7 ended with Outcome B: the party reached the cairn after significant enemy activity. The Route-Cleansing Clock was at 4&ndash;5.</em></p><h2>State of the site</h2><ul><li>The cairn is <strong>damaged</strong>. The seventh cut has been deliberately scraped almost flat. The blackening on the hill mark is partly chipped away.</li><li>The tollhouse has fresh bootprints. <strong>Two</strong> sets, both within the last 48 hours.</li><li>The dry well's iron rungs are clean of soot &mdash; the soot has been wiped recently with a wet cloth.</li><li>The Permission Door, when reached, is partly resealed with fresh mortar and one new wax seal. The door is <strong>trapped</strong>: forcing it without disarming the trap triggers a stone-drop warning that also alerts whoever is still on site.</li><li><strong>Threshold Lockdown Clock starts at 2.</strong> <strong>Structural Failure Clock starts at 0.</strong></li></ul><h2>What this means at the table</h2><p>The party is in a race. Route-cleaners are <em>still on site</em> when the party arrives &mdash; or have just left for resupply. By the time the party reaches the Permission Door, the cleaners may return. The party can recover most evidence, but some has already been burned.</p><h2>Opening words to the table</h2><blockquote><p>You came down from your camp at first light. The wind is the same. The tollhouse is the same. The cairn is not.</p><p>Someone has been at the seventh cut with a chisel in the last day or two. It is not gone &mdash; cuts in old stone do not vanish easily &mdash; but it is wrong. The blackening is partly chipped. The cut is shallower than the other six.</p><p>Below the cairn, the ruined tollhouse has more recent bootprints than it should. Two sets. One coming, one going. Or both still here, returning.</p><p>You are not early.</p></blockquote><h2>What the party can still recover</h2><p>Even with the cleaners at work, the toll vault is intact (they have not opened it; the descent token is still there). One registry fragment survives, charred but legible. The dry well shaft is open and the cleaners have not blocked it. The Permission Door, though trapped, still recognises all five legitimate opening methods.</p>"
+      }
+    },
+    {
+      "_id": "BR2P8ArPgOpenC",
+      "_key": "!journal.pages!BR2P8ArrivalJrnl.BR2P8ArPgOpenC",
+      "name": "Opening C — Outcome C (Partial Triangulation)",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 500000,
+      "ownership": { "default": -1 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "text": {
+        "format": 1,
+        "content": "<h1>Opening C — Partial Triangulation</h1><p><em>Use if Phase 7 ended with Outcome C: the party reached the right region but had to search to find the cairn. Three evidence categories collected.</em></p><h2>Pre-arrival search scene</h2><p>Open Phase 8 with the party still <em>looking</em>. They camped one night ago in the lower Cairn Hills and have spent today searching old mining spurs. There are three or four candidate cairns visible from the road; the party must identify which is the Seven-Cut Cairn.</p><h3>Read aloud</h3><blockquote><p>The southern Cairn Hills have more cairns than you expected. Most are sheep-cairns, herder-marks, or modern survey posts. The few that look old enough to matter are scattered across three of the four spurs you have walked today.</p><p>The wind moves the grass. Your boots are wet from the dry ford. Vetch's sketched map shows a split ash tree and a roofless rectangle past it. The split ash tree was real &mdash; you crossed it two miles back. The roofless rectangle should be visible from here.</p><p>It is not.</p></blockquote><h2>How to identify the right cairn</h2><table><tbody><tr><th>Check</th><th>DC</th><th>Reveals</th></tr><tr><td>Survival (recent passage)</td><td>13</td><td>One cairn has had visitors in the last month; the others have not.</td></tr><tr><td>Investigation (cut count)</td><td>12</td><td>The right cairn has seven cuts; one false candidate has five, one has nothing recognisable.</td></tr><tr><td>History (waymark convention)</td><td>15</td><td>The hill-symbol convention identifies the right cairn even before counting cuts.</td></tr><tr><td>Gianni's geographic-erasure thread</td><td>auto</td><td>If Gianni has been tracking the missing spurs, she identifies the Tarnsmere Spur on sight by the angle of the cart ruts.</td></tr></tbody></table><h2>State of the site upon arrival</h2><p>The enemy has had additional time. <strong>Threshold Lockdown Clock starts at 3.</strong> The cairn's seventh cut is partly damaged. The tollhouse has been visited within the last 36 hours. The Permission Door is partly resealed but not trapped yet.</p>"
+      }
+    },
+    {
+      "_id": "BR2P8ArPgOpenD",
+      "_key": "!journal.pages!BR2P8ArrivalJrnl.BR2P8ArPgOpenD",
+      "name": "Opening D — Outcome D (False Stair First)",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 600000,
+      "ownership": { "default": -1 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "text": {
+        "format": 1,
+        "content": "<h1>Opening D — False Stair First</h1><p><em>Use if Phase 7 ended with Outcome D: the party walked to the false stair first, were delayed by an ambush, and reached the true site late.</em></p><h2>The party arrives tired</h2><p>The party reaches the Seven-Cut Cairn at dusk on the second day after the false-stair ambush. They are bruised. They are angry. They have lost a day and a half. <strong>The enemy is ahead by one full step</strong>: the cairn is defaced (seventh cut scraped flat), the tollhouse interior has been searched, and the Permission Door is fully resealed with new mortar.</p><h2>What they recognise</h2><p>From the false-stair ambush, the party brought back at least one of these clues:</p><ul><li>The planted six-cut stone (the false marker).</li><li>The wax sample that didn't match Aldea's recipe-family.</li><li>The stone-chip analysis showing the false site was prepared <em>recently</em>.</li></ul><p>By comparison with the true site, the party can immediately identify the differences &mdash; <strong>seven cuts here, not six; the wax flakes in the cairn crevice match Aldea; the stone is genuinely old</strong>. They are at the right place. <em>It just looks worse.</em></p><h2>State of the site</h2><ul><li>Threshold Lockdown Clock starts at <strong>4</strong>.</li><li>Structural Failure Clock starts at 0.</li><li>Route-cleaners are <em>still on site</em>; they finished resealing the door less than an hour before the party arrived.</li><li>The opening scene of Phase 8 may include an immediate confrontation at the tollhouse, if the GM wants to start with combat.</li></ul><h2>Opening words to the table</h2><blockquote><p>You came over the rise with the last of the daylight and saw what you would have seen yesterday, if you had not been at the wrong quarry yesterday.</p><p>The seventh cut on the cairn has been scraped flat, but the cut itself is real. The blackening is gone, but the mineral darkening underneath is still there. This is the place. You know it from how it differs from the place that was not.</p><p>The tollhouse, below, has lamplight inside it. Faint, low, moving. Someone is still here.</p></blockquote>"
+      }
+    },
+    {
+      "_id": "BR2P8ArPgOpenE",
+      "_key": "!journal.pages!BR2P8ArrivalJrnl.BR2P8ArPgOpenE",
+      "name": "Opening E — Captured NPC Helps",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 700000,
+      "ownership": { "default": -1 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "text": {
+        "format": 1,
+        "content": "<h1>Opening E — Captured NPC Helps</h1><p><em>Use if the party brought Haskur, Kethren, V. Korre, or another captured key NPC from Phases 6 or 7.</em></p><h2>The prisoner at the cairn</h2><p>The captured NPC has been told only that the party is going to the place where the route emerges on the surface. They have not been told <em>which</em> place. When the party arrives at the Seven-Cut Cairn, the NPC reacts.</p><h3>Haskur Vandrell, if captured</h3><blockquote><p>Haskur looks at the cairn for a long time, then at the tollhouse, then at the dry well. He says quietly: <em>&ldquo;I was not meant to come here awake. The boy was supposed to lead me through it sleeping. So that I would not see whatever is below the door.&rdquo;</em></p><p>He looks at the lead PC. <em>&ldquo;I will help you open it. I will not go through it. You will leave me on the surface, or you will leave me on a step at most. If you make me cross the threshold awake, I will die of it before I die of anything else.&rdquo;</em></p></blockquote><p>Haskur is telling the truth as he understands it. He <em>does not</em> know what is below; he was supposed to be <em>moved</em>, not to <em>see</em>. He can help with the registry method (he recognises the phrase from a single overheard moment) but not with the token method or the route mark.</p><h3>Kethren Ilvath, if captured</h3><blockquote><p>Kethren stops walking when the cairn comes into view. He has not stopped walking the whole journey out of Greyhawk. He stops now. He looks at the seventh cut. He says nothing for a long moment.</p><p>Then: <em>&ldquo;Do not thank the door. It remembers debt.&rdquo;</em></p><p>He looks at the lead PC. <em>&ldquo;I will open it for you. The cost of my opening it for you is one question I do not have to answer afterward. Choose the question carefully. I will tell you nothing after.&rdquo;</em></p></blockquote><p>Kethren is offering the Kethren Method (clean opening) in exchange for protection from one piece of interrogation. The party may accept, refuse, or try to extract more &mdash; but he will not be pushed.</p><h3>Veyra Korre, if captured</h3><blockquote><p>Korre arrives at the cairn already nervous. She does not approach the cairn at all. She stops twenty feet short of it and says: <em>&ldquo;The route account is mine. The route is not. I can give you the papers. I cannot give you the door. I do not know what waits on the other side. I never asked. I was paid not to ask.&rdquo;</em></p><p>She is paler than usual. <em>&ldquo;Please do not take me through. My account ended at the marker. I would prefer to keep that ending.&rdquo;</em></p></blockquote><p>Korre offers the Korre Papers Method but begs not to be taken across. She is operationally useful and emotionally exhausted.</p><h2>What this means for play</h2><p>A captured NPC accelerates the Permission Door scene but introduces <strong>leverage and complication</strong>. Each prisoner has a refusal point. Each will try to escape if the party loses focus during the descent. None will solve every barrier; each provides one method, not all five.</p>"
+      }
+    },
+    {
+      "_id": "BR2P8ArPgOpenF",
+      "_key": "!journal.pages!BR2P8ArrivalJrnl.BR2P8ArPgOpenF",
+      "name": "Opening F — Captured NPC Escaped",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 800000,
+      "ownership": { "default": -1 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "text": {
+        "format": 1,
+        "content": "<h1>Opening F — Captured NPC Escaped</h1><p><em>Use if a captured NPC from Phases 6 or 7 escaped during the inter-phase travel or at Phase 7's end.</em></p><h2>Signs at the site</h2><p>The party finds evidence that the escaped NPC passed through. The signs vary:</p><h3>If Haskur escaped</h3><p>His Aerdy travel coat is folded neatly on a stone outside the tollhouse. A torn corner of the coat lining contains a single line written in his hand on the inside of the brass-button slip: <em>&ldquo;I was not meant to come back awake. I have been told to wait here. I do not believe them.&rdquo;</em> No body. He may be hiding nearby, or he may have been escorted onward by route-cleaners under coercion.</p><h3>If Kethren escaped</h3><p>The seventh cut on the cairn has been <em>re-blackened</em>, not defaced &mdash; someone reapplied the permission mark with fresh soot. This is Kethren's work; it means the route is being formally readmitted, which means someone is being sent through soon. The Permission Door is <strong>not</strong> trapped but is recently used; the Threshold Lockdown Clock advances by 2 by default.</p><h3>If Korre escaped</h3><p>The tollhouse has been searched professionally. Anything that bore her own name has been removed. The toll vault is intact (she did not have the time or local knowledge), but the broken registry chamber has been thoroughly worked over &mdash; she removed every line referring to her route account, and burned most of the rest.</p><h2>State of the site</h2><ul><li>Threshold Lockdown Clock starts at <strong>3 to 4</strong>, depending on how loud the escape was.</li><li>The enemy has been given advance warning.</li><li>Route-cleaners arrive within the party's first 24 hours on site (rather than the second day, as in Opening A).</li></ul><h2>What the party can still do</h2><p>The site is more hostile but still solvable. The registry method may be harder (some pages are burned beyond recovery) but the token method remains intact &mdash; the descent token is in the toll vault, untouched. The Permission Door's other opening methods are still valid.</p><h2>The chase, if the escapee is here</h2><p>If Haskur is hiding nearby, the party may find him before the route-cleaners do. If Kethren is on site re-blackening the mark, the party may engage him; he will flee toward the dry well or the cistern drain rather than fight. If Korre escaped through a Greyhawk back-channel, she is not here in person &mdash; only her record-erasure work is here.</p>"
+      }
+    },
+    {
+      "_id": "BR2P8ArPgCaelith",
+      "_key": "!journal.pages!BR2P8ArrivalJrnl.BR2P8ArPgCaelith",
+      "name": "Caelith's Threshold Note (Handout 1)",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 900000,
+      "ownership": { "default": 1 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "text": {
+        "format": 1,
+        "content": "<h1>Caelith's Threshold Note (Handout 1)</h1><p><em>A folded paper delivered by a Yeomanry courier in the late afternoon of the party's first day at the cairn, regardless of which opening applies. If the Closure motion passed in Phase 5, the note carries no Audit Hall seal and is unsigned. If Closure was defeated or held over, the note carries Caelith's private wax seal.</em></p><blockquote><p>If Tarnsmere was truly a tollhouse, then its purpose was never money. A toll is a public word for permission. Find what it permitted.</p><p>I have given the runner instructions to wait three days at the dry ford. If you do not return in that time he will ride back without inquiry. He has been told nothing of what you are doing. He believes he is delivering a routine survey courtesy.</p><p>I have closed your office until the third week of next month. If you have not returned, I will arrange a longer closure quietly.</p><p>Be careful. Be slow. If the door asks you for something, give it the smallest thing you can.</p></blockquote><h2>GM note</h2><p>This handout sets the surface anchor. Caelith is finite &mdash; he cannot follow the party below, he cannot help with the door, and he is now openly preparing for the possibility that the party does not come back. <em>That should land at the table.</em></p>"
+      }
+    }
+  ],
+  "folder": null,
+  "sort": 100000,
+  "ownership": { "default": -1 },
+  "flags": { "blooming-rot-2": { "phase": 8 } },
+  "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null }
+}

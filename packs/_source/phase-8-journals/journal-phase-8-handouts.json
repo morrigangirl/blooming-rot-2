@@ -1,0 +1,147 @@
+{
+  "_key": "!journal!BR2P8HandoutsJrnl",
+  "_id": "BR2P8HandoutsJrnl",
+  "name": "Phase 8 — Player Handouts",
+  "pages": [
+    {
+      "_id": "BR2P8HoPgIndex",
+      "_key": "!journal.pages!BR2P8HandoutsJrnl.BR2P8HoPgIndex",
+      "name": "Handout Index & GM Notes",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 100000,
+      "ownership": { "default": -1 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "text": {
+        "format": 1,
+        "content": "<h1>Phase 8 — Player Handouts</h1><p>Phase 8 ships with seven player-facing handouts. Each is designed to be readable in 30 seconds at the table, useful as a physical or digital prop, and dramatic when revealed.</p><h2>The seven handouts</h2><ol><li><strong>Handout 1 — Caelith's Threshold Note</strong> (already located in the Phase 8 Arrival journal under &ldquo;Caelith's Threshold Note&rdquo;; reproduced here for printability).</li><li><strong>Handout 2 — The Seven-Cut Cairn Description</strong> (visual + descriptive prop; given to players when they reach Surface Location 2).</li><li><strong>Handout 3 — Tarnsmere Registry Fragment</strong> (recovered in the Broken Registry Chamber, Subsurface Location 9).</li><li><strong>Handout 4 — Route-Cleaner Instructions</strong> (recovered from a Route-Cleaner Lead, the Old Guardroom, or by trade with Korre).</li><li><strong>Handout 5 — Tarnsmere Descent Token</strong> (item prop, with description).</li><li><strong>Handout 6 — Garrold Eft's Surveyor's Warning</strong> (recovered from his body in the Collapsed Side Passage, Subsurface Location 12).</li><li><strong>Handout 7 — The Final Lintel Inscription</strong> (read at the Final Threshold Landing, Subsurface Location 15).</li></ol><h2>How to use them</h2><ul><li><strong>Physical play:</strong> print each at quarter-page or postcard size on cardstock. Burn or stain the edges of Handouts 3, 4, and 6 for atmosphere.</li><li><strong>Virtual play:</strong> drop the page directly into the chat or hand it out via the Foundry journal handout system. Each page is self-contained.</li><li><strong>Reveals:</strong> these handouts are timed reveals tied to specific scenes. The Reveal Timing page below summarises when each becomes available.</li></ul><h2>A note on tone</h2><p>The handouts are <em>artifacts</em>. They were written by other people, in other times, for other purposes. The party is reading them now, and what they make of them is up to the party. The GM should not editorialise. Let the handouts speak.</p>"
+      }
+    },
+    {
+      "_id": "BR2P8HoPgTiming",
+      "_key": "!journal.pages!BR2P8HandoutsJrnl.BR2P8HoPgTiming",
+      "name": "Reveal Timing",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 200000,
+      "ownership": { "default": -1 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "text": {
+        "format": 1,
+        "content": "<h1>Reveal Timing</h1><table><tbody><tr><th>Handout</th><th>When</th><th>Trigger</th></tr><tr><td>1. Caelith's Threshold Note</td><td>Phase 8 opening</td><td>Whichever opening branch (A–F) the GM uses; Caelith's note is delivered in all branches.</td></tr><tr><td>2. Seven-Cut Cairn Description</td><td>Surface Location 2</td><td>When PCs arrive at the cairn; auto-give upon description.</td></tr><tr><td>3. Registry Fragment</td><td>Subsurface Location 9</td><td>Investigation DC 13 in the Broken Registry Chamber.</td></tr><tr><td>4. Route-Cleaner Instructions</td><td>Tollhouse Yard, Old Guardroom, or Korre trade</td><td>On defeating Route-Cleaner Lead, searching Guardroom, or successfully trading with Korre in Phase 7 (carryover).</td></tr><tr><td>5. Tarnsmere Descent Token</td><td>Cairn crevice or Toll Vault</td><td>Investigation DC 13 (cairn) or DC 15 (Toll Vault hidden token).</td></tr><tr><td>6. Surveyor's Warning</td><td>Subsurface Location 12</td><td>On discovering Garrold Eft's body in the Collapsed Side Passage.</td></tr><tr><td>7. Final Lintel Inscription</td><td>Subsurface Location 15</td><td>When PCs reach the Final Threshold Landing.</td></tr></tbody></table><h2>Handout 1 is special</h2><p>Caelith's note in Opening B (Triangulated Late) and Opening C (Partial Triangulation) is <em>shorter</em> &mdash; reflecting his haste &mdash; than the Opening A version. The GM should use the appropriate variant.</p><p>In Opening D (False Stair First), Caelith's note arrives <em>after</em> the party has already wasted time. In Opening E (Captured NPC Helps), the note is read aloud by the captured NPC, not delivered cleanly. In Opening F (Captured NPC Escaped), the note arrives by an unknown courier and the party has cause to suspect its authenticity. The note text itself is the same; the framing is what changes.</p>"
+      }
+    },
+    {
+      "_id": "BR2P8HoPg1Caelith",
+      "_key": "!journal.pages!BR2P8HandoutsJrnl.BR2P8HoPg1Caelith",
+      "name": "Handout 1 — Caelith's Threshold Note",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 300000,
+      "ownership": { "default": -1 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "text": {
+        "format": 1,
+        "content": "<h1>Handout 1 — Caelith's Threshold Note</h1><h2>Reproduction for printing</h2><blockquote><p>Friends &mdash;</p><p>If you are reading this, you have triangulated to Tarnsmere. Good.</p><p>I have made the journey to the Tollhouse three times in my life. Each time I turned back. I did not turn back from fear. I turned back from the conviction that I was not the one to be there.</p><p>The site reads as a ruined tollhouse on a mining spur. It is not that. The mining spur was never a mine. The tollhouse was never about Hardby commerce. Both are cover. The site is a threshold, and the threshold has been administered &mdash; I do not have a kinder word &mdash; for at least a hundred and fifty years.</p><p>The hearth plate in the tollhouse ruin will lift. The mark on the cairn beside the road and the same mark on the landing below are not decoration; they are the site's registration. The cuts beside that mark are the route's tally. The door you find at the bottom is paperwork. Treat it like paperwork.</p><p>Three warnings. Take them as warnings, not as advice; I do not have advice.</p><p>First: someone <em>walks that road</em>. Not metaphorically. Couriers, cleaners, an occasional courier carrying letters in a sealed brass case. They have been there as long as the road has. They will be there when you arrive. Do not assume the site is empty because it looks empty.</p><p>Second: the door is paperwork, not power. The door will not fight you. The door will refuse you, politely, and lock its mechanism if you say the wrong words. There are several ways through. None of them require violence to it, though violence works at a price.</p><p>Third: the lintel says &ldquo;Witness below.&rdquo; That is the operative word. The site is for witnessing. The site is not for being right. If you go down, go down to see. Not to settle.</p><p>I cannot meet you there. I will be in the city, holding the line you would otherwise be holding, while you are below.</p><p>If you do not come back, I will speak the names of every one of you, in public, in the right place. I will say what you went to do. I will say why you went. I will not let you become a missing-persons file.</p><p>If you do come back &mdash; come back to me. There will be much to do.</p><p>&mdash; Caelith Dunivar</p></blockquote><h2>GM notes</h2><p>This is the note in its full Opening A form. For shorter / framed variants, see Opening B–F in the Arrival journal.</p>"
+      }
+    },
+    {
+      "_id": "BR2P8HoPg2Cairn",
+      "_key": "!journal.pages!BR2P8HandoutsJrnl.BR2P8HoPg2Cairn",
+      "name": "Handout 2 — Seven-Cut Cairn Description",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 400000,
+      "ownership": { "default": -1 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "text": {
+        "format": 1,
+        "content": "<h1>Handout 2 — The Seven-Cut Cairn</h1><h2>What you see</h2><blockquote><p>Beside the spur road, half-buried in cold grass, stands a low cairn of stacked fieldstones. The stack is no taller than your knee and twice as wide. Some of the stones are pale, some grey-brown. Most are roughly hand-sized. A few are larger, with one flat stone forming a rough lid at the top.</p><p>On the flat lid stone, someone has cut seven shallow strokes in a row. Each stroke is about an inch long. The leftmost stroke is slightly deeper than the others &mdash; cut harder, perhaps cut first. The other six are even.</p><p>Below the row of cuts, a single small symbol: a hill in outline, with the inside of the hill blackened in. The blackening is old &mdash; soot that has been wet and dry and wet again over many years &mdash; but a thin coat of fresh black has been added recently. Within the last month.</p><p>The cairn is a wayfinding mark of a kind you have seen on old commercial roads. <em>Tally and hill, hill and tally.</em> What you do not recognise is what it tallies, or what hill.</p><p>If you lift the lid stone, you find a small natural crevice in the stones beneath. The crevice has been cleared out and lined with a single fold of old cloth, perhaps to keep its contents dry. Reaching in, your fingers find &mdash; perhaps &mdash; a small circular metal disk, cool against your skin, about the size of a large coin.</p></blockquote><h2>GM notes</h2><p>If the party makes Investigation DC 13, they find the descent token in the crevice (Handout 5). If they fail the check, the lid stone is too heavy to lift easily; they will need a second attempt with help or a tool.</p><p>If Selvara is in the party, the seventh cut <em>resonates with her stone-dream thread</em>: the GM should describe to her player, privately, that the cut matches the exact dream-image she has been carrying.</p>"
+      }
+    },
+    {
+      "_id": "BR2P8HoPg3Registry",
+      "_key": "!journal.pages!BR2P8HandoutsJrnl.BR2P8HoPg3Registry",
+      "name": "Handout 3 — Tarnsmere Registry Fragment",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 500000,
+      "ownership": { "default": -1 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "text": {
+        "format": 1,
+        "content": "<h1>Handout 3 — Tarnsmere Registry Fragment</h1><h2>Physical description</h2><p>A single half-burned page recovered from the Broken Registry Chamber. The page is roughly four inches wide by eight inches tall. The top half is intact. The bottom half is charred to illegibility. The ink is iron-gall, the same ink used in Aerdy commercial-court ledgers since the 4th century CY. The handwriting is a clerk's hand &mdash; small, even, practiced. The page is from a bound book that has otherwise been destroyed.</p><h2>Reproduction of the legible text</h2><blockquote><p><strong>Tarnsmere Tollhouse Registry</strong></p><p><strong>Class VII Permitted Descents &mdash; Fourth Quarter, 518 CY</strong></p><p>Folio 4 of 11.</p><p style=\"margin-left: 1em;\"><em>(Entries continue from previous folio.)</em></p><p style=\"margin-left: 1em;\">Hesp. T. of Hardby. Token: <em>Cindren &amp; Vhal</em>. Witness: J. Mol. Return: 4 days.</p><p style=\"margin-left: 1em;\">Korren mab Dheis. (Trade: ironmonger.) Token: route account, second seal. Witness: T. Aere. Return: nil.</p><p style=\"margin-left: 1em;\">Velerin O. (Trade: paper agent.) Token: route account, third seal. Witness: J. Mol. Return: 12 days.</p><p style=\"margin-left: 1em;\">[name burned]. (Trade: surveyor.) Token: route account, second seal. Witness: J. Mol. Return: nil.</p><p style=\"margin-left: 1em;\">[burned, partial: <em>&hellip;mab Cain&hellip;</em>]. (Trade: <em>halfling cousin-of-record</em>.) Token: route account, fifth seal. Witness: T. Aere. Return: nil.</p><p style=\"margin-left: 1em;\">[burned, partial: <em>&hellip;ren of Hookwood&hellip;</em>]. (Trade: <em>halfling cousin-of-record</em>.) Token: route account, fifth seal. Witness: T. Aere. Return: nil.</p><p><strong>Margin note (later hand, brown ink):</strong></p><p style=\"margin-left: 1em;\"><em>No sail. No road. Toll paid beneath.</em></p><p style=\"margin-left: 1em;\"><em>Road fee waived for under-road permissions.</em></p><p><strong>Margin note (later hand, darker, hurried):</strong></p><p style=\"margin-left: 1em;\"><em>If recovered after 542, do not return to file. Show me. &mdash; K.</em></p></blockquote><h2>GM notes</h2><p>&ldquo;Return: nil&rdquo; means the person did not come back. The party should infer this from context. <em>Many entries have &ldquo;Return: nil.&rdquo;</em></p><p>The two burned entries that read &ldquo;halfling cousin-of-record&rdquo; are exactly the kind of entries Hesp Olfair from Phase 6 is missing. <strong>This is Cam's payoff line.</strong> If Cam is in the party and reads this handout, he should immediately recognise the pattern.</p><p>&ldquo;K.&rdquo; in the hurried margin is Korre. The note is from the period when she was first consolidating route-cleaner control of the registry &mdash; mid-540s CY.</p>"
+      }
+    },
+    {
+      "_id": "BR2P8HoPg4RouteClean",
+      "_key": "!journal.pages!BR2P8HandoutsJrnl.BR2P8HoPg4RouteClean",
+      "name": "Handout 4 — Route-Cleaner Instructions",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 600000,
+      "ownership": { "default": -1 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "text": {
+        "format": 1,
+        "content": "<h1>Handout 4 — Route-Cleaner Instructions</h1><h2>Physical description</h2><p>A single folded sheet of good-quality paper, written in Korre's distinctive sharp script. Recovered from a Route-Cleaner Lead's leather case, the Old Guardroom's locked drawer, or by trade with Korre. The sheet has been folded into thirds. The fold is clean; the paper has not been carried far. <em>This was a recent dispatch.</em></p><h2>Reproduction</h2><blockquote><p><strong>To: site lead, Tarnsmere.</strong></p><p><strong>From: K.</strong></p><p><strong>Standing instructions, current to the date of receipt.</strong></p><ol><li>Surface: scour. Brazier kept. Cairn refreshed weekly. Pressure trap armed. No surface fires beyond the brazier; cleaners eat cold.</li><li>Subsurface: registry sweep on every shift turnover. Burn any folio after extraction. Leave nothing legible. Do not burn the wall ledger; we still read it.</li><li>Door: keep listening tube clear; report any descent. <em>If anyone descends without channel attestation, log only; do not engage at the door.</em> The site is not worth losing the door over.</li><li>Travelers: turn away. Hardby people &mdash; quietly, give them a Hardby reason. Greyhawk people &mdash; quietly, give them a Greyhawk reason. Anyone with attestation, channel them through and report.</li><li>If the site is approached by parties carrying our forged Brass Crow stamps, or carrying Phase 7-grade paperwork, escalate to me directly. Send a runner. Do not engage until I respond.</li><li>If the site is approached by Caelith Dunivar in person &mdash; very unlikely &mdash; do not engage. Withdraw. Send word. He has a particular interest in this site that we do not benefit from making public.</li><li>If the site is approached by the party of [redacted, single line scratched out] &mdash; the party from the Burned Sweep affair &mdash; engage on sight. Lethal if necessary. No survivors at the surface.</li></ol><p>Signed, sealed, dated three weeks prior.</p><p><strong>Margin note, fresher ink:</strong></p><p style=\"margin-left: 1em;\"><em>Per 7: instructions revised. Engage but do not pursue to the door. Lethal at the surface only. Do not let the door be witness to it. &mdash; K.</em></p></blockquote><h2>GM notes</h2><p>Item 7 originally named the party. Korre or one of her senior cleaners scratched the name out later &mdash; <em>cleaning their own paper trail</em>, ironically. The party should be able to read enough of the scratched line to recognise the structure (&ldquo;the party from the Burned Sweep affair&rdquo;) and infer that this is them.</p><p>The margin note is the most interesting line. <em>Korre does not want the door to witness a killing.</em> She thinks the door pays attention. That is information the party should carry into Phase 9.</p>"
+      }
+    },
+    {
+      "_id": "BR2P8HoPg5Token",
+      "_key": "!journal.pages!BR2P8HandoutsJrnl.BR2P8HoPg5Token",
+      "name": "Handout 5 — Tarnsmere Descent Token",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 700000,
+      "ownership": { "default": -1 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "text": {
+        "format": 1,
+        "content": "<h1>Handout 5 — Tarnsmere Descent Token</h1><h2>Physical description</h2><blockquote><p>The token is a flat circular disk of brass-and-tin alloy, dulled to a deep brown by centuries of handling. It is about the size of a large coin &mdash; an inch and an eighth across, perhaps a sixth of an inch thick. Cool against the palm, lighter than it looks.</p><p>The obverse bears a stamped device: a hill in outline, the inside of the hill struck deeper to take a wash of soot or black wax. The blackening on this token has faded to a dark stain, but the recess is clean. Around the hill, in a circle, are the letters <em>&ldquo;P. SVRV. CL.VII&rdquo;</em> &mdash; the abbreviation a clerk would write for &ldquo;Permissive Survey, Class VII.&rdquo;</p><p>The reverse is plainer: a small numeric stamp (a four-digit number, perhaps a folio or account reference) and a single date, &ldquo;487 CY,&rdquo; struck deeply enough that the digits are still sharp.</p><p>The rim is unmilled, slightly scuffed. The token has weight and presence. It feels like something that meant something to someone.</p></blockquote><h2>What the token is</h2><p>It is a <strong>Class VII Permissive Survey descent token</strong>, minted in 487 CY for use at the Tarnsmere Tollhouse. Issued to a permitted descender, retained by the descender during their journey, returned (in theory) on resurfacing. The token is mundane &mdash; no magical properties. Its function is symbolic and mechanical: the door's socket recognises its shape and weight; the registry recognises its number.</p><h2>GM notes</h2><ul><li>The party should be able to recover at least one of these in Phase 8 (from the cairn crevice, Surface Location 2; or the hidden recess in the Toll Vault, Subsurface Location 8). Two is possible.</li><li>The token is the cleanest opening for the Permission Door (Method A). It is also the model the Toll Vault's casting mold replicates.</li><li>The number stamp on the reverse can be cross-referenced to the registry fragments. <em>If the party does this and the number matches an entry with &ldquo;Return: nil,&rdquo; the token they hold belonged to someone who did not come back.</em></li><li>Elle's iron-key ring is functionally identical to this token, but dated 484 CY rather than 487 CY, and with an etched personal-account notation on the rim.</li></ul>"
+      }
+    },
+    {
+      "_id": "BR2P8HoPg6EftWarning",
+      "_key": "!journal.pages!BR2P8HandoutsJrnl.BR2P8HoPg6EftWarning",
+      "name": "Handout 6 — Surveyor's Warning",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 800000,
+      "ownership": { "default": -1 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "text": {
+        "format": 1,
+        "content": "<h1>Handout 6 — Surveyor's Warning (Garrold Eft's last entry)</h1><h2>Physical description</h2><p>A water-stained pocket journal, leather-bound, recovered from a brass-tagged satchel beside the body in the Collapsed Side Passage (Subsurface Location 12). The journal is small &mdash; pocket size, perhaps four inches by six &mdash; with most of the pages stuck together by water damage and rot. The last legible entry is the only entry the party can recover without expert restoration. It is written in a careful, slightly cramped hand. The date is <strong>17th of Patchett, 542 CY</strong>.</p><h2>Reproduction</h2><blockquote><p><em>17th Patchett, 542 CY. Pre-dawn.</em></p><p>If anyone finds this. I am Garrold Eft, Permissive Surveyor of the Aerdy Commercial-Court Network, second seal, route account 4188. I have been at Tarnsmere four months on the formal closure inventory. My instructions were to walk every passage, confirm every counter, and seal what could be sealed. I have done this.</p><p>I am writing because what I have found below is not what we were told below was. I was told, when I took this commission, that we were closing a permitted commercial-descent point that had outlived its commerce. That is true. It is not the whole truth.</p><p>The site is not a tollhouse. It is a witness-post. The descents were not for trade. They were not even mostly for permission. They were for people to <em>see</em>, and to write down what they had seen, and to bring those writings up &mdash; <em>if they could</em> &mdash; for the Permissive Survey to file. The Survey filed them. The filings are not in the public ledgers. They are in a private vault I have not been permitted to enter. I have asked, by formal letter, three times. Three times denied.</p><p>What I have seen, walking this complex alone for four months, is this:</p><p>The descent goes much further than the closure paperwork describes. The Final Threshold Landing is not the end. It is the start of a longer descent. The longer descent is older than the toll system. The toll system was built <em>on top of it</em>. The Aerdy did not make the descent. The Aerdy <em>permitted</em> the descent. They were not the first. They are not the last.</p><p>I have heard, twice in the last week, footsteps on the lower stair when no one of my crew was on it. Once at second hour of night. Once at first hour after dawn. I went to the Final Threshold Landing and listened. I heard footsteps going <em>up</em>. They did not arrive at the landing. They turned aside somewhere I could not see.</p><p>I am writing this here because I cannot send it. Korre's people are watching my paperwork. They are not Survey people; they are her people, and she has taken over the closure paperwork as of two months ago. I do not trust her. I do not trust what she is closing.</p><p>If you are reading this, you have come to a place that has been administered as if it could be administered, and it cannot. The stair admits. The shaft only swallows. Do not be on the shaft side. Do not let yourself be processed through this as a permitted descent. Whatever you do, do not say &ldquo;Witness given&rdquo; without knowing what you are witnessing.</p><p>I am going to try to leave tomorrow. I do not think I will be permitted to.</p><p>&mdash; Garrold Eft</p></blockquote><h2>GM notes</h2><p>This is one of the most important pieces of paper in the entire campaign. The party should sit with it for as long as they want.</p><ul><li>The line <em>&ldquo;The stair admits. The shaft only swallows.&rdquo;</em> is the Phase 8 mantra. It contrasts the door (paperwork, admittance) with the dry well / surface shaft (mortality, swallowing). It is also a hint for Phase 9: <strong>the stair is the way down, but the shaft is the wrong way down.</strong></li><li>Eft confirms the descent goes much further than this complex. <strong>The party now knows Phase 9 is real and there is an even longer descent below.</strong></li><li>Eft mentions a &ldquo;private vault&rdquo; where descent filings are kept. <em>This is a Phase 10 hook</em> &mdash; the Aerdy Commercial-Court Network has the records of what every descender ever witnessed. The party may want them.</li><li>Eft does <em>not</em> name what is below. He does not confirm any specific entity. He says &ldquo;the descent is older than the toll system,&rdquo; which is true and frightening and consistent with the player-text constraint that the party not be told what is down there.</li><li>Eft mentions footsteps going up. This is real. <em>Something does come up sometimes.</em> The party should carry this into Phase 9.</li></ul>"
+      }
+    },
+    {
+      "_id": "BR2P8HoPg7Lintel",
+      "_key": "!journal.pages!BR2P8HandoutsJrnl.BR2P8HoPg7Lintel",
+      "name": "Handout 7 — Final Lintel Inscription",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 900000,
+      "ownership": { "default": -1 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "text": {
+        "format": 1,
+        "content": "<h1>Handout 7 — The Final Lintel Inscription</h1><h2>Physical description</h2><blockquote><p>At the bottom of the Stair Gallery, a final landing opens. The landing is roughly fifteen feet square. The far wall is not a door. It is the mouth of a passage that continues downward, into older stone. The passage is wider than anything else in the threshold complex &mdash; broad enough for four to walk abreast &mdash; and its ceiling rises to perhaps twelve feet.</p><p>Set into the lintel above the passage's mouth, in stone older than the Aerdy lintel above the Permission Door, is an inscription. The script is not Aerdy commercial. It is older &mdash; an early form of common script, written in a hand that the Aerdy clerks who later worked here would have learned to read in a single afternoon's training, but that no one writes anymore. The inscription is four lines.</p></blockquote><h2>Reproduction</h2><blockquote><p style=\"text-align: center; font-style: italic;\">This place was opened in the year</p><p style=\"text-align: center; font-style: italic;\">that the road was first paid for.</p><p style=\"text-align: center; font-style: italic;\">This place was already old.</p><p style=\"text-align: center; font-style: italic;\">It is not for those who arrive.</p><p style=\"text-align: center; font-style: italic;\">It is for those who come back.</p></blockquote><h2>GM notes</h2><p>This is the Phase 8 ending mark. Reach this landing and the players have completed Phase 8. The inscription serves as the threshold between Phase 8 and Phase 9.</p><ul><li><strong>&ldquo;The year that the road was first paid for&rdquo;</strong> refers to the founding of the Aerdy permissive-toll system, mid-4th century CY. The inscription claims the descent predates that &mdash; <em>by which it confirms what Eft's journal already said.</em></li><li><strong>&ldquo;It is not for those who arrive&rdquo;</strong> is structural &mdash; the descent does not welcome newcomers. It welcomes returners. <em>The party are arrivers.</em></li><li><strong>&ldquo;It is for those who come back&rdquo;</strong> is a Phase 9 promise: the party will become returners. They cannot avoid this if they descend.</li><li>The inscription is in a script that is not the Aerdy commercial script of the rest of the complex. <em>Whoever wrote this was not the toll-builders.</em> Older. Other. The party can speculate freely.</li><li>The handout should be given <em>after</em> the Phase 8 ending read-aloud (&ldquo;Above you, the world keeps its accounts. Below, something has been keeping yours.&rdquo;) &mdash; let the read-aloud land first, then put the inscription on the table.</li></ul>"
+      }
+    }
+  ],
+  "folder": null,
+  "sort": 6000000,
+  "flags": {},
+  "ownership": { "default": -1 },
+  "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null }
+}

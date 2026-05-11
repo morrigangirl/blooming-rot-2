@@ -32,6 +32,8 @@ const PACKS = [
   "phase-6-scenes",
   "phase-7-journals",
   "phase-7-actors",
+  "phase-8-journals",
+  "phase-8-actors",
   "pc-threads",
   "aerdy-network",
   "aerdy-network-actors",

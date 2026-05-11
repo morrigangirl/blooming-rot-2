@@ -31,13 +31,22 @@ const MACRO_IMG = "icons/svg/dice-target.svg";
 
 // === The macro script body ===
 //
-// Runs inside the user's Foundry world. Walks each BR2 actor pack, finds
-// each item's real PHB/DMG/MM 2024 counterpart by NAME, and replaces the
-// bundled stub with the real document — proper icons, weapon masteries,
-// official rules text. Items without a match (custom BR2 gear, NPC
-// features) stay exactly as shipped.
+// Runs inside the user's Foundry world. Walks the world's imported BR2
+// actors (game.actors), finds each item's real PHB/DMG/MM 2024 counterpart
+// by NAME, and replaces the bundled stub with the real document — proper
+// icons, weapon masteries, official rules text. Items without a match
+// (custom BR2 gear, NPC features) stay exactly as shipped.
 //
-// Idempotent. GM-only. Reports a chat summary whispered to the runner.
+// IMPORTANT: This operates on actors IMPORTED INTO THE WORLD, not on the
+// compendium packs themselves. Foundry does not permit persistent
+// modification of a module's shipped compendium packs, so the workflow is:
+//
+//   1. Import the BR2 actors you want into the world (drag from compendium,
+//      or right-click compendium → Import All Content).
+//   2. Run this macro. It relinks the world-imported actors' items.
+//   3. Drag those actors to the table as needed.
+//
+// Re-run this any time you import new BR2 actors. Idempotent. GM-only.
 
 const COMMAND = `(async () => {
   if (!game.user.isGM) {
@@ -51,21 +60,13 @@ const COMMAND = `(async () => {
     "dnd-monster-manual"
   ];
 
-  const TARGET_PACK_IDS = [
-    "blooming-rot-2.phase-1-actors",
-    "blooming-rot-2.phase-2-actors",
-    "blooming-rot-2.phase-3-actors",
-    "blooming-rot-2.phase-4-actors",
-    "blooming-rot-2.phase-5-actors"
-  ];
-
   const PACK_PRIORITY = [
     "dnd-players-handbook",
     "dnd-dungeon-masters-guide",
     "dnd-monster-manual"
   ];
 
-  // Collect Item-type source packs from any installed PHB/DMG/MM module.
+  // ---- guard 1: source modules installed? ----
   const sourcePacks = game.packs.filter(p =>
     SOURCE_PACK_PREFIXES.some(prefix => p.collection.startsWith(prefix)) &&
     p.documentName === "Item"
@@ -87,7 +88,46 @@ const COMMAND = `(async () => {
     return;
   }
 
-  ui.notifications.info(\`BR2 relink: indexing \${sourcePacks.length} source pack(s)...\`);
+  // ---- guard 2: find BR2 actors imported into the world ----
+  //
+  // A world actor is "from BR2" if either:
+  //   - its core.sourceId flag points at a Compendium.blooming-rot-2.* pack
+  //   - or its blooming-rot-2 flag block is present
+  //   - or (fallback) it came in via Import All Content and we can detect
+  //     the original compendium via _stats.compendiumSource.
+  //
+  // This catches actors imported by drag, by "Import All Content", and by
+  // any folder organisation the user has applied afterward.
+  const isBR2Actor = (a) => {
+    const sid = a?.flags?.core?.sourceId;
+    if (sid && typeof sid === "string" && sid.includes("blooming-rot-2.")) return true;
+    if (a?.flags?.["blooming-rot-2"]) return true;
+    const cs = a?._stats?.compendiumSource;
+    if (cs && typeof cs === "string" && cs.includes("blooming-rot-2.")) return true;
+    return false;
+  };
+
+  const br2Actors = game.actors.filter(isBR2Actor);
+
+  if (br2Actors.length === 0) {
+    ChatMessage.create({
+      content: \`<h3>Blooming Rot 2 — Relink</h3>
+        <p><strong>No imported BR2 actors found in this world.</strong></p>
+        <p>Foundry does not permit persistent modification of a module's compendium packs,
+        so this macro relinks <em>world-imported</em> actors. To use it:</p>
+        <ol>
+          <li>Open the Compendium tab, expand each <strong>Blooming Rot 2 &mdash; Phase N &mdash; NPCs</strong> pack.</li>
+          <li>Right-click the pack &rarr; <strong>Import All Content</strong> into a folder (e.g. "BR2 &mdash; Phase 1").</li>
+          <li>(Or drag individual actors as you need them.)</li>
+          <li>Re-run this macro.</li>
+        </ol>
+        <p><em>This macro can be run as many times as you like; it skips already-linked items and reports new ones.</em></p>\`,
+      whisper: [game.user.id]
+    });
+    return;
+  }
+
+  ui.notifications.info(\`BR2 relink: \${br2Actors.length} BR2 actor(s) in world; indexing \${sourcePacks.length} source pack(s)...\`);
 
   // ---- name normalization ----
   const normalize = (s) => String(s ?? "")
@@ -97,7 +137,7 @@ const COMMAND = `(async () => {
     .replace(/\\s+/g, " ")
     .trim();
 
-  // ---- build name -> [matches] index ----
+  // ---- build name -> [matches] index from PHB/DMG/MM ----
   const nameIndex = new Map();
   for (const pack of sourcePacks) {
     let index;
@@ -134,76 +174,77 @@ const COMMAND = `(async () => {
     return ranked[0];
   };
 
-  // ---- walk BR2 actor packs, relink ----
+  // ---- check if an item is already linked to PHB/DMG/MM ----
+  const isAlreadyLinked = (item) => {
+    const sid = item?.flags?.core?.sourceId
+      ?? item?._stats?.compendiumSource
+      ?? item?._source?.flags?.core?.sourceId;
+    if (!sid || typeof sid !== "string") return false;
+    return SOURCE_PACK_PREFIXES.some(p => sid.includes(\`Compendium.\${p}\`));
+  };
+
+  // ---- walk world actors, relink ----
   const stats = {
-    actors: 0,
+    actors: br2Actors.length,
+    actorsTouched: 0,
     linked: 0,
+    alreadyLinked: 0,
     skipped: 0,
     missing: [],
     errors: []
   };
 
-  for (const packId of TARGET_PACK_IDS) {
-    const pack = game.packs.get(packId);
-    if (!pack) {
-      console.warn("BR2 relink: target pack not found:", packId);
-      continue;
-    }
-    const wasLocked = pack.locked;
-    if (wasLocked) await pack.configure({ locked: false });
-    try {
-      const actors = await pack.getDocuments();
-      for (const actor of actors) {
-        stats.actors++;
-        const updates = [];
-        for (const item of actor.items) {
-          const candidates = nameIndex.get(normalize(item.name)) ?? [];
-          const best = pickBestMatch(item, candidates);
-          if (!best) {
-            stats.skipped++;
-            stats.missing.push(\`\${actor.name}: \${item.name}\`);
-            continue;
-          }
-          let sourceDoc;
-          try {
-            sourceDoc = await fromUuid(best.uuid);
-          } catch (err) {
-            console.warn("BR2 relink: failed to load", best.uuid, err);
-            stats.errors.push(\`\${actor.name}: \${item.name} (load failed)\`);
-            continue;
-          }
-          if (!sourceDoc) {
-            stats.errors.push(\`\${actor.name}: \${item.name} (not found)\`);
-            continue;
-          }
-          const sourceData = sourceDoc.toObject();
-          delete sourceData._id;
-          const merged = foundry.utils.mergeObject(
-            sourceData,
-            {
-              _id: item.id,
-              flags: foundry.utils.mergeObject(
-                sourceData.flags ?? {},
-                { core: { sourceId: best.uuid } },
-                { inplace: false }
-              )
-            },
-            { inplace: false }
-          );
-          updates.push(merged);
-          stats.linked++;
-        }
-        if (updates.length) {
-          try {
-            await actor.updateEmbeddedDocuments("Item", updates);
-          } catch (err) {
-            console.error("BR2 relink: update failed for", actor.name, err);
-            stats.errors.push(\`\${actor.name}: bulk update failed\`);
-          }
-        }
+  for (const actor of br2Actors) {
+    const updates = [];
+    for (const item of actor.items) {
+      if (isAlreadyLinked(item)) {
+        stats.alreadyLinked++;
+        continue;
       }
-    } finally {
-      if (wasLocked) await pack.configure({ locked: true });
+      const candidates = nameIndex.get(normalize(item.name)) ?? [];
+      const best = pickBestMatch(item, candidates);
+      if (!best) {
+        stats.skipped++;
+        stats.missing.push(\`\${actor.name}: \${item.name}\`);
+        continue;
+      }
+      let sourceDoc;
+      try {
+        sourceDoc = await fromUuid(best.uuid);
+      } catch (err) {
+        console.warn("BR2 relink: failed to load", best.uuid, err);
+        stats.errors.push(\`\${actor.name}: \${item.name} (load failed)\`);
+        continue;
+      }
+      if (!sourceDoc) {
+        stats.errors.push(\`\${actor.name}: \${item.name} (not found)\`);
+        continue;
+      }
+      const sourceData = sourceDoc.toObject();
+      delete sourceData._id;
+      const merged = foundry.utils.mergeObject(
+        sourceData,
+        {
+          _id: item.id,
+          flags: foundry.utils.mergeObject(
+            sourceData.flags ?? {},
+            { core: { sourceId: best.uuid } },
+            { inplace: false }
+          )
+        },
+        { inplace: false }
+      );
+      updates.push(merged);
+      stats.linked++;
+    }
+    if (updates.length) {
+      try {
+        await actor.updateEmbeddedDocuments("Item", updates);
+        stats.actorsTouched++;
+      } catch (err) {
+        console.error("BR2 relink: update failed for", actor.name, err);
+        stats.errors.push(\`\${actor.name}: bulk update failed\`);
+      }
     }
   }
 
@@ -216,15 +257,16 @@ const COMMAND = `(async () => {
     : "";
   ChatMessage.create({
     content: \`<h3>Blooming Rot 2 — Relink Complete</h3>
-      <p><strong>\${stats.actors}</strong> actors processed.</p>
-      <p><strong>\${stats.linked}</strong> items linked to PHB/DMG/MM.</p>
-      <p><strong>\${stats.skipped}</strong> items skipped (no PHB/DMG/MM match).</p>
+      <p><strong>\${stats.actors}</strong> BR2 actors found in the world (<strong>\${stats.actorsTouched}</strong> modified).</p>
+      <p><strong>\${stats.linked}</strong> items newly linked to PHB/DMG/MM.</p>
+      <p><strong>\${stats.alreadyLinked}</strong> items already linked (skipped).</p>
+      <p><strong>\${stats.skipped}</strong> items with no PHB/DMG/MM match (kept as-is — likely custom BR2 gear or unique NPC features).</p>
       \${skippedHtml}
       \${errorHtml}
-      <p><em>Idempotent — re-running is safe.</em></p>\`,
+      <p><em>Idempotent — re-run after importing more actors.</em></p>\`,
     whisper: [game.user.id]
   });
-  ui.notifications.info(\`BR2 relink: \${stats.linked} linked, \${stats.skipped} skipped, \${stats.errors.length} errors.\`);
+  ui.notifications.info(\`BR2 relink: \${stats.linked} newly linked, \${stats.alreadyLinked} already linked, \${stats.skipped} no match, \${stats.errors.length} errors.\`);
 })();
 `;
 

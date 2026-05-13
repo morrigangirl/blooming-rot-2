@@ -1,0 +1,177 @@
+{
+  "_key": "!journal!BR2P9HandoutsJrnl",
+  "_id": "BR2P9HandoutsJrnl",
+  "name": "Phase 9 — Player Handouts",
+  "pages": [
+    {
+      "_id": "BR2P9HoPgIndex",
+      "_key": "!journal.pages!BR2P9HandoutsJrnl.BR2P9HoPgIndex",
+      "name": "Handout Index & Reveal Timing",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 100000,
+      "ownership": { "default": -1 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "text": {
+        "format": 1,
+        "content": "<h1>Phase 9 &mdash; Player Handouts</h1><p>Phase 9 ships with <strong>ten</strong> player-facing handouts. Most are short. All are designed to be artifacts &mdash; objects from the route's procedural world that the party can hold, photograph, sketch, or carry home as evidence.</p><h2>The ten handouts</h2><ol><li><strong>Handout 1 &mdash; Final Surface Inscription</strong> (the eighth landing's lintel text).</li><li><strong>Handout 2 &mdash; Witness Tally Fragment</strong> (the H.V.A. registry column, with surrounding marks).</li><li><strong>Handout 3 &mdash; Conversion Note</strong> (the half-finished surface-to-route conversion from the Old Route Office).</li><li><strong>Handout 4 &mdash; Recovery Crate Tag</strong> (the stone tag from the Supply Cache that connects crop damage to bonded claim filings).</li><li><strong>Handout 5 &mdash; Furnace Scrap</strong> (the &ldquo;Blooming was proof. Rot was proof. Recovery was the question.&rdquo; slip).</li><li><strong>Handout 6 &mdash; Warden Instruction Strip</strong> (Savax's standing instructions, recovered from the Warden Post).</li><li><strong>Handout 7 &mdash; The Unclaimed Witness Statement</strong> (Merrit Osk's broken statement, optional).</li><li><strong>Handout 8 &mdash; Lower Route Marks</strong> (the three lintel marks at the Lower Route Fork: recovery, escort, supply).</li><li><strong>Handout 9 &mdash; Black Ledger Gate Inscription</strong> (the gate's policy statement).</li><li><strong>Handout 10 &mdash; Caelith's Last Surface Note</strong> (already in the Arrival journal; reproduced for printing).</li></ol><h2>Reveal timing</h2><table><tbody><tr><th>Handout</th><th>Location / scene</th><th>Trigger</th></tr><tr><td>1. Final Surface Inscription</td><td>Final Surface Landing (Loc 1)</td><td>Arrival; auto-given.</td></tr><tr><td>2. Witness Tally Fragment</td><td>Witness Registry Wall (Loc 3)</td><td>Investigation DC 15 or wax impression; before Record Destruction reaches 4.</td></tr><tr><td>3. Conversion Note</td><td>Old Route Office (Loc 5)</td><td>Found on the desk on arrival in the room.</td></tr><tr><td>4. Recovery Crate Tag</td><td>Supply Cache (Loc 7)</td><td>Investigation DC 15 connecting crate marks to claims; before Record Destruction reaches 5.</td></tr><tr><td>5. Furnace Scrap</td><td>Burn Furnace (Loc 8)</td><td>Investigation DC 14 to grab before it's fed to fire; before Record Destruction reaches 2.</td></tr><tr><td>6. Warden Instruction Strip</td><td>Warden Post (Loc 12)</td><td>On the desk; Investigation DC 14 to find among other documents.</td></tr><tr><td>7. Unclaimed Witness Statement</td><td>Sealed Witness Cell (Loc 9)</td><td>If Merrit Osk is present and the party speaks to her; Persuasion DC 13.</td></tr><tr><td>8. Lower Route Marks</td><td>Marker Gallery (Loc 11) or Lower Route Fork (Loc 14)</td><td>Auto-given when reached; Investigation DC 15 distinguishes fresh from old.</td></tr><tr><td>9. Black Ledger Gate Inscription</td><td>Black Ledger Gate (Loc 13)</td><td>Auto-given when reached.</td></tr><tr><td>10. Caelith's Last Surface Note</td><td>Pre-descent or beginning of Phase 9</td><td>Optional; GM choice.</td></tr></tbody></table><h2>How to use them at the table</h2><ul><li><strong>Physical play:</strong> print each at quarter-page or postcard size on cardstock. Stain or scorch the edges of Handouts 3, 5, and 7 for atmosphere. Cut Handouts 2 and 6 with a deliberately irregular edge as if torn from larger documents.</li><li><strong>Virtual play:</strong> drop each page directly into chat or use Foundry's journal-handout system. Each page is self-contained.</li><li><strong>Stagger reveals.</strong> Don't give the party more than two handouts in a single scene unless the scene specifically calls for it. Let each one land.</li></ul><h2>A note on the route's language</h2><p>Several handouts are partly in <em>route shorthand</em> &mdash; a compressed, glyph-like form of Aerdy commercial-court script. The handouts reproduce both the visible shorthand and a parenthetical translation. <strong>The translation is for the player, not for the PC.</strong> PCs need to make checks (Investigation, History, Arcana, depending) to actually read the shorthand. The translation is an aid to running the table.</p>"
+      }
+    },
+    {
+      "_id": "BR2P9HoPg1Inscription",
+      "_key": "!journal.pages!BR2P9HandoutsJrnl.BR2P9HoPg1Inscription",
+      "name": "Handout 1 — Final Surface Inscription",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 200000,
+      "ownership": { "default": -1 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "text": {
+        "format": 1,
+        "content": "<h1>Handout 1 &mdash; Final Surface Inscription</h1><h2>Visible text (on the eighth landing's lintel)</h2><blockquote><p style=\"text-align: center; font-style: italic; font-size: 1.2em;\">Accounts above. Witness below.</p></blockquote><h2>Physical description</h2><p>The inscription is cut in early Aerdy commercial script (mid-5th century CY) into a single block of pale-grey dressed stone above the upper end of the Final Surface Landing's archway. The cuts have been re-deepened recently; the dust has been brushed from the lines within the last month. The brushing pattern suggests a left-handed clerk.</p><h2>GM notes</h2><ul><li>This is the same phrase as the Phase 8 Permission Door's lintel. <em>The route uses it twice</em>: once at the surface threshold above, once at the start of the under-road. The repetition is not redundancy; it is the route restating its boundary.</li><li>If the party records this inscription and brings it back to surface, it is a useful piece for re-establishing the connection between Phase 8 and Phase 9 evidence.</li></ul>"
+      }
+    },
+    {
+      "_id": "BR2P9HoPg2WitnessTally",
+      "_key": "!journal.pages!BR2P9HandoutsJrnl.BR2P9HoPg2WitnessTally",
+      "name": "Handout 2 — Witness Tally Fragment",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 300000,
+      "ownership": { "default": -1 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "text": {
+        "format": 1,
+        "content": "<h1>Handout 2 &mdash; Witness Tally Fragment</h1><h2>Physical description</h2><p>A small wax impression (or, if the party recovered a piece of the wall, a small block of carved stone). The fragment represents one column of the Witness Registry Wall, approximately 12 inches tall and 1.5 inches wide. It bears the column for the entry filed under the temporary surface name &ldquo;Andren&rdquo; (Haskur Vandrell's surface alias).</p><h2>Reproduction of marks (translated)</h2><blockquote><p style=\"text-align: center;\"><em>[At the top of the column, in fresh chip-cuts:]</em></p><p style=\"text-align: center;\"><strong>Status:</strong> recovered cargo.<br><strong>Direction:</strong> descent (continued).<br><strong>Authority:</strong> [Kethren's courier mark &mdash; thin vertical stroke crossed at three-quarter height].<br><strong>Outcome:</strong> witnessed, recoverable, <em>conditional unreliable</em>.</p><p style=\"text-align: center;\"><em>[Below, scraped clean but visible as a ghost-impression:]</em></p><p style=\"text-align: center;\">[surface name attached &mdash; <em>Andren</em>]</p><p style=\"text-align: center;\"><em>[Below that, the column continues with entries for other transfers, in compressed route shorthand. Two are circled in chalk:]</em></p><p style=\"text-align: center;\">[Halfling cousin entries &mdash; two names, partial: <em>...mab Cain..., ...ren of Hookwood...</em>]</p><p style=\"text-align: center;\"><em>[At the column's head, above Andren's entry, a higher-authority mark:]</em></p><p style=\"text-align: center;\">[Shallow arc with three small notches at its base. Unfamiliar.]</p></blockquote><h2>GM notes</h2><ul><li>This is the single most important Phase 9 handout for connecting Haskur to the conspiracy as a <em>recovered asset rather than a mastermind</em>.</li><li>&ldquo;Conditional unreliable&rdquo; outcome is unusual. Most transfers have clean outcomes (witnessed, complete, recoverable, lost). This is the route flagging that Haskur cannot be fully trusted &mdash; either by the surface conspiracy or by the route itself. The party should infer.</li><li>The two halfling cousin entries are <strong>Cam's payoff</strong> if he is in the party. The names should be the same partial names from the Phase 8 Tarnsmere Registry Fragment (Handout 3 of Phase 8). <em>This is Cam's confirmation that the same machinery moved his people.</em></li><li>The higher-authority mark at the column's head is the deeper-authority mark (&ldquo;E.&rdquo;'s mark in its route form). Do not confirm. Let the party carry it back.</li></ul>"
+      }
+    },
+    {
+      "_id": "BR2P9HoPg3ConversionNote",
+      "_key": "!journal.pages!BR2P9HandoutsJrnl.BR2P9HoPg3ConversionNote",
+      "name": "Handout 3 — Conversion Note",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 400000,
+      "ownership": { "default": -1 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "text": {
+        "format": 1,
+        "content": "<h1>Handout 3 &mdash; Conversion Note</h1><h2>Two artifacts presented together</h2><p>This handout reproduces the <strong>surface packet</strong> on the Old Route Office desk and the <strong>route summary tablet</strong> beside it. Their juxtaposition is the point: same content, two languages, two procedures, one obligation.</p><h3>The surface packet (Korre channel directive)</h3><blockquote><p>Per channel authorisation:</p><p>Andren cleared for recovery; escort assigned (K.); deliver below; surface name to be filed in dead-name registry. Korre signs and seals. Channel closes after this dispatch.</p><p><em>V. Korre, Greyhawk channel, 14th of Patchett, 591 CY.</em></p></blockquote><h3>The route summary tablet (translated from route shorthand)</h3><blockquote><p>Surface names converted.<br>Korre channel closed.<br>Andren unreliable.<br>Escort carries second page.<br>Witness below only after tally.</p></blockquote><h2>GM notes</h2><ul><li>The party can read both texts side by side. The route summary is <em>not</em> a literal translation of the surface packet &mdash; it adds annotations. &ldquo;Andren unreliable&rdquo; was added by the route clerk doing the conversion, not by Korre.</li><li>&ldquo;Second page&rdquo; refers to a sealed dispatch that Kethren carries with him onward. The party will not find it at the waystation; it is below.</li><li>If Iren or Caelith ever sees these two texts together, it is the cleanest proof so far that <strong>surface authorities are formally feeding people into a system the route administers</strong>. Korre's authority is real, written, and signed.</li><li>The date &ldquo;14th of Patchett, 591 CY&rdquo; should be roughly two weeks before the campaign's current in-fiction date. Adjust to match your campaign timeline.</li></ul>"
+      }
+    },
+    {
+      "_id": "BR2P9HoPg4CrateTag",
+      "_key": "!journal.pages!BR2P9HandoutsJrnl.BR2P9HoPg4CrateTag",
+      "name": "Handout 4 — Recovery Crate Tag",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 500000,
+      "ownership": { "default": -1 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "text": {
+        "format": 1,
+        "content": "<h1>Handout 4 &mdash; Recovery Crate Tag</h1><h2>Physical description</h2><p>A small stone disc, approximately two inches across and half an inch thick. The disc is dark grey, almost black, and bears route marks on both faces. It has a single thread hole along the rim, through which a piece of grey twine has been threaded. The twine bears a faint waxy residue.</p><h2>Reproduction (translated)</h2><blockquote><p><strong>Obverse:</strong></p><p style=\"margin-left: 1em;\">Sample code: HRD-87-3 / Blooming Rot, Hardby seed stock, batch 3.</p><p style=\"margin-left: 1em;\">Recovery.</p><p style=\"margin-left: 1em;\">Damage confirmed: yes (early stage).</p><p style=\"margin-left: 1em;\">Claim precedes loss: <strong>yes</strong>.</p><p style=\"margin-left: 1em;\">Surface panic acceptable: <strong>yes</strong>.</p><p><strong>Reverse:</strong></p><p style=\"margin-left: 1em;\">Bonded claim reference: CV-487/H-220.</p><p style=\"margin-left: 1em;\">Surface processor: Cindren &amp; Vhal (Hardby branch).</p><p style=\"margin-left: 1em;\">Recovery destination: [route mark, illegible / second waystation].</p><p style=\"margin-left: 1em;\">Route authorisation: [Kethren's escort mark + the deeper-authority mark].</p></blockquote><h2>GM notes</h2><ul><li><strong>This is the single document that proves Blooming Rot was a planned recovery operation, not a reactive one.</strong> The phrase &ldquo;claim precedes loss: yes&rdquo; means the bonded claim was filed <em>before</em> the surface damage was visible. That is, in surface legal terms, fraud, conspiracy, and possibly worse depending on how courts read it.</li><li>The bonded claim reference (CV-487/H-220) can be cross-referenced to <strong>Phase 2 evidence</strong> if the party kept their Phase 2 receipts. The reference number ties this crate to a specific Doman receipt the party recovered.</li><li>&ldquo;Surface panic acceptable&rdquo; is the line that tells the party the conspiracy <em>tolerated</em> public panic as part of the test. They did not want to avoid it; they wanted to measure it.</li><li>The deeper-authority mark on the reverse is the same shallow arc with three notches that appears at the head of the Witness Tally column and on the Warden Post lintel. Pattern recognition for the party.</li><li>For Caelith, this is the document that turns Blooming Rot from a tragedy into a crime. He needs it.</li></ul>"
+      }
+    },
+    {
+      "_id": "BR2P9HoPg5FurnaceScrap",
+      "_key": "!journal.pages!BR2P9HandoutsJrnl.BR2P9HoPg5FurnaceScrap",
+      "name": "Handout 5 — Furnace Scrap",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 600000,
+      "ownership": { "default": -1 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "text": {
+        "format": 1,
+        "content": "<h1>Handout 5 &mdash; Furnace Scrap</h1><h2>Physical description</h2><p>A small folded paper slip, approximately three inches square, with one edge slightly charred. The paper is the same kind used in Aerdy commercial-court documents &mdash; a creamy off-white with very faint laid lines. The folding is precise; this was folded by a clerk's hand, not someone's pocket.</p><p>One side bears, in surface ink and surface hand, a single word:</p><h3>Side A (surface name)</h3><blockquote><p style=\"text-align: center; font-style: italic; font-size: 1.2em;\">Andren</p></blockquote><p>The other side bears, in a different ink and a different hand &mdash; a route clerk's hand, but with unusual care &mdash; a single line:</p><h3>Side B (the line)</h3><blockquote><p style=\"text-align: center; font-style: italic; font-size: 1.1em;\">Blooming was proof. Rot was proof. Recovery was the question.</p></blockquote><h2>GM notes</h2><ul><li><strong>This is the thematic centerpiece of Phase 9.</strong> The line summarises what the conspiracy actually did. The party should hold it for a long beat at the table.</li><li>The line was written by a route clerk on a slip about to be destroyed. The clerk knew it would never be read by an outsider. They wrote it anyway. <em>Insight DC 16 reads this as a clerk's editorial gloss &mdash; a moment of intellectual honesty in a job that did not require it.</em></li><li>The handwriting on Side B is different from any of the other route hands the party has seen in this waystation. <em>The clerk who wrote it is not currently here.</em> If the party tracks this hand in later phases, they may find the writer.</li><li>For surface authorities, this single line is the most effective summary the party can bring. Iren can read it in one second. Caelith will not put it down for ten minutes.</li><li><strong>Carry-forward:</strong> note for Phase 10. The clerk who wrote this line is one of the few route personnel with a conscience. If the party seeks them out, they may be a Phase 10 ally.</li></ul>"
+      }
+    },
+    {
+      "_id": "BR2P9HoPg6WardenStrip",
+      "_key": "!journal.pages!BR2P9HandoutsJrnl.BR2P9HoPg6WardenStrip",
+      "name": "Handout 6 — Warden Instruction Strip",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 700000,
+      "ownership": { "default": -1 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "text": {
+        "format": 1,
+        "content": "<h1>Handout 6 &mdash; Warden Instruction Strip</h1><h2>Physical description</h2><p>A narrow strip of paper, approximately 8 inches long and 1.5 inches tall, folded in thirds. The paper is route-issued: slightly waxy, resistant to water damage, with a small route mark stamped at one end. The strip has been used regularly enough that the folds are softened; this is a working document.</p><h2>Reproduction</h2><blockquote><p><strong>To:</strong> Route Warden, Witness Station Seven.<br><strong>Standing instructions, current to receipt.</strong></p><ol><li>Admit courier with seven-cut authority (Kethren). Provide escort, witness, or recovery support as he indicates. Do not query his authority above this station.</li><li>Hold recovered surface asset (Andren) until witnessed. Holding may extend; do not move asset onward without route-channel confirmation.</li><li>Burn surface copy of Andren paperwork. Surface name &ldquo;Andren&rdquo; is not to be filed in any registry beyond the current entry.</li><li>Do not preserve Andren's spoken name in any registry. If asset speaks his name during transit, do not record. If asset insists, record as substitute mark.</li><li>If trespassers descend, correct category before removal. Lethal force is authorised only after correction is offered and refused. Surface intruders to be classified as: surface witness, corrected trespasser, recovered asset, or cargo. The classification is yours.</li><li>Defer all questions of higher authority to channel beyond Black Ledger Gate. The route's deeper figures will respond to formally filed queries; do not pursue informally.</li></ol><p><em>Filed by:</em> [unreadable mark; route shorthand for &ldquo;authorising clerk, channel above this station.&rdquo;]</p></blockquote><h2>GM notes</h2><ul><li>This document is <strong>Savax's current operating brief</strong>. It was filed by a route clerk who reports to whoever wrote it, who in turn reports to the deeper-authority mark.</li><li><strong>Item 5 is the most important line</strong>: the route's default response to trespassers is to <em>classify them</em>, not to kill them. Killing is a fallback after classification fails. This is why Method E (False Category) works at the Black Ledger Gate &mdash; the route would rather have a category for the party than have a fight.</li><li>Item 4 (&ldquo;do not preserve Andren's spoken name&rdquo;) reveals the route's discomfort with surface identities. The route does not want Haskur to be Haskur. It wants him to be a category.</li><li>Item 6 confirms the deeper authority operates through formal channels only. The party cannot get to the deeper authority by knocking; they have to file paperwork. This is the campaign's signature horror in one bureaucratic line.</li><li>The unreadable mark at the bottom is the filing clerk's signature &mdash; <em>not</em> the deeper authority's mark. The deeper authority's mark appears on the Witness Registry Wall, the Marker Gallery lintel, and the Recovery Crate Tag, but does <em>not</em> sign warden instructions. They delegate.</li></ul>"
+      }
+    },
+    {
+      "_id": "BR2P9HoPg7Witness",
+      "_key": "!journal.pages!BR2P9HandoutsJrnl.BR2P9HoPg7Witness",
+      "name": "Handout 7 — The Unclaimed Witness Statement",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 800000,
+      "ownership": { "default": -1 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "text": {
+        "format": 1,
+        "content": "<h1>Handout 7 &mdash; The Unclaimed Witness Statement</h1><p><em>Optional. Use only if Merrit Osk is present and the party engages with her in conversation.</em></p><h2>How this handout is generated</h2><p>The party speaks to Merrit (the Unclaimed Witness, found in the Sealed Witness Cell). She does not have paper. The party offers her one of their own scraps and a pencil. She writes, in short broken sentences, with the precise hand of someone who has been a clerk all her working life.</p><h2>What Merrit writes</h2><blockquote><p>They asked my name above. Below they asked what I proved.</p><p>I was a courier for a Kestrel and Reed branch in Hardby. I carried sealed packets. I did not open them. I was paid well. I did not ask why.</p><p>One day I was asked to come below for an interview. The interview was held here, in this room. The interviewer was a man in grey-and-bone clothing whose face I do not remember &mdash; not because I did not see it, but because I cannot recall it now. I have tried.</p><p>The interviewer asked me three questions. What did I know. Whom did I know. Whether I had told anyone. I answered truthfully.</p><p>He left.</p><p>I have been here three weeks. I think. The wax on the personal hole was fresh when I arrived. They bring water through the slot. They have asked me nothing further.</p><p>I am, I think, awaiting transfer. I do not want to be transferred. I want to go home. My mother is in the Free Quarter. She lives at fourteen Cooper's Lane. If I do not come home she will think I am dead. She will be partly correct.</p><p>I am sorry I have nothing better to write you. I am not sure what I have proved.</p><p>&mdash; Merrit Osk</p></blockquote><h2>GM notes</h2><ul><li>This handout is one of the most affecting in the campaign. The party should sit with it.</li><li>Merrit's description of the &ldquo;interviewer&rdquo; in &ldquo;grey-and-bone clothing&rdquo; is Kethren or a courier of his type. <strong>She does not remember his face.</strong> Do not over-explain. The party can speculate. Religion DC 17 or Arcana DC 16 can note that this kind of selective amnesia is rare; it does not happen from ordinary surface causes.</li><li>&ldquo;What did I know. Whom did I know. Whether I had told anyone.&rdquo; &mdash; the interview was a procedural audit. The route was determining whether to recall, recover, or hold her.</li><li>Merrit's mother &mdash; if the party survives to return to surface and notify her &mdash; is a Phase 10 or 11 hook. The hook should be quiet, not melodramatic. The mother is a simple person who has missed her daughter for three weeks.</li><li>If Merrit accompanies the party out of the waystation, the statement can be presented later to surface authorities as a sworn statement. <em>It is one of the only first-person accounts of route procedure that has ever reached the surface.</em></li></ul>"
+      }
+    },
+    {
+      "_id": "BR2P9HoPg8LowerMarks",
+      "_key": "!journal.pages!BR2P9HandoutsJrnl.BR2P9HoPg8LowerMarks",
+      "name": "Handout 8 — Lower Route Marks",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 900000,
+      "ownership": { "default": -1 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "text": {
+        "format": 1,
+        "content": "<h1>Handout 8 &mdash; Lower Route Marks</h1><p>Three lintel marks, cut into the stone above the three corridors leading away from the Lower Route Fork. The party can sketch, wax-impress, or commit them to memory. If they bring impressions back to surface, the marks are evidence of the route's branching architecture.</p><h2>Mark 1: Recovery Route</h2><p style=\"text-align: center;\"><strong>[Sketch description:]</strong> A single horizontal cut with a downward-curving line beneath it, like a stylised hook hanging from a beam. To the right of the hook, three small dots in a vertical row.</p><h3>Meaning (route shorthand)</h3><p>This is the &ldquo;recovery&rdquo; mark &mdash; used on transfer records when an asset has been retrieved from a surface operation. The three dots indicate <em>three current active recoveries</em> moving down this branch.</p><h3>What lies down this route</h3><p>The recovery route leads to a specialised waystation for processing retrieved assets. Haskur (Andren) was taken down this route, if he was processed at all. This is where the party would find him, alive or otherwise.</p><h2>Mark 2: Escort Route</h2><p style=\"text-align: center;\"><strong>[Sketch description:]</strong> Kethren's courier mark (a thin vertical stroke crossed at three-quarter height), enlarged and paired with the seven-cuts variant (seven small vertical strokes in a row, with the seventh marked slightly larger and deeper).</p><h3>Meaning (route shorthand)</h3><p>This is the escort route &mdash; the main passage for route personnel. The seven-cuts variant indicates that this branch carries <em>Tarnsmere descent traffic specifically</em>. The escort route is the route's busiest branch.</p><h3>What lies down this route</h3><p>The escort route leads to the next major waystation, where route couriers handle inter-route communication, dispatch, and the distribution of routine route correspondence. This is where Kethren routinely operates. <strong>This route reveals route culture and the route's middle administrative tier &mdash; not the deepest authority, but the layer that serves it.</strong></p><h2>Mark 3: Supply Route</h2><p style=\"text-align: center;\"><strong>[Sketch description:]</strong> A square outline with a small &ldquo;X&rdquo; in its centre, surrounded by four small dots. Below the square: a wave-line indicating wax-seal preservation, and beside it, a tiny seed-shaped notch.</p><h3>Meaning (route shorthand)</h3><p>This is the supply route &mdash; the cargo branch. The wax-seal and seed-shaped notch indicate that this branch carries <em>preserved samples and recovered material</em>, including Blooming Rot stock.</p><h3>What lies down this route</h3><p>The supply route leads to the route's logistics waystation, where crates are inventoried, samples are studied (insofar as the route studies anything), and recovery material is held until needed. <strong>This route reveals the operation's mechanics &mdash; how recovery infrastructure actually works.</strong></p><h2>GM notes</h2><ul><li>The party has to <strong>choose one</strong> for Phase 10. The choice is real and consequential. Each route reveals different things; none reveals everything.</li><li>The deeper-authority mark does not appear above any of the three branch marks &mdash; <em>the deeper authority is reached by all three routes</em>, eventually. The route's network is not linear.</li><li>The party can take wax impressions of all three lintel marks to bring back to surface, regardless of which they follow.</li></ul>"
+      }
+    },
+    {
+      "_id": "BR2P9HoPg9GateInscription",
+      "_key": "!journal.pages!BR2P9HandoutsJrnl.BR2P9HoPg9GateInscription",
+      "name": "Handout 9 — Black Ledger Gate Inscription",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 1000000,
+      "ownership": { "default": -1 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "text": {
+        "format": 1,
+        "content": "<h1>Handout 9 &mdash; Black Ledger Gate Inscription</h1><h2>Visible text (cut into the lintel above the gate)</h2><blockquote><p style=\"text-align: center; font-style: italic; font-size: 1.2em;\">Unwitnessed cargo waits. Witnessed passage continues.</p></blockquote><h2>Physical description</h2><p>Cut into a single black stone block above the Black Ledger Gate. The inscription is in route shorthand, but the shorthand is more legible than most route marks &mdash; the gate's inscription is meant to be read by both surface arrivals and route personnel. The shorthand has been deliberately scraped at the end &mdash; one or two trailing words have been removed, leaving the inscription brief. The scraping is old; it was done shortly after the gate was installed, perhaps centuries ago.</p><h2>What the scraping removed</h2><p>Speculative. The route does not document its own self-edits. History DC 18 (or speaking to Savax at high Persuasion) suggests the original inscription was longer &mdash; possibly identifying <em>which</em> deeper authority the gate served. The scraping was a procedural decision: <em>the gate's policy is the gate's, not anyone else's.</em></p><h2>GM notes</h2><ul><li>The inscription is the gate's policy statement. It tells the party what the gate does: it asks whether they have witness. If they do, they pass. If they do not, they wait.</li><li>&ldquo;Waits&rdquo; means: waits to be classified, processed, transferred, or held. The party should understand: the alternative to passing is not death &mdash; it is becoming cargo.</li><li>If the party brings the gate inscription back to surface in wax impression, it is a useful object. <em>For Iren and Caelith specifically</em>, this inscription clarifies the route's operating principle better than any of the handouts.</li></ul>"
+      }
+    },
+    {
+      "_id": "BR2P9HoPg10CaelithNote",
+      "_key": "!journal.pages!BR2P9HandoutsJrnl.BR2P9HoPg10CaelithNote",
+      "name": "Handout 10 — Caelith's Last Surface Note",
+      "type": "text",
+      "title": { "show": false, "level": 1 },
+      "sort": 1100000,
+      "ownership": { "default": -1 },
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "text": {
+        "format": 1,
+        "content": "<h1>Handout 10 &mdash; Caelith's Last Surface Note</h1><p><em>Reproduced here for printability. Full version is in the Phase 9 Arrival journal under \"Caelith's Last Surface Note.\" Give to the party pre-descent or at the start of Phase 9.</em></p><h2>Reproduction (abridged for printing)</h2><blockquote><p>Friends &mdash;</p><p>You will be below by the time you read this. I will not be with you.</p><p>Three things, in order:</p><p>First: do not assume the absence of law means the absence of rules. Read what is cut. The walls are the documentation.</p><p>Second: the people you will meet down there will recognise some of you as cargo. They will categorise you and then administer their categorisation. You can change the category by speaking the right words. If you do not know the right words, listen for them.</p><p>Third: I am here. If any of you return with any piece of paper or stone or cloth from below, I will hold that evidence in a place I personally guarantee.</p><p>If you do not return &mdash; speak your names aloud, once, in the silence before you begin. The route will record them either way. You may as well say them on your terms.</p><p>I am sorry I cannot come with you. I am here. I am still here.</p><p>&mdash; Caelith Dunivar</p></blockquote><h2>GM notes</h2><p>See the Arrival journal for the full version and GM commentary.</p>"
+      }
+    }
+  ],
+  "folder": null,
+  "sort": 12000000,
+  "flags": {},
+  "ownership": { "default": -1 },
+  "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null }
+}

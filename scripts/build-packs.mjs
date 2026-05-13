@@ -45,6 +45,8 @@ const PACKS = [
   "phase-7-actors",
   "phase-8-journals",
   "phase-8-actors",
+  "phase-9-journals",
+  "phase-9-actors",
   "pc-threads",
   "aerdy-network",
   "aerdy-network-actors",

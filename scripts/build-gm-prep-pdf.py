@@ -4,8 +4,8 @@
 Reads the journal pages and actor biographies from `packs/_source/`, the
 illustrations and portraits from `assets/`, and builds:
 
-  docs/blooming-rot-2-gm-prep.pdf       (full 8-phase + sandbox doc)
-  docs/phase-1.pdf  …  docs/phase-8.pdf (per-phase split for session prep)
+  docs/blooming-rot-2-gm-prep.pdf       (full 9-phase + sandbox doc)
+  docs/phase-1.pdf  …  docs/phase-9.pdf (per-phase split for session prep)
   docs/sandbox.pdf
 
 These docs are GM-facing, intentionally heavy — they contain spoilers,
@@ -76,6 +76,7 @@ PHASES = [
     {"n": 6, "title": "The Brass Crow", "color": "#3d3d3d"},
     {"n": 7, "title": "The Seventh Question", "color": "#4a3d2a"},
     {"n": 8, "title": "The Stair Beneath Tarnsmere", "color": "#2a2a3d"},
+    {"n": 9, "title": "Below the Clean Paper", "color": "#1a1a2a"},
 ]
 
 PALETTE = {
@@ -615,6 +616,23 @@ FLOW = {
             ("entry","eft"),
         ],
     },
+    9: {
+        "title": "Phase 9 Flow — Below the Clean Paper",
+        "nodes": [
+            ("open", "Descent from Tarnsmere\n(6 openings A-F)", "scene"),
+            ("hall", "Account Hall + Registry:\nread the tally walls", "scene"),
+            ("recover", "Recover evidence:\nFurnace Scrap, Crate Tag", "scene"),
+            ("cell", "Sealed Witness Cell:\nmeet Merrit Osk (optional)", "side"),
+            ("savax", "Encounter Route Warden Savax:\nclassify or fight", "scene"),
+            ("gate", "Black Ledger Gate:\n7 methods + Sentinel", "decision"),
+            ("fork", "Lower Route Fork:\nchoose Recovery, Escort, Supply,\nor retreat", "scene"),
+        ],
+        "edges": [
+            ("open","hall"), ("hall","recover"), ("hall","cell"),
+            ("recover","savax"), ("savax","gate"), ("gate","fork"),
+            ("cell","gate"),
+        ],
+    },
 }
 
 def make_flow_diagram(phase_n):
@@ -864,7 +882,7 @@ def cover_page(styles, version):
     story.append(Paragraph("GM's Prep Guide", styles["doc_subtitle"]))
     story.append(Spacer(1, 0.2*inch))
     story.append(Paragraph(
-        "An eight-phase Greyhawk adventure for D&amp;D 2024 — pre-Wars Yeomanry through the Cairn Hills",
+        "A nine-phase Greyhawk adventure for D&amp;D 2024 — pre-Wars Yeomanry through the first under-road",
         styles["meta"],
     ))
     story.append(Paragraph(
@@ -877,13 +895,14 @@ def cover_page(styles, version):
 def overview_page(styles):
     story = []
     story.append(Paragraph("Adventure Overview", styles["chapter_eyebrow"]))
-    story.append(Paragraph("Eight Phases, Five Cities, One Descent", styles["chapter_title"]))
+    story.append(Paragraph("Nine Phases, Five Cities, One Descent", styles["chapter_title"]))
     story.append(Paragraph(
-        "Blooming Rot, Part 2 is an eight-phase investigation set in the pre-Wars Yeomanry, "
-        "Hardby, Rel Astra, Greyhawk, and ultimately the Cairn Hills above Tarnsmere. "
-        "It is built for a party of 4–6 PCs at levels 7–10 and is designed to run in "
-        "roughly 24–35 sessions if every sandbox downtime branch and per-PC thread is "
-        "engaged, or 18–22 sessions if the party drives straight along the main thread.",
+        "Blooming Rot, Part 2 is a nine-phase investigation set in the pre-Wars Yeomanry, "
+        "Hardby, Rel Astra, Greyhawk, the Cairn Hills above Tarnsmere, and finally the "
+        "first under-road waystation beneath the world. It is built for a party of 4–6 PCs "
+        "at levels 7–11 and is designed to run in roughly 28–40 sessions if every sandbox "
+        "downtime branch and per-PC thread is engaged, or 20–26 sessions if the party "
+        "drives straight along the main thread.",
         styles["body"]
     ))
     story.append(Paragraph(

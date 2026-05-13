@@ -21,6 +21,9 @@ const phases = [
   ["phase-4-actors", false],
   ["phase-5-actors", false],
   ["phase-6-actors", false],
+  ["phase-7-actors", false],
+  ["phase-8-actors", false],
+  ["phase-9-actors", false],
   ["sandbox-actors", true],
 ];
 

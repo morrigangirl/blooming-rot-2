@@ -2,7 +2,7 @@
   "_id": "BR2P8A8e05535ef7",
   "name": "Stone-Witness",
   "type": "npc",
-  "img": "modules/dnd-monster-manual/assets/portraits/animated-armor.webp",
+  "img": "modules/blooming-rot-2/assets/portraits/stone-witness-portrait.png",
   "system": {
     "currency": {
       "pp": 0,
@@ -534,7 +534,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "modules/dnd-monster-manual/assets/tokens/animated-armor.webp",
+      "src": "modules/blooming-rot-2/assets/tokens/stone-witness-token.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

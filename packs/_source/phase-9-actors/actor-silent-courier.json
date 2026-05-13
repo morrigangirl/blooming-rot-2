@@ -2,7 +2,7 @@
   "_id": "BR2P9A24c3396266",
   "name": "Silent Courier",
   "type": "npc",
-  "img": "modules/dnd-monster-manual/assets/journal-art/scouts.webp",
+  "img": "modules/blooming-rot-2/assets/portraits/silent-courier-portrait.png",
   "system": {
     "currency": {
       "pp": 0,
@@ -535,7 +535,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "modules/dnd-monster-manual/assets/tokens/scout-captain.webp",
+      "src": "modules/blooming-rot-2/assets/tokens/silent-courier-token.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

@@ -5092,6 +5092,173 @@ Modern high-fantasy illustration / digital concept art, photographed flat under 
     sourceFromExisting: "assets/portraits/party/gianni-ranger-.jpg", skipGeneration: true,
     postProcess: "round-token-512",
     ring: { base: "#3a4a3a", highlight: "#7c8c7c", shadow: "#080a08" } /* ranger green */ },
+
+  // ============== TIER 32 — Phase 8 NPC portraits ==============
+  {
+    id: "polish-route-cleaner-lead-portrait",
+    tier: 32,
+    out: "assets/portraits/route-cleaner-lead-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of the ROUTE-CLEANER LEAD, a senior route-cleaner serving as Korre's on-site supervisor at the ruined Tarnsmere Tollhouse. Captain-grade. New for Phase 8.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Mid-forties. Clean hands. Holds a polished cudgel loosely at the belt; an expensive but discreet rapier hilt visible under a long, well-cut dark wool coat. A leather case of paperwork hangs at the hip — brass clasps, well-used, professional. Plain dark gloves. Eyes that have read a thousand contracts.
+
+Bureaucrat and operator both. Speaks Aerdy commercial-court formal-register. Scrupulously polite even when killing someone. The kind of person who would apologise for the inconvenience.
+
+Three-quarter view from waist up. Background: faint ruin stone behind, perhaps a hint of the Tarnsmere Tollhouse's broken hearth in shadow. Atmosphere over ornament. NO floating particles, NO glowing magic effects, NO obvious adventurer's gear.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  { id: "polish-route-cleaner-lead-token", tier: 34, out: "assets/tokens/route-cleaner-lead-token.png",
+    sourceFromExisting: "assets/portraits/route-cleaner-lead-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#3a3a48", highlight: "#7c7c88", shadow: "#080810" } /* spy senior */ },
+
+  {
+    id: "polish-deep-route-courier-portrait",
+    tier: 32,
+    out: "assets/portraits/deep-route-courier-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of a DEEP-ROUTE COURIER, a specialised courier who travels the under-road. Transient figure who passes through the threshold complex beneath Tarnsmere. New for Phase 8.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Late thirties to early fifties. Lean, weathered. Dressed for long crossings: reinforced boots, a heavy dust-grey cloak, fitted dark clothes underneath. At the belt, a leather route-mask with smoked-quartz lenses (currently hanging, not worn). Brass-clasped writing case at the hip. Carries a brass token at the belt — older, more weathered than ordinary tokens.
+
+Hardened, watchful, never quite at rest. The face of someone who has walked many miles below the sun.
+
+Three-quarter view from waist up. Background: faint stone passage in deep dim ambient, perhaps a slit of pale lamplight catching the edge of the mask. Atmosphere over ornament. NO floating particles, NO glowing magic effects.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  { id: "polish-deep-route-courier-token", tier: 34, out: "assets/tokens/deep-route-courier-token.png",
+    sourceFromExisting: "assets/portraits/deep-route-courier-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#2a3640", highlight: "#7088a0", shadow: "#080a10" } /* deep-route slate */ },
+
+  {
+    id: "polish-stone-witness-portrait",
+    tier: 32,
+    out: "assets/portraits/stone-witness-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of the STONE-WITNESS, a small construct of dressed Tarnsmere mason-stone that wakes if the Permission Door is forced. New for Phase 8. It is NOT a humanoid. It is a stone construct.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Roughly humanoid silhouette but unmistakably constructed: a body of dressed pale-grey stone blocks fitted with thin black mineral seams, about three feet tall. Heavy compact build. No facial features. In place of a face: a single rectangular stone TABLET, flat, plate-like, vertical, incised with one symbol — a blackened-hill mark (a hill outline with its interior filled with deep soot-black). No eyes. No mouth. No expression.
+
+It stands motionless, in a posture of patient observation, hands at its sides. The stonework matches old civic Aerdy mason work — precise jointing, mortar-less, very slightly worn.
+
+Three-quarter view from waist up. Background: faint shadowed stone alcove behind, dim lamp-glow at the edge. Atmosphere over ornament. NO floating particles, NO glowing magic effects, NO eyes drawn on the tablet.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  { id: "polish-stone-witness-token", tier: 34, out: "assets/tokens/stone-witness-token.png",
+    sourceFromExisting: "assets/portraits/stone-witness-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#4a4a4a", highlight: "#8a8a8a", shadow: "#0a0a0a" } /* construct grey */ },
+
+  // ============== TIER 33 — Phase 9 NPC portraits ==============
+  {
+    id: "polish-route-warden-savax-portrait",
+    tier: 33,
+    out: "assets/portraits/route-warden-savax-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of ROUTE WARDEN SAVAX, the warden of Witness Station Seven — the First Under-Road Waystation beneath Tarnsmere. New for Phase 9. Career procedural administrator.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Indeterminate age — could be early forties, could be late sixties. DELIBERATELY AMBIGUOUS — DO NOT show pointed ears or any clearly non-human feature. Pale or shadowed features. Skin that has not seen sun in long enough that surface ageing markers do not apply: smooth in a way that is not exactly youthful. Eyes that avoid direct light — half-lidded, looking past the viewer's shoulder.
+
+Wears the procedural uniform of a route warden: a fitted dark coat over plain dark inner clothes; thin, well-fitted dark leather gloves on both hands (always worn); a small leather case at the belt (warden instructions); a polished cudgel and a slim blade hilt at the opposite hip. A single bone fingerstamp on a leather thong around the neck — barely visible, the warden's authority mark.
+
+Posture: completely still, formal, the stillness of a clerk who has stood for thirty years at the same counter. Expression: not unfriendly. Not friendly. Procedural.
+
+Three-quarter view from waist up. Background: dim dressed stone in deep shadow, suggestion of route-tally cuts on the wall behind, a small protected lamp niche giving warm yellow lamp-glow off to one side. Atmosphere over ornament. NO floating particles, NO glowing magic effects, NO pointed ears, NO clearly demonic or fey features, NO obvious species marker.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  { id: "polish-route-warden-savax-token", tier: 34, out: "assets/tokens/route-warden-savax-token.png",
+    sourceFromExisting: "assets/portraits/route-warden-savax-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#2a2438", highlight: "#6a627a", shadow: "#080610" } /* deep route warden indigo-grey */ },
+
+  {
+    id: "polish-silent-courier-portrait",
+    tier: 33,
+    out: "assets/portraits/silent-courier-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of a SILENT COURIER, a subordinate route courier of the under-road. Lower authority than Kethren but uses similar techniques and equipment. New for Phase 9. Generic representative figure for any route courier the party encounters.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Indeterminate age, hard to tell. Lean. Always at full attention. DELIBERATELY AMBIGUOUS — DO NOT show pointed ears or any clearly non-human feature.
+
+Wears the grey-and-bone courier uniform: a tightly-fitted dark grey coat with subtle bone-pale braid (simpler than Kethren's; this is a junior). A smoked-quartz route-mask hangs at the belt, currently unworn — the lenses are dark, the leather is well-oiled. Reinforced boots. A small writing case with brass clasps at the hip. A short-sword at one side; a hand crossbow at the other, holstered.
+
+Body language of someone permanently mid-departure: weight on the balls of the feet, head turned slightly toward the most likely exit, one hand resting lightly on the writing case's clasp.
+
+Three-quarter view from waist up. Background: dim stone corridor in deep ambient, with a faint horizontal cut visible on the wall behind (a tally mark). Atmosphere over ornament. NO floating particles, NO glowing magic effects, NO pointed ears, NO obvious species marker.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  { id: "polish-silent-courier-token", tier: 34, out: "assets/tokens/silent-courier-token.png",
+    sourceFromExisting: "assets/portraits/silent-courier-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#3a3a44", highlight: "#7a7a88", shadow: "#08080c" } /* courier slate */ },
+
+  {
+    id: "polish-tally-sentinel-portrait",
+    tier: 33,
+    out: "assets/portraits/tally-sentinel-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of the TALLY SENTINEL, a route construct of dressed waystation mason-stone that wakes only on forced gate use or major procedural violations. New for Phase 9. It is NOT a humanoid. It is a stone-and-iron construct.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Roughly humanoid silhouette but unmistakably constructed: a body of dressed pale-grey stone blocks fitted with thin black mineral seams, about four feet tall — larger and more imposing than the Stone-Witness of Phase 8 — with iron banding visible at the joints. Powerful compact build, shoulders broader than its height suggests. No facial features. In place of a face: a single rectangular stone TABLET, flat, plate-like, vertical, incised with one symbol — a shallow horizontal arc with three small notches at its base (the deeper-authority mark; do NOT depict it as a known surface symbol). No eyes. No mouth. No expression.
+
+Standing motionless in a posture of patient observation. Hands at its sides — large, blocky stone fists.
+
+Three-quarter view from waist up. Background: dim antechamber stone in deep shadow, suggestion of an alcove behind from which it stepped out. Atmosphere over ornament. NO floating particles, NO glowing magic effects, NO eyes drawn on the tablet, NO surface religious symbols.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  { id: "polish-tally-sentinel-token", tier: 34, out: "assets/tokens/tally-sentinel-token.png",
+    sourceFromExisting: "assets/portraits/tally-sentinel-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#3a3848", highlight: "#7a7888", shadow: "#08080e" } /* sentinel iron-stone */ },
+
+  {
+    id: "polish-merrit-osk-portrait",
+    tier: 33,
+    out: "assets/portraits/merrit-osk-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of MERRIT OSK, the Unclaimed Witness held in the Sealed Witness Cell beneath Tarnsmere. New for Phase 9. An ordinary surface clerk-and-courier, captive for three weeks.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Human woman, mid-thirties. From Greyhawk City's Free Quarter — a working clerk for a Kestrel and Reed branch in Hardby. Brown hair pulled back severely, slightly disheveled from three weeks without proper combing. Pale from lack of sun. Hollow eyes that have done a lot of careful thinking; not broken, but conserving. Practical clothing: a plain dark blue working dress with a simple white collar (originally), now worn for three weeks without change — slightly stained, edges fraying, the collar grey instead of white. No belt. No boots — bare feet, or thin worn stockings. No jewellery. Hands clasped loosely in her lap, steady.
+
+Sitting upright on an unseen stone bench. Posture: composed, alert, careful. The expression of a clerk in mid-thought, waiting to see if the question is one she should answer truthfully or not.
+
+Three-quarter view from waist up. Background: dim stone cell, a horizontal slot (the water slot) visible high on the wall behind, very dim lamplight from beyond. Atmosphere over ornament. NO floating particles, NO glowing magic effects, NO adventurer's gear.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  { id: "polish-merrit-osk-token", tier: 34, out: "assets/tokens/merrit-osk-token.png",
+    sourceFromExisting: "assets/portraits/merrit-osk-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#4a4a5a", highlight: "#8a8a9a", shadow: "#0a0a14" } /* commoner / clerk muted blue */ },
 ];
 
 // ----------------- engine -----------------

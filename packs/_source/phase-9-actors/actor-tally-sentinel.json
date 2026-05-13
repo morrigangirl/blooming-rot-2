@@ -2,7 +2,7 @@
   "_id": "BR2P9A5f13e0b12c",
   "name": "Tally Sentinel",
   "type": "npc",
-  "img": "modules/dnd-monster-manual/assets/portraits/animated-armor.webp",
+  "img": "modules/blooming-rot-2/assets/portraits/tally-sentinel-portrait.png",
   "system": {
     "currency": {
       "pp": 0,
@@ -534,7 +534,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "modules/dnd-monster-manual/assets/tokens/animated-armor.webp",
+      "src": "modules/blooming-rot-2/assets/tokens/tally-sentinel-token.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

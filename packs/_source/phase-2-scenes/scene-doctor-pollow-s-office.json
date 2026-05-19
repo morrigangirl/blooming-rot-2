@@ -83,13 +83,544 @@
   },
   "drawings": [],
   "tokens": [],
-  "lights": [],
-  "notes": [],
+  "lights": [
+    {
+      "_id": "Light36979ae2576",
+      "x": 500,
+      "y": 250,
+      "elevation": 0,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 6,
+        "dim": 15,
+        "color": "#ffd58f",
+        "coloration": 1,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": "torch",
+          "speed": 2,
+          "intensity": 2,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "flags": {},
+      "_key": "!scenes.lights!BR2ScenePollow01.Light36979ae2576"
+    },
+    {
+      "_id": "Light04bf547d98b",
+      "x": 200,
+      "y": 250,
+      "elevation": 0,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 6,
+        "dim": 15,
+        "color": "#ffd58f",
+        "coloration": 1,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": "torch",
+          "speed": 2,
+          "intensity": 2,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "flags": {},
+      "_key": "!scenes.lights!BR2ScenePollow01.Light04bf547d98b"
+    },
+    {
+      "_id": "Light5b5cf64827e",
+      "x": 850,
+      "y": 250,
+      "elevation": 0,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 6,
+        "dim": 15,
+        "color": "#ffd58f",
+        "coloration": 1,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": "torch",
+          "speed": 2,
+          "intensity": 2,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "flags": {},
+      "_key": "!scenes.lights!BR2ScenePollow01.Light5b5cf64827e"
+    },
+    {
+      "_id": "Lighta1411d465b7",
+      "x": 500,
+      "y": 750,
+      "elevation": 0,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 6,
+        "dim": 15,
+        "color": "#ffd58f",
+        "coloration": 1,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": "torch",
+          "speed": 2,
+          "intensity": 2,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "flags": {},
+      "_key": "!scenes.lights!BR2ScenePollow01.Lighta1411d465b7"
+    },
+    {
+      "_id": "Light5e0f081b8c1",
+      "x": 200,
+      "y": 600,
+      "elevation": 0,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 10,
+        "dim": 22,
+        "color": "#ffb070",
+        "coloration": 1,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": "fire",
+          "speed": 3,
+          "intensity": 3,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "flags": {},
+      "_key": "!scenes.lights!BR2ScenePollow01.Light5e0f081b8c1"
+    },
+    {
+      "_id": "Light7d3e6620a49",
+      "x": 850,
+      "y": 750,
+      "elevation": 0,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 6,
+        "dim": 15,
+        "color": "#ffd58f",
+        "coloration": 1,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": "torch",
+          "speed": 2,
+          "intensity": 2,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "flags": {},
+      "_key": "!scenes.lights!BR2ScenePollow01.Light7d3e6620a49"
+    }
+  ],
+  "notes": [
+    {
+      "_id": "Note1bdf8d04b01d",
+      "entryId": null,
+      "pageId": null,
+      "x": 850,
+      "y": 350,
+      "elevation": 0,
+      "sort": 0,
+      "texture": {
+        "src": "icons/svg/locked.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "fill",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0
+      },
+      "iconSize": 40,
+      "fontSize": 32,
+      "fontFamily": "Signika",
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "text": "Strongbox (at desk's right hand)",
+      "global": false,
+      "flags": {},
+      "_key": "!scenes.notes!BR2ScenePollow01.Note1bdf8d04b01d"
+    },
+    {
+      "_id": "Note26b615186ccc",
+      "entryId": null,
+      "pageId": null,
+      "x": 500,
+      "y": 700,
+      "elevation": 0,
+      "sort": 0,
+      "texture": {
+        "src": "icons/svg/aura.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "fill",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0
+      },
+      "iconSize": 40,
+      "fontSize": 32,
+      "fontFamily": "Signika",
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "text": "Pollow's examination desk (he certifies deaths here)",
+      "global": false,
+      "flags": {},
+      "_key": "!scenes.notes!BR2ScenePollow01.Note26b615186ccc"
+    }
+  ],
   "regions": [],
   "sounds": [],
   "templates": [],
   "tiles": [],
-  "walls": [],
+  "walls": [
+    {
+      "_id": "Wall05e1f69ca775",
+      "c": [
+        50,
+        30,
+        1000,
+        30
+      ],
+      "light": 20,
+      "move": 20,
+      "sight": 20,
+      "sound": 20,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "doorSound": "",
+      "flags": {},
+      "_key": "!scenes.walls!BR2ScenePollow01.Wall05e1f69ca775"
+    },
+    {
+      "_id": "Walldfc78e52a094",
+      "c": [
+        1000,
+        30,
+        1000,
+        510
+      ],
+      "light": 20,
+      "move": 20,
+      "sight": 20,
+      "sound": 20,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "doorSound": "",
+      "flags": {},
+      "_key": "!scenes.walls!BR2ScenePollow01.Walldfc78e52a094"
+    },
+    {
+      "_id": "Wall5fd042540dcc",
+      "c": [
+        1000,
+        510,
+        50,
+        510
+      ],
+      "light": 20,
+      "move": 20,
+      "sight": 20,
+      "sound": 20,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "doorSound": "",
+      "flags": {},
+      "_key": "!scenes.walls!BR2ScenePollow01.Wall5fd042540dcc"
+    },
+    {
+      "_id": "Wallbafbd3dcd8a5",
+      "c": [
+        50,
+        510,
+        50,
+        30
+      ],
+      "light": 20,
+      "move": 20,
+      "sight": 20,
+      "sound": 20,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "doorSound": "",
+      "flags": {},
+      "_key": "!scenes.walls!BR2ScenePollow01.Wallbafbd3dcd8a5"
+    },
+    {
+      "_id": "Wall82f69323652c",
+      "c": [
+        450,
+        30,
+        600,
+        30
+      ],
+      "light": 20,
+      "move": 20,
+      "sight": 20,
+      "sound": 20,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "dir": 0,
+      "door": 1,
+      "ds": 0,
+      "doorSound": "",
+      "flags": {},
+      "_key": "!scenes.walls!BR2ScenePollow01.Wall82f69323652c"
+    },
+    {
+      "_id": "Wall1390aa5e96a2",
+      "c": [
+        50,
+        510,
+        1000,
+        510
+      ],
+      "light": 20,
+      "move": 20,
+      "sight": 20,
+      "sound": 20,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "doorSound": "",
+      "flags": {},
+      "_key": "!scenes.walls!BR2ScenePollow01.Wall1390aa5e96a2"
+    },
+    {
+      "_id": "Wall4a39b855a7b5",
+      "c": [
+        1000,
+        510,
+        1000,
+        1000
+      ],
+      "light": 20,
+      "move": 20,
+      "sight": 20,
+      "sound": 20,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "doorSound": "",
+      "flags": {},
+      "_key": "!scenes.walls!BR2ScenePollow01.Wall4a39b855a7b5"
+    },
+    {
+      "_id": "Wallb8b20e3ef5ce",
+      "c": [
+        1000,
+        1000,
+        50,
+        1000
+      ],
+      "light": 20,
+      "move": 20,
+      "sight": 20,
+      "sound": 20,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "doorSound": "",
+      "flags": {},
+      "_key": "!scenes.walls!BR2ScenePollow01.Wallb8b20e3ef5ce"
+    },
+    {
+      "_id": "Wallec1a2fb9effd",
+      "c": [
+        50,
+        1000,
+        50,
+        510
+      ],
+      "light": 20,
+      "move": 20,
+      "sight": 20,
+      "sound": 20,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "doorSound": "",
+      "flags": {},
+      "_key": "!scenes.walls!BR2ScenePollow01.Wallec1a2fb9effd"
+    },
+    {
+      "_id": "Wall260d92f7a8b9",
+      "c": [
+        450,
+        510,
+        600,
+        510
+      ],
+      "light": 20,
+      "move": 20,
+      "sight": 20,
+      "sound": 20,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "dir": 0,
+      "door": 1,
+      "ds": 0,
+      "doorSound": "",
+      "flags": {},
+      "_key": "!scenes.walls!BR2ScenePollow01.Wall260d92f7a8b9"
+    }
+  ],
   "playlist": null,
   "playlistSound": null,
   "journal": null,

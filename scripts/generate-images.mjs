@@ -5259,6 +5259,106 @@ ${ART_STYLE}`,
     sourceFromExisting: "assets/portraits/merrit-osk-portrait.png", skipGeneration: true,
     postProcess: "round-token-512",
     ring: { base: "#4a4a5a", highlight: "#8a8a9a", shadow: "#0a0a14" } /* commoner / clerk muted blue */ },
+
+  // ============== TIER 35 — Phase 2 missing tactical maps ==============
+  {
+    id: "polish-tamsin-counting-house-map",
+    tier: 35,
+    out: "assets/maps/tamsin-counting-house-interior.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Top-down fantasy tactical battle map for tabletop RPG (D&D 5e). Painted, hand-drawn style consistent with Dyson Logos / Roll20 marketplace interior maps. NO grid overlay. View directly from above.
+
+The interior of Tamsin Moraven's Counting House on Tannerway, Loftwick (Yeomanry, pre-Greyhawk Wars). A single-storey timber-and-plaster commercial building used to grade and contract grain export sales.
+
+Layout (one room, roughly 30 ft × 20 ft):
+- A long high-front standing desk runs across the south wall — the chief clerk's station. Quill pots, an ink-stone, a stack of bound ledgers. A wooden stool behind the desk.
+- Behind the standing desk, a private chair set at an angle — Tamsin's own chair, now empty. A folded grey wool shawl draped over its back.
+- The east wall has a wall niche of bound carbon books — ledgers in stiff dark covers, organised by year. Some volumes are sitting half-pulled, as though recently consulted.
+- The west wall has a weighbench (a low waist-high bench with a brass-pan beam balance for grain samples), a row of small canvas grain-sample sacks in clay weights, a chalkboard for crop quotes.
+- The north (entry) wall has a single front door with a small frosted-glass transom above; two small windows flank it.
+- A small iron stove in the north-east corner, cold.
+- Lamp brackets at each of the four corners.
+- A worn but well-kept dark plank floor with a faded rust-red runner from the front door to the standing desk.
+- A pair of high-backed visitor chairs face the standing desk.
+
+Mood: a small, careful, owned room. Recently used; not abandoned. The grain quote on the chalkboard is current. Tamsin's chair is empty in a way that reads as missing, not vacated. The building tells you a competent woman has been doing serious work here for years and has been gone for less than two weeks.
+
+Top-down architectural view, painterly interior tactical battle-map style. Black background or void around the building's outer walls (no surrounding city detail). No people; no animals. Walls clearly visible. Doors and windows clearly visible. Roof not shown (open-roof tactical perspective).`,
+    postProcess: null,
+  },
+
+  {
+    id: "polish-gilst-rented-rooms-map",
+    tier: 35,
+    out: "assets/maps/gilst-rented-rooms-interior.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Top-down fantasy tactical battle map for tabletop RPG (D&D 5e). Painted, hand-drawn interior style. NO grid overlay. View directly from above.
+
+The second-floor flat of MERRO GILST, a Loftwick Treasury junior bonds clerk, above a stationer's shop on Wick Lane (Yeomanry, pre-Greyhawk Wars). A small, tidy two-room tenant flat, RECENTLY SEARCHED (drawers half-open, books slightly out of order on shelves, the carpet in the sitting parlor rolled back at one corner and not laid flat again).
+
+Layout (one floor, roughly 28 ft × 20 ft total):
+- Sitting parlor + study (the larger room, south side, about 18 ft × 16 ft). A writing desk against the east wall, a chair pulled out at an angle. A bookshelf along the north interior wall (full of bound civic volumes, ONE of which — Constitutional Commentaries volume III — sits a half-finger forward of the others). A small cold hearth in the west wall with a heavy iron poker leaning. A small reading chair by the window. A small decorative tin of throat-lozenges on the writing desk. The east window (small, leaded panes) looks down onto Wick Lane below.
+- Small bedchamber (north side, about 10 ft × 16 ft). A neatly-made narrow bed against the north wall, a wash-stand with a porcelain basin, a small wardrobe, a framed sketch on the wall above the bed (a silver locket on a fine chain hangs behind it, hidden from this view but indicated by the chain visible).
+- A water-closet under the stair (a tiny 4 ft × 4 ft space in the south-west corner — small toilet and a hand-basin).
+- The entry from the public stair landing is at the south-west corner, opening into the sitting parlor.
+- Doors: entry door from stair (heavy single door), one interior door between parlor and bedchamber, one small door to water-closet.
+- Two windows: parlor east window (over Wick Lane), bedchamber north window (over a small courtyard).
+- Lamp brackets: one on the parlor wall by the writing desk, one in the bedchamber by the wash-stand.
+
+Mood: a tidy man's life left mid-routine and then disturbed. The disturbance is recent. The space is small but lived-in. Period: late 6th-century-CY Yeomanry middle-class clerk dwelling.
+
+Top-down architectural view, painterly interior tactical battle-map style. Black background or void around the flat's outer walls (no surrounding stationer's-shop detail; treat the floor below as void). No people. Walls, doors, and windows clearly visible. Roof not shown.`,
+    postProcess: null,
+  },
+
+  {
+    id: "polish-trina-townhouse-map",
+    tier: 35,
+    out: "assets/maps/trina-townhouse-interior.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Top-down fantasy tactical battle map for tabletop RPG (D&D 5e). Painted, hand-drawn interior style consistent with Dyson Logos / Roll20 marketplace maps. NO grid overlay. View directly from above.
+
+THIS IS A SINGLE-FLOOR TOWNHOUSE. ONE FLOOR ONLY. Do not depict a second storey. Do not stack two plans vertically.
+
+Building: the ground floor of Mistress Trina Alvere's townhouse on Civic Way, Loftwick. A narrow city townhouse, longer north-to-south than it is east-to-west. Overall footprint roughly 40 ft tall (north-south) × 26 ft wide (east-west).
+
+LAYOUT FROM SOUTH (BOTTOM OF IMAGE) TO NORTH (TOP OF IMAGE), DOORS ARRANGED ON A CENTRAL NORTH-SOUTH HALLWAY:
+
+1. SOUTH WALL — the FRONT DOOR. A clearly visible, wide, dark wooden double door set in the centre of the south (bottom) wall. To either side of the front door, a small leaded-glass window. Stone step outside.
+
+2. FOYER (just inside the front door, lowest part of the building interior). Small entry hall, roughly 8 ft × 10 ft, with a coat-rail on one wall and a small umbrella stand. A single open archway in its NORTH wall opens into the central hall.
+
+3. CENTRAL HALL (a NARROW NORTH-SOUTH CORRIDOR running up the centre of the building, about 6 ft wide and about 20 ft long, with a polished plank floor and a runner). Three doorways open from this hall:
+   - A doorway on the EAST (right) wall into the receiving parlor.
+   - A doorway on the WEST (left) wall into the small library.
+   - A doorway at the NORTH (top) end of the hall into the kitchen.
+   At the south end of the hall (against the foyer-side wall), a wooden quarter-turn staircase rises to the upper floor — depict it as a clear set of steps with a banister.
+
+4. RECEIVING PARLOR (east side, off the central hall). A square room about 14 ft × 12 ft. Two facing sofas in dusty green velvet around a low oak table with a tea service set out. A tall slim bookcase against the FAR east wall (the outside wall). Framed botanical prints on the walls. Two leaded-glass windows on the east wall facing the street next door.
+
+5. SMALL LIBRARY (west side, off the central hall). A square room about 14 ft × 12 ft. A long reading table down the middle with a quiet brass lamp. Floor-to-ceiling bookcases along the north and south interior walls. A small writing desk against the far west outside wall. One leaded-glass window on the west wall.
+
+6. KITCHEN (north end, full width of the building). Stone-tiled floor. A brick hearth on the WEST interior wall with copper pots hanging beside it. A sturdy worktable in the centre. A stone sink under a window on the NORTH outside wall (looking onto the back garden). A SERVICE DOOR (single wooden door, clearly visible) in the EAST wall of the kitchen, leading directly to the back garden via a small step.
+
+7. BACK GARDEN (small walled courtyard at the very top / north of the image, OUTSIDE the building's footprint but inside the property walls). About 18 ft × 10 ft. A paved path with planted herb beds, a low stone bench, and a small wrought-iron pedestrian gate in the NORTH wall opening onto a side lane (just shown as a sliver of cobble at the very top edge).
+
+DOOR REQUIREMENTS — be explicit, every interior wall has a clearly drawn doorway as listed:
+- Foyer → Central Hall: open archway (no door leaf).
+- Central Hall → Receiving Parlor: single hinged door.
+- Central Hall → Library: single hinged door.
+- Central Hall → Kitchen: single hinged door (at the north end of the hall).
+- Kitchen → Back Garden: single hinged service door on the east wall.
+- Back Garden → Side Lane: small wrought-iron pedestrian gate.
+- Front Door (south wall): wide dark wooden double door.
+
+Style: muted greens and dusty greys; warm lamplight at the corners of each room; daylight at all the windows; a quiet, scholarly, refined aesthetic. NO overt occult symbols. NO people. NO animals.
+
+Top-down architectural view, painterly interior tactical battle-map style. Black background or void around the building's outer walls (no surrounding city detail). Walls, doors, and windows clearly drawn. Roof not shown.`,
+    postProcess: null,
+  },
 ];
 
 // ----------------- engine -----------------

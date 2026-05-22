@@ -5359,6 +5359,7 @@ Style: muted greens and dusty greys; warm lamplight at the corners of each room;
 Top-down architectural view, painterly interior tactical battle-map style. Black background or void around the building's outer walls (no surrounding city detail). Walls, doors, and windows clearly drawn. Roof not shown.`,
     postProcess: null,
   },
+
 ];
 
 // ----------------- engine -----------------

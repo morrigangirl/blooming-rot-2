@@ -5360,155 +5360,155 @@ Top-down architectural view, painterly interior tactical battle-map style. Black
     postProcess: null,
   },
 
-  // ============== TIER 38 — Mossen Place (Hardby townhome) ==============
+  // ============== TIER 39 — Mossen Place v2 (stair alignment fix) ==============
   {
-    id: "polish-mossen-place-ground",
-    tier: 38,
+    id: "polish-mossen-place-ground-v2",
+    tier: 39,
     out: "assets/maps/mossen-place-ground-floor.png",
     size: "1024x1536",
     quality: "high",
-    prompt: `Top-down fantasy tactical battle map for tabletop RPG (D&D 5e). Painted, hand-drawn interior style consistent with Dyson Logos / Roll20 marketplace maps. NO grid overlay. View directly from above. PORTRAIT orientation.
+    prompt: `Top-down fantasy tactical battle map for tabletop RPG (D&D 5e). Painted, hand-drawn interior style consistent with Dyson Logos / Roll20 marketplace maps. NO grid overlay. View directly from above. PORTRAIT orientation. SINGLE FLOOR ONLY (ground floor only — do not stack floors).
 
-THIS IS A SINGLE-FLOOR VIEW. Ground floor only. Do not stack floors.
+THE MOSSEN PLACE — GROUND FLOOR. A narrow city townhome on a Hardby merchant-quarter side street (Greyhawk setting, pre-Wars). Plastered stone walls, slate roof (slate not visible from above). Empty and dust-covered for over a year but structurally sound.
 
-THE MOSSEN PLACE — a narrow city townhome on a Hardby merchant-quarter side street (Greyhawk setting, pre-Wars). Plastered stone walls, slate roof (slate not visible from this view). Empty and dust-covered for over a year but structurally sound. Owned covertly by a Yeomanry spymaster under a fictitious name. About to serve as the party's base of operations.
+CRITICAL: This is one of three floor maps. The STAIR WELL position must be FIXED so it aligns vertically with the same x-y position on floors 2 and 3. The stair well is a SQUARE ROOM, EAST-CENTER of the building, occupying approximately the EAST THIRD of the building's width and the VERTICAL MIDDLE of the building's depth (a square of about 12 ft × 12 ft positioned on the east outer wall, centered north-to-south within the building's interior).
 
-OVERALL FOOTPRINT: roughly 24 ft wide (east-west) × 36 ft deep (north-south). South = bottom of image (street side). North = top of image (back yard).
+OVERALL FOOTPRINT: roughly 24 ft wide (east-west) × 36 ft deep (north-south). South = bottom of image (street side, with front door). North = top of image (back yard with privy and well).
 
 LAYOUT FROM SOUTH (BOTTOM) TO NORTH (TOP):
 
-1. SOUTH WALL — the FRONT DOOR centered on the south outer wall. A wide dark-oak door, well-worn, with a tarnished brass knocker. Two leaded-glass windows flank the door, one to each side. A stone step outside leads up to a narrow cobble pavement (a sliver of cobble visible at the very bottom edge of the image).
+1. SOUTH WALL — wide dark-oak FRONT DOOR centered on the south outer wall. Tarnished brass knocker. Two leaded-glass windows flank the door.
 
-2. G1 FRONT FOYER (just inside the front door, southern strip, full width × 7 ft deep) — small entry hall with a tall wooden COAT-RAIL on the east wall (with one solitary forgotten cloak hanging on it), a small umbrella stand. An OPEN ARCHWAY (no door leaf) in its north wall opens into the central hall.
+2. G1 FOYER (southern strip just inside front door, full width × ~7 ft deep) — small entry hall, coat-rail on east wall with a single forgotten dark cloak, umbrella stand. OPEN ARCHWAY on the north wall opens into the central hall.
 
-3. CENTRAL HALL (narrow N-S corridor, 6 ft wide, running ~14 ft from foyer arch up to the kitchen door). Three doorways open from this hall:
-   - West wall: single hinged door into G2 Parlor.
-   - East wall: single hinged door into G3 Stair Hall.
-   - North end (top of hall): single hinged door into G4 Kitchen.
+3. G2 PARLOR (west side, occupies the SW quadrant of the building, ~14 ft wide × ~10 ft deep) — TWO FACING SETTEES draped with WHITE LINEN DUST-SHEETS (soft draped white shapes), a low oak table between, a small fireplace on the west outer wall (cold), a small bookcase. Two leaded-glass windows on the south wall (street).
 
-4. G2 PARLOR (west of central hall, ~12 ft × 14 ft) — TWO FACING SETTEES draped with WHITE LINEN DUST-SHEETS (so they appear as soft draped white shapes, not visible upholstery), a low oak table between them with a film of dust visible, a small fireplace on the west outer wall (cold, with old ash), a small bookcase against the south interior wall with a few books. TWO leaded-glass windows on the south (street) wall (visible from above as small rectangular openings flanked by frames).
+4. CENTRAL HALL (narrow N-S corridor, ~5 ft wide, runs from foyer arch north through the middle-west of the building, ending at the kitchen door). The east wall of the central hall is the WEST WALL of the stair well. The west wall of the central hall is the EAST WALL of the parlor (south half) and the kitchen (north half).
 
-5. G3 STAIR HALL (east of central hall, ~12 ft × 14 ft) — contains a wooden QUARTER-TURN STAIRCASE rising up to the second floor. The stair starts at the north end of the room and rises along the east wall before turning south at a small landing. Each step clearly drawn (separate parallel lines), shaded so the eye reads "going up" (top steps slightly darker). A small WASH-STAND with a porcelain basin sits at the foot of the stair. ONE door from the central hall on the west wall.
+5. ★★★ G3 STAIR WELL (FIXED POSITION — EAST-CENTER OF BUILDING) ★★★ A square room ~12 ft × 12 ft, occupying the EAST THIRD of the building's width and CENTERED VERTICALLY in the building's depth. Inside the stair well: a wooden L-SHAPED QUARTER-TURN STAIRCASE rising up to the second floor. The bottom step is at the SOUTH end of the well; the stair rises along the east outer wall going NORTH, then turns west at a small landing at the NORTH end of the well. Each step clearly drawn (separate parallel lines). A small wash-stand with porcelain basin at the foot of the stair (south end). ONE door on the WEST wall of the stair well opens to the central hall.
 
-6. G4 KITCHEN (north end, full width of building, ~24 ft × 10 ft) — STONE-TILED FLOOR. A BRICK HEARTH on the west outer wall with hanging COPPER POTS (a few of which have visible patina). A sturdy wooden WORKTABLE in the centre. A STONE SINK under a small window on the north outer wall (the window looks onto the back yard). A SERVICE DOOR (single hinged wooden door) in the EAST wall of the kitchen, leading directly to the back yard. The kitchen has been recently dusted in places — a CLEAR HANDPRINT visible on the worktable where someone wiped a spot clean — but otherwise has a faint patina.
+6. G4 KITCHEN (north end, full width of building, ~24 ft × 9 ft) — STONE-TILED floor. A BRICK HEARTH on the west outer wall with hanging COPPER POTS. A sturdy WORKTABLE in the centre with a CLEAR HANDPRINT visible where someone wiped a spot clean. A STONE SINK under a small north-wall window. A SERVICE DOOR in the east wall opens to the back yard.
 
-7. G5 SCULLERY / PANTRY (small annex, ~6 ft × 8 ft, off the EAST side of the kitchen, north of the service door) — shelves of dry goods (sacks of beans, a small barrel, hanging cured meat, jars of preserves), a stoneware washing basin. ONE open archway (no door) connecting to the kitchen.
+7. G5 SCULLERY / PANTRY (small annex off the east-south corner of the kitchen, in the area immediately NORTH of the stair well) — shelves of dry goods, a barrel, hanging cured meat, jars of preserves, a stoneware basin. ONE open archway connects to the kitchen.
 
-8. G6 BACK YARD (OUTSIDE the building's north wall, depicted as a walled outdoor space above the building) — a walled courtyard about 22 ft × 12 ft. STONE FLAG PAVING with a small HERB BED along the east wall (most herbs gone wild, a few hardy survivors), a STONE BENCH against the west wall, a SMALL WOODEN PRIVY (outhouse) tucked into the north-west corner, a STONE WELL-HEAD with a wooden cover in the center of the yard. A small WROUGHT-IRON PEDESTRIAN GATE in the NORTH wall opens onto a back alley (sliver of cobble at the very top edge).
+8. G6 BACK YARD (OUTSIDE the building's north wall, depicted as a walled outdoor space above the building) — walled courtyard, stone flag paving with a small herb bed gone wild along the east wall, a stone bench, a small wooden privy in the NW corner, a stone well-head with wooden cover centered. A small wrought-iron pedestrian gate in the north wall opens to a back alley.
 
-DOOR REQUIREMENTS — every interior wall has a clearly drawn doorway as listed:
+DOOR REQUIREMENTS — explicit, every interior wall has a clearly drawn doorway:
 - Front door (south outer wall): wide dark oak with brass knocker.
-- Foyer → Central Hall: open archway, no door leaf.
-- Central Hall → Parlor: single hinged door (west).
-- Central Hall → Stair Hall: single hinged door (east).
-- Central Hall → Kitchen: single hinged door (north end).
-- Kitchen → Scullery: open archway (no door leaf).
-- Kitchen → Back Yard: single hinged wooden service door (east).
-- Back Yard → Back Alley: wrought-iron pedestrian gate (north).
+- Foyer → Central Hall: open archway (no leaf).
+- Central Hall → Parlor: single hinged door on west.
+- Central Hall → Stair Well: single hinged door on east (this door opens INTO the stair well).
+- Central Hall → Kitchen: single hinged door at north end.
+- Kitchen → Scullery: open archway.
+- Kitchen → Back Yard: single hinged wooden service door on east.
+- Back Yard → Back Alley: wrought-iron pedestrian gate on north.
 
-DUST AND DISUSE: the parlor has VISIBLE WHITE DUST-SHEETS on the settees. Cobwebs in the upper corners of the foyer and parlor. A faint patina of dust on flat surfaces. The kitchen worktable has one cleaned spot. The bookcase in the parlor has a thin layer of dust on its top shelf.
+DUST AND DISUSE: dust-sheets on parlor settees; cobwebs in corners; faint patina on flat surfaces; the kitchen worktable has one visibly clean spot.
 
-ATMOSPHERE: faded but cared-for; the dust says "no one here for a while" but the structure says "this could be lived in by tomorrow." Warm wooden floors throughout. Period: late 6th-century-CY Hardby merchant-quarter townhome.
+NO PEOPLE. NO ANIMALS. NO grid lines. Black void around the building's outer walls and beyond the back-yard wall. Roof not shown.
 
-NO PEOPLE. NO ANIMALS. NO grid lines. Black void around the building's outer walls and beyond the back-yard wall. Roof not shown.`,
+★ STAIR ALIGNMENT REMINDER: the stair well is on the EAST side of the building, centered NORTH-SOUTH. This SAME PIXEL POSITION must host the stair well on floors 2 and 3. ★`,
     postProcess: null,
   },
 
   {
-    id: "polish-mossen-place-second",
-    tier: 38,
+    id: "polish-mossen-place-second-v2",
+    tier: 39,
     out: "assets/maps/mossen-place-second-floor.png",
     size: "1024x1536",
     quality: "high",
-    prompt: `Top-down fantasy tactical battle map for tabletop RPG (D&D 5e). Painted, hand-drawn interior style consistent with Dyson Logos / Roll20 marketplace maps. NO grid overlay. View directly from above. PORTRAIT orientation.
+    prompt: `Top-down fantasy tactical battle map for tabletop RPG (D&D 5e). Painted, hand-drawn interior style consistent with Dyson Logos / Roll20 marketplace maps. NO grid overlay. View directly from above. PORTRAIT orientation. SINGLE FLOOR ONLY (second floor only).
 
-THIS IS A SINGLE-FLOOR VIEW. Second floor only. Do not stack floors.
+THE MOSSEN PLACE — SECOND FLOOR. Built atop the ground floor. The building footprint matches the ground floor's footprint exactly (~24 ft × 36 ft).
 
-THE MOSSEN PLACE — SECOND FLOOR (upper storey above the ground floor). The footprint MATCHES the ground floor's footprint EXACTLY (same outer walls, same width and depth). About 24 ft × 36 ft. North = top of image (back side). South = bottom of image (street side, with street-facing windows).
+CRITICAL: The STAIR WELL must be in EXACTLY the same position as on the ground floor — EAST-CENTER OF THE BUILDING, a square room ~12 ft × 12 ft, occupying the EAST THIRD of the building's width and CENTERED VERTICALLY (north-south) in the building's depth.
 
 LAYOUT FROM SOUTH (BOTTOM) TO NORTH (TOP):
 
-1. SOUTH OUTER WALL (bottom of image) — TWO leaded-glass windows on the dining room side, looking down onto the street. A small wrought-iron BALCONY rail visible just below the windows (a slim ledge on the outside of the building, ornamental). NO door at the south wall on this floor.
+1. SOUTH OUTER WALL — TWO leaded-glass windows visible on the dining-room side, looking down onto the street. A small wrought-iron decorative BALCONY rail just outside. NO door on the south wall.
 
-2. M1 DINING ROOM (west of central hall, mirroring the ground-floor parlor below, ~12 ft × 14 ft) — a LONG OAK DINING TABLE (8 ft × 3 ft, seats 8) running north-south in the center, EIGHT WOODEN CHAIRS around it (the chairs are draped with WHITE LINEN DUST-SHEETS, so they appear as draped white shapes). A SIDEBOARD against the north interior wall with empty silver candle-holders. Two leaded-glass windows on the south (street) outer wall.
+2. M1 DINING ROOM (southern half of the WEST side, ~14 ft × 12 ft) — a LONG OAK DINING TABLE (8 ft × 3 ft) with EIGHT WOODEN CHAIRS draped with WHITE LINEN DUST-SHEETS. A SIDEBOARD on the north interior wall with tarnished silver candle-holders.
 
-3. CENTRAL STAIR HALL (the middle of the building, in the east position, ~12 ft × 14 ft) — this is where the staircase FROM THE GROUND FLOOR ARRIVES (the steps from below are clearly visible at the south end, coming up the east wall and turning into a landing). FROM THIS SAME ROOM, a SECOND STAIRCASE continues up to the third floor, rising along the north wall and turning. Two stairs visible: one arriving from below (shaded as descending steps in the south end), one rising up (shaded as ascending in the north end). ONE door from the central hall — leading WEST into the dining room. ONE door on the EAST WALL connecting to the bath. ONE door on the NORTH WALL leading north to the central hall.
+3. ★★★ M5 STAIR WELL (FIXED POSITION — EAST-CENTER OF BUILDING — IDENTICAL TO GROUND FLOOR) ★★★ A square room ~12 ft × 12 ft, EAST THIRD of building width, CENTERED VERTICALLY. INSIDE THE STAIR WELL, TWO STAIRCASES MUST BE VISIBLE:
+   (a) The DOWNWARD staircase — at the SOUTH end of the well, the steps come DOWN from this floor to the ground floor below (in the same position as the ground-floor stair's top landing). Shade the steps so the eye reads "descending" (top steps lighter, bottom steps darker/disappearing into the floor).
+   (b) The UPWARD staircase — at the NORTH end of the well, a SECOND L-shaped quarter-turn staircase rises up to the third floor. Shade so the eye reads "ascending."
+   ONE door on the WEST wall of the stair well opens to the central hall.
 
-4. CENTRAL N-S HALL (narrow, ~6 ft wide, running from the stair-hall north toward the library and master bedroom) — straight, simple corridor.
+4. CENTRAL HALL — a narrow N-S corridor running up the middle-west of the building, mirroring the ground floor. The east wall of the hall is the WEST WALL of the stair well.
 
-5. M2 LIBRARY / STUDY (east of central hall in the middle of the building, ~12 ft × 10 ft) — BOOKCASES on the east outer wall AND on the south interior wall (floor-to-ceiling, with some books missing creating gaps). A WRITING DESK against the east outer wall under a small window. A CHAIR pulled out from the desk. A reading chair in the corner. NEAR THE DESK on the floor, A SMALL AREA RUG is depicted with a SLIGHT BULGE in one corner suggesting a loose floorboard beneath (the hidden compartment). ONE door from the hall.
+5. M2 LIBRARY / STUDY (just NORTH of the dining room, on the west side OR a south-east position not occupied by the stair well — please put it WEST of the stair well, in the NORTH-WEST quadrant of the second floor) — BOOKCASES floor-to-ceiling on two walls, a WRITING DESK against the outer wall, a reading chair. Near the desk on the floor, a SMALL AREA RUG with a slight BULGE in one corner suggesting a loose floorboard beneath.
 
-6. M4 BATH / WATER CLOSET (small, ~6 ft × 8 ft, east of stair hall) — a TIN TUB, a wash-stand with a porcelain basin, a hand-pump for water above the basin. ONE door from the stair hall.
+6. M4 BATH / WATER CLOSET (small, ~6 ft × 8 ft, immediately EAST of the stair well — that is, OUTSIDE the building's east wall isn't possible, so put the bath as a small alcove off the NORTH side of the stair well, between the stair well and the master bedroom) — a TIN TUB, wash-stand with porcelain basin, hand-pump. ONE door from the stair well.
 
-7. M3 MASTER BEDROOM (north end of the building, full width × 12 ft deep, occupying the north 12 ft of the footprint) — a generous FOUR-POSTER BED against the north outer wall (draped with a WHITE LINEN DUST-SHEET so the bed reads as a draped white shape with the four posts visible), a tall WARDROBE against the west wall, a small WASH-STAND with a porcelain basin against the east wall, a small low table beside the bed. TWO small leaded-glass windows on the north outer wall (looking down at the back yard below). ONE door from the central hall on the south wall.
+7. M3 MASTER BEDROOM (NORTH end of the building, full width × ~10 ft deep) — a generous FOUR-POSTER BED against the north outer wall, draped with a single WHITE LINEN DUST-SHEET (bed reads as draped white mass with four posts visible at corners). A tall WARDROBE against west wall, a small WASH-STAND against east wall. TWO small leaded-glass windows on north outer wall.
 
-DOOR REQUIREMENTS — every interior wall has a clearly drawn doorway:
-- Stair Hall ↔ Dining Room: single hinged door (west).
-- Stair Hall ↔ Central N-S Hall: open archway (north end).
-- Stair Hall ↔ Bath: single hinged door (east).
-- Central N-S Hall ↔ Library: single hinged door (east).
-- Central N-S Hall ↔ Master Bedroom: single hinged door (north).
-- NO doors on outer walls. The dining room's south windows are sealed leaded glass.
+DOOR REQUIREMENTS — explicit:
+- Stair Well → Central Hall: single hinged door on west.
+- Central Hall → Dining Room: single hinged door on west.
+- Central Hall → Library: single hinged door on west or north.
+- Stair Well → Bath: single hinged door on north.
+- Central Hall → Master Bedroom: single hinged door at north end.
+- NO outer-wall doors. South window over dining room is sealed.
 
-STAIR DETAIL — be explicit: the staircase from below comes up the EAST WALL of the stair hall and emerges in the south half of the room. The staircase going UP to the third floor is at the NORTH end of the stair hall, rising along the east wall. Both are clearly drawn.
+DUST: dining room chairs draped; bookcases dust on top shelves; master bed shrouded; cobwebs in corners.
 
-DUST AND DISUSE: the dining-room chairs are visibly draped with white dust-sheets. The library bookcases have a thin layer of dust on the top shelves. The master bedroom's bed is shrouded. Cobwebs in the upper corners of the dining room. Atmosphere matches the ground floor: "needs a good dusting but otherwise serviceable."
+NO PEOPLE. NO ANIMALS. NO grid lines. Black void around outer walls. Roof not shown.
 
-NO PEOPLE. NO ANIMALS. NO grid lines. Black void around the building's outer walls. Roof not shown.`,
+★ STAIR ALIGNMENT REMINDER: the stair well is on the EAST side of the building, centered N-S — IDENTICAL POSITION TO GROUND FLOOR. Two staircases visible inside the well: one going DOWN at the SOUTH end, one going UP at the NORTH end. ★`,
     postProcess: null,
   },
 
   {
-    id: "polish-mossen-place-third",
-    tier: 38,
+    id: "polish-mossen-place-third-v2",
+    tier: 39,
     out: "assets/maps/mossen-place-third-floor.png",
     size: "1024x1536",
     quality: "high",
-    prompt: `Top-down fantasy tactical battle map for tabletop RPG (D&D 5e). Painted, hand-drawn interior style consistent with Dyson Logos / Roll20 marketplace maps. NO grid overlay. View directly from above. PORTRAIT orientation.
+    prompt: `Top-down fantasy tactical battle map for tabletop RPG (D&D 5e). Painted, hand-drawn interior style consistent with Dyson Logos / Roll20 marketplace maps. NO grid overlay. View directly from above. PORTRAIT orientation. SINGLE FLOOR ONLY (third floor only — top storey, under the slate roof).
 
-THIS IS A SINGLE-FLOOR VIEW. Third floor (top storey, under the slate roof). Do not stack floors.
+THE MOSSEN PLACE — THIRD FLOOR. Slightly smaller usable footprint than the lower floors due to the sloped slate roof on east and west sides. About 22 ft × 36 ft of usable interior.
 
-THE MOSSEN PLACE — THIRD FLOOR. The footprint is slightly SMALLER than the floors below to account for the SLOPED SLATE ROOF on the east and west sides. The interior usable footprint is about 22 ft × 36 ft. The four small bedrooms here are DORMER ROOMS — each has a small dormer window cut into the sloped roof. North = top of image (back). South = bottom of image (street).
+CRITICAL: The STAIR WELL position must be IDENTICAL to floors 1 and 2 — a square room on the EAST-CENTER of the building, occupying the EAST THIRD of the building's width and CENTERED VERTICALLY (north-south).
 
 LAYOUT FROM SOUTH (BOTTOM) TO NORTH (TOP):
 
-1. SOUTH OUTER WALL (bottom of image) — TWO small dormer windows visible, one for the front-most bedroom on each side.
+1. SOUTH OUTER WALL — TWO small DORMER WINDOWS projecting from the sloped roof on the south side (one for each south bedroom).
 
-2. CENTRAL STAIR LANDING (middle of the south third of the building, ~10 ft × 8 ft) — the staircase FROM THE SECOND FLOOR arrives here, emerging from the south part of the floor along the east wall. The steps coming up are clearly drawn (separate parallel lines, lighter at the top = arrival point). ONE door on the WEST wall connecting to the south-west bedroom T1; ONE door on the SOUTH wall connecting to the south-east bedroom T2; ONE open archway on the NORTH wall connecting to the north corridor.
+2. T1 BEDROOM ONE (south-west, ~10 ft × 10 ft) — single narrow bed against south wall with dust-sheet, small wardrobe on west wall, wash-stand, small dormer window on south.
 
-3. NORTH CORRIDOR (narrow, ~5 ft wide, running north from the stair landing) — connects to the four remaining rooms in the north half of the floor.
+3. T2 BEDROOM TWO (south-CENTRAL — fits between T1 and the stair well, ~10 ft × 10 ft) — single bed with dust-sheet, wardrobe on north interior wall, wash-stand. SINGLE DORMER WINDOW on south outer wall.
 
-4. T1 BEDROOM ONE (south-west, ~10 ft × 10 ft) — a SINGLE NARROW BED against the south wall, a small WARDROBE on the west wall, a WASH-STAND in the corner. A small DORMER WINDOW cut into the sloped ceiling visible on the SOUTH wall.
+4. ★★★ T7 STAIR WELL (FIXED POSITION — EAST-CENTER OF BUILDING — IDENTICAL TO FLOORS 1 AND 2) ★★★ A square room ~12 ft × 12 ft, EAST THIRD of building width, CENTERED VERTICALLY. INSIDE THE STAIR WELL: a SINGLE STAIRCASE COMING UP from the second floor — the staircase emerges at the SOUTH end of the well (where the floor-2 stair-up landed), shaded so the eye reads "arriving" (top step lighter). NO stair continues higher (this is the top floor). The rest of the well is a small LANDING. ONE door on the WEST wall of the stair well opens into the central corridor.
 
-5. T2 BEDROOM TWO (south-east, ~10 ft × 10 ft) — mirrors T1: single bed against south wall, wardrobe, wash-stand, dormer window on south.
+5. CENTRAL CORRIDOR — narrow N-S corridor (~5 ft wide) running up the middle-west of the building, connecting the stair well to the back bedrooms and the bath/closet.
 
-6. T3 BEDROOM THREE (north-west, ~10 ft × 12 ft, slightly larger than T1) — single bed against west wall, wardrobe, wash-stand, dormer window on west wall.
+6. T3 BEDROOM THREE (north-west, ~10 ft × 10 ft) — single bed against west wall with dust-sheet, wardrobe, wash-stand, dormer window on west outer wall.
 
-7. T4 BEDROOM FOUR (north-east, ~10 ft × 12 ft, mirrors T3) — single bed against east wall, wardrobe, wash-stand, dormer window on east wall.
+7. T4 BEDROOM FOUR (north-east, ~10 ft × 10 ft, immediately NORTH of the stair well) — single bed against east wall with dust-sheet, wardrobe, wash-stand, dormer window on east outer wall.
 
-8. T5 SMALL BATH (small ~5 ft × 6 ft, in the north end of the corridor between T3 and T4) — a hand-basin and a chamber-pot screen. ONE door from the corridor (south).
+8. T5 SMALL BATH (small, ~5 ft × 6 ft, in the NORTH end of the corridor between T3 and T4) — wash-basin, chamber-pot screen, ONE door from corridor.
 
-9. T6 LINEN / STORAGE CLOSET (small ~5 ft × 5 ft, just south of T5 in the corridor) — shallow shelves with folded sheets and a few stored items. NEAR THE CENTER OF ITS FLOOR, depict a SMALL SQUARE OUTLINE on the floor planks (slightly different shading) suggesting a LOOSE FLOORBOARD with a hidden cache below. ONE door from the corridor.
+9. T6 LINEN / STORAGE CLOSET (small, ~5 ft × 5 ft, just SOUTH of T5 along the corridor) — shallow shelves with folded sheets and a few stored items. NEAR THE CENTER of the floor, depict a small SQUARE OUTLINE on the floor planks (slightly different shading) suggesting a LOOSE FLOORBOARD with a hidden cache below. ONE door from corridor.
 
-DOOR REQUIREMENTS — every interior wall has a clearly drawn doorway:
-- Stair Landing ↔ T1 Bedroom One: single hinged door (west).
-- Stair Landing ↔ T2 Bedroom Two: single hinged door (south).
-- Stair Landing ↔ North Corridor: open archway (north).
-- Corridor ↔ T3 Bedroom Three: single hinged door (west).
-- Corridor ↔ T4 Bedroom Four: single hinged door (east).
-- Corridor ↔ T5 Bath: single hinged door (north end).
-- Corridor ↔ T6 Linen Closet: single hinged door (middle).
-- NO outer-wall doors. All windows are small leaded dormer windows in the sloped roof.
+DOOR REQUIREMENTS — explicit:
+- Stair Well → Central Corridor: single hinged door on west.
+- Corridor → T1 (SW bedroom): single hinged door at south end of corridor (west).
+- Corridor → T2 (S-central bedroom): single hinged door at south end (east).
+- Corridor → T3 (NW bedroom): single hinged door (west).
+- Corridor → T4 (NE bedroom): single hinged door (east).
+- Corridor → T5 (Bath): single hinged door at north end.
+- Corridor → T6 (Linen): single hinged door (middle).
 
-STAIR DETAIL — the staircase emerging at the south landing should be clearly visible coming UP. No staircase continues higher (this is the top floor).
+ROOF / DORMER NOTE: depict the outer walls slightly OFFSET INWARD to show the sloped slate roof above. Dormer windows project outward from the sloped roof on each bedroom's outer wall. Show the slope as subtle shading.
 
-ROOF / DORMER NOTE: depict the OUTER walls of the building as slightly OFFSET INWARD from the second-floor footprint to show that the roof slopes inward from the eaves to the dormer windows. The dormer windows are small and PROJECTED OUT FROM THE SLOPED ROOF. Show the slope as a subtle shading or darker band along the outer edges of the floor where the roof meets the wall.
+DUST: each bedroom has a small white dust-sheet on the bed; cobwebs in corners; dim daylight from dormer windows.
 
-DUST AND DISUSE: each bedroom has a small white dust-sheet on the bed. Cobwebs in the corners. Light a single dormer window on each bedroom for daylight. Atmosphere matches the lower floors: dust, but sound.
+NO PEOPLE. NO ANIMALS. NO grid lines. Black void around outer walls.
 
-NO PEOPLE. NO ANIMALS. NO grid lines. Black void around the building's outer walls. The image's overall feel is "small, cozy, cramped" compared to the second floor — these are servant or guest rooms historically, now PC bedrooms.`,
+★ STAIR ALIGNMENT REMINDER: the stair well is on the EAST side of the building, centered N-S — IDENTICAL POSITION TO FLOORS 1 AND 2. Stair arrives at the SOUTH end of the well (matching where the floor-2 stair-up emerged). No stair continues higher. ★`,
     postProcess: null,
   },
+
 ];
 
 // ----------------- engine -----------------

@@ -1,0 +1,553 @@
+{
+  "_key": "!scenes!BR2SceneSprwLftwk",
+  "_id": "BR2SceneSprwLftwk",
+  "name": "Sparrow's Run — Loftwick Footchase",
+  "active": false,
+  "navigation": true,
+  "navOrder": 0,
+  "navName": "Sparrow's Run — Loftwick Footchase",
+  "background": {
+    "src": "modules/blooming-rot-2/assets/maps/Loftwick.jpg",
+    "anchorX": 0.5,
+    "anchorY": 0.5,
+    "offsetX": 0,
+    "offsetY": 0,
+    "fit": "fill",
+    "scaleX": 1,
+    "scaleY": 1,
+    "rotation": 0,
+    "tint": "#ffffff",
+    "alphaThreshold": 0
+  },
+  "foreground": null,
+  "foregroundElevation": 20,
+  "thumb": null,
+  "width": 3072,
+  "height": 4096,
+  "padding": 0,
+  "initial": null,
+  "backgroundColor": "#1a1a1a",
+  "grid": {
+    "type": 1,
+    "size": 100,
+    "style": "solidLines",
+    "thickness": 1,
+    "color": "#000000",
+    "alpha": 0.2,
+    "distance": 5,
+    "units": "ft"
+  },
+  "tokenVision": true,
+  "fog": {
+    "exploration": true,
+    "reset": null,
+    "overlay": null,
+    "colors": {
+      "explored": null,
+      "unexplored": null
+    }
+  },
+  "environment": {
+    "darknessLevel": 0,
+    "darknessLock": false,
+    "globalLight": {
+      "enabled": true,
+      "alpha": 0.5,
+      "bright": false,
+      "color": null,
+      "coloration": 1,
+      "luminosity": 0,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "darkness": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "cycle": true,
+    "base": {
+      "hue": 0,
+      "intensity": 0,
+      "luminosity": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "dark": {
+      "hue": 0,
+      "intensity": 0,
+      "luminosity": -0.25,
+      "saturation": 0,
+      "shadows": 0
+    }
+  },
+  "drawings": [],
+  "tokens": [],
+  "lights": [],
+  "walls": [
+    {
+      "_id": "Wall9fcac53a5a90",
+      "c": [
+        1500,
+        720,
+        1500,
+        1100
+      ],
+      "light": 20,
+      "move": 20,
+      "sight": 20,
+      "sound": 20,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "doorSound": "",
+      "flags": {},
+      "_key": "!scenes.walls!BR2SceneSprwLftwk.Wall9fcac53a5a90"
+    },
+    {
+      "_id": "Wallbee9c38acd92",
+      "c": [
+        1720,
+        720,
+        1720,
+        1100
+      ],
+      "light": 20,
+      "move": 20,
+      "sight": 20,
+      "sound": 20,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "doorSound": "",
+      "flags": {},
+      "_key": "!scenes.walls!BR2SceneSprwLftwk.Wallbee9c38acd92"
+    },
+    {
+      "_id": "Wall15a990c0a33e",
+      "c": [
+        1350,
+        1100,
+        1850,
+        1100
+      ],
+      "light": 20,
+      "move": 20,
+      "sight": 20,
+      "sound": 20,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "doorSound": "",
+      "flags": {},
+      "_key": "!scenes.walls!BR2SceneSprwLftwk.Wall15a990c0a33e"
+    },
+    {
+      "_id": "Wallf7aeca10f3cd",
+      "c": [
+        1250,
+        1300,
+        1450,
+        1300
+      ],
+      "light": 20,
+      "move": 20,
+      "sight": 20,
+      "sound": 20,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "doorSound": "",
+      "flags": {},
+      "_key": "!scenes.walls!BR2SceneSprwLftwk.Wallf7aeca10f3cd"
+    },
+    {
+      "_id": "Wall1a0f9f13f8f1",
+      "c": [
+        1180,
+        1320,
+        1180,
+        1500
+      ],
+      "light": 20,
+      "move": 20,
+      "sight": 20,
+      "sound": 20,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "doorSound": "",
+      "flags": {},
+      "_key": "!scenes.walls!BR2SceneSprwLftwk.Wall1a0f9f13f8f1"
+    },
+    {
+      "_id": "Walldbf1e62d3f3d",
+      "c": [
+        1420,
+        1320,
+        1420,
+        1500
+      ],
+      "light": 20,
+      "move": 20,
+      "sight": 20,
+      "sound": 20,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "doorSound": "",
+      "flags": {},
+      "_key": "!scenes.walls!BR2SceneSprwLftwk.Walldbf1e62d3f3d"
+    },
+    {
+      "_id": "Wall80b92eb7dae3",
+      "c": [
+        1500,
+        1620,
+        1500,
+        1900
+      ],
+      "light": 20,
+      "move": 20,
+      "sight": 20,
+      "sound": 20,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "doorSound": "",
+      "flags": {},
+      "_key": "!scenes.walls!BR2SceneSprwLftwk.Wall80b92eb7dae3"
+    },
+    {
+      "_id": "Wall772efa5a43ff",
+      "c": [
+        1660,
+        1620,
+        1660,
+        1900
+      ],
+      "light": 20,
+      "move": 20,
+      "sight": 20,
+      "sound": 20,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "doorSound": "",
+      "flags": {},
+      "_key": "!scenes.walls!BR2SceneSprwLftwk.Wall772efa5a43ff"
+    },
+    {
+      "_id": "Walldbd6eb6cf5b4",
+      "c": [
+        1620,
+        2020,
+        1820,
+        2020
+      ],
+      "light": 20,
+      "move": 20,
+      "sight": 20,
+      "sound": 20,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "doorSound": "",
+      "flags": {},
+      "_key": "!scenes.walls!BR2SceneSprwLftwk.Walldbd6eb6cf5b4"
+    },
+    {
+      "_id": "Wallaa672617fc3f",
+      "c": [
+        1680,
+        2050,
+        1760,
+        2050
+      ],
+      "light": 20,
+      "move": 20,
+      "sight": 20,
+      "sound": 20,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "dir": 0,
+      "door": 1,
+      "ds": 0,
+      "doorSound": "",
+      "flags": {},
+      "_key": "!scenes.walls!BR2SceneSprwLftwk.Wallaa672617fc3f"
+    }
+  ],
+  "templates": [],
+  "tiles": [],
+  "regions": [],
+  "notes": [
+    {
+      "_id": "Note861490fddbf1",
+      "entryId": null,
+      "pageId": null,
+      "x": 1610,
+      "y": 760,
+      "elevation": 0,
+      "sort": 0,
+      "texture": {
+        "src": "icons/svg/eye.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "fill",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0
+      },
+      "iconSize": 40,
+      "fontSize": 32,
+      "fontFamily": "Signika",
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "text": "Start — Sparrow's corner (head of Wick Lane). She launches the instant the party moves to take her.",
+      "global": false,
+      "flags": {},
+      "_key": "!scenes.notes!BR2SceneSprwLftwk.Note861490fddbf1"
+    },
+    {
+      "_id": "Noted65c1bb0cb76",
+      "entryId": null,
+      "pageId": null,
+      "x": 1610,
+      "y": 1180,
+      "elevation": 0,
+      "sort": 0,
+      "texture": {
+        "src": "icons/svg/regen.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "fill",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0
+      },
+      "iconSize": 40,
+      "fontSize": 32,
+      "fontFamily": "Signika",
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "text": "Reach 1 — Cloth Market crowd. DC 13: Athletics (shove), Acrobatics (vault), Intimidation/Persuasion (\"Make way!\"), Insight/Investigation (cut the corner). Sparrow uses Nimble Bolt to open the gap.",
+      "global": false,
+      "flags": {},
+      "_key": "!scenes.notes!BR2SceneSprwLftwk.Noted65c1bb0cb76"
+    },
+    {
+      "_id": "Note3313a2eff4ac",
+      "entryId": null,
+      "pageId": null,
+      "x": 1300,
+      "y": 1380,
+      "elevation": 0,
+      "sort": 0,
+      "texture": {
+        "src": "icons/svg/scroll.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "fill",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0
+      },
+      "iconSize": 40,
+      "fontSize": 32,
+      "fontFamily": "Signika",
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "text": "Reach 2 — Market wall & Loft Steps. FOLD DROPS HERE. Athletics/Acrobatics DC 15 to clear the wall. A pursuer can snatch the oilcloth fold (costs their action) or mark the spot and grab it after.",
+      "global": false,
+      "flags": {},
+      "_key": "!scenes.notes!BR2SceneSprwLftwk.Note3313a2eff4ac"
+    },
+    {
+      "_id": "Note44cd7774aa04",
+      "entryId": null,
+      "pageId": null,
+      "x": 1580,
+      "y": 1770,
+      "elevation": 0,
+      "sort": 0,
+      "texture": {
+        "src": "icons/svg/run.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "fill",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0
+      },
+      "iconSize": 40,
+      "fontSize": 32,
+      "fontFamily": "Signika",
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "text": "Reach 3 — Tanners' Cut. Sparrow upends a fleece-barrow. DC 15: Acrobatics/Dexterity (vault), Athletics (bull through), Survival/streetwise (parallel cut). A fumble costs a round untangling wool.",
+      "global": false,
+      "flags": {},
+      "_key": "!scenes.notes!BR2SceneSprwLftwk.Note44cd7774aa04"
+    },
+    {
+      "_id": "Note3c12479434dc",
+      "entryId": null,
+      "pageId": null,
+      "x": 1720,
+      "y": 2070,
+      "elevation": 0,
+      "sort": 0,
+      "texture": {
+        "src": "icons/svg/door-exit.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "fill",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0
+      },
+      "iconSize": 40,
+      "fontSize": 32,
+      "fontFamily": "Signika",
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "text": "Reach 4 — The culvert (escape). Half-open grate at the waterline + flat skiff in the reeds. Sparrow escapes UNLESS the party has already driven Lead to 0 AND has a real way to follow (flying, Small, readied grapple, hold person, misty step, water-walking).",
+      "global": false,
+      "flags": {},
+      "_key": "!scenes.notes!BR2SceneSprwLftwk.Note3c12479434dc"
+    },
+    {
+      "_id": "Note98b52e2ac7a1",
+      "entryId": null,
+      "pageId": null,
+      "x": 2200,
+      "y": 1400,
+      "elevation": 0,
+      "sort": 0,
+      "texture": {
+        "src": "icons/svg/clockwork.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "fill",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0
+      },
+      "iconSize": 40,
+      "fontSize": 32,
+      "fontFamily": "Signika",
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "text": "Lead tracker — start at 2. Party drives down with success, Sparrow drives up. She escapes when the route runs out. Keep to 3–4 rounds; never let one bad roll end it. THE CLUE IS NOT THE CAPTURE — the fold drops at Reach 2 regardless.",
+      "global": false,
+      "flags": {},
+      "_key": "!scenes.notes!BR2SceneSprwLftwk.Note98b52e2ac7a1"
+    }
+  ],
+  "sounds": [],
+  "journal": null,
+  "journalEntryPage": null,
+  "playlist": null,
+  "playlistSound": null,
+  "weather": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

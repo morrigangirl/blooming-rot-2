@@ -811,6 +811,61 @@ function buildTrinaTownhouse() {
   return { sceneId, walls, lights, notes };
 }
 
+function buildSparrowsRunLoftwick() {
+  // 3072 × 4096 — Loftwick city map, dense northern commercial quarter.
+  // Footchase along four reaches: Wick Lane → Cloth Market → Loft Steps wall → Tanners' Cut → Culvert.
+  // Light wall chain to outline the chase corridor; the work is done by the four reach notes + fold-drop note.
+  const sceneId = "BR2SceneSprwLftwk";
+  const counter = { n: 0 };
+  const walls = [];
+  const lights = [];
+  const notes = [];
+
+  // Reach 1 — Wick Lane → Cloth Market.
+  // Start: Sparrow's corner at the head of Wick Lane.
+  // End: spilling into the Cloth Market square.
+  walls.push(segment(sceneId, counter, 1500, 720, 1500, 1100));   // Wick Lane W wall
+  walls.push(segment(sceneId, counter, 1720, 720, 1720, 1100));   // Wick Lane E wall
+  walls.push(segment(sceneId, counter, 1350, 1100, 1850, 1100));  // Cloth Market N edge (crowd-line)
+
+  // Reach 2 — The market wall and the Loft Steps (FOLD DROP HERE).
+  walls.push(segment(sceneId, counter, 1250, 1300, 1450, 1300));  // low market wall (Sparrow vaults this)
+  walls.push(segment(sceneId, counter, 1180, 1320, 1180, 1500));  // Loft Steps W edge
+  walls.push(segment(sceneId, counter, 1420, 1320, 1420, 1500));  // Loft Steps E edge
+
+  // Reach 3 — The Tanners' Cut (narrow alley).
+  walls.push(segment(sceneId, counter, 1500, 1620, 1500, 1900));  // Tanners' Cut W wall
+  walls.push(segment(sceneId, counter, 1660, 1620, 1660, 1900));  // Tanners' Cut E wall
+
+  // Reach 4 — The culvert at the river's edge.
+  walls.push(segment(sceneId, counter, 1620, 2020, 1820, 2020));  // culvert N approach
+  walls.push(segment(sceneId, counter, 1680, 2050, 1760, 2050, "door"));  // half-open grate (door type)
+
+  // Reach markers — each note carries the DC + obstacle text for the GM.
+  notes.push(makeNote(sceneId, counter.n++, 1610, 760,
+    "Start — Sparrow's corner (head of Wick Lane). She launches the instant the party moves to take her.",
+    "icons/svg/eye.svg"));
+  notes.push(makeNote(sceneId, counter.n++, 1610, 1180,
+    "Reach 1 — Cloth Market crowd. DC 13: Athletics (shove), Acrobatics (vault), Intimidation/Persuasion (\"Make way!\"), Insight/Investigation (cut the corner). Sparrow uses Nimble Bolt to open the gap.",
+    "icons/svg/regen.svg"));
+  notes.push(makeNote(sceneId, counter.n++, 1300, 1380,
+    "Reach 2 — Market wall & Loft Steps. FOLD DROPS HERE. Athletics/Acrobatics DC 15 to clear the wall. A pursuer can snatch the oilcloth fold (costs their action) or mark the spot and grab it after.",
+    "icons/svg/scroll.svg"));
+  notes.push(makeNote(sceneId, counter.n++, 1580, 1770,
+    "Reach 3 — Tanners' Cut. Sparrow upends a fleece-barrow. DC 15: Acrobatics/Dexterity (vault), Athletics (bull through), Survival/streetwise (parallel cut). A fumble costs a round untangling wool.",
+    "icons/svg/run.svg"));
+  notes.push(makeNote(sceneId, counter.n++, 1720, 2070,
+    "Reach 4 — The culvert (escape). Half-open grate at the waterline + flat skiff in the reeds. Sparrow escapes UNLESS the party has already driven Lead to 0 AND has a real way to follow (flying, Small, readied grapple, hold person, misty step, water-walking).",
+    "icons/svg/door-exit.svg"));
+
+  // Standing-orders box note for the GM, off to the side.
+  notes.push(makeNote(sceneId, counter.n++, 2200, 1400,
+    "Lead tracker — start at 2. Party drives down with success, Sparrow drives up. She escapes when the route runs out. Keep to 3–4 rounds; never let one bad roll end it. THE CLUE IS NOT THE CAPTURE — the fold drops at Reach 2 regardless.",
+    "icons/svg/clockwork.svg"));
+
+  return { sceneId, walls, lights, notes };
+}
+
 // ---------- write back to scene files ----------
 function updateScene(scenePath, build) {
   const j = JSON.parse(fs.readFileSync(scenePath, "utf8"));
@@ -864,6 +919,15 @@ const newScenes = [
     width: 1024,
     height: 1536,
     builder: buildTrinaTownhouse
+  },
+  {
+    file: "packs/_source/phase-2-scenes/scene-sparrows-run-loftwick.json",
+    name: "Sparrow's Run — Loftwick Footchase",
+    img: "modules/blooming-rot-2/assets/maps/Loftwick.jpg",
+    sceneId: "BR2SceneSprwLftwk",
+    width: 3072,
+    height: 4096,
+    builder: buildSparrowsRunLoftwick
   }
 ];
 

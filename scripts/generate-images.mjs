@@ -5509,6 +5509,67 @@ NO PEOPLE. NO ANIMALS. NO grid lines. Black void around outer walls.
     postProcess: null,
   },
 
+  // ============== TIER 40 — Phase 2 chase: the Sparrow ==============
+  {
+    id: "sparrow-portrait",
+    tier: 40,
+    out: "assets/portraits/sparrow-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of ANLA "SPARROW" COYLE, a Yeomanry street kid about sixteen years old.
+Wiry, watchful, undersized for her age but quick — a former message-runner thrown out of work when her courier-house folded.
+Mousy brown hair cropped short and uneven, a smudge of grime on one cheekbone, dark-circled eyes that have been hungry too long.
+Clothes are practical and patched: a too-large men's vest belted over a coarse linen shirt, sensible knee-length breeches, soft leather running shoes worn to the seams.
+Over one shoulder hangs an oilcloth fold-packet on a frayed strap.
+A small fleece-hook is tucked into her belt — not a weapon, a working tool.
+No jewelry. No insignia.
+She is half-turned as though caught mid-glance, weight on the balls of her feet, ready to bolt.
+Three-quarter view from waist up, eyes flicked to one side past the viewer.
+Background: the suggestion of a narrow paper-trades street at midday, soft and out of focus.
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  {
+    id: "sparrow-token",
+    tier: 40,
+    out: "assets/tokens/sparrow-token.png",
+    sourceFromExisting: "assets/portraits/sparrow-portrait.png",
+    skipGeneration: true,
+    postProcess: "round-token-512",
+    // Dull pewter — a hungry watcher, not a noble; the ring should feel cheap and serviceable.
+    ring: { base: "#6e6a64", highlight: "#a8a39a", shadow: "#26221e" },
+  },
+  {
+    id: "sparrow-fold",
+    tier: 40,
+    out: "assets/handouts/sparrow-fold.png",
+    size: "1024x1024",
+    quality: "high",
+    prompt: `A flat-lay PROP photograph of a small oilcloth packet, recently unfolded, lying on a plain dark wooden surface.
+The packet contains four items laid out together so the viewer can read them:
+
+1. A SHORT NOTCHED TALLY-STICK — a thumb-thick splinter of pale wood about 4 inches long, with a tidy row of small V-notches cut along one edge. Faintly worn from being handled.
+
+2. A STUB OF WHITE CHALK, about 1 inch long, blunt-tipped.
+
+3. A HALF-WRITTEN REPORT-SLIP on coarse cream paper, about 3 by 5 inches, in a child's careful hand using brown iron-gall ink. The text on the slip reads exactly, on three lines:
+   "stationer 2x — firm 1x — escort gone east"
+   "watch-coat man — 1 hr — took nothing"
+   "(group of 4 today —"
+   (the last line trails off unfinished, the ink fresh and slightly smudged.)
+
+4. A FOLDED INSTRUCTION-CARD on heavier cream card, partially unfolded so two faces are visible. The upper face shows, in a different adult hand and darker ink, exactly this text on three lines:
+   "Tallies to the loose ashlar at Coopers' Arms corner."
+   "Lifted Sevenday. Keep nothing."
+   At the bottom of the lower face, a small inked CLEARING-GLYPH — a stylized tower above three waves, identical in style to a merchant clearing-mark — with the line below it:
+   "east on the Sevenday cart"
+
+The oilcloth itself is a worn dark olive-green, edges frayed; one corner shows a faint white chalk smudge where the chalk-stub rests.
+
+${HANDOUT_STYLE}`,
+    postProcess: null,
+  },
+
 ];
 
 // ----------------- engine -----------------

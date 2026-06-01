@@ -13,8 +13,10 @@ const PACKS = [
   "phase-1-scenes",
   "phase-2-journals",
   "phase-2-actors",
+  "phase-2-scenes",
   "phase-3-journals",
-  "phase-3-actors"
+  "phase-3-actors",
+  "phase-3-scenes"
 ];
 
 for (const pack of PACKS) {

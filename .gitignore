@@ -21,3 +21,6 @@ docs/*.pdf
 # Transient build caches and local Python venv for the PDF generator
 .build/
 .venv-docs/
+
+# ImageMagick font registry written at build time — not a source file
+assets/_raw/magick-cfg/

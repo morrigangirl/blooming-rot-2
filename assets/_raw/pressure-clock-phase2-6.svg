@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+  width="210" height="252" viewBox="0 0 210 252">
+<defs>
+  <style>
+    @font-face {
+      font-family: 'Georgia';
+      font-weight: normal;
+      src: url('/System/Library/Fonts/Supplemental/Georgia.ttf') format('truetype');
+    }
+    @font-face {
+      font-family: 'Georgia';
+      font-weight: bold;
+      src: url('/System/Library/Fonts/Supplemental/Georgia Bold.ttf') format('truetype');
+    }
+  </style>
+</defs>
+<defs>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="inner-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2" result="blur"/>
+      <feOffset dx="0" dy="1"/>
+      <feComposite in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+<circle cx="105" cy="106" r="96"
+    fill="none"
+    stroke="#c09428" stroke-opacity="0.45"
+    stroke-width="1" stroke-dasharray="3.5 3"/>
+<circle cx="105" cy="106" r="92"
+    fill="#0c0602" fill-opacity="0.87"
+    stroke="#d7aa37" stroke-opacity="0.88"
+    stroke-width="2.5"
+    filter="url(#glow)"/>
+<path d="M 107.827 16.044 A 90 90 0 0 1 181.49 58.574 L 133.896 88.084 A 34 34 0 0 0 106.068 72.017 Z" fill="#9b1212" fill-opacity="0.92"
+        stroke="#c84040" stroke-opacity="0.55" stroke-width="0.8"/>
+<path d="M 184.317 63.47 A 90 90 0 0 1 184.317 148.53 L 134.964 122.067 A 34 34 0 0 0 134.964 89.933 Z" fill="#9b1212" fill-opacity="0.92"
+        stroke="#c84040" stroke-opacity="0.55" stroke-width="0.8"/>
+<path d="M 181.49 153.426 A 90 90 0 0 1 107.827 195.956 L 106.068 139.983 A 34 34 0 0 0 133.896 123.916 Z" fill="#9b1212" fill-opacity="0.92"
+        stroke="#c84040" stroke-opacity="0.55" stroke-width="0.8"/>
+<path d="M 102.173 195.956 A 90 90 0 0 1 28.51 153.426 L 76.104 123.916 A 34 34 0 0 0 103.932 139.983 Z" fill="#9b1212" fill-opacity="0.92"
+        stroke="#c84040" stroke-opacity="0.55" stroke-width="0.8"/>
+<path d="M 25.683 148.53 A 90 90 0 0 1 25.683 63.47 L 75.036 89.933 A 34 34 0 0 0 75.036 122.067 Z" fill="#9b1212" fill-opacity="0.92"
+        stroke="#c84040" stroke-opacity="0.55" stroke-width="0.8"/>
+<path d="M 28.51 58.574 A 90 90 0 0 1 102.173 16.044 L 103.932 72.017 A 34 34 0 0 0 76.104 88.084 Z" fill="#9b1212" fill-opacity="0.92"
+        stroke="#c84040" stroke-opacity="0.55" stroke-width="0.8"/>
+<line x1="105" y1="73" x2="105" y2="15"
+      stroke="#d7aa37" stroke-opacity="0.75" stroke-width="2" stroke-linecap="round"/>
+<line x1="133.579" y1="89.5" x2="183.808" y2="60.5"
+      stroke="#d7aa37" stroke-opacity="0.75" stroke-width="2" stroke-linecap="round"/>
+<line x1="133.579" y1="122.5" x2="183.808" y2="151.5"
+      stroke="#d7aa37" stroke-opacity="0.75" stroke-width="2" stroke-linecap="round"/>
+<line x1="105" y1="139" x2="105" y2="197"
+      stroke="#d7aa37" stroke-opacity="0.75" stroke-width="2" stroke-linecap="round"/>
+<line x1="76.421" y1="122.5" x2="26.192" y2="151.5"
+      stroke="#d7aa37" stroke-opacity="0.75" stroke-width="2" stroke-linecap="round"/>
+<line x1="76.421" y1="89.5" x2="26.192" y2="60.5"
+      stroke="#d7aa37" stroke-opacity="0.75" stroke-width="2" stroke-linecap="round"/>
+<circle cx="105" cy="106" r="34"
+    fill="#080401" fill-opacity="0.97"
+    stroke="#d7aa37" stroke-opacity="0.70" stroke-width="1.5"/>
+<text x="105" y="112"
+    text-anchor="middle"
+    font-family="Georgia"
+    font-size="17" font-weight="bold" letter-spacing="1"
+    fill="#d7aa37" fill-opacity="0.96">6&#x2F;6</text>
+<text x="105" y="216"
+    text-anchor="middle"
+    font-family="Georgia"
+    font-size="11.5" font-weight="bold" letter-spacing="2"
+    fill="#d7aa37" fill-opacity="0.95">DOOR SHUTS</text>
+<text x="105" y="231"
+    text-anchor="middle"
+    font-family="Georgia"
+    font-size="9" letter-spacing="1"
+    fill="#c09428" fill-opacity="0.78">GM's choice — the worst.</text>
+</svg>

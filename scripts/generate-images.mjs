@@ -5509,6 +5509,51 @@ NO PEOPLE. NO ANIMALS. NO grid lines. Black void around outer walls.
     postProcess: null,
   },
 
+  // ============== TIER 50 — Phase 2 scene illustrations ==============
+  {
+    id: "p2-records-alcove",
+    tier: 50,
+    out: "assets/illustrations/p2-records-alcove.png",
+    size: "1536x1024",
+    quality: "high",
+    referenceImages: [
+      "assets/portraits/party/alicia-warlock-blade.png",
+      "assets/portraits/party/selvara-human-sorcerer.jpg",
+      "assets/portraits/party/kitty-druid-cthonic-tiefling.png",
+      "assets/portraits/party/gianni-ranger-.jpg",
+      "assets/portraits/party/elle-halfling-monk.jpg",
+      "assets/portraits/party/Cam-Halfling-Rogue.png",
+    ],
+    prompt: `Modern high-fantasy illustration in tabletop-RPG adventure-module interior style (D&D 5e / Pathfinder book art). Atmospheric, painterly, warm lamplight.
+
+**Six reference images supplied — the six-PC adventuring party. Identify each by distinctive features and render them true to those references:**
+- **Alicia** (human Warlock) — red hair in a high ponytail, blue tunic with gold piping, tattoo sleeve on left arm, pink/lavender glove on right hand.
+- **Selvara** (human Sorcerer) — dark hooded red cloak, scar across her face, one milky pale eye, blue gem pendant, tall wooden staff.
+- **Kitty** (chthonic-tiefling Druid) — ashen-grey skin, small dark horns curving back from her temples, pale luminescent eyes, dark hair in long braids, dark sigil-veining at temples, slender dark tail visible.
+- **Gianni** (human Ranger) — dark hair in a single thick braid, fierce dark-lined eyes, leather cuirass over a yellow-cream tunic, quiver of arrows.
+- **Elle** (halfling Monk) — halfling-sized, yellow/saffron robes with red sash, brown hair. Head roughly at the shoulder-height of the humans.
+- **Cam** (halfling Rogue) — halfling-sized, long brown hair, large yellow eyes, brown leather travel clothes. Also visibly halfling-sized.
+
+SCENE: A cramped stone-walled RECORDS ALCOVE hidden behind a pivoting bookshelf in a civic archive, lit by two oil lamps and a single stub of tallow candle held by one of the PCs. Late afternoon; no natural light reaches this room.
+
+The alcove is packed with shelved wooden record-boxes and row on row of bound ledgers on low shelves. The floor has a barely-cleared workspace. The air is thick with dust.
+
+The six PCs are crowded together studying the materials they have found:
+- **CAM** is crouched on the floor, a LARGE OPEN LEDGER flat across her knees, running a finger along a column of names and numbers, her large yellow eyes wide with focus.
+- **ELLE** stands on a low record-box to reach an upper shelf, holding a ROLLED SCROLL half-open above her head, peering at it in the lamplight.
+- **ALICIA** is seated cross-legged on the floor, two ledgers open side by side in front of her, quill in hand (from her pack), copying figures onto a loose sheet of paper.
+- **KITTY** stands at the back, her tail flicking slowly, holding up a COPPER PRINTING PLATE toward the nearer lamp — a flat engraved plate about the size of a book-cover — tilting it to read the shallow engraved text.
+- **SELVARA** leans over Alicia's shoulder with her staff propped against the wall, pointing at something in one of the open ledgers, murmuring.
+- **GIANNI** stands at the door-gap (the bookshelf pivot, ajar behind her), keeping one eye on the corridor beyond while passing Alicia a folded DOCUMENT from a record-box she has tucked under one arm.
+
+On the floor between them: an open record-box with its lid propped, more scrolls half-unrolled, two or three loose copper plates lying flat, a small folded cloth wrapped bundle (a seal kit).
+
+Lighting: warm amber oil-lamp glow, sharp contrast between lit and unlit corners, the copper plates catching the light with a dull metallic sheen.
+
+Style: painterly digital fantasy illustration, warm amber-and-shadow palette, high detail on the faces and documents in the foreground. Atmospheric depth — the back of the alcove fades into shadow. NOT 19th-century oil painting — modern RPG module interior art. No text, no labels.`,
+    postProcess: null,
+  },
+
   // ============== TIER 40 — Phase 2 chase: the Sparrow ==============
   {
     id: "sparrow-portrait",

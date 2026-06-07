@@ -344,7 +344,8 @@
       "sorting": "m",
       "packs": [
         "phase-2-journals",
-        "phase-2-actors"
+        "phase-2-actors",
+        "phase-2-scenes"
       ]
     },
     {
@@ -352,7 +353,8 @@
       "sorting": "m",
       "packs": [
         "phase-3-journals",
-        "phase-3-actors"
+        "phase-3-actors",
+        "phase-3-scenes"
       ]
     },
     {
@@ -360,7 +362,8 @@
       "sorting": "m",
       "packs": [
         "phase-4-journals",
-        "phase-4-actors"
+        "phase-4-actors",
+        "phase-4-scenes"
       ]
     },
     {
@@ -368,7 +371,8 @@
       "sorting": "m",
       "packs": [
         "phase-5-journals",
-        "phase-5-actors"
+        "phase-5-actors",
+        "phase-5-scenes"
       ]
     },
     {
@@ -376,7 +380,8 @@
       "sorting": "m",
       "packs": [
         "sandbox-journals",
-        "sandbox-actors"
+        "sandbox-actors",
+        "relief-scenes"
       ]
     },
     {
@@ -384,7 +389,8 @@
       "sorting": "m",
       "packs": [
         "phase-6-journals",
-        "phase-6-actors"
+        "phase-6-actors",
+        "phase-6-scenes"
       ]
     },
     {

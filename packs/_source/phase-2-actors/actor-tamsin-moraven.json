@@ -1,0 +1,300 @@
+{
+  "_key": "!actors!BR2P2ATmsnMoravn",
+  "_id": "BR2P2ATmsnMoravn",
+  "name": "Tamsin Moraven",
+  "type": "npc",
+  "img": "modules/blooming-rot-2/assets/portraits/tamsin-moraven-portrait.png",
+  "system": {
+    "currency": { "pp": 0, "gp": 0, "ep": 0, "sp": 0, "cp": 0 },
+    "abilities": {
+      "str": { "value": 8,  "proficient": 0, "max": null, "bonuses": { "check": "", "save": "" } },
+      "dex": { "value": 11, "proficient": 0, "max": null, "bonuses": { "check": "", "save": "" } },
+      "con": { "value": 11, "proficient": 0, "max": null, "bonuses": { "check": "", "save": "" } },
+      "int": { "value": 16, "proficient": 0, "max": null, "bonuses": { "check": "", "save": "" } },
+      "wis": { "value": 15, "proficient": 0, "max": null, "bonuses": { "check": "", "save": "" } },
+      "cha": { "value": 13, "proficient": 0, "max": null, "bonuses": { "check": "", "save": "" } }
+    },
+    "bonuses": {
+      "mwak": { "attack": "", "damage": "" },
+      "rwak": { "attack": "", "damage": "" },
+      "msak": { "attack": "", "damage": "" },
+      "rsak": { "attack": "", "damage": "" },
+      "abilities": { "check": "", "save": "", "skill": "" },
+      "spell": { "dc": "" }
+    },
+    "skills": {
+      "acr": { "ability": "dex", "roll": { "min": null, "max": null, "mode": 0 }, "value": 0, "bonuses": { "check": "", "passive": "" } },
+      "ani": { "ability": "wis", "roll": { "min": null, "max": null, "mode": 0 }, "value": 0, "bonuses": { "check": "", "passive": "" } },
+      "arc": { "ability": "int", "roll": { "min": null, "max": null, "mode": 0 }, "value": 0, "bonuses": { "check": "", "passive": "" } },
+      "ath": { "ability": "str", "roll": { "min": null, "max": null, "mode": 0 }, "value": 0, "bonuses": { "check": "", "passive": "" } },
+      "dec": { "ability": "cha", "roll": { "min": null, "max": null, "mode": 0 }, "value": 0, "bonuses": { "check": "", "passive": "" } },
+      "his": { "ability": "int", "roll": { "min": null, "max": null, "mode": 0 }, "value": 1, "bonuses": { "check": "", "passive": "" } },
+      "ins": { "ability": "wis", "roll": { "min": null, "max": null, "mode": 0 }, "value": 1, "bonuses": { "check": "", "passive": "" } },
+      "itm": { "ability": "cha", "roll": { "min": null, "max": null, "mode": 0 }, "value": 0, "bonuses": { "check": "", "passive": "" } },
+      "inv": { "ability": "int", "roll": { "min": null, "max": null, "mode": 0 }, "value": 1, "bonuses": { "check": "", "passive": "" } },
+      "med": { "ability": "wis", "roll": { "min": null, "max": null, "mode": 0 }, "value": 0, "bonuses": { "check": "", "passive": "" } },
+      "nat": { "ability": "int", "roll": { "min": null, "max": null, "mode": 0 }, "value": 1, "bonuses": { "check": "", "passive": "" } },
+      "prc": { "ability": "wis", "roll": { "min": null, "max": null, "mode": 0 }, "value": 0, "bonuses": { "check": "", "passive": "" } },
+      "prf": { "ability": "cha", "roll": { "min": null, "max": null, "mode": 0 }, "value": 0, "bonuses": { "check": "", "passive": "" } },
+      "per": { "ability": "cha", "roll": { "min": null, "max": null, "mode": 0 }, "value": 1, "bonuses": { "check": "", "passive": "" } },
+      "rel": { "ability": "int", "roll": { "min": null, "max": null, "mode": 0 }, "value": 0, "bonuses": { "check": "", "passive": "" } },
+      "slt": { "ability": "dex", "roll": { "min": null, "max": null, "mode": 0 }, "value": 0, "bonuses": { "check": "", "passive": "" } },
+      "ste": { "ability": "dex", "roll": { "min": null, "max": null, "mode": 0 }, "value": 0, "bonuses": { "check": "", "passive": "" } },
+      "sur": { "ability": "wis", "roll": { "min": null, "max": null, "mode": 0 }, "value": 0, "bonuses": { "check": "", "passive": "" } }
+    },
+    "tools": {},
+    "spells": {},
+    "attributes": {
+      "init": { "ability": "", "roll": { "min": null, "max": null, "mode": 0 }, "bonus": "" },
+      "movement": { "burrow": null, "climb": null, "fly": null, "swim": null, "walk": 30, "units": null, "hover": false },
+      "attunement": { "max": 3 },
+      "senses": { "darkvision": null, "blindsight": null, "tremorsense": null, "truesight": null, "units": null, "special": "" },
+      "spellcasting": "",
+      "exhaustion": 0,
+      "concentration": { "ability": "", "roll": { "min": null, "max": null, "mode": 0 }, "bonuses": { "save": "" }, "limit": 1 },
+      "ac": { "flat": null, "calc": "default" },
+      "hd": { "spent": 0 },
+      "hp": { "value": 9, "max": 9, "temp": null, "tempmax": null, "formula": "2d8" },
+      "death": { "ability": "", "roll": { "min": null, "max": null, "mode": 0 }, "success": 0, "failure": 0 }
+    },
+    "details": {
+      "biography": {
+        "value": "<p>Senior grain factor, Loftwick. Mid-fifties — tall, capable, dark hair gone iron-gray at the temples. Wears a dark green merchant's overdress, brass measuring key on a cord at her hip. Twelve years in independent trade; before that, she clerked for the Loftwick Treasury's Grain Office.</p><p>Her counting house is on Tannerway, near the eastern caravan yard. Husband: Vellin Moraven (schoolmaster). Eldest daughter: Ailen Moraven (mid-twenties, studying with a sculptor in Hardby — tuition co-sponsored by Tamsin and Trina Alvere).</p><p>She was pulling at Cindren &amp; Vhal's false harvest-receipts — claims filed before the losses occurred, by eleven days in one case. Then she walked out of her counting house with a bag and a heavy cloak, told her staff she was riding to a customer's farm, and did not come back. She left one note for Vellin: <em>If I am not back by Sevenday, take Ailen out of Hardby.</em> She knew she was in danger and went anyway.</p><p><strong>Status in Phase 2:</strong> Alive, in Hardby. The ledger fragment reads MORAVEN <em>delayed</em> — not settled. She is on a clock.</p>",
+        "public": ""
+      },
+      "alignment": "Neutral Good",
+      "ideal": "",
+      "bond": "",
+      "flaw": "",
+      "race": null,
+      "type": { "value": "humanoid", "subtype": "Merchant", "swarm": "", "custom": "" },
+      "environment": "",
+      "cr": 0,
+      "spellLevel": 0,
+      "source": null,
+      "habitat": { "value": [ { "type": "any" } ] },
+      "treasure": { "value": [ "individual" ] }
+    },
+    "resources": {
+      "legact": { "value": null, "max": null },
+      "legres": { "value": null, "max": null },
+      "lair": { "initiative": null, "initiative_flat": false }
+    },
+    "source": null,
+    "traits": {
+      "size": "med",
+      "di": { "value": [], "bypasses": [], "custom": "" },
+      "dr": { "value": [], "bypasses": [], "custom": "" },
+      "dv": { "value": [], "bypasses": [], "custom": "" },
+      "ci": { "value": [], "custom": "" },
+      "languages": { "value": [ "common" ], "communication": [], "custom": "" }
+    }
+  },
+  "items": [
+    {
+      "_key": "!actors.items!BR2P2ATmsnMoravn.BR2I6add0ddc121a",
+      "_id": "BR2I6add0ddc121a",
+      "name": "Dagger",
+      "type": "weapon",
+      "img": "modules/dnd-players-handbook/assets/icons/items/dagger.webp",
+      "system": {
+        "description": { "value": "", "chat": "" },
+        "price": { "value": 2, "denomination": "gp" },
+        "source": { "custom": "", "rules": "2024" },
+        "identified": true,
+        "quantity": 1,
+        "weight": { "value": 1, "units": "lb" },
+        "rarity": "",
+        "attunement": "",
+        "attuned": false,
+        "equipped": true,
+        "range": { "value": 20, "long": 60, "units": "ft", "reach": null },
+        "uses": { "max": "", "spent": 0, "recovery": [] },
+        "damage": {
+          "base": { "number": 1, "denomination": 4, "types": [ "piercing" ], "bonus": "", "custom": { "enabled": false }, "scaling": { "number": 1 } },
+          "versatile": { "number": null, "denomination": null, "bonus": "", "types": [], "custom": { "enabled": true, "formula": "" }, "scaling": { "mode": "", "number": null, "formula": "" } }
+        },
+        "armor": { "value": null },
+        "type": { "value": "simpleM", "baseItem": "dagger" },
+        "properties": [ "fin", "lgt", "thr" ],
+        "mastery": "nick",
+        "identifier": "dagger",
+        "activities": {
+          "TmsnDaggerAtk001": {
+            "_id": "TmsnDaggerAtk001",
+            "type": "attack",
+            "name": "",
+            "img": "",
+            "activation": { "type": "action", "value": 1, "condition": "", "override": false },
+            "consumption": { "targets": [], "scaling": { "allowed": false, "max": "" }, "spellSlot": true },
+            "description": { "chatFlavor": "" },
+            "duration": { "concentration": false, "value": "", "units": "inst", "special": "", "override": false },
+            "effects": [],
+            "range": { "value": "20", "units": "ft", "special": "", "override": false },
+            "target": { "template": { "count": "", "contiguous": false, "type": "", "size": "", "width": "", "height": "", "units": "" }, "affects": { "count": "", "type": "", "choice": false, "special": "" }, "prompt": false, "override": false },
+            "attack": { "ability": "", "bonus": "", "critical": { "threshold": null }, "flat": false, "type": { "value": "melee", "classification": "weapon" } },
+            "damage": { "critical": { "bonus": "" }, "includeBase": true, "parts": [] },
+            "uses": { "spent": 0, "recovery": [], "max": "" },
+            "sort": 0,
+            "appliedEffects": []
+          }
+        },
+        "ammunition": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": { "default": 0 },
+      "flags": {
+        "core": { "sourceId": "Compendium.dnd-players-handbook.equipment.Item.phbwepDagger0000" }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.dnd-players-handbook.equipment.Item.phbwepDagger0000",
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_key": "!actors.items!BR2P2ATmsnMoravn.BR2Id47e659eb07c",
+      "_id": "BR2Id47e659eb07c",
+      "name": "Training",
+      "type": "feat",
+      "img": "icons/magic/control/buff-strength-muscle-damage-red.webp",
+      "system": {
+        "type": { "value": "monster", "subtype": "" },
+        "activities": {},
+        "uses": { "spent": 0, "recovery": [], "max": "" },
+        "description": {
+          "value": "<p class=\"feature\">The [[lookup @name lowercase]] has proficiency in one skill of the DM’s choice and has Advantage whenever it makes an ability check using that skill.</p>",
+          "chat": ""
+        },
+        "identifier": "training",
+        "source": { "revision": 1, "rules": "2024" },
+        "enchant": {},
+        "prerequisites": { "level": null },
+        "properties": [ "trait" ],
+        "requirements": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": { "default": 0 },
+      "flags": {
+        "core": { "sourceId": "Compendium.dnd-monster-manual.features.Item.mmTraining000000" }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.dnd-monster-manual.features.Item.mmTraining000000",
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_key": "!actors.items!BR2P2ATmsnMoravn.BR2Icad522ff5bcd",
+      "_id": "BR2Icad522ff5bcd",
+      "name": "False-Crop Reader",
+      "type": "feat",
+      "img": "icons/skills/trades/merchant-scales-coins-gold.webp",
+      "system": {
+        "type": { "value": "monster", "subtype": "" },
+        "activities": {},
+        "uses": { "spent": 0, "recovery": [], "max": "" },
+        "description": {
+          "value": "<p class=\"feature\">Tamsin has spent twelve years grading and contracting harvest sales for Aerdi-coastal buyers. She can examine any grain shipment record, insurance claim, or bonded-factor ledger and identify discrepancies automatically — no roll required for documents she has time to study. When rolling Investigation or Nature to assess trade documents, harvest records, or false-crop schemes, she has Advantage and treats a result below 12 as a 12.</p>",
+          "chat": ""
+        },
+        "identifier": "false-crop-reader",
+        "source": { "custom": "Blooming Rot 2", "rules": "2024" },
+        "enchant": {},
+        "prerequisites": { "level": null },
+        "properties": [ "trait" ],
+        "requirements": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": { "default": 0 },
+      "flags": { "blooming-rot-2": { "kind": "custom-trait", "phase": "2" } },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      }
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": { "default": 0 },
+  "flags": {
+    "blooming-rot-2": {
+      "kind": "named-npc",
+      "archetype": "commoner",
+      "phase": "2",
+      "role": "missing-factor",
+      "ally": true
+    }
+  },
+  "prototypeToken": {
+    "name": "Tamsin Moraven",
+    "displayName": 30,
+    "actorLink": false,
+    "texture": {
+      "src": "modules/blooming-rot-2/assets/tokens/tamsin-moraven-token.png",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": null
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": true,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": 1,
+    "displayBars": 0,
+    "bar1": { "attribute": "attributes.hp" },
+    "bar2": { "attribute": null },
+    "ring": {
+      "enabled": true,
+      "colors": { "ring": "#2a5a2a", "background": null },
+      "effects": 1,
+      "subject": { "scale": 1, "texture": null }
+    },
+    "sight": { "enabled": false },
+    "detectionModes": []
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.dnd-monster-manual.actors.Actor.mmCommoner000000",
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

@@ -9,15 +9,20 @@ them to wherever you read GM prep (Drive, paper printout, tablet, etc.).
 
 | File | Pages | Size | What it is |
 |---|---:|---:|---|
-| `blooming-rot-2-gm-prep.pdf` | ~340 | ~40 MB | The full thing: cover, overview, all 5 phases, full sandbox reference, every NPC profile |
-| `phase-1-gm-prep.pdf` | ~25 | ~2 MB | Phase 1 — Loftwick's Return |
-| `phase-2-gm-prep.pdf` | ~55 | ~7 MB | Phase 2 — The Dead Man's Receipts |
-| `phase-3-gm-prep.pdf` | ~75 | ~11 MB | Phase 3 — The Hardby Investigation |
-| `phase-4-gm-prep.pdf` | ~55 | ~8 MB | Phase 4 — The Rel Astra Confrontation |
-| `phase-5-gm-prep.pdf` | ~60 | ~6 MB | Phase 5 — The Small Matter |
-| `sandbox-gm-prep.pdf` | ~75 | ~8 MB | Sandbox & Downtime — 4 cities + ~30 anchor NPCs |
+| `blooming-rot-2-gm-prep.pdf` | 758 | ~48 MB | The full thing: cover, overview, all nine phases, full sandbox reference, every NPC profile |
+| `phase-1-gm-prep.pdf` | 26 | ~2 MB | Phase 1 — Loftwick's Return |
+| `phase-2-gm-prep.pdf` | 77 | ~7 MB | Phase 2 — The Dead Man's Receipts |
+| `phase-3-gm-prep.pdf` | 91 | ~13 MB | Phase 3 — The Hardby Investigation |
+| `phase-4-gm-prep.pdf` | 55 | ~8 MB | Phase 4 — The Rel Astra Confrontation |
+| `phase-5-gm-prep.pdf` | 63 | ~7 MB | Phase 5 — The Small Matter |
+| `phase-6-gm-prep.pdf` | 83 | ~4 MB | Phase 6 — The Brass Crow (Greyhawk City) |
+| `phase-7-gm-prep.pdf` | 57 | ~1 MB | Phase 7 — The Seventh Question |
+| `phase-8-gm-prep.pdf` | 81 | ~1 MB | Phase 8 — The Stair Beneath Tarnsmere |
+| `phase-9-gm-prep.pdf` | 115 | ~1 MB | Phase 9 — Below the Clean Paper |
+| `narrative-deepening-gm-prep.pdf` | 38 | ~1 MB | Connective layer — PC threads, Aerdy network, world stakes, relief scenes |
+| `sandbox-gm-prep.pdf` | 80 | ~9 MB | Sandbox & Downtime — 4 cities + ~30 anchor NPCs |
 
-All seven PDFs share the same source content; the per-phase files are
+All twelve PDFs share the same source content; the per-phase files are
 just convenient extracts for session prep.
 
 ## How to use
@@ -36,14 +41,15 @@ just convenient extracts for session prep.
 
 The generator reads:
 
-- `packs/_source/phase-{1,2,3,4,5}-journals/*.json` — narrative HTML
-- `packs/_source/phase-{1,2,3,4,5}-actors/*.json` — NPC stat blocks + biographies
+- `packs/_source/phase-{1..9}-journals/*.json` — narrative HTML
+- `packs/_source/phase-{1..9}-actors/*.json` — NPC stat blocks + biographies
 - `packs/_source/sandbox-actors/*.json` — sandbox NPCs
 - `packs/_source/sandbox-journals/*.json` — sandbox / downtime text
+- `packs/_source/{pc-threads,aerdy-network,aerdy-network-actors,world-stakes,relief-scenes}/*.json` — connective-layer packs
 - `assets/portraits/*.{png,webp}` — per-NPC portraits
 - `assets/illustrations/*.png` — scene illustrations
 
-It writes seven PDFs into this directory. Images are resized and
+It writes twelve PDFs into this directory. Images are resized and
 JPEG-compressed in-place under `.build/pdf-thumbs/` (cached across runs).
 
 ## What's NOT in here

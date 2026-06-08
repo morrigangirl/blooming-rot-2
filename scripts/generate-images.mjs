@@ -5269,20 +5269,31 @@ ${ART_STYLE}`,
     quality: "high",
     prompt: `Top-down fantasy tactical battle map for tabletop RPG (D&D 5e). Painted, hand-drawn style consistent with Dyson Logos / Roll20 marketplace interior maps. NO grid overlay. View directly from above.
 
-The interior of Tamsin Moraven's Counting House on Tannerway, Loftwick (Yeomanry, pre-Greyhawk Wars). A single-storey timber-and-plaster commercial building used to grade and contract grain export sales.
+The interior of Tamsin Moraven's Counting House on Tannerway, Loftwick (Yeomanry, World of Greyhawk Common Year 581 CY — pre-Wars). A single-storey timber-and-plaster commercial building used to grade and contract grain export sales.
 
 Layout (one room, roughly 30 ft × 20 ft):
 - A long high-front standing desk runs across the south wall — the chief clerk's station. Quill pots, an ink-stone, a stack of bound ledgers. A wooden stool behind the desk.
 - Behind the standing desk, a private chair set at an angle — Tamsin's own chair, now empty. A folded grey wool shawl draped over its back.
 - The east wall has a wall niche of bound carbon books — ledgers in stiff dark covers, organised by year. Some volumes are sitting half-pulled, as though recently consulted.
-- The west wall has a weighbench (a low waist-high bench with a brass-pan beam balance for grain samples), a row of small canvas grain-sample sacks in clay weights, a chalkboard for crop quotes.
+- The west wall has a weighbench (a low waist-high bench with a brass-pan beam balance for grain samples), a row of small canvas grain-sample sacks in clay weights, and a chalkboard for crop quotes.
 - The north (entry) wall has a single front door with a small frosted-glass transom above; two small windows flank it.
 - A small iron stove in the north-east corner, cold.
 - Lamp brackets at each of the four corners.
 - A worn but well-kept dark plank floor with a faded rust-red runner from the front door to the standing desk.
 - A pair of high-backed visitor chairs face the standing desk.
 
-Mood: a small, careful, owned room. Recently used; not abandoned. The grain quote on the chalkboard is current. Tamsin's chair is empty in a way that reads as missing, not vacated. The building tells you a competent woman has been doing serious work here for years and has been gone for less than two weeks.
+CHALKBOARD TEXT (critical — render EXACTLY as written, in neat white chalk hand-lettering, header line slightly larger than the rest):
+
+  TANNERWAY GRAIN QUOTES
+  12 GOODMONTH 581 CY
+  WHEAT   74 / 18 / 19
+  RYE     51 / 13 / 14
+  BARLEY  47 / 11 / 12
+  OATS    38 /  9 / 10
+
+ABSOLUTELY DO NOT use any month name other than the Greyhawk Common Year months. The valid months are: Needfest, Fireseek, Readying, Coldeven, Growfest, Planting, Flocktime, Wealsun, Richfest, Reaping, Goodmonth, Harvester, Brewfest, Patchwall, Ready'reat, Sunsebb. The month on the chalkboard MUST be "GOODMONTH" — do not write "Newmoon", "Newmonth", "Harvest", or any other invented or anachronistic month. The year MUST be 581 CY — do not write 582 CY, 583 CY, or any later year (the campaign is pre-Wars). Do not write any text on any other surface in the room — no signs, no labels, no plaques, no titles on the ledgers, nothing. Only the chalkboard has writing.
+
+Mood: a small, careful, owned room. Recently used; not abandoned. The grain quotes on the chalkboard were freshly written by Tamsin shortly before she disappeared. Tamsin's chair is empty in a way that reads as missing, not vacated. The building tells you a competent woman has been doing serious work here for years and has been gone for less than two weeks.
 
 Top-down architectural view, painterly interior tactical battle-map style. Black background or void around the building's outer walls (no surrounding city detail). No people; no animals. Walls clearly visible. Doors and windows clearly visible. Roof not shown (open-roof tactical perspective).`,
     postProcess: null,

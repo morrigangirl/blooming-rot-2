@@ -130,6 +130,38 @@
       },
       "flags": {},
       "category": null
+    },
+    {
+      "_key": "!journal.pages!BR2P4RelAstNpcs.BR2P4RaNpgHolyn",
+      "_id": "BR2P4RaNpgHolyn",
+      "name": "Holyn Sevarian — The Witness Caelith Named",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><em>The name Caelith gave the party in Loftwick, with no explanation: &ldquo;If the credit is real, his counting house will know. He is not necessarily an enemy. Begin by treating him as a witness.&rdquo; This is where that name pays off.</em></p><p><strong>Who he is.</strong> A Rel Astran bonded counting-house clerk who keeps daylight hours over a ledger in the Old Harbor Ward and the rest of his life in the Aerdi advocate quarter. He is not in the conspiracy. He is the careful, unimportant sort of man who notices when numbers arrive in the wrong order &mdash; and he has noticed.</p><p><strong>What he can corroborate.</strong> Holyn has cleared correspondent paper for Cindren &amp; Vhal&rsquo;s Rel Astra house long enough to recognise the crane-and-coins countersignature on Haskur&rsquo;s letter of credit, and to confirm from his own side what the party found in Loftwick: indemnity claims against the southern grain shipments (the <em>Sure Harvest</em>, the <em>Cantle&rsquo;s Bounty</em>, the <em>Free Reach</em>) that were <em>lodged before the losses were reported</em>. From Rel Astra he can put a date and a desk to the early filings &mdash; the proof that the losses were arranged, not suffered, and that the Duke&rsquo;s indemnity backstop was the mark, not the mover.</p><p><strong>How the party reaches him.</strong> They have had the name since Phase 1; Therion Halask can place him, or they can find his counting-room directly. He will talk &mdash; cautiously, and only as a witness to documents, never to people. He will not speculate about who stands behind the firm, and he is right to be afraid: a clerk who reads claim-dates too closely is exactly the sort of person the firm has disappeared before (see Tamsin Moraven).</p><p><strong>If the party never sought him out</strong>, that is fine &mdash; he is a Rel Astra payoff, not a gate. Nothing downstream depends on him; he is corroboration and a human face on the grain fraud, offered to any party that remembered the name Caelith gave them.</p><p><strong>Stat block:</strong> see the <em>Holyn Sevarian</em> actor (Phase 1 &mdash; NPCs). Noncombatant; complies or flees if threatened.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5,
+        "autoplay": false,
+        "loop": false,
+        "timestamp": 0,
+        "width": null,
+        "height": null
+      },
+      "src": null,
+      "system": {},
+      "sort": 500000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "category": null
     }
   ],
   "folder": null,

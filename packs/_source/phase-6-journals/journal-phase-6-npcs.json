@@ -8,14 +8,29 @@
       "_key": "!journal.pages!BR2P6NpcsJrnl.BR2P6NpPgIndex",
       "name": "NPC Index — Phase 6",
       "type": "text",
-      "title": { "show": false, "level": 1 },
+      "title": {
+        "show": false,
+        "level": 1
+      },
       "sort": 50000,
-      "ownership": { "default": -1 },
+      "ownership": {
+        "default": -1
+      },
       "flags": {},
-      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
       "text": {
         "format": 1,
-        "content": "<h1>Phase 6 NPC Index</h1><p>Twelve named figures matter in Phase 6. Six are central; six are scaffolding.</p><h2>Central</h2><ul><li><strong>Tellan Verth</strong> &mdash; retired Yeomanry sergeant, witness. (See Phase 5 dossier; expanded in this phase.)</li><li><strong>Iren Velash</strong> &mdash; half-Suel manuscript dealer, Garden Quarter. (See Phase 5 dossier; expanded.)</li><li><strong>Edrik Vone</strong> &mdash; private courier archivist, High Quay. (See Phase 5 dossier; expanded.)</li><li><strong>Veyra Korre</strong> (alias V. Korre) &mdash; Greyhawk handler. <em>New for Phase 6.</em></li><li><strong>Kethren Ilvath</strong> &mdash; the younger man. <em>New for Phase 6.</em></li><li><strong>Haskur Vandrell</strong> &mdash; alias H. V. Andren. (Stat block upgraded for Phase 6.)</li></ul><h2>Scaffolding</h2><ul><li><strong>Brass Crow Proprietor</strong> (Aerel Mossen) &mdash; not conspiracy-aligned, fee-driven, fearful.</li><li><strong>Brass Crow Desk Clerk</strong> (Wenna Roost) &mdash; junior, knows the registry, fears the proprietor.</li><li><strong>Brass Crow Runner</strong> (Tassel) &mdash; handles foreign-correspondent packets.</li><li><strong>Kestrel &amp; Reed senior clerk</strong> (Doras Kemmel) &mdash; intermediary, nervous, professional.</li><li><strong>Korre's two agents</strong> (Mell &amp; Saern) &mdash; Spy/Thug analogs, flee before dying.</li><li><strong>Greyhawk City Watch officer</strong> (Captain Jarn Heshet) &mdash; appears only on Heat Clock 3+.</li></ul><h2>Carry-forward NPCs (Phase 5)</h2><p>Phase 6 references but does not require: <strong>Caelith Dunivar</strong> (writes from Loftwick, see Road Note variants), <strong>Mistress Aldea Veren</strong> (only if Vector B), <strong>Therion Halask</strong> (only if Vector D), <strong>Vesten Quill</strong> (if captured), <strong>Mistress Tamsin Whitemoor</strong> (if recovered).</p>"
+        "content": "<h1>Phase 6 NPC Index</h1><p>Twelve named figures matter in Phase 6. Six are central; six are scaffolding.</p><h2>Central</h2><ul><li><strong>Tellan Verth</strong> &mdash; retired Yeomanry sergeant, witness. (See Phase 5 dossier; expanded in this phase.)</li><li><strong>Iren Velash</strong> &mdash; half-Suel manuscript dealer, Garden Quarter. (See Phase 5 dossier; expanded.)</li><li><strong>Edrik Vone</strong> &mdash; private courier archivist, High Quay. (See Phase 5 dossier; expanded.)</li><li><strong>Veyra Korre</strong> (alias V. Korre) &mdash; Greyhawk handler. <em>New for Phase 6.</em></li><li><strong>Kethren Ilvath</strong> &mdash; the younger man. <em>New for Phase 6.</em></li><li><strong>Haskur Vandrell</strong> &mdash; alias H. V. Andren. (Stat block upgraded for Phase 6.)</li></ul><h2>Scaffolding</h2><ul><li><strong>Brass Crow Proprietor</strong> (Aerel Mossen) &mdash; not conspiracy-aligned, fee-driven, fearful.</li><li><strong>Brass Crow Desk Clerk</strong> (Wenna Roost) &mdash; junior, knows the registry, fears the proprietor.</li><li><strong>Brass Crow Runner</strong> (Tassel) &mdash; handles foreign-correspondent packets.</li><li><strong>Kestrel &amp; Reed senior clerk</strong> (Doras Kemmel) &mdash; intermediary, nervous, professional.</li><li><strong>Korre's two agents</strong> (Mell &amp; Saern) &mdash; Spy/Thug analogs, flee before dying.</li><li><strong>Greyhawk City Watch officer</strong> (Captain Jarn Heshet) &mdash; appears only on Heat Clock 3+.</li></ul><h2>Carry-forward NPCs (Phase 5)</h2><p>Phase 6 references but does not require: <strong>Caelith Dunivar</strong> (writes from Loftwick, see Road Note variants), <strong>Mistress Aldea Veren</strong> (only if Vector B), <strong>Therion Halask</strong> (only if Vector D), <strong>Vesten Quill</strong> (if captured), <strong>Mistress Tamsin Moraven</strong> (if recovered).</p>"
       }
     },
     {
@@ -23,11 +38,26 @@
       "_key": "!journal.pages!BR2P6NpcsJrnl.BR2P6NpPgVerth",
       "name": "Tellan Verth — Witness Dossier (expanded)",
       "type": "text",
-      "title": { "show": false, "level": 1 },
+      "title": {
+        "show": false,
+        "level": 1
+      },
       "sort": 100000,
-      "ownership": { "default": -1 },
+      "ownership": {
+        "default": -1
+      },
       "flags": {},
-      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
       "text": {
         "format": 1,
         "content": "<h1>Tellan Verth</h1><p>Tellan Verth is shipped as an actor in <em>Phase 5 — Loftwick NPCs</em>; expanded here for his Phase 6 role as witness. <strong>See:</strong> Tellan's existing portrait, no separate Phase 6 portrait.</p><p><strong>Retired Yeomanry militia sergeant. Witness. Foreign Quarter, Greyhawk City.</strong></p><h2>Quick read</h2><ul><li><strong>Age</strong>: sixty.</li><li><strong>Frame</strong>: lame in one knee, walks with a brass-headed cane.</li><li><strong>Dress</strong>: brown wool, cleaned daily, the Yeomanry sergeant's brass pin sewn flat into the lining of his coat where strangers do not see it.</li><li><strong>Drinks</strong>: at the Hand of Coals (Foreign Quarter, four streets east of the Brass Crow) every evening from the second bell after dusk until the watch passes at the first bell after midnight.</li><li><strong>Stat block</strong>: <em>Veteran</em> (MM 2024, CR 3) &mdash; will not fight unless cornered.</li></ul><h2>Motive</h2><p>Verth is not a coward, and he hates that a calm afternoon five days ago made him act like one. He saw a man he half-recognised at a counting-house door, saw the man enter with a younger companion who walked wrong, and decided not to follow.</p><p>He has been drinking through that decision since.</p><h2>Tell</h2><p>Verth's tell is that when the conversation gets close to the Brass Crow, he sets his cane very carefully against the bench, as if he expects to need to stand quickly and will not be able to.</p><h2>Fear</h2><p>That whatever he saw is going to come back through Greyhawk and find him before he tells someone who can act on it.</p><h2>Leverage</h2><p>None of the obvious kinds. Verth cannot be bribed, threatened, or romanced. He <em>can</em> be approached as a fellow soldier, as a Yeomanry officer's representative, or as someone who already knows the answer and only needs his confirmation.</p><h2>What Verth saw (full account, only with careful questioning)</h2><p>The party should not get this in a single roll. <strong>Insight DC 14</strong> reads his shame; <strong>Persuasion DC 15</strong> opens the account; each detail beyond the first three requires a follow-up question, not a re-roll.</p><ol><li>The man was Haskur Vandrell. Verth recognised the face from the Loftwick description Caelith circulated.</li><li>Haskur entered the Brass Crow at the third bell after noon, two streets north of the main square, on Tinker's Way.</li><li>Haskur used the alias <strong>H. V. Andren</strong>. The desk clerk repeated it back through the open door.</li><li>The younger man was already inside when Haskur arrived. He had not entered through the main door. (Verth thinks he came from the back, through the alley, but does not swear to it.)</li><li>The younger man wore <strong>grey-and-bone clothing</strong>, unfamiliar cut, no recognisable origin.</li><li>His <em>gait was wrong</em>. Verth has marched men of every nation in the Yeomanry and Aerdy. He has never seen anyone walk a broad street the way this man did. <em>&ldquo;He kept correcting,&rdquo;</em> Verth says. <em>&ldquo;Like he was used to walking somewhere narrower.&rdquo;</em></li><li>The younger man <strong>watched the door lintel and the street reflection</strong>, not the people. Verth says this was professional and unfamiliar at the same time.</li><li>Haskur <em>listened</em> more than he spoke. The younger man did most of the talking.</li><li>Verth could not follow them out. (His knee.)</li></ol><h2>What Verth wants</h2><p>To not have lied to himself any longer. To hand the matter to someone with both legs and a writ.</p><h2>Tavern scene</h2><p>The Hand of Coals is small, dim, panelled in pitch-pine that has darkened with two generations of smoke. Verth has the bench at the back left, beside the chimney. He does not look up when the party enters. He looks up when they sit down opposite him. <strong>If the party gives him any indication that they were sent by Caelith Dunivar &mdash; even obliquely &mdash; he closes his eyes for a moment, opens them, and says: <em>&ldquo;I have been waiting for you.&rdquo;</em></strong></p><h2>Complication</h2><p>One other person in the tavern recognises that the party is asking after the Brass Crow. He is a thin man at the bar, drinking water; he leaves before the party does. <strong>Passive Perception 14</strong> notices him. <strong>Insight 13</strong> reads that he was listening. He is a Brass Crow runner (Tassel); he reports the conversation to the desk clerk by the next bell. <em>Advance the Haskur Trail Clock by 1 if the party does not catch this.</em></p>"
@@ -38,11 +68,26 @@
       "_key": "!journal.pages!BR2P6NpcsJrnl.BR2P6NpPgIren",
       "name": "Iren Velash — Manuscript Dealer (expanded)",
       "type": "text",
-      "title": { "show": false, "level": 1 },
+      "title": {
+        "show": false,
+        "level": 1
+      },
       "sort": 200000,
-      "ownership": { "default": -1 },
+      "ownership": {
+        "default": -1
+      },
       "flags": {},
-      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
       "text": {
         "format": 1,
         "content": "<h1>Iren Velash</h1><p><strong>Half-Suel manuscript dealer. Velash Manuscripts &amp; Bindings, Garden Quarter, Greyhawk City.</strong></p><h2>Quick read</h2><ul><li><strong>Age</strong>: early fifties.</li><li><strong>Frame</strong>: small, careful, ink under all ten fingernails.</li><li><strong>Dress</strong>: a quiet half-Suel cut, dark, slightly worn. Reading-glass on a chain at her belt.</li><li><strong>Manner</strong>: not friendly. Honest. Knows everyone in the Aerdy book trade and is owed favours by half of them.</li><li><strong>Stat block</strong>: <em>Mage Apprentice</em> (MM 2024, CR 2) with the <em>Sage</em> background package &mdash; will not fight; her shop is full of objects she would rather not see thrown at people.</li></ul><h2>The phrase</h2><p><strong>&ldquo;The seventh question of the third volume.&rdquo;</strong></p><p>Caelith taught her this in 568 CY. She does not know why. She does not care. If a stranger speaks it inside her shop with an honest face, she will close the front shutters, lock the door, and put a kettle on.</p><h2>Motive</h2><p>Iren reads things for a living. She has wanted, for fifteen years, to read something that mattered. Caelith's commissions are the closest she has come.</p><h2>Tell</h2><p>When she is reading something she finds genuinely interesting, she stops blinking.</p><h2>Fear</h2><p>That the next reading will be the one that kills someone she likes.</p><h2>Leverage</h2><p>Iren can be paid (modestly), but she is not for sale. She works for honest scholars, and for people Caelith has vouched for. The party will not get more than a single short reading without earning the second visit.</p><h2>What Iren can read</h2><p>For each item the party brings, Iren can produce a one-page written analysis within a day. She does not waste paper. She does not redraft.</p><ul><li>Aldea Veren's reply (if shown).</li><li>Haskur's false papers (if recovered).</li><li>The Korre ledger hand (if Vone's irregular ledger is bought or copied).</li><li>Any &ldquo;E.&rdquo; marginalia.</li><li>The phrase <strong>&ldquo;Seventh Stair&rdquo;</strong> (this is the keystone reading).</li></ul><h2>What Iren reveals</h2><ol><li><strong>V. Korre's hand is not the &ldquo;E.&rdquo; hand.</strong> The proportions are different. Korre imitates Aerdy legal shorthand badly &mdash; the long-stroke is too short, the abbreviation is wrong for the period.</li><li>The younger man's notes &mdash; if any are recovered &mdash; show someone <em>copying surface scripts from finished examples</em>, not someone trained to write them. <em>&ldquo;Like a man learning a language from menus, not from speech,&rdquo;</em> she says.</li><li><strong>&ldquo;Seventh Stair&rdquo;</strong> appears in <em>one</em> obsolete mining-route glossary she has on a high shelf, not in any port book. The phrase is a route marker, not a metaphor.</li><li>The phrase is <em>not a sea-route term.</em> She will look up at the party and say carefully: <em>&ldquo;This is not a sea-route term. It is a descent term.&rdquo;</em></li><li>The wax flake from Korre's apartment, if recovered, matches Aldea's &ldquo;unknown recipe-family&rdquo; &mdash; the third such she has seen in twenty years. <em>&ldquo;The first one was on a forgery from Suloise hill country. I do not know what the others were on.&rdquo;</em></li></ol><h2>What Iren will not say</h2><p>The word <em>Underdark</em>. The names <em>Eclavdra</em>, <em>Eilserv</em>. She does not believe in saying things she has not personally read in ink. She does not believe in guessing under her own roof.</p>"
@@ -53,11 +98,26 @@
       "_key": "!journal.pages!BR2P6NpcsJrnl.BR2P6NpPgVone",
       "name": "Edrik Vone — Courier Archivist (expanded)",
       "type": "text",
-      "title": { "show": false, "level": 1 },
+      "title": {
+        "show": false,
+        "level": 1
+      },
       "sort": 300000,
-      "ownership": { "default": -1 },
+      "ownership": {
+        "default": -1
+      },
       "flags": {},
-      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
       "text": {
         "format": 1,
         "content": "<h1>Edrik Vone</h1><p><strong>Private courier archive operator. High Quay, near the customs house.</strong></p><h2>Quick read</h2><ul><li><strong>Age</strong>: forties.</li><li><strong>Frame</strong>: tall, thin, fastidious; ink-stained shirt cuffs that he replaces twice a week.</li><li><strong>Background</strong>: former imperial customs official, dismissed for selling certified copies of cargo lists. Greyhawk hired him within a month to do the same work privately.</li><li><strong>Manner</strong>: precise, dry, professionally unimpressed. He sells records because records are worth more than honour and less than prison.</li><li><strong>Stat block</strong>: <em>Spy</em> (MM 2024, CR 1).</li></ul><h2>Motive</h2><p>Vone wants his archive to outlive him. He wants protection for the records he is not legally allowed to keep. He wants enough money to retire to a small house outside the city walls, but he wants it without ever being seen leaving.</p><h2>Tell</h2><p>When Vone is lying, he lays his pen down at exactly right angles to the paper.</p><h2>Fear</h2><p>The Greyhawk City Watch finally sealing the third drawer of his oldest cabinet.</p><h2>Leverage</h2><p>Coin, blackmail material on a customs colleague, evidence that protects his archive, or fear of formal exposure. <strong>He is bribable, blackmailable, persuadable, or frightenable</strong> &mdash; any one of these is sufficient. Stacking them is rude.</p><h2>Access costs</h2><table><tbody><tr><td><strong>Regular ledger</strong> (declared courier traffic)</td><td>50 gp</td></tr><tr><td><strong>Irregular ledger</strong> (off-book deliveries he never declared)</td><td>200 gp</td></tr><tr><td>Lie 1 used in Phase 5 (Greyhawk node relaxed)</td><td>&ndash;25 gp / &ndash;50 gp</td></tr><tr><td>Path C used in Phase 5 (party notorious)</td><td>+50 gp / +100 gp</td></tr><tr><td>Yeomanry papers shown openly</td><td>+100 gp <em>or refusal</em></td></tr></tbody></table><h2>What the irregular ledger shows</h2><ul><li><strong>V. Korre</strong> appears in hand-altered form &mdash; the entry-clerk wrote <em>Korre</em>, then revised to <em>V. K.</em>, then to <em>K&mdash;</em>. Vone's annotation reads simply: <em>&ldquo;repeat custom, monthly address.&rdquo;</em></li><li>V. Korre receives at least <strong>three Hardby-aligned letter agency packets per month</strong> &mdash; the agency name is <strong>Kestrel &amp; Reed, Foreign Letters</strong>, on Hawkstone Way.</li><li>K&amp;R is the current surface intermediary.</li><li>Korre changes Foreign Quarter addresses monthly. Vone keeps a small list. He has the current month's address.</li><li>A packet marked <strong>H.V.A.</strong> (Haskur Vandrell Andren) was redirected to the Brass Crow last week.</li><li>A pending pickup is scheduled for the <strong>eleventh bell two nights from now</strong>, unless the Haskur Trail Clock has advanced past 4.</li></ul><h2>What Vone does not know</h2><p>Why these clients matter. Who Korre works for. What &ldquo;H.V.A.&rdquo; is short for. The Seventh Stair. <em>&ldquo;I file. I do not interpret,&rdquo;</em> he will say if pressed. He is mostly telling the truth.</p>"
@@ -68,11 +128,26 @@
       "_key": "!journal.pages!BR2P6NpcsJrnl.BR2P6NpPgKorre",
       "name": "Veyra Korre — V. Korre, the Handler",
       "type": "text",
-      "title": { "show": false, "level": 1 },
+      "title": {
+        "show": false,
+        "level": 1
+      },
       "sort": 400000,
-      "ownership": { "default": -1 },
+      "ownership": {
+        "default": -1
+      },
       "flags": {},
-      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
       "text": {
         "format": 1,
         "content": "<h1>Veyra Korre</h1><p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/portraits/veyra-korre-portrait.png\" alt=\"Portrait of Veyra Korre, the Greyhawk handler — late thirties, dark hair pinned back, deliberately unreadable\" style=\"max-width: 360px; border-radius: 4px;\"></p><p><strong>Alias: V. Korre. Greyhawk handler. Surface operator. NOT mastermind.</strong></p><h2>Quick read</h2><ul><li><strong>Age</strong>: late thirties or early forties &mdash; she has worked at making her age unreadable.</li><li><strong>Frame</strong>: medium, contained, hands always free.</li><li><strong>Dress</strong>: she dresses to be three different women in the same week. The party's first and second sightings, if both are obtained, will not match.</li><li><strong>Origin</strong>: deliberately unclear. Veyra Korre is itself an alias; the GM should treat the &ldquo;real name&rdquo; question as irrelevant for Phase 6. Her birth name is not the campaign's payoff.</li><li><strong>Stat block</strong>: <em>Spy</em> (MM 2024, CR 1) upgraded with <em>Bandit Captain</em> tactical features &mdash; one reaction Parry, one bonus-action Cunning Action equivalent. Treat as effective CR 4&ndash;5.</li></ul><h2>Motive</h2><p>Veyra Korre moves correspondence, people, and aliases through Greyhawk for paying clients. She is good at it. She has been doing it for a decade. She has no interest in the contents of the packets that pass through her, and she has been disciplined about not asking. She wants three more years of this work, and a quiet retirement in a small Aerdy port town.</p><h2>Public face</h2><p>To Greyhawk, Veyra Korre is a respectable foreign-correspondence handler. She rents short-stay offices, takes commissions in writing, and pays her staff on time. She has never been arrested. She is not on any city list.</p><h2>Private fear</h2><p>That her current client is not what she has been telling herself, and that she has known this for some time.</p><h2>Tell</h2><p>When Korre is about to lie, she touches her left wrist with her right thumb. She does not know she does this. <strong>Insight DC 16 to spot.</strong></p><h2>Leverage</h2><ul><li>Threat of formal exposure to her Aerdy correspondents. She cannot operate if her name is on a list.</li><li>Promise of safe passage out of Greyhawk and out of the trade. She has been looking for this exit for two years.</li><li>Concrete evidence that her client is using her without telling her. (She suspects this. She will not admit it until she sees it.)</li></ul><p>What does NOT work: bribery in coin, ordinary social pressure, or threat of violence. She has been threatened before; her response is to disappear, not to fight.</p><h2>What Korre knows</h2><ol><li>Haskur Vandrell arrived in Greyhawk through an eastern financial route &mdash; she does not know where it originated, only that he came in with credit she did not have to provide.</li><li>Haskur is being transferred to a route called <strong>the Seventh Stair</strong>. She does not know what this means. She is forbidden to ask.</li><li>The younger man &mdash; she calls him &ldquo;the courier&rdquo; &mdash; is the route's courier, not Haskur's subordinate. <em>&ldquo;He gives orders to Andren. I noticed in the second meeting.&rdquo;</em></li><li>&ldquo;E.&rdquo; is not someone she has met. She receives instructions through sealed packets with nonstandard wax. The wax always cracks the same way.</li><li>She knows the phrase <strong>&ldquo;clean hands drown first&rdquo;</strong> from one of the packets. She does not know what it means. It is the kind of phrase that has stayed with her.</li></ol><h2>What Korre does not know</h2><ul><li>&ldquo;E.&rdquo;'s identity.</li><li>The final destination beyond the Seventh Stair.</li><li>The deeper organization.</li><li>The full purpose of Blooming Rot.</li></ul><h2>Behaviour if cornered</h2><p>Korre will burn records before fighting. She will run before being captured. She has rehearsed her exit from every room she rents. <strong>She can be captured by excellent play</strong> &mdash; a coordinated party that closes her two backup routes, knows her tell, and does not tip its hand. <strong>Make this the climax-tier achievement it is.</strong></p>"
@@ -83,11 +158,26 @@
       "_key": "!journal.pages!BR2P6NpcsJrnl.BR2P6NpPgKethren",
       "name": "Kethren Ilvath — The Younger Man",
       "type": "text",
-      "title": { "show": false, "level": 1 },
+      "title": {
+        "show": false,
+        "level": 1
+      },
       "sort": 500000,
-      "ownership": { "default": -1 },
+      "ownership": {
+        "default": -1
+      },
       "flags": {},
-      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
       "text": {
         "format": 1,
         "content": "<h1>Kethren Ilvath</h1><p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/portraits/kethren-ilvath-portrait.png\" alt=\"Portrait of the younger man in grey-and-bone clothing — pale silver hair, faintly grey-toned skin, watching a reflective surface\" style=\"max-width: 360px; border-radius: 4px;\"></p><p><strong>Working alias. Younger man in grey-and-bone clothing. Deep-route courier. Species not confirmed.</strong></p><blockquote><p><strong>Critical GM note.</strong> Do <em>not</em> confirm Kethren's species in player-facing text. Do not call him drow. Do not say Underdark. Do not overexplain him. The table should feel he is wrong for the surface without being told the answer in a spoon with bells on it.</p></blockquote><h2>Quick read</h2><ul><li><strong>Apparent age</strong>: young adult.</li><li><strong>Build</strong>: slight, balanced, unhurried.</li><li><strong>Dress</strong>: unfamiliar grey-and-bone clothing &mdash; soft greys, off-whites, paler than chalk and warmer than stone. Cut is unfamiliar. No emblems, no rank insignia.</li><li><strong>Movement</strong>: smooth, quiet, deliberate. He walks broad streets with tiny corrections, as if used to narrower footing.</li><li><strong>Watching</strong>: he watches reflective surfaces and door lintels, not people.</li><li><strong>Speech</strong>: little. Short, literal, accent the party's most travelled member cannot place.</li><li><strong>Stat block</strong>: scout / monk-assassin analog &mdash; CR 5. Mobility, poison needle, disengage, wall and ledge movement, defensive reaction. <em>Sketch on the encounter page in the Stonecistern document.</em></li></ul><h2>Behavioural cues (for the party to read)</h2><ul><li>Steps over puddles where the reflection would show his face.</li><li>Sits with his back to a corner, but a corner that lets him watch the door's <em>reflection</em> in a window across the room, not the door directly.</li><li>Closes a door behind himself by the upper edge, not the handle, when he can.</li><li>Does not eat in front of strangers.</li><li>Hands a sealed packet to a desk clerk by laying it on the counter, never by passing it through air.</li><li>Hesitates fractionally before stepping into direct sunlight.</li></ul><h2>Operational role</h2><p>Kethren gives instructions to Haskur. Korre handles paperwork; Kethren handles routes. He is in Greyhawk to collect Haskur, brief him, and conduct the eleventh-bell transfer.</p><h2>What Kethren knows</h2><ul><li>The next transfer phrase.</li><li>The route marker <strong>&ldquo;Seventh Stair.&rdquo;</strong></li><li>That Haskur is not trusted by his employers.</li><li>That V. Korre is disposable.</li><li>That &ldquo;the hand&rdquo; writes through intermediaries.</li></ul><h2>What Kethren will not say</h2><ul><li>&ldquo;E.&rdquo;'s name.</li><li>The deep organization's name.</li><li>The final destination.</li><li>Why Blooming Rot began.</li></ul><h2>If captured</h2><p>Kethren <strong>does not monologue.</strong> He answers in short, literal statements, or he refuses. He is more afraid of being returned than of being killed. <strong>Insight DC 16</strong> reveals that he is <em>not</em> afraid of Haskur, Korre, Greyhawk, or prison. He is afraid of <em>recall</em>.</p><p>Sample answers under careful interrogation:</p><ul><li>&ldquo;I am a courier.&rdquo;</li><li>&ldquo;The road is below.&rdquo; (only if pressed about the route)</li><li>&ldquo;I do not know the writer's name.&rdquo;</li><li>&ldquo;Andren is the package. He does not know.&rdquo;</li><li>&ldquo;Korre is paid. I am not.&rdquo; (this last is meaningful, but he will not explain)</li><li>&ldquo;Send me back and I am dead.&rdquo; (only if cornered, only once, only if Insight DC 14 reads true sincerity)</li></ul><h2>If Kethren is alone with the party for any length of time</h2><p>He will try to leave. He will not start a fight he can avoid. If left in a locked room, he will check the seam of the door, the reflection in any glassed surface, and the angle of any ceiling joints, in that order. <strong>If he sees an opportunity to vanish &mdash; not to fight, only to vanish &mdash; he will take it.</strong></p>"
@@ -98,11 +188,26 @@
       "_key": "!journal.pages!BR2P6NpcsJrnl.BR2P6NpPgHaskur",
       "name": "Haskur Vandrell — Diminished",
       "type": "text",
-      "title": { "show": false, "level": 1 },
+      "title": {
+        "show": false,
+        "level": 1
+      },
       "sort": 600000,
-      "ownership": { "default": -1 },
+      "ownership": {
+        "default": -1
+      },
       "flags": {},
-      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
       "text": {
         "format": 1,
         "content": "<h1>Haskur Vandrell</h1><p><strong>Alias: H. V. Andren. Diminished but dangerous. Currently lodged above the Brass Crow on Tinker's Way.</strong></p><h2>Quick read</h2><ul><li><strong>Age</strong>: late forties.</li><li><strong>Frame</strong>: a man who walked a long way after being reduced to nothing in Phase 1. Thinner than the party last saw. Tired around the eyes.</li><li><strong>Dress</strong>: worn Aerdy travel clothes, new but not bespoke; a coat one size too large; a sword he is unlikely to draw.</li><li><strong>Stat block (Phase 6)</strong>: modified <em>Mage</em> (MM 2024, CR 6) with selected Arcane Trickster cunning-action and one Warlock-style flavor. Escape and control magic, not raw blasting. Spent contingency: he cannot teleport away again. <em>Full sketch on the encounter page.</em></li></ul><h2>Current state</h2><ul><li>Alive but diminished.</li><li>Original contingency safety is <strong>spent</strong>.</li><li>New clothes, new money, new alias, but not fully resupplied.</li><li>Dependent on Korre and Kethren.</li><li>Resents this dependency.</li><li>Knows enough to be dangerous and not enough to be central.</li></ul><h2>What Haskur knows</h2><ol><li>Rel Astra received him through a prepared credit route.</li><li>Greyhawk is a transfer point, not a destination.</li><li>V. Korre controls the Greyhawk transfer.</li><li>Kethren controls the route beyond Greyhawk.</li><li>The phrase <strong>&ldquo;Seventh Stair&rdquo;</strong> is where he is supposed to go next.</li><li>The Blooming Rot operation was not only agricultural. It tested <strong>prediction, control, and recoverability.</strong></li></ol><h2>What Haskur does not know</h2><ul><li>&ldquo;E.&rdquo;'s identity.</li><li>The true final authority.</li><li>The full deep route.</li><li>The full reason the surface operations were synchronised.</li></ul><h2>Useful lines (under interrogation, if captured)</h2><ul><li>&ldquo;You keep asking who paid. That was never the question.&rdquo;</li><li>&ldquo;Money is how surface men explain obedience.&rdquo;</li><li>&ldquo;I was not rescued. I was collected.&rdquo;</li><li>&ldquo;Korre moves paper. The boy moves doors.&rdquo;</li><li>&ldquo;The Stair is not a place you find by looking down. It is a place you are <em>allowed</em> to reach.&rdquo;</li><li>&ldquo;Blooming was proof. Rot was proof. Recovery was the question.&rdquo;</li></ul><h2>Behaviour</h2><p>Haskur will not fight unless cornered. His magic is for escape and control: <em>misty step, dimension door</em> (one cast remaining), <em>suggestion, hold person, counterspell, fog cloud</em>. He has prepared <em>misty step</em> twice; he will use both before fighting. He <em>will</em> bargain. He <em>will</em> talk if it buys him time. He has been a man who talked his way out of rooms for thirty years and does not intend to stop.</p><h2>Outcomes the campaign supports</h2><p>The party may capture, kill, or fail to catch Haskur. <strong>Do not protect him with authorial force.</strong> If the party earns the capture, let them have it. If they kill him, the Ashen Itinerary and the surviving witnesses carry the campaign forward. If he escapes again, Korre or Kethren becomes the next thread.</p>"
@@ -113,11 +218,26 @@
       "_key": "!journal.pages!BR2P6NpcsJrnl.BR2P6NpPgScaffold",
       "name": "Scaffolding NPCs — Brass Crow & Kestrel staff",
       "type": "text",
-      "title": { "show": false, "level": 1 },
+      "title": {
+        "show": false,
+        "level": 1
+      },
       "sort": 700000,
-      "ownership": { "default": -1 },
+      "ownership": {
+        "default": -1
+      },
       "flags": {},
-      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
       "text": {
         "format": 1,
         "content": "<h1>Scaffolding NPCs</h1><p>These are the small named figures who keep the Brass Crow and Kestrel &amp; Reed running. They do not drive scenes. They give them texture.</p><h2>Aerel Mossen &mdash; Brass Crow proprietor</h2><ul><li><strong>Stat block</strong>: <em>Spy</em> (MM 2024, CR 1).</li><li><strong>Age</strong>: fifties. Half-Aerdy by maternal line. Aerel runs the counting-house with two clerks and a runner.</li><li><strong>Alignment</strong>: not conspiracy-aligned, but his fees-and-fear ratio is exactly tuned to keep V. Korre's monthly retainer flowing.</li><li><strong>What he knows</strong>: that H. V. Andren is one of three names that arrive with foreign-correspondent payments per month. He does not know who pays. He does not ask.</li><li><strong>Leverage</strong>: legal threat (he has minor declaration irregularities the City Watch could find), promise of replacement custom (he loses Korre, he wants the loss made up), or simple reassurance that the party is not the Watch.</li><li><strong>Behaviour under pressure</strong>: tells the truth more readily than expected, because the lies he keeps for paying clients do not actually require him to lie about himself.</li></ul><h2>Wenna Roost &mdash; Brass Crow desk clerk</h2><ul><li><strong>Stat block</strong>: <em>Commoner</em> (MM 2024, CR 0) with one rank in calligraphy.</li><li><strong>Age</strong>: twenty-three. Aerdi-Yeomanry mixed background. First proper job; first proper rooms of her own.</li><li><strong>What she knows</strong>: the registry by heart. The lintel-check signal &mdash; a marked client touches a small notch on the lintel before being admitted to the consultation room.</li><li><strong>Tell</strong>: she straightens the inkwell when she is afraid.</li><li><strong>Leverage</strong>: kindness. Wenna has not been treated kindly in this job. The party can earn a clear answer with one polite afternoon.</li><li><strong>Risk</strong>: if she is questioned visibly, the proprietor will dismiss her by the next morning. If the party does not protect her, she vanishes from Greyhawk by the end of the phase.</li></ul><h2>Tassel &mdash; Brass Crow runner</h2><ul><li><strong>Stat block</strong>: <em>Scout</em> (MM 2024, CR 1/2).</li><li><strong>Age</strong>: nineteen. Half-Suel city-born; quick, quiet, professionally invisible.</li><li><strong>Role</strong>: handles foreign-correspondent packets. Was the listener at the Hand of Coals if the party did not catch him.</li><li><strong>What he knows</strong>: his routes. He carries packets, not contents. He has noticed that the &ldquo;Andren&rdquo; packets pay double.</li><li><strong>Behaviour under pressure</strong>: runs. Tassel is fast, unarmed, and not paid enough to die for the Brass Crow. He will surrender if cornered without violence.</li></ul><h2>Doras Kemmel &mdash; senior clerk, Kestrel &amp; Reed</h2><ul><li><strong>Stat block</strong>: <em>Spy</em> (MM 2024, CR 1).</li><li><strong>Age</strong>: forties. Hardby-born, Greyhawk-resident for a decade.</li><li><strong>Role</strong>: Doras runs the day-to-day at Kestrel &amp; Reed. The owner is in Hardby; Doras manages the Greyhawk office.</li><li><strong>What he knows</strong>: that some of his clients are dangerous. He does not know who or how. He has been keeping his head down for two years, and he is tired.</li><li><strong>Tell</strong>: he overcorrects when discussing the firm's compliance &mdash; cites regulations no clerk would normally cite.</li><li><strong>Leverage</strong>: protection. Doras has a wife and three children in the Garden Quarter. <strong>If the party offers him formal protection &mdash; Caelith's seal, an Aerdy advocate's witness slip, or Halask if Vector D &mdash; he will turn.</strong> He becomes a witness, not an antagonist.</li><li><strong>Behaviour under pressure</strong>: shaking, but cooperative. He does not lie well; the conspiracy has been getting away with using him because no one has bothered to ask carefully.</li></ul><h2>Korre's two agents &mdash; Mell &amp; Saern</h2><ul><li><strong>Stat block</strong>: <em>Thug</em> or <em>Spy</em> analogs (MM 2024, CR 1/2 to 1).</li><li><strong>Roles</strong>: Mell handles violence and intimidation; Saern handles forgery and lock work.</li><li><strong>Loyalty</strong>: low. Both are paid weekly. Both will flee if Korre flees. Neither will fight to the death.</li></ul><h2>Captain Jarn Heshet &mdash; Greyhawk City Watch (Foreign Quarter precinct)</h2><ul><li><strong>Stat block</strong>: <em>Veteran</em> (MM 2024, CR 3).</li><li><strong>Role</strong>: appears only on Heat Clock 3 or higher. Routine inquiries become formal questioning at clock 4. Detention becomes possible at clock 5.</li><li><strong>Disposition</strong>: not corrupt. Not friendly. He has dealt with Yeomanry visitors before and is not impressed.</li><li><strong>Leverage</strong>: a sealed introduction from Caelith carries weight if produced privately. Public production produces the opposite effect.</li></ul>"
@@ -126,11 +246,23 @@
   ],
   "folder": null,
   "sort": 200000,
-  "ownership": { "default": -1 },
-  "flags": { "blooming-rot-2": { "phase": 6 } },
+  "ownership": {
+    "default": -1
+  },
+  "flags": {
+    "blooming-rot-2": {
+      "phase": 6
+    }
+  },
   "_stats": {
-    "compendiumSource": null, "duplicateSource": null, "exportSource": null,
-    "coreVersion": "13.351", "systemId": "dnd5e", "systemVersion": "5.3.0",
-    "createdTime": null, "modifiedTime": null, "lastModifiedBy": null
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
   }
 }

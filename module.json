@@ -1,8 +1,8 @@
 {
   "id": "blooming-rot-2",
   "title": "Blooming Rot, Part 2",
-  "description": "A Greyhawk adventure set in the pre-Wars Yeomanry, in five phases: Loftwick's return, the dead man's receipts, the Hardby investigation, the Rel Astra confrontation, and The Small Matter (the Loftwick counterintelligence aftermath).",
-  "version": "1.3.8",
+  "description": "A Greyhawk adventure set in the pre-Wars Yeomanry, Hardby, Rel Astra, Greyhawk City, and the deep roads beneath the Cairn Hills. Nine phases in two acts: a surface paper-trail conspiracy (Loftwick's return, the dead man's receipts, the Hardby investigation, the Rel Astra confrontation, The Small Matter, and the Brass Crow) that descends into the route below (the Seventh Question, the Stair Beneath Tarnsmere, and Below the Clean Paper), with a tenth phase left open.",
+  "version": "1.3.9",
   "compatibility": {
     "minimum": "13",
     "verified": "13.351",
@@ -16,7 +16,7 @@
   ],
   "url": "https://github.com/morrigangirl/blooming-rot-2",
   "manifest": "https://github.com/morrigangirl/blooming-rot-2/releases/latest/download/module.json",
-  "download": "https://github.com/morrigangirl/blooming-rot-2/releases/download/v1.3.8/module.zip",
+  "download": "https://github.com/morrigangirl/blooming-rot-2/releases/download/v1.3.9/module.zip",
   "readme": "https://github.com/morrigangirl/blooming-rot-2/blob/main/README.md",
   "bugs": "https://github.com/morrigangirl/blooming-rot-2/issues",
   "changelog": "https://github.com/morrigangirl/blooming-rot-2/releases",

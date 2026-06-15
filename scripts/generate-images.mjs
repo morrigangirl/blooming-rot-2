@@ -5626,6 +5626,93 @@ ${HANDOUT_STYLE}`,
     postProcess: null,
   },
 
+  // ============== TIER 40 — Roadhouse sidequest (Brown Hare) ==============
+  {
+    id: "polish-brown-hare-map",
+    tier: 40,
+    out: "assets/maps/brown-hare-roadhouse-interior.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Top-down fantasy tactical battle map for tabletop RPG (D&D 5e). Painted, hand-drawn interior style consistent with Dyson Logos / 2-Minute Tabletop / Roll20 marketplace maps. NO grid overlay. View directly from above. PORTRAIT orientation.
+
+THE SIGN OF THE BROWN HARE — a small, well-kept rural roadhouse on the South Wool Road two days' ride south of Loftwick (Yeomanry, pre-Greyhawk Wars, World of Greyhawk Common Year 581 CY). Owned and run by Rosalin Brent, a competent woman in her mid-fifties. The kind of small countryside inn that local farmers, traveling drovers, and Yeomanry militia stop at for a hot meal and a pint. NOT a fancy coaching inn — this is humble, careful, and clean.
+
+TWO FLOORS shown STACKED VERTICALLY in the image (Dyson Logos style two-floor tactical map):
+- GROUND FLOOR in the BOTTOM HALF of the image (south of the image's vertical center)
+- UPPER FLOOR in the TOP HALF of the image (north of the image's vertical center)
+- A clear strip of black void between the two floors as visual separation
+
+GROUND FLOOR (bottom half — roughly 40 ft × 28 ft):
+
+Outer walls: stone foundation (~3 ft tall) with timber-frame plaster above, dark wood corner posts. Slate roof (not visible from above).
+
+Front (south) wall: a wide DOUBLE FRONT DOOR centered, leading directly off the South Wool Road (a sliver of beaten earth visible at the very bottom edge of the image). To either side of the door, a small leaded-glass window. ABOVE the door, a wooden carved SIGN in the shape of a BROWN HARE (rendered as a small visible carved shape) hanging on iron brackets.
+
+Just inside the front door:
+- COMMON ROOM (the front 2/3 of the ground floor, taking up the whole width). A LARGE STONE FIREPLACE on the WEST wall with a low cooking-iron and a hanging cauldron; logs stacked to one side. FOUR HEAVY OAK TABLES with mismatched stools (about 4 stools per table). Worn floor boards with a faded red runner from front door to bar. Wooden benches along the east wall under the windows.
+- BAR COUNTER along the north wall of the common room: a polished plank counter, a row of pewter mugs hanging behind, two small wooden casks of ale on stands. A short flap section opens for staff to pass through.
+
+Behind the bar (back of ground floor):
+- KITCHEN (small, behind the north wall of the common room). A brick HEARTH-OVEN, a sturdy worktable, a chopping block, a stone sink with hand-pump. A back door in the kitchen's east wall leads out to the woodshed/stable yard.
+- A small SCULLERY / PANTRY adjoining the kitchen, with shelves of dry goods, hanging cured meats, jars of preserves.
+- A NARROW WOODEN STAIRCASE on the WEST end of the bar area rises up to the second floor. The stair is enclosed; the steps are clearly drawn each as a separate line.
+
+Out the back kitchen door (depicted at the very top of the ground-floor frame, just south of the float between floors):
+- A small WALLED YARD with a STABLE (three stalls, simple straw bedding) and a WOODSHED next to it. A stone WELL in the yard.
+
+UPPER FLOOR (top half — slightly smaller footprint than ground floor; the kitchen wing below is single-storey so the upper floor doesn't extend over it):
+
+- LANDING at the top of the staircase (same west-end position as the ground-floor stair top).
+- A narrow east-west CORRIDOR running the length of the upper floor.
+- THREE SMALL GUEST ROOMS along the south side of the corridor (over the common room below). Each guest room contains a single neatly-made narrow bed, a small wash-stand with a porcelain pitcher and basin, a small wardrobe, a single small dormer window on the south outer wall (facing the road).
+- ROSALIN'S PRIVATE CHAMBERS along the north side of the corridor (taking up the entire north wall — one larger room): her bed against the north wall, a small writing desk with a chair, a clothes press, a small cold hearth, a single south-facing window above the bar/kitchen below. A cedar trunk at the foot of the bed.
+- A SMALL STORAGE ALCOVE at the EAST end of the upper corridor (between the third guest room and Rosalin's chambers): a few stacked crates, a child's broken wooden horse visible on top of one crate, a small CEDAR BOX clearly placed prominently (this is Hask's box — visible as a small flat wooden case).
+
+DOOR REQUIREMENTS — clearly drawn in the image:
+- Front double door on south wall (with the carved hare sign above)
+- Common room → Kitchen: open archway behind the bar
+- Kitchen → Woodyard: single wooden back door on east wall
+- Common room → Stair: open archway at the bar's west end
+- Each upstairs guest room → Corridor: single hinged door
+- Rosalin's chambers → Corridor: single hinged door (centered)
+- Storage alcove: open archway (no leaf) at east end of corridor
+
+LIGHTING: lamp brackets at the four corners of the common room; a large warm light from the fireplace; small lamps in each upstairs corridor sconce; one small candle visible on the writing desk in Rosalin's chamber.
+
+MOOD: warm, lived-in, modest. Not luxurious — pewter not silver, oak not mahogany, wool not velvet. Recently swept, recently mopped, the kind of room that smells like wood-smoke and bread. NO PEOPLE; NO ANIMALS. Time of day: late afternoon (warm low light).
+
+Top-down architectural view, painterly interior tactical battle-map style. Black background or void around the building's outer walls and beyond the back yard fence. Walls, doors, and windows clearly drawn. Roof not shown.`,
+    postProcess: null,
+  },
+
+  {
+    id: "polish-rosalin-brent-portrait",
+    tier: 40,
+    out: "assets/portraits/rosalin-brent-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of ROSALIN BRENT, mid-fifties human woman, half-sister of Haskur Vandrell and proprietor of the Sign of the Brown Hare roadhouse on the South Wool Road, Yeomanry (pre-Greyhawk Wars). New for Phase 2 sidequest. She is a competent, weathered, hard-working rural innkeeper who has spent thirty years watching men eat at her tables and reads them like other people read scripture.
+Modern high-fantasy illustration / digital concept art for tabletop RPG (D&D 5e / Tales of the Valiant book interior style). NOT 19th-century oil painting.
+
+Mid-fifties. Faded auburn hair shot through with grey, pulled back in a no-nonsense bun, with a few wisps escaping at the temples. Skin weathered by sun and wood-smoke; deep laugh lines around the eyes but a careful, guarded mouth that does not smile easily. Grey-green eyes with a tired but steady directness. Strong, broad shoulders — a woman who has lifted casks of ale and split firewood for thirty years. Calloused, capable hands.
+
+Clothing (humble Yeomanry rural inn-keeper, NOT noble or merchant-class): a plain dark forest-green wool dress with long sleeves, the cuffs rolled back to the forearm; a plain cream-and-grey APRON over it, lightly flour-dusted; a small white linen kerchief tied at the throat. A single thin silver chain barely visible at the collar (a Heironeous medallion she has worn for forty years — small, plain, not on display). NO jewellery on the hands. A small key-ring at the apron-belt.
+
+Expression: a quiet, contained grief carried as everyday composure. NOT performing sadness — this is a woman who has carried a long mourning for a brother who is still alive, and she does not weep about it any more. The grief is visible only in the way she holds her shoulders and in the careful watchfulness around her eyes.
+
+Three-quarter view from waist up. Background: faint suggestion of a warm-lit inn common-room behind her — a hint of stone hearth, a wooden post, soft amber lamp-glow — but ATMOSPHERIC, not detailed. Earth tones and warm wood browns dominate. Atmosphere over ornament.
+
+NO floating particles, NO glowing magic effects, NO adventurer's gear. She is NOT a fighter; she is NOT a wizard; she is a careful rural inn-keeper at the end of her working day.
+
+${ART_STYLE}`,
+    postProcess: null,
+  },
+
+  { id: "polish-rosalin-brent-token", tier: 41, out: "assets/tokens/rosalin-brent-token.png",
+    sourceFromExisting: "assets/portraits/rosalin-brent-portrait.png", skipGeneration: true,
+    postProcess: "round-token-512",
+    ring: { base: "#6a543a", highlight: "#a08560", shadow: "#1a1208" } /* rural commoner warm-brown */ },
+
 ];
 
 // ----------------- engine -----------------

@@ -5520,6 +5520,103 @@ NO PEOPLE. NO ANIMALS. NO grid lines. Black void around outer walls.
     postProcess: null,
   },
 
+  // ============== TIER 42 — Mossen Place v3 (door + wall fix via reference sketches) ==============
+  // These re-paint floors 2 and 3 over the structural sketches in assets/_reference/.
+  // The /images/edits endpoint preserves wall and door positions from the reference
+  // image while the prompt drives the painterly battle-map style and furnishings.
+  {
+    id: "polish-mossen-place-second-v3",
+    tier: 42,
+    out: "assets/maps/mossen-place-second-floor.png",
+    size: "1024x1536",
+    quality: "high",
+    referenceImages: ["assets/_reference/mossen-2-structure.png"],
+    prompt: `Repaint the supplied architectural floor plan as a top-down fantasy tactical battle map for D&D 5e in Dyson Logos / Roll20 painterly style. PORTRAIT orientation. NO grid overlay.
+
+ABSOLUTE STRUCTURAL CONSTRAINT — PRESERVE EXACTLY from the reference image:
+- Every WALL position (outer walls and interior walls — same pixel positions, same thickness).
+- Every DOOR position and swing direction (the red arcs in the reference mark door locations; replace each arc with a painted wooden door at the same spot with the same hinge and swing direction).
+- The SHAPE and POSITION of the stair well in the east-center of the building.
+- The position of the two staircases inside the stair well (one in the north half, one in the south half) — same footprint.
+- The room subdivisions (master bedroom north, library + dining stacked on the west, bath above stair well, balcony alcove south-east, narrow N-S corridor between west rooms and stair well).
+
+REMOVE / REPLACE from the reference image (these are guides only):
+- All text labels ("M3 MASTER BEDROOM", "DOWN to 1st", etc.) — do NOT carry any text into the final.
+- The red door arcs — replace with painted wooden doors (interior doors as dark oak, lighter trim).
+- The thin stair hash marks — replace with detailed painted wooden staircases (clearly drawn steps).
+- The parchment background and black outline aesthetic — replace with painted battle-map wood floors, plaster walls, etc.
+- The "N ↑" compass and title banner — remove entirely.
+
+RENDER STYLE — paint as Dyson-Logos-style interior battle map:
+- Outer walls: pale plastered stone with subtle texture, 1-ft-thick.
+- Interior walls: dark wood-framed plaster, 6-inch thick.
+- Floors: painted plank wood throughout (warm honey-brown in living spaces, paler in bath).
+- Black void outside the building's outer walls. No surrounding city detail.
+
+SECOND-FLOOR FURNISHINGS — fill the rooms as follows (preserving wall positions):
+- M3 MASTER BEDROOM (top, full width): generous FOUR-POSTER BED against the north outer wall, draped with a single WHITE LINEN DUST-SHEET (reads as draped white mass with four bedposts visible at corners). A tall WARDROBE on west wall, a small WASH-STAND on east wall. Two small leaded-glass windows on north outer wall.
+- M2 LIBRARY / STUDY (west side, upper): floor-to-ceiling BOOKCASES along the west outer wall, a WRITING DESK against the outer wall under a small window, one reading chair. On the floor, a small AREA RUG with a slight BULGE in one corner suggesting a loose floorboard beneath.
+- M1 DINING ROOM (west side, lower): a LONG OAK DINING TABLE (about 7 ft × 3 ft) with EIGHT WOODEN CHAIRS draped with WHITE LINEN DUST-SHEETS. A SIDEBOARD on the north interior wall with tarnished silver candle-holders.
+- M4 BATH (small alcove east-upper, between master bedroom and stair well): a TIN TUB centered, wash-stand with porcelain basin, small hand-pump beside the tub.
+- M5 STAIR WELL (east-center): TWO PAINTED WOODEN STAIRCASES VISIBLE.
+   - NORTH HALF: top of the staircase coming UP FROM THE GROUND FLOOR — top step at the very north end against the wall, steps descending southward (shade darker toward the south end where they pass below floor level). Wooden railings on the corridor side.
+   - SOUTH HALF: bottom of a staircase rising UP TO THE THIRD FLOOR — bottom step at the very south end, steps rising northward (shade lighter toward the north end where they pass above ceiling level). Wooden railings on the corridor side.
+- SOUTH-EAST ALCOVE: small reading/balcony nook — one small upholstered armchair under a leaded-glass window, a tiny side table. Two leaded-glass windows on the south outer wall with a wrought-iron decorative balcony rail just outside.
+- CORRIDOR (narrow N-S between west rooms and stair well): a long DARK-RED RUNNER RUG down the center. No furniture.
+
+DUST AND DISUSE: dining chairs draped with white sheets; master bed shrouded; bookcases dusty on top shelves; cobwebs in upper corners of every room.
+
+NO PEOPLE. NO ANIMALS. NO grid lines. NO text or labels in the final image. Roof not shown.`,
+    postProcess: null,
+  },
+
+  {
+    id: "polish-mossen-place-third-v3",
+    tier: 42,
+    out: "assets/maps/mossen-place-third-floor.png",
+    size: "1024x1536",
+    quality: "high",
+    referenceImages: ["assets/_reference/mossen-3-structure.png"],
+    prompt: `Repaint the supplied architectural floor plan as a top-down fantasy tactical battle map for D&D 5e in Dyson Logos / Roll20 painterly style. PORTRAIT orientation. NO grid overlay.
+
+ABSOLUTE STRUCTURAL CONSTRAINT — PRESERVE EXACTLY from the reference image:
+- Every WALL position (outer walls and interior walls — same pixel positions, same thickness).
+- Every DOOR position and swing direction (the red arcs in the reference mark door locations; replace each arc with a painted wooden door at the same spot with the same hinge and swing direction).
+- The SHAPE and POSITION of the stair well in the east-center of the building (identical to floors 1 and 2).
+- The position of the single staircase inside the stair well (south half — top of the stair coming up from the second floor).
+- The room subdivisions (four corner bedrooms T1 SW, T2 SE, T3 NW, T4 NE; T5 Bath and T6 Linen closet on the west side stacked between T3 and T1; N-S corridor on the west side of the stair well; stair landing in the north half of the stair well).
+
+REMOVE / REPLACE from the reference image (these are guides only):
+- All text labels ("T3 BEDROOM", "T7 STAIR LANDING", "loose board", "HALL", etc.) — NO text in the final.
+- The red door arcs — replace with painted wooden doors at the same positions.
+- The thin stair hash marks — replace with a single detailed painted wooden staircase.
+- The parchment background and black outline aesthetic — replace with painted battle-map style.
+- The "N ↑" compass and title banner — remove entirely.
+
+RENDER STYLE — paint as Dyson-Logos-style interior battle map:
+- Outer walls: slightly INSET FROM THE OUTLINE (about 1 ft inset on east and west sides) to suggest the sloped slate roof above. The visible outer wall thickness is plaster. Show the slope subtly as darker shading along the inset region.
+- Interior walls: dark wood-framed plaster, 6-inch thick.
+- Floors: warm painted plank wood throughout, slightly paler in the bath.
+- Dormer windows: small projecting bays on the OUTER WALL of each bedroom, painted as small angled bays cut into the roof slope.
+- Black void outside the building's outer walls.
+
+THIRD-FLOOR FURNISHINGS — fill the rooms as follows (preserving wall positions):
+- T3 NW BEDROOM: single narrow bed against the west outer wall, draped with a WHITE LINEN DUST-SHEET, small wardrobe on the north interior wall, wash-stand on east interior wall, dormer window on west outer wall.
+- T4 NE BEDROOM: single bed against the east outer wall, draped with dust-sheet, wardrobe, wash-stand, dormer window on east outer wall.
+- T1 SW BEDROOM: single bed against the west outer wall, draped with dust-sheet, wardrobe, wash-stand, dormer window on west outer wall (and one on south outer wall).
+- T2 SE BEDROOM: single bed against the east outer wall, draped with dust-sheet, wardrobe, wash-stand, dormer window on east outer wall.
+- T5 BATH (small, west side, upper-middle): a small TIN BATH-BASIN, a chamber-pot privacy screen, a wash-stand with porcelain pitcher.
+- T6 LINEN CLOSET (small, west side, lower-middle just south of bath): shallow SHELVES with folded WHITE LINEN SHEETS visible. On the floor planks: a clearly drawn small SQUARE OUTLINE with slightly different shading suggesting a LOOSE FLOORBOARD with a hidden cache below — do NOT label it.
+- T7 STAIR LANDING (north half of the stair well): a wooden LANDING area with a railing on the south side overlooking the stair below.
+- STAIRCASE (south half of stair well): a single PAINTED WOODEN STAIRCASE — the top of the flight that comes up from the second floor. Top step is at the north end of the stair section (where it meets the landing). Steps descending southward (shade darker toward the south end where they pass below floor level). Wooden railings on the corridor side.
+- CORRIDOR (narrow N-S west of stair well): a long DARK-RED RUNNER RUG down the center.
+
+DUST AND DISUSE: every bed shrouded with a single white sheet; cobwebs in upper corners; dim daylight from dormer windows.
+
+NO PEOPLE. NO ANIMALS. NO grid lines. NO text or labels in the final image.`,
+    postProcess: null,
+  },
+
   // ============== TIER 50 — Phase 2 scene illustrations ==============
   {
     id: "p2-records-alcove",

@@ -1615,7 +1615,7 @@
     {
       "_id": "Noted0def0ebedb5",
       "entryId": "BR2P2RoadhouseJrnl",
-      "pageId": "BR2P2RhPgBox",
+      "pageId": "BR2P2RhPgHare",
       "x": 720,
       "y": 580,
       "elevation": 0,
@@ -1646,7 +1646,7 @@
     {
       "_id": "Notefc2e36650b97",
       "entryId": "BR2P2RoadhouseJrnl",
-      "pageId": "BR2P2RhPgHare",
+      "pageId": "BR2P2RhPgBox",
       "x": 750,
       "y": 380,
       "elevation": 0,

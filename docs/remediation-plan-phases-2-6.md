@@ -71,18 +71,20 @@ scope (next plan). Statuses: [ ] pending · [x] done · [~] partial.
   before it matters).
 - **Release checkpoint: v1.4.4** (Phases 0+A+B together).
 
-## Phase C — Phase 4 coherent before Rel Astra  *(needs API key)*
+## Phase C — Phase 4 coherent before Rel Astra [x] — shipped v1.4.5
 
-- [ ] Harbor-vacancy harmonization to P3 canon (Three Seats journal, Halask
+- [x] Harbor-vacancy harmonization to P3 canon (Three Seats journal, Halask
   briefing, candidate dossiers; seat numbering First/Third/Fifth).
-- [ ] Year sweep, P4 journals + master.
-- [ ] NEW optional combat beat: interceptable chandlery arson (segment-3
+- [x] Year sweep, P4 journals + master.
+- [x] NEW optional combat beat: interceptable chandlery arson (segment-3
   witness-pressure event) — one journal page, calibrated 5 PCs @ ~7th level,
   italic 6-PC variant.
-- [ ] Path-3 calibration note gains a five-PC line.
-- [ ] GENERATE: Rel Astra city map (+ scene, pinned); labeled Hardby map
-  variant (existing map as image reference).
-- [ ] Wire P4 scenes to journals + pins.
+- [x] Path-3 calibration note gains a five-PC line.
+- [x] Rel Astra city map: an unwired map already existed (assets/maps/) — new
+  pinned scene built on it; no generation needed. Labeled Hardby variant
+  produced (deterministic PIL labels over the original; AI text passes kept
+  misspelling/duplicating labels) and set as the city scene background.
+- [x] Wire P4 scenes to journals + pins.
 - **Release checkpoint: v1.4.5.**
 
 ## Phase D — Phase 5 scenes  *(needs API key)*

@@ -7,7 +7,7 @@
   "navOrder": 1,
   "navName": "",
   "background": {
-    "src": "modules/blooming-rot-2/assets/maps/hardby-city-map.png",
+    "src": "modules/blooming-rot-2/assets/maps/hardby-city-map-labeled.png",
     "anchorX": 0.5,
     "anchorY": 0.5,
     "offsetX": 0,

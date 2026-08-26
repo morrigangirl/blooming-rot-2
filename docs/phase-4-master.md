@@ -56,7 +56,7 @@ The approach phrase from Caelith's letter of introduction is unique: ***"By the 
 
 What he tells them in this first meeting:
 
-- The harbor commission has **three vacant seats**. Two by death within the last eight months (one stroke, one drowning — the drowning was possibly assisted). One by a ceremonial "leave of absence" that has lasted four months and will not end.
+- The harbor commission has **three vacant seats**. All three by death, on the record: Lord Hessar Olm (natural causes, 580 CY, two years empty this autumn), Lady Mirin Vesh (a fall on her own staircase, 581, fourteen months empty — the fall possibly assisted), Master Ervan Dale (a brief illness, 582, six months empty). No successor formally seated on any of the three.
 - The three candidates being advanced are **Lord Faren Mirelth** (old-house reformer with private debts), **Magister Andrune Vesh** (respected technocrat with family in difficulty), and **Mistress Coriath Tenrel** (senior commercial advocate, ambitious, willingly aligned).
 - The senior partner of Cindren & Vhal Rel Astra is **Tarlith Vhal Sereth**. Halask has met him three times — twice in court as opposing advocate, once at a funeral. He considers Sereth "*precise, patient, and personally cold.*"
 - The party's only reliable civic ally is **Councilor Belven Astor** of the Old Harbor Ward Council. The other useful name is **Adra Sayan**, an old colleague of Halask's, who will give one signed statement and no more.
@@ -74,7 +74,7 @@ Walk the party through each candidate. Halask provides the dossiers.
 
 #### Lord Faren Mirelth — The Reformer (the weak link)
 
-Late forties. Public face: published reformist, "opaque berth allocation" pamphleteer, chairs civic transparency committees. **Private truth: bankrupt in fact since 1578, after the Mirelth shipping concern collapsed.** He has taken **twelve thousand gp in 1579 and another eight thousand in 1581** from C&V Rel Astra, structured as "*personal advances against future earnings*" — Aerdi commercial-code shorthand for *we own you*. Sereth has not yet called the loans. He has, instead, suggested Mirelth put himself forward for the eighth seat. Mirelth understood.
+Late forties. Public face: published reformist, "opaque berth allocation" pamphleteer, chairs civic transparency committees. **Private truth: bankrupt in fact since 578, after the Mirelth shipping concern collapsed.** He has taken **twelve thousand gp in 579 and another eight thousand in 581** from C&V Rel Astra, structured as "*personal advances against future earnings*" — Aerdi commercial-code shorthand for *we own you*. Sereth has not yet called the loans. He has, instead, suggested Mirelth put himself forward for the First Seat. Mirelth understood.
 
 **Aerdi commercial code §187 (Conflict-of-Interest Disqualification):** no person may sit on the harbor commission while indebted to any counting house with active commercial business before the commission. The C&V loans are a textbook case. **Disqualification is automatic if the loans can be documented.**
 
@@ -133,7 +133,7 @@ He will not house the party. The chandlery is too visible.
 
 ### Scene 5 — The Imperial Registry (mid-phase — instance 4 of the "E." hand)
 
-If the party investigates the harbor commission's vacancy paperwork through the imperial registry — Halask can arrange access; the registrar is one of his old commercial-court contacts — they find that the leave-of-absence vacancy (the third one, Tenrel's) was created by a single ceremonial document filed by the harbor commission's senior clerk eighteen months ago.
+If the party investigates the harbor commission's vacancy paperwork through the imperial registry — Halask can arrange access; the registrar is one of his old commercial-court contacts — they find that the Third Seat vacancy (Lady Mirin Vesh's — Tenrel's target) is held open by a single ceremonial succession-deferral filed by the harbor commission's senior clerk fourteen months ago, within days of the inquest that recorded her fall as an accident.
 
 The document itself is unremarkable. The marginal annotation, **in a hand the registrar has never seen before**, reads:
 
@@ -142,7 +142,7 @@ The document itself is unremarkable. The marginal annotation, **in a hand the re
 The hand matches Veska's three Phase-3 observations and adds two more:
 
 - **Fourth observation:** the writer holds the quill in a way that produces uniformly thick downstrokes — implying either a blunted nib used deliberately, or a hand that does not pivot the quill the way Aerdy and Yeomanry hands do. Halask, asked, will recall that *some Suel hands write this way, but only certain very old families.*
-- **Fifth observation:** the wax used to seal the original cover of the document is **not Aerdi imperial wax** (beeswax-and-pine-resin tinted with cinnabar). It is a darker, harder wax that left slight black residue on the paper around the seal. Halask cannot identify it. He has seen one similar wax in his career — on a 1571 document filed in Aerdi commercial court by an envoy who claimed to represent "*a southern trading concern*" that no one ever found again.
+- **Fifth observation:** the wax used to seal the original cover of the document is **not Aerdi imperial wax** (beeswax-and-pine-resin tinted with cinnabar). It is a darker, harder wax that left slight black residue on the paper around the seal. Halask cannot identify it. He has seen one similar wax in his career — on a 571 document filed in Aerdi commercial court by an envoy who claimed to represent "*a southern trading concern*" that no one ever found again.
 
 **Drip-feed.** Do not dwell on this. Let the players notice, ask questions, and walk away with a question they cannot resolve. *Players should leave Phase 4 with a question, not an answer.*
 
@@ -171,13 +171,13 @@ This is the climactic scene of the main arc. **The room Sereth meets the party i
 
 #### The building
 
-Four-story brownstone-fronted commercial building on the Goldsmiths' Quarter side of the Old Harbor Ward, two streets from the harbor commission. Brass plate: **CINDREN & VHAL — REL ASTRA OFFICES — EST. 1462 CY**. Two liveried attendants by day; one armed guard at night.
+Four-story brownstone-fronted commercial building on the Goldsmiths' Quarter side of the Old Harbor Ward, two streets from the harbor commission. Brass plate: **CINDREN & VHAL — REL ASTRA OFFICES — EST. 462 CY**. Two liveried attendants by day; one armed guard at night.
 
 - **Ground floor:** public counting hall, six teller cages.
 - **Mezzanine:** clerk bullpen, chop-and-seal workroom.
 - **Second floor:** junior partners' offices, records library, formal reception salon, partner dining.
 - **Third floor:** Sereth's three rooms — formal audience room, private working office, private study.
-- **Strongroom (basement):** three vault chambers behind two doors requiring both Sereth's key and the senior junior partner's key. **Original Mirelth loan documents are here**, along with the firm's internal correspondence dating to 1572 CY. Untouchable without court warrant or suicidal burglary.
+- **Strongroom (basement):** three vault chambers behind two doors requiring both Sereth's key and the senior junior partner's key. **Original Mirelth loan documents are here**, along with the firm's internal correspondence dating to 572 CY. Untouchable without court warrant or suicidal burglary.
 
 #### Which room he picks
 
@@ -189,7 +189,7 @@ For a serious party arriving with a real indictment package, **he meets them in 
 
 #### Sereth himself
 
-Late fifties. Tall, narrow-shouldered, very thin. Dark Aerdi complexion, hair gone silver-white and worn long tied back. Clipped silver beard. Dark eyes that move slowly and miss nothing. Dark-grey Aerdi advocate's overcoat (admitted to commercial court in 1556, has never represented a client at trial, wears the coat as a credential not a profession). Heavy seal-ring on his right hand: not a personal device — the firm's seal. **He smiles only with his mouth.**
+Late fifties. Tall, narrow-shouldered, very thin. Dark Aerdi complexion, hair gone silver-white and worn long tied back. Clipped silver beard. Dark eyes that move slowly and miss nothing. Dark-grey Aerdi advocate's overcoat (admitted to commercial court in 556, has never represented a client at trial, wears the coat as a credential not a profession). Heavy seal-ring on his right hand: not a personal device — the firm's seal. **He smiles only with his mouth.**
 
 He uses the legal-formal register even in private conversation. He never raises his voice. He never threatens directly. **The threat is always in what he does not say.** Do not let the players bully him into reacting; he is too disciplined to react. Let him deflect, refuse, and outwait them.
 
@@ -254,7 +254,7 @@ The encounter at Sereth's offices:
 - **Driver (Bandit Captain)** — CR 2. Back service entrance. Engages if alerted.
 - **Two Junior Partners (treat as Acolyte with one *shield* casting)** — present during business hours; will not fight; flee and raise alarm.
 
-**Calibration:** a level-9 party of six wins this. A level-9 party of four struggles and expects at least one PC down. A level-7 party should not attempt it.
+**Calibration:** a level-9 party of five wins this *(six: comfortably)*. A level-9 party of four struggles and expects at least one PC down. A level-7 party should not attempt it.
 
 Building features: light cover (desks, doors), multiple stairwell choke points, back service stair as the bodyguards' fallback. The basement strongroom is the only defensible position.
 
@@ -309,10 +309,10 @@ End the read-aloud with: ***"You ride west."***
 - **Belven Astor.** Old Harbor Ward Councilor, former master mariner. The party's only reliable civic ally. Honest. Loses 4-3 council votes and brings them again. Will not be seen with the party if they take Path 3.
 - **Adra Sayan.** Halask's old colleague. One signed statement, no more.
 - **Lord Galenix Naelax.** Aerdy claimant under polite house-arrest at the Naelax embassy. Has never met Sereth, never met any conspirator. Owes C&V 38,000 gp. Honest by Aerdy noble standards. Three viable interaction paths; none are wrong.
-- **Lord Faren Mirelth.** Conspiracy candidate, eighth seat. Weak link. C&V loans disqualify him under §187. Prefers quiet withdrawal.
-- **Magister Andrune Vesh.** Conspiracy candidate, ninth seat. Honest. Out of options. Lever is his sister-in-law's customs case; Halask can resolve it for ~800 gp and two weeks.
+- **Lord Faren Mirelth.** Conspiracy candidate, First Seat (Olm’s vacancy). Weak link. C&V loans disqualify him under §187. Prefers quiet withdrawal.
+- **Magister Andrune Vesh.** Conspiracy candidate, Fifth Seat (Dale’s vacancy). Honest. Out of options. Lever is his sister-in-law's customs case; Halask can resolve it for ~800 gp and two weeks.
 - **Lyla Vesh.** Vesh's sister-in-law. Twenty years' imperial prison threatened. Innocent. Not on stage; the case is the lever.
-- **Mistress Coriath Tenrel.** Conspiracy candidate, tenth seat. Willing operator, not pressured. Only stoppable by stopping the seating itself.
+- **Mistress Coriath Tenrel.** Conspiracy candidate, Third Seat (Lady Mirin Vesh’s vacancy). Willing operator, not pressured. Only stoppable by stopping the seating itself.
 - **Aldaen Veth.** Senior Commissioner, sixty-eight, openly skeptical of the slate, politically isolated. Reliable no-vote.
 - **Hold Veshanen.** Commerce Seat. Sereth-aligned. Reliable yes-vote on the slate.
 - **Eled Ruth.** Civic Seat. Independent and irritable. Procedural objector. Will vote no on the first candidate (Mirelth) by reflex — *which the conspiracy wants.*
@@ -331,9 +331,9 @@ Stat blocks for all of these live in `packs/_source/phase-4-actors/`.
 - **The indictment package from Phase 3.** Veska's notarized opinion (names Sereth), C&V Hardby branch records, the Sereth blotter rubbing, the chipped Hardby clearing-stamp. Halask takes custody and will not release it.
 - **The Mirelth loan documents.** Either carried from Phase 3 (Solen Mereth's cabinet) or compelled by Halask's subpoena within ten days. Disqualify Mirelth under §187.
 - **Caelith's Letters 4, 5, and 6.** Three sealed letters delivered by separate couriers. Letter 6 contains the campaign-defining line.
-- **The Registry Annotation.** Instance 4 of the "E." hand. *"Sufficient. Hold open until the second autumn after the next."* On the ceremonial leave-of-absence document. Black-residue wax.
+- **The Registry Annotation.** Instance 4 of the "E." hand. *"Sufficient. Hold open until the second autumn after the next."* On the ceremonial succession-deferral for the Third Seat. Black-residue wax.
 - **Sereth's signed private statement (Path 2 only).** Framed as personal initiative, not firm policy. A lie. Useful as leverage; not useful in court.
-- **Items recovered from the strongroom (Path 3 only).** Mirelth loan originals, the firm's 1572-onward correspondence, possibly two further instances of the "E." annotation hand. Recovered in a four-minute window before the Aerdi watch arrives.
+- **Items recovered from the strongroom (Path 3 only).** Mirelth loan originals, the firm's 572-onward correspondence, possibly two further instances of the "E." annotation hand. Recovered in a four-minute window before the Aerdi watch arrives.
 - **The crane-and-coins seal.** By now the party knows the firm, knows the seal, knows the men behind it. The mark loses its mystery in Phase 4. That is correct.
 
 ---

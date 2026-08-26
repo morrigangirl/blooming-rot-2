@@ -68,6 +68,51 @@ const activePartyRefs = () => Object.values(PARTY).filter((p) => p.active).map((
 const DOOR_RULES = "\n\nDoor rendering rules: Every door is shown CLOSED, exactly 1 grid square (5 ft) wide, drawn as a small solid rectangular panel set flush with the wall on both sides. The wall continues cleanly into the door panel; no gap on either side. A small hinge mark at one short edge indicates the hinge side. Doors are never shown open or ajar.";
 
 const JOBS = [
+  // ============== REMEDIATION PLAN — Phase C city maps ==============
+  {
+    id: "rel-astra-city-map",
+    tier: 1,
+    out: "assets/maps/rel-astra-city-map.png",
+    size: "1536x1024",
+    quality: "high",
+    referenceImages: ["assets/maps/hardby-city-map.png"],
+    prompt: `Aged-parchment fantasy city map in EXACTLY the same hand-drawn cartographic style, palette, line weight, and aerial-oblique projection as the reference map. Same painterly rooftops, same parchment border, same compass rose style (upper left), same scale bar (lower right).
+
+The city is REL ASTRA — an ancient, formal Aerdi imperial port on the Sea of Gearnat. It must read as older, larger, and more imposing than the reference city: heavier walls, grander stone, imperial scale.
+
+Layout requirements:
+- A great crescent harbor dominating the lower half, enclosed by TWO long stone moles with a lighthouse at the end of one; many ships at anchor, formal stone quays (not timber piers).
+- The OLD HARBOR WARD fronting the water: dense four-story stone counting houses and warehouses in ordered rows.
+- Adjacent to it, the GOLDSMITHS' QUARTER: wealthier, tighter streets, taller and finer buildings.
+- A formal CUSTOMS QUAY at one end of the waterfront with a grand columned guest hall and a plaza.
+- Behind the harbor wards, the OLD CITY: the most ancient core, irregular streets inside a distinct inner wall, with an imperial basilica and clock tower.
+- An embassy district on high ground with several walled compounds and gardens (one prominent).
+- A monumental outer land wall with two large gates (west and north), roads leading out.
+- A large columned civic hall two streets from the harbor front (the harbor commission).
+No text, no labels, no lettering anywhere on the map itself. No modern elements.`,
+  },
+  {
+    id: "hardby-city-map-labeled",
+    tier: 1,
+    out: "assets/maps/hardby-city-map-labeled.png",
+    size: "1536x1024",
+    quality: "high",
+    referenceImages: ["assets/maps/hardby-city-map.png"],
+    prompt: `Reproduce this exact city map — identical geography, buildings, walls, harbor, island quarter, colors, and style. Do NOT redraw, move, add, or remove any feature of the city. The ONLY change: add hand-lettered period cartographic labels in small, elegant, dark iron-gall ink capitals, the way an 18th-century surveyor labels a town plan.
+
+Labels to add, placed on or beside the features described:
+- "HARDBY" — large title lettering, top center, above the city.
+- "MERCHANT QUARTER" — across the center of the walled upper town (the grid of streets in the upper half).
+- "COOPER'S TALE" — along a lane in the western part of the walled upper town.
+- "COUNTING HOUSE LANE" — along a street in the eastern part of the walled upper town.
+- "WHALEMARKET QUAY" — along the central waterfront where the piers meet the town.
+- "BLACK COG LANE" — in the southwestern harbor sprawl below the walls.
+- "ROPE WALK" — a street just west of the central waterfront.
+- "THE GYNARCHY" — across the fortified round island quarter in the lower harbor.
+- "WEST GATE" — at the gate in the western wall where the roads converge.
+- "EASTERN CARAVAN YARD" — near the eastern edge beyond the bridge.
+Letters must be small, legible, unobtrusive, following the curve of streets where natural. No banners, no cartouches beyond the existing border, no other changes.`,
+  },
   // ============== TIER 1 — must-have ==============
   {
     id: "merev-sarth-portrait",

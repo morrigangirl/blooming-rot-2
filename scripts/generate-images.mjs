@@ -43,6 +43,27 @@ const SIGIL_STYLE = "Heraldic emblem, single composition centered on a plain dar
   "Symmetric, suitable for use as a token icon. " +
   "Subject only — no banners, no shields, no surrounding ornament unless requested.";
 
+// ---------------------------------------------------------------------------
+// PARTY — canonical PC references for likeness-grounded generation.
+// Full visual bible (per-PC likeness prompt blocks, palette anchors, status
+// notes): assets/_reference/party/party-prompts.md — keep the two in sync.
+// All six PCs are women. Cam is assumed OUT of the party (player likely not
+// returning): new group illustrations use activePartyRefs() — the active five
+// — unless the GM explicitly asks for six. Flip `active` here and in the
+// bible if she returns.
+const PARTY = {
+  alicia:  { name: "Alicia Trévanne",            active: true,  ref: "assets/_reference/party/alicia-warlock-blade.png" },
+  cam:     { name: "Cam",                        active: false, ref: "assets/_reference/party/Cam-Halfling-Rogue.png" },
+  elle:    { name: "Ellyndra \"Elle\" Swiftfoot", active: true,  ref: "assets/_reference/party/elle-halfling-monk.jpg" },
+  gianni:  { name: "Gianni Varren",              active: true,  ref: "assets/_reference/party/gianni-ranger-.jpg" },
+  kitty:   { name: "Kitty Raleigh",              active: true,  ref: "assets/_reference/party/kitty-druid-cthonic-tiefling.png" },
+  selvara: { name: "Selvara Stormborn",          active: true,  ref: "assets/_reference/party/selvara-human-sorcerer.jpg" },
+};
+// Reference paths for named PCs: partyRefs("kitty", "elle")
+const partyRefs = (...ids) => ids.map((i) => PARTY[i].ref);
+// Reference paths for the active roster (group illustrations default).
+const activePartyRefs = () => Object.values(PARTY).filter((p) => p.active).map((p) => p.ref);
+
 // Append to interior map prompts to enforce sane door rendering.
 const DOOR_RULES = "\n\nDoor rendering rules: Every door is shown CLOSED, exactly 1 grid square (5 ft) wide, drawn as a small solid rectangular panel set flush with the wall on both sides. The wall continues cleanly into the door panel; no gap on either side. A small hinge mark at one short edge indicates the hinge side. Doors are never shown open or ajar.";
 

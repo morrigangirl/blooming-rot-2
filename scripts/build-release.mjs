@@ -27,6 +27,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { execFileSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
+import { collectReferencedAssets } from "./collect-referenced-assets.mjs";
 
 const HERE = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(HERE, "..");
@@ -92,12 +93,24 @@ fs.copyFileSync(
 // Copy packs/ but EXCLUDE packs/_source/
 const packsSrc = path.join(ROOT, "packs");
 const packsDst = path.join(stagingDir, "packs");
-copyDirFiltered(packsSrc, packsDst, (relPath) => !relPath.startsWith("_source"));
+copyDirFiltered(packsSrc, packsDst, (relPath) => !relPath.startsWith("_source") && !relPath.split("/").pop().startsWith("."));
 
-// Copy assets/ but EXCLUDE assets/_raw/
-const assetsSrc = path.join(ROOT, "assets");
-const assetsDst = path.join(stagingDir, "assets");
-copyDirFiltered(assetsSrc, assetsDst, (relPath) => !relPath.startsWith("_raw"));
+// Copy ONLY assets actually referenced by shipping content (compiled packs,
+// module.json, README) plus the dynamic/world-referenced keep-lists.
+// See scripts/collect-referenced-assets.mjs for the full rules.
+const { referenced, missing } = collectReferencedAssets();
+if (missing.length) {
+  console.error(`ERROR: ${missing.length} referenced asset(s) missing on disk:`);
+  for (const p of missing) console.error("  " + p);
+  process.exit(1);
+}
+for (const rel of referenced) {
+  const src = path.join(ROOT, rel);
+  const dst = path.join(stagingDir, rel);
+  fs.mkdirSync(path.dirname(dst), { recursive: true });
+  fs.copyFileSync(src, dst);
+}
+console.log(`  ✓ ${referenced.length} referenced assets staged (unreferenced files excluded)`);
 
 // Copy README.md
 fs.copyFileSync(path.join(ROOT, "README.md"), path.join(stagingDir, "README.md"));

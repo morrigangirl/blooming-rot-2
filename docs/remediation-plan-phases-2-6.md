@@ -45,29 +45,29 @@ scope (next plan). Statuses: [ ] pending · [x] done · [~] partial.
 - [x] This plan committed.
 - Key handling: OPENAI_API_KEY passed per-invocation only; never in the repo.
 
-## Phase A — Stabilize Phase 2 (live phase; surgical) 
+## Phase A — Stabilize Phase 2 (live phase; surgical) [x]
 
-- [ ] GM-brief note: the roadhouse "R." mark reads as a *lead*, not flavor —
+- [x] GM-brief note: the roadhouse "R." mark reads as a *lead*, not flavor —
   guidance for containing the detour to one session (Rosalin beat intact).
-- [ ] Wire all P2 scenes to journals + link pins (see audit: 8 scenes, 31 pins).
-- [ ] Banner on `docs/phase-2-master.md`: scene flow superseded by
+- [x] Wire all P2 scenes to journals + link pins (see audit: 8 scenes, 31 pins).
+- [x] Banner on `docs/phase-2-master.md`: scene flow superseded by
   `phase-2-clean-motion.md` + shipped Movement journals.
 
-## Phase B — Phase 3 ready before Hardby
+## Phase B — Phase 3 ready before Hardby [x] — shipped v1.4.4
 
-- [ ] Address/canon sweep: Counting House Lane; Whalemarket Quay; Black Cog
+- [x] Address/canon sweep: Counting House Lane; Whalemarket Quay; Black Cog
   Lane (Mossen Place letter + master doc).
-- [ ] Jaron Pell added to branch staff (journal-phase-3-cv-branch).
-- [ ] Year sweep, P3 journals + master.
-- [ ] Rename: Seffa Norrell (solicitor), Betha Halver (grocer), Berrin Onn
+- [x] Jaron Pell added to branch staff (journal-phase-3-cv-branch).
+- [x] Year sweep, P3 journals + master.
+- [x] Rename: Seffa Norrell (solicitor), Betha Halver (grocer), Berrin Onn
   (vault clerk) — journals + masters.
-- [ ] Hardby City Map scene: ~14 linked pins (Mossen Place, grocer, C&V
+- [x] Hardby City Map scene: ~14 linked pins (Mossen Place, grocer, C&V
   branch, Veska, Coopered Wreck/Black Cog, Gynarchy Registry, caravan yard,
   gates, Hall of Salt and Tide, infirmary, Ailen's workshop…).
-- [ ] Wire remaining P3 scenes to journals; link Mossen Place floor pins (20).
-- [ ] Combat recalibration for 5 PCs w/ italic 6-PC variants: Whitemoor
+- [x] Wire remaining P3 scenes to journals; link Mossen Place floor pins (20).
+- [x] Combat recalibration for 5 PCs w/ italic 6-PC variants: Whitemoor
   blades, clock-5 squad attack, calibration note in arrival GM brief.
-- [ ] pc-threads: Cam dormancy + Elle fallback note (do here so it ships
+- [x] pc-threads: Cam dormancy + Elle fallback note (do here so it ships
   before it matters).
 - **Release checkpoint: v1.4.4** (Phases 0+A+B together).
 

@@ -87,14 +87,15 @@ scope (next plan). Statuses: [ ] pending · [x] done · [~] partial.
 - [x] Wire P4 scenes to journals + pins.
 - **Release checkpoint: v1.4.5.**
 
-## Phase D — Phase 5 scenes  *(needs API key)*
+## Phase D — Phase 5 scenes [x] — shipped v1.4.6
 
-- [ ] GENERATE + build: Quill Street rooms battlemap (the phase's only
-  combat); Aldea's cottage (double-serves P6 Vector B); optional Sera's shop
-  + Council chamber.
-- [ ] Courier-chain pins on the Loftwick city scene (dead-drop, Cooper's lane
+- [x] GENERATE + build: Quill Street rooms battlemap (the phase's only
+  combat); Aldea's cottage (double-serves P6 Vector B); Sera's shop and the
+  Council chamber stay theatre-of-the-mind (skipped by design; Sera's shop
+  is pinned on the city map instead).
+- [x] Courier-chain pins on the Loftwick city scene (dead-drop, Cooper's lane
   crossing, courier desk, Quill Street, Hall of Bonds).
-- [ ] Wire P5 scene(s) to journals.
+- [x] Wire P5 scene(s) to journals.
 - **Release checkpoint: v1.4.6.**
 
 ## Phase E — Phase 6 closed out  *(needs API key)*

@@ -1,0 +1,485 @@
+{
+  "_key": "!scenes!BR2P5SAldeaCttge",
+  "_id": "BR2P5SAldeaCttge",
+  "name": "Aldea Veren's Cottage — Stark Mounds Foothills",
+  "active": false,
+  "navigation": true,
+  "navOrder": 0,
+  "navName": "Merro Gilst's Rented Rooms",
+  "background": {
+    "src": "modules/blooming-rot-2/assets/maps/aldea-cottage.png",
+    "anchorX": 0.5,
+    "anchorY": 0.5,
+    "offsetX": 0,
+    "offsetY": 0,
+    "fit": "fill",
+    "scaleX": 1,
+    "scaleY": 1,
+    "rotation": 0,
+    "tint": "#ffffff",
+    "alphaThreshold": 0
+  },
+  "foreground": null,
+  "foregroundElevation": 20,
+  "thumb": null,
+  "width": 1536,
+  "height": 1024,
+  "padding": 0,
+  "initial": null,
+  "backgroundColor": "#1a1a1a",
+  "grid": {
+    "type": 1,
+    "size": 100,
+    "style": "solidLines",
+    "thickness": 1,
+    "color": "#000000",
+    "alpha": 0.2,
+    "distance": 5,
+    "units": "ft"
+  },
+  "tokenVision": true,
+  "fog": {
+    "exploration": true,
+    "reset": null,
+    "overlay": null,
+    "colors": {
+      "explored": null,
+      "unexplored": null
+    }
+  },
+  "environment": {
+    "darknessLevel": 0,
+    "darknessLock": false,
+    "globalLight": {
+      "enabled": true,
+      "alpha": 0.5,
+      "bright": false,
+      "color": null,
+      "coloration": 1,
+      "luminosity": 0,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "darkness": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "cycle": true,
+    "base": {
+      "hue": 0,
+      "intensity": 0,
+      "luminosity": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "dark": {
+      "hue": 0,
+      "intensity": 0,
+      "luminosity": -0.25,
+      "saturation": 0,
+      "shadows": 0
+    }
+  },
+  "drawings": [],
+  "tokens": [],
+  "lights": [
+    {
+      "_id": "LaCttge00",
+      "x": 390,
+      "y": 390,
+      "elevation": 0,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 12,
+        "color": "#f0b45a",
+        "coloration": 1,
+        "dim": 30,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": "torch",
+          "speed": 2,
+          "intensity": 3,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "hidden": false,
+      "flags": {},
+      "_key": "!scenes.lights!BR2P5SAldeaCttge.LaCttge00"
+    },
+    {
+      "_id": "LaCttge01",
+      "x": 590,
+      "y": 430,
+      "elevation": 0,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 8,
+        "color": "#f0b45a",
+        "coloration": 1,
+        "dim": 20,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": "torch",
+          "speed": 2,
+          "intensity": 3,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "hidden": false,
+      "flags": {},
+      "_key": "!scenes.lights!BR2P5SAldeaCttge.LaCttge01"
+    }
+  ],
+  "walls": [
+    {
+      "_id": "WaCttge00",
+      "c": [
+        300,
+        130,
+        480,
+        130
+      ],
+      "light": 20,
+      "move": 20,
+      "sight": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "doorSound": null,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "_key": "!scenes.walls!BR2P5SAldeaCttge.WaCttge00"
+    },
+    {
+      "_id": "WaCttge01",
+      "c": [
+        480,
+        130,
+        540,
+        130
+      ],
+      "light": 20,
+      "move": 20,
+      "sight": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 1,
+      "ds": 0,
+      "doorSound": null,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "_key": "!scenes.walls!BR2P5SAldeaCttge.WaCttge01"
+    },
+    {
+      "_id": "WaCttge02",
+      "c": [
+        540,
+        130,
+        830,
+        130
+      ],
+      "light": 20,
+      "move": 20,
+      "sight": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "doorSound": null,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "_key": "!scenes.walls!BR2P5SAldeaCttge.WaCttge02"
+    },
+    {
+      "_id": "WaCttge03",
+      "c": [
+        300,
+        130,
+        300,
+        680
+      ],
+      "light": 20,
+      "move": 20,
+      "sight": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "doorSound": null,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "_key": "!scenes.walls!BR2P5SAldeaCttge.WaCttge03"
+    },
+    {
+      "_id": "WaCttge04",
+      "c": [
+        830,
+        130,
+        830,
+        680
+      ],
+      "light": 20,
+      "move": 20,
+      "sight": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "doorSound": null,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "_key": "!scenes.walls!BR2P5SAldeaCttge.WaCttge04"
+    },
+    {
+      "_id": "WaCttge05",
+      "c": [
+        300,
+        680,
+        545,
+        680
+      ],
+      "light": 20,
+      "move": 20,
+      "sight": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "doorSound": null,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "_key": "!scenes.walls!BR2P5SAldeaCttge.WaCttge05"
+    },
+    {
+      "_id": "WaCttge06",
+      "c": [
+        545,
+        680,
+        605,
+        680
+      ],
+      "light": 20,
+      "move": 20,
+      "sight": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 1,
+      "ds": 0,
+      "doorSound": null,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "_key": "!scenes.walls!BR2P5SAldeaCttge.WaCttge06"
+    },
+    {
+      "_id": "WaCttge07",
+      "c": [
+        605,
+        680,
+        830,
+        680
+      ],
+      "light": 20,
+      "move": 20,
+      "sight": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "doorSound": null,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "_key": "!scenes.walls!BR2P5SAldeaCttge.WaCttge07"
+    }
+  ],
+  "templates": [],
+  "tiles": [],
+  "regions": [],
+  "notes": [
+    {
+      "_id": "NaCttge00",
+      "entryId": "BR2P5LftwckNpcs",
+      "pageId": "BR2P5LfNpgAldea",
+      "x": 590,
+      "y": 420,
+      "elevation": 0,
+      "sort": 0,
+      "texture": {
+        "src": "icons/svg/book.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "fill",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0
+      },
+      "iconSize": 40,
+      "fontSize": 28,
+      "fontFamily": "Signika",
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "text": "Aldea's work-table — she reads matter, not words",
+      "global": false,
+      "flags": {},
+      "_key": "!scenes.notes!BR2P5SAldeaCttge.NaCttge00"
+    },
+    {
+      "_id": "NaCttge01",
+      "entryId": "BR2P5LftwckNpcs",
+      "pageId": "BR2P5LfNpgAldea",
+      "x": 365,
+      "y": 215,
+      "elevation": 0,
+      "sort": 0,
+      "texture": {
+        "src": "icons/svg/book.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "fill",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0
+      },
+      "iconSize": 40,
+      "fontSize": 28,
+      "fontFamily": "Signika",
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "text": "Paper press — sealed samples if she has gone",
+      "global": false,
+      "flags": {},
+      "_key": "!scenes.notes!BR2P5SAldeaCttge.NaCttge01"
+    },
+    {
+      "_id": "NaCttge02",
+      "entryId": "BR2P5LdFinJrnl",
+      "pageId": "BR2P5LdPgB",
+      "x": 1245,
+      "y": 835,
+      "elevation": 0,
+      "sort": 0,
+      "texture": {
+        "src": "icons/svg/door.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "fill",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0
+      },
+      "iconSize": 40,
+      "fontSize": 28,
+      "fontFamily": "Signika",
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "text": "Old beech stump by the stream — dead-drop",
+      "global": false,
+      "flags": {},
+      "_key": "!scenes.notes!BR2P5SAldeaCttge.NaCttge02"
+    }
+  ],
+  "sounds": [],
+  "journal": "BR2P5LftwckNpcs",
+  "journalEntryPage": "BR2P5LfNpgAldea",
+  "playlist": null,
+  "playlistSound": null,
+  "weather": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

@@ -1,0 +1,915 @@
+{
+  "_key": "!scenes!BR2P5SQuillStRms",
+  "_id": "BR2P5SQuillStRms",
+  "name": "Quill Street — Rooms Above the Printer",
+  "active": false,
+  "navigation": true,
+  "navOrder": 0,
+  "navName": "Merro Gilst's Rented Rooms",
+  "background": {
+    "src": "modules/blooming-rot-2/assets/maps/quill-street-rooms-interior.png",
+    "anchorX": 0.5,
+    "anchorY": 0.5,
+    "offsetX": 0,
+    "offsetY": 0,
+    "fit": "fill",
+    "scaleX": 1,
+    "scaleY": 1,
+    "rotation": 0,
+    "tint": "#ffffff",
+    "alphaThreshold": 0
+  },
+  "foreground": null,
+  "foregroundElevation": 20,
+  "thumb": null,
+  "width": 1024,
+  "height": 1536,
+  "padding": 0,
+  "initial": null,
+  "backgroundColor": "#1a1a1a",
+  "grid": {
+    "type": 1,
+    "size": 100,
+    "style": "solidLines",
+    "thickness": 1,
+    "color": "#000000",
+    "alpha": 0.2,
+    "distance": 5,
+    "units": "ft"
+  },
+  "tokenVision": true,
+  "fog": {
+    "exploration": true,
+    "reset": null,
+    "overlay": null,
+    "colors": {
+      "explored": null,
+      "unexplored": null
+    }
+  },
+  "environment": {
+    "darknessLevel": 0,
+    "darknessLock": false,
+    "globalLight": {
+      "enabled": true,
+      "alpha": 0.5,
+      "bright": false,
+      "color": null,
+      "coloration": 1,
+      "luminosity": 0,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "darkness": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "cycle": true,
+    "base": {
+      "hue": 0,
+      "intensity": 0,
+      "luminosity": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "dark": {
+      "hue": 0,
+      "intensity": 0,
+      "luminosity": -0.25,
+      "saturation": 0,
+      "shadows": 0
+    }
+  },
+  "drawings": [],
+  "tokens": [],
+  "lights": [
+    {
+      "_id": "LlStRms00",
+      "x": 215,
+      "y": 360,
+      "elevation": 0,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 10,
+        "color": "#f0b45a",
+        "coloration": 1,
+        "dim": 25,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": "torch",
+          "speed": 2,
+          "intensity": 3,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "hidden": false,
+      "flags": {},
+      "_key": "!scenes.lights!BR2P5SQuillStRms.LlStRms00"
+    },
+    {
+      "_id": "LlStRms01",
+      "x": 630,
+      "y": 150,
+      "elevation": 0,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 8,
+        "color": "#f0b45a",
+        "coloration": 1,
+        "dim": 20,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": "torch",
+          "speed": 2,
+          "intensity": 3,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "hidden": false,
+      "flags": {},
+      "_key": "!scenes.lights!BR2P5SQuillStRms.LlStRms01"
+    },
+    {
+      "_id": "LlStRms02",
+      "x": 140,
+      "y": 930,
+      "elevation": 0,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 10,
+        "color": "#f0b45a",
+        "coloration": 1,
+        "dim": 25,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": "torch",
+          "speed": 2,
+          "intensity": 3,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "hidden": false,
+      "flags": {},
+      "_key": "!scenes.lights!BR2P5SQuillStRms.LlStRms02"
+    },
+    {
+      "_id": "LlStRms03",
+      "x": 470,
+      "y": 1050,
+      "elevation": 0,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 6,
+        "color": "#f0b45a",
+        "coloration": 1,
+        "dim": 20,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": "torch",
+          "speed": 2,
+          "intensity": 3,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "hidden": false,
+      "flags": {},
+      "_key": "!scenes.lights!BR2P5SQuillStRms.LlStRms03"
+    }
+  ],
+  "walls": [
+    {
+      "_id": "WlStRms00",
+      "c": [
+        105,
+        85,
+        855,
+        85
+      ],
+      "light": 20,
+      "move": 20,
+      "sight": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "doorSound": null,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "_key": "!scenes.walls!BR2P5SQuillStRms.WlStRms00"
+    },
+    {
+      "_id": "WlStRms01",
+      "c": [
+        105,
+        85,
+        105,
+        655
+      ],
+      "light": 20,
+      "move": 20,
+      "sight": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "doorSound": null,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "_key": "!scenes.walls!BR2P5SQuillStRms.WlStRms01"
+    },
+    {
+      "_id": "WlStRms02",
+      "c": [
+        105,
+        655,
+        405,
+        655
+      ],
+      "light": 20,
+      "move": 20,
+      "sight": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "doorSound": null,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "_key": "!scenes.walls!BR2P5SQuillStRms.WlStRms02"
+    },
+    {
+      "_id": "WlStRms03",
+      "c": [
+        405,
+        655,
+        505,
+        655
+      ],
+      "light": 20,
+      "move": 20,
+      "sight": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 1,
+      "ds": 0,
+      "doorSound": null,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "_key": "!scenes.walls!BR2P5SQuillStRms.WlStRms03"
+    },
+    {
+      "_id": "WlStRms04",
+      "c": [
+        505,
+        655,
+        855,
+        655
+      ],
+      "light": 20,
+      "move": 20,
+      "sight": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "doorSound": null,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "_key": "!scenes.walls!BR2P5SQuillStRms.WlStRms04"
+    },
+    {
+      "_id": "WlStRms05",
+      "c": [
+        855,
+        85,
+        855,
+        655
+      ],
+      "light": 20,
+      "move": 20,
+      "sight": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "doorSound": null,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "_key": "!scenes.walls!BR2P5SQuillStRms.WlStRms05"
+    },
+    {
+      "_id": "WlStRms06",
+      "c": [
+        690,
+        85,
+        690,
+        290
+      ],
+      "light": 20,
+      "move": 20,
+      "sight": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "doorSound": null,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "_key": "!scenes.walls!BR2P5SQuillStRms.WlStRms06"
+    },
+    {
+      "_id": "WlStRms07",
+      "c": [
+        690,
+        290,
+        690,
+        390
+      ],
+      "light": 20,
+      "move": 20,
+      "sight": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 1,
+      "ds": 0,
+      "doorSound": null,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "_key": "!scenes.walls!BR2P5SQuillStRms.WlStRms07"
+    },
+    {
+      "_id": "WlStRms08",
+      "c": [
+        690,
+        390,
+        690,
+        655
+      ],
+      "light": 20,
+      "move": 20,
+      "sight": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "doorSound": null,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "_key": "!scenes.walls!BR2P5SQuillStRms.WlStRms08"
+    },
+    {
+      "_id": "WlStRms09",
+      "c": [
+        75,
+        735,
+        405,
+        735
+      ],
+      "light": 20,
+      "move": 20,
+      "sight": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "doorSound": null,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "_key": "!scenes.walls!BR2P5SQuillStRms.WlStRms09"
+    },
+    {
+      "_id": "WlStRms10",
+      "c": [
+        405,
+        735,
+        505,
+        735
+      ],
+      "light": 20,
+      "move": 20,
+      "sight": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 1,
+      "ds": 0,
+      "doorSound": null,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "_key": "!scenes.walls!BR2P5SQuillStRms.WlStRms10"
+    },
+    {
+      "_id": "WlStRms11",
+      "c": [
+        505,
+        735,
+        890,
+        735
+      ],
+      "light": 20,
+      "move": 20,
+      "sight": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "doorSound": null,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "_key": "!scenes.walls!BR2P5SQuillStRms.WlStRms11"
+    },
+    {
+      "_id": "WlStRms12",
+      "c": [
+        75,
+        735,
+        75,
+        1345
+      ],
+      "light": 20,
+      "move": 20,
+      "sight": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "doorSound": null,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "_key": "!scenes.walls!BR2P5SQuillStRms.WlStRms12"
+    },
+    {
+      "_id": "WlStRms13",
+      "c": [
+        75,
+        1345,
+        380,
+        1345
+      ],
+      "light": 20,
+      "move": 20,
+      "sight": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "doorSound": null,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "_key": "!scenes.walls!BR2P5SQuillStRms.WlStRms13"
+    },
+    {
+      "_id": "WlStRms14",
+      "c": [
+        380,
+        1345,
+        480,
+        1345
+      ],
+      "light": 20,
+      "move": 20,
+      "sight": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 1,
+      "ds": 0,
+      "doorSound": null,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "_key": "!scenes.walls!BR2P5SQuillStRms.WlStRms14"
+    },
+    {
+      "_id": "WlStRms15",
+      "c": [
+        480,
+        1345,
+        890,
+        1345
+      ],
+      "light": 20,
+      "move": 20,
+      "sight": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "doorSound": null,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "_key": "!scenes.walls!BR2P5SQuillStRms.WlStRms15"
+    },
+    {
+      "_id": "WlStRms16",
+      "c": [
+        890,
+        735,
+        890,
+        1345
+      ],
+      "light": 20,
+      "move": 20,
+      "sight": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "doorSound": null,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "_key": "!scenes.walls!BR2P5SQuillStRms.WlStRms16"
+    },
+    {
+      "_id": "WlStRms17",
+      "c": [
+        595,
+        735,
+        595,
+        935
+      ],
+      "light": 20,
+      "move": 20,
+      "sight": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "doorSound": null,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "_key": "!scenes.walls!BR2P5SQuillStRms.WlStRms17"
+    },
+    {
+      "_id": "WlStRms18",
+      "c": [
+        595,
+        935,
+        615,
+        935
+      ],
+      "light": 20,
+      "move": 20,
+      "sight": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "doorSound": null,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "_key": "!scenes.walls!BR2P5SQuillStRms.WlStRms18"
+    },
+    {
+      "_id": "WlStRms19",
+      "c": [
+        615,
+        935,
+        695,
+        935
+      ],
+      "light": 20,
+      "move": 20,
+      "sight": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 1,
+      "ds": 0,
+      "doorSound": null,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "_key": "!scenes.walls!BR2P5SQuillStRms.WlStRms19"
+    },
+    {
+      "_id": "WlStRms20",
+      "c": [
+        695,
+        935,
+        890,
+        935
+      ],
+      "light": 20,
+      "move": 20,
+      "sight": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "doorSound": null,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "_key": "!scenes.walls!BR2P5SQuillStRms.WlStRms20"
+    }
+  ],
+  "templates": [],
+  "tiles": [],
+  "regions": [],
+  "notes": [
+    {
+      "_id": "NlStRms00",
+      "entryId": "BR2P5LkOpJrnl",
+      "pageId": "BR2P5LkPgChain",
+      "x": 450,
+      "y": 300,
+      "elevation": 0,
+      "sort": 0,
+      "texture": {
+        "src": "icons/svg/book.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "fill",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0
+      },
+      "iconSize": 40,
+      "fontSize": 28,
+      "fontFamily": "Signika",
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "text": "Quill's rented room — 'V. Quill', quiet northern lawyer",
+      "global": false,
+      "flags": {},
+      "_key": "!scenes.notes!BR2P5SQuillStRms.NlStRms00"
+    },
+    {
+      "_id": "NlStRms01",
+      "entryId": "BR2P5LkOpJrnl",
+      "pageId": "BR2P5LkPgChain",
+      "x": 215,
+      "y": 165,
+      "elevation": 0,
+      "sort": 0,
+      "texture": {
+        "src": "icons/svg/coins.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "fill",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0
+      },
+      "iconSize": 40,
+      "fontSize": 28,
+      "fontFamily": "Signika",
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "text": "Locked correspondence cabinet (coded notes)",
+      "global": false,
+      "flags": {},
+      "_key": "!scenes.notes!BR2P5SQuillStRms.NlStRms01"
+    },
+    {
+      "_id": "NlStRms02",
+      "entryId": "BR2P5LkOpJrnl",
+      "pageId": "BR2P5LkPgChain",
+      "x": 470,
+      "y": 1050,
+      "elevation": 0,
+      "sort": 0,
+      "texture": {
+        "src": "icons/svg/book.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "fill",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0
+      },
+      "iconSize": 40,
+      "fontSize": 28,
+      "fontFamily": "Signika",
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "text": "Ven Sallis's printshop (honest; sleeps in back)",
+      "global": false,
+      "flags": {},
+      "_key": "!scenes.notes!BR2P5SQuillStRms.NlStRms02"
+    },
+    {
+      "_id": "NlStRms03",
+      "entryId": "BR2P5LkOpJrnl",
+      "pageId": "BR2P5LkPgChain",
+      "x": 760,
+      "y": 120,
+      "elevation": 0,
+      "sort": 0,
+      "texture": {
+        "src": "icons/svg/door.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "fill",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0
+      },
+      "iconSize": 40,
+      "fontSize": 28,
+      "fontFamily": "Signika",
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "text": "Roof hatch (second Thug, round 3)",
+      "global": false,
+      "flags": {},
+      "_key": "!scenes.notes!BR2P5SQuillStRms.NlStRms03"
+    }
+  ],
+  "sounds": [],
+  "journal": "BR2P5LkOpJrnl",
+  "journalEntryPage": "BR2P5LkPgChain",
+  "playlist": null,
+  "playlistSound": null,
+  "weather": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

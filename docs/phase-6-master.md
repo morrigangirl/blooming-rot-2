@@ -95,7 +95,7 @@ Four approaches; each has a cost:
 
 | Approach | Method | Trail | Heat |
 |---|---|---|---|
-| **Social** | Walk in as merchants. Persuasion DC 13 (current week registry), DC 16 (previous month). Aerel Mossen appears if questions get specific; DC 17 or leverage opens him. | +1 | 0 |
+| **Social** | Walk in as merchants. Persuasion DC 13 (current week registry), DC 16 (previous month). Aerel Brasten appears if questions get specific; DC 17 or leverage opens him. | +1 | 0 |
 | **Surveillance** | From the cobbler's upper room. Observe arrivals, departures, lintel checks, the runner's circuit. | 0 (unless seen) | 0 |
 | **Burglary** | Back alley door DC 16; third-floor window from cobbler's roof DC 15 + DC 14 latch; cellar drain from the cistern side (reverse access, late only). | +1 clean / +2 messy | +1 if Watch summoned |
 | **Official** | Yeomanry papers. Aerel cooperates publicly and warns Korre within the hour. | +2 | +1 |
@@ -107,7 +107,7 @@ Clues from the registry and strong drawer (Handout 3 = registry page):
 - A **time notation** on the back: *"11th bell, rain door."*
 - A separate slip in the proprietor's hand: *"second page not burned."* Aerel was paid extra to file it without filing it.
 
-Staff: **Wenna Roost** (23, desk clerk, helpful if treated kindly; straightens the inkwell when afraid; *protect her or she vanishes from Greyhawk by phase end*). **Aerel Mossen** (50s, proprietor, cooperative with leverage; warns Korre if Yeomanry papers appear). **Tassel** on circuit.
+Staff: **Wenna Roost** (23, desk clerk, helpful if treated kindly; straightens the inkwell when afraid; *protect her or she vanishes from Greyhawk by phase end*). **Aerel Brasten** (50s, proprietor, cooperative with leverage; warns Korre if Yeomanry papers appear). **Tassel** on circuit.
 
 The third-floor guest room is **Haskur's**. His Aerdy travel coat in the wardrobe has a list of names sewn into the lining (one is Korre, one is "K. I.", two are unknown — one a Greyhawk forger, one a **Hardby notary**, the Phase 7 hook).
 
@@ -151,7 +151,7 @@ Other leverage: blackmail of a customs colleague (–50%); promise of protection
 **Irregular ledger** clues (Handout 4):
 
 - **V. Korre** in hand-altered form (*Korre* → *V. K.* → *K—*). Annotation: *"repeat custom, monthly address."*
-- Korre's **current monthly address**: a rented room above a bakery on **Tannerway**, two streets east of the Brass Crow.
+- Korre's **current monthly address**: a rented room above a bakery on **Cordwainer’s Row**, two streets east of the Brass Crow.
 - A packet marked **H.V.A.** redirected to the Brass Crow last week; annotation: *"diverted by hand, see K&R counterpart entry."*
 - A pending pickup scheduled **eleventh bell two nights from now** at *"old bath, Tinker's Way side."* Cancelled if Trail Clock past 4.
 
@@ -181,7 +181,7 @@ Lockbox wall clues:
 
 ### Scene 8 — Node 6: V. Korre's Monthly Address
 
-Rented room above a bakery on Tannerway, two streets east of the Brass Crow. Side stair from the alley, locked door at the top (DC 14). The bakery side door is paid-off-unlocked from Korre's side; roofline runs three buildings to the cistern's hidden entrance; a 14-inch service drain under the privy is dirty and dangerous.
+Rented room above a bakery on Cordwainer’s Row, two streets east of the Brass Crow. Side stair from the alley, locked door at the top (DC 14). The bakery side door is paid-off-unlocked from Korre's side; roofline runs three buildings to the cistern's hidden entrance; a 14-inch service drain under the privy is dirty and dangerous.
 
 **State depends on the Trail Clock when the party arrives:**
 
@@ -281,7 +281,7 @@ Twelve named figures; stat blocks in `packs/_source/phase-6-actors/`. (No separa
 - **Kethren Ilvath** — young adult, grey-and-bone clothing. Scout/monk-assassin analog, CR 5. **Do not confirm his species in player-facing text.** More afraid of *recall* than death: *"Send me back and I am dead."*
 - **Haskur Vandrell** (alias H. V. Andren) — late 40s, modified *Mage* CR 6. Contingency safety **spent**. If captured (Handout 8): *"I was not rescued. I was collected. Korre moves paper. The boy moves doors. Whoever pays them is not in the city."*
 
-**Scaffolding:** **Aerel Mossen** (50s, Brass Crow proprietor, *Spy* CR 1, fee-driven). **Wenna Roost** (23, desk clerk, *Commoner* CR 0 — *protect her or lose her*). **Tassel** (19, runner, *Scout* CR 1/2 — surrenders if cornered without violence). **Doras Kemmel** (40s, K&R senior clerk, *Spy* CR 1 — turns with formal protection). **Mell** and **Saern** (Korre's agents, Spy/Thug, CR 1/2–1; *Saern dies for the brazier*). **Captain Jarn Heshet** (Foreign Quarter Watch, *Veteran* CR 3, appears at Heat 3+; not corrupt, not impressed).
+**Scaffolding:** **Aerel Brasten** (50s, Brass Crow proprietor, *Spy* CR 1, fee-driven). **Wenna Roost** (23, desk clerk, *Commoner* CR 0 — *protect her or lose her*). **Tassel** (19, runner, *Scout* CR 1/2 — surrenders if cornered without violence). **Doras Kemmel** (40s, K&R senior clerk, *Spy* CR 1 — turns with formal protection). **Mell** and **Saern** (Korre's agents, Spy/Thug, CR 1/2–1; *Saern dies for the brazier*). **Captain Jarn Heshet** (Foreign Quarter Watch, *Veteran* CR 3, appears at Heat 3+; not corrupt, not impressed).
 
 **Carry-forward references** (offstage): Caelith via Road Notes only; Aldea only via Vector B; Halask only via Vector D; Quill only if captured.
 

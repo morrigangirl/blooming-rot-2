@@ -98,19 +98,22 @@ scope (next plan). Statuses: [ ] pending · [x] done · [~] partial.
 - [x] Wire P5 scene(s) to journals.
 - **Release checkpoint: v1.4.6.**
 
-## Phase E — Phase 6 closed out  *(needs API key)*
+## Phase E — Phase 6 closed out [x] — shipped v1.4.7
 
-- [ ] Kethren pronoun sweep (P8 journals + P8 master — freebie outside 2–6).
-- [ ] Renames: Aerel Mossen → new surname; Greyhawk Tannerway → new street.
-- [ ] GENERATE: portraits+tokens for Tellan Verth (priority — the phase can
-  kill him and he can fight), Iren Velash, Edrik Vone; new actor files.
-- [ ] Wire Dren Marsh's existing custom token (P3 actor).
-- [ ] GENERATE: Greyhawk full city map (+ scene, pinned: Brass Crow, Hand of
+- [x] Kethren pronoun sweep (P8 journals + P8 master — freebie outside 2–6).
+- [x] Renames: Aerel Mossen → new surname; Greyhawk Tannerway → new street.
+- [x] CORRECTION: Verth, Iren, and Vone already exist as fully-arted actors
+  in phase-5-actors (introduced as P5 Vector contacts) — the P6 master's
+  claim that all twelve figures live in phase-6-actors was the error. No
+  generation needed; review finding withdrawn.
+- [x] Wire Dren Marsh's existing custom token (P3 actor).
+- [x] GENERATE: Greyhawk full city map (+ scene, pinned: Brass Crow, Hand of
   Coals, Kestrel & Reed, Velash's shop, Vone's archive, Korre's street,
   derelict bathhouse).
-- [ ] Manifest audit: any generate-images job (tiers 1–9) whose output file
-  is missing on disk → regenerate or descope.
-- [ ] Wire P6 scenes to journals + pins.
+- [x] Manifest audit: 405 jobs, 1 missing output — a filename mismatch
+  (the-little-palace-entrance.png vs job path); file renamed to match. All
+  other outputs exist.
+- [x] Wire P6 scenes to journals + pins.
 - **Release checkpoint: v1.4.7.**
 
 ## Scene-link audit (2026-08-26)

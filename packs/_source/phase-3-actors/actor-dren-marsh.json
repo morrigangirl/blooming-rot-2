@@ -534,7 +534,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "modules/dnd-monster-manual/assets/tokens/warrior-veteran.webp",
+      "src": "modules/blooming-rot-2/assets/tokens/dren-marsh-token.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

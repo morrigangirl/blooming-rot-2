@@ -1,6 +1,6 @@
 {
   "_id": "BR2P6Abcb1904c6b",
-  "name": "Aerel Mossen",
+  "name": "Aerel Brasten",
   "type": "npc",
   "img": "modules/blooming-rot-2/assets/portraits/aerel-mossen-portrait.png",
   "system": {
@@ -443,7 +443,7 @@
     },
     "details": {
       "biography": {
-        "value": "<h2>Aerel Mossen — Brass Crow Proprietor</h2><p>Fifties. Half-Aerdy by maternal line. Runs the Brass Crow counting-house with two clerks and a runner.</p><p><em>Not conspiracy-aligned. Fee-driven. Compromised by the simple math of V. Korre's monthly retainer.</em></p><h3>What he knows</h3><p>That H. V. Andren is one of three names that arrive with foreign-correspondent payments per month. Does not know who pays. Does not ask.</p><h3>Leverage</h3><p>Legal threat (he has minor declaration irregularities the City Watch could find), promise of replacement custom, or simple reassurance that the party is not the Watch.</p><h3>Behaviour under pressure</h3><p>Tells the truth more readily than expected, because the lies he keeps for paying clients do not require him to lie about himself.</p>",
+        "value": "<h2>Aerel Brasten — Brass Crow Proprietor</h2><p>Fifties. Half-Aerdy by maternal line. Runs the Brass Crow counting-house with two clerks and a runner.</p><p><em>Not conspiracy-aligned. Fee-driven. Compromised by the simple math of V. Korre's monthly retainer.</em></p><h3>What he knows</h3><p>That H. V. Andren is one of three names that arrive with foreign-correspondent payments per month. Does not know who pays. Does not ask.</p><h3>Leverage</h3><p>Legal threat (he has minor declaration irregularities the City Watch could find), promise of replacement custom, or simple reassurance that the party is not the Watch.</p><h3>Behaviour under pressure</h3><p>Tells the truth more readily than expected, because the lies he keeps for paying clients do not require him to lie about himself.</p>",
         "public": ""
       },
       "alignment": "Neutral",
@@ -527,7 +527,7 @@
     }
   },
   "prototypeToken": {
-    "name": "Aerel Mossen",
+    "name": "Aerel Brasten",
     "displayName": 0,
     "actorLink": false,
     "appendNumber": false,

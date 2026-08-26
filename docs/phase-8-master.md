@@ -121,13 +121,13 @@ The dust in those cuts is fresh. *Someone is maintaining this.* The four-line sc
 |---|---|---|---|
 | A | **Token (Clean)** | Tarnsmere descent token in socket, registry phrase, six palm-sized stones at the base, witness response | None |
 | B | **Registry (Skill)** | Investigation DC 15 for the registry phrase, History DC 15 for the substitution form *"Permission attested; account standing; toll deemed paid"*, plus phrase, tally, witness | None |
-| C | **Kethren Channel** | Kethren alive, present, cooperating; palm to seventh cut + *"Channel passage. Courier and witness"* + her courier mark | None, but Kethren now has leverage |
+| C | **Kethren Channel** | Kethren alive, present, cooperating; palm to seventh cut + *"Channel passage. Courier and witness"* + his courier mark | None, but Kethren now has leverage |
 | D | **Korre Papers** | Forged channel authorization from a Lead, the Guardroom, or Phase 7 trade; placed against the door + phrase + tally-substitution scrap + witness | Lockdown +1 unless the listening tube is disabled (Investigation DC 16, Thieves' Tools DC 15) |
 | E | **Force** | Athletics DC 22 (with up to 3 Helpers), or pulverising the wall (10 minutes, loud), or battering ram; *Knock* releases one counter but doesn't open alone | Structural Failure +2, Lockdown +1, **stone-witness wakes** |
 | F | **Bypass (Cistern Drain)** | Crawl the cistern shaft (Athletics DC 13, possible water surge, gas pocket Con DC 12); emerges in the Stair Gallery | None unless Structural Failure is already 2+ |
 | Elle | **Iron Key** | Elle unscrews the brass-and-tin ring on her order's iron key; functionally a 484 CY token | None; *the door treats it as expected* |
 
-Token is cleanest. Registry rewards parties that took notes. Kethren is fast and clean *but she now has a credible threat to hold over the party* — she has opened a Permissive Survey door on their behalf and is a named witness. Korre's Papers trip the listening tube unless they think of it. Force always works, always costs. Bypass feels like sneaking, not entering.
+Token is cleanest. Registry rewards parties that took notes. Kethren is fast and clean *but he now has a credible threat to hold over the party* — he has opened a Permissive Survey door on their behalf and is a named witness. Korre's Papers trip the listening tube unless they think of it. Force always works, always costs. Bypass feels like sneaking, not entering.
 
 **Elle's key is the campaign's seventh-method reveal.** Across Phases 4–7, her player has carried an iron key her order received in 374 CY from a deceased Aerdy surveyor who joined them in late life. The key's brass-and-tin ring is the size and shape of a Tarnsmere descent token. When Elle approaches the door for the first time, **the ring warms against her skin** for the first time ever. Investigation DC 10 notices the threading; unscrewing yields a working 484 CY token. *Elle is the seventh of her order to carry the key. The previous six did not know what it opened.* Pause the action. Ask: *does she use it?* Either choice is character-defining.
 
@@ -173,7 +173,7 @@ Three small finds at the landing itself: a folded paper near the lintel, half-bu
 ## NPCs to know in Phase 8
 
 - **Caelith Dunivar.** Off-stage. The party's anchor NPC has reached the limit of his help. One threshold note (Handout 1), one courier waiting three days at the dry ford. *He is finite.* That should land.
-- **Kethren Ilvath.** If alive and cooperative, she opens the door via Method C. If alive and uncooperative, she's the most likely fugitive on site. Her courier mark — a thin vertical stroke crossed at three-quarter height — appears on every registry fragment. She has been a route courier *longer than the Blooming Rot operation*.
+- **Kethren Ilvath.** If alive and cooperative, he opens the door via Method C. If alive and uncooperative, he's the most likely fugitive on site. His courier mark — a thin vertical stroke crossed at three-quarter height — appears on every registry fragment. He has been a route courier *longer than the Blooming Rot operation*.
 - **Haskur Vandrell.** May be captured (Opening E), escaped (F), or absent. If captured, he refuses to descend awake — he was meant to be moved through *sleeping* and will die of seeing if forced across the threshold.
 - **Veyra Korre.** Off-site through Phase 8. Her hand is on the registry's late margin, on Route-Cleaner Lead instructions (Handout 4), and on the Guardroom food packet. If captured at Phase 7's end, she begs not to be taken across — *"my account ended at the marker."*
 - **Route-Cleaner Lead** (NEW). Korre's senior on-site supervisor. Mid-forties, clean hands, polished cudgel, discreet rapier, leather case of paperwork. Speaks Aerdy commercial-court formal register. **Will parley before fighting** — does not want a body on Tarnsmere ground that has to be explained. Captured alive, he trades information (door's listening-tube location, two senior cleaner names in Greyhawk, the route name *"the First Under-Road"*) for safe passage — *he has a family to retire to.* CR 2, HP 65, AC 15. Tell: he taps the brass clasp of his paperwork case; three taps means a runner is about to be dispatched.
@@ -248,7 +248,7 @@ Make a private note of the following — seeds that mature in Phase 9 (*"Below t
 - **Which method opened the door** (A–F or Elle). Carries into Phase 9's opening atmosphere and surface-return options.
 - **Final Lockdown Clock.** Whether the surface return is hostile.
 - **Final Structural Failure Clock.** If it hit 6, the door is sealed from above; Phase 9 must find an alternate way back.
-- **Kethren's status.** If she opened the door, she has leverage *and* the cleaners can use her against the party.
+- **Kethren's status.** If he opened the door, he has leverage *and* the cleaners can use him against the party.
 - **Was the listening tube disabled?** If not (and Method D used), an Aerdy clerk opens a quiet investigation in Phase 9 or 10.
 - **Did Kitty touch the seventh cut?** The descent below has formally noted her shape of descent.
 - **Did Elle use her key?** Her order's awareness is now in motion; a letter from her abbess may reach her via unexpected channels.

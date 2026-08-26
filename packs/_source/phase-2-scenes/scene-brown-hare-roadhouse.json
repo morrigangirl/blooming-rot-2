@@ -1583,8 +1583,8 @@
   "notes": [
     {
       "_id": "Note8adfd079a7c9",
-      "entryId": null,
-      "pageId": null,
+      "entryId": "BR2P2RoadhouseJrnl",
+      "pageId": "BR2P2RhPgRosalin",
       "x": 450,
       "y": 200,
       "elevation": 0,
@@ -1614,8 +1614,8 @@
     },
     {
       "_id": "Noted0def0ebedb5",
-      "entryId": null,
-      "pageId": null,
+      "entryId": "BR2P2RoadhouseJrnl",
+      "pageId": "BR2P2RhPgBox",
       "x": 720,
       "y": 580,
       "elevation": 0,
@@ -1645,8 +1645,8 @@
     },
     {
       "_id": "Notefc2e36650b97",
-      "entryId": null,
-      "pageId": null,
+      "entryId": "BR2P2RoadhouseJrnl",
+      "pageId": "BR2P2RhPgHare",
       "x": 750,
       "y": 380,
       "elevation": 0,
@@ -1676,8 +1676,8 @@
     },
     {
       "_id": "Note905069d71052",
-      "entryId": null,
-      "pageId": null,
+      "entryId": "BR2P2RoadhouseJrnl",
+      "pageId": "BR2P2RhPgHare",
       "x": 450,
       "y": 1320,
       "elevation": 0,
@@ -1707,8 +1707,8 @@
     },
     {
       "_id": "Note9e1b5f4dd96f",
-      "entryId": null,
-      "pageId": null,
+      "entryId": "BR2P2RoadhouseJrnl",
+      "pageId": "BR2P2RhPgHare",
       "x": 220,
       "y": 1170,
       "elevation": 0,
@@ -1738,8 +1738,8 @@
     },
     {
       "_id": "Notecac70ba2ad6e",
-      "entryId": null,
-      "pageId": null,
+      "entryId": "BR2P2RoadhouseJrnl",
+      "pageId": "BR2P2RhPgHare",
       "x": 530,
       "y": 1490,
       "elevation": 0,
@@ -1769,8 +1769,8 @@
     },
     {
       "_id": "Note04fd02931c6f",
-      "entryId": null,
-      "pageId": null,
+      "entryId": "BR2P2RoadhouseJrnl",
+      "pageId": "BR2P2RhPgHare",
       "x": 530,
       "y": 800,
       "elevation": 0,
@@ -1800,8 +1800,8 @@
     }
   ],
   "sounds": [],
-  "journal": null,
-  "journalEntryPage": null,
+  "journal": "BR2P2RoadhouseJrnl",
+  "journalEntryPage": "BR2P2RhPgHare",
   "playlist": null,
   "playlistSound": null,
   "weather": "",

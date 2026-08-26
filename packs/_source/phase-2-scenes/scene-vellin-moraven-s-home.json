@@ -376,8 +376,8 @@
   "notes": [
     {
       "_id": "Note41ee7eb1b32a",
-      "entryId": null,
-      "pageId": null,
+      "entryId": "BR2P2InvestigJrn",
+      "pageId": "BR2P2InPgVellin",
       "x": 800,
       "y": 1000,
       "elevation": 0,
@@ -407,8 +407,8 @@
     },
     {
       "_id": "Note14bd8e46219c",
-      "entryId": null,
-      "pageId": null,
+      "entryId": "BR2P2InvestigJrn",
+      "pageId": "BR2P2InPgVellin",
       "x": 250,
       "y": 900,
       "elevation": 0,
@@ -1070,8 +1070,8 @@
   ],
   "playlist": null,
   "playlistSound": null,
-  "journal": null,
-  "journalEntryPage": null,
+  "journal": "BR2P2InvestigJrn",
+  "journalEntryPage": "BR2P2InPgVellin",
   "weather": "",
   "folder": null,
   "sort": 300,

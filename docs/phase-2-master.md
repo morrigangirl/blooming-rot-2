@@ -2,6 +2,8 @@
 
 *A spoon-fed run guide. Read top to bottom; the order on this page is the order at the table.*
 
+> **SUPERSEDED SCENE FLOW (v1.4.x).** The scene-by-scene structure below predates the clean-motion rework: it does not include the two-hub Wick Lane / Tannerway structure, the M1–M5 knowledge ledger, or **Scene 3d · The Sparrow’s Run** (the phase’s chase set-piece). For the current run order use `docs/phase-2-clean-motion.md` and the shipped Movement journals (One: The Table · Two: The City · Three: The Squeeze / The Road). This document remains useful for its verbatim read-alouds, NPC notes, and the Moll/Sarth/departure material the rework preserves.
+>
 > **Read this first.** The in-module journal **Phase 2 — Master DM Brief (Start Here)** (`packs/_source/phase-2-journals/journal-phase-2-dm-brief.json`, v1.2.0, eight pages) is the **canonical reference** for Phase 2's GM-facing infrastructure: the NPC knowledge matrix (*Who Knows What*), the evidence ↔ location ↔ NPC map, the recommended visit sequence, the Pressure Clock pacing guide, the Maps & Locations reference, and the eight common GM pitfalls with recoveries. This walkthrough document is the **narrative complement** — scene-by-scene in run order, with verbatim read-alouds and tabletop staging notes. Read the two together: the journal is the cross-reference, this document is the script.
 
 ---

@@ -709,8 +709,8 @@
   "notes": [
     {
       "_id": "Note64df7f68d0f1",
-      "entryId": null,
-      "pageId": null,
+      "entryId": "BR2P2InvestigJrn",
+      "pageId": "BR2P2InPgGlstRom",
       "x": 700,
       "y": 800,
       "elevation": 0,
@@ -740,8 +740,8 @@
     },
     {
       "_id": "Note138a92d00016",
-      "entryId": null,
-      "pageId": null,
+      "entryId": "BR2P2InvestigJrn",
+      "pageId": "BR2P2InPgGlstRom",
       "x": 750,
       "y": 950,
       "elevation": 0,
@@ -771,8 +771,8 @@
     },
     {
       "_id": "Note59d060393e01",
-      "entryId": null,
-      "pageId": null,
+      "entryId": "BR2P2InvestigJrn",
+      "pageId": "BR2P2InPgGlstRom",
       "x": 500,
       "y": 300,
       "elevation": 0,
@@ -802,8 +802,8 @@
     },
     {
       "_id": "Note6c75c57d5437",
-      "entryId": null,
-      "pageId": null,
+      "entryId": "BR2P2InvestigJrn",
+      "pageId": "BR2P2InPgGlstRom",
       "x": 200,
       "y": 800,
       "elevation": 0,
@@ -833,8 +833,8 @@
     },
     {
       "_id": "Notecf282e107c4e",
-      "entryId": null,
-      "pageId": null,
+      "entryId": "BR2P2InvestigJrn",
+      "pageId": "BR2P2InPgGlstRom",
       "x": 800,
       "y": 1000,
       "elevation": 0,
@@ -864,8 +864,8 @@
     },
     {
       "_id": "Note34ad89f246fe",
-      "entryId": null,
-      "pageId": null,
+      "entryId": "BR2P2InvestigJrn",
+      "pageId": "BR2P2InPgGlstRom",
       "x": 700,
       "y": 900,
       "elevation": 0,
@@ -895,8 +895,8 @@
     },
     {
       "_id": "Notee69a57a45646",
-      "entryId": null,
-      "pageId": null,
+      "entryId": "BR2P2InvestigJrn",
+      "pageId": "BR2P2InPgGlstRom",
       "x": 500,
       "y": 400,
       "elevation": 0,
@@ -926,8 +926,8 @@
     }
   ],
   "sounds": [],
-  "journal": null,
-  "journalEntryPage": null,
+  "journal": "BR2P2InvestigJrn",
+  "journalEntryPage": "BR2P2InPgGlstRom",
   "playlist": null,
   "playlistSound": null,
   "weather": "",

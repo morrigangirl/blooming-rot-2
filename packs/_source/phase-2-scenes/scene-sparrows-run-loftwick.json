@@ -342,8 +342,8 @@
   "notes": [
     {
       "_id": "Note861490fddbf1",
-      "entryId": null,
-      "pageId": null,
+      "entryId": "BR2P2InvestigJrn",
+      "pageId": "BR2P2InPgSparrow",
       "x": 1610,
       "y": 760,
       "elevation": 0,
@@ -373,8 +373,8 @@
     },
     {
       "_id": "Noted65c1bb0cb76",
-      "entryId": null,
-      "pageId": null,
+      "entryId": "BR2P2InvestigJrn",
+      "pageId": "BR2P2InPgSparrow",
       "x": 1610,
       "y": 1180,
       "elevation": 0,
@@ -404,8 +404,8 @@
     },
     {
       "_id": "Note3313a2eff4ac",
-      "entryId": null,
-      "pageId": null,
+      "entryId": "BR2P2InvestigJrn",
+      "pageId": "BR2P2InPgSparrow",
       "x": 1300,
       "y": 1380,
       "elevation": 0,
@@ -435,8 +435,8 @@
     },
     {
       "_id": "Note44cd7774aa04",
-      "entryId": null,
-      "pageId": null,
+      "entryId": "BR2P2InvestigJrn",
+      "pageId": "BR2P2InPgSparrow",
       "x": 1580,
       "y": 1770,
       "elevation": 0,
@@ -466,8 +466,8 @@
     },
     {
       "_id": "Note3c12479434dc",
-      "entryId": null,
-      "pageId": null,
+      "entryId": "BR2P2InvestigJrn",
+      "pageId": "BR2P2InPgSparrow",
       "x": 1720,
       "y": 2070,
       "elevation": 0,
@@ -497,8 +497,8 @@
     },
     {
       "_id": "Note98b52e2ac7a1",
-      "entryId": null,
-      "pageId": null,
+      "entryId": "BR2P2InvestigJrn",
+      "pageId": "BR2P2InPgSparrow",
       "x": 2200,
       "y": 1400,
       "elevation": 0,
@@ -528,8 +528,8 @@
     }
   ],
   "sounds": [],
-  "journal": null,
-  "journalEntryPage": null,
+  "journal": "BR2P2InvestigJrn",
+  "journalEntryPage": "BR2P2InPgSparrow",
   "playlist": null,
   "playlistSound": null,
   "weather": "",

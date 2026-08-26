@@ -498,8 +498,8 @@
   "notes": [
     {
       "_id": "Notec5f696aaebe7",
-      "entryId": null,
-      "pageId": null,
+      "entryId": "BR2P2InvestigJrn",
+      "pageId": "BR2P2InPgMoraven",
       "x": 500,
       "y": 1300,
       "elevation": 0,
@@ -529,8 +529,8 @@
     },
     {
       "_id": "Notefe5cb2728cd5",
-      "entryId": null,
-      "pageId": null,
+      "entryId": "BR2P2InvestigJrn",
+      "pageId": "BR2P2InPgMoraven",
       "x": 800,
       "y": 400,
       "elevation": 0,
@@ -560,8 +560,8 @@
     }
   ],
   "sounds": [],
-  "journal": null,
-  "journalEntryPage": null,
+  "journal": "BR2P2InvestigJrn",
+  "journalEntryPage": "BR2P2InPgMoraven",
   "playlist": null,
   "playlistSound": null,
   "weather": "",

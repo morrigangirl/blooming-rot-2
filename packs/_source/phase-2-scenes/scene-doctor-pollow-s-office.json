@@ -304,8 +304,8 @@
   "notes": [
     {
       "_id": "Note1bdf8d04b01d",
-      "entryId": null,
-      "pageId": null,
+      "entryId": "BR2P2InvestigJrn",
+      "pageId": "BR2P2InPgMerroGl",
       "x": 850,
       "y": 350,
       "elevation": 0,
@@ -335,8 +335,8 @@
     },
     {
       "_id": "Note26b615186ccc",
-      "entryId": null,
-      "pageId": null,
+      "entryId": "BR2P2InvestigJrn",
+      "pageId": "BR2P2InPgMerroGl",
       "x": 500,
       "y": 700,
       "elevation": 0,
@@ -623,8 +623,8 @@
   ],
   "playlist": null,
   "playlistSound": null,
-  "journal": null,
-  "journalEntryPage": null,
+  "journal": "BR2P2InvestigJrn",
+  "journalEntryPage": "BR2P2InPgMerroGl",
   "weather": "",
   "folder": null,
   "sort": 200,

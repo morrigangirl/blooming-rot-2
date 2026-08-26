@@ -1,6 +1,6 @@
 {
   "_id": "BR2P3A3c0367a197",
-  "name": "Halver Onn",
+  "name": "Berrin Onn",
   "type": "npc",
   "img": "modules/blooming-rot-2/assets/portraits/halver-onn-portrait.png",
   "system": {
@@ -526,7 +526,7 @@
     }
   },
   "prototypeToken": {
-    "name": "Halver Onn",
+    "name": "Berrin Onn",
     "displayName": 0,
     "actorLink": false,
     "appendNumber": false,

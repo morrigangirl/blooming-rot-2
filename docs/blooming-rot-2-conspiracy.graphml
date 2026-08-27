@@ -1,0 +1,1931 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:java="http://www.yworks.com/xml/yfiles-common/1.0/java" xmlns:sys="http://www.yworks.com/xml/yfiles-common/markup/primitives/2.0" xmlns:x="http://www.yworks.com/xml/yfiles-common/markup/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:y="http://www.yworks.com/xml/graphml" xmlns:yed="http://www.yworks.com/xml/yed/3" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/xml/schema/graphml/1.1/ygraphml.xsd">
+  <key attr.name="Description" attr.type="string" for="graph" id="d0"/>
+  <key for="port" id="d1" yfiles.type="portgraphics"/>
+  <key for="port" id="d2" yfiles.type="portgeometry"/>
+  <key for="port" id="d3" yfiles.type="portuserdata"/>
+  <key attr.name="url" attr.type="string" for="node" id="d4"/>
+  <key attr.name="description" attr.type="string" for="node" id="d5"/>
+  <key for="node" id="d6" yfiles.type="nodegraphics"/>
+  <key for="graphml" id="d7" yfiles.type="resources"/>
+  <key attr.name="url" attr.type="string" for="edge" id="d8"/>
+  <key attr.name="description" attr.type="string" for="edge" id="d9"/>
+  <key for="edge" id="d10" yfiles.type="edgegraphics"/>
+  <graph edgedefault="directed" id="G">
+    <data key="d0">Blooming Rot 2 — The Conspiracy (GM only). Generated atlas chart; positions preserved.</data>
+    <node id="e">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="64" width="230" x="820" y="30"/>
+          <y:Fill color="#2E0854" transparent="false"/>
+          <y:BorderStyle color="#1A1A1A" type="line" width="1.5"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#FFFFFF" visible="true">“E.” — ECLAVDRA
+House Eilserv · Erelhei-Cinlu · never named before Phase 8+</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="kael">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="52" width="170" x="120" y="40"/>
+          <y:Fill color="#BDBDBD" transparent="false"/>
+          <y:BorderStyle color="#1A1A1A" type="dashed" width="1.5"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">Kael'thorne †
+fey creature, “Mayor Thornwell” (table canon)</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="kethren">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="52" width="170" x="690" y="190"/>
+          <y:Fill color="#4B2E83" transparent="false"/>
+          <y:BorderStyle color="#1A1A1A" type="line" width="1.5"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#FFFFFF" visible="true">Kethren Ilvath
+route courier — “the boy is the route”</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="savax">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="52" width="170" x="930" y="190"/>
+          <y:Fill color="#4B2E83" transparent="false"/>
+          <y:BorderStyle color="#1A1A1A" type="line" width="1.5"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#FFFFFF" visible="true">Route Warden Savax
+Witness Station Seven — “I am not the authority”</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="cleaners">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="46" width="170" x="930" y="275"/>
+          <y:Fill color="#4B2E83" transparent="false"/>
+          <y:BorderStyle color="#1A1A1A" type="line" width="1.5"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="11" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#FFFFFF" visible="true">Route-Cleaners &amp;
+Deep Couriers
+erase evidence · walk the under-road</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="cistern">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="44" width="195" x="1400" y="55"/>
+          <y:Fill color="#37474F" transparent="false"/>
+          <y:BorderStyle color="#1A1A1A" type="line" width="1.5"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#FFFFFF" visible="true">Old Stonecistern
+Greyhawk · 11th-bell transfer</y:NodeLabel>
+          <y:Shape type="hexagon"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="tarnsmere">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="50" width="195" x="1400" y="145"/>
+          <y:Fill color="#37474F" transparent="false"/>
+          <y:BorderStyle color="#1A1A1A" type="line" width="1.5"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#FFFFFF" visible="true">Tarnsmere Toll &amp;
+Permission Door
+Cairn Hills · Class VII descent</y:NodeLabel>
+          <y:Shape type="hexagon"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="ws7">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="44" width="195" x="1400" y="255"/>
+          <y:Fill color="#37474F" transparent="false"/>
+          <y:BorderStyle color="#1A1A1A" type="line" width="1.5"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#FFFFFF" visible="true">Witness Station Seven
+first under-road waystation</y:NodeLabel>
+          <y:Shape type="hexagon"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="korre">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="52" width="170" x="690" y="370"/>
+          <y:Fill color="#B8860B" transparent="false"/>
+          <y:BorderStyle color="#1A1A1A" type="line" width="1.5"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#FFFFFF" visible="true">Veyra Korre
+Greyhawk handler — willing to be lost</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="doras">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="52" width="170" x="930" y="370"/>
+          <y:Fill color="#B8860B" transparent="false"/>
+          <y:BorderStyle color="#1A1A1A" type="line" width="1.5"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#FFFFFF" visible="true">Doras Kemmel
+Kestrel &amp; Reed, Foreign Letters (box 17)</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="brasten">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="52" width="170" x="1180" y="370"/>
+          <y:Fill color="#B8860B" transparent="false"/>
+          <y:BorderStyle color="#1A1A1A" type="line" width="1.5"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#FFFFFF" visible="true">Aerel Brasten
+Brass Crow proprietor — paid, fee-driven</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="tassel">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="40" width="140" x="1180" y="455"/>
+          <y:Fill color="#B8860B" transparent="false"/>
+          <y:BorderStyle color="#1A1A1A" type="line" width="1.5"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="11" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#FFFFFF" visible="true">Tassel
+runner</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="quill">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="52" width="170" x="450" y="370"/>
+          <y:Fill color="#B8860B" transparent="false"/>
+          <y:BorderStyle color="#1A1A1A" type="line" width="1.5"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#FFFFFF" visible="true">Vesten Quill
+Loftwick handler — “V. Quill, lawyer”</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="trell">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="44" width="150" x="290" y="450"/>
+          <y:Fill color="#B8860B" transparent="false"/>
+          <y:BorderStyle color="#1A1A1A" type="line" width="1.5"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="11" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#FFFFFF" visible="true">Trell
+courier — Tue/Fri, 7th–8th bells</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="pell">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="52" width="170" x="120" y="370"/>
+          <y:Fill color="#B8860B" transparent="false"/>
+          <y:BorderStyle color="#1A1A1A" type="line" width="1.5"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#FFFFFF" visible="true">Ostren Pell
+the leak in Caelith's office (2 years)</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="sera">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="44" width="150" x="20" y="455"/>
+          <y:Fill color="#A1887F" transparent="false"/>
+          <y:BorderStyle color="#1A1A1A" type="line" width="1.5"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="11" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">Sera Pell
+dressmaker, Wick Lane — the hostage</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="watcher">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="46" width="170" x="290" y="540"/>
+          <y:Fill color="#455A64" transparent="false"/>
+          <y:BorderStyle color="#1A1A1A" type="line" width="1.5"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="11" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#FFFFFF" visible="true">The Wick Lane Watcher
+unnamed (table thread — Thimblecut)</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="sereth">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="58" width="200" x="850" y="590"/>
+          <y:Fill color="#7B1B1B" transparent="false"/>
+          <y:BorderStyle color="#1A1A1A" type="line" width="1.5"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#FFFFFF" visible="true">Tarlith Vhal Sereth
+senior partner, Rel Astra — the hand on paper</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="veshen">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="52" width="170" x="1100" y="590"/>
+          <y:Fill color="#7B1B1B" transparent="false"/>
+          <y:BorderStyle color="#1A1A1A" type="line" width="1.5"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#FFFFFF" visible="true">Veshen Cindren
+senior partner — public face</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="mira">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="44" width="150" x="1100" y="680"/>
+          <y:Fill color="#B0BEC5" transparent="false"/>
+          <y:BorderStyle color="#1A1A1A" type="line" width="1.5"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="11" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">Mira Cindren
+junior partner — kept ignorant</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="solen">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="52" width="170" x="600" y="590"/>
+          <y:Fill color="#7B1B1B" transparent="false"/>
+          <y:BorderStyle color="#1A1A1A" type="line" width="1.5"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#FFFFFF" visible="true">Solen Mereth
+Hardby bond-loading — the second set</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="hesren">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="52" width="170" x="330" y="600"/>
+          <y:Fill color="#B0BEC5" transparent="false"/>
+          <y:BorderStyle color="#1A1A1A" type="line" width="1.5"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">Hesren Vesh
+Loftwick satellite clerk — unwitting</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="jaron">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="44" width="150" x="470" y="685"/>
+          <y:Fill color="#B0BEC5" transparent="false"/>
+          <y:BorderStyle color="#1A1A1A" type="line" width="1.5"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="11" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">Jaron Pell
+Hardby front desk (no relation)</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="krill">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="44" width="150" x="690" y="685"/>
+          <y:Fill color="#7B1B1B" transparent="false"/>
+          <y:BorderStyle color="#1A1A1A" type="line" width="1.5"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="11" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#FFFFFF" visible="true">Joren Krill
+Hardby weighmaster — on payroll</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="sarth">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="52" width="170" x="290" y="800"/>
+          <y:Fill color="#B03030" transparent="false"/>
+          <y:BorderStyle color="#1A1A1A" type="line" width="1.5"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#FFFFFF" visible="true">Merev Sarth
+thief — retrieval, not kill</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="resh">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="52" width="170" x="490" y="800"/>
+          <y:Fill color="#B03030" transparent="false"/>
+          <y:BorderStyle color="#1A1A1A" type="line" width="1.5"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#FFFFFF" visible="true">Anver “Tarsh” Resh
+Hardby broker — hires the knives</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="worth">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="52" width="170" x="690" y="800"/>
+          <y:Fill color="#B03030" transparent="false"/>
+          <y:BorderStyle color="#1A1A1A" type="line" width="1.5"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#FFFFFF" visible="true">Reyna Worth
+overseer — the staircase specialist</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="crask">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="44" width="150" x="880" y="805"/>
+          <y:Fill color="#B03030" transparent="false"/>
+          <y:BorderStyle color="#1A1A1A" type="line" width="1.5"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="11" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#FFFFFF" visible="true">Olo Crask
+hired captain (Whitemoor)</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="haskur">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="56" width="185" x="1055" y="795"/>
+          <y:Fill color="#B03030" transparent="false"/>
+          <y:BorderStyle color="#1A1A1A" type="line" width="1.5"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#FFFFFF" visible="true">Haskur Vandrell
+asset → “recovered cargo, unreliable”</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="rosalin">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="52" width="170" x="1270" y="800"/>
+          <y:Fill color="#A1887F" transparent="false"/>
+          <y:BorderStyle color="#1A1A1A" type="line" width="1.5"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">Rosalin Brent
+half-sister — the “R.” roadhouse</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="olm">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="42" width="175" x="1450" y="430"/>
+          <y:Fill color="#BDBDBD" transparent="false"/>
+          <y:BorderStyle color="#1A1A1A" type="dashed" width="1.5"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="11" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">Hessar Olm †
+First Seat · natural, 580</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="mirin">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="42" width="175" x="1650" y="430"/>
+          <y:Fill color="#BDBDBD" transparent="false"/>
+          <y:BorderStyle color="#1A1A1A" type="dashed" width="1.5"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="11" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">Mirin Vesh †
+Third Seat · “fall,” 581</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="dale">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="42" width="175" x="1850" y="430"/>
+          <y:Fill color="#BDBDBD" transparent="false"/>
+          <y:BorderStyle color="#1A1A1A" type="dashed" width="1.5"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="11" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">Ervan Dale †
+Fifth Seat · “illness,” 582</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="mirelth">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="52" width="170" x="1450" y="555"/>
+          <y:Fill color="#1F4E79" transparent="false"/>
+          <y:BorderStyle color="#1A1A1A" type="line" width="1.5"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#FFFFFF" visible="true">Lord Faren Mirelth
+candidate — OWNED (20,000 gp)</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="avesh">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="52" width="170" x="1650" y="555"/>
+          <y:Fill color="#1F4E79" transparent="false"/>
+          <y:BorderStyle color="#1A1A1A" type="line" width="1.5"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#FFFFFF" visible="true">Magister Andrune Vesh
+candidate — LEVERAGED (Lyla)</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="tenrel">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="52" width="170" x="1850" y="555"/>
+          <y:Fill color="#1F4E79" transparent="false"/>
+          <y:BorderStyle color="#1A1A1A" type="line" width="1.5"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#FFFFFF" visible="true">Coriath Tenrel
+candidate — WILLING</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="lyla">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="42" width="150" x="1650" y="650"/>
+          <y:Fill color="#A1887F" transparent="false"/>
+          <y:BorderStyle color="#1A1A1A" type="line" width="1.5"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="11" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">Lyla Vesh
+the lever — customs case</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="veshanen">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="52" width="170" x="1450" y="745"/>
+          <y:Fill color="#1F4E79" transparent="false"/>
+          <y:BorderStyle color="#1A1A1A" type="line" width="1.5"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#FFFFFF" visible="true">Hold Veshanen
+Commerce Seat — aligned vote</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="mein">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="52" width="170" x="1650" y="745"/>
+          <y:Fill color="#1F4E79" transparent="false"/>
+          <y:BorderStyle color="#1A1A1A" type="line" width="1.5"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#FFFFFF" visible="true">Solvard Mein
+senior councilor — aligned</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="galenix">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="52" width="170" x="1850" y="745"/>
+          <y:Fill color="#B0BEC5" transparent="false"/>
+          <y:BorderStyle color="#1A1A1A" type="line" width="1.5"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">Lord Galenix Naelax
+Aerdy claimant — unwitting debtor</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="moll">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="52" width="170" x="20" y="700"/>
+          <y:Fill color="#B0BEC5" transparent="false"/>
+          <y:BorderStyle color="#1A1A1A" type="line" width="1.5"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">Arthen Moll
+soft-pressure wall — sincere</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="brane">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="52" width="170" x="20" y="790"/>
+          <y:Fill color="#B0BEC5" transparent="false"/>
+          <y:BorderStyle color="#1A1A1A" type="line" width="1.5"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">Ortwell Brane
+Closure faction — not corrupt</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="halvern">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="52" width="170" x="20" y="880"/>
+          <y:Fill color="#B0BEC5" transparent="false"/>
+          <y:BorderStyle color="#1A1A1A" type="line" width="1.5"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">Edda Halvern
+co-sponsor — budget motive</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="maro">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="46" width="160" x="210" y="880"/>
+          <y:Fill color="#7B1B1B" transparent="false"/>
+          <y:BorderStyle color="#1A1A1A" type="line" width="1.5"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="11" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#FFFFFF" visible="true">Tellis Maro
+Cindren-aligned advocate — rumors</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="thimble">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="52" width="170" x="120" y="1010"/>
+          <y:Fill color="#A1887F" transparent="false"/>
+          <y:BorderStyle color="#1A1A1A" type="line" width="1.5"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">Sara Thimblecut
+poisoned mid-name (table)</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="pollow">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="52" width="170" x="320" y="1010"/>
+          <y:Fill color="#A1887F" transparent="false"/>
+          <y:BorderStyle color="#1A1A1A" type="line" width="1.5"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">Reln Pollow
+contract physician — coerced certifier</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="gilst">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="52" width="170" x="520" y="1010"/>
+          <y:Fill color="#BDBDBD" transparent="false"/>
+          <y:BorderStyle color="#1A1A1A" type="dashed" width="1.5"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">Merro Gilst †
+bonds clerk — “transferred”</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="tamsin">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="52" width="170" x="720" y="1010"/>
+          <y:Fill color="#A1887F" transparent="false"/>
+          <y:BorderStyle color="#1A1A1A" type="line" width="1.5"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">Tamsin Moraven
+grain factor — “delayed”</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="vella">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="52" width="170" x="920" y="1010"/>
+          <y:Fill color="#A1887F" transparent="false"/>
+          <y:BorderStyle color="#1A1A1A" type="line" width="1.5"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">Vella Tannin
+worried clerk — the sympathetic path</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="merrit">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="52" width="170" x="1120" y="1010"/>
+          <y:Fill color="#A1887F" transparent="false"/>
+          <y:BorderStyle color="#1A1A1A" type="line" width="1.5"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">Merrit Osk
+the unclaimed witness (below)</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="eft">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="52" width="170" x="1320" y="1010"/>
+          <y:Fill color="#BDBDBD" transparent="false"/>
+          <y:BorderStyle color="#1A1A1A" type="dashed" width="1.5"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">Garrold Eft †
+surveyor — died 542, told the truth</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="caelith">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="56" width="190" x="390" y="1250"/>
+          <y:Fill color="#2E7D32" transparent="false"/>
+          <y:BorderStyle color="#1A1A1A" type="line" width="1.5"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#FFFFFF" visible="true">Caelith Dunivar
+Hand of the Duke</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="party">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="64" width="230" x="630" y="1240"/>
+          <y:Fill color="#1B5E20" transparent="false"/>
+          <y:BorderStyle color="#1A1A1A" type="line" width="1.5"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#FFFFFF" visible="true">THE PARTY
+Friends of the Common Defense</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="trina">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="52" width="170" x="910" y="1250"/>
+          <y:Fill color="#2E7D32" transparent="false"/>
+          <y:BorderStyle color="#1A1A1A" type="line" width="1.5"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#FFFFFF" visible="true">Trina Alvere
+advisor “on people”</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="tasha">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="44" width="175" x="1130" y="1205"/>
+          <y:Fill color="#6A1B9A" transparent="false"/>
+          <y:BorderStyle color="#1A1A1A" type="dashed" width="1.5"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="11" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#FFFFFF" visible="true">The Quiet Patroness
+Tasha / Iggwilv — GM only</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="castrian">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="44" width="160" x="1130" y="1295"/>
+          <y:Fill color="#2E7D32" transparent="false"/>
+          <y:BorderStyle color="#1A1A1A" type="line" width="1.5"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="11" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#FFFFFF" visible="true">Castrian Vell
+Hardby poet — Trina's protégé</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="lorien">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="44" width="160" x="60" y="1310"/>
+          <y:Fill color="#455A64" transparent="false"/>
+          <y:BorderStyle color="#1A1A1A" type="line" width="1.5"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="11" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#FFFFFF" visible="true">Lorien Dunivar
+Grand Library (table)</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="millicent">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="44" width="160" x="60" y="1395"/>
+          <y:Fill color="#455A64" transparent="false"/>
+          <y:BorderStyle color="#1A1A1A" type="line" width="1.5"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="11" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#FFFFFF" visible="true">Millicent
+Grain Register archivist (table)</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="veska">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="52" width="170" x="240" y="1385"/>
+          <y:Fill color="#2E7D32" transparent="false"/>
+          <y:BorderStyle color="#1A1A1A" type="line" width="1.5"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#FFFFFF" visible="true">Veska Maelan
+notary — reads the chops</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="verth">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="52" width="170" x="430" y="1385"/>
+          <y:Fill color="#2E7D32" transparent="false"/>
+          <y:BorderStyle color="#1A1A1A" type="line" width="1.5"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#FFFFFF" visible="true">Tellan Verth
+witness — Brass Crow affidavit</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="iren">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="52" width="170" x="620" y="1385"/>
+          <y:Fill color="#2E7D32" transparent="false"/>
+          <y:BorderStyle color="#1A1A1A" type="line" width="1.5"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#FFFFFF" visible="true">Iren Velash
+manuscript dealer — reads paper</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="aldea">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="52" width="170" x="810" y="1385"/>
+          <y:Fill color="#2E7D32" transparent="false"/>
+          <y:BorderStyle color="#1A1A1A" type="line" width="1.5"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#FFFFFF" visible="true">Aldea Veren
+paleographer — reads matter</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="vone">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="52" width="170" x="1000" y="1385"/>
+          <y:Fill color="#2E7D32" transparent="false"/>
+          <y:BorderStyle color="#1A1A1A" type="line" width="1.5"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#FFFFFF" visible="true">Edrik Vone
+courier archivist — sells ledgers</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="vetch">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="52" width="170" x="1190" y="1385"/>
+          <y:Fill color="#2E7D32" transparent="false"/>
+          <y:BorderStyle color="#1A1A1A" type="line" width="1.5"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#FFFFFF" visible="true">Dalmor Vetch
+retired surveyor — reads stone</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="halask">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="52" width="170" x="1450" y="1250"/>
+          <y:Fill color="#2E7D32" transparent="false"/>
+          <y:BorderStyle color="#1A1A1A" type="line" width="1.5"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#FFFFFF" visible="true">Therion Halask
+Rel Astra advocate</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="astor">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="52" width="170" x="1650" y="1250"/>
+          <y:Fill color="#2E7D32" transparent="false"/>
+          <y:BorderStyle color="#1A1A1A" type="line" width="1.5"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#FFFFFF" visible="true">Belven Astor
+Old Harbor Ward councilor</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="c_e">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="84" width="240" x="1090" y="20"/>
+          <y:Fill color="#FFF9C4" transparent="false"/>
+          <y:BorderStyle color="#C0A040" type="dashed" width="1.5"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#5D4037" visible="true">GUARDRAIL: E. is never named before
+Phase 8+. Every reading stays
+“elven, but peculiar.” No roll, spell,
+or sage breaks this.</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="c_obs">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="128" width="300" x="380" y="25"/>
+          <y:Fill color="#FFF9C4" transparent="false"/>
+          <y:BorderStyle color="#C0A040" type="dashed" width="1.5"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#5D4037" visible="true">THE E. OBSERVATION CHAIN
+0: Kael'thorne's letters + spellbook threat (table)
+1–3: Veska — loop, serif, descender
+4: registry — “Hold open until the second autumn…”
+5: Sereth — “not from this side of the great desert”
+then Aldea: unknown wax · taught-from-below hand ·
+geographically impossible</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="c_route">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="100" width="260" x="1690" y="40"/>
+          <y:Fill color="#FFF9C4" transparent="false"/>
+          <y:BorderStyle color="#C0A040" type="dashed" width="1.5"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#5D4037" visible="true">“NO SAIL. NO ROAD. VII STAIR.”
+The descent is administered, not hidden:
+token · phrase · tally · witness.
+Rented from a dead Aerdy bureaucracy
+(Permissive Survey, Class VII).</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="c_harbor">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="100" width="260" x="1690" y="300"/>
+          <y:Fill color="#FFF9C4" transparent="false"/>
+          <y:BorderStyle color="#C0A040" type="dashed" width="1.5"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#5D4037" visible="true">HARBOR BEFORE THRONE
+Seat three commissioners before the next
+Overking is named → own the eastern
+revenue. E. set the calendar years ahead;
+Worth supplied the vacancies.</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="c_leak">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="100" width="250" x="20" y="220"/>
+          <y:Fill color="#FFF9C4" transparent="false"/>
+          <y:BorderStyle color="#C0A040" type="dashed" width="1.5"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#5D4037" visible="true">THE LEAK ARTERY
+Pell → dead-drop → Trell → Quill →
+Kestrel &amp; Reed → Korre → Kethren.
+Walked upward, the human ladder
+tops out — and points DOWN.</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="c_cargo">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="84" width="230" x="1250" y="865"/>
+          <y:Fill color="#FFF9C4" transparent="false"/>
+          <y:BorderStyle color="#C0A040" type="dashed" width="1.5"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#5D4037" visible="true">“SETTLED” = recovered cargo.
+Haskur's route file: “Recoverable
+but unreliable.” The villain of the
+wilderness is freight.</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="c_table">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="108" width="280" x="20" y="1120"/>
+          <y:Fill color="#FFF9C4" transparent="false"/>
+          <y:BorderStyle color="#C0A040" type="dashed" width="1.5"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#5D4037" visible="true">TABLE CANON
+Kael'thorne's cottage letters = E. obs. zero.
+Thimblecut poisoned mid-name (assign the
+hand — watcher apparatus recommended).
+The wax fingerprint: match a courier
+much later, or no one. Never E.</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="c_trina">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="100" width="250" x="1330" y="1120"/>
+          <y:Fill color="#FFF9C4" transparent="false"/>
+          <y:BorderStyle color="#C0A040" type="dashed" width="1.5"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#5D4037" visible="true">GM ONLY: Trina's pact is with Tasha
+(“The Quiet Patroness”). Surfaces very
+late, if ever. Her Veska-opinion copy
+went to “my old correspondent
+in the wood” = Aldea.</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="c_herring">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="96" width="240" x="1520" y="850"/>
+          <y:Fill color="#FFF9C4" transparent="false"/>
+          <y:BorderStyle color="#C0A040" type="dashed" width="1.5"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#5D4037" visible="true">THE HONEST RED HERRING
+The “R.” roadhouse = Rosalin.
+Five days + 2 clock segments buy
+humanity, not intel. The cedar box
+pays off in Phase 6.</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="legend">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="150" width="260" x="1690" y="1000"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#555555" type="line" width="1.5"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">EDGE LEGEND
+dark red — command / pay
+purple dashed — E.'s correspondence
+orange — leverage / coercion
+crimson — violence / sabotage
+slate dashed — unwitting / reporting
+brown dotted — family tie
+green — the investigation
+violet — the under-road</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <edge id="edge0" source="e" target="kethren">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#8B1E1E" type="line" width="2.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasLineColor="false" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" textColor="#333333" visible="true">commands — the route is hers</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge1" source="savax" target="e">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#6A1B9A" type="dashed" width="1.5"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasLineColor="false" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" textColor="#333333" visible="true">files formal queries upward
+(beyond the Black Ledger Gate)</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge2" source="e" target="sereth">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#6A1B9A" type="dashed" width="2.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasLineColor="false" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" textColor="#333333" visible="true">annotations in an unplaceable hand
+(they have never met)</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge3" source="e" target="kael">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#6A1B9A" type="dashed" width="1.5"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasLineColor="false" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" textColor="#333333" visible="true">letters signed “E.” (table canon)</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge4" source="e" target="haskur">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#6A1B9A" type="dashed" width="1.5"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasLineColor="false" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" textColor="#333333" visible="true">spellbook threat: “fail me again…”</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge5" source="e" target="gilst">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#6A1B9A" type="dashed" width="1.5"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasLineColor="false" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" textColor="#333333" visible="true">3 countersigned receipt entries</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge6" source="kethren" target="haskur">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#4B2E83" type="line" width="2.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasLineColor="false" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" textColor="#333333" visible="true">escorts as cargo (11th bell)</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge7" source="kethren" target="ws7">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#4B2E83" type="dashed" width="1.5"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasLineColor="false" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" textColor="#333333" visible="true">courier mark on every registry</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge8" source="savax" target="ws7">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#4B2E83" type="line" width="1.5"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasLineColor="false" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" textColor="#333333" visible="true">warden of</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge9" source="savax" target="merrit">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#E65100" type="line" width="1.5"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasLineColor="false" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" textColor="#333333" visible="true">holds as “unclaimed witness”</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge10" source="cleaners" target="ws7">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#4B2E83" type="dashed" width="1.5"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasLineColor="false" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" textColor="#333333" visible="true">burn what does not travel</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge11" source="cistern" target="tarnsmere">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#4B2E83" type="dotted" width="1.5"/>
+          <y:Arrows source="none" target="none"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasLineColor="false" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" textColor="#333333" visible="true">same seven-cut waymark</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge12" source="tarnsmere" target="ws7">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#4B2E83" type="dotted" width="1.5"/>
+          <y:Arrows source="none" target="none"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasLineColor="false" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" textColor="#333333" visible="true">Stair Gallery down</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge13" source="eft" target="tarnsmere">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#607D8B" type="dashed" width="1.5"/>
+          <y:Arrows source="none" target="none"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasLineColor="false" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" textColor="#333333" visible="true">died surveying it (542 CY)</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge14" source="korre" target="kethren">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#8B1E1E" type="line" width="1.5"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasLineColor="false" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" textColor="#333333" visible="true">hands off to (outranked by)</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge15" source="doras" target="korre">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#8B1E1E" type="line" width="1.5"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasLineColor="false" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" textColor="#333333" visible="true">packets — box 17</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge16" source="quill" target="doras">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#8B1E1E" type="line" width="1.5"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasLineColor="false" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" textColor="#333333" visible="true">reports to / paid by</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge17" source="trell" target="quill">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#8B1E1E" type="line" width="1.5"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasLineColor="false" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" textColor="#333333" visible="true">dead-drop courier (Hall of Bonds pipe)</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge18" source="pell" target="trell">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#8B1E1E" type="line" width="1.5"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasLineColor="false" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" textColor="#333333" visible="true">copy-room brick dead-drop</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge19" source="quill" target="pell">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#E65100" type="line" width="2.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasLineColor="false" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" textColor="#333333" visible="true">coerces — the second envelope
+held Sera's name</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge20" source="sera" target="pell">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#6D4C41" type="dotted" width="1.5"/>
+          <y:Arrows source="none" target="none"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasLineColor="false" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" textColor="#333333" visible="true">sister — the hostage lever</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge21" source="korre" target="brasten">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#8B1E1E" type="line" width="1.5"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasLineColor="false" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" textColor="#333333" visible="true">pays for the back room</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge22" source="brasten" target="tassel">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#607D8B" type="line" width="1.5"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasLineColor="false" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" textColor="#333333" visible="true">runner on circuit</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge23" source="korre" target="cistern">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#4B2E83" type="dashed" width="1.5"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasLineColor="false" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" textColor="#333333" visible="true">stages the transfer</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge24" source="watcher" target="thimble">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#C62828" type="line" width="2.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasLineColor="false" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" textColor="#333333" visible="true">foxglove, mid-name</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge25" source="watcher" target="quill">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#607D8B" type="dashed" width="1.5"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasLineColor="false" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" textColor="#333333" visible="true">reports (likely — GM's choice)</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge26" source="sereth" target="veshen">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#607D8B" type="dotted" width="1.5"/>
+          <y:Arrows source="none" target="none"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasLineColor="false" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" textColor="#333333" visible="true">senior partners</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge27" source="sereth" target="solen">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#8B1E1E" type="line" width="2.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasLineColor="false" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" textColor="#333333" visible="true">directs the second set of books</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge28" source="sereth" target="haskur">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#8B1E1E" type="line" width="2.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasLineColor="false" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" textColor="#333333" visible="true">underwrites — 10,000 gp escrow,
+“Hold for V., or his agent of record”</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge29" source="solen" target="resh">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#8B1E1E" type="line" width="1.5"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasLineColor="false" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" textColor="#333333" visible="true">former clerk — off-book tasking</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge30" source="resh" target="sarth">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#8B1E1E" type="line" width="1.5"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasLineColor="false" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" textColor="#333333" visible="true">hired her (as “Tarsh”)</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge31" source="solen" target="worth">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#8B1E1E" type="line" width="1.5"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasLineColor="false" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" textColor="#333333" visible="true">orders the holding of Tamsin</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge32" source="worth" target="tamsin">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#C62828" type="line" width="2.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasLineColor="false" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" textColor="#333333" visible="true">abducted (“delayed”)</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge33" source="worth" target="mirin">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#C62828" type="line" width="2.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasLineColor="false" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" textColor="#333333" visible="true">staged the staircase “fall” (581)</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge34" source="sereth" target="dale">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#607D8B" type="dashed" width="1.5"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasLineColor="false" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" textColor="#333333" visible="true">arranged, by template (implied)</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge35" source="solen" target="gilst">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#C62828" type="dashed" width="1.5"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasLineColor="false" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" textColor="#333333" visible="true">paymaster — 41 entries (“H.V. Hardby”);
+then “transferred”</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge36" source="solen" target="pollow">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#E65100" type="line" width="1.5"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasLineColor="false" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" textColor="#333333" visible="true">coerced the certification</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge37" source="pollow" target="gilst">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#607D8B" type="dashed" width="1.5"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasLineColor="false" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" textColor="#333333" visible="true">certified the death</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge38" source="solen" target="krill">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#8B1E1E" type="line" width="1.5"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasLineColor="false" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" textColor="#333333" visible="true">keeps on payroll</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge39" source="hesren" target="solen">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#607D8B" type="dashed" width="1.5"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasLineColor="false" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" textColor="#333333" visible="true">sealed courier reports
+(unwitting trigger)</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge40" source="jaron" target="solen">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#607D8B" type="dashed" width="1.5"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasLineColor="false" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" textColor="#333333" visible="true">front desk — sends the runners</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge41" source="mira" target="veshen">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#6D4C41" type="dotted" width="1.5"/>
+          <y:Arrows source="none" target="none"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasLineColor="false" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" textColor="#333333" visible="true">cousin — kept ignorant</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge42" source="worth" target="crask">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#8B1E1E" type="line" width="1.5"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasLineColor="false" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" textColor="#333333" visible="true">runs the Whitemoor crew</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge43" source="vella" target="solen">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#607D8B" type="dashed" width="1.5"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasLineColor="false" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" textColor="#333333" visible="true">clerks under — quietly worried</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge44" source="haskur" target="rosalin">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#6D4C41" type="dotted" width="1.5"/>
+          <y:Arrows source="none" target="none"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasLineColor="false" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" textColor="#333333" visible="true">half-brother — the “R.” mark</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge45" source="sereth" target="mirelth">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#8B1E1E" type="line" width="2.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasLineColor="false" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" textColor="#333333" visible="true">OWNS — 20,000 gp in loans (§187 bait)</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge46" source="sereth" target="avesh">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#E65100" type="line" width="2.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasLineColor="false" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" textColor="#333333" visible="true">LEVERAGES — via Lyla's case</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge47" source="avesh" target="lyla">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#6D4C41" type="dotted" width="1.5"/>
+          <y:Arrows source="none" target="none"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasLineColor="false" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" textColor="#333333" visible="true">sister-in-law — the pressure point</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge48" source="tenrel" target="sereth">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#8B1E1E" type="line" width="1.5"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasLineColor="false" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" textColor="#333333" visible="true">approached HIM — willing ally</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge49" source="sereth" target="veshanen">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#607D8B" type="dashed" width="1.5"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasLineColor="false" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" textColor="#333333" visible="true">aligned vote (not formally inside)</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge50" source="sereth" target="mein">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#607D8B" type="dashed" width="1.5"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasLineColor="false" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" textColor="#333333" visible="true">aligned councilor</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge51" source="sereth" target="galenix">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#E65100" type="line" width="2.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasLineColor="false" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" textColor="#333333" visible="true">creditor — 38,000 gp; the debt
+is the leash he cannot feel</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge52" source="mirelth" target="olm">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#607D8B" type="dashed" width="1.5"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasLineColor="false" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" textColor="#333333" visible="true">queued for his seat</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge53" source="avesh" target="dale">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#607D8B" type="dashed" width="1.5"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasLineColor="false" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" textColor="#333333" visible="true">queued for his seat</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge54" source="tenrel" target="mirin">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#607D8B" type="dashed" width="1.5"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasLineColor="false" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" textColor="#333333" visible="true">queued for her seat</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge55" source="sereth" target="maro">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#8B1E1E" type="line" width="1.5"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasLineColor="false" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" textColor="#333333" visible="true">aligned junior advocate</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge56" source="maro" target="halask">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#C62828" type="dashed" width="1.5"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasLineColor="false" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" textColor="#333333" visible="true">plants discrediting rumors</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge57" source="moll" target="party">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#E65100" type="line" width="1.5"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasLineColor="false" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" textColor="#333333" visible="true">the bribe — 1,200 gp each, sincerely</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge58" source="brane" target="caelith">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#607D8B" type="line" width="1.5"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasLineColor="false" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" textColor="#333333" visible="true">Closure motion — honest obstacle</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge59" source="halvern" target="brane">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#607D8B" type="dashed" width="1.5"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasLineColor="false" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" textColor="#333333" visible="true">co-sponsor (militia budget motive)</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge60" source="pell" target="caelith">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#C62828" type="dashed" width="2.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasLineColor="false" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" textColor="#333333" visible="true">leaks his office — two years</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge61" source="party" target="caelith">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#2E7D32" type="line" width="2.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasLineColor="false" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" textColor="#333333" visible="true">commissioned by (privately)</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge62" source="caelith" target="trina">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#2E7D32" type="line" width="1.5"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasLineColor="false" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" textColor="#333333" visible="true">22-year advisor</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge63" source="trina" target="tasha">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#6A1B9A" type="dashed" width="1.5"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasLineColor="false" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" textColor="#333333" visible="true">pact — GM only</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge64" source="trina" target="castrian">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#2E7D32" type="line" width="1.5"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasLineColor="false" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" textColor="#333333" visible="true">protégé &amp; Hardby host</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge65" source="trina" target="aldea">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#2E7D32" type="dashed" width="1.5"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasLineColor="false" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" textColor="#333333" visible="true">“my old correspondent in the wood”</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge66" source="caelith" target="veska">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#2E7D32" type="line" width="1.5"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasLineColor="false" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" textColor="#333333" visible="true">12-year Hardby contact</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge67" source="caelith" target="halask">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#2E7D32" type="line" width="1.5"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasLineColor="false" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" textColor="#333333" visible="true">Rel Astra correspondent</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge68" source="halask" target="astor">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#2E7D32" type="line" width="1.5"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasLineColor="false" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" textColor="#333333" visible="true">civic ally</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge69" source="party" target="iren">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#2E7D32" type="line" width="1.5"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasLineColor="false" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" textColor="#333333" visible="true">pass-phrase readings (paper)</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge70" source="party" target="aldea">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#2E7D32" type="line" width="1.5"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasLineColor="false" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" textColor="#333333" visible="true">material readings (wax, stone)</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge71" source="party" target="vone">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#2E7D32" type="dashed" width="1.5"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasLineColor="false" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" textColor="#333333" visible="true">buys the ledgers</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge72" source="party" target="vetch">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#2E7D32" type="line" width="1.5"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasLineColor="false" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" textColor="#333333" visible="true">the stair-not-road sketch</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge73" source="verth" target="party">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#2E7D32" type="line" width="1.5"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasLineColor="false" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" textColor="#333333" visible="true">the Brass Crow affidavit</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge74" source="lorien" target="party">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#2E7D32" type="dashed" width="1.5"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasLineColor="false" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" textColor="#333333" visible="true">Civic Register (table)</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge75" source="millicent" target="party">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#2E7D32" type="dashed" width="1.5"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasLineColor="false" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" textColor="#333333" visible="true">Grain Register (table)</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge76" source="vella" target="party">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#2E7D32" type="dashed" width="1.5"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasLineColor="false" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" textColor="#333333" visible="true">copies the second set (CC path)</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge77" source="veska" target="sereth">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#2E7D32" type="line" width="2.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasLineColor="false" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" textColor="#333333" visible="true">her opinion NAMES him</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge78" source="c_e" target="e">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#999999" type="dotted" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge79" source="c_obs" target="e">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#999999" type="dotted" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge80" source="c_route" target="tarnsmere">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#999999" type="dotted" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge81" source="c_harbor" target="mirin">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#999999" type="dotted" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge82" source="c_leak" target="pell">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#999999" type="dotted" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge83" source="c_cargo" target="haskur">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#999999" type="dotted" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge84" source="c_table" target="thimble">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#999999" type="dotted" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge85" source="c_trina" target="tasha">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#999999" type="dotted" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="edge86" source="c_herring" target="rosalin">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#999999" type="dotted" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+  </graph>
+  <data key="d7"><y:Resources/></data>
+</graphml>

@@ -1,0 +1,32 @@
+{
+  "_key": "!macros!BR2MacroRelnkNt",
+  "_id": "BR2MacroRelnkNt",
+  "name": "BR2 — Relink Scene Notes (after import)",
+  "type": "script",
+  "author": null,
+  "img": "icons/svg/book.svg",
+  "scope": "global",
+  "command": "(async () => {\n  if (!game.user.isGM) { ui.notifications.warn(\"BR2 Relink Notes: GM only.\"); return; }\n\n  const MOD = \"blooming-rot-2\";\n  const jPacks = game.packs.filter(p => p.metadata.packageName === MOD && p.documentName === \"JournalEntry\");\n  if (!jPacks.length) { ui.notifications.error(\"BR2 Relink Notes: no Blooming Rot 2 journal compendia found.\"); return; }\n\n  // Build: compendium entryId -> {name, pages:{pageId:pageName}, pack}\n  const srcById = new Map();\n  for (const pack of jPacks) {\n    const index = await pack.getIndex({ fields: [\"pages\"] });\n    for (const e of index) {\n      const pages = {};\n      for (const pg of (e.pages ?? [])) pages[pg._id] = pg.name;\n      srcById.set(e._id, { name: e.name, pages, pack: pack.collection });\n    }\n  }\n\n  const sourceOf = d => d?._stats?.compendiumSource ?? d?.flags?.core?.sourceId ?? \"\";\n  const worldByName = new Map();\n  const worldBySrcId = new Map();\n  for (const j of game.journal) {\n    worldByName.set(j.name, j);\n    const m = /JournalEntry\\.([A-Za-z0-9]+)/.exec(sourceOf(j));\n    if (m) worldBySrcId.set(m[1], j);\n  }\n\n  const scenes = game.scenes.contents;\n  let ok = 0, fixed = 0, dead = 0, noNotes = 0;\n  const missingJournals = new Set();\n  const perScene = [];\n\n  for (const scene of scenes) {\n    const notes = scene.notes.contents;\n    if (!notes.length) { noNotes++; continue; }\n    const updates = [];\n    let sOk = 0, sFix = 0, sDead = 0;\n\n    for (const note of notes) {\n      if (note.entryId && game.journal.get(note.entryId)) { sOk++; ok++; continue; }\n      const src = srcById.get(note.entryId);\n      if (!src) { sDead++; dead++; continue; }\n      const target = worldBySrcId.get(note.entryId) ?? worldByName.get(src.name);\n      if (!target) { sDead++; dead++; missingJournals.add(src.name); continue; }\n\n      const upd = { _id: note.id, entryId: target.id };\n      if (note.pageId) {\n        const wantName = src.pages[note.pageId];\n        let page = target.pages.get(note.pageId);\n        if (!page && wantName) page = target.pages.find(p => p.name === wantName);\n        if (!page) page = target.pages.find(p => {\n          const m = /JournalEntryPage\\.([A-Za-z0-9]+)/.exec(sourceOf(p));\n          return m && m[1] === note.pageId;\n        });\n        upd.pageId = page ? page.id : null;\n      }\n      updates.push(upd); sFix++; fixed++;\n    }\n\n    if (updates.length) await scene.updateEmbeddedDocuments(\"Note\", updates);\n    perScene.push({ name: scene.name, ok: sOk, fixed: sFix, dead: sDead });\n  }\n\n  const rows = perScene.map(s =>\n    `<tr><td>${s.name}</td><td style=\"text-align:center\">${s.ok}</td>` +\n    `<td style=\"text-align:center\"><strong>${s.fixed}</strong></td>` +\n    `<td style=\"text-align:center\">${s.dead ? \"<strong>\" + s.dead + \"</strong>\" : \"0\"}</td></tr>`).join(\"\");\n\n  let advice = \"\";\n  if (missingJournals.size) {\n    advice = `<p><strong>Import these journals into your world, then run this again:</strong></p><ul>` +\n      [...missingJournals].sort().map(n => `<li>${n}</li>`).join(\"\") + `</ul>`;\n  } else if (!fixed && ok) {\n    advice = `<p>Every pin already resolves to a world journal. If you still cannot click a pin: ` +\n      `switch to the <strong>Journal Notes</strong> layer in the left toolbar (the bookmark icon) &mdash; ` +\n      `notes are only selectable, movable and deletable while that layer is active &mdash; and make sure ` +\n      `<strong>Toggle Notes Display</strong> is on.</p>`;\n  }\n\n  ChatMessage.create({\n    content: `<h3>Blooming Rot 2 &mdash; Relink Scene Notes</h3>\n      <p>Scenes checked: <strong>${scenes.length}</strong> (${noNotes} with no pins). ` +\n      `Pins already linked: <strong>${ok}</strong>. Repaired: <strong>${fixed}</strong>. Unresolved: <strong>${dead}</strong>.</p>\n      <table style=\"width:100%\"><thead><tr><th style=\"text-align:left\">Scene</th><th>OK</th><th>Fixed</th><th>Dead</th></tr></thead>\n      <tbody>${rows}</tbody></table>${advice}`,\n    whisper: [game.user.id]\n  });\n  ui.notifications.info(`BR2 Relink Notes: ${fixed} repaired, ${ok} already fine, ${dead} unresolved.`);\n})();\n",
+  "folder": null,
+  "sort": 150,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "blooming-rot-2": {
+      "kind": "utility-macro",
+      "purpose": "relink-scene-notes"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

@@ -38,7 +38,16 @@ Knock-ons handled at the same time: the sidequest's three `581 CY`, Hask's lette
 
 Pollow needed no edit: qualified 575, nine years in Loftwick, lands exactly on 584.
 
-**Still open:** the four Tier 3 items (my errors in the v1.4.9 seeds and matrix layers) and the Tier 4 continuity list.
+**Tier 3 — resolved, shipped in v1.5.1:**
+
+| # | Item | Outcome |
+|---|---|---|
+| 14 | Kitty's "E. sigil" beat | **No change — GM ruling.** The sigil is the one in wax on the burned spell focus (Movement One, item 1). The beat fires where it was always meant to; my finding was wrong about there being no sigil to touch. |
+| 15 | Gianni's caravan-map beat | **Parked.** A player-facing caravan map is coming, which gives the beat, the Brown Hare hook and Seed Repair 4 a real object to attach to. No text change until it lands. |
+| 16 | Veska's matrix row | **Fixed.** No longer labelled the Hardby weighmaster (that is Joren Krill, who is compromised) and no longer described as Tamsin's correspondence partner. The row now reads: saw Tamsin's queries cross her desk three times and did not answer them; they have never met — which is the shame her Phase 3 scene turns on. |
+| 17 | The Mossen Place paper | **Fixed.** Caelith hands it over in the Phase 2 farewell, unsealed and unread — *"Do not open this at the gate. Open it when Hardby is a day off."* The paper's full text already existed in the Phase 3 journal. The stale cross-reference claiming he hands over a key is corrected; the key is Mistress Halver's. |
+
+**Still open:** the Tier 4 continuity list.
 
 
 ---

@@ -1,0 +1,356 @@
+{
+  "_key": "!journal!BR2GMMasterLedgr",
+  "_id": "BR2GMMasterLedgr",
+  "name": "GM Master Ledger — Every Encounter, Every Phase",
+  "img": null,
+  "pages": [
+    {
+      "_key": "!journal.pages!BR2GMMasterLedgr.BR2GMMlPgHowUse0",
+      "_id": "BR2GMMlPgHowUse0",
+      "name": "How to Use This Ledger",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "\n<h1>How to Use This Ledger</h1>\n<p><em>GM-only. One page per phase. Every encounter, scene and set-piece in the campaign, in run order, with the thing that must land, the small details that are easy to skip and expensive to lose, and what each beat feeds forward. This is the pre-game read and the mid-session rescue &mdash; not the script. The scripts live in each phase's own journals.</em></p>\n<h2>How each entry is built</h2>\n<ul>\n<li><strong>The encounter</strong> &mdash; what it is and where it sits in the run order.</li>\n<li><strong>Must land</strong> &mdash; the one thing that has to be true when the scene ends. If it didn't land, the phase's own rails page tells you where to re-supply it.</li>\n<li><strong>Small things that matter</strong> &mdash; details a busy GM drops, each of which is load-bearing somewhere later.</li>\n<li><strong>Feeds</strong> &mdash; the phase or scene that collects on it.</li>\n</ul>\n<h2>Reading conventions</h2>\n<p><strong>&#9670; Load-bearing.</strong> The campaign structurally needs this. If the party skips it, use the recovery listed. <strong>&#9671; Optional.</strong> Cut freely for time. <strong>&#9678; PC beat.</strong> A per-PC thread fires here; see the phase's beats page.</p>\n<h2>The three braids, so you always know what you are holding</h2>\n<p><strong>Money</strong> (who paid) runs Phases 2&ndash;4 and completes at Sereth. <strong>People</strong> (who knew) runs throughout and owns Phase 5. <strong>Road</strong> (how it moves) is nearly invisible until Phase 5 and is the only braid that reaches the end. Every encounter below belongs to at least one; the ones that belong to the Road are the ones never to cut.</p>\n<h2>The standing guardrail</h2>\n<p>Drow, Eclavdra, House Eilserv, the Vault and the Underdark are never named in player-facing text or dialogue before Phase 8 at the earliest, under any roll or spell. Every reading of the deep material stops at <em>\"elven, but peculiar.\"</em></p>\n",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5,
+        "autoplay": false,
+        "loop": false,
+        "timestamp": 0,
+        "width": null,
+        "height": null
+      },
+      "src": null,
+      "system": {},
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "category": null
+    },
+    {
+      "_key": "!journal.pages!BR2GMMasterLedgr.BR2GMMlPgPhase01",
+      "_id": "BR2GMMlPgPhase01",
+      "name": "Phase 1 — Loftwick's Return",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "\n<h1>Phase 1 &mdash; Loftwick's Return</h1>\n<p><em>One evening and the morning after. Investigative, DCs cap at 16. Jobs: prove the survival was designed, build the Caelith relationship, get the commission accepted.</em></p>\n<h2>1 &middot; The Approach &#9671;</h2>\n<p>The party crests the rise; militia fall in at their <em>flanks</em>, not ahead; they are routed to the Lesser Gate, not the triumphal one. <strong>Must land:</strong> this is an escort, and the man in the scholar's coat outranks the uniforms. <strong>Small things:</strong> the welcoming committee waits for Caelith to speak first. <strong>Feeds:</strong> every later scene where Caelith's soft power is the party's only cover.</p>\n<h2>2 &middot; The Walk to the Little Palace &#9671;</h2>\n<p>Caelith asks each PC at most two small, observational questions and answers nothing. <strong>Must land:</strong> he is auditing them (<em>Insight 14</em>). <strong>Small things:</strong> \"Did he wear a ring?\" &mdash; asked before the party knows the ring matters.</p>\n<h2>3 &middot; Public Welcome &#9670;</h2>\n<p>Friends of the Common Defense; names into the durable record; sealed wooden tokens. <strong>Must land:</strong> they have been armed with <em>paperwork</em>, deliberately. <strong>Small things:</strong> the older constitutional phrasing; two scribes recording; the reporter turned away. <strong>Feeds:</strong> every token use in Phases 2&ndash;5 &mdash; and the discovery of exactly where a token stops working (the gaol).</p>\n<h2>4 &middot; Settling In &#9678;</h2>\n<p>Elsbet Vael, the cook Brennan Kepf, the new kitchen-girl Mira Holt. <strong>Small things:</strong> Kepf's caravan in-laws have heard the name Vandrell; Mira is honestly hired and innocent. <strong>Feeds:</strong> Kepf is the working-class-downstream note the campaign keeps sounding.</p>\n<h2>5 &middot; The Private Audience &#9670;</h2>\n<p>Door closed, no scribes, the brass token on the desk unexplained. The speech is delivered <strong>once</strong>. <strong>Must land:</strong> Haskur was underwritten; the letter of credit predates the fight by six weeks; Caelith cannot use his own office. <strong>Small things:</strong> \"I am not certain my office is closed at every door\" &mdash; the Phase 5 leak, planted in the first hour of the campaign.</p>\n<h2>5b &middot; The Strong Room: the seven items &#9670;</h2>\n<p>Spellbook, wallet, signet, letter of credit, ritual focus, map tube, trade slug &mdash; by candlelight, nothing leaves the room. <strong>Must land:</strong> the crane-and-coins mark, unnamed. <strong>Small things:</strong> the ring is <em>worn</em>, not kept; the \"R.\" on the caravan chart; the focus looks like Haskur's tool tonight and will not tomorrow. <strong>Feeds:</strong> the whole of Phase 2's daylight review.</p>\n<h2>6 &middot; First-Night Complication &#9671;</h2>\n<p>Pick one from the six. <strong>Best long-game choices:</strong> the Burning Page (pre-seeds the office leak &mdash; Phase 5) or the Cook's Niece (Hardby, and fear). <strong>Feeds:</strong> whichever you choose, note it; Phases 2 and 5 both read from it.</p>\n<h2>7 &middot; Morning Pivot &#9670;</h2>\n<p>Brane's card, then the post: an envelope under the crane-and-coins &mdash; <em>\"We hope your visit to Loftwick is brief.\"</em> <strong>Must land:</strong> they are already known, and the knower is east. <strong>Small things:</strong> untraceable, by design; Caelith quietly gives them permission to decline Brane. <strong>Feeds:</strong> Phase 2 opens on a party that knows it is being watched from a distance.</p>\n<h2>Closing hand-off</h2>\n<p>They accept, and receive three things: the introduction to <strong>Veska Maelan</strong>, a pouch of trade slugs, and one unexplained name &mdash; <strong>Holyn Sevarian</strong>. Note whether they noticed the \"R.\" Note whether they trust Caelith.</p>\n",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5,
+        "autoplay": false,
+        "loop": false,
+        "timestamp": 0,
+        "width": null,
+        "height": null
+      },
+      "src": null,
+      "system": {},
+      "sort": 200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "category": null
+    },
+    {
+      "_key": "!journal.pages!BR2GMMasterLedgr.BR2GMMlPgPhase02",
+      "_id": "BR2GMMlPgPhase02",
+      "name": "Phase 2 — The Dead Man's Receipts",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "\n<h1>Phase 2 &mdash; The Dead Man's Receipts</h1>\n<p><em>Two or three Loftwick days, three movements, one possible combat. DCs cap at 18. Run from the clean-motion spine: Table &rarr; City &rarr; Squeeze. Pressure Clock face-up all chapter.</em></p>\n<h2>Movement One &mdash; The Table</h2>\n<p><strong>1 &middot; The Morning Review &#9670; &#9678;</strong> Seven items on numbered linen; Trina introduced by first name. <strong>Must land:</strong> daylight changes the objects. <strong>Small things:</strong> Trina does not stand when they enter. <em>Alicia's pact-mark goes cold at the wax.</em></p>\n<p><strong>2 &middot; The Hand-of-the-Duke Speech &#9670;</strong> <strong>Must land:</strong> Caelith's real office; two prior recoveries (Onnwal 575, Hardby 580); the money is institutional. <strong>Small things:</strong> the 580 barmaid, named once and never explained &mdash; deep-future canon; the token stays visible on the workbench all morning.</p>\n<p><strong>3 &middot; The Seven Items in Daylight &#9670; &#9678;</strong> <strong>Must land:</strong> the ledger fragment &mdash; three hands, no sums, people as entries. <strong>Small things:</strong> the wax sigil is not in Haskur's hand; the false letter is an <em>inside</em> forgery; the tube is a relay, not a container; \"three ways to move a thing, and that is all the ways there are\"; HARBOR BEFORE THRONE is a <em>sequence</em>. <em>Kitty's veining warms at the E. sigil; Gianni finds the missing trade-spur.</em> <strong>Feeds:</strong> Phases 3, 4, 6 and 9 all collect here.</p>\n<p><strong>4 &middot; The Records Alcove &#9670;</strong> Names become two streets and a firm. <strong>Must land:</strong> Cindren &amp; Vhal, Gilst on Wick Lane, Moraven on Tannerway. <strong>Small things:</strong> Pollow is not on the coronial rota; Trina's line about the woman who reads matter (<em>seed repair</em>). <strong>Feeds:</strong> Phase 5's Aldea.</p>\n<h2>Movement Two &mdash; The City</h2>\n<p><strong>5 &middot; Hesren Vesh at the firm's door &#9670;</strong> <strong>Must land:</strong> \"reads like Hardby work.\" <strong>Small things:</strong> his eyes hold on the endorsement two beats too long; the courier he sends is what summons Sarth; the crossed side-mark on the wax flap (<em>seed repair</em>). <strong>Feeds:</strong> Phase 3 (Vesh recalled), Phase 6 (the mark).</p>\n<p><strong>6 &middot; Gilst's rooms &#9670; &#9678;</strong> The chapter's load-bearing search, entered through Doman Reith. <strong>Must land:</strong> the bearer instrument on the C&amp;V <em>Hardby</em> chop. <strong>Small things:</strong> the wrong-colour cuff ribbon on yesterday's \"watchman\"; the three \"E.\" countersigns; the initials list; the fear note read aloud; Reith's three requests, honoured.</p>\n<p><strong>7 &middot; Reln Pollow &#9671;</strong> <strong>Must land:</strong> he is afraid of something scheduled. <strong>Small things:</strong> grant the two days &mdash; a live witness beats a corpse; if denied, his last line is \"the man at the Brass Crow.\" <strong>Feeds:</strong> Phase 6.</p>\n<p><strong>8 &middot; The Sparrow's Run &#9670;</strong> The chase that cannot be won and cannot fail. <strong>Must land:</strong> the dropped fold. <strong>Small things:</strong> the party's own descriptions in her tally; \"east on the Sevenday cart\"; the city drop; the crossed side-mark in the corner; what they do with a hungry sixteen-year-old, with Trina watching.</p>\n<p><strong>9 &middot; Doril Veth at the counting house &#9670; &#9678;</strong> <strong>Must land:</strong> claims filed before their losses. <strong>Small things:</strong> the carbons stolen the day before; the Duke is the <em>victim</em> of this scheme. <em>Kitty and the blight specimens, if you route them here.</em> <strong>Feeds:</strong> Phase 9's crate tag.</p>\n<p><strong>10 &middot; Vellin Moraven &#9670;</strong> The Sevenday note; Ailen is in Hardby. <strong>Small things:</strong> Trina's courier leaves that night if they let her. <strong>Feeds:</strong> Phase 3's whole emotional spine, and the chapter's best stall-breaker.</p>\n<p><strong>11 &middot; Sergeant Anwic &#9671;</strong> Honest, overworked, thin file. <strong>Must land:</strong> the Watch is being used, not bought.</p>\n<h2>Movement Three &mdash; The Squeeze and the Road</h2>\n<p><strong>12 &middot; Arthen Moll &#9670;</strong> 1,200 gp per head, sincerely offered. <strong>Must land:</strong> the polite wall is not corrupt, which is worse. <strong>Small things:</strong> the borrowed \"eastern banks watch\" argument; he has had this conversation three times this season.</p>\n<p><strong>13 &middot; Merev Sarth's night &#9670;</strong> Retrieval, not murder; decoys in the chest; alarm rune; Kostan at the tunnel mouth. <strong>Must land:</strong> political and criminal pressure are one hand. <strong>Small things:</strong> \"Tarsh\" if captured; the <strong>forged Audit Hall seal</strong> either way, and Caelith going quiet over it. <strong>Feeds:</strong> Phase 3 (Resh), Phase 5 (Pell).</p>\n<p><strong>14 &middot; Caelith's Conclusion &#9670;</strong> The pivot from \"what happened\" to \"how soon do we leave.\"</p>\n<p><strong>15 &middot; Three Roads East &#9670;</strong> Authority, cover, distance &mdash; run the Five Truths gate check first. <strong>Feeds:</strong> sets the entire shape of Phase 3.</p>\n<p><strong>16 &middot; The Gate &#9670;</strong> The brass Hand-token and the folded paper: 17 Cooper's Tale. <strong>Small things:</strong> tell them to read it on the road, not at the gate.</p>\n<h2>Sidequest &middot; The Sign of the Brown Hare &#9671;</h2>\n<p>Five days, two clock segments, zero conspiracy content. <strong>Must land:</strong> not every mark is a door. <strong>Small things:</strong> Rosalin Brent is Haskur's half-sister; the cedar box; the never-sent letter. <strong>Feeds:</strong> Phase 6, where the letter comes back.</p>\n",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5,
+        "autoplay": false,
+        "loop": false,
+        "timestamp": 0,
+        "width": null,
+        "height": null
+      },
+      "src": null,
+      "system": {},
+      "sort": 300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "category": null
+    },
+    {
+      "_key": "!journal.pages!BR2GMMasterLedgr.BR2GMMlPgPhase03",
+      "_id": "BR2GMMlPgPhase03",
+      "name": "Phase 3 — The Hardby Investigation",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "\n<h1>Phase 3 &mdash; The Hardby Investigation</h1>\n<p><em>Denser than 1 and 2 combined. One real combat (the Tamsin recovery), possibly a second (clock segment 5). DCs cap at 17 except the Solen turn at 22. The travel approach chosen in Phase 2 governs everything.</em></p>\n<h2>1 &middot; Arrival &#9670;</h2>\n<p>Three read-alouds, one per approach. <strong>Must land:</strong> Hardby is not Loftwick &mdash; faster, looser, and the Gynarchy is real but tired. <strong>Small things:</strong> the tower-and-three-waves clearing mark over the inner arch (delegation); the herald who defers audiences by two days; the city bell that runs five seconds slow, which is the last line of the chapter too.</p>\n<h2>2 &middot; The Mossen Place &#9670; &#9678;</h2>\n<p>17 Cooper's Tale, the key from Mistress Halver, the dust-sheets, two floorboard caches. <strong>Must land:</strong> they have a base, and Caelith's letter names their three resources (Jaron Pell, Veska, Brother Wenra Holst). <strong>Small things:</strong> the wiped spot on the kitchen table nobody can explain; the forgotten dark cloak on the rail; Doral Hurst next door, warm and watchful; <em>and every one of Halver's four gossip leads</em> &mdash; including the Kemmel plant (<em>seed repair</em>). <em>Selvara's dream follows her here.</em></p>\n<h2>3 &middot; First Contact &#9670;</h2>\n<p>Castrian's kitchen table, Veska's threshold, or Hella Voren's packet, by approach. <strong>Small things:</strong> the brass token works in private and means nothing in public; Castrian pours himself one careful measure before he says yes.</p>\n<h2>4 &middot; The Veska Reveal &#9670; &#9678;</h2>\n<p>The load-bearing scene of the chapter. <strong>Must land:</strong> four people &mdash; Solen Mereth, <strong>Tarlith Vhal Sereth</strong>, Anver Resh, and a fourth hand she cannot place. <strong>Small things:</strong> the defect-stamp she herself certified destroyed in 579; her three details about the letter E (loop, serif, descender) &mdash; <em>let her sketch them onto a scrap the party keeps</em>; \"not a wax I can buy in this city\" (<em>seed repair</em>). <em>Alicia's mark goes cold near the fourth hand.</em> <strong>Feeds:</strong> Phase 4's entire indictment; Phase 5's Aldea.</p>\n<h2>5 &middot; Tarsh at the Coopered Wreck &#9670;</h2>\n<p>Available in person on the two quiet roads; paper-only on delegation. <strong>Must land:</strong> Anver Resh trades everything for a passport &mdash; and refuses his Rel Astra contact. <strong>Small things:</strong> \"recovered, like freight off a wreck\" (<em>seed repair</em>); the letter-agency shape of his pay chain (<em>seed repair</em>); he will not testify, sign, or appear. <em>Kitty's beat with Olfard Trent lives in this room.</em></p>\n<h2>6 &middot; The Tamsin Recovery &#9670;</h2>\n<p>Black Cog warehouse, Whitemoor Estate, or a body and a letter &mdash; by approach. <strong>Must land:</strong> what \"delayed\" means when it happens to a person. <strong>Small things:</strong> Reyna Worth kills her on a botched rescue; Crask will not kill her without an explicit order; on the delegation road, read the last letter aloud and let the table sit &mdash; and note <strong>Joren Krill</strong>, crossed out in her own hand.</p>\n<h2>7 &middot; Harbor Before Throne &mdash; the Gynarchy registry &#9670;</h2>\n<p>Zoria Weis, a called-in debt and not a friend. <strong>Must land:</strong> three old-house seats, three deaths on schedule, none refilled; whoever seats three before the next Overking owns the eastern revenue. <strong>Small things:</strong> say the arithmetic aloud (two years / fourteen months / six months); Zoria reports to the Gynarchy, and the party should feel that.</p>\n<h2>8 &middot; The C&amp;V Hardby Branch &#9670;</h2>\n<p>Burglary, the sympathetic clerk, or the subpoena. <strong>Must land:</strong> a document naming a senior partner in his own hand. <strong>Small things:</strong> the four targets in priority order (second set, blotter rubbing, defect-stamp, cipher key); Vella Tannin must be extracted within a day; Dren Marsh yields to the brass token; the side-mark on outgoing foreign post (<em>seed repair</em>). <strong>Soft path:</strong> turning Solen at DC 22 &mdash; slow, dignified, and the cleanest outcome in the chapter.</p>\n<h2>9 &middot; Caelith's Letters &#9671;</h2>\n<p>Three, interleaved. <strong>Small things:</strong> the leak's name travels by separate pouch (open, read, burn); \"do not bring the original of Veska's opinion to Rel Astra\"; the Closure motion advancing behind them.</p>\n<h2>10 &middot; Departure &#9670;</h2>\n<p>Sea, coast road, or diplomatic carriage. <strong>Small things:</strong> the passenger list reaches Rel Astra before they do on the sea road; the carriage buys a scheduled audience with Sereth. <strong>Feeds:</strong> the Phase 4 arrival and its starting clock.</p>\n",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5,
+        "autoplay": false,
+        "loop": false,
+        "timestamp": 0,
+        "width": null,
+        "height": null
+      },
+      "src": null,
+      "system": {},
+      "sort": 400000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "category": null
+    },
+    {
+      "_key": "!journal.pages!BR2GMMasterLedgr.BR2GMMlPgPhase04",
+      "_id": "BR2GMMlPgPhase04",
+      "name": "Phase 4 — The Rel Astra Confrontation",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "\n<h1>Phase 4 &mdash; The Rel Astra Confrontation</h1>\n<p><em>The climax of the surface arc. Investigative and political; the only large combat is the Path-3 contingency. Investigation DCs cap 18, social 17. Four-segment clock, and the delegation road starts it at +2.</em></p>\n<h2>1 &middot; Arrival &#9670;</h2>\n<p>Three variants. <strong>Small things:</strong> every clock in the city chimes together &mdash; say it on arrival and again on departure; the sea road buys about twelve hours of grace; the carriage arrives with a card of scheduled audiences, Sereth on the ninth morning.</p>\n<h2>2 &middot; The Brass Sextant &mdash; Therion Halask &#9670;</h2>\n<p>The phrase is <em>\"By the wheatsheaf and the open scroll.\"</em> <strong>Must land:</strong> he takes custody of the package and will not release it. <strong>Small things:</strong> the elaborate honorifics are real speech, not affectation &mdash; <strong>when he drops them, the register has changed, and the table must notice</strong>; he is sequencing, not delaying (<em>Insight 14</em>).</p>\n<h2>3 &middot; The Three Seats &#9670;</h2>\n<p>The chapter's investigative spine, run as three separate lessons. <strong>Mirelth is owned</strong> (20,000 gp of C&amp;V paper; §187 disqualifies him automatically once documented; he would rather withdraw quietly). <strong>Vesh is leveraged</strong> (Lyla's customs case; nothing disqualifies him &mdash; the only clean move is to <em>free her</em>, ~800 gp and two weeks of Halask's time). <strong>Tenrel is willing</strong> (no debt, no hostage; only stopping the seating stops her). <strong>Must land:</strong> three modes of capture, learned well enough to recognise anywhere. <strong>Small things:</strong> paying for Lyla's case keeps Halask fully committed to the indictment &mdash; make the trade-off visible.</p>\n<h2>4 &middot; Belven Astor's chandlery &#9670;</h2>\n<p><strong>Must land:</strong> one honest civic ally, and the rule for keeping him &mdash; \"two or three of seven are compromised,\" never \"the council is corrupt.\" <strong>Small things:</strong> he will not house them; he will not be seen with them at all if they take Path 3.</p>\n<h2>5 &middot; The Imperial Registry &#9670;</h2>\n<p>E.-observation four. <strong>Must land:</strong> <em>\"Sufficient. Hold open until the second autumn after the next.\"</em> &mdash; the hand sets the <em>calendar</em>, years ahead. <strong>Small things:</strong> uniformly thick downstrokes, a nib that does not pivot like an Aerdi hand; the hard dark wax that leaves black residue; Halask has seen it once before, in 571, from an envoy nobody ever found again. <strong>Drip-feed it and walk away.</strong></p>\n<h2>6 &middot; The Chandlery Arson &#9671;</h2>\n<p>The chapter's one real fight, fired on the witness-pressure segment and fully telegraphed. Bandit Captain plus three Thugs at five PCs, ~7th level <em>(six PCs: a fourth Thug)</em>. <strong>Small things:</strong> intercepting it protects Path 1's paper trail; the captured lead walks back to a Cindren-aligned junior advocate seeding rumours against Halask.</p>\n<h2>7 &middot; The Galenix Audience &#9671;</h2>\n<p>Honest briefing, leave him alone, or hand him the package as a gift. <strong>Must land:</strong> he has met none of them and owes the firm 38,000 gp. <strong>Small things:</strong> the embassy leaks within a day (+1 clock); briefing him makes him a target, and Caelith's judgement is that they only changed the timing.</p>\n<h2>8 &middot; The Sereth Confrontation &#9670;</h2>\n<p><strong>The room is the message</strong> &mdash; a serious party gets the private working office, light on the visitors, not on him. <strong>Path 1 (indictment):</strong> Halask files, Ostrach denies the motions, the commission suspends candidate selection, conviction lands ninety days out. <strong>Path 2 (private removal):</strong> resignation, withdrawals, the Mirelth originals, one Hardby name &mdash; and, if asked directly, <strong>E.-observation five in his own voice</strong>: <em>\"The annotations are not from this side of the great desert&hellip; The notes were always correct. I do not ask further.\"</em> <strong>Path 3 (kinetic):</strong> the worst outcome; run it only when 1 and 2 are visibly closed. <strong>Small things:</strong> he never raises his voice; humiliation makes him <em>less generous</em>, not angry; he refuses to withdraw Tenrel because she was never his &mdash; that refusal is how thin his control really is.</p>\n<h2>9 &middot; Caelith's Letters 4&ndash;6 &#9670;</h2>\n<p><strong>Must land:</strong> Letter 6, read slowly &mdash; <em>\"The conspiracy you have named is not the conspiracy.\"</em> <strong>Small things:</strong> Trina's copy sent to \"my old correspondent in the wood\"; <em>\"The clerk in my office is named Ostren Pell. I have known for nineteen days. I have done nothing about it.\"</em>; Haskur seen in Greyhawk with a younger man whose gait is \"not Aerdi and not Yeomanry.\"</p>\n<h2>10 &middot; Departure &#9670;</h2>\n<p>Five observations, no face, and three words to end on: <em>You ride west.</em></p>\n",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5,
+        "autoplay": false,
+        "loop": false,
+        "timestamp": 0,
+        "width": null,
+        "height": null
+      },
+      "src": null,
+      "system": {},
+      "sort": 500000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "category": null
+    },
+    {
+      "_key": "!journal.pages!BR2GMMasterLedgr.BR2GMMlPgPhase05",
+      "_id": "BR2GMMlPgPhase05",
+      "name": "Phase 5 — The Small Matter",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "\n<h1>Phase 5 &mdash; The Small Matter</h1>\n<p><em>Counterintelligence at home. Administrative horror; the only fight is Vesten Quill, and only if it happens. Six to eight in-game days against a nine-day political fuse. DCs cap 18 / 17.</em></p>\n<h2>1 &middot; Return to the Little Palace &#9670;</h2>\n<p><strong>Must land:</strong> the city changed while they were gone. <strong>Small things:</strong> Elsbet holds the senior PC's hand a beat too long; the corridor militia are young and unfamiliar; Elsbet's knock is a pattern the party does not remember; <strong>the brass quill pin is gone from Caelith's lapel</strong> &mdash; never point at it, let them notice.</p>\n<h2>2 &middot; The Framing Speech &#9670;</h2>\n<p>Four papers, four moving pieces: the Closure motion and its Day 9 vote; the leak, named; the sealed packet from the wood; the Greyhawk affidavit. <strong>Must land:</strong> <em>\"Sereth was not the hand. He was a glove.\"</em> <strong>Small things:</strong> he answers exactly one question tonight &mdash; why Pell is still in place &mdash; and the answer is Sera's name.</p>\n<h2>3 &middot; The Debrief and Aldea's Reply &#9670; &#9678;</h2>\n<p>Strong Room, three movements: their evidence, his six questions, the packet. <strong>Must land:</strong> the three findings &mdash; wax from no surface recipe; a hand court-trained but not court-<em>raised</em>, taught from documents that came <em>up</em> to the writer; a geographic impossibility. <strong>Small things:</strong> question 3 (local, imperial, or foreign?) &mdash; if a player reaches \"foreign actor driving the calendar,\" give them a single silent nod; Aldea will not write her speculation, and the right narrow question in person is <em>\"could the writer have learned this hand from someone who has never been to the surface?\"</em> <em>Alicia's page from a tradition older than Aerdy fires here.</em> <strong>Feeds:</strong> the first arrow that points down.</p>\n<h2>4 &middot; The Five Choices for Pell &#9670;</h2>\n<p>Expose, turn, feed, shadow, remove &mdash; and the unmentioned sixth. <strong>Must land:</strong> Caelith prices all five and steers none. <strong>Small things:</strong> Pell confesses in one breath and starts negotiating for Sera three sentences later, and both are real; turning him makes Sera's protection the party's daily job; killing him costs Caelith's cooperation, Letter 7, and Trina's warmth.</p>\n<h2>5 &middot; The False-Packet Menu &#9671;</h2>\n<p>Five lies with priced consequences. <strong>Small things:</strong> Lie 2 endangers Aldea and burns Vector B; Lie 4 is a betrayal if they briefed Galenix &mdash; Caelith says so out loud before they choose.</p>\n<h2>6 &middot; The Courier Chain &#9670;</h2>\n<p>Dead-drop brick (third from the bottom, fourth from the left) &rarr; Trell on Tuesday and Friday mornings &rarr; the courier desk &rarr; the room above the printer on Quill Street &rarr; the lead pipe behind the Hall of Bonds. <strong>Must land:</strong> the leak is an <em>artery</em>, walkable upward. <strong>Small things:</strong> Pell Garven is no relation; Ven Sallis believes his tenant is a quiet northern lawyer; the receipt from the pipe is what Voss needs on Day 9.</p>\n<h2>7 &middot; Vesten Quill &#9671;</h2>\n<p>The only combat. Take him after the eighth day. <strong>Must land:</strong> a Hardby-aligned letter agency at a Greyhawk address. <strong>Small things:</strong> he surrenders at half; he does not know the layer above; Pell has never heard his name.</p>\n<h2>8 &middot; Sera Protection &#9670;</h2>\n<p>If Pell was turned. <strong>Small things:</strong> Wick Lane again &mdash; the same street as Gilst, which is the recruitment pattern surfacing; two PCs in earshot, a credible second exit, Trina's courier playing the customer.</p>\n<h2>9 &middot; The Political Front &#9670;</h2>\n<p>Brane cannot be bought or shamed &mdash; only outmanoeuvred. Halvern moves for 5,000 gp to the southern militia from a non-Audit-Hall source, presented by Caelith or Voss, <em>never by the party</em>. Voss sponsors on documents. <strong>Feeds:</strong> the Day 9 vote.</p>\n<h2>10 &middot; Day 9 &#9670;</h2>\n<p>Fails 3&ndash;4 (the pin comes back by courier) or passes 4&ndash;3 (Caelith goes silent). <strong>Small things:</strong> the pin was in his coat pocket the whole time. If they have not chosen a vector, he asks them in front of the Council and they answer publicly.</p>\n<h2>11 &middot; Letter 7 and the road &#9670;</h2>\n<p>Four variants, sealed for one day's ride. <em>\"We have more doors than hands. Choose your door.\"</em> <strong>Feeds:</strong> Phase 6's opening.</p>\n",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5,
+        "autoplay": false,
+        "loop": false,
+        "timestamp": 0,
+        "width": null,
+        "height": null
+      },
+      "src": null,
+      "system": {},
+      "sort": 600000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "category": null
+    },
+    {
+      "_key": "!journal.pages!BR2GMMasterLedgr.BR2GMMlPgPhase06",
+      "_id": "BR2GMMlPgPhase06",
+      "name": "Phase 6 — The Brass Crow",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "\n<h1>Phase 6 &mdash; The Brass Crow</h1>\n<p><em>Greyhawk. Node-based: six locations, any three converge on the climax. Two clocks (Trail, Heat). DCs cap 18 / 17. The phase is the door, not the room.</em></p>\n<h2>1 &middot; Arrival and the Road Note &#9670;</h2>\n<p><strong>Must land:</strong> the city is too large to care whether they are right. <strong>Small things:</strong> Caelith's note &mdash; <em>\"Do not enter on the first day. The boy is not a subordinate. There is a third hand we have not seen.\"</em> Walking into the Brass Crow on day one costs a Trail segment; he warned them.</p>\n<h2>2 &middot; Tellan Verth at the Hand of Coals &#9670;</h2>\n<p>Free &mdash; no day cost, no clock. <strong>Must land:</strong> Haskur is alive, under <em>H. V. Andren</em>, and the young man is wrong. <strong>Small things:</strong> the gait made of small constant corrections, \"like he was used to walking somewhere narrower\"; he watched the lintel and the reflections, not the people; <strong>Tassel is listening at the bar</strong> &mdash; caught, he shortcuts the party to Hawkstone Way; uncaught, +1 Trail. If Trail hits 4 and Verth is unprotected, he is killed &mdash; the phase's only authorial death.</p>\n<h2>3 &middot; The Brass Crow &#9670;</h2>\n<p>Four approaches, each priced. <strong>Must land:</strong> the registry entry. <strong>Small things:</strong> <strong>the side-mark beside Andren's name and no other client's</strong> &mdash; the third sighting, and the campaign's longest payoff; \"11th bell, rain door\"; \"second page not burned\"; Wenna Roost straightens the inkwell when frightened, and vanishes by phase end if not protected; the coat-lining list in the third-floor room (Korre, \"K. I.\", a forger, <em>a Hardby notary</em>).</p>\n<h2>4 &middot; Iren Velash &#9670;</h2>\n<p>The only safe room in the phase; the phrase is <em>\"the seventh question of the third volume.\"</em> <strong>Must land:</strong> the keystone reading &mdash; <em>\"This is not a sea-route term. It is a descent term&hellip; older than the city. You will not find it on a port chart.\"</em> <strong>Small things:</strong> bring her everything at once and the reading triangulates &mdash; reward that; she stops blinking when genuinely interested; \"read it and burn it,\" and she means it.</p>\n<h2>5 &middot; Edrik Vone &#9671;</h2>\n<p>Bribable, blackmailable, persuadable, frightenable &mdash; one is enough, stacking is rude. <strong>Small things:</strong> the pen goes perpendicular when he lies; the irregular ledger gives Korre's address and the pending eleventh-bell pickup at \"old bath, Tinker's Way side.\"</p>\n<h2>6 &middot; Kestrel &amp; Reed &#9670;</h2>\n<p><strong>Must land:</strong> K&amp;R is an intermediary, not the conspiracy. <strong>Small things:</strong> Doras Kemmel turns for <em>real</em> protection and 24 hours &mdash; and if Phase 3 planted him as a Hardby man with people on Cooper's Tale, this is a neighbour, not a stranger; box 17 is one packet light, collected by \"a young man in grey-and-bone clothing\"; the heat-reactive slip reads <em>\"No sail. No road.\"</em></p>\n<h2>7 &middot; Veyra Korre's room &#9671;</h2>\n<p>State depends on the Trail clock. <strong>Must land:</strong> she is nobody &mdash; she moves paper and has never met her principal. <strong>Small things:</strong> \"The kind of person who can afford that kind of wax does not write their name\"; the struck-through \"VII Stair\" rewritten in a smaller, more careful hand; the charcoal sketch of seven steps under a black hill.</p>\n<h2>8 &middot; The Eleventh Bell &mdash; Old Stonecistern &#9670; &#9678;</h2>\n<p>The climax. <strong>Must land:</strong> Haskur is <em>cargo</em>. <strong>Small things:</strong> the fresh route mark above the rain door; the brazier lit before they arrive; Saern dies for the fire and Mell does not; Kethren's priorities are the second page, the burning, and the sluice gate, in that order; block one exit and the chase resolves with a capture. <strong>The line, if he is taken:</strong> <em>\"I was not rescued. I was collected.\"</em> <strong>Survives any failure:</strong> the mark, a wax flake, and a scorched fragment reading \"no sail, no road.\"</p>\n<h2>9 &middot; Closing &#9670;</h2>\n<p><em>\"Greyhawk continues. It does not look down.\"</em> Then Caelith's unsigned note in the morning: <em>\"The city was the desk. You have found the drawer.\"</em></p>\n",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5,
+        "autoplay": false,
+        "loop": false,
+        "timestamp": 0,
+        "width": null,
+        "height": null
+      },
+      "src": null,
+      "system": {},
+      "sort": 700000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "category": null
+    },
+    {
+      "_key": "!journal.pages!BR2GMMasterLedgr.BR2GMMlPgPhase07",
+      "_id": "BR2GMMlPgPhase07",
+      "name": "Phase 7 — The Seventh Question",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "\n<h1>Phase 7 &mdash; The Seventh Question</h1>\n<p><em>Turning a phrase into a place. Five interpretive sources across five categories &mdash; name, function, permission, material, place &mdash; so no single NPC or roll carries the phase. One near-mandatory combat (the prisoner extraction).</em></p>\n<h2>1 &middot; The Morning After &#9670;</h2>\n<p>One of seven branching openings, keyed to how Phase 6 ended. <strong>Small things:</strong> on the \"everyone escaped\" opening, make it feel <em>hungry</em>; on the killed-Haskur opening, the inventory yields the brass crow with the cipher slip <strong>T &middot; S &middot; C</strong>, which resolves later and must not be resolved now.</p>\n<h2>2 &middot; Iren and the glossary &#9670;</h2>\n<p><strong>Must land:</strong> VII is a <em>route-class of permitted descents</em> in obsolete Aerdy mining law, and \"no sail, no road\" is a literal transit condition. <strong>Small things:</strong> the VII was added later, in different ink pressure, by a different hand; the Aerdy Permissive Survey was dissolved in 542; she is at risk at clock 4+ &mdash; if her glossary has not been copied somewhere safer, it is lost.</p>\n<h2>3 &middot; Aldea and the material &#9670;</h2>\n<p><strong>Must land:</strong> mine-seal wax family; iron-grey stone with a green thread &mdash; southern Cairn Hills; and the \"hill\" is a surveyor's convention for a <strong>sealed entrance</strong>. <strong>Small things:</strong> \"You are looking for a road because the paper taught you to. Stop obeying the paper.\"</p>\n<h2>4 &middot; Vone's route-exception ledger &#9670;</h2>\n<p><strong>Must land:</strong> STAIR appears only in route-exception entries; the VII prefix sits on Korre's traffic; destination <strong>Tarnsmere Toll</strong>. <strong>Small things:</strong> his own margin note &mdash; <em>T&middot;S&middot;C &rarr; Tarnsmere Spur Cairn &rarr; Guild sheet 47 &rarr; confirm with surveyor</em> &mdash; proves he was one step from walking the same path; \"A courier ledger says where things went. A route-exception says where the clerk was told not to ask.\"</p>\n<h2>5 &middot; The Guild and Dalmor Vetch &#9670;</h2>\n<p><strong>Must land:</strong> claim VII/0341 with the claimant's name physically scraped off; the Survey seal <strong>re-waxed seven years after the Survey was dissolved</strong>; Garrold Eft went out in 542 and never came back. <strong>Small things:</strong> Vetch taps his cane once whenever someone says \"road\"; the seven cuts are a <em>permission mark</em>, not a count; his sketch ends \"If the seventh cut is gone, you are too late, or you are at the wrong cairn.\"</p>\n<h2>6 &middot; The False Stair &#9671;</h2>\n<p>Six cuts, a single oak, parchment too clean. <strong>Must land:</strong> even swallowed whole it proves the real marker by exclusion. <strong>Small things:</strong> the enemy is buying a day, not a kill &mdash; they disengage the moment anyone drops; do not make it a punishment, make it a bruise with a receipt.</p>\n<h2>7 &middot; Prisoner Extraction &#9670;</h2>\n<p>Fires at Prisoner/Heat 4, or automatically after three days of holding. <strong>Small things:</strong> they want the prisoner, not the party; the Record-Burner is an arcane operative, not a priest; failure costs the prisoner and a clock segment, not the phase.</p>\n<h2>8 &middot; Field Reconnaissance &#9670;</h2>\n<p>Two days out on the spur. <strong>Give all three field clues:</strong> cart ruts vanishing where a marker was pushed flat; a waymark whose seventh cut was scraped <em>within the week</em>; a dead pack animal in harness fitted for carrying through narrow places.</p>\n<h2>9 &middot; The Seven-Cut Cairn &#9670; &#9678;</h2>\n<p><strong>Must land:</strong> the rubbing matches the cistern sketch exactly &mdash; hand it across the table. <strong>Small things:</strong> the seventh cut is the sharpest and was made <em>last</em>; a faint ancient enchantment that \"feels like a contract\"; wax in a crevice matching Aldea's unknown family; the stepped iron-bound door at the back of the tollhouse, which nobody opens tonight. <em>Every PC thread recognises this place for a different reason &mdash; run the convergence in order: Gianni, Cam or Elle, Selvara, Elle, Alicia, Kitty.</em> <strong>Closing:</strong> \"The silence is not silence. It is administered.\"</p>\n",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5,
+        "autoplay": false,
+        "loop": false,
+        "timestamp": 0,
+        "width": null,
+        "height": null
+      },
+      "src": null,
+      "system": {},
+      "sort": 800000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "category": null
+    },
+    {
+      "_key": "!journal.pages!BR2GMMasterLedgr.BR2GMMlPgPhase08",
+      "_id": "BR2GMMlPgPhase08",
+      "name": "Phase 8 — The Stair Beneath Tarnsmere",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "\n<h1>Phase 8 &mdash; The Stair Beneath Tarnsmere</h1>\n<p><em>The threshold dungeon. Surface, threshold, door, descent. Tier 3, one to two sessions. Tone: administrative horror becomes architectural. The word \"Underdark\" still does not exist.</em></p>\n<h2>1 &middot; Arrival at the Cairn &#9670;</h2>\n<p>Six branch openings by Phase 7 outcome; they set the Lockdown clock. <strong>Small things:</strong> <em>\"they have come to do what was done in 374 CY by a party with one fewer survivor\"</em> &mdash; keep that line only if Elle is at the table. Caelith's threshold note arrives that afternoon: his courier waits three days at the dry ford, and he cannot come. <strong>The anchor NPC is finite. That should land.</strong></p>\n<h2>2 &middot; Surface Investigation &#9670; &#9678;</h2>\n<p>Six locations. <strong>Must land:</strong> someone maintains an officially abandoned road. <strong>Small things:</strong> narrow bootprints and narrow cart tracks; iron survey nails on the verge; the cairn's east face aligns with the tollhouse hearth at sunrise; a descent token in the loose wedge stone; <strong>the toll window faces downhill &mdash; the tollhouse watched for people coming back up</strong>; seventeen tally cuts behind the vanished coat-rack, the bottom three recent; the hearth plate with its token socket. <em>Gianni's four-missing-spurs thread closes here; Selvara's dream-image is the seventh cut exactly.</em></p>\n<h2>3 &middot; The Threshold Complex &#9670;</h2>\n<p>Toll Vault, Broken Registry, Old Guardroom, Cistern Drain, Collapsed Side Passage. <strong>Must land:</strong> the registry fragment &mdash; <em>\"No sail. No road. Toll paid beneath\"</em> over admissions ending <strong>\"Return: nil\"</strong>, two of them halfling cousins-of-record. <em>Cam's payoff, now Elle's. Do not editorialise; let the player read the page.</em> <strong>Small things:</strong> twelve Class VII tokens issued, three returned, nine outstanding; Kethren's grey-and-bone thread on the stair wall; Korre's folded note &mdash; \"Three days. No traffic from above.\"</p>\n<h2>4 &middot; Garrold Eft &#9670;</h2>\n<p>Dead under a fifty-year-old roof-fall with his satchel intact. <strong>Must land, before the door:</strong> <em>\"The site is not a tollhouse. It is a witness-post&hellip; The Aerdy did not make the descent. The Aerdy permitted the descent. They were not the first. They are not the last.\"</em> <strong>Small things:</strong> he heard footsteps on the lower stair going <em>up</em>, twice, turning aside before the landing; scratched on the grate where he died: \"The stair admits. The shaft only swallows.\" <em>His mother is alive. Someone owes her a letter.</em></p>\n<h2>5 &middot; The Permission Door &#9670; &#9678;</h2>\n<p>The load-bearing scene of the phase. <strong>Must land:</strong> the door is <em>paperwork</em> &mdash; token, phrase, tally, witness &mdash; and the paperwork still works. <strong>Small things:</strong> \"Accounts above. Witness below.\"; the soot in the cuts is fresh, so <em>someone maintains this</em>; a player who picks up six smooth pebbles at the cairn has solved the tally without rolling; three locked counters leave only Force and Bypass. <em>Elle's iron key is the seventh method &mdash; the ring warms for the first time in its life; stop the action and ask her whether she uses it. Kitty's hand on the seventh cut warms it, and the lintel is notched afterward where no one sees.</em></p>\n<h2>6 &middot; The Stair Gallery &#9670; &#9678;</h2>\n<p>Eighty feet, seven landings, benches for resting porters. <strong>Must land:</strong> within ten paces, echoes from above stop arriving. <strong>Small things:</strong> pillars square above the floor line and cylindrical at the base &mdash; the builders changed style at the floor; the seven-cut mark deepens with each landing until it is clearly cut <em>from below</em>; one set of bootprints descends and does not return. <em>Alicia's pact-mark goes from silent to unreachable by the fourth landing.</em></p>\n<h2>7 &middot; The Final Threshold Landing &#9670;</h2>\n<p>The lintel: <em>\"It is not for those who arrive. It is for those who come back.\"</em> <strong>Small things:</strong> a waxed token on a silver chain, unstrapped and left; a black-and-grey fibre at head height; the clocks stop advancing past this line. Run the per-PC closing beats before you end the session.</p>\n",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5,
+        "autoplay": false,
+        "loop": false,
+        "timestamp": 0,
+        "width": null,
+        "height": null
+      },
+      "src": null,
+      "system": {},
+      "sort": 900000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "category": null
+    },
+    {
+      "_key": "!journal.pages!BR2GMMasterLedgr.BR2GMMlPgPhase09",
+      "_id": "BR2GMMlPgPhase09",
+      "name": "Phase 9 — Below the Clean Paper",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "\n<h1>Phase 9 &mdash; Below the Clean Paper</h1>\n<p><em>Witness Station Seven. A compact site-trespass interlude with three clocks (Alert, Record Destruction, Breath and Stone). DCs cap ~18. The route has its own vocabulary and so should you.</em></p>\n<h2>1 &middot; The Eighth Landing &#9670;</h2>\n<p><strong>Must land:</strong> the first tally row and an empty token socket &mdash; no password, a <em>system</em>. <strong>Small things:</strong> masonry shifts from Aerdy civic stone to older black-seamed work; smoke hangs instead of rising; \"Accounts above. Witness below.\" re-cut within the last month. If anyone speaks their names aloud here, <strong>note it</strong> &mdash; the route records names either way.</p>\n<h2>2 &middot; The Account Hall and Registry Wall &#9670;</h2>\n<p>Seven counter-bays, no chairs, no inkwells, nothing soft in the room. <strong>Must land:</strong> bay three &mdash; <em>\"H.V.A. &mdash; Recovered cargo. Escort: K. Witness pending. Recoverable but unreliable.\"</em> <strong>Small things:</strong> the slots are for <em>declarations, not keys</em> &mdash; what you put in the slot is what you are; the halfling-cousin entries circled in chalk; <strong>the shallow arc with three notches</strong> at the column's head, unfamiliar and unnamed. At Record Destruction 4 the column is scraped clean &mdash; prioritise this room.</p>\n<h2>3 &middot; Toll-Token Cage &#9671;</h2>\n<p>The toolbox for every gate method. <strong>Small things:</strong> one damaged lower-route token, repairable with tools; at Records 3 the witness tokens are already stripped.</p>\n<h2>4 &middot; The Old Route Office &#9670;</h2>\n<p><strong>Must land:</strong> the Conversion Note &mdash; Korre's signed surface directive beside the route clerk's shorthand of it. Same content, two languages, one obligation. <strong>Small things:</strong> her signature is real, written and signed; put this in front of Caelith or Iren later and it is the cleanest proof in the campaign that surface institutions feed the route.</p>\n<h2>5 &middot; Sleeping Alcoves &#9671;</h2>\n<p>Eleven bunks, none occupied; a panic prayer scratched in tiny script &mdash; <em>\"not witnessed&hellip; not witnessed&hellip;\"</em> &mdash; by someone who was not Merrit. <strong>Use lightly.</strong> It says there are more of them.</p>\n<h2>6 &middot; Supply Cache &#9670;</h2>\n<p><strong>Must land:</strong> the Recovery Crate Tag &mdash; <em>\"Claim precedes loss: yes. Surface panic acceptable: yes.\"</em> <strong>Small things:</strong> the bonded-claim reference cross-references to Phase 2's Loftwick receipts; the samples are Blooming Rot crop and tissue. This is where the campaign's opening crime is revealed to have been <em>priced</em> down here first.</p>\n<h2>7 &middot; The Burn Furnace &#9670;</h2>\n<p>The \"Andren\" slip is in the queue with about ten minutes left. <strong>Must land:</strong> the Furnace Scrap &mdash; <em>\"Blooming was proof. Rot was proof. Recovery was the question.\"</em> <strong>Small things:</strong> the hand is different from every other route hand in the station, and that clerk is not in residence &mdash; your future ally. Securing the furnace pauses the Record Destruction clock entirely.</p>\n<h2>8 &middot; The Sealed Witness Cell &#9670;</h2>\n<p><strong>Merrit Osk</strong>, three weeks held, interviewed by a man in grey-and-bone <em>whose face she cannot remember</em>. <strong>Must land:</strong> \"recovery\" means a planned retrieval after controlled failure &mdash; she is the only person here who will say it in surface words. <strong>Small things:</strong> her statement ends with her mother's address; declaring her a substitute witness <em>without consent</em> is offering a living person to a gate as cargo, and the party should feel it.</p>\n<h2>9 &middot; Marker Gallery and Warden Post &#9670;</h2>\n<p><strong>Must land:</strong> Warden Instruction 5 (classify before removal &mdash; the route's default is not to kill) and Instruction 6: <em>\"Defer all questions of higher authority to channel beyond Black Ledger Gate&hellip; do not pursue informally.\"</em> <strong>You cannot knock on E.'s door. You have to file.</strong> <strong>Small things:</strong> Savax removes one glove when uncertain and puts it back; disabling the bell or cord prevents one Alert advance.</p>\n<h2>10 &middot; The Black Ledger Gate &#9670;</h2>\n<p><em>\"Unwitnessed cargo waits. Witnessed passage continues.\"</em> <strong>Must land:</strong> the gate checks <em>category</em>, not identity &mdash; the party must declare what they are. <strong>Small things:</strong> seven methods, none of which dead-ends; forcing it wakes the Tally Sentinel, which does not attack and <em>witnesses</em> a downed PC instead &mdash; note who gets marked, permanently.</p>\n<h2>11 &middot; The Lower Route Fork &#9670;</h2>\n<p>Recovery, escort, supply. <strong>Small things:</strong> turning back is a fully supported ending &mdash; do not punish it; sketch or wax-impress the three motifs before committing. <strong>Closing:</strong> <em>\"they did not build a road beneath the world. They built a way to decide who was allowed to matter below it.\"</em> Say it, then say nothing, and let a player speak first.</p>\n",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5,
+        "autoplay": false,
+        "loop": false,
+        "timestamp": 0,
+        "width": null,
+        "height": null
+      },
+      "src": null,
+      "system": {},
+      "sort": 1000000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "category": null
+    }
+  ],
+  "categories": [],
+  "folder": null,
+  "sort": 900000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

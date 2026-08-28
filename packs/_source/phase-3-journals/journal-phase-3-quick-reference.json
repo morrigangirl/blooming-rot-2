@@ -1,0 +1,224 @@
+{
+  "_key": "!journal!BR2P3QRefJournal",
+  "_id": "BR2P3QRefJournal",
+  "name": "Phase 3 — Quick Reference, Seeds & Beats (GM)",
+  "img": null,
+  "pages": [
+    {
+      "_key": "!journal.pages!BR2P3QRefJournal.BR2P3QrPgNeverNm",
+      "_id": "BR2P3QrPgNeverNm",
+      "name": "Things You Never Name (Phase 3)",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "\n<h1>Things You Never Name (Phase 3)</h1>\n<p><em>GM-only. Phase 2 had its own never-name list; this is the Hardby edition. Everything below is true, and every one of them is a chapter or more away from being sayable. The party can circle any of these all night. The wall is the content.</em></p>\n<h2>Absolute &mdash; no roll, no spell, no sage, ever</h2>\n<ul>\n<li><strong>Drow. Eclavdra. House Eilserv. Erelhei-Cinlu. The Vault. The Underdark.</strong> Not as a word, not as a hint, not as \"you get the sense that&hellip;\" Veska's fourth hand is <em>a hand she cannot place</em>, and that is the whole of it.</li>\n<li><strong>That the fourth hand is not human.</strong> Aldea gets closest, in Phase 5, and even she will not write it down.</li>\n</ul>\n<h2>Reserved for Phase 4</h2>\n<ul>\n<li><strong>The three candidates</strong> for the vacant harbor seats. Phase 3 proves the seats are empty and the timing is deliberate. Mirelth, Vesh and Tenrel are Halask's to name in Rel Astra.</li>\n<li><strong>Which Aerdy claimant</strong> the conspiracy is positioned behind. Galenix Naelax does not exist for this table yet.</li>\n<li><strong>That the vacancies were killings.</strong> Zoria reads the register: natural causes, a staircase, a brief illness. Reyna Worth's hand on the second one is GM-only. If a player says the word \"murdered,\" agree that it is a fair suspicion and move on &mdash; do not confirm.</li>\n</ul>\n<h2>Reserved for Phase 5</h2>\n<ul>\n<li><strong>Ostren Pell.</strong> Caelith's second letter promises the leak's name by separate pouch. If the pouch arrives on schedule, the party reads it, burns it, and it is <em>a name with no face</em> until Loftwick. If your table would rather not carry it, have the courier be late; the letter says as much.</li>\n<li><strong>Aldea Veren's name.</strong> She is still \"a woman who reads matter,\" and Trina still has not spent the favour.</li>\n</ul>\n<h2>Reserved for Phase 6 and beyond</h2>\n<ul>\n<li><strong>Kestrel &amp; Reed</strong>, or any letter agency by name. Anver Resh knows his coppers arrive through <em>an</em> agency; he never asked which, and that is the truth, not a dodge.</li>\n<li><strong>What the courier side-mark means.</strong> It sorts post. That is all anyone in Hardby can tell you.</li>\n<li><strong>Haskur is alive.</strong> Nobody in Hardby knows this. The firm files him as settled and the file is closed.</li>\n</ul>\n<h2>Standing rulings</h2>\n<p><em>Legend lore</em> and its cousins return the same fragmentary verse as in Phase 2 &mdash; a people who walked downward and were forgotten &mdash; and the caster still cannot place it. <em>Zone of truth</em> on any Hardby conspirator yields honest ignorance: they genuinely do not know who is above the firm. That is the most frightening result the spell can give.</p>\n",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5,
+        "autoplay": false,
+        "loop": false,
+        "timestamp": 0,
+        "width": null,
+        "height": null
+      },
+      "src": null,
+      "system": {},
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "category": null
+    },
+    {
+      "_key": "!journal.pages!BR2P3QRefJournal.BR2P3QrPgScript0",
+      "_id": "BR2P3QrPgScript0",
+      "name": "The Forward-Planting Script (Phase 3)",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "\n<h1>The Forward-Planting Script (Phase 3)</h1>\n<p><em>GM-only. Lines to say in Hardby so that later chapters have something to land on, ordered by the phase they pay off in. As in Phase 2: a seed is a shape, not an explanation.</em></p>\n\n<h2>Pays off in Phase 4 &mdash; Rel Astra</h2>\n<p><strong>Plant: the name a court can use.</strong> Veska's reveal is the hinge of the chapter. Let her say the important half twice &mdash; the endorsement hand is <em>Tarlith Vhal Sereth</em>, and Sereth is a man who has not signed at his own desk in eleven years. \"The firm pretends he is unwell. He is not unwell. He is hiding what he writes.\"</p>\n<p><strong>Plant: the seats are a calendar.</strong> Zoria's registry reading. Three old-house seats, three deaths on schedule, none refilled. Say the arithmetic out loud &mdash; two years, fourteen months, six months &mdash; and let the party do the rest.</p>\n<p><strong>Plant: witnesses are people, and people are extractable.</strong> Whether Hesren Vesh and Vella Tannin live to testify in Rel Astra is decided <em>here</em>, by the party's own choices. Say the cost plainly before they leave: \"If you leave her, she has about ten days.\"</p>\n<p><strong>Plant: Joren Krill.</strong> The weighmaster's name, crossed out in Tamsin's hand or spoken by Resh. He is on the Phase 4 indictment list and nowhere else.</p>\n\n<h2>Pays off in Phase 5 &mdash; Loftwick, and the leak</h2>\n<p><strong>Plant: the ceiling.</strong> Resh trades everything he owns for a passport and then stops dead at one door: \"That man is not someone I will trade for a passport.\" Do not soften it and do not let a roll open it. The <em>refusal</em> is the information &mdash; every witness in this campaign ends at a wall, and the walls all face the same way.</p>\n<p><strong>Plant (repair): the wax that cannot be bought here.</strong> Veska, on the fourth-hand annotation: \"This is not a wax I can buy in this city, and I have bought wax in this city for thirty years.\" One sentence, no follow-up. In Phase 5 Aldea says the same thing with authority, and the party recognises it.</p>\n<p><strong>Plant: Caelith's standing is going.</strong> The letters carry the Closure motion's progress. By the third letter the party should feel that the office behind them is closing, and that whatever they do in Rel Astra will have to stand on Aerdi law, not Yeomanry favour.</p>\n\n<h2>Pays off in Phase 6 &mdash; Greyhawk</h2>\n<p><strong>Plant (repair): the far end of the coppers.</strong> Resh's payment chain, in his own bored voice: \"Cash, weekly, rotating hands. It comes up through a letter agency &mdash; I never asked which one, and I was never told. Somebody in Greyhawk keeps the book.\" That is the honest shape of Kestrel &amp; Reed without the name.</p>\n<p><strong>Plant (repair): a Hardby boy who went up to clerk.</strong> Mistress Halver, gossiping over cheese: \"&hellip;and the Kemmel lad went up to Greyhawk to clerk for a letter house, and his wife's people are still on Cooper's Tale, and they say he has done well.\" In Phase 6, <strong>Doras Kemmel</strong> is the senior clerk at Kestrel &amp; Reed who turns witness for the sake of his family. A party that already knows he is a Hardby man with people back home will handle that conversation completely differently.</p>\n<p><strong>Plant: the side-mark, again.</strong> The same crossed stroke from Phase 2, in the corner of the branch's outgoing foreign post. Second sighting, still unexplained. Third sighting is Greyhawk.</p>\n<p><strong>Plant: Rosalin's letter, if they rode south.</strong> If the party took the Brown Hare sidequest, the never-sent letter in the cedar box is now in someone's pack. Let it be mentioned once in Hardby &mdash; a thing carried, not a lead &mdash; because it comes back in Phase 6.</p>\n\n<h2>Pays off in Phases 7&ndash;9 &mdash; the descent</h2>\n<p><strong>Plant (repair): the firm's word for a man.</strong> When Resh or Solen describes what the firm did for Haskur, give them the institutional verb and let it sit: \"He was <em>recovered</em>. Twice, I think. That is the word on the file &mdash; recovered, like freight off a wreck.\" In Phase 9 the party reads <em>\"H.V.A. &mdash; Recovered cargo\"</em> cut into a stone counter, and this is the sentence that detonates.</p>\n<p><strong>Plant: settled, delayed, transferred &mdash; used correctly by a professional.</strong> Solen or a branch clerk uses one of the three verbs about a <em>person</em>, unselfconsciously, in the ordinary course of business. It is not a clue. It is a dialect.</p>\n<p><strong>Plant: the fourth hand sets calendars.</strong> Veska's three details about the letter E &mdash; the loop, the serif, the angle of the descender &mdash; are the party's only handle on E. for three more chapters. Give them physically: let her sketch it on a scrap the party keeps.</p>\n",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5,
+        "autoplay": false,
+        "loop": false,
+        "timestamp": 0,
+        "width": null,
+        "height": null
+      },
+      "src": null,
+      "system": {},
+      "sort": 200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "category": null
+    },
+    {
+      "_key": "!journal.pages!BR2P3QRefJournal.BR2P3QrPgBeats01",
+      "_id": "BR2P3QrPgBeats01",
+      "name": "Per-PC Narration Beats — Phase 3",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "\n<h1>Per-PC Narration Beats &mdash; Phase 3</h1>\n<p><em>GM-only. One beat per player per session. Delivered privately, in a sentence or two, never explained. Full threads live in the <strong>Per-PC Plot Threads</strong> journal.</em></p>\n\n<h2>Alicia Trévanne &mdash; The Pact Silence</h2>\n<p><strong>Fires at:</strong> Veska's reading, when the fourth-hand annotation is on the table.</p>\n<p><strong>The beat:</strong> the same cold as the focus wax in Loftwick, but longer this time &mdash; it lasts as long as the document is in the room. Her patron is not refusing her. Her patron is not <em>hearing</em> her, and only in the presence of that hand.</p>\n<p><strong>If Castrian is the host:</strong> he is Trina's protégé and he knows the look. \"She gets that face too, you know. Mistress Alvere. When she thinks no one is watching her hands.\"</p>\n\n<h2>Kitty Raleigh &mdash; Chthonic Recognition</h2>\n<p><strong>Fires at:</strong> the Coopered Wreck, or any old dockside room.</p>\n<p><strong>The beat:</strong> Olfard Trent, the one-eyed proprietor, sets her cup down and does not quite look at her: \"My grandmother had a word for your sort. Not an unkind one. She said your people went down when the sky burned, and that some of you came back up.\" He shrugs. \"Sailors' talk. She had a lot of it.\" <em>Suel mountain-folk stories, from before the Twin Cataclysms.</em></p>\n<p><strong>Limit:</strong> he cannot be pressed and does not remember the word. If Kitty handles any C&amp;V wax with the fourth hand on it, the faint warmth returns.</p>\n\n<h2>Gianni Varren &mdash; Geographic Erasure</h2>\n<p><strong>Fires at:</strong> any reconnaissance outside the walls, or the four hand-drawn maps in the Mossen Place cache.</p>\n<p><strong>The beat:</strong> two waystations on the road north of Hardby, abandoned within the decade &mdash; and one of them was not left, it was <em>cleared</em>. Stripped to the stone, no rot, no squatters, no salvage left for anyone. Neither appears on the current Hardby commercial map. In Loftwick she found one spur missing; that could be an error. Two is a policy.</p>\n\n<h2>Selvara Stormborn &mdash; Dreams of Cut Stone</h2>\n<p><strong>Fires at:</strong> the Mossen Place, second or third night.</p>\n<p><strong>The beat:</strong> the dream comes in a bed that is not hers, in a city she has never slept in, unchanged &mdash; the same stair, the same torchlight, the same seventh step. It is not a Loftwick dream. It followed her.</p>\n<p><strong>Optional, if she seeks company:</strong> Mistress Vella Korr at the Scribe's Tea Society asks, mildly, \"Have you been sleeping well?\" &mdash; and does not press when the answer is a lie. \"Sorcerers sleep deeper than other people. We notice when we don't.\"</p>\n\n<h2>Ellyndra \"Elle\" Swiftfoot &mdash; The Sealed Records of Her Order</h2>\n<p><strong>Fires at:</strong> the Temple of Ehlonna, or any devotion in Hardby.</p>\n<p><strong>The beat:</strong> Sister Wren, hearing Elle's order named, asks the question she has been carrying for years: \"Has your order ever told you what the second-bell prayer is <em>for</em>? Mine has one like it. Nobody can tell me either.\" Two houses, two prayers for the same forgotten thing.</p>\n<p><strong>If Brother Ashan was named in Loftwick:</strong> he is at the Hardby chapter this season. He will not open the box in a strange city &mdash; \"Come to the Cloister and ask me at home\" &mdash; but he looks at her differently afterward.</p>\n\n<h2>Cam &mdash; The Halfling Networks <em>(dormant)</em></h2>\n<p><strong>If she plays:</strong> Hesp Olfair, the halfling cant-speaker fence, takes her aside and asks about the east-going caravans. He has been collecting names for two years. He has thirty-one. He is not ready to hand them over &mdash; that is Phase 5 &mdash; but he tells her the number, and the number is the beat.</p>\n<p><strong>If she does not:</strong> Hesp brings the same worry to <strong>Elle</strong> instead, one halfling to another, in a quieter register: \"You'll have heard, being what you are. Folk go east on good contracts and the letters stop.\"</p>\n\n<h2>Everyone &mdash; the Hardby beat that belongs to the whole table</h2>\n<p>Whoever spends time in the Mossen Place kitchen gets Mistress Halver, and Mistress Halver is the best intelligence service in the merchant quarter. Reward kindness to her with gossip that matters &mdash; and use her for the Kemmel plant on the Forward-Planting page.</p>\n",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5,
+        "autoplay": false,
+        "loop": false,
+        "timestamp": 0,
+        "width": null,
+        "height": null
+      },
+      "src": null,
+      "system": {},
+      "sort": 300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "category": null
+    },
+    {
+      "_key": "!journal.pages!BR2P3QRefJournal.BR2P3QrPgRepairs",
+      "_id": "BR2P3QrPgRepairs",
+      "name": "Seed Repairs — What Phase 3 Was Missing",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "\n<h1>Seed Repairs &mdash; What Phase 3 Was Missing</h1>\n<p><em>GM-only. Audited against Phases 5&ndash;9. Phase 3 as written hands off beautifully to Phase 4 and almost nothing to Phase 6. These five repairs cost no scene time and are written ready to say.</em></p>\n\n<h2>Repair 1 &mdash; the far end of Resh's coppers <em>(&rarr; Phase 6)</em></h2>\n<p><strong>The gap:</strong> Phase 5 ends with Vesten Quill naming \"a Hardby-aligned letter agency at a Greyhawk address,\" and Phase 6 opens on it. The party's own Hardby broker is paid through that exact machinery and, as written, never mentions it.</p>\n<p><strong>Say it in Resh's mouth, bored, as a detail he considers worthless:</strong> \"Cash, weekly, rotating hands. It comes up through a letter agency &mdash; I never asked which, and nobody offered. Somebody in Greyhawk keeps the book.\" <strong>Limit:</strong> no name. He is telling the truth.</p>\n\n<h2>Repair 2 &mdash; Doras Kemmel is a Hardby man <em>(&rarr; Phase 6)</em></h2>\n<p><strong>The gap:</strong> Phase 6's cleanest turn is Kestrel &amp; Reed's senior clerk agreeing to testify because someone offers his family real protection. He is Hardby-born with people still there &mdash; and nothing in Phase 3 tells the party that.</p>\n<p><strong>Say it as Halver's gossip:</strong> \"&hellip;and the Kemmel lad went up to Greyhawk, clerking for a letter house. His wife's people are still on Cooper's Tale. They say he's done well for himself.\" <strong>Payoff:</strong> in Phase 6 the party isn't turning a stranger. They are turning a neighbour's son.</p>\n\n<h2>Repair 3 &mdash; the wax that cannot be bought here <em>(&rarr; Phases 5 and 7)</em></h2>\n<p><strong>The gap:</strong> Aldea's Phase 5 finding &mdash; a wax matching no surface recipe &mdash; is the first hard arrow pointing <em>down</em>. It lands harder if a competent professional already flinched at the same material.</p>\n<p><strong>Say it in Veska's mouth, once:</strong> \"This is not a wax I can buy in this city, and I have bought wax in this city for thirty years.\" Then she moves on, because she has nothing else to say about it.</p>\n\n<h2>Repair 4 &mdash; \"recovered\" as an institutional verb <em>(&rarr; Phase 9)</em></h2>\n<p><strong>The gap:</strong> the campaign's biggest single detonation is the account-hall line <em>\"H.V.A. &mdash; Recovered cargo. Escort: K.\"</em> It needs the word to have been used casually, years earlier, by someone respectable.</p>\n<p><strong>Say it in Resh's or Solen's mouth:</strong> \"He was recovered. Twice, I think. That's the word on the file &mdash; recovered, like freight off a wreck.\" <strong>Limit:</strong> nobody elaborates. It is a filing term, and filing terms are boring to the people who use them.</p>\n\n<h2>Repair 5 &mdash; the side-mark's second sighting <em>(&rarr; Phases 6 and 8)</em></h2>\n<p><strong>The gap:</strong> one sighting is a detail; two is a pattern; the third, in Greyhawk, is a recognition. Put the crossed stroke on the branch's outgoing foreign post &mdash; in the burglary, in Vella's carbons, or on the subpoena's manifest, whichever path the party took. Describe it in the same words you used in Loftwick. Never gloss it.</p>\n\n<h2>Structural note &mdash; Phase 3 has no Quick Reference of its own</h2>\n<p>Phase 2 ships a Quick Reference journal (five truths, clock, rails, never-name, cast, hand-off). Phase 3 shipped without one; this journal is that missing piece. The <em>Investigation</em>, <em>NPCs</em> and <em>Arrival</em> journals hold the content &mdash; what was absent was the one-screen GM layer on top. Pages here now cover: never-name, forward planting, per-PC beats, hand-off, and rails.</p>\n",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5,
+        "autoplay": false,
+        "loop": false,
+        "timestamp": 0,
+        "width": null,
+        "height": null
+      },
+      "src": null,
+      "system": {},
+      "sort": 400000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "category": null
+    },
+    {
+      "_key": "!journal.pages!BR2P3QRefJournal.BR2P3QrPgHandoff",
+      "_id": "BR2P3QrPgHandoff",
+      "name": "Hand-off to Phase 4",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "\n<h1>Hand-off to Phase 4</h1>\n<p><em>GM-only. Note these before the party leaves Hardby; Phase 4 reads directly off them.</em></p>\n<h2>The eight questions Phase 4 asks of Phase 3</h2>\n<ol>\n<li><strong>Which road did they take east?</strong> Sea (arrive unobserved, twelve hours of grace), overland (arrive clean), or diplomatic carriage (arrive with an audience already on the card and the clock at +2).</li>\n<li><strong>Is Tamsin alive, and is she with them?</strong> The single largest variable in Phase 4 testimony.</li>\n<li><strong>Was Hesren Vesh extracted?</strong> Alive under an assumed name in Loftwick, or dead about two weeks after they sail.</li>\n<li><strong>Was Vella Tannin extracted?</strong> Saltmarsh and available, or dead within ten days &mdash; and the party owes her brother's name a line in the indictment either way.</li>\n<li><strong>What happened to Solen Mereth?</strong> Turned (the second set arrives by sealed packet), killed (the firm assumes a third party), or left in place (a senior clerk helps them harden).</li>\n<li><strong>Was Resh confronted and given his passport?</strong> If yes, he is gone east of Hardby and will not obstruct. If the party burned him, Phase 4 loses corroboration.</li>\n<li><strong>How badly was Zoria used?</strong> Carelessly, and the Gynarchy has a quiet question about the party for the rest of the campaign.</li>\n<li><strong>What is in the package?</strong> Veska's notarial opinion (original sent separately to Loftwick, copy carried), second-set ledgers or carbons, the blotter rubbing, the defect-stamp. Halask takes custody of all of it and does not give it back.</li>\n</ol>\n<h2>What must be true when they land in Rel Astra</h2>\n<p>They can name <strong>Sereth</strong> and prove the firm's Hardby hand on paper. They know the harbor play is a <strong>race against a succession</strong>, not a robbery. They have <strong>three details about the letter E</strong> and no face to attach them to. And they have met the ceiling &mdash; twice, in two different mouths &mdash; and know the next answer is further east and further up.</p>\n<h2>What must NOT be true</h2>\n<p>They must not have a name above Sereth. They must not know which candidates the firm intends to seat. And nobody at the table should have heard a word about anything below the ground.</p>\n",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5,
+        "autoplay": false,
+        "loop": false,
+        "timestamp": 0,
+        "width": null,
+        "height": null
+      },
+      "src": null,
+      "system": {},
+      "sort": 500000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "category": null
+    },
+    {
+      "_key": "!journal.pages!BR2P3QRefJournal.BR2P3QrPgWander0",
+      "_id": "BR2P3QrPgWander0",
+      "name": "If They Wander (Phase 3 Rails)",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "\n<h1>If They Wander (Phase 3 Rails)</h1>\n<p><em>GM-only. Hardby is wider than Loftwick and the party has more money and fewer minders. Use the softest tool that works.</em></p>\n<h2>The stall ladder</h2>\n<ol>\n<li><strong>A person, not a clue.</strong> Ailen Moraven is in this city and does not know her mother is missing. Put her in front of them &mdash; at the workshop, at market, at the caravan yard &mdash; and let the table remember why they came.</li>\n<li><strong>The clock ticks with a face on it.</strong> Advance the Pressure Clock and deliver its telegraph as an event: a second watcher on the lodging, a friendly face that suddenly isn't, an appointment that was cancelled before it was made.</li>\n<li><strong>An ally pushes.</strong> Veska: \"You are being polite with a firm that has already killed a clerk in your own capital.\" Castrian, drunker and kinder: \"You are not going to out-wait these people. Nobody out-waits a bank.\"</li>\n<li><strong>Take something.</strong> Fire a witness-loss segment. Losing Vella, Hella or Hesren re-prices urgency instantly &mdash; and it should cost the party something they can name.</li>\n</ol>\n<h2>Per-skip recoveries</h2>\n<p><strong>They never reach Veska.</strong> Hella Voren can pass the notes; Caelith's Letter 3 can carry the substance. They lose the sketch of the letter E &mdash; note that, because Phase 4's registry annotation is much flatter without it.</p>\n<p><strong>They skip the Gynarchy registry.</strong> Phase 4's Halask delivers the harbor-before-throne reveal in Rel Astra instead. Less satisfying and later; make sure Caelith's letters have at least said \"the autumn ledger.\"</p>\n<p><strong>They refuse the C&amp;V branch entirely.</strong> Veska's earlier records plus pretexted observation still build a thin package. Phase 4 proceeds; Halask simply needs two more weeks and one more deposition.</p>\n<p><strong>They try to sail straight past Hardby to Rel Astra.</strong> Legitimate, and expensive: no Tamsin window, no Resh, no Veska, no branch documents. Price it in Caelith's voice before they commit, then let them.</p>\n<p><strong>They go loud &mdash; violence in the Wreck, a killing at the branch.</strong> The firm assumes a rival, not investigators, and hardens accordingly. Clock +2, and Phase 4 opens under fertile uncertainty rather than clean pursuit.</p>\n<h2>The one thing to protect</h2>\n<p>However the chapter bends, the party must leave Hardby with a document that names a senior partner in his own hand. Everything else in Phase 3 is negotiable; that is not. If all three branch paths fail, Veska's earlier records plus the blotter rubbing are enough &mdash; take the weaker package and go.</p>\n",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5,
+        "autoplay": false,
+        "loop": false,
+        "timestamp": 0,
+        "width": null,
+        "height": null
+      },
+      "src": null,
+      "system": {},
+      "sort": 600000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "category": null
+    }
+  ],
+  "categories": [],
+  "folder": null,
+  "sort": 700000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

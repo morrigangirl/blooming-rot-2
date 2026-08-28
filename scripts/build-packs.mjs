@@ -20,6 +20,7 @@ execSync("node " + JSON.stringify(path.join(HERE, "build-macro-pack.mjs")), {
 
 const PACKS = [
   "welcome",
+  "gm-reference",
   "module-macros",
   "phase-1-journals",
   "phase-1-actors",

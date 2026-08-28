@@ -2,7 +2,7 @@
   "id": "blooming-rot-2",
   "title": "Blooming Rot, Part 2",
   "description": "A Greyhawk adventure set in the pre-Wars Yeomanry, Hardby, Rel Astra, Greyhawk City, and the deep roads beneath the Cairn Hills. Nine phases in two acts: a surface paper-trail conspiracy (Loftwick's return, the dead man's receipts, the Hardby investigation, the Rel Astra confrontation, The Small Matter, and the Brass Crow) that descends into the route below (the Seventh Question, the Stair Beneath Tarnsmere, and Below the Clean Paper), with a tenth phase left open.",
-  "version": "1.4.9",
+  "version": "1.4.10",
   "compatibility": {
     "minimum": "13",
     "verified": "13.351",
@@ -22,7 +22,7 @@
     }
   ],
   "manifest": "https://github.com/morrigangirl/blooming-rot-2/releases/latest/download/module.json",
-  "download": "https://github.com/morrigangirl/blooming-rot-2/releases/download/v1.4.9/module.zip",
+  "download": "https://github.com/morrigangirl/blooming-rot-2/releases/download/v1.4.10/module.zip",
   "readme": "https://github.com/morrigangirl/blooming-rot-2/blob/main/README.md",
   "bugs": "https://github.com/morrigangirl/blooming-rot-2/issues",
   "changelog": "https://github.com/morrigangirl/blooming-rot-2/releases",
@@ -46,8 +46,19 @@
       "type": "JournalEntry",
       "system": "dnd5e",
       "ownership": {
-        "PLAYER": "OBSERVER",
+        "PLAYER": "NONE",
         "ASSISTANT": "OBSERVER"
+      }
+    },
+    {
+      "name": "gm-reference",
+      "label": "Blooming Rot 2 — GM Reference",
+      "path": "packs/gm-reference",
+      "type": "JournalEntry",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
       }
     },
     {
@@ -68,7 +79,7 @@
       "type": "JournalEntry",
       "system": "dnd5e",
       "ownership": {
-        "PLAYER": "OBSERVER",
+        "PLAYER": "NONE",
         "ASSISTANT": "OWNER"
       }
     },
@@ -77,14 +88,22 @@
       "label": "Phase 1 — NPCs",
       "path": "packs/phase-1-actors",
       "type": "Actor",
-      "system": "dnd5e"
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "phase-1-scenes",
       "label": "Phase 1 — Scenes",
       "path": "packs/phase-1-scenes",
       "type": "Scene",
-      "system": "dnd5e"
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "phase-2-journals",
@@ -93,7 +112,7 @@
       "type": "JournalEntry",
       "system": "dnd5e",
       "ownership": {
-        "PLAYER": "OBSERVER",
+        "PLAYER": "NONE",
         "ASSISTANT": "OWNER"
       }
     },
@@ -102,14 +121,22 @@
       "label": "Phase 2 — NPCs",
       "path": "packs/phase-2-actors",
       "type": "Actor",
-      "system": "dnd5e"
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "phase-2-scenes",
       "label": "Phase 2 — Scenes",
       "path": "packs/phase-2-scenes",
       "type": "Scene",
-      "system": "dnd5e"
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "phase-3-journals",
@@ -118,7 +145,7 @@
       "type": "JournalEntry",
       "system": "dnd5e",
       "ownership": {
-        "PLAYER": "OBSERVER",
+        "PLAYER": "NONE",
         "ASSISTANT": "OWNER"
       }
     },
@@ -127,14 +154,22 @@
       "label": "Phase 3 — NPCs",
       "path": "packs/phase-3-actors",
       "type": "Actor",
-      "system": "dnd5e"
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "phase-3-scenes",
       "label": "Phase 3 — Scenes",
       "path": "packs/phase-3-scenes",
       "type": "Scene",
-      "system": "dnd5e"
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "phase-4-journals",
@@ -143,7 +178,7 @@
       "type": "JournalEntry",
       "system": "dnd5e",
       "ownership": {
-        "PLAYER": "OBSERVER",
+        "PLAYER": "NONE",
         "ASSISTANT": "OWNER"
       }
     },
@@ -152,14 +187,22 @@
       "label": "Phase 4 — NPCs",
       "path": "packs/phase-4-actors",
       "type": "Actor",
-      "system": "dnd5e"
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "phase-4-scenes",
       "label": "Phase 4 — Scenes",
       "path": "packs/phase-4-scenes",
       "type": "Scene",
-      "system": "dnd5e"
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "phase-5-journals",
@@ -168,7 +211,7 @@
       "type": "JournalEntry",
       "system": "dnd5e",
       "ownership": {
-        "PLAYER": "OBSERVER",
+        "PLAYER": "NONE",
         "ASSISTANT": "OWNER"
       }
     },
@@ -177,14 +220,22 @@
       "label": "Phase 5 — NPCs",
       "path": "packs/phase-5-actors",
       "type": "Actor",
-      "system": "dnd5e"
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "phase-5-scenes",
       "label": "Phase 5 — Scenes",
       "path": "packs/phase-5-scenes",
       "type": "Scene",
-      "system": "dnd5e"
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "sandbox-journals",
@@ -193,7 +244,7 @@
       "type": "JournalEntry",
       "system": "dnd5e",
       "ownership": {
-        "PLAYER": "OBSERVER",
+        "PLAYER": "NONE",
         "ASSISTANT": "OWNER"
       }
     },
@@ -202,7 +253,11 @@
       "label": "Sandbox — Anchors & Crafters",
       "path": "packs/sandbox-actors",
       "type": "Actor",
-      "system": "dnd5e"
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "phase-6-journals",
@@ -211,7 +266,7 @@
       "type": "JournalEntry",
       "system": "dnd5e",
       "ownership": {
-        "PLAYER": "OBSERVER",
+        "PLAYER": "NONE",
         "ASSISTANT": "OWNER"
       }
     },
@@ -220,14 +275,22 @@
       "label": "Phase 6 — NPCs",
       "path": "packs/phase-6-actors",
       "type": "Actor",
-      "system": "dnd5e"
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "phase-6-scenes",
       "label": "Phase 6 — Scenes",
       "path": "packs/phase-6-scenes",
       "type": "Scene",
-      "system": "dnd5e"
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "phase-7-journals",
@@ -236,7 +299,7 @@
       "type": "JournalEntry",
       "system": "dnd5e",
       "ownership": {
-        "PLAYER": "OBSERVER",
+        "PLAYER": "NONE",
         "ASSISTANT": "OWNER"
       }
     },
@@ -245,7 +308,11 @@
       "label": "Phase 7 — NPCs",
       "path": "packs/phase-7-actors",
       "type": "Actor",
-      "system": "dnd5e"
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "phase-8-journals",
@@ -254,7 +321,7 @@
       "type": "JournalEntry",
       "system": "dnd5e",
       "ownership": {
-        "PLAYER": "OBSERVER",
+        "PLAYER": "NONE",
         "ASSISTANT": "OWNER"
       }
     },
@@ -263,7 +330,11 @@
       "label": "Phase 8 — NPCs",
       "path": "packs/phase-8-actors",
       "type": "Actor",
-      "system": "dnd5e"
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "phase-9-journals",
@@ -272,7 +343,7 @@
       "type": "JournalEntry",
       "system": "dnd5e",
       "ownership": {
-        "PLAYER": "OBSERVER",
+        "PLAYER": "NONE",
         "ASSISTANT": "OWNER"
       }
     },
@@ -281,7 +352,11 @@
       "label": "Phase 9 — NPCs",
       "path": "packs/phase-9-actors",
       "type": "Actor",
-      "system": "dnd5e"
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "pc-threads",
@@ -310,7 +385,11 @@
       "label": "Aerdy Network NPCs",
       "path": "packs/aerdy-network-actors",
       "type": "Actor",
-      "system": "dnd5e"
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "world-stakes",

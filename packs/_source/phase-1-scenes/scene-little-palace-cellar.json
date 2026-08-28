@@ -448,8 +448,8 @@
   "notes": [
     {
       "_id": "Note4ca740b4419f",
-      "entryId": null,
-      "pageId": null,
+      "entryId": "BR2LittlePalace0",
+      "pageId": "BR2LPPageOvervew",
       "x": 2500,
       "y": 2700,
       "elevation": 0,
@@ -479,8 +479,8 @@
     },
     {
       "_id": "Notebd046fc8cde3",
-      "entryId": null,
-      "pageId": null,
+      "entryId": "BR2LittlePalace0",
+      "pageId": "BR2LPPageOvervew",
       "x": 2400,
       "y": 600,
       "elevation": 0,
@@ -510,8 +510,8 @@
     },
     {
       "_id": "Notec52423e76c23",
-      "entryId": null,
-      "pageId": null,
+      "entryId": "BR2LittlePalace0",
+      "pageId": "BR2LPPageOvervew",
       "x": 4650,
       "y": 2700,
       "elevation": 0,

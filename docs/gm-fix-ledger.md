@@ -75,7 +75,7 @@ Status key: **OPEN** · **FIXED** · **OVERTURNED** · **PARKED**
 15. **P3-11** · The Harbor Before Throne reveal is captioned to Castrian's salon and staged in its own body text at the Office of Mercantile Records — and Castrian is Commercial-Cover-only, while the reveal is required on all three roads. Zoria's approach direction is also reversed between two pages. — **OPEN**
 16. **P3-12** · Official Delegation's Tamsin timeline gives three different recovery dates across three pages. — **PARTLY FIXED v1.6.0** (captivity durations reset by TRAVEL-01); the murder-to-recovery arithmetic is still inconsistent.
 17. **P3-14** · The stated solution to the Quiet Pursuit rescue's central tactical problem routes through Castrian, who is Commercial-Cover-only, plus Resh, whom the party usually hasn't cornered yet. — **OPEN**
-18. **P3-15** · Phase 2 could kill Tamsin before Phase 3 began (clock segment 6, or the Moll-bribe rail) while Phase 3 says her fate is purely a function of the travel choice. — **PARTLY FIXED v1.6.0** — segment 6 is gone with the clock. The Moll-bribe rail still kills her with no Phase 3 branch to receive it.
+18. ~~**P3-15** · Phase 2 could kill Tamsin before Phase 3 began (clock segment 6, or the Moll-bribe rail) while Phase 3 says her fate is purely a function of the travel choice.~~ **FIXED v1.6.1** — segment 6 went with the clock in v1.6.0. The bribe path needed a note, not a branch: Tamsin already resolves in Phase 2 with a body in the Sheldomar, so Phase 3's GM Brief now carries a fourth state saying her thread is closed and not to run any row of the table for her. The real hole was Ailen — the rail removed the chapter's stall-breaker. **Vellin is now taken and Ailen is not**, which is both more plausible (she knows nothing; lifting a sculptor's student in another city is conspicuous) and worse in the right direction: the party's opening beat in Hardby becomes telling a nineteen-year-old that her mother is dead, her father has vanished, and they were paid to let it happen. Also clarified that a recalled Caelith still equips them at the gate.
 19. **P3-18** · Anver Resh left the firm *"in spring 582"* and *"four years ago"* — inconsistent under any present year. — **OPEN**
 20. **P3-19** · Vella Tannin has been *"waiting eight years"* for a death that happened in 580, in a scene delivered aloud at the emotional turn of the Commercial Cover path. — **OPEN**
 21. **P3-20a** · An unedited drafting note ships in running text on the burglary page: *"Second floor of the back wall — wait, ground-floor of the back wall."* — **OPEN**
@@ -88,14 +88,23 @@ Status key: **OPEN** · **FIXED** · **OVERTURNED** · **PARKED**
 2. ~~**TRAVEL-02** · Hardby to Rel Astra was written as five days hard riding against roughly 1,450 miles overland.~~ **FIXED v1.6.0** — three routes: fast packet 4½ weeks (loud), merchantman 7 weeks (cargo manifest), overland 8½ weeks (clean, dangerous), with the diplomatic carriage an 11½-week condition on overland.
 3. ~~**CLOCK-01** · The Phase 2 Pressure Clock overshot its own target, fired Moll off contradictory triggers, and gained +1 per week of travel on a road that is now weeks long.~~ **FIXED v1.6.0** — removed. Phase 3's clock is kept: it is a physical-escalation mechanic driven by player choices, with no travel dependency.
 4. ~~**VESH-01** · Hesren Vesh crosses to Hardby in one week by means no surface road allows.~~ **FIXED v1.6.0** — the impossible-transit seed. He will not speak of it at any DC; the notebook under his mattress carries a dated entry; the tells are physical and unexplained; GM-only forward reference to the Black Ledger Gate.
-5. ~~**SEASON-01** · No phase text accounts for seasons on journeys that now run three to eleven weeks.~~ **FIXED v1.6.0** for Phases 2–3 — a season line in each arrival and a note on winter route availability.
+5. ~~**CLOCK-02** · Two Phase 2 clock references survived the v1.6.0 sweep: *"Advance the clock anyway"* in Moll's Defer branch, and *"A clock cost they paid willingly"* in the sidequest.~~ **FIXED v1.6.1** — the Defer branch now reads the deferral as an unspoken refusal; the sidequest line drops the word.
+6. ~~**SEASON-01** · No phase text accounts for seasons on journeys that now run three to eleven weeks.~~ **FIXED v1.6.0** for Phases 2–3 — a season line in each arrival and a note on winter route availability.
+
+7. ~~**TIME-01** · The full itinerary now runs roughly a year, and the succession deadline (*"before the next Overking is named"*) is open-ended.~~ **RESOLVED v1.6.1 — canon set, propagation pending.** The Overking was never the clock: the module already states the succession *"will resolve within the next eight years, possibly sooner."* The real deadline is already written in E.'s hand on the Third Seat's succession-deferral — *"Sufficient. Hold open until the second autumn after the next"* — filed within days of Mirin Vesh's 583 inquest, which resolves to **autumn 586**, two years after the party rides out of Loftwick. The conspiracy is racing its own paperwork, not the throne.
+
+   **Two dates, two jobs.** Phase 4's clock segment 4 is the conspiracy's *preferred* schedule (the appointment convocation; can fire in Act I). Autumn 586 is the *outside* wall — if the party stops the Phase 4 vote, E. has until then to try again and the party has until then to find out who E. is. The year-long journey therefore fits with room, and Act II gains a dated back wall in the antagonist's own handwriting.
+
+   Done in v1.6.1: stated in the master ledger; Phase 3's harbor-before-throne reveal now points at the deferrals as instruments that expire (Zoria knows somebody filed them and will have to file again — she does not know the dates); GM note on the two dates added to the Phase 3 reveal page.
 
 ### Open
 
-6. **TIME-01** · The full itinerary — Loftwick, Hardby, Rel Astra, back to Loftwick, Greyhawk, Tarnsmere — now runs roughly a year. The succession deadline (*"before the next Overking is named"*) is open-ended and needs an answer, or it stops feeling like a deadline. — **OPEN**
-7. **TIME-02** · Haskur is *"recoverable but unreliable"* in Greyhawk in Phase 6. If the party takes eight months to reach him, decide deliberately whether he has been moved again. — **OPEN**
-8. **TIME-03** · Phase 4's strategic opening posture assumes a fresh arrival. On the new numbers the Rel Astra firm has between eighteen days and a month of warning unless the party bought the packet. The twelve-hour passenger-list grace still holds. — **OPEN**, Phase 4 pass.
-9. **SEASON-02** · Seasonal treatment for Phases 4–9. — **OPEN**, later pass.
+
+8. **TIME-01b** · Propagate autumn 586 through Phases 4–9: the deferral text, the Phase 5 political material, and every *"before the next Overking"* framing. — **OPEN**, Phase 4–9 pass.
+9. **TIME-01c** · Phase 4 says the deferral was filed *"fourteen months ago."* Correct at 582; at 584-plus-travel it reads closer to two years. — **OPEN**, Phase 4 pass.
+10. **TIME-02** · Haskur is *"recoverable but unreliable"* in Greyhawk in Phase 6. If the party takes eight months to reach him, decide deliberately whether he has been moved again. — **OPEN**
+11. **TIME-03** · Phase 4's strategic opening posture assumes a fresh arrival. On the new numbers the Rel Astra firm has between eighteen days and a month of warning unless the party bought the packet. The twelve-hour passenger-list grace still holds. — **OPEN**, Phase 4 pass.
+12. **SEASON-02** · Seasonal treatment for Phases 4–9. — **OPEN**, later pass.
 
 ---
 

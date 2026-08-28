@@ -56,7 +56,7 @@ The approach phrase from Caelith's letter of introduction is unique: ***"By the 
 
 What he tells them in this first meeting:
 
-- The harbor commission has **three vacant seats**. All three by death, on the record: Lord Hessar Olm (natural causes, 580 CY, two years empty this autumn), Lady Mirin Vesh (a fall on her own staircase, 581, fourteen months empty — the fall possibly assisted), Master Ervan Dale (a brief illness, 582, six months empty). No successor formally seated on any of the three.
+- The harbor commission has **three vacant seats**. All three by death, on the record: Lord Hessar Olm (natural causes, 582 CY, two years empty this autumn), Lady Mirin Vesh (a fall on her own staircase, 583, fourteen months empty — the fall possibly assisted), Master Ervan Dale (a brief illness, 584, six months empty). No successor formally seated on any of the three.
 - The three candidates being advanced are **Lord Faren Mirelth** (old-house reformer with private debts), **Magister Andrune Vesh** (respected technocrat with family in difficulty), and **Mistress Coriath Tenrel** (senior commercial advocate, ambitious, willingly aligned).
 - The senior partner of Cindren & Vhal Rel Astra is **Tarlith Vhal Sereth**. Halask has met him three times — twice in court as opposing advocate, once at a funeral. He considers Sereth "*precise, patient, and personally cold.*"
 - The party's only reliable civic ally is **Councilor Belven Astor** of the Old Harbor Ward Council. The other useful name is **Adra Sayan**, an old colleague of Halask's, who will give one signed statement and no more.

@@ -149,8 +149,8 @@ table already owns it, having pulled it from Doril Veth's ledger in their
 first Loftwick day.
 
 The **Gynarchy registry** turns the vellum strip operational: three harbor
-seats — First, Third, Fifth — emptied on schedule (Olm natural 580; Mirin
-Vesh's staircase 581, Worth's work; Dale's brief illness 582, the
+seats — First, Third, Fifth — emptied on schedule (Olm natural 582; Mirin
+Vesh's staircase 583, Worth's work; Dale's brief illness 584, the
 procedural-kill template), none refilled, because **whoever seats three
 commissioners before the next Overking is named owns the eastern revenue.**
 "Harbor before throne" stops being a motto and becomes a calendar. The

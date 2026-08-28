@@ -12,6 +12,37 @@ Nothing in this document has been changed in the module. This is a report.
 
 ---
 
+## Status — what has been fixed
+
+**Tier 1 — all six, shipped in v1.4.12.** Vault key-holder, Tamsin's location, the burglary window, the Hardby chop's staging, Sereth's Hardby visits, and Vesh's wax cast.
+
+**Tier 2 — all seven, shipped in v1.5.0:**
+
+| # | Item | Decision taken |
+|---|---|---|
+| 7 | The road east | Quiet Pursuit **six days**, Commercial Cover **eight or nine**, Official Delegation **a fortnight**. Phase 2's sign-off now names all three; both Phase 3 arrival read-alouds retimed. |
+| 8 | The evidence package | Departure read-aloud split into three bracketed route variants. The last-resort fallback now rests on Veska's own files — three documents in four years in the same unidentified hand — which exist outside the branch entirely. |
+| 9 | Veska's door | Caelith hands over the sealed letter **and** the phrase at the Loftwick gate, on all three roads. |
+| 10 | The year | **584 CY.** See the correction note below. |
+| 11 | Sarth's logistics | She is a standing local retainer on the firm's books in Loftwick; Vesh's runner activates a pre-paid instruction rather than commissioning one over a six-day road. |
+| 12 | The "E." gate | Second, wholly independent plant at Doril Veth's counting house: Investigation DC 14 on the blank carbon replacements finds a ghost impression carrying a countersign line and a capital "E." |
+| 13 | Trina at the raid | Caelith goes down alone. "One far more dangerous man." Her profile now places her at the townhouse with the originals. |
+
+### Correction — the year, and how I got it wrong first
+
+When I first put the year to you I said no page in the module states one. That was true and it was also misleading, because I had missed the anchor that actually pins it: **the three harbor commission seats.** Olm two years empty, Mirin Vesh fourteen months, Ervan Dale six months — repeated in Phase 3's investigation and quick reference, in three Phase 4 journals, and in the master ledger, with an explicit instruction to *say the arithmetic out loud* to the party. Those intervals put the present at autumn 582, not 584.
+
+The call was to keep **584** and move the three deaths forward two years so the arithmetic still lands: **Olm 582, Mirin Vesh 583, Ervan Dale 584.** That is now consistent across all six journals and the four GM docs. `docs/remediation-plan-phases-2-6.md` still carries the old dates and was deliberately left alone — it is a record of past work, not campaign canon.
+
+Knock-ons handled at the same time: the sidequest's three `581 CY`, Hask's letter gap (fourteen months → nearly four years, since his last visit was Patchwall 580), Veska's defect stamp (four years in the strongroom → five, from 579), and Drask's monograph in the Aerdy network pack, which he intended to publish in "580 CY, ten years after" a dismantling that happens in 584 — now 594.
+
+Pollow needed no edit: qualified 575, nine years in Loftwick, lands exactly on 584.
+
+**Still open:** the four Tier 3 items (my errors in the v1.4.9 seeds and matrix layers) and the Tier 4 continuity list.
+
+
+---
+
 ## Tier 1 — Fix these before you run it
 
 Six items. Each will break in front of the players, each is a one-or-two-line edit, and together they're maybe twenty minutes of work.

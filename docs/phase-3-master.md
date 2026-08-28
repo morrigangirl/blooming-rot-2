@@ -215,11 +215,11 @@ The operational reveal. Best run after Veska's, with **Zoria Weis** as the bridg
 
 > *"Rel Astra's harbor commission has seven seats. Three of them — the First, Third, and Fifth — are filled by old-house appointment that the seated Overking must confirm. The other four are appointed by the harbormaster and the city's mercantile guilds. The three old-house seats are filled now, on paper. But the three current holders are dead.*
 >
-> *The First Seat: Lord Hessar Olm, deceased 580 CY of natural causes, no successor formally seated.*
+> *The First Seat: Lord Hessar Olm, deceased 582 CY of natural causes, no successor formally seated.*
 >
-> *The Third Seat: Lady Mirin Vesh, deceased 581 CY in a fall on her own staircase, no successor formally seated.*
+> *The Third Seat: Lady Mirin Vesh, deceased 583 CY in a fall on her own staircase, no successor formally seated.*
 >
-> *The Fifth Seat: Master Ervan Dale, deceased 582 CY of a brief illness, no successor formally seated.*
+> *The Fifth Seat: Master Ervan Dale, deceased 584 CY of a brief illness, no successor formally seated.*
 >
 > *The seats sit vacant. By Aerdi practice, the city's harbor business is conducted by the four mercantile-guild seats only, with the three old-house seats 'pending confirmation.' The first vacancy is two years old this autumn. The second is fourteen months old. The third is six months old.*
 >

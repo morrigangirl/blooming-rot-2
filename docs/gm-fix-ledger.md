@@ -106,14 +106,16 @@ Status key: **OPEN** · **FIXED** · **OVERTURNED** · **PARKED**
 
    Done in v1.6.1: stated in the master ledger; Phase 3's harbor-before-throne reveal now points at the deferrals as instruments that expire (Zoria knows somebody filed them and will have to file again — she does not know the dates); GM note on the two dates added to the Phase 3 reveal page.
 
+8. ~~**CAST-01** · No phase has a single place to put a face to a name; portraits live scattered across actor entries.~~ **FIXED v1.7.2** for Phases 2 and 3 — new *Phase N — NPC Portraits* journals, one page per NPC, alphabetical, each with the portrait and a short line on who they are and why they matter, built from the actor entries so the text stays in your voice. Phase 2 has 14, Phase 3 has 20. Each opens with a *Cast at a Glance* index and a note that showing a face means clicking the portrait and using Show Players from the image popout — the page text is written for the GM. Phases 1 and 4–9 are logged below as CAST-02 through CAST-08.
+
 ### Open
 
 
-8. **TIME-01b** · Propagate autumn 586 through Phases 4–9: the deferral text, the Phase 5 political material, and every *"before the next Overking"* framing. — **OPEN**, Phase 4–9 pass.
-9. **TIME-01c** · Phase 4 says the deferral was filed *"fourteen months ago."* Correct at 582; at 584-plus-travel it reads closer to two years. — **OPEN**, Phase 4 pass.
-10. **TIME-02** · Haskur is *"recoverable but unreliable"* in Greyhawk in Phase 6. If the party takes eight months to reach him, decide deliberately whether he has been moved again. — **OPEN**
-11. **TIME-03** · Phase 4's strategic opening posture assumes a fresh arrival. On the new numbers the Rel Astra firm has between eighteen days and a month of warning unless the party bought the packet. The twelve-hour passenger-list grace still holds. — **OPEN**, Phase 4 pass.
-12. **SEASON-02** · Seasonal treatment for Phases 4–9. — **OPEN**, later pass.
+9. **TIME-01b** · Propagate autumn 586 through Phases 4–9: the deferral text, the Phase 5 political material, and every *"before the next Overking"* framing. — **OPEN**, Phase 4–9 pass.
+10. **TIME-01c** · Phase 4 says the deferral was filed *"fourteen months ago."* Correct at 582; at 584-plus-travel it reads closer to two years. — **OPEN**, Phase 4 pass.
+11. **TIME-02** · Haskur is *"recoverable but unreliable"* in Greyhawk in Phase 6. If the party takes eight months to reach him, decide deliberately whether he has been moved again. — **OPEN**
+12. **TIME-03** · Phase 4's strategic opening posture assumes a fresh arrival. On the new numbers the Rel Astra firm has between eighteen days and a month of warning unless the party bought the packet. The twelve-hour passenger-list grace still holds. — **OPEN**, Phase 4 pass.
+13. **SEASON-02** · Seasonal treatment for Phases 4–9. — **OPEN**, later pass.
 
 ---
 
@@ -122,6 +124,15 @@ Status key: **OPEN** · **FIXED** · **OVERTURNED** · **PARKED**
 No adversarial pass has been run on these. Known items only:
 
 1. **P4-01** · Phase 4's clock, Phase 5's clock (which *terminates* the phase at segment 6), Phase 7's clocks and Phase 9's three clocks were all left untouched by CLOCK-01. Whether they stay is a separate decision. — **OPEN**
-2. **GEN-01** · `docs/remediation-plan-phases-2-6.md` still carries the pre-584 harbor-seat dates. Deliberate: it is a record of past work, not canon. — **PARKED**
-3. **GEN-02** · The release zip is ~630 MB because roughly 650 MB of referenced PNG art ships uncompressed. A WebP pass would cut it substantially. — **PARKED**
-4. **GEN-03** · 39 journals and 1 scene sit at ownership INHERIT rather than explicit NONE. Harmless today; worth normalising. — **PARKED**
+2. **CAST-02** · *Phase 1 — NPC Portraits* — same treatment as Phases 2 and 3. — **OPEN**
+3. **CAST-03** · *Phase 4 — NPC Portraits*. — **OPEN**, Phase 4–9 pass.
+4. **CAST-04** · *Phase 5 — NPC Portraits*. — **OPEN**, Phase 4–9 pass.
+5. **CAST-05** · *Phase 6 — NPC Portraits*. — **OPEN**, Phase 4–9 pass.
+6. **CAST-06** · *Phase 7 — NPC Portraits*. — **OPEN**, Phase 4–9 pass.
+7. **CAST-07** · *Phase 8 — NPC Portraits*. — **OPEN**, Phase 4–9 pass.
+8. **CAST-08** · *Phase 9 — NPC Portraits*. — **OPEN**, Phase 4–9 pass.
+9. **ART-01** · Berrin Onn's portrait file is named `halver-onn-portrait.png` — a leftover from the same Halver/Onn confusion fixed in v1.4.12. The actor is correctly named and correctly pointed at it; only the filename is wrong. Cosmetic. — **OPEN**
+10. **NPC-01** · Tamsin Moraven is *"Mid-fifties"* in the Phase 2 actor entry and *"Forty"* in the Phase 3 one. Both are now visible side by side in the portrait journals. Needs a ruling. — **OPEN**
+11. **GEN-01** · `docs/remediation-plan-phases-2-6.md` still carries the pre-584 harbor-seat dates. Deliberate: it is a record of past work, not canon. — **PARKED**
+12. **GEN-02** · The release zip is ~630 MB because roughly 650 MB of referenced PNG art ships uncompressed. A WebP pass would cut it substantially. — **PARKED**
+13. **GEN-03** · 39 journals and 1 scene sit at ownership INHERIT rather than explicit NONE. Harmless today; worth normalising. — **PARKED**

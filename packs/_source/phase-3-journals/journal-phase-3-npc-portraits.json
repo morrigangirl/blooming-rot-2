@@ -1,0 +1,679 @@
+{
+  "_key": "!journal!BR2P3PortraitJr",
+  "_id": "BR2P3PortraitJr",
+  "name": "Phase 3 — NPC Portraits",
+  "folder": null,
+  "sort": 250000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "blooming-rot-2": {
+      "phase": 3
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "pages": [
+    {
+      "_id": "BR2P3PoPgIndex",
+      "_key": "!journal.pages!BR2P3PortraitJr.BR2P3PoPgIndex",
+      "name": "The Cast at a Glance",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "text": {
+        "content": "<h1>Phase 3 &mdash; The Cast</h1><p><em>Every named Phase 3 NPC with committed art, one to a page, alphabetical. Use it to put a face to a name mid-scene without opening four journals.</em></p><p><strong>Showing a face to the table.</strong> Click the portrait itself and use <em>Show Players</em> from the image popout &mdash; that shares the picture alone. Do <em>not</em> share the page: the text under each portrait is written for you, not for them.</p><table><thead><tr><th>Who</th><th>In one line</th></tr></thead><tbody><tr><td><strong>Ailen Moraven</strong></td><td>Tamsin Moraven's daughter, nineteen, has been living quietly in Hardby since her mother's disappearance.</td></tr><tr><td><strong>Anver \"Tarsh\" Resh</strong></td><td>The intermediary who hired Merev Sarth.</td></tr><tr><td><strong>Berrin Onn</strong></td><td>Mid-fifties vault clerk at the C&amp;V Hardby branch.</td></tr><tr><td><strong>Castrian Vell</strong></td><td>Trina Alvere's Hardby contact, social host for the Commercial Cover party.</td></tr><tr><td><strong>Dren Marsh</strong></td><td>Former harbor-watch corporal, now sleeping guard at the C&amp;V Hardby branch.</td></tr><tr><td><strong>Edrin Saetar</strong></td><td>Sculptor master in the Salters' Quarter.</td></tr><tr><td><strong>Hella Voren</strong></td><td>Veska Maelan's apprentice scribe at the Quay clearing-house.</td></tr><tr><td><strong>Hesren Vesh</strong></td><td>Junior C&amp;V Hardby clerk who was recalled to Hardby from a Loftwick assignment shortly after the firm became aware of the Yeomanry inquiry.</td></tr><tr><td><strong>Joren Krill</strong></td><td>Hardby weighmaster, on Cindren &amp; Vhal's payroll.</td></tr><tr><td><strong>Mira Cindren</strong></td><td>Veshen Cindren's cousin and the C&amp;V Hardby junior partner who handles official delegations.</td></tr><tr><td><strong>Olfard</strong></td><td>Barkeep at the Coopered Wreck on the Hardby waterfront.</td></tr><tr><td><strong>Olo Crask</strong></td><td>Retired Aerdi marine captain hired to guard the recovery target.</td></tr><tr><td><strong>Reyna Worth</strong></td><td>Cindren-aligned overseer who runs a daily check at the third bell.</td></tr><tr><td><strong>Sarro Pell</strong></td><td>Widow housekeeper for Castrian Vell, eleven years' service.</td></tr><tr><td><strong>Solen Mereth</strong></td><td>The compromised senior clerk of the Hardby branch.</td></tr><tr><td><strong>Tamsin Moraven</strong></td><td>The rescued captive whose disappearance triggers Phase 2 and 3.</td></tr><tr><td><strong>Vella Tannin</strong></td><td>Sympathetic clerk at the C&amp;V Hardby branch.</td></tr><tr><td><strong>Veska Maelan</strong></td><td>Caelith Dunivar's Hardby contact.</td></tr><tr><td><strong>Yorra Mel</strong></td><td>Hardby ship captain who runs paying passengers east when the harbor commission has its eyes elsewhere.</td></tr><tr><td><strong>Zoria Weis</strong></td><td>A debt Caelith is calling, not a friend.</td></tr></tbody></table>",
+        "format": 1,
+        "markdown": null
+      }
+    },
+    {
+      "_id": "BR2P3PoPgAilenMorav",
+      "_key": "!journal.pages!BR2P3PortraitJr.BR2P3PoPgAilenMorav",
+      "name": "Ailen Moraven",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "sort": 200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "text": {
+        "content": "<h1>Ailen Moraven</h1><p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/portraits/ailen-moraven-portrait.png\" alt=\"Portrait of Ailen Moraven\" style=\"max-width: 420px; border-radius: 4px;\"></p><p>Tamsin Moraven's daughter, nineteen, has been living quietly in Hardby since her mother's disappearance. Watchful, traveled, cautious. The party may meet her early in Phase 3 and use her safe-house if they earn her trust.</p>",
+        "format": 1,
+        "markdown": null
+      }
+    },
+    {
+      "_id": "BR2P3PoPgAnverTarsh",
+      "_key": "!journal.pages!BR2P3PortraitJr.BR2P3PoPgAnverTarsh",
+      "name": "Anver \"Tarsh\" Resh",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "sort": 300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "text": {
+        "content": "<h1>Anver \"Tarsh\" Resh</h1><p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/portraits/anver-resh-portrait.png\" alt=\"Portrait of Anver \"Tarsh\" Resh\" style=\"max-width: 420px; border-radius: 4px;\"></p><p>The intermediary who hired Merev Sarth. Former Cindren &amp; Vhal Hardby clerk under Solen Mereth (576–582 CY), now a freelance broker operating out of the Coopered Wreck tavern. The Phase 3 confrontation node — yields names if cornered with leverage, will not testify, will not name his Rel Astra contact.</p>",
+        "format": 1,
+        "markdown": null
+      }
+    },
+    {
+      "_id": "BR2P3PoPgBerrinOnn",
+      "_key": "!journal.pages!BR2P3PortraitJr.BR2P3PoPgBerrinOnn",
+      "name": "Berrin Onn",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "sort": 400000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "text": {
+        "content": "<h1>Berrin Onn</h1><p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/portraits/halver-onn-portrait.png\" alt=\"Portrait of Berrin Onn\" style=\"max-width: 420px; border-radius: 4px;\"></p><p>Mid-fifties vault clerk at the C&amp;V Hardby branch. Former Aerdi treasury clerk. Recognizes the firm's seals on sight and can read Aerdi commercial cipher fluently.</p>",
+        "format": 1,
+        "markdown": null
+      }
+    },
+    {
+      "_id": "BR2P3PoPgCastrianVe",
+      "_key": "!journal.pages!BR2P3PortraitJr.BR2P3PoPgCastrianVe",
+      "name": "Castrian Vell",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "sort": 500000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "text": {
+        "content": "<h1>Castrian Vell</h1><p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/portraits/castrian-vell-portrait.png\" alt=\"Portrait of Castrian Vell\" style=\"max-width: 420px; border-radius: 4px;\"></p><p>Trina Alvere's Hardby contact, social host for the Commercial Cover party. Mid-forties, dark curls graying at the temples, careful smile that learned, over years, to look like welcome whether or not it actually is.</p>",
+        "format": 1,
+        "markdown": null
+      }
+    },
+    {
+      "_id": "BR2P3PoPgDrenMarsh",
+      "_key": "!journal.pages!BR2P3PortraitJr.BR2P3PoPgDrenMarsh",
+      "name": "Dren Marsh",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "sort": 600000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "text": {
+        "content": "<h1>Dren Marsh</h1><p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/portraits/dren-marsh-portrait.png\" alt=\"Portrait of Dren Marsh\" style=\"max-width: 420px; border-radius: 4px;\"></p><p>Former harbor-watch corporal, now sleeping guard at the C&amp;V Hardby branch. Stat block: MM Warrior Veteran (per journal attribution). Half-asleep when first encountered; sharper than he looks.</p>",
+        "format": 1,
+        "markdown": null
+      }
+    },
+    {
+      "_id": "BR2P3PoPgEdrinSaeta",
+      "_key": "!journal.pages!BR2P3PortraitJr.BR2P3PoPgEdrinSaeta",
+      "name": "Edrin Saetar",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "sort": 700000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "text": {
+        "content": "<h1>Edrin Saetar</h1><p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/portraits/edrin-saetar-portrait.png\" alt=\"Portrait of Edrin Saetar\" style=\"max-width: 420px; border-radius: 4px;\"></p><p>Sculptor master in the Salters' Quarter. Tutoring Ailen Moraven free of charge — a small kindness in honor of Tamsin's father, who he served under decades ago.</p>",
+        "format": 1,
+        "markdown": null
+      }
+    },
+    {
+      "_id": "BR2P3PoPgHellaVoren",
+      "_key": "!journal.pages!BR2P3PortraitJr.BR2P3PoPgHellaVoren",
+      "name": "Hella Voren",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "sort": 800000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "text": {
+        "content": "<h1>Hella Voren</h1><p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/portraits/hella-voren-portrait.png\" alt=\"Portrait of Hella Voren\" style=\"max-width: 420px; border-radius: 4px;\"></p><p>Veska Maelan's apprentice scribe at the Quay clearing-house. Twenty-three, half-Suel, daughter of harbor pilots. Unrelated to the false 'Voren' name on Haskur Vandrell's letter.</p>",
+        "format": 1,
+        "markdown": null
+      }
+    },
+    {
+      "_id": "BR2P3PoPgHesrenVesh",
+      "_key": "!journal.pages!BR2P3PortraitJr.BR2P3PoPgHesrenVesh",
+      "name": "Hesren Vesh",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "sort": 900000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "text": {
+        "content": "<h1>Hesren Vesh</h1><p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/portraits/hesren-vesh-portrait.png\" alt=\"Portrait of Hesren Vesh\" style=\"max-width: 420px; border-radius: 4px;\"></p><p>Junior C&amp;V Hardby clerk who was recalled to Hardby from a Loftwick assignment shortly after the firm became aware of the Yeomanry inquiry. Honest, anxious, and over his head; the party can extract him if they reach him in time.</p>",
+        "format": 1,
+        "markdown": null
+      }
+    },
+    {
+      "_id": "BR2P3PoPgJorenKrill",
+      "_key": "!journal.pages!BR2P3PortraitJr.BR2P3PoPgJorenKrill",
+      "name": "Joren Krill",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "sort": 1000000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "text": {
+        "content": "<h1>Joren Krill</h1><p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/portraits/joren-krill-portrait.png\" alt=\"Portrait of Joren Krill\" style=\"max-width: 420px; border-radius: 4px;\"></p><p>Hardby weighmaster, on Cindren &amp; Vhal's payroll. Named in Tamsin Moraven's unsent letters as the man who signed off on weights that did not exist. Knows enough to be dangerous; trades information for safe passage.</p>",
+        "format": 1,
+        "markdown": null
+      }
+    },
+    {
+      "_id": "BR2P3PoPgMiraCindre",
+      "_key": "!journal.pages!BR2P3PortraitJr.BR2P3PoPgMiraCindre",
+      "name": "Mira Cindren",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "sort": 1100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "text": {
+        "content": "<h1>Mira Cindren</h1><p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/portraits/mira-cindren-portrait.png\" alt=\"Portrait of Mira Cindren\" style=\"max-width: 420px; border-radius: 4px;\"></p><p>Veshen Cindren's cousin and the C&amp;V Hardby junior partner who handles official delegations. Polite, prepared, gives nothing useful. The face the party meets if they show up under the Official Delegation banner.</p>",
+        "format": 1,
+        "markdown": null
+      }
+    },
+    {
+      "_id": "BR2P3PoPgOlfard",
+      "_key": "!journal.pages!BR2P3PortraitJr.BR2P3PoPgOlfard",
+      "name": "Olfard",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "sort": 1200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "text": {
+        "content": "<h1>Olfard</h1><p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/portraits/olfard-portrait.png\" alt=\"Portrait of Olfard\" style=\"max-width: 420px; border-radius: 4px;\"></p><p>Barkeep at the Coopered Wreck on the Hardby waterfront. Sixty, broken nose from a long-ago brawl, pretends not to listen and remembers everything. Will not fight; will sell what he knows for the right reason.</p>",
+        "format": 1,
+        "markdown": null
+      }
+    },
+    {
+      "_id": "BR2P3PoPgOloCrask",
+      "_key": "!journal.pages!BR2P3PortraitJr.BR2P3PoPgOloCrask",
+      "name": "Olo Crask",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "sort": 1300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "text": {
+        "content": "<h1>Olo Crask</h1><p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/portraits/olo-crask-portrait.png\" alt=\"Portrait of Olo Crask\" style=\"max-width: 420px; border-radius: 4px;\"></p><p>Retired Aerdi marine captain hired to guard the recovery target. Stat block: MM Bandit Captain. Leads five Thugs (MM). Will surrender for a fair price and a quiet exit.</p>",
+        "format": 1,
+        "markdown": null
+      }
+    },
+    {
+      "_id": "BR2P3PoPgReynaWorth",
+      "_key": "!journal.pages!BR2P3PortraitJr.BR2P3PoPgReynaWorth",
+      "name": "Reyna Worth",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "sort": 1400000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "text": {
+        "content": "<h1>Reyna Worth</h1><p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/portraits/reyna-worth-portrait.png\" alt=\"Portrait of Reyna Worth\" style=\"max-width: 420px; border-radius: 4px;\"></p><p>Cindren-aligned overseer who runs a daily check at the third bell. Fifties, Aerdi expat, paid by the firm to notice things and to forget them in the right order.</p>",
+        "format": 1,
+        "markdown": null
+      }
+    },
+    {
+      "_id": "BR2P3PoPgSarroPell",
+      "_key": "!journal.pages!BR2P3PortraitJr.BR2P3PoPgSarroPell",
+      "name": "Sarro Pell",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "sort": 1500000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "text": {
+        "content": "<h1>Sarro Pell</h1><p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/portraits/sarro-pell-portrait.png\" alt=\"Portrait of Sarro Pell\" style=\"max-width: 420px; border-radius: 4px;\"></p><p>Widow housekeeper for Castrian Vell, eleven years' service. 'Notices everything.' Late forties, Hardby-born, distantly related to Ostren Pell of Loftwick (no living connection).</p>",
+        "format": 1,
+        "markdown": null
+      }
+    },
+    {
+      "_id": "BR2P3PoPgSolenMeret",
+      "_key": "!journal.pages!BR2P3PortraitJr.BR2P3PoPgSolenMeret",
+      "name": "Solen Mereth",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "sort": 1600000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "text": {
+        "content": "<h1>Solen Mereth</h1><p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/portraits/solen-mereth-portrait.png\" alt=\"Portrait of Solen Mereth\" style=\"max-width: 420px; border-radius: 4px;\"></p><p>The compromised senior clerk of the Hardby branch. Late sixties, not corrupt by inclination but pressured into compliance for nearly three years. Yields under proper procedural pressure; will not survive the trial that follows.</p>",
+        "format": 1,
+        "markdown": null
+      }
+    },
+    {
+      "_id": "BR2P3PoPgTamsinMora",
+      "_key": "!journal.pages!BR2P3PortraitJr.BR2P3PoPgTamsinMora",
+      "name": "Tamsin Moraven",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "sort": 1700000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "text": {
+        "content": "<h1>Tamsin Moraven</h1><p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/portraits/tamsin-moraven-portrait.png\" alt=\"Portrait of Tamsin Moraven\" style=\"max-width: 420px; border-radius: 4px;\"></p><p>The rescued captive whose disappearance triggers Phase 2 and 3. Forty, runs (ran) a counting house on Tannerway. Mother of Ailen, wife of Vellin. Recovered alive but altered by the experience.</p>",
+        "format": 1,
+        "markdown": null
+      }
+    },
+    {
+      "_id": "BR2P3PoPgVellaTanni",
+      "_key": "!journal.pages!BR2P3PortraitJr.BR2P3PoPgVellaTanni",
+      "name": "Vella Tannin",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "sort": 1800000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "text": {
+        "content": "<h1>Vella Tannin</h1><p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/portraits/vella-tannin-portrait.png\" alt=\"Portrait of Vella Tannin\" style=\"max-width: 420px; border-radius: 4px;\"></p><p>Sympathetic clerk at the C&amp;V Hardby branch. Path-2 contact who feeds the party intel without revealing herself to her employer. Recurs into Phase 4 and Phase 5.</p>",
+        "format": 1,
+        "markdown": null
+      }
+    },
+    {
+      "_id": "BR2P3PoPgVeskaMaela",
+      "_key": "!journal.pages!BR2P3PortraitJr.BR2P3PoPgVeskaMaela",
+      "name": "Veska Maelan",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "sort": 1900000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "text": {
+        "content": "<h1>Veska Maelan</h1><p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/portraits/veska-maelan-portrait.png\" alt=\"Portrait of Veska Maelan\" style=\"max-width: 420px; border-radius: 4px;\"></p><p>Caelith Dunivar's Hardby contact. Reads the Aerdi clearing-marks better than anyone outside the firms themselves. The investigative gateway of Phase 3 — her notarial opinion turns the recovered evidence into a court-admissible package.</p>",
+        "format": 1,
+        "markdown": null
+      }
+    },
+    {
+      "_id": "BR2P3PoPgYorraMel",
+      "_key": "!journal.pages!BR2P3PortraitJr.BR2P3PoPgYorraMel",
+      "name": "Yorra Mel",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "sort": 2000000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "text": {
+        "content": "<h1>Yorra Mel</h1><p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/portraits/yorra-mel-portrait.png\" alt=\"Portrait of Yorra Mel\" style=\"max-width: 420px; border-radius: 4px;\"></p><p>Hardby ship captain who runs paying passengers east when the harbor commission has its eyes elsewhere. Stat block: MM Pirate. Recurs in the Hardby sandbox and Phase 4 arrival options.</p>",
+        "format": 1,
+        "markdown": null
+      }
+    },
+    {
+      "_id": "BR2P3PoPgZoriaWeis",
+      "_key": "!journal.pages!BR2P3PortraitJr.BR2P3PoPgZoriaWeis",
+      "name": "Zoria Weis",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "sort": 2100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "text": {
+        "content": "<h1>Zoria Weis</h1><p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/portraits/zoria-weis-portrait.png\" alt=\"Portrait of Zoria Weis\" style=\"max-width: 420px; border-radius: 4px;\"></p><p>A debt Caelith is calling, not a friend. Zoria works in the Hardby Gynarchy registry. She will help once the agreed phrase is spoken — and she will remember the help.</p>",
+        "format": 1,
+        "markdown": null
+      }
+    }
+  ]
+}

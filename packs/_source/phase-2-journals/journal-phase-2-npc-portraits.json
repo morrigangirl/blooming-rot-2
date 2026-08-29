@@ -1,0 +1,493 @@
+{
+  "_key": "!journal!BR2P2PortraitJr",
+  "_id": "BR2P2PortraitJr",
+  "name": "Phase 2 — NPC Portraits",
+  "folder": null,
+  "sort": 250000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "blooming-rot-2": {
+      "phase": 2
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "pages": [
+    {
+      "_id": "BR2P2PoPgIndex",
+      "_key": "!journal.pages!BR2P2PortraitJr.BR2P2PoPgIndex",
+      "name": "The Cast at a Glance",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "text": {
+        "content": "<h1>Phase 2 &mdash; The Cast</h1><p><em>Every named Phase 2 NPC with committed art, one to a page, alphabetical. Use it to put a face to a name mid-scene without opening four journals.</em></p><p><strong>Showing a face to the table.</strong> Click the portrait itself and use <em>Show Players</em> from the image popout &mdash; that shares the picture alone. Do <em>not</em> share the page: the text under each portrait is written for you, not for them.</p><table><thead><tr><th>Who</th><th>In one line</th></tr></thead><tbody><tr><td><strong>Arthen Moll</strong></td><td>Deputy Voice of Civic Reconciliation.</td></tr><tr><td><strong>Brell Kostan</strong></td><td>Yeomanry sergeant, twenty years in.</td></tr><tr><td><strong>Doman Reith</strong></td><td>The party reaches him too late.</td></tr><tr><td><strong>Doril Veth</strong></td><td>Tamsin Moraven's chief clerk at her counting house on Tannerway.</td></tr><tr><td><strong>Halir Anwic</strong></td><td>Yeomanry sergeant who was on Tamsin Moraven's case until he was reassigned.</td></tr><tr><td><strong>Merev Sarth</strong></td><td>Hired through three intermediaries by a paymaster the party will not be able to trace in Phase 2.</td></tr><tr><td><strong>Merro Gilst</strong></td><td>Witness whose room is tossed during Phase 2 evidence-gathering.</td></tr><tr><td><strong>Reln Pollow</strong></td><td>Contract-physician.</td></tr><tr><td><strong>Rosalin Brent</strong></td><td>Mid-fifties; weathered; capable.</td></tr><tr><td><strong>\"Sparrow\" (Anla Coyle)</strong></td><td>Posted watcher on Wick Lane in the Phase 2 chase scene (Movement Two: The City, Scene 3d — The Sparrow's Run).</td></tr><tr><td><strong>Tamsin Moraven</strong></td><td>Senior grain factor, Loftwick.</td></tr><tr><td><strong>Trina Alvere</strong></td><td>Caelith Dunivar's private advisor.</td></tr><tr><td><strong>Vellin Moraven</strong></td><td>Tamsin Moraven's husband.</td></tr><tr><td><strong>Veshen Cindren</strong></td><td>Senior partner of Cindren &amp; Vhal in Greyhawk.</td></tr></tbody></table>",
+        "format": 1,
+        "markdown": null
+      }
+    },
+    {
+      "_id": "BR2P2PoPgArthenMoll",
+      "_key": "!journal.pages!BR2P2PortraitJr.BR2P2PoPgArthenMoll",
+      "name": "Arthen Moll",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "sort": 200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "text": {
+        "content": "<h1>Arthen Moll</h1><p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/portraits/arthen-moll-portrait.png\" alt=\"Portrait of Arthen Moll\" style=\"max-width: 420px; border-radius: 4px;\"></p><p>Deputy Voice of Civic Reconciliation. Mid-fifties, round, well-dressed in pearl-gray and dark blue, with a polished friendly smile. Visits the party with two clerks once they have identified at least two of the three names (Cindren &amp; Vhal, Gilst, Moraven) but before they choose a travel approach.</p>",
+        "format": 1,
+        "markdown": null
+      }
+    },
+    {
+      "_id": "BR2P2PoPgBrellKosta",
+      "_key": "!journal.pages!BR2P2PortraitJr.BR2P2PoPgBrellKosta",
+      "name": "Brell Kostan",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "sort": 300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "text": {
+        "content": "<h1>Brell Kostan</h1><p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/portraits/brell-kostan-portrait.png\" alt=\"Portrait of Brell Kostan\" style=\"max-width: 420px; border-radius: 4px;\"></p><p>Yeomanry sergeant, twenty years in. Disarms Merev Sarth in the pre-dawn retrieval-attempt scene. Stat block: MM Warrior Veteran. Reluctant participant, follows orders, dislikes the operation he's part of.</p>",
+        "format": 1,
+        "markdown": null
+      }
+    },
+    {
+      "_id": "BR2P2PoPgDomanReith",
+      "_key": "!journal.pages!BR2P2PortraitJr.BR2P2PoPgDomanReith",
+      "name": "Doman Reith",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "sort": 400000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "text": {
+        "content": "<h1>Doman Reith</h1><p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/portraits/doman-reith-portrait.png\" alt=\"Portrait of Doman Reith\" style=\"max-width: 420px; border-radius: 4px;\"></p><p>The party reaches him too late. His final words are 'I am sorry. They had a writ.' His receipts and his death are the case the party is investigating. Stat block included for narrative tokens; he has no living-actor function.</p>",
+        "format": 1,
+        "markdown": null
+      }
+    },
+    {
+      "_id": "BR2P2PoPgDorilVeth",
+      "_key": "!journal.pages!BR2P2PortraitJr.BR2P2PoPgDorilVeth",
+      "name": "Doril Veth",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "sort": 500000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "text": {
+        "content": "<h1>Doril Veth</h1><p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/portraits/doril-veth-portrait.png\" alt=\"Portrait of Doril Veth\" style=\"max-width: 420px; border-radius: 4px;\"></p><p>Tamsin Moraven's chief clerk at her counting house on Tannerway. Mid-fifties, methodical, has run her books for eleven years. Knows what the missing receipts mean and is afraid of saying so out loud.</p>",
+        "format": 1,
+        "markdown": null
+      }
+    },
+    {
+      "_id": "BR2P2PoPgHalirAnwic",
+      "_key": "!journal.pages!BR2P2PortraitJr.BR2P2PoPgHalirAnwic",
+      "name": "Halir Anwic",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "sort": 600000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "text": {
+        "content": "<h1>Halir Anwic</h1><p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/portraits/halir-anwic-portrait.png\" alt=\"Portrait of Halir Anwic\" style=\"max-width: 420px; border-radius: 4px;\"></p><p>Yeomanry sergeant who was on Tamsin Moraven's case until he was reassigned. Approaches the party privately with what he was not allowed to write down. Senior to Brell Kostan, more cynical.</p>",
+        "format": 1,
+        "markdown": null
+      }
+    },
+    {
+      "_id": "BR2P2PoPgMerevSarth",
+      "_key": "!journal.pages!BR2P2PortraitJr.BR2P2PoPgMerevSarth",
+      "name": "Merev Sarth",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "sort": 700000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "text": {
+        "content": "<h1>Merev Sarth</h1><p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/portraits/merev-sarth-portrait.png\" alt=\"Portrait of Merev Sarth\" style=\"max-width: 420px; border-radius: 4px;\"></p><p>Hired through three intermediaries by a paymaster the party will not be able to trace in Phase 2. Her contract is to retrieve or destroy the contents of the Strong Room, not to kill.</p>",
+        "format": 1,
+        "markdown": null
+      }
+    },
+    {
+      "_id": "BR2P2PoPgMerroGilst",
+      "_key": "!journal.pages!BR2P2PortraitJr.BR2P2PoPgMerroGilst",
+      "name": "Merro Gilst",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "sort": 800000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "text": {
+        "content": "<h1>Merro Gilst</h1><p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/portraits/merro-gilst-portrait.png\" alt=\"Portrait of Merro Gilst\" style=\"max-width: 420px; border-radius: 4px;\"></p><p>Witness whose room is tossed during Phase 2 evidence-gathering. Identified in research; the party may track him for what he saw. Anxious, lives alone, keeps written copies of every receipt he ever signs.</p>",
+        "format": 1,
+        "markdown": null
+      }
+    },
+    {
+      "_id": "BR2P2PoPgRelnPollow",
+      "_key": "!journal.pages!BR2P2PortraitJr.BR2P2PoPgRelnPollow",
+      "name": "Reln Pollow",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "sort": 900000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "text": {
+        "content": "<h1>Reln Pollow</h1><p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/portraits/reln-pollow-portrait.png\" alt=\"Portrait of Reln Pollow\" style=\"max-width: 420px; border-radius: 4px;\"></p><p>Contract-physician. Confronted at his office in three Phase 2 scenes. Forty, careful with his words, knows Tamsin's case from when he attended Doman in his last hour.</p>",
+        "format": 1,
+        "markdown": null
+      }
+    },
+    {
+      "_id": "BR2P2PoPgRosalinBre",
+      "_key": "!journal.pages!BR2P2PortraitJr.BR2P2PoPgRosalinBre",
+      "name": "Rosalin Brent",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "sort": 1000000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "text": {
+        "content": "<h1>Rosalin Brent</h1><p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/portraits/rosalin-brent-portrait.png\" alt=\"Portrait of Rosalin Brent\" style=\"max-width: 420px; border-radius: 4px;\"></p><p>Mid-fifties; weathered; capable. Half-sister of Haskur Vandrell (same mother, different fathers). Runs the small roadhouse on the South Wool Road two days' ride south of Loftwick. NEW for Phase 2 sidequest — see the journal Phase 2 — Sidequest: The Sign of the Brown Hare.</p>",
+        "format": 1,
+        "markdown": null
+      }
+    },
+    {
+      "_id": "BR2P2PoPgSparrowAnl",
+      "_key": "!journal.pages!BR2P2PortraitJr.BR2P2PoPgSparrowAnl",
+      "name": "\"Sparrow\" (Anla Coyle)",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "sort": 1100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "text": {
+        "content": "<h1>\"Sparrow\" (Anla Coyle)</h1><p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/portraits/sparrow-portrait.png\" alt=\"Portrait of \"Sparrow\" (Anla Coyle)\" style=\"max-width: 420px; border-radius: 4px;\"></p><p>Posted watcher on Wick Lane in the Phase 2 chase scene (Movement Two: The City, Scene 3d — The Sparrow's Run). Anla Coyle, about sixteen, wiry, watchful, a former message-runner thrown out of work when the little courier-house she ran for folded.</p>",
+        "format": 1,
+        "markdown": null
+      }
+    },
+    {
+      "_id": "BR2P2PoPgTamsinMora",
+      "_key": "!journal.pages!BR2P2PortraitJr.BR2P2PoPgTamsinMora",
+      "name": "Tamsin Moraven",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "sort": 1200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "text": {
+        "content": "<h1>Tamsin Moraven</h1><p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/portraits/tamsin-moraven-portrait.png\" alt=\"Portrait of Tamsin Moraven\" style=\"max-width: 420px; border-radius: 4px;\"></p><p>Senior grain factor, Loftwick. Mid-fifties — tall, capable, dark hair gone iron-gray at the temples. Wears a dark green merchant's overdress, brass measuring key on a cord at her hip. Twelve years in independent trade; before that, she clerked for the Loftwick Treasury's Grain Office.</p>",
+        "format": 1,
+        "markdown": null
+      }
+    },
+    {
+      "_id": "BR2P2PoPgTrinaAlver",
+      "_key": "!journal.pages!BR2P2PortraitJr.BR2P2PoPgTrinaAlver",
+      "name": "Trina Alvere",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "sort": 1300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "text": {
+        "content": "<h1>Trina Alvere</h1><p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/portraits/trina-alvere-portrait.png\" alt=\"Portrait of Trina Alvere\" style=\"max-width: 420px; border-radius: 4px;\"></p><p>Caelith Dunivar's private advisor. Patron of the arts in Loftwick. Mentor — quietly, without announcement — to Alicia. Looks mid-thirties; the arithmetic does not survive scrutiny. Pale. Silver-streaked dark hair worn long and braided. Wears soft fabrics in muted greens and grays. Speaks just loudly enough to be heard; people lean in to listen.</p>",
+        "format": 1,
+        "markdown": null
+      }
+    },
+    {
+      "_id": "BR2P2PoPgVellinMora",
+      "_key": "!journal.pages!BR2P2PortraitJr.BR2P2PoPgVellinMora",
+      "name": "Vellin Moraven",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "sort": 1400000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "text": {
+        "content": "<h1>Vellin Moraven</h1><p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/portraits/vellin-moraven-portrait.png\" alt=\"Portrait of Vellin Moraven\" style=\"max-width: 420px; border-radius: 4px;\"></p><p>Tamsin Moraven's husband. Potential hostage thread in Phase 2; at risk if the party moves too publicly. Forty, mild, manages the household while Tamsin runs the counting house.</p>",
+        "format": 1,
+        "markdown": null
+      }
+    },
+    {
+      "_id": "BR2P2PoPgVeshenCind",
+      "_key": "!journal.pages!BR2P2PortraitJr.BR2P2PoPgVeshenCind",
+      "name": "Veshen Cindren",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "sort": 1500000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "text": {
+        "content": "<h1>Veshen Cindren</h1><p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/portraits/veshen-cindren-portrait.png\" alt=\"Portrait of Veshen Cindren\" style=\"max-width: 420px; border-radius: 4px;\"></p><p>Senior partner of Cindren &amp; Vhal in Greyhawk. Hosts the Festival of Lamps reception where the party may first encounter the firm's leadership. Cordial, evasive, careful.</p>",
+        "format": 1,
+        "markdown": null
+      }
+    }
+  ]
+}

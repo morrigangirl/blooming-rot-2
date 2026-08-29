@@ -13,6 +13,37 @@ The running list. Every finding from every adversarial review lives here until i
 
 Status key: **OPEN** · **FIXED** · **OVERTURNED** · **PARKED**
 
+**Review status.** Phases 1–9 have all had an adversarial pass. Phases 2 and 3 are closed out. Phases 1 and 4–9 were reviewed on 2026-08-29 against v1.7.2 and every finding below is open; each finding's quotes were grep-verified against the shipped journal text before being filed. One ID, `P4-01`, was reused by accident and has been redirected — see *Cross-phase — carried forward*.
+
+---
+
+## Phase 1 — The Little Palace
+
+Adversarial pass run 584/v1.7.2 (2026-08-29). 20 findings, every quote grep-verified against the shipped journal text. **Guardrail: clean** — zero hits for Drow, Eclavdra, Eilserv, Erelhei-Cinlu or Underdark, player-facing or otherwise.
+
+### Open
+
+1. **P1-01** · HIGH · The Phase 1 cliffhanger has a Rel Astra–sealed letter answer the party's Loftwick arrival by next breakfast — a round trip canon prices at months. *"they are already known, and someone in Rel Astra does not want them to come east"* against *"Seventh bell after dawn, breakfast in the Refectory. Elsbet brings the post."* Proposed: keep the crane-and-coins seal, change the takeaway to *someone in Loftwick carries this house's seal* — a local agent posted it. Repairs P1-08 at the same time. — **OPEN**
+2. **P1-02** · HIGH · The phase's mandatory clue sits behind a lone Investigation DC 16 with no fallback (*"Investigation DC 16: A small marginal endorsement in a different hand reads"*). Proposed: Caelith reads it aloud himself if nobody beats the DC before they leave the Strong Room. — **OPEN**
+3. **P1-03** · HIGH · The Strong Room needs two keys and Caelith opens it alone. *"two locks (Caelith and Elsbet each hold one; both must turn)"* vs *"unlocks it himself."* Proposed: Elsbet comes down, both locks turn, she withdraws. — **OPEN**
+4. **P1-04** · HIGH · *"Caelith does not allow items to leave the room without his witness"* against a Phase 1→2 handoff that sends the party a thousand miles to have the letter of credit read by Veska Maelan. Proposed: a witnessed fair copy (seals traced, not lifted) travels; the original stays in C5. — **OPEN**
+5. **P1-05** · HIGH · Two player-facing plaques dated **4470 CY** (twice — Overview and M4) and **4082 CY** (C6) in a 584 CY campaign. Proposed: 184 CY and 213 CY. See YEAR-01. — **OPEN**
+6. **P1-06** · MEDIUM · *"eighth-century precursor to Caelith's modern post"* — two hundred years in the future, hanging in a building the same page dates to c. 184 CY. Proposed: second-century. — **OPEN**
+7. **P1-07** · MEDIUM · The party's honour token is a *"brass Hand-of-the-Duke token"* on Caelith's desk and a *"sealed wooden token (Friend of the Common Defense)"* two scenes earlier — and the Yeomanry has no duke. Reads as import residue. — **OPEN**
+8. **P1-08** · MEDIUM · The GM brief forbids establishing Rel Astra as Haskur's destination; the commission, the Private Warning and the cliffhanger all state it. — **OPEN**
+9. **P1-09** · MEDIUM · Two sealed letters in the evidence wallet — one bearing the phase's central crane-and-coins seal — have no stated contents, no permission rule and no checks anywhere. Players will open them inside a minute. — **OPEN**
+10. **P1-10** · MEDIUM · Mira Holt is flagged twice as suspicious and cross-referenced to *"(See first-night complications.)"*, where none of the six entries involve her. — **OPEN**
+11. **P1-11** · MEDIUM · Second-floor scene ships two doors; the fiction needs at least four. U2 has no door to close for the phase's centrepiece scene, and U4 (*"normally locked"*) has none to lock. See WALL-01. — **OPEN**
+12. **P1-12** · MEDIUM · The cellar route Scene 5 walks (M12 → C1 → C5) crosses a shipped wall with no door; C1's key lists only C2 and C4 as exits. See WALL-01. — **OPEN**
+13. **P1-13** · MEDIUM · The M5 underwriting notice says *"the third quarter running"*; the forward hook summarises it as *"two consecutive quarters."* — **OPEN**
+14. **P1-14** · MEDIUM · The end-of-phase picture states the magpie as fact (*"A magpie carried a copper ring west at dawn"*), but it is one of six optional complications of which the GM runs one. Also *"at dawn"* vs *"the second bell of morning."* — **OPEN**
+15. **P1-15** · MEDIUM · The Keeper of Foreign Correspondence's stat block reads *"Languages: None (per the formal Yeomanry sheet)."* Also carries a meaningless *Darkvision 0 ft* in Senses. See DARK-01. — **OPEN**
+16. **P1-16** · LOW · Caelith's designed escape valve is gated: *"Cunning Action (Recharge 5–6)"*. It should be at-will, or a party can pin him and force the combat the phase says must not happen. — **OPEN**
+17. **P1-17** · LOW · The magpie window is placed in Caelith's office, in a guest room, and at U3/U6, across three pages. — **OPEN**
+18. **P1-18** · LOW · Five PCs, two named suites, two beds. Three PCs have nowhere assigned, which leaves every *"a guest's door / a guest's window"* complication undefined. — **OPEN**
+19. **P1-19** · LOW · The Loftwick city scene runs at the interior tactical grid (100 px / 5 ft), making the whole city 250 × 335 ft — the chase the page invites resolves in two rounds. See WALL-03. — **OPEN**
+20. **P1-20** · LOW · C7, the GM-only service tunnel, ships unwalled and lit in a room the party occupies in Scene 5: *"No wall there; tokens may pass through it."* Proposed: ship a secret door across the gap. See WALL-01. — **OPEN**
+
 ---
 
 ## Phase 2 — The Dead Man's Receipts
@@ -91,6 +122,237 @@ Status key: **OPEN** · **FIXED** · **OVERTURNED** · **PARKED**
 
 ---
 
+## Phase 4 — Rel Astra
+
+Adversarial pass run 584/v1.7.2 (2026-08-29). 29 findings, every quote grep-verified. **Guardrail: one leak — see P4-19 and GUARD-01.**
+
+*Note on numbering: the ID `P4-01` was already spent on a cross-phase clock item filed before this review. That item has been redirected to `CLOCK-03`; the Phase 4 findings below use the review's own numbering from P4-01.*
+
+### Open
+
+1. **P4-01** · HIGH · All three arrivals cross Hardby→Rel Astra in days. *"The Lacquer Wave makes its turn into the Old Harbor on the morning of the seventh day"*; *"You crest the last low ridge five days out of Hardby."* Against the sanctioned 4.5–11.5 weeks. See TRAVEL-03. — **OPEN**
+2. **P4-02** · HIGH · Caelith's letters cross the Flanaess in *"two to three days behind the news that prompted them"* and *"reached me on the second day after you sailed."* See TRAVEL-03. — **OPEN**
+3. **P4-03** · HIGH · The diplomatic carriage arrives *"on the morning of the eighth day"* while the same page charges it +2 clock segments because *"the conspiracy has had over three weeks to prepare."* — **OPEN**
+4. **P4-04** · HIGH · A PC is written as an offscreen NPC: *"Trina sends her regards. So does Alicia, by Trina's hand."* Proposed: cut the second sentence. See PC-01. — **OPEN**
+5. **P4-05** · HIGH · Caelith's own signed letter refers to Caelith in the third person: *"I am still in the post Caelith holds."* — **OPEN**
+6. **P4-06** · HIGH · The seating vote is *"seated 3-1"* on the Pressure Clock (twice) and *"pass 2-1 with Veth alone in dissent"* on the commission page. Only three votes are cast; 3-1 is impossible. — **OPEN**
+7. **P4-07** · HIGH · *"majority vote of sitting commissioners"* with four sitting means three votes to seat — a total the conspiracy's own bloc cannot reach, so the party wins Phase 4 by reading the procedure aloud. **Needs a ruling:** switch to majority of votes cast (abstentions uncounted), or redesign the bloc. — **OPEN**
+8. **P4-08** · HIGH · Astor loses council votes *"4–3"* while Halask counts *"three members the conspiracy has cultivated and four it has not"* — on Halask's numbers Astor holds the majority. A third split (5-2) appears at confirmation. — **OPEN**
+9. **P4-09** · HIGH · Letter 6, a player handout, gives the annotator's location and gender — both on the phase's own must-not-learn list. *"several thousand miles from any sea any of us have ever sailed."* — **OPEN**
+10. **P4-10** · HIGH · The brief plans a twelve-day phase (*"Day 9–12: Departure / aftermath"*); Path 1 runs to *"Days 30–60."* Every clock estimate and approach window is calibrated to the wrong length. — **OPEN**
+11. **P4-11** · HIGH · The per-day clock trigger burns the four-segment clock several times over during Path 1's own eighteen-day deposition window, so the "certain" path is rigged to fire segment 4 — the outcome it was chosen to prevent. — **OPEN**
+12. **P4-12** · HIGH · Instance 4 issues both remaining "E." observations at once, leaving the drip-feed instruction and the Instance 5 finale with nothing. — **OPEN**
+13. **P4-13** · MEDIUM · Sereth's "E." quote is cross-referenced to *"his NPC entry under What Sereth will not concede > The annotation hand"* — a section that does not exist on that page. — **OPEN**
+14. **P4-14** · MEDIUM · Vesh offers to refer *"the eighth-seat vacancy"* back to open nomination on a seven-seat commission. He is the Fifth Seat candidate. — **OPEN**
+15. **P4-15** · MEDIUM · The Galenix briefing is *"no record kept, no public connection"* on his page and *"+1 (the embassy leaks the visit within a day)"* on the clock. — **OPEN**
+16. **P4-16** · MEDIUM · The brief calibrates the Sereth fight *"for a six-PC level-9 party"*; every other combat note in the phase assumes five, and Cam is absent. See PC-01. — **OPEN**
+17. **P4-17** · MEDIUM · Tenrel is declared immune to §187 and then handed a §187 disqualification via Halask, collapsing the phase's hardest candidate into one question. — **OPEN**
+18. **P4-18** · MEDIUM · Sereth's trial is *"within sixty days"*, *"sixty days after the preliminary"* (= day 89), *"Days 30–60"*, and *"in ninety days"* in the ending read-aloud. Four incompatible answers. — **OPEN**
+19. **P4-19** · HIGH · **Guardrail leak.** *"(Spoiler: Eclavdra of House Eilserv, but the campaign should never name her until and unless the party reaches the underdark.)"* sits on the same journal page as the phase's closing read-aloud — `phase-4-journals/journal-phase-4-finale.json`. Proposed: split "Where the campaign goes from here" onto its own GM-only page. See GUARD-01. — **OPEN**
+20. **P4-20** · MEDIUM · Path 1 files on Day 5 but its stated prerequisite can take ten days to subpoena; the filing date is unreachable for parties who skipped the Phase 3 burglary. — **OPEN**
+21. **P4-21** · MEDIUM · Galenix's debt was *"accumulated over six years"* but partly signed by a predecessor dead roughly thirteen years. The party's cleanest lever on him fails the moment anyone dates the loans. — **OPEN**
+22. **P4-22** · MEDIUM · Halask writes off the three uncompromised councilors while one of them, Adra Sayan, is his own old colleague and his key deposition witness. The party never hears her name from the man who knows her. — **OPEN**
+23. **P4-23** · MEDIUM · *"(He is wrong about this in one specific way — see The Sereth Confrontation.)"* The Sereth Confrontation journal never identifies the blind spot. — **OPEN**
+24. **P4-24** · MEDIUM · Path 3 yields two extra "E." instances against an ending read-aloud that states *"five observations on file"* unconditionally — and gates them behind *"a good Investigation roll"* with no DC and no fallback. — **OPEN**
+25. **P4-25** · LOW · Mirelth is bankrupt *"for four years"* and collapsed *"in 578"* (six years). — **OPEN**
+26. **P4-26** · LOW · The no-indictment withdrawal option credits the delay to *"the indictment."* — **OPEN**
+27. **P4-27** · LOW · Vesh has been under pressure *"for the last fourteen months"* from a prosecution that began *"nine months ago."* The fourteen is the Third Seat's vacancy duration. — **OPEN**
+28. **P4-28** · LOW · *"approximately twelve hours"* of grace on a schedule that gives about nineteen. — **OPEN**
+29. **P4-29** · LOW · *"the swing two votes (Vesh + Tenrel + Veshanen)"* names three. — **OPEN**
+
+---
+
+## Phase 5 — Return to Loftwick
+
+Adversarial pass run 584/v1.7.2 (2026-08-29). 31 findings, every quote grep-verified. **Guardrail: clean** — all four hits are prohibitive GM prose. One near-miss logged as GUARD-02.
+
+### Open
+
+1. **P5-01** · HIGH · Every dated NPC bio and one handout runs a thousand years fast: *"from 1554 to 1576"*, *"Lent, 1574 CY"*, *"autumn of 1573"*, *"late 1560s"*, *"the 1550s"*, *"since 1568"*, *"in 1571"*, *"in 1572"*, *"in 1580"*, *"in 1577"*, *"the 1571 Hool Marsh bandit campaign"*, *"in 1578"*, *"1572-onward correspondence summaries"*. Files: `journal-phase-5-debrief.json`, `journal-phase-5-loftwick-npcs.json`. Fix is mechanical — strip the leading 1. See YEAR-01. — **OPEN**
+2. **P5-02** · HIGH · The phase's keystone player handout dates the central annotation *"Lent, 1574 CY"* — an Earth liturgical month. Proposed: *Readying, 574 CY* (early spring, four to five months after the stated autumn milling). See CAL-01. — **OPEN**
+3. **P5-03** · HIGH · A Greyhawk City affidavit reaches Loftwick in *"five days ago"* (twice) / *"Five days before the party returned."* Proposed: five weeks, with the framing speech gaining *"the sighting is five weeks stale."* See TRAVEL-03. — **OPEN**
+4. **P5-04** · HIGH · *"He wrote Caelith four days before the party returned"* / *"Halask wrote me four days ago"* — Rel Astra to Loftwick, and one of them is inside a player handout. See TRAVEL-03. — **OPEN**
+5. **P5-05** · HIGH · *"Phase 6 opens aboard a Hardby coastal galley bound for Rel Astra, fourteen days after departure"* on a three-week minimum road; and Vector D is offered *in parallel* with a Loftwick vector, asking two PCs to be on both sides of a four-month round trip. — **OPEN**
+6. **P5-06** · HIGH · The Pressure Clock is both a fixed calendar (*"segment 6 is that vote"* on Day 9) and trigger-advanced (*"+2 immediate"*), so two triggers on Day 3 fire the Council's binding vote six days before the Council sits. **Needs a ruling:** split into a fixed day-calendar plus a separate Heat track. — **OPEN**
+7. **P5-07** · HIGH · Letter 7 Variant C orders *"do not move on Vesten Quill before the morning of the eighth day from this letter"* — but the letter is handed over on Day 9, after the Quill raid it governs. Proposed: make Variant C a spoken Day-2 briefing and leave Letter 7 as three road-only variants. — **OPEN**
+8. **P5-08** · HIGH · The same evidence both passes and does not pass the Closure motion, inside one sentence: *"the renewed vote remains 4–3 and the Closure motion passes"* vs *"The motion does not pass on Day 9; it is held over."* — **OPEN**
+9. **P5-09** · HIGH · Aldea's cottage is *"a day's careful ride west"*, *"three days' careful ride west and slightly south"*, and *"a day's careful ride west... then a half-day's ride south"* — and with a Day-9 hard deadline this decides whether the phase's climax is reachable. — **OPEN**
+10. **P5-10** · MEDIUM · The courier schedule uses Earth weekdays: *"Tuesday and Friday mornings"*, *"once on Wednesdays"*. See CAL-01. — **OPEN**
+11. **P5-11** · MEDIUM · *"The courier crosses this alley twice a week"* while three crossing days are named; a party budgeting stakeouts plans one watch short. — **OPEN**
+12. **P5-12** · MEDIUM · The dead-drop pickup is *"the morning following any cold-stove rag signal"* on one page and *"the morning of pickup... the courier walks past at the seventh bell"* on another. The tail fails and nobody at the table can tell whether it was a bad roll or a bad rule. — **OPEN**
+13. **P5-13** · MEDIUM · Pell is recruited *"at twenty-eight"*, two years ago, five years ago, and before he could see the correspondence he was paid to copy. Proposed: thirty-one throughout. — **OPEN**
+14. **P5-14** · MEDIUM · Mairra's renewed vote is called *"a third raised vote"* when only one has been held — a GM taking it literally may rule her procedurally barred from the phase's only political win. — **OPEN**
+15. **P5-15** · MEDIUM · Haskur's gear was read in the Civic Office and in the Strong Room (L7), twelve hours apart in play, both as continuity callbacks. — **OPEN**
+16. **P5-16** · MEDIUM · The party enters Greyhawk by *"the eastern gates"* and by *"the bridge below the West Gate"* on the same page — and this is the first beat of Phase 6. — **OPEN**
+17. **P5-17** · MEDIUM · *"Castle Greyhawk rises in the northeastern corner of the walled city."* It is a ruin in the Cairn Hills; the page's own header already places it outside. — **OPEN**
+18. **P5-18** · MEDIUM · The trial slip is thirty-to-sixty days on the GM page and *"ninety days"* in read-aloud, and is attributed to motions the same sentence says were denied. — **OPEN**
+19. **P5-19** · MEDIUM · *"a fourteen-day review period that ends on the morning of the ninth day from today"* with no stated offset; a player doing the subtraction plans for Day 14. — **OPEN**
+20. **P5-20** · MEDIUM · A player handout refers to being *"photographed."* — **OPEN**
+21. **P5-21** · MEDIUM · *"The party has 48–72 hours to commit to Vector A"* measures nothing they can act on, and implies Greyhawk is close enough for a 72-hour decision to matter. Proposed: recast as a dispatch deadline. — **OPEN**
+22. **P5-22** · MEDIUM · The recommended Vector D + C split is unplayable at the real party size: five PCs, Cam absent, two sent to Rel Astra, two pinned to Sera, and the Courier Chain asks for PCs at five locations. See PC-01. — **OPEN**
+23. **P5-23** · LOW · *"five choices, four with continuing operational value"* — only three carry forward; the vector's own gate agrees. — **OPEN**
+24. **P5-24** · LOW · The *"6-segment Pressure Clock"* is listed with seven segments (0 through 6) while the clock page says to show the players six. — **OPEN**
+25. **P5-25** · LOW · The departure read-aloud opens at the seventh bell and closes at the fifth. — **OPEN**
+26. **P5-26** · LOW · *"You ride into Loftwick at the seventh bell"* two sentences before *"the seventh bell has not yet rung."* — **OPEN**
+27. **P5-27** · LOW · Handout 1 has two incompatible pass points on one page, one of which describes a moment that does not exist. — **OPEN**
+28. **P5-28** · LOW · Lie 1's payoff (*"accessible without forced entry"*) solves a problem the party does not have; the real payoff is a price drop stated only on the Vector A page. — **OPEN**
+29. **P5-29** · LOW · *"the Free City of Hardby"* in a player handout. That title is Greyhawk's, used correctly two pages later. — **OPEN**
+30. **P5-30** · LOW · Pell's leak cadence is *"monthly"* and *"every nine to fourteen days"* in the same section. — **OPEN**
+31. **P5-31** · LOW · Trina's recognition phrase for Aldea (*"the apprentice has been a credit to the workshop"*) is promised to mean something specific and is never defined anywhere. Proposed: it is Trina's old confirmation that she writes unobserved and of her own will. — **OPEN**
+
+---
+
+## Phase 6 — Greyhawk City
+
+Adversarial pass run 584/v1.7.2 (2026-08-29). 23 findings, every quote grep-verified. **Guardrail: one leak — see P6-01 and GUARD-01.** No PC is written as an NPC anywhere in this phase.
+
+### Open
+
+1. **P6-01** · HIGH · **Guardrail leak.** A page inside the *Player Handouts* journal prints *"The word Underdark. Any name — Eclavdra, Eilserv, Vault. The route's destination. The deeper organisation."* — Handout 7, `phase-6-journals/journal-phase-6-handouts.json`. A GM who shares the handouts journal hands the table four forbidden names five phases early. Proposed: move the "What the Itinerary does not tell the party" block into the GM Brief. See GUARD-01. — **OPEN**
+2. **P6-02** · HIGH · Opening Variant A walks the party Loftwick→Greyhawk in three days: *"By the third afternoon, you can see Greyhawk on the southern bank of the Selintan."* This is the finding that kills the Vesh seed. Proposed: two weeks / eighteenth afternoon. See TRAVEL-03. — **OPEN**
+3. **P6-03** · HIGH · *"Any three primary nodes reveal the eleventh-bell transfer. The climax is reachable even if the party fails one node."* There are exactly three primary nodes, so the gate is mandatory-all-three and the promise in the second sentence is false. Proposed: *any three of the six nodes*, which the clue-redundancy table already says. — **OPEN**
+4. **P6-04** · HIGH · Three incompatible schedules for the climax: *"4–6 in-city days"*, *"the eleventh bell two nights from now"*, and "the night the party identifies the transfer." A by-the-book party needs 3+ days to open the nodes and the default state puts the transfer on night two. — **OPEN**
+5. **P6-05** · HIGH · Handout 4 prints the GM clock's cancellation threshold verbatim: *"IF clock past four THIS PICKUP IS CANCELLED."* Players are handed the existence of a hidden clock, its name and the number at which their climax is cancelled. — **OPEN**
+6. **P6-06** · MEDIUM · Korre's presence at her own climax is ruled five ways, including *"only if the Trail Clock is 0–2"* against *"Korre is present regardless of clock state"* and *"flees the city"* at Trail 6. The encounter roster is undecidable. — **OPEN**
+7. **P6-07** · MEDIUM · Heshet's escalation ladder in his dossier contradicts the Heat Clock table at every rung; the GM cannot tell whether the party can be arrested. — **OPEN**
+8. **P6-08** · MEDIUM · Burglary costs the Trail Clock 0/1 or 1/2 depending on which page is open — and given P6-03 that single point decides whether Verth is murdered or the pickup is cancelled. — **OPEN**
+9. **P6-09** · MEDIUM · Two incompatible Heat Clock rules (a blanket per-day advance vs an itemised list that never charges node entry). Over 4–6 in-city days a straightforward party ends at Heat 0 or Heat 6 on a rules reading — which opens or closes the whole Kestrel & Reed branch. — **OPEN**
+10. **P6-10** · MEDIUM · Verth's Persuasion DC is 13 on the node page and 15 on his dossier. He is the phase's only free confirmation of Haskur's alias. — **OPEN**
+11. **P6-11** · MEDIUM · Andren's registry entry is *"third entry of last week"* in the clue list, the current week in the keyed room and on the handout, and fifth on the handout, not third — while DC 13 only buys the current week. — **OPEN**
+12. **P6-12** · MEDIUM · Mell and Saern's roles are swapped between the scaffolding page and the encounter page; the party cannot know which agent still opens room 9. — **OPEN**
+13. **P6-13** · MEDIUM · Korre's ambush staging and escape route contradict between Node 6 and the map brief — a party that covered one exit covered the wrong one. — **OPEN**
+14. **P6-14** · MEDIUM · Arrival is read aloud as late afternoon; two of the four advertised first-day node choices are shut by then, and the party is charged a day anyway. — **OPEN**
+15. **P6-15** · MEDIUM · An apartment clue listed as available *"regardless of state"* references a Korre conversation that only happens at Trail 0–2. — **OPEN**
+16. **P6-16** · MEDIUM · Vector C is the only Letter 7 variant that omits Iren's identification phrase, yet the First Day tree assumes the party has it. A Vector C party is locked out of the Seventh Stair reading that two endings rely on. — **OPEN**
+17. **P6-17** · MEDIUM · Stacked carry-forward modifiers push the forgery DC to 20 against the phase's own stated ceiling of 18, and the same branch removes the bribery alternative. — **OPEN**
+18. **P6-18** · MEDIUM · *"[Patchett 28]"* on a player handout, alongside two correctly-named months. See CAL-01. — **OPEN**
+19. **P6-19** · LOW · The Seventh Stair glossary is in the locked paper press on one page and *"on a high shelf"* on another; a party that burgles the press finds nothing. — **OPEN**
+20. **P6-20** · LOW · The closing read-aloud says *"You will find it by looking down"*; Handout 8, given in the same sitting, says *"The Stair is not a place you find by looking down."* — **OPEN**
+21. **P6-21** · LOW · The NPC index says *"Twelve named figures"* and names thirteen. — **OPEN**
+22. **P6-22** · LOW · *"Letter 7 weighs in your pack"* in Variant A's read-aloud, while the Arrival page has a runner hand-deliver the identical text; the GM has no Letter 7 handout in this phase. — **OPEN**
+23. **P6-23** · LOW · Tamsin Moraven is listed as a Phase 5 carry-forward NPC and is then referenced nowhere in the phase's eight journals. — **OPEN**
+
+---
+
+## Phase 7 — The Seven-Cut Cairn
+
+Adversarial pass run 584/v1.7.2 (2026-08-29). 31 findings, quotes grep-verified. **Guardrail: clean** — six hits, all prohibitive GM prose on GM-only pages.
+
+### Open
+
+1. **P7-01** · HIGH · Caelith is placed *"(one full day each way)"* from Greyhawk City, offered as a routine option whenever the GM wants him in person. This silently rewrites the travel economy for every later phase and makes the Vesh transit ordinary. Proposed: courier only, weeks of lag, letters written before the party left the cistern. — **OPEN**
+2. **P7-02** · HIGH · A courier finds the party's undiscovered camp at an unmapped site the same night: *"a folded paper arrives at the party's camp by indifferent rider before midnight."* Proposed: the note was already in the saddlebag. — **OPEN**
+3. **P7-03** · HIGH · The *Player Handouts* journal carries GM solution keys on the same pages as the handouts: Yorth Pell's secret identity, the substituted map, the T·S·C cipher answer, and — on the false-map handout itself — the fact that it is planted plus every DC to detect it. Node 6 cannot function. Proposed: split each handout page, moving "Reading the page" / "What the items mean" / "How to catch the forgery" to a GM-only keys page, and strip "(planted)" from Handout 6's title. — **OPEN**
+4. **P7-04** · HIGH · The Phase 8 threshold — the phase's entire deliverable — is in two mutually exclusive places: a *visible* iron-bound door in the tollhouse's inner rear wall, and a *hidden* dry well behind the ruined tollhouse. Four passages pick sides at random, and one gates the visible door behind a DC 13 with no fallback. — **OPEN**
+5. **P7-05** · HIGH · *"The Route-Cleansing Clock advances daily"* silently overrides Clock 1's own eight behaviour-based triggers and its explicit "what does not advance" promise. Outcome A ("3 or below") becomes arithmetically unreachable; the intended 6–7 day phase deposits every table on segment 6, *"The threshold is sealed, trapped, or guarded."* Deleting seven words repairs it. — **OPEN**
+6. **P7-06** · MEDIUM · Four evidence categories has no defined outcome — the triangulation table routes on category count, the Outcome Packages route on the clock, and a party arriving with exactly four matches nothing. — **OPEN**
+7. **P7-07** · MEDIUM · Opening D's one mechanical penalty (*"4 of 5 evidence categories instead of 3"*) restates the baseline rule, so the fail-forward opening has nothing behind it. — **OPEN**
+8. **P7-08** · MEDIUM · Field reconnaissance is *"one full day each way"*, *"two days each way"*, and 18–22 miles at "two days at travel pace" — which is also wrong by the rulebook. With the clock keyed to days, a one-day error is a one-segment error. — **OPEN**
+9. **P7-09** · MEDIUM · The ending read-aloud contradicts itself in consecutive sentences: Greyhawk is *"twenty miles south"* and the cistern is *"a hundred miles away."* "Three nights ago" also contradicts the 4–7 day phase, and the bearing is reversed. — **OPEN**
+10. **P7-10** · MEDIUM · Aldea is half a day away in person and three days away by courier, for the same round trip — and her home dossier files her in Loftwick. — **OPEN**
+11. **P7-11** · MEDIUM · The prisoner extraction — the phase's only mandatory combat — fires on day 4, day 5 and day 6 across three pages. — **OPEN**
+12. **P7-12** · MEDIUM · Kethren's recall is *"not a mechanic the party can directly engage with"* and then made entirely contingent on undefined party action; and his "Do not return me" line lands on day three or after a week depending on the page. — **OPEN**
+13. **P7-13** · MEDIUM · Vetch has surveyed the Tarnsmere Spur twice with a vivid first-hand memory, and has never been there. His memory is load-bearing for Handout 5 and for the record-substitution recovery route. — **OPEN**
+14. **P7-14** · MEDIUM · Garrold Eft disappeared in *"542 CY"* on the handout and *"the late 540s"* in Caelith's corroborating letter — and Caelith says the Spur appears in no Yeomanry records while the handout names a Yeomanry surveyor of record. — **OPEN**
+15. **P7-15** · MEDIUM · *"Patchett"* appears seven times, five of them on player handouts (the brass-button slip and four ledger lines); *"Patchwall"* appears zero times. See CAL-01. — **OPEN**
+16. **P7-16** · MEDIUM · Handout 1, the keystone glossary note, says routes were closed *"by the eighth century"* — over a hundred years in the future, and contradicting its own next sentence. — **OPEN**
+17. **P7-17** · MEDIUM · Handout 8 hard-codes a Phase 6 escape that Opening E explicitly contradicts, possibly while its subject sits with the party. — **OPEN**
+18. **P7-18** · MEDIUM · Iren cannot place the wax on Handout 1 (which is what makes Node 2 necessary) and keeps a labelled box of it per the Phase 8 hook. — **OPEN**
+19. **P7-19** · MEDIUM · The False Stair is west, northwest, north-along-the-wrong-spur, and northeast-then-north — and the single printed handout only supports the last, so the day-cost that feeds the clock is undefined. — **OPEN**
+20. **P7-20** · MEDIUM · Handout 5 tells the party in writing *"If the seventh cut is gone, you are too late, or you are at the wrong cairn"* — at the clock state the phase is designed to produce, and against a Node 7 clue every party sees. — **OPEN**
+21. **P7-21** · MEDIUM · *"Sending all six PCs to Vone's in matching armor"* — the party is five, with Cam absent, so the worked example for a real mechanical lever is calibrated for a party that does not exist. See PC-01. — **OPEN**
+22. **P7-22** · MEDIUM · Caelith's addendum is gated three ways; a GM whose table passed Closure withholds Handout 7 and then finds Phase 8 assuming the party has it. — **OPEN**
+23. **P7-23** · MEDIUM · *"(Halask, if Vector D survived)"* — "Vector D" appears exactly once in the phase and matches no campaign-state taxonomy, so the condition is unevaluable. — **OPEN**
+24. **P7-24** · MEDIUM · Vone's irregular archive is *"intact"* behind the burgled door and *"in his private cellar three streets away"*, at exactly the clock states where the burglary option applies. — **OPEN**
+25. **P7-25** · LOW · Handout 5 is drawn *"by a man with seven fingers"*; Vetch lost two of ten. — **OPEN**
+26. **P7-26** · LOW · Forty years surveying plus twenty retired, in a man in his late sixties. — **OPEN**
+27. **P7-27** · LOW · *"The first frost of the season has finally come"* on a night the handouts date to Sunsebb 16, two months into frost — and Node 7 has waist-high green grass in midwinter. — **OPEN**
+28. **P7-28** · LOW · Kethren's marker identification is conditioned on *"before Phase 8 ends"* when the beat is scripted into Phase 7's final scene. — **OPEN**
+29. **P7-29** · LOW · Yorth Pell's Persuasion DC is 16 at the node and 17 in the recovery route. — **OPEN**
+30. **P7-30** · LOW · The waymark-defacement encounter is two cleansers in the enemy-ops list and one figure in the Node 7 encounter it cross-references. — **OPEN**
+31. **P7-31** · LOW · *"Roman numerals"* on Oerth, twice, in GM prose likely to be read aloud as a check result. Proposed: Oeridian numerals. — **OPEN**
+
+---
+
+## Phase 8 — The Threshold
+
+Adversarial pass run 584/v1.7.2 (2026-08-29). 34 findings, quotes grep-verified. **Guardrail: clean** — Phase 8 has no reveal beat at all; its own brief still lists the forbidden names under "What Phase 8 must NOT deliver." Whether the reveal is supposed to land here is a design question, logged as GUARD-03.
+
+### Open
+
+1. **P8-01** · HIGH · The Lockdown Clock charges *"+1 per additional 4-hour block"* for time on site while every other page tells the party to spend a day or more there. A long rest is +2. Careful play — the module's own recommended style — hits Lockdown 6, *"Burn the Site"*, on elapsed time alone, and Package A becomes unreachable. — **OPEN**
+2. **P8-02** · HIGH · The Lockdown Clock's starting value is specified three incompatible ways: *"Both clocks start at 0 of 6"*, *"+1 (starting bump)"* for Openings B and C, and Openings B/C/D/F starting at 2/3/4/3–4. Openings D and F appear in no advance table. Every enemy count and ending package keys off this number. — **OPEN**
+3. **P8-03** · HIGH · Handout 1 is two entirely different letters — no sentence shared — both labelled Handout 1, with an index claiming one is a reproduction of the other and a Reveal Timing page contradicting itself about whether variants exist. — **OPEN**
+4. **P8-04** · HIGH · The phase's final lintel carries the Permission Door's four words in Aerdy hand (Location 15) and a four-line pre-Aerdy inscription (Handout 7 and the closing read-aloud). Location 15's whole skill table is keyed to the wrong text, and the ending's reveal evaporates. — **OPEN**
+5. **P8-05** · HIGH · Elle's order has held the key *"since 374 CY"* but its ring is minted 484 CY — and the site's token system is dated 460–490 CY, so a 374 CY carrier could not have had one. *"nearly two hundred years"* is 210. A campaign-long payoff a player can arithmetic away. — **OPEN**
+6. **P8-06** · HIGH · The cairn token is two different objects — worn copper with a descending step (Location 2) vs stamped brass-and-tin with "P. SVRV. CL.VII" and 487 CY (Handout 5) — and Handout 5's payoff is impossible with Location 2's object. Retrieval method differs too. — **OPEN**
+7. **P8-07** · HIGH · Cam's registry payoff breaks three ways: the folio is dated 518 CY against admissions *"between five and eight years ago"*; *"At least three names match"* against two entries; and *"None of them have 'Return:' values"* against two entries that both read "Return: nil." — **OPEN**
+8. **P8-08** · HIGH · Cam is given on-screen action in at least five places, including a full closing scene, and Phase 9's setup assumes he carries the halfling names forward. He is absent. See PC-01. — **OPEN**
+9. **P8-09** · HIGH · Kethren's gender flips six times inside the Method C page (*her / She / She / He / her / she*, then *His / His*) while every other page in the phase uses *he*. Method C is a scripted set-piece with quoted dialogue. — **OPEN**
+10. **P8-10** · HIGH · Garrold Eft's body, satchel, brass tag and journal — *"one of the most important pieces of paper in the entire campaign"* — sit behind a *"sealed iron grate"* with no DC, tool, key or fallback anywhere. Gianni's whole thread and three later hooks depend on reaching it. — **OPEN**
+11. **P8-11** · HIGH · *"have Iren ping back a clarifying note... This is a free hint; it costs nothing in fiction"* and *"intervene with Iren's voice ping"* — free instantaneous long-distance communication, at the exact moment the phase establishes that the party is past the reach of their allies, in a campaign whose central mystery is a fast crossing. — **OPEN**
+12. **P8-12** · MEDIUM · The complex is *"600-year-old"* (twice), founded *"around 410 CY"*, with a door dated 460–490 CY, and administered *"for at least a hundred and fifty years"*. In 584 CY it is at most 174. 600 would put an Aerdy toll station before 1 CY. — **OPEN**
+13. **P8-13** · MEDIUM · Two incompatible door-failure economies: one wrong phrase locks one method and three ends paperwork, vs four separate counters with different thresholds where phrase errors alone can never end it. — **OPEN**
+14. **P8-14** · MEDIUM · The read-aloud puts the six tally shapes on the vertical slab face and says they are *"not depressions"*; the mechanics put them on the floor and make them a pressure plate. Players act on the read-aloud. — **OPEN**
+15. **P8-15** · MEDIUM · The cistern's surge and gas hazards have different triggers, abilities and DCs in Location 11 and Method F — and the Structural Failure Clock backs Method F, so the surge is either always live or a Structural-2 unlock. Method F's difficulty is currently undefined. — **OPEN**
+16. **P8-16** · MEDIUM · Three incompatible dates for one rockfall: the collapse *"perhaps fifty years ago"*, the surveyor *"dead these 27 years"*, and the event dated 542 CY (42 years). The corpse dies fifteen years after the collapse that killed it. — **OPEN**
+17. **P8-17** · MEDIUM · Eft is a *"Yeomanry Surveyor"* on his own brass tag and a *"Permissive Surveyor of the Aerdy Commercial-Court Network"* in his journal — and Gianni's payoff is addressed to the Aerdy. Which bureaucracy he worked for is the point of the journal. — **OPEN**
+18. **P8-18** · MEDIUM · *"Patchett"* three times, twice on player-facing props including Haskur's registry entry. See CAL-01. — **OPEN**
+19. **P8-19** · MEDIUM · Handout 2 has only an intact, freshly re-blackened cairn but is auto-given in openings where the cairn is defaced — and Location 2 ties the defacement to a live clock rather than the opening branch, so even an Opening A party's intact cairn is retroactively scraped at Lockdown 1. — **OPEN**
+20. **P8-20** · MEDIUM · The mandatory closing read-aloud name-drops Eft's journal, which is optional, behind a side passage, behind a sealed grate, and destructible by the Structural clock. — **OPEN**
+21. **P8-21** · MEDIUM · The phase is *"Tier 3, levels 8–11"* and its only guardian is *"defeatable by a 6th-level party"* at 38 HP / AC 16. Force becomes the dominant strategy and the paperwork puzzle — the whole phase — becomes optional. — **OPEN**
+22. **P8-22** · MEDIUM · Two cross-references point at material that does not exist: *"Phase 8 actors"* (no such journal) and *"Phase 8 — Clocks & Enemies"* (cited twice; the real journal has no stat blocks and no encounter design). The phase's climactic fight has neither. — **OPEN**
+23. **P8-23** · MEDIUM · Opening F both *advances* the Lockdown clock by 2 and *starts* it at 3–4, opening the phase in its own designated worst case while promising *"still solvable."* — **OPEN**
+24. **P8-24** · MEDIUM · Handout 4 states the pressure trap is armed as standing routine; the clock arms it only at Lockdown 3+. — **OPEN**
+25. **P8-25** · MEDIUM · The Structural clock rolls falling-rock saves on *"the Old Mining Spur Road approach"* — an open-air grass track with no ceiling. — **OPEN**
+26. **P8-26** · MEDIUM · The subsurface map does not connect: no page describes how the party reaches Location 12 or Location 13, *"the descent corridor"* is never defined, and Method F's bypass shaft appears nowhere in Location 11's own description — removing one of six door solutions for any GM who preps from that page. — **OPEN**
+27. **P8-27** · MEDIUM · Three accounts of what it takes to get the registry phrase: DC 15 with a punitive failure, DC 13, and no check at all. Method B is the no-key fallback and its entry cost is undefined. — **OPEN**
+28. **P8-28** · MEDIUM · Veyra Korre gives orders to Survey clerks in 542–545 CY and is physically at the cairn in 584 — a forty-two-year career the phase never acknowledges, across three player-facing handouts. Proposed: make the mid-540s hand her predecessor's. — **OPEN**
+29. **P8-29** · MEDIUM · The opening read-aloud asserts *"what was done in 374 CY by a party with one fewer survivor"* while Elle's own thread says the order recorded nothing but one sentence about a layman who gave them keys; a third page opens *"the 374 CY records."* — **OPEN**
+30. **P8-30** · LOW · The Final Threshold Landing is 8 feet square in the location key and fifteen in the read-aloud and Handout 7 — and is offered as a campsite for five. — **OPEN**
+31. **P8-31** · LOW · Elle's key is on a silver chain in the read-aloud and a leather thong in the reveal; a silver chain is separately the courier marker at Location 15. — **OPEN**
+32. **P8-32** · LOW · *"the dry well, Subsurface Location 5"* — the Dry Well is Surface Location 5; subsurface runs 7–15. — **OPEN**
+33. **P8-33** · LOW · The stair trap is the first step in the heading, the third step in the body, and the "Falling Stair Trap" in the Clocks journal. — **OPEN**
+34. **P8-34** · LOW · Kethren's uniform is grey-and-bone at three locations and black-and-grey at a fourth — and grey-and-bone is simultaneously the route-cleaner uniform, so the fibre trail distinguishes nothing. — **OPEN**
+
+---
+
+## Phase 9 — The Waystation
+
+Adversarial pass run 584/v1.7.2 (2026-08-29). 27 findings, quotes grep-verified. Guardrail names are permitted here.
+
+### Open
+
+1. **P9-01** · HIGH · **Needs a ruling before anything else in this phase is touched.** Phase 9 is written as a bridge, not a finale: it names Phase 10 eighty-seven times, files *"Who 'E.' is"* under **"What the party cannot learn yet"**, tells Phase 10 to *"Still do not reveal the final deep faction"*, and hands the Yeomanry politics to *"a Phase 11 political fight."* The strings **586, convocation, Vesh, Mirin, Moraven, Olm, Ervan Dale** and **autumn** appear **zero times** in the file — both stated deadlines and the campaign's signature impossibility are simply absent. Either add a terminal page that turns the Lower Route Fork into an ending and pays off E.'s mark and the 586 deadline, or relabel Phase 9 as penultimate and audit Phase 10 as the finale. — **OPEN**
+2. **P9-02** · HIGH · Handout 3 is dated *"14th of Patchett, 591 CY"* and its GM note anchors the campaign's present to it — which would push the whole campaign seven years past E.'s autumn-586 deadline. "591 CY" appears nowhere else in the campaign. See YEAR-01 and CAL-01. — **OPEN**
+3. **P9-03** · HIGH · Location 14 says *"Do not explain where each route leads"*; Handout 8 explains all three in GM voice, including *"This is where the party would find him, alive or otherwise"* and the count of active recoveries. The campaign's last decision point is answered before it is asked. — **OPEN**
+4. **P9-04** · HIGH · Outcome G is defined by never crossing the Black Ledger Gate; the only closing read-aloud requires the party to be standing past it and opens *"The gate has closed behind you."* The retreat-with-evidence ending has no usable closing text. — **OPEN**
+5. **P9-05** · HIGH · The Alert 6 countdown requires a courier to walk *"approximately a day's walk"* to the next waystation and a second to walk back, inside a 2–4 hour window — and Savax will tell the party the distance if asked. Proposed: send the Alert 4 alarm through the brass signal channel already established in Method B. — **OPEN**
+6. **P9-06** · HIGH · Cam is given the scripted speech at the campaign's final decision point (*"If they're alive, they're down one of these. Not all three. One."*), unconditionally, unlike Phase 8 which always gates him. Four other PCs get scripted interior lives as NPC prose. See PC-01. — **OPEN**
+7. **P9-07** · HIGH · Location 10 calls the cistern-slit bypass *"Method F"*; everywhere else in Phase 9 **F is Force and G is Bypass** — and in Phase 8 the bypass genuinely *was* F. A GM following the cross-reference charges a stealth party +2 Alert, +2 Breath and Stone, 4d8 thunder and a woken construct for the designated stealth solution. One-word fix. — **OPEN**
+8. **P9-08** · HIGH · Savax's loot includes a *"route lock-pin (a thin iron key for emergency gate releases)"* — an undocumented eighth method that voids the seven-method gate puzzle and works on his corpse. Proposed: re-scope it to the Warden Post's inner shutters. — **OPEN**
+9. **P9-09** · MEDIUM · Opening E starts at Alert 4, which by the clock's own rules immediately fires the phase's major combat and dispatches the doomsday courier — while the same page says *"None of them are alarmed"* and offers three to four negotiation scenes. Personnel counts differ three ways. — **OPEN**
+10. **P9-10** · MEDIUM · The Alert clock can be held but never reduced, so Openings C and E can never reach Outcome A, and Opening F — Phase 8's sanctioned Package F — is locked out of Outcomes A and B and both keystone evidence items by starting values alone. Clocks 2 and 3 both use "holds **or reduces**." — **OPEN**
+11. **P9-11** · MEDIUM · The Furnace Scrap — *"the thematic centerpiece of Phase 9"* — has two mutually exclusive windows, and under the index's rule it is already gone in four of six openings before the first scene. — **OPEN**
+12. **P9-12** · MEDIUM · The crate-tag deduction that turns tragedy into provable fraud is DC 15 in two places and DC 17 in a third. — **OPEN**
+13. **P9-13** · MEDIUM · The "second page" is on a Silent Courier in the Account Hall, in Kethren's satchel, and *"below"* where the party cannot reach it — and it is the encounter's stated win condition. — **OPEN**
+14. **P9-14** · MEDIUM · The Tally Sentinel is dormant beyond a sealed gate, an on-map combatant in the Account Hall, and "activates" at Alert 5 without the gate ever being touched — and Method F has it follow the party the wrong way through the gate. — **OPEN**
+15. **P9-15** · MEDIUM · Savax is a *"Tier 2 mage-lite leader"* with a Bandit Captain block, no spellcasting and no ranged attack — so the shutter-slit terrain built to keep him alive and talking cannot be used, and his set-piece collapses into melee round one. — **OPEN**
+16. **P9-16** · MEDIUM · Alert 5 says the gate *"refuse[s] all routine declarations"* and then that Methods A–E work at +2 DC — but Methods A–C have no roll, so both the modifier and the entire mild/serious/catastrophic failure ladder are uncomputable at the climax. — **OPEN**
+17. **P9-17** · MEDIUM · Phase 8's Method F (Cistern Drain bypass), rated *cleaner than Method A*, matches no Phase 9 opening branch — a party that solved Phase 8 by the stealthiest route arrives with no branch and no starting clock values. — **OPEN**
+18. **P9-18** · MEDIUM · Same skill, same DC, adjacent rooms, opposite conclusions about whether the route script is borrowed Aerdy or Aerdy is its descendant — with a third answer at Location 11. This is the intellectual payload the party carries to Caelith. — **OPEN**
+19. **P9-19** · MEDIUM · Outcome C and Phase 10's recovery opening both assume Haskur is ahead of the party, while Outcome H, Method A and Opening D all support him walking through the gate in their custody. — **OPEN**
+20. **P9-20** · MEDIUM · Handout 7, the phase's emotional centrepiece, has Merrit staring for three weeks at a *"personal hole"* — a Sleeping Alcoves fixture that neither of Location 9's two inventories of her cell contains. — **OPEN**
+21. **P9-21** · LOW · Two read-alouds assert facts about the party's own memory that the clocks can falsify — *"a single mark you have seen only once before"* and a registry entry that Record Destruction 4 has already scraped clean. — **OPEN**
+22. **P9-22** · LOW · The witness cell is served through a water slot and has a token-passing tactic built on a shut door — and the read-aloud opens it. — **OPEN**
+23. **P9-23** · LOW · Method G's size constraint cancels itself: *"a Medium creature without removed gear, or a Medium creature with removed gear."* — **OPEN**
+24. **P9-24** · LOW · The unstick-the-table hint points a frustrated party at the one declaration the gate is built to refuse (*"not being witnessed"* against *"Unwitnessed cargo waits"*). — **OPEN**
+25. **P9-25** · LOW · *"Route-Cleanser Agent"* (Phases 7–8 call it Route-Clean**er**), and a cross-reference to *"the Map Briefs at the end of this journal"* which do not exist. — **OPEN**
+26. **P9-26** · LOW · The gate was forced *"centuries ago"* and installed 164–234 years ago; Clock 3 dates the conversion masonry a century later than the Site Overview. — **OPEN**
+27. **P9-27** · LOW · Handout 4's GM note ties the crate to *"a specific Doman receipt the party recovered."* There is no Doman receipt in Phase 2 — the only Doman is Gilst's landlord, Doman Reith. — **OPEN**
+
+---
+
 ## Cross-phase — the time economy
 
 1. ~~**TRAVEL-01** · Loftwick to Hardby was written as six days against roughly 1,300 miles.~~ **FIXED v1.6.0** — Authority 10 weeks by caravan, Cover 6 weeks by ship, Pursuit 3 weeks by relay riding. Rewrote Scene 7, the sign-off, all three arrival read-alouds, the head-start table and Tamsin's captivity.
@@ -119,20 +381,63 @@ Status key: **OPEN** · **FIXED** · **OVERTURNED** · **PARKED**
 
 ---
 
-## Phases 1, 4–9 — not yet reviewed
+## Cross-phase — module-wide sweeps
 
-No adversarial pass has been run on these. Known items only:
+These are the defects that repeat across phases. Fix them once, module-wide, rather than phase by phase — several per-phase items above are subsumed by these.
 
-1. **P4-01** · Phase 4's clock, Phase 5's clock (which *terminates* the phase at segment 6), Phase 7's clocks and Phase 9's three clocks were all left untouched by CLOCK-01. Whether they stay is a separate decision. — **OPEN**
-2. **CAST-02** · *Phase 1 — NPC Portraits* — same treatment as Phases 2 and 3. — **OPEN**
-3. **CAST-03** · *Phase 4 — NPC Portraits*. — **OPEN**, Phase 4–9 pass.
-4. **CAST-04** · *Phase 5 — NPC Portraits*. — **OPEN**, Phase 4–9 pass.
-5. **CAST-05** · *Phase 6 — NPC Portraits*. — **OPEN**, Phase 4–9 pass.
-6. **CAST-06** · *Phase 7 — NPC Portraits*. — **OPEN**, Phase 4–9 pass.
-7. **CAST-07** · *Phase 8 — NPC Portraits*. — **OPEN**, Phase 4–9 pass.
-8. **CAST-08** · *Phase 9 — NPC Portraits*. — **OPEN**, Phase 4–9 pass.
-9. **ART-01** · Berrin Onn's portrait file is named `halver-onn-portrait.png` — a leftover from the same Halver/Onn confusion fixed in v1.4.12. The actor is correctly named and correctly pointed at it; only the filename is wrong. Cosmetic. — **OPEN**
-10. **NPC-01** · Tamsin Moraven is *"Mid-fifties"* in the Phase 2 actor entry and *"Forty"* in the Phase 3 one. Both are now visible side by side in the portrait journals. Needs a ruling. — **OPEN**
-11. **GEN-01** · `docs/remediation-plan-phases-2-6.md` still carries the pre-584 harbor-seat dates. Deliberate: it is a record of past work, not canon. — **PARKED**
-12. **GEN-02** · The release zip is ~630 MB because roughly 650 MB of referenced PNG art ships uncompressed. A WebP pass would cut it substantially. — **PARKED**
-13. **GEN-03** · 39 journals and 1 scene sit at ownership INHERIT rather than explicit NONE. Harmless today; worth normalising. — **PARKED**
+### Open
+
+1. **GUARD-01** · HIGH · **Two confirmed pre-Phase-8 spoiler leaks on player-reachable pages.**
+   - `phase-6-journals/journal-phase-6-handouts.json` — Handout 7's GM commentary sits inside the **Player Handouts** journal and prints *"The word Underdark. Any name — Eclavdra, Eilserv, Vault."* (P6-01)
+   - `phase-4-journals/journal-phase-4-finale.json` — *"(Spoiler: Eclavdra of House Eilserv...)"* plus Vault of the Drow, Demon Queen and underdark sit on the **same page** as the phase's closing read-aloud. (P4-19)
+
+   Every other hit across Phases 1–8 (six in Phase 7, four in Phase 5, seven in Phase 6, three in Phase 4) is prohibitive GM prose on a GM-only page and is fine. The structural fix is the same in both cases: GM commentary never shares a page with player-facing text, and never lives in a handouts journal. Worth a standing rule and a lint check in `build-packs.mjs`. — **OPEN**
+2. **GUARD-02** · LOW · Near-miss surface. Phase 5's Handout 2 uses *"surface"* twice as a contrast class (*"entirely consistent with surface court scripts"*, *"any surface manufactory I have documented"*), handing players the Phase 8 shape three phases early. Phase 5's own ending read-aloud already has the safe register: *"was somewhere unsailable when at least one annotation was made."* Phase 7 runs the same construction under an explicit GM substitution list, which is fine. — **OPEN**
+3. **GUARD-03** · Design question. Phase 8 has **no reveal beat at all** — its own brief still lists the forbidden names under "What Phase 8 must NOT deliver," and Phase 9's setup renews the prohibition. If the campaign bible expects the reveal in Phase 8, that expectation is currently unmet. **Needs a ruling.** — **OPEN**
+4. **CAL-01** · MEDIUM · **"Patchett" is not a month.** 13 occurrences across six files, most on player handouts: `phase-6-journals/journal-phase-6-handouts.json`, `phase-7-journals/journal-phase-7-arrival.json`, `phase-7-journals/journal-phase-7-handouts.json`, `phase-8-journals/journal-phase-8-handouts.json`, `phase-8-journals/journal-phase-8-subsurface.json`, `phase-9-journals/journal-phase-9-handouts.json`. **Patchwall** appears nowhere. Global replace, then a lint rule that only the sixteen Greyhawk months may appear in a date. Also in scope: Phase 5's *"Lent"* (P5-02) and its Earth weekdays *"Tuesday and Friday"* / *"Wednesdays"* (P5-10). — **OPEN**
+5. **YEAR-01** · HIGH · **Four-digit years.** Confirmed in `phase-1-journals/journal-little-palace.json` (3: 4470 CY ×2, 4082 CY), `phase-5-journals/journal-phase-5-debrief.json` (1), `sandbox-journals/journal-sandbox-rel-astra.json` (1), `sandbox-journals/journal-sandbox-greyhawk.json` (1), plus the 1550s–1580s run in `journal-phase-5-loftwick-npcs.json` and 591 CY in `phase-9-journals/journal-phase-9-handouts.json`. Two distinct error classes — the Phase 5 set is uniformly 1,000 years fast (strip the leading 1); the Phase 1 pair are millennia out and need real dates chosen. Worth a build-time check that no CY year outside 1–600 ships. — **OPEN**
+6. **TRAVEL-03** · HIGH · **The v1.6.0 travel rebuild never reached Phases 4–8.** Confirmed violations: P4-01 (all three Rel Astra arrivals in 5–8 days), P4-02 (Caelith's couriers at 2–3 days), P5-03 (a Greyhawk affidavit in 5 days), P5-04 (a Rel Astra letter in 4 days), P5-05 (Loftwick→Hardby in 14 days), P5-21 (a 72-hour window on a multi-week road), P6-02 (Loftwick→Greyhawk in 3 days), P7-01 (Greyhawk→Loftwick in 1 day), P7-02 (a courier reaching an unmapped camp the same night), P8-11 (instantaneous "voice ping" messaging). **P6-02 and P7-01 are the two that kill VESH-01 outright.** This should be one sweep with a stated rule — no person and no document crosses the Flanaess faster than the party's own sanctioned brackets — rather than ten separate edits. — **OPEN**
+7. **PC-01** · MEDIUM · **PCs written as NPCs, and party size wrong.** Five PCs, Cam absent. Confirmed: P4-04 (Alicia sends regards from Loftwick in a handout), P4-16 (fight calibrated for six PCs), P5-22 (a recommended split that needs more PCs than exist), P7-21 (*"all six PCs"*), P8-08 (Cam given five on-screen beats plus a closing scene, with Phase 9's setup depending on him), P9-06 (Cam given the scripted speech at the campaign's final decision point, plus four other PCs' interior lives written as NPC prose). Phase 8 gates Cam correctly in some places and not others; Phase 9 never gates him. Rule: every PC beat is bracketed *[If X is present]*, and no PC ever acts off-screen. — **OPEN**
+
+---
+
+## Cross-phase — Foundry data and scenes
+
+New 2026-08-29, from GM report plus a full offline audit of the shipped pack sources.
+
+### Open
+
+1. **DARK-01** · HIGH · **dnd5e 5.3 senses schema migration.** All **126** actor JSONs carry the pre-5.3 flat shape `system.attributes.senses = {darkvision, blindsight, tremorsense, truesight, units, special}`. dnd5e 5.3 moved the ranges into a nested object and logs *"senses.darkvision has moved to senses.ranges.darkvision"* on every load; backwards compatibility is slated for removal in dnd5e 6.1. Target shape, confirmed against the 5.3 schema:
+
+   ```json
+   "senses": { "ranges": { "darkvision": null, "blindsight": null, "tremorsense": null, "truesight": null }, "units": "ft", "special": "" }
+   ```
+
+   Only three actors carry a non-null value — `actor-aldea-veren.json` (darkvision 60), `actor-stone-witness.json` and `actor-tally-sentinel.json` (blindsight 60) — so this is a mechanical rewrite of all 126 files plus the four generator scripts (`generate-*-actors.mjs`, `populate-actor-items.mjs`) so regenerated actors ship the new shape. Bump the dnd5e minimum in `module.json` to 5.3.0 at the same time. Also folds in P1-15's *"Darkvision 0 ft"* in Caelith's bio text. — **OPEN**
+2. **WALL-01** · HIGH · **Scene walls were never traced from the map art.** All 16 walled scenes are 100% axis-aligned rectangles — not one diagonal, curve or traced outline anywhere. They come from hand-written coordinate tables in `build-phase2-scenes.mjs`, `build-mossen-place-scenes.mjs` and the Little Palace builder, authored blind; the Mossen script says *"I'll trace walls following the visible building outline in each image"* above numbers that are estimates. This is the "walls where there shouldn't be" report: boxes drawn over pictures rather than over the drawn rooms. Worst offenders by coverage of the image area — `scene-aldea-cottage` 18.5% (an eight-segment box from 300,130 to 830,680 on a 1536×1024 map), `scene-trina-townhouse` 52.1%, `scene-quill-street-rooms` 52.7%, `scene-little-palace-2nd-floor` 65.0%, `scene-mossen-place-third-floor` 66.0%. Remediation needs the art actually looked at, scene by scene. — **OPEN**
+3. **WALL-02** · HIGH · **Padding offset mis-registration — three scenes.** Foundry stores wall coordinates in canvas space, which includes the padding offset; the background is drawn at `(dx, dy)`. Three walled scenes ship `padding: 0.25` with walls authored in image-pixel space, so the whole wall set renders up and to the left of the map: `scene-doctor-pollow-s-office` (offset 300,300), `scene-records-alcove-cindren-vhal-loftwick` (300,400), `scene-vellin-moraven-s-home` (300,400). Fix is either `padding: 0` on those three or `+= (dx, dy)` on every coordinate. The other 13 walled scenes are already `padding: 0`. — **OPEN**
+4. **WALL-03** · MEDIUM · **Grid scale is a flat 100 px / 5 ft on every scene regardless of what the art depicts.** A 1024×1536 interior therefore reads as 51 ft × 77 ft of game space and the Little Palace floors as 250 ft × 188 ft — so tokens are roughly half the size they should be against the drawn furniture and doorways, and this is the other half of "the walls look smaller than the image." The Mossen builder's own comment estimates those buildings at about 28 ft × 42 ft, which wants a grid of roughly 183 px, not 100. Needs a per-scene `grid.size` derived from a known reference in each image (a door ≈ 3 ft, a bed ≈ 6 ft). Includes P1-19 (the Loftwick city map at interior scale). — **OPEN**
+5. **WALL-04** · MEDIUM · **24 of 42 scenes ship with zero walls** — `build-phase-scenes.mjs` writes `walls: []` unconditionally, so every Phase 4–7 location map has no vision blocking at all. City and overview maps are fine unwalled; the interiors are not. To wall: `c-v-hardby-branch`, `castrian-vell-s-house`, `gynarchy-registry`, `the-coopered-wreck`, `veska-s-notary-office`, `harbor-commission-hall`, `sereth-s-office-third-floor`, `whitemoor-estate-upper-floor`, `edrik-vone-s-archive`, `kestrel-reed-foreign-letters`, `old-stonecistern-battlemap`, `the-brass-crow-interior`, `v-korre-s-monthly-address`, `velash-manuscripts-bindings`. Also picks up P1-11, P1-12 and P1-20 (missing doors and an unwalled GM-only tunnel in the Little Palace scenes). — **OPEN**
+6. **WALL-05** · LOW · `scene-loftwick-exterior.json` is the only scene whose dimensions do not match its background: scene 5000×6700 against a 3072×4096 image, and the aspect ratios differ (0.7463 vs 0.75), so the map ships stretched. The other 41 match exactly. — **OPEN**
+7. **RELINK-01** · MEDIUM · **The relink macro reports *"0 repaired, 0 already fine, 27 unresolved."*** The shipped source data is clean — I checked all **116** scene notes across 42 scenes against the 65 journals and 417 pages in the packs, and **every** `entryId` and `pageId` resolves. So the failure is world-side, not data-side: either the journals aren't imported into the world, or they were imported with fresh IDs. The macro's own chat card has an advice block that names the journals to import when it can identify them — **the next step is to read that card, not to change the module.** If the card lists no journals, the notes' `entryId`s aren't matching the compendium index either, which would point at the compiled packs rather than the source. — **OPEN**
+
+---
+
+## Cross-phase — carried forward
+
+1. ~~**P4-01**~~ · **REDIRECTED to CLOCK-03.** This ID was assigned before the Phase 4 adversarial pass and collided with that review's own numbering. The item is unchanged; only its ID moved. One-time exception to the never-renumber rule, recorded here so nobody re-files it.
+2. **CLOCK-03** · Phase 4's clock, Phase 5's clock (which *terminates* the phase at segment 6), Phase 7's clocks and Phase 9's three clocks were all left untouched by CLOCK-01. Whether they stay is a separate decision — and the reviews have now found real faults in four of them: P4-11, P5-06, P7-05, P8-01/P8-02, P9-10. — **OPEN**
+3. **CAST-02** · *Phase 1 — NPC Portraits* — same treatment as Phases 2 and 3. — **OPEN**
+4. **CAST-03** · *Phase 4 — NPC Portraits*. — **OPEN**
+5. **CAST-04** · *Phase 5 — NPC Portraits*. — **OPEN**
+6. **CAST-05** · *Phase 6 — NPC Portraits*. — **OPEN**
+7. **CAST-06** · *Phase 7 — NPC Portraits*. — **OPEN**
+8. **CAST-07** · *Phase 8 — NPC Portraits*. — **OPEN**
+9. **CAST-08** · *Phase 9 — NPC Portraits*. — **OPEN**
+10. **ART-01** · Berrin Onn's portrait file is named `halver-onn-portrait.png` — a leftover from the Halver/Onn confusion fixed in v1.4.12. The actor is correctly named and correctly pointed at it; only the filename is wrong. Cosmetic. — **OPEN**
+11. **NPC-01** · Tamsin Moraven is *"Mid-fifties"* in the Phase 2 actor entry and *"Forty"* in the Phase 3 one. Both are now visible side by side in the portrait journals. Needs a ruling. — **OPEN**
+12. **GEN-01** · `docs/remediation-plan-phases-2-6.md` still carries the pre-584 harbor-seat dates. Deliberate: it is a record of past work, not canon. — **PARKED**
+13. **GEN-02** · The release zip is ~630 MB because roughly 650 MB of referenced PNG art ships uncompressed. A WebP pass would cut it substantially. — **PARKED**
+14. **GEN-03** · 39 journals and 1 scene sit at ownership INHERIT rather than explicit NONE. Harmless today; worth normalising. — **PARKED**
+15. **GEN-04** · One journal ID, `BR2P2QRefJournal` (Phase 2 Quick Reference), did not turn up in a raw byte scan of the compiled packs. LevelDB block compression makes that scan unreliable, and no scene note targets it, so this is probably a false positive — but it is worth a real `extractPack` round-trip check the next time the packs are rebuilt. — **OPEN**
+

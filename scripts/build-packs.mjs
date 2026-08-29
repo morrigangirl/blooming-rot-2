@@ -18,6 +18,24 @@ execSync("node " + JSON.stringify(path.join(HERE, "build-macro-pack.mjs")), {
   stdio: "inherit"
 });
 
+// Pre-flight: every embedded document's `_key` must name its real parent.
+// A mismatch still compiles, but the embedded records are then stored under a
+// document that does not exist, so the pack cannot be extracted and the walls,
+// lights, notes or effects never attach in Foundry. This shipped once (five
+// scenes lost every wall they had), so the build now refuses to run on it.
+console.log("Checking pack _key integrity ...");
+execSync("node " + JSON.stringify(path.join(HERE, "validate-pack-keys.mjs")), {
+  cwd: ROOT,
+  stdio: "inherit"
+});
+
+// Pre-flight: actor senses must be on the dnd5e 5.3+ nested shape.
+console.log("Checking actor senses schema ...");
+execSync("node " + JSON.stringify(path.join(HERE, "migrate-senses-schema.mjs")), {
+  cwd: ROOT,
+  stdio: "inherit"
+});
+
 const PACKS = [
   "welcome",
   "gm-reference",

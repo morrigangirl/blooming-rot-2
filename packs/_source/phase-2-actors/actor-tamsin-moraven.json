@@ -48,7 +48,16 @@
       "init": { "ability": "", "roll": { "min": null, "max": null, "mode": 0 }, "bonus": "" },
       "movement": { "burrow": null, "climb": null, "fly": null, "swim": null, "walk": 30, "units": null, "hover": false },
       "attunement": { "max": 3 },
-      "senses": { "darkvision": null, "blindsight": null, "tremorsense": null, "truesight": null, "units": null, "special": "" },
+      "senses": {
+        "ranges": {
+          "darkvision": null,
+          "blindsight": null,
+          "tremorsense": null,
+          "truesight": null
+        },
+        "units": null,
+        "special": ""
+      },
       "spellcasting": "",
       "exhaustion": 0,
       "concentration": { "ability": "", "roll": { "min": null, "max": null, "mode": 0 }, "bonuses": { "save": "" }, "limit": 1 },

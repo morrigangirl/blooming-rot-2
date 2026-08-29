@@ -395,10 +395,12 @@
         "max": 3
       },
       "senses": {
-        "darkvision": null,
-        "blindsight": null,
-        "tremorsense": null,
-        "truesight": null,
+        "ranges": {
+          "darkvision": null,
+          "blindsight": null,
+          "tremorsense": null,
+          "truesight": null
+        },
         "units": null,
         "special": ""
       },
@@ -1581,7 +1583,7 @@
             "lastModifiedBy": null,
             "exportSource": null
           },
-          "_key": "!actors.items.effects!mmScoutCaptain00.mmAim00000000000.q1pgdiSxo8QMvvxC"
+          "_key": "!actors.items.effects!BR2P9A24c3396266.BR2Iea32c3a0e966.q1pgdiSxo8QMvvxC"
         }
       ],
       "flags": {

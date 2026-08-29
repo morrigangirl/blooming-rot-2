@@ -395,11 +395,13 @@
         "max": 3
       },
       "senses": {
-        "darkvision": null,
-        "blindsight": 60,
-        "tremorsense": null,
-        "truesight": null,
-        "units": null,
+        "ranges": {
+          "darkvision": null,
+          "blindsight": 60,
+          "tremorsense": null,
+          "truesight": null
+        },
+        "units": "ft",
         "special": ""
       },
       "spellcasting": "",

@@ -395,10 +395,12 @@
         "max": 3
       },
       "senses": {
-        "darkvision": null,
-        "blindsight": null,
-        "tremorsense": null,
-        "truesight": null,
+        "ranges": {
+          "darkvision": null,
+          "blindsight": null,
+          "tremorsense": null,
+          "truesight": null
+        },
         "units": null,
         "special": ""
       },
@@ -1514,7 +1516,7 @@
             "lastModifiedBy": "p7W6V9dOCsYphtv6",
             "exportSource": null
           },
-          "_key": "!actors.items.effects!mmMageApprentice.SfSLEKSJyrvrstX6.dnd5espellchange"
+          "_key": "!actors.items.effects!BR2ANa7bbe25c0e2.BR2Ieda9448aa011.dnd5espellchange"
         }
       ],
       "folder": "4FhsY9FJQd7h7MZb",
@@ -1694,7 +1696,7 @@
             "lastModifiedBy": "p7W6V9dOCsYphtv6",
             "exportSource": null
           },
-          "_key": "!actors.items.effects!mmMageApprentice.lEwU9noV1vvPbENv.dnd5espellchange"
+          "_key": "!actors.items.effects!BR2ANa7bbe25c0e2.BR2Ib432d632fb68.dnd5espellchange"
         }
       ],
       "folder": "4FhsY9FJQd7h7MZb",
@@ -1881,7 +1883,7 @@
             "lastModifiedBy": null,
             "exportSource": null
           },
-          "_key": "!actors.items.effects!mmMageApprentice.gaypaU1TXWZTWkau.SrIb7dbaZs5F4zi9"
+          "_key": "!actors.items.effects!BR2ANa7bbe25c0e2.BR2Ic1a56f74350f.SrIb7dbaZs5F4zi9"
         },
         {
           "_id": "dnd5espellchange",
@@ -1918,7 +1920,7 @@
             "lastModifiedBy": "p7W6V9dOCsYphtv6",
             "exportSource": null
           },
-          "_key": "!actors.items.effects!mmMageApprentice.gaypaU1TXWZTWkau.dnd5espellchange"
+          "_key": "!actors.items.effects!BR2ANa7bbe25c0e2.BR2Ic1a56f74350f.dnd5espellchange"
         }
       ],
       "folder": "pBaAAtXBCq9FVEnL",
@@ -2215,7 +2217,7 @@
             "lastModifiedBy": "p7W6V9dOCsYphtv6",
             "exportSource": null
           },
-          "_key": "!actors.items.effects!mmMageApprentice.mIoPzMeNVQ3Zy5Jn.dnd5espellchange"
+          "_key": "!actors.items.effects!BR2ANa7bbe25c0e2.BR2I3e5352e442a3.dnd5espellchange"
         }
       ],
       "folder": "pBaAAtXBCq9FVEnL",
@@ -2413,7 +2415,7 @@
           "type": "base",
           "system": {},
           "sort": 0,
-          "_key": "!actors.items.effects!mmMageApprentice.WWBNWudqrqkw7NqM.I59O22yjAwzqZOhN"
+          "_key": "!actors.items.effects!BR2ANa7bbe25c0e2.BR2Iac696f720bd5.I59O22yjAwzqZOhN"
         },
         {
           "_id": "dnd5espellchange",
@@ -2450,7 +2452,7 @@
             "lastModifiedBy": "p7W6V9dOCsYphtv6",
             "exportSource": null
           },
-          "_key": "!actors.items.effects!mmMageApprentice.WWBNWudqrqkw7NqM.dnd5espellchange"
+          "_key": "!actors.items.effects!BR2ANa7bbe25c0e2.BR2Iac696f720bd5.dnd5espellchange"
         }
       ],
       "folder": "pBaAAtXBCq9FVEnL",
@@ -2660,7 +2662,7 @@
             "lastModifiedBy": "p7W6V9dOCsYphtv6",
             "exportSource": null
           },
-          "_key": "!actors.items.effects!mmMageApprentice.S8n6L2cYnoxbToCh.dnd5espellchange"
+          "_key": "!actors.items.effects!BR2ANa7bbe25c0e2.BR2I743ac4d318e8.dnd5espellchange"
         }
       ],
       "folder": "pBaAAtXBCq9FVEnL",

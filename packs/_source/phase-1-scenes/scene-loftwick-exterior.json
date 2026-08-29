@@ -22,8 +22,8 @@
   "foreground": null,
   "foregroundElevation": 20,
   "thumb": null,
-  "width": 5000,
-  "height": 6700,
+  "width": 3072,
+  "height": 4096,
   "padding": 0,
   "initial": null,
   "backgroundColor": "#1a1a1a",
@@ -42,7 +42,10 @@
     "exploration": false,
     "reset": null,
     "overlay": null,
-    "colors": { "explored": null, "unexplored": null }
+    "colors": {
+      "explored": null,
+      "unexplored": null
+    }
   },
   "environment": {
     "darknessLevel": 0,
@@ -57,11 +60,26 @@
       "saturation": 0,
       "contrast": 0,
       "shadows": 0,
-      "darkness": { "min": 0, "max": 0 }
+      "darkness": {
+        "min": 0,
+        "max": 0
+      }
     },
     "cycle": true,
-    "base": { "hue": 0, "intensity": 0, "luminosity": 0, "saturation": 0, "shadows": 0 },
-    "dark": { "hue": 0, "intensity": 0, "luminosity": -0.25, "saturation": 0, "shadows": 0 }
+    "base": {
+      "hue": 0,
+      "intensity": 0,
+      "luminosity": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "dark": {
+      "hue": 0,
+      "intensity": 0,
+      "luminosity": -0.25,
+      "saturation": 0,
+      "shadows": 0
+    }
   },
   "drawings": [],
   "tokens": [],
@@ -79,7 +97,9 @@
   "weather": "",
   "folder": null,
   "sort": 400000,
-  "ownership": { "default": 0 },
+  "ownership": {
+    "default": 0
+  },
   "flags": {
     "blooming-rot-2": {
       "floor": "city",

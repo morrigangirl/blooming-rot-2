@@ -56,6 +56,7 @@ Status key: **OPEN** · **FIXED** · **OVERTURNED** · **PARKED**
     - ~~The Brown Hare read-aloud hard-codes *"six strangers"*~~ — *"a yard full of strangers"* and *"a table of strangers and a country woman."*
 
 23. ~~**P2-23** · Pollow's mechanism is unstated — nothing says how he got Gilst to drink the tea.~~ **FIXED v1.6.2** — Gilst had been going to him for a month with a cough that would not clear, and Pollow kept sending him home with a tin of dried leaf to be taken steeped, at night, alone. The last tin was not the same as the others. He both administered and certified: *"his own prescription, in his own hand, in the dead man's own kitchen."* That is the answer to *"did you kill him?"* at Intimidation DC 16, and he gives it almost with relief.
+24. ~~**P2-24** · The Scene 4a illustration showed two PCs (Alicia and Cam) with a grey-haired man behind the counter, and the read-aloud called Doril Veth *"the man at the ledgers."* Doril's committed portrait and token are a woman in her fifties.~~ **FIXED v1.7.1** — GM ruling: the portrait is canon. New illustration generated to match it (navy jacket with gold braid, plum cravat, hair pinned, red-rimmed eyes) with Selvara across the counter and no one else in frame. Scene 4a's four gendered references corrected, and the ambiguous *"she expects her"* disambiguated to name Tamsin. Module-wide sweep found no other male-gendered reference to Doril.
 
 ---
 

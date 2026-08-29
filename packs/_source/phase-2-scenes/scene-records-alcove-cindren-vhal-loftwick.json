@@ -1,11 +1,11 @@
 {
   "_key": "!scenes!BR2P2S29a7fa7e45",
   "_id": "BR2P2S29a7fa7e45",
-  "name": "Records Alcove (Cindren & Vhal Loftwick)",
+  "name": "Cindren & Vhal Loftwick",
   "active": false,
   "navigation": false,
   "navOrder": 4,
-  "navName": "",
+  "navName": "Cindren & Vhal Loftwick",
   "background": {
     "src": "modules/blooming-rot-2/assets/maps/cv-loftwick-satellite-interior.png",
     "anchorX": 0.5,
@@ -521,10 +521,10 @@
     {
       "_id": "Wallf6588dffc6f0",
       "c": [
-        140,
-        95,
-        872,
-        95
+        123,
+        44,
+        875,
+        44
       ],
       "light": 20,
       "move": 20,
@@ -541,6 +541,7 @@
       "ds": 0,
       "doorSound": "",
       "flags": {},
+      "animation": null,
       "_key": "!scenes.walls!BR2P2S29a7fa7e45.Wallf6588dffc6f0"
     },
     {
@@ -548,8 +549,8 @@
       "c": [
         872,
         95,
-        900,
-        1215
+        954,
+        1251
       ],
       "light": 20,
       "move": 20,
@@ -566,15 +567,16 @@
       "ds": 0,
       "doorSound": "",
       "flags": {},
+      "animation": null,
       "_key": "!scenes.walls!BR2P2S29a7fa7e45.Wall381d6d7dddf2"
     },
     {
       "_id": "Wallc9a86802d450",
       "c": [
-        900,
-        1215,
-        562,
-        1215
+        945,
+        1251,
+        595,
+        1243
       ],
       "light": 20,
       "move": 20,
@@ -591,15 +593,16 @@
       "ds": 0,
       "doorSound": "",
       "flags": {},
+      "animation": null,
       "_key": "!scenes.walls!BR2P2S29a7fa7e45.Wallc9a86802d450"
     },
     {
       "_id": "Wall8045fae7930a",
       "c": [
-        562,
-        1215,
-        448,
-        1215
+        586,
+        1243,
+        438,
+        1243
       ],
       "light": 20,
       "move": 20,
@@ -616,15 +619,16 @@
       "ds": 0,
       "doorSound": "",
       "flags": {},
+      "animation": null,
       "_key": "!scenes.walls!BR2P2S29a7fa7e45.Wall8045fae7930a"
     },
     {
       "_id": "Wall2fc9a7a9c894",
       "c": [
-        448,
-        1215,
-        110,
-        1215
+        429,
+        1243,
+        26,
+        1243
       ],
       "light": 20,
       "move": 20,
@@ -641,15 +645,16 @@
       "ds": 0,
       "doorSound": "",
       "flags": {},
+      "animation": null,
       "_key": "!scenes.walls!BR2P2S29a7fa7e45.Wall2fc9a7a9c894"
     },
     {
       "_id": "Walled9e2cee6dfd",
       "c": [
-        110,
-        1215,
-        140,
-        95
+        18,
+        1243,
+        123,
+        44
       ],
       "light": 20,
       "move": 20,
@@ -666,15 +671,16 @@
       "ds": 0,
       "doorSound": "",
       "flags": {},
+      "animation": null,
       "_key": "!scenes.walls!BR2P2S29a7fa7e45.Walled9e2cee6dfd"
     },
     {
       "_id": "Walla65b805795b0",
       "c": [
-        123,
-        730,
-        248,
-        730
+        70,
+        656,
+        236,
+        656
       ],
       "light": 20,
       "move": 20,
@@ -691,15 +697,16 @@
       "ds": 0,
       "doorSound": "",
       "flags": {},
+      "animation": null,
       "_key": "!scenes.walls!BR2P2S29a7fa7e45.Walla65b805795b0"
     },
     {
       "_id": "Wallf7b9aacbb959",
       "c": [
-        248,
-        730,
-        348,
-        730
+        236,
+        656,
+        341,
+        656
       ],
       "light": 0,
       "move": 20,
@@ -716,15 +723,16 @@
       "ds": 0,
       "doorSound": "",
       "flags": {},
+      "animation": null,
       "_key": "!scenes.walls!BR2P2S29a7fa7e45.Wallf7b9aacbb959"
     },
     {
       "_id": "Wall134bb68d8b80",
       "c": [
-        348,
-        730,
-        469,
-        730
+        341,
+        656,
+        455,
+        656
       ],
       "light": 20,
       "move": 20,
@@ -741,15 +749,16 @@
       "ds": 0,
       "doorSound": "",
       "flags": {},
+      "animation": null,
       "_key": "!scenes.walls!BR2P2S29a7fa7e45.Wall134bb68d8b80"
     },
     {
       "_id": "Wallad71bdd737be",
       "c": [
-        469,
-        730,
-        553,
-        730
+        455,
+        656,
+        578,
+        656
       ],
       "light": 20,
       "move": 20,
@@ -766,15 +775,16 @@
       "ds": 0,
       "doorSound": "",
       "flags": {},
+      "animation": null,
       "_key": "!scenes.walls!BR2P2S29a7fa7e45.Wallad71bdd737be"
     },
     {
       "_id": "Walla94c182ae18d",
       "c": [
-        553,
-        730,
-        664,
-        730
+        578,
+        656,
+        656,
+        656
       ],
       "light": 20,
       "move": 20,
@@ -791,15 +801,16 @@
       "ds": 0,
       "doorSound": "",
       "flags": {},
+      "animation": null,
       "_key": "!scenes.walls!BR2P2S29a7fa7e45.Walla94c182ae18d"
     },
     {
       "_id": "Wallfaab5cf6fa64",
       "c": [
-        664,
-        730,
-        758,
-        730
+        656,
+        656,
+        744,
+        656
       ],
       "light": 0,
       "move": 20,
@@ -816,15 +827,16 @@
       "ds": 0,
       "doorSound": "",
       "flags": {},
+      "animation": null,
       "_key": "!scenes.walls!BR2P2S29a7fa7e45.Wallfaab5cf6fa64"
     },
     {
       "_id": "Wall138049604145",
       "c": [
-        758,
-        730,
-        888,
-        730
+        744,
+        656,
+        910,
+        656
       ],
       "light": 20,
       "move": 20,
@@ -841,15 +853,16 @@
       "ds": 0,
       "doorSound": "",
       "flags": {},
+      "animation": null,
       "_key": "!scenes.walls!BR2P2S29a7fa7e45.Wall138049604145"
     },
     {
       "_id": "Wall2f71bb6a60bf",
       "c": [
-        402,
-        95,
-        402,
-        290
+        405,
+        44,
+        404,
+        285
       ],
       "light": 20,
       "move": 20,
@@ -866,13 +879,14 @@
       "ds": 0,
       "doorSound": "",
       "flags": {},
+      "animation": null,
       "_key": "!scenes.walls!BR2P2S29a7fa7e45.Wall2f71bb6a60bf"
     },
     {
       "_id": "Wallb6eaf7be595d",
       "c": [
-        402,
-        290,
+        403,
+        287,
         402,
         370
       ],
@@ -891,6 +905,7 @@
       "ds": 0,
       "doorSound": "",
       "flags": {},
+      "animation": null,
       "_key": "!scenes.walls!BR2P2S29a7fa7e45.Wallb6eaf7be595d"
     },
     {
@@ -898,8 +913,8 @@
       "c": [
         402,
         370,
-        402,
-        730
+        395,
+        657
       ],
       "light": 20,
       "move": 20,
@@ -916,15 +931,16 @@
       "ds": 0,
       "doorSound": "",
       "flags": {},
+      "animation": null,
       "_key": "!scenes.walls!BR2P2S29a7fa7e45.Walle4033a88edef"
     },
     {
       "_id": "Wall3dba51c3d7ee",
       "c": [
-        597,
-        95,
-        597,
-        320
+        604,
+        44,
+        607,
+        273
       ],
       "light": 20,
       "move": 20,
@@ -941,13 +957,14 @@
       "ds": 0,
       "doorSound": "",
       "flags": {},
+      "animation": null,
       "_key": "!scenes.walls!BR2P2S29a7fa7e45.Wall3dba51c3d7ee"
     },
     {
       "_id": "Wall49c9e3106a2d",
       "c": [
-        402,
-        265,
+        403,
+        263,
         520,
         265
       ],
@@ -966,6 +983,7 @@
       "ds": 0,
       "doorSound": "",
       "flags": {},
+      "animation": null,
       "_key": "!scenes.walls!BR2P2S29a7fa7e45.Wall49c9e3106a2d"
     },
     {
@@ -987,10 +1005,19 @@
         "attenuation": false
       },
       "dir": 0,
-      "door": 1,
+      "door": 2,
       "ds": 0,
       "doorSound": "",
       "flags": {},
+      "animation": {
+        "type": "",
+        "texture": null,
+        "flip": false,
+        "double": false,
+        "direction": 1,
+        "duration": 750,
+        "strength": 1
+      },
       "_key": "!scenes.walls!BR2P2S29a7fa7e45.Wallf9819bfffe1f"
     }
   ],
@@ -1007,7 +1034,8 @@
   "flags": {
     "blooming-rot-2": {
       "phase": "2",
-      "kind": "scene-map"
+      "kind": "scene-map",
+      "wallNote": "Walls are the GM's hand-placed wall-editor pass on her replacement map, exported from the live world (2026-08-29) and adopted verbatim (incl. the strongroom secret door). Pin entryIds re-pointed at the compendium journal. Background uses the module's copy of her map. Refine in the wall editor and re-export to update."
     }
   },
   "_stats": {

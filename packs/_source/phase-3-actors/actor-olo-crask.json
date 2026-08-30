@@ -445,7 +445,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p>Retired Aerdi marine captain hired to guard the recovery target. Stat block: MM Bandit Captain. Leads five Thugs (MM). Will surrender for a fair price and a quiet exit.</p>",
+        "value": "<p>Retired Aerdi marine captain hired to guard the recovery target. Stat block: MM Bandit Captain. Leads four Thugs (MM) <em>(six PCs: a fifth Thug)</em>. Paid to hold the target and will fight to the last for it — he is not for buying once the shooting starts.</p>",
         "public": ""
       },
       "alignment": "Neutral",

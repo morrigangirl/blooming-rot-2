@@ -328,7 +328,7 @@
       "fontFamily": "Signika",
       "textAnchor": 1,
       "textColor": "#ffffff",
-      "text": "Eastern caravan yard — Tamsin seen here, 15 days ago",
+      "text": "Eastern caravan yard — Tamsin last seen here (weeks back; see Mossen Place GM Notes)",
       "global": false,
       "flags": {},
       "_key": "!scenes.notes!BR2P3Saccef61562.NoteHardbyCity08"
@@ -390,7 +390,7 @@
       "fontFamily": "Signika",
       "textAnchor": 1,
       "textColor": "#ffffff",
-      "text": "South Gate — Commercial Cover / Quiet Pursuit arrival",
+      "text": "South Gate — Quiet Pursuit arrival",
       "global": false,
       "flags": {},
       "_key": "!scenes.notes!BR2P3Saccef61562.NoteHardbyCity10"
@@ -518,6 +518,37 @@
       "global": false,
       "flags": {},
       "_key": "!scenes.notes!BR2P3Saccef61562.NoteHardbyCity14"
+    },
+    {
+      "_id": "BR2P3NoteWhalStp",
+      "entryId": "BR2P3HrdbyNPCJrl",
+      "pageId": "BR2P3NpPgVeska01",
+      "x": 735,
+      "y": 430,
+      "elevation": 0,
+      "sort": 0,
+      "texture": {
+        "src": "icons/svg/book.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "fill",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0
+      },
+      "iconSize": 40,
+      "fontSize": 28,
+      "fontFamily": "Signika",
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "text": "Whalemarket steps — Commercial Cover arrival (up from the wool trader)",
+      "global": false,
+      "flags": {},
+      "_key": "!scenes.notes!BR2P3Saccef61562.BR2P3NoteWhalStp"
     }
   ],
   "regions": [],

@@ -1,6 +1,6 @@
 {
   "_id": "BR2P4Abde8fa29a8",
-  "name": "Lyla Vesh",
+  "name": "Imperial Advocate Serrin Thale",
   "type": "npc",
   "img": "modules/blooming-rot-2/assets/portraits/lyla-vesh-portrait.png",
   "system": {
@@ -445,7 +445,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p>Imperial advocate handling the Cindren & Vhal case. Her reassignment is a Pressure-Clock beat. Thirties, Aerdy-trained, painfully honest in a system that makes that expensive.</p>",
+        "value": "<p><em>The imperial advocate prosecuting the customs-forgery case against Lyla Vesh &mdash; Magister Andrune Vesh's sister-in-law. She is not Lyla; she is the woman on the other side of the table from her, and she is the reason Vesh took the conspiracy's offer.</em></p><p>Thirties. Aerdy-trained, painfully honest in a system that makes honesty expensive. She believes the spousal-knowledge presumption at the heart of her own case is weak and is prosecuting it anyway, because it was assigned to her and because she has not yet been given a reason to drop it. <strong>Therion Halask can give her one.</strong> Handed the Aerdi precedent that demolishes the presumption, she will not fight it &mdash; she will thank him, privately and with some relief.</p><p><strong>Pressure Clock, segment 3:</strong> she is &quot;reassigned&quot; to a Rauxes posting before Halask can complete the procedural challenge. Her successor is harder to predict and less interested in being persuaded. <em>Vesh's withdrawal becomes contingent on a stranger.</em></p><p><em>Note: her portrait and token files are named for Lyla Vesh. That is a legacy filename from before the two women were told apart; the art is hers.</em></p>",
         "public": ""
       },
       "alignment": "Neutral",
@@ -528,7 +528,7 @@
     }
   },
   "prototypeToken": {
-    "name": "Lyla Vesh",
+    "name": "Imperial Advocate Serrin Thale",
     "displayName": 0,
     "actorLink": false,
     "appendNumber": false,

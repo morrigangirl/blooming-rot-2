@@ -1,0 +1,760 @@
+{
+  "_key": "!journal!BR2P4PortraitJr",
+  "_id": "BR2P4PortraitJr",
+  "name": "Phase 4 — NPC Portraits",
+  "pages": [
+    {
+      "_key": "!journal.pages!BR2P4PortraitJr.BR2P4PoPgIndex",
+      "_id": "BR2P4PoPgIndex",
+      "name": "The Cast at a Glance",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h1>Phase 4 &mdash; The Cast</h1><p><em>Every named Phase 4 NPC with committed art, one to a page, alphabetical. Use it to put a face to a name mid-scene without opening four journals.</em></p><p><strong>Showing a face to the table.</strong> Click the portrait itself and use <em>Show Players</em> from the image popout &mdash; that shares the picture alone. Do <em>not</em> share the page: the text under each portrait is written for you, not for them.</p><p><strong>Two names on this list have no art and no page, and both matter:</strong> <strong>Ilmeth Rone</strong>, the honest councilor whose vote to table costs Astor his 4-3 and who has never been shown a document; and <strong>Neth Corvane</strong>, the fourth clean councilor, who agrees with whoever spoke to her last. See <em>Rel Astra NPCs &gt; Belven Astor</em>.</p><table><thead><tr><th>Who</th><th>In one line</th></tr></thead><tbody><tr><td><strong>Adra Sayan</strong></td><td>Halask's old commercial-court colleague on the Old Harbor Ward Council &mdash; and the only clean councilor who will sign anything.</td></tr><tr><td><strong>Aldaen Veth</strong></td><td>Senior Commissioner of the harbor commission, sixty-eight, and the one reliable <em>no</em> on the candidate slate.</td></tr><tr><td><strong>Andrune Vesh</strong></td><td>The Technocrat. Conspiracy candidate for the Fifth Seat, honest, and out of options.</td></tr><tr><td><strong>Belven Astor</strong></td><td>Councilor and chandler. Loses 4-3 votes on the Old Harbor Ward Council and brings them again.</td></tr><tr><td><strong>Coriath Tenrel</strong></td><td>The Advocate. Conspiracy candidate for the Third Seat, and the only candidate who asked for it.</td></tr><tr><td><strong>Eled Ruth</strong></td><td>Civic Seat holder. Irritable academic, late fifties, knows commercial law better than half the advocates in the city.</td></tr><tr><td><strong>Faren Mirelth</strong></td><td>The Reformer. Conspiracy candidate for the First Seat, publicly high-minded and privately owned.</td></tr><tr><td><strong>Galenix Naelax</strong></td><td>The Aerdy claimant the conspiracy is positioning behind &mdash; confined to his own embassy, and owed for.</td></tr><tr><td><strong>Hold Veshanen</strong></td><td>Commerce Seat holder. Forty-five, smooth, and owes Sereth's firm money.</td></tr><tr><td><strong>Holyn Sevarian</strong></td><td>The witness Caelith named in Loftwick, with no explanation. This is where that name pays off.</td></tr><tr><td><strong>Serrin Thale</strong></td><td>The imperial advocate prosecuting Lyla Vesh &mdash; and privately unconvinced by her own case.</td></tr><tr><td><strong>Solvard Mein</strong></td><td>Senior councilor of the Old Harbor Ward, openly Sereth-aligned. Jovial in person, ruthless in committee.</td></tr><tr><td><strong>Tarlith Vhal Sereth</strong></td><td>The named villain of Phase 4. Senior partner, Cindren &amp; Vhal Rel Astra. Indictable, removable, or killable &mdash; and not the conspiracy.</td></tr><tr><td><strong>Therion Halask</strong></td><td>Caelith's Rel Astra correspondent. The party's gateway into the city and the procedural anchor of the whole phase.</td></tr><tr><td><strong>Velren Ostrach</strong></td><td>Magister of the Aerdi Commercial Court. Stern, by the book, and despises both sides equally.</td></tr><tr><td><strong>Volin Reach</strong></td><td>The Imperial Seat. Votes whatever Rauxes tells him to vote, which is usually nothing &mdash; and that abstention is the whole game.</td></tr></tbody></table>",
+        "markdown": null
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5,
+        "autoplay": false,
+        "loop": false,
+        "timestamp": 0,
+        "width": null,
+        "height": null
+      },
+      "src": null,
+      "system": {},
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_key": "!journal.pages!BR2P4PortraitJr.BR2P4PoPgAdraSayan",
+      "_id": "BR2P4PoPgAdraSayan",
+      "name": "Adra Sayan",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h1>Adra Sayan</h1><p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/portraits/adra-sayan-portrait.png\" alt=\"Portrait of Adra Sayan\" style=\"max-width: 420px; border-radius: 4px;\"></p><p>Sixties, retired from active practice, lives in a small house off Imperial Way. One of the four uncompromised members of the Old Harbor Ward Council and the only one of them who will give a signed statement to a properly seated commercial-court advocate. <em>Halask will name her unprompted; Astor will introduce her.</em> She is also the Pressure Clock's cruellest segment-3 option &mdash; found drowned in the harbor, with Halask's deposition lost and Halask shaken.</p>",
+        "markdown": null
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5,
+        "autoplay": false,
+        "loop": false,
+        "timestamp": 0,
+        "width": null,
+        "height": null
+      },
+      "src": null,
+      "system": {},
+      "sort": 200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_key": "!journal.pages!BR2P4PortraitJr.BR2P4PoPgAldaenVeth",
+      "_id": "BR2P4PoPgAldaenVeth",
+      "name": "Aldaen Veth",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h1>Aldaen Veth</h1><p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/portraits/mistress-aldaen-veth-portrait.png\" alt=\"Portrait of Aldaen Veth\" style=\"max-width: 420px; border-radius: 4px;\"></p><p>An Aerdy noble who has held her seat through three imperial transitions and is cordial to every faction on principle. She will vote against all three conspiracy candidates and she will lose, because the conspiracy has arranged for only three votes to be cast. <em>She is not an ally the party has to earn &mdash; she is the dissent that is already there and is not enough. Play her as unruffled; she has watched this kind of thing before.</em></p>",
+        "markdown": null
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5,
+        "autoplay": false,
+        "loop": false,
+        "timestamp": 0,
+        "width": null,
+        "height": null
+      },
+      "src": null,
+      "system": {},
+      "sort": 300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_key": "!journal.pages!BR2P4PortraitJr.BR2P4PoPgAndruneVesh",
+      "_id": "BR2P4PoPgAndruneVesh",
+      "name": "Andrune Vesh",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h1>Andrune Vesh</h1><p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/portraits/vesh-portrait.png\" alt=\"Portrait of Andrune Vesh\" style=\"max-width: 420px; border-radius: 4px;\"></p><p>A standard-reference Aerdy legal scholar who took the conspiracy's offer because his sister-in-law Lyla faces twenty years on customs forgery her late husband actually committed. Sereth is dangling private acquaintance with the prosecuting advocate as the price of the seat. <em>The party's leverage on him is to remove the leverage on him:</em> two weeks of Halask's time resolves the customs case, and Vesh withdraws publicly and refers the Fifth Seat back to open nomination.</p>",
+        "markdown": null
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5,
+        "autoplay": false,
+        "loop": false,
+        "timestamp": 0,
+        "width": null,
+        "height": null
+      },
+      "src": null,
+      "system": {},
+      "sort": 400000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_key": "!journal.pages!BR2P4PortraitJr.BR2P4PoPgBelvenAstor",
+      "_id": "BR2P4PoPgBelvenAstor",
+      "name": "Belven Astor",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h1>Belven Astor</h1><p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/portraits/astor-portrait.png\" alt=\"Portrait of Belven Astor\" style=\"max-width: 420px; border-radius: 4px;\"></p><p>Master mariner for fifteen years, then a chandler, then a councilor on his second attempt. Honest, conservative, and quietly furious about the vacancies. He is the party's only reliable civic ally in Rel Astra. <em>He will not agree that the council is corrupt as a body &mdash; phrase it as two or three of the seven and he is with you.</em> He has twice moved to open the matter and twice been tabled, and he has never once brought Ilmeth Rone a document instead of an argument. Tell him so.</p>",
+        "markdown": null
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5,
+        "autoplay": false,
+        "loop": false,
+        "timestamp": 0,
+        "width": null,
+        "height": null
+      },
+      "src": null,
+      "system": {},
+      "sort": 500000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_key": "!journal.pages!BR2P4PortraitJr.BR2P4PoPgCoriathTenr",
+      "_id": "BR2P4PoPgCoriathTenr",
+      "name": "Coriath Tenrel",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h1>Coriath Tenrel</h1><p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/portraits/tenrel-portrait.png\" alt=\"Portrait of Coriath Tenrel\" style=\"max-width: 420px; border-radius: 4px;\"></p><p>An Aerdi commercial-court advocate who approached Sereth herself eighteen months ago and offered ten years of sympathetic votes for the firm's backing of her ambitions. Not bribed, not pressured, not removable by relieving pressure. <em>There is no Tenrel-specific intervention in Phase 4.</em> The party can only stop her by stopping the seating &mdash; and if they want her dealt with permanently, Halask's file on her undeclared retainer is a Phase 5 lever that only bites once she is seated.</p>",
+        "markdown": null
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5,
+        "autoplay": false,
+        "loop": false,
+        "timestamp": 0,
+        "width": null,
+        "height": null
+      },
+      "src": null,
+      "system": {},
+      "sort": 600000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_key": "!journal.pages!BR2P4PortraitJr.BR2P4PoPgEledRuth",
+      "_id": "BR2P4PoPgEledRuth",
+      "name": "Eled Ruth",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h1>Eled Ruth</h1><p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/portraits/magister-eled-ruth-portrait.png\" alt=\"Portrait of Eled Ruth\" style=\"max-width: 420px; border-radius: 4px;\"></p><p>Independent, no patience for ceremony, and irritated at being asked to vote on three candidates in one sitting. He votes down Mirelth on procedural objection &mdash; <em>which is exactly what the conspiracy wants,</em> because it holds Mirelth over for a quieter re-vote later while Vesh and Tenrel go through. <em>He is an unwitting ally and should never be played as a knowing one.</em></p>",
+        "markdown": null
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5,
+        "autoplay": false,
+        "loop": false,
+        "timestamp": 0,
+        "width": null,
+        "height": null
+      },
+      "src": null,
+      "system": {},
+      "sort": 700000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_key": "!journal.pages!BR2P4PortraitJr.BR2P4PoPgFarenMirelt",
+      "_id": "BR2P4PoPgFarenMirelt",
+      "name": "Faren Mirelth",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h1>Faren Mirelth</h1><p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/portraits/mirelth-portrait.png\" alt=\"Portrait of Faren Mirelth\" style=\"max-width: 420px; border-radius: 4px;\"></p><p>Bankrupt in private fact since his late father's shipping concern collapsed in 578, and kept afloat since 579 by twenty thousand gold in &quot;personal advances against future earnings&quot; from Cindren &amp; Vhal Rel Astra. Disqualifiable under Aerdi commercial code §187 and the easiest of the three to remove. <em>Shown the loan documents in private, he will withdraw within the hour</em> &mdash; he prefers withdrawal to disqualification, because withdrawal only pauses a career.</p>",
+        "markdown": null
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5,
+        "autoplay": false,
+        "loop": false,
+        "timestamp": 0,
+        "width": null,
+        "height": null
+      },
+      "src": null,
+      "system": {},
+      "sort": 800000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_key": "!journal.pages!BR2P4PortraitJr.BR2P4PoPgGalenixNael",
+      "_id": "BR2P4PoPgGalenixNael",
+      "name": "Galenix Naelax",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h1>Galenix Naelax</h1><p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/portraits/galenix-portrait.png\" alt=\"Portrait of Galenix Naelax\" style=\"max-width: 420px; border-radius: 4px;\"></p><p>Mid-thirties, cousin to the current Overking, the de facto Naelax voice in Rel Astra for ten years and under polite house-arrest by a four-house coalition for the last eleven months. He owes the firm roughly 38,000 gp accumulated over eleven years &mdash; longer than his own tenure, the oldest instruments signed by his late uncle. <em>He is, by Aerdy noble standards, an honest man, and he believes the firm has been a quiet friend to his house.</em> Brief him, leave him, or use him; all three are defensible and all three cost something.</p>",
+        "markdown": null
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5,
+        "autoplay": false,
+        "loop": false,
+        "timestamp": 0,
+        "width": null,
+        "height": null
+      },
+      "src": null,
+      "system": {},
+      "sort": 900000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_key": "!journal.pages!BR2P4PortraitJr.BR2P4PoPgHoldVeshane",
+      "_id": "BR2P4PoPgHoldVeshane",
+      "name": "Hold Veshanen",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h1>Hold Veshanen</h1><p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/portraits/master-hold-veshanen-portrait.png\" alt=\"Portrait of Hold Veshanen\" style=\"max-width: 420px; border-radius: 4px;\"></p><p>The conspiracy's reliable vote on the commission: yes to all three candidates, without hesitation, on the day. <em>He will not be turned by argument and cannot be turned by evidence &mdash; only by a clear public reason not to vote, which the party is unlikely to manufacture in twelve days.</em> Treat him as fixed. Once Vesh and Tenrel are seated he becomes the anchor of a three-vote bloc.</p>",
+        "markdown": null
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5,
+        "autoplay": false,
+        "loop": false,
+        "timestamp": 0,
+        "width": null,
+        "height": null
+      },
+      "src": null,
+      "system": {},
+      "sort": 1000000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_key": "!journal.pages!BR2P4PortraitJr.BR2P4PoPgHolynSevari",
+      "_id": "BR2P4PoPgHolynSevari",
+      "name": "Holyn Sevarian",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h1>Holyn Sevarian</h1><p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/portraits/holyn-sevarian-portrait.png\" alt=\"Portrait of Holyn Sevarian\" style=\"max-width: 420px; border-radius: 4px;\"></p><p>A bonded Rel Astran counting-house clerk who keeps daylight hours over a ledger in the Old Harbor Ward and the rest of his life in the advocate quarter. <em>Not in the conspiracy</em> &mdash; the careful, unimportant sort of man who notices when numbers arrive in the wrong order, and who has noticed. He can recognise the crane-and-coins countersignature on Haskur's letter of credit and put a date and a desk to indemnity claims lodged before the losses were reported. <em>Begin by treating him as a witness, as Caelith said.</em></p>",
+        "markdown": null
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5,
+        "autoplay": false,
+        "loop": false,
+        "timestamp": 0,
+        "width": null,
+        "height": null
+      },
+      "src": null,
+      "system": {},
+      "sort": 1100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_key": "!journal.pages!BR2P4PortraitJr.BR2P4PoPgSerrinThale",
+      "_id": "BR2P4PoPgSerrinThale",
+      "name": "Serrin Thale",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h1>Serrin Thale</h1><p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/portraits/lyla-vesh-portrait.png\" alt=\"Portrait of Serrin Thale\" style=\"max-width: 420px; border-radius: 4px;\"></p><p>Thirties, Aerdy-trained, painfully honest in a system that makes honesty expensive. She is prosecuting a spousal-knowledge presumption she has thought weak from the start, because it was assigned to her and nobody has handed her a reason to drop it. <em>Halask can hand her one, and she will thank him for it.</em> On Pressure Clock segment 3 she is &quot;reassigned&quot; to Rauxes before he gets the chance, and her successor is a stranger. <br><em>(Her portrait and token files are named for Lyla Vesh &mdash; a legacy filename from before the two women were told apart. The art is hers; Lyla is never seen.)</em></p>",
+        "markdown": null
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5,
+        "autoplay": false,
+        "loop": false,
+        "timestamp": 0,
+        "width": null,
+        "height": null
+      },
+      "src": null,
+      "system": {},
+      "sort": 1200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_key": "!journal.pages!BR2P4PortraitJr.BR2P4PoPgSolvardMein",
+      "_id": "BR2P4PoPgSolvardMein",
+      "name": "Solvard Mein",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h1>Solvard Mein</h1><p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/portraits/solvard-mein-portrait.png\" alt=\"Portrait of Solvard Mein\" style=\"max-width: 420px; border-radius: 4px;\"></p><p>Sixties. He has tabled Astor's motion twice and will table it a third time, and he does not particularly trouble to hide whose interests he is serving. <em>He is one of three cultivated councilors; the fourth vote that beats Astor is not his to buy &mdash; it belongs to Ilmeth Rone, who is honest and votes to table on principle.</em> Mein knows this and has never had to explain it to anyone.</p>",
+        "markdown": null
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5,
+        "autoplay": false,
+        "loop": false,
+        "timestamp": 0,
+        "width": null,
+        "height": null
+      },
+      "src": null,
+      "system": {},
+      "sort": 1300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_key": "!journal.pages!BR2P4PortraitJr.BR2P4PoPgTarlithVhal",
+      "_id": "BR2P4PoPgTarlithVhal",
+      "name": "Tarlith Vhal Sereth",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h1>Tarlith Vhal Sereth</h1><p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/portraits/sereth-portrait.png\" alt=\"Portrait of Tarlith Vhal Sereth\" style=\"max-width: 420px; border-radius: 4px;\"></p><p>Late fifties, tall and very thin, silver-white hair worn long, the firm's seal on his right hand rather than a personal device. He smiles only with his mouth. <em>Do not let players bully him into reacting; he is too disciplined to react.</em> He has spent ten years preparing against a Yeomanry filing and will be beaten by an Aerdi one &mdash; the specific way he is wrong, and the reason Path 1 works. Asked directly about the annotation hand, and only on Path 2, he gives the party their fifth observation and one confident piece of misdirection he believes entirely.</p>",
+        "markdown": null
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5,
+        "autoplay": false,
+        "loop": false,
+        "timestamp": 0,
+        "width": null,
+        "height": null
+      },
+      "src": null,
+      "system": {},
+      "sort": 1400000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_key": "!journal.pages!BR2P4PortraitJr.BR2P4PoPgTherionHala",
+      "_id": "BR2P4PoPgTherionHala",
+      "name": "Therion Halask",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h1>Therion Halask</h1><p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/portraits/halask-portrait.png\" alt=\"Portrait of Therion Halask\" style=\"max-width: 420px; border-radius: 4px;\"></p><p>Mid-sixties, Aerdi, white hair close-cropped, a long pale advocate's robe with the disused colour-sash of a retired bench, reading lenses on a chain. He will not fight and has not been in a fight in forty-five years. <em>He is also the difference between an indictment and a grievance.</em> Caelith writes to him every two weeks and has done for months; the letters the party reads in Rel Astra come out of the drawer under his table at the Brass Sextant. <em>Let him file in his own name. If the party insists on Yeomanry standing, they hand Sereth back the case he prepared for.</em></p>",
+        "markdown": null
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5,
+        "autoplay": false,
+        "loop": false,
+        "timestamp": 0,
+        "width": null,
+        "height": null
+      },
+      "src": null,
+      "system": {},
+      "sort": 1500000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_key": "!journal.pages!BR2P4PortraitJr.BR2P4PoPgVelrenOstra",
+      "_id": "BR2P4PoPgVelrenOstra",
+      "name": "Velren Ostrach",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h1>Velren Ostrach</h1><p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/portraits/magister-velren-ostrach-portrait.png\" alt=\"Portrait of Velren Ostrach\" style=\"max-width: 420px; border-radius: 4px;\"></p><p>Halask's chosen venue for Path 1: honest, and known to dislike Sereth personally without letting it show in a ruling. He denies all three of the defense's motions to dismiss inside a week, accepts the indictment at the preliminary hearing on Day 29, and sets bail at 50,000 gp, which Sereth posts within the hour. <em>He is not a friend and should never be played as one. He is simply a court that works.</em></p>",
+        "markdown": null
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5,
+        "autoplay": false,
+        "loop": false,
+        "timestamp": 0,
+        "width": null,
+        "height": null
+      },
+      "src": null,
+      "system": {},
+      "sort": 1600000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_key": "!journal.pages!BR2P4PortraitJr.BR2P4PoPgVolinReach",
+      "_id": "BR2P4PoPgVolinReach",
+      "name": "Volin Reach",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h1>Volin Reach</h1><p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/portraits/captain-volin-reach-portrait.png\" alt=\"Portrait of Volin Reach\" style=\"max-width: 420px; border-radius: 4px;\"></p><p>Forty-seven, the imperial garrison's harbor liaison, Aerdy-loyal and procedurally honest: he will not vote for what he cannot see in writing. <em>The conspiracy scheduled the herald's ceremonial visit for the day after the candidate vote precisely so that imperial protocol bars him from the tally at all.</em> Brief him through Halask's channel and he shifts from abstention to opposition &mdash; but the party has to get the herald's calendar moved first, or the briefing buys them nothing.</p>",
+        "markdown": null
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5,
+        "autoplay": false,
+        "loop": false,
+        "timestamp": 0,
+        "width": null,
+        "height": null
+      },
+      "src": null,
+      "system": {},
+      "sort": 1700000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "blooming-rot-2": {
+      "phase": 4
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "categories": []
+}

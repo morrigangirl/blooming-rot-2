@@ -50,7 +50,7 @@
         "lastModifiedBy": null
       },
       "text": {
-        "content": "<h1>Phase 2 &mdash; The Cast</h1><p><em>Every named Phase 2 NPC with committed art, one to a page, alphabetical. Use it to put a face to a name mid-scene without opening four journals.</em></p><p><strong>Showing a face to the table.</strong> Click the portrait itself and use <em>Show Players</em> from the image popout &mdash; that shares the picture alone. Do <em>not</em> share the page: the text under each portrait is written for you, not for them.</p><table><thead><tr><th>Who</th><th>In one line</th></tr></thead><tbody><tr><td><strong>Arthen Moll</strong></td><td>Deputy Voice of Civic Reconciliation.</td></tr><tr><td><strong>Brell Kostan</strong></td><td>Yeomanry sergeant, twenty years in.</td></tr><tr><td><strong>Doman Reith</strong></td><td>The party reaches him too late.</td></tr><tr><td><strong>Doril Veth</strong></td><td>Tamsin Moraven's chief clerk at her counting house on Tannerway.</td></tr><tr><td><strong>Halir Anwic</strong></td><td>Yeomanry sergeant who was on Tamsin Moraven's case until he was reassigned.</td></tr><tr><td><strong>Merev Sarth</strong></td><td>Hired through three intermediaries by a paymaster the party will not be able to trace in Phase 2.</td></tr><tr><td><strong>Merro Gilst</strong></td><td>Witness whose room is tossed during Phase 2 evidence-gathering.</td></tr><tr><td><strong>Reln Pollow</strong></td><td>Contract-physician.</td></tr><tr><td><strong>Rosalin Brent</strong></td><td>Mid-fifties; weathered; capable.</td></tr><tr><td><strong>\"Sparrow\" (Anla Coyle)</strong></td><td>Posted watcher on Wick Lane in the Phase 2 chase scene (Movement Two: The City, Scene 3d — The Sparrow's Run).</td></tr><tr><td><strong>Tamsin Moraven</strong></td><td>Senior grain factor, Loftwick.</td></tr><tr><td><strong>Trina Alvere</strong></td><td>Caelith Dunivar's private advisor.</td></tr><tr><td><strong>Vellin Moraven</strong></td><td>Tamsin Moraven's husband.</td></tr><tr><td><strong>Veshen Cindren</strong></td><td>Senior partner of Cindren &amp; Vhal in Greyhawk.</td></tr></tbody></table>",
+        "content": "<h1>Phase 2 &mdash; The Cast</h1><p><em>Every named Phase 2 NPC with committed art, one to a page, alphabetical. Use it to put a face to a name mid-scene without opening four journals.</em></p><p><strong>Showing a face to the table.</strong> Click the portrait itself and use <em>Show Players</em> from the image popout &mdash; that shares the picture alone. Do <em>not</em> share the page: the text under each portrait is written for you, not for them.</p><table><thead><tr><th>Who</th><th>In one line</th></tr></thead><tbody><tr><td><strong>Arthen Moll</strong></td><td>Deputy Voice of Civic Reconciliation.</td></tr><tr><td><strong>Brell Kostan</strong></td><td>Steady Yeomanry corporal, twenty years in.</td></tr><tr><td><strong>Doman Reith</strong></td><td>Gilst's frightened landlord — lets the party into the sealed rooms.</td></tr><tr><td><strong>Doril Veth</strong></td><td>Tamsin Moraven's chief clerk at her counting house on Tannerway.</td></tr><tr><td><strong>Halir Anwic</strong></td><td>Yeomanry sergeant who took Tamsin's report and let it cool; will reopen it at Caelith's word.</td></tr><tr><td><strong>Merev Sarth</strong></td><td>Hired through one intermediary — a Hardby contact she knows only as &ldquo;Tarsh,&rdquo; reached by a numbered dead drop, never met — for a paymaster the party will not trace in Phase 2.</td></tr><tr><td><strong>Merro Gilst</strong></td><td>The murdered clerk whose sealed rooms — and hidden receipts — are the case.</td></tr><tr><td><strong>Reln Pollow</strong></td><td>Contract-physician.</td></tr><tr><td><strong>Rosalin Brent</strong></td><td>Mid-fifties; weathered; capable.</td></tr><tr><td><strong>\"Sparrow\" (Anla Coyle)</strong></td><td>Posted watcher on Wick Lane in the Phase 2 chase scene (Movement Two: The City, Scene 3d — The Sparrow's Run).</td></tr><tr><td><strong>Tamsin Moraven</strong></td><td>Senior grain factor, Loftwick.</td></tr><tr><td><strong>Trina Alvere</strong></td><td>Caelith Dunivar's private advisor.</td></tr><tr><td><strong>Vellin Moraven</strong></td><td>Tamsin Moraven's husband.</td></tr><tr><td><strong>Veshen Cindren</strong></td><td>Senior partner of Cindren &amp; Vhal in Rel Astra.</td></tr></tbody></table>",
         "format": 1,
         "markdown": null
       }
@@ -112,7 +112,7 @@
         "lastModifiedBy": null
       },
       "text": {
-        "content": "<h1>Brell Kostan</h1><p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/portraits/brell-kostan-portrait.png\" alt=\"Portrait of Brell Kostan\" style=\"max-width: 420px; border-radius: 4px;\"></p><p>Yeomanry sergeant, twenty years in. Disarms Merev Sarth in the pre-dawn retrieval-attempt scene. Stat block: MM Warrior Veteran. Reluctant participant, follows orders, dislikes the operation he's part of.</p>",
+        "content": "<h1>Brell Kostan</h1><p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/portraits/brell-kostan-portrait.png\" alt=\"Portrait of Brell Kostan\" style=\"max-width: 420px; border-radius: 4px;\"></p><p>Steady Yeomanry corporal, twenty years in. Posted at the far end of the old service tunnel on Sarth's night; takes her when she runs. Stat block: MM Warrior Veteran. Reluctant participant, follows orders, dislikes the operation he's part of.</p>",
         "format": 1,
         "markdown": null
       }
@@ -143,7 +143,7 @@
         "lastModifiedBy": null
       },
       "text": {
-        "content": "<h1>Doman Reith</h1><p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/portraits/doman-reith-portrait.png\" alt=\"Portrait of Doman Reith\" style=\"max-width: 420px; border-radius: 4px;\"></p><p>The party reaches him too late. His final words are 'I am sorry. They had a writ.' His receipts and his death are the case the party is investigating. Stat block included for narrative tokens; he has no living-actor function.</p>",
+        "content": "<h1>Doman Reith</h1><p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/portraits/doman-reith-portrait.png\" alt=\"Portrait of Doman Reith\" style=\"max-width: 420px; border-radius: 4px;\"></p><p>Gilst's landlord — a careful, anxious man in his sixties who rented to clerks for thirty years and never had one die on him before. Lets the party into the sealed rooms on Caelith's written request, gives up the watch-coat man, and asks two things: that they re-seal the door with their own wax, and that his name stays out of anything that reaches the watch. Caelith later sends him a quiet annual stipend.</p>",
         "format": 1,
         "markdown": null
       }
@@ -205,7 +205,7 @@
         "lastModifiedBy": null
       },
       "text": {
-        "content": "<h1>Halir Anwic</h1><p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/portraits/halir-anwic-portrait.png\" alt=\"Portrait of Halir Anwic\" style=\"max-width: 420px; border-radius: 4px;\"></p><p>Yeomanry sergeant who was on Tamsin Moraven's case until he was reassigned. Approaches the party privately with what he was not allowed to write down. Senior to Brell Kostan, more cynical.</p>",
+        "content": "<h1>Halir Anwic</h1><p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/portraits/halir-anwic-portrait.png\" alt=\"Portrait of Halir Anwic\" style=\"max-width: 420px; border-radius: 4px;\"></p><p>Yeomanry sergeant who took Tamsin Moraven's missing-person report and let it cool. Honest, overworked, quietly ashamed; will reopen the file at Caelith's word. If the chapter's pressure later forces him off the case, he finds the party first and presses his notes into their hands. Senior to Corporal Brell Kostan.</p>",
         "format": 1,
         "markdown": null
       }
@@ -236,7 +236,7 @@
         "lastModifiedBy": null
       },
       "text": {
-        "content": "<h1>Merev Sarth</h1><p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/portraits/merev-sarth-portrait.png\" alt=\"Portrait of Merev Sarth\" style=\"max-width: 420px; border-radius: 4px;\"></p><p>Hired through three intermediaries by a paymaster the party will not be able to trace in Phase 2. Her contract is to retrieve or destroy the contents of the Strong Room, not to kill.</p>",
+        "content": "<h1>Merev Sarth</h1><p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/portraits/merev-sarth-portrait.png\" alt=\"Portrait of Merev Sarth\" style=\"max-width: 420px; border-radius: 4px;\"></p><p>Hired through one intermediary — a Hardby contact she knows only as &ldquo;Tarsh,&rdquo; reached by a numbered dead drop, never met — for a paymaster the party will not trace in Phase 2. Her contract is to retrieve or destroy the contents of the Strong Room, not to kill.</p>",
         "format": 1,
         "markdown": null
       }
@@ -267,7 +267,7 @@
         "lastModifiedBy": null
       },
       "text": {
-        "content": "<h1>Merro Gilst</h1><p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/portraits/merro-gilst-portrait.png\" alt=\"Portrait of Merro Gilst\" style=\"max-width: 420px; border-radius: 4px;\"></p><p>Witness whose room is tossed during Phase 2 evidence-gathering. Identified in research; the party may track him for what he saw. Anxious, lives alone, keeps written copies of every receipt he ever signs.</p>",
+        "content": "<h1>Merro Gilst</h1><p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/portraits/merro-gilst-portrait.png\" alt=\"Portrait of Merro Gilst\" style=\"max-width: 420px; border-radius: 4px;\"></p><p>The murdered Treasury bonds clerk whose sealed rooms the party searches. Fifty-one, fifteen years in post; took the Hardby branch's quiet coin for four years to look the other way, and died of a spiked tea the moment the Vandrell escrow made him a man who could notice. He kept written copies of every receipt he ever signed — his hidden receipts book and the bearer instrument in the lozenge tin are the case.</p>",
         "format": 1,
         "markdown": null
       }
@@ -298,7 +298,7 @@
         "lastModifiedBy": null
       },
       "text": {
-        "content": "<h1>Reln Pollow</h1><p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/portraits/reln-pollow-portrait.png\" alt=\"Portrait of Reln Pollow\" style=\"max-width: 420px; border-radius: 4px;\"></p><p>Contract-physician. Confronted at his office in three Phase 2 scenes. Forty, careful with his words, knows Tamsin's case from when he attended Doman in his last hour.</p>",
+        "content": "<h1>Reln Pollow</h1><p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/portraits/reln-pollow-portrait.png\" alt=\"Portrait of Reln Pollow\" style=\"max-width: 420px; border-radius: 4px;\"></p><p>Contract-physician. Confronted at his office in three Phase 2 scenes. Mid-forties, careful with his words. He certified Merro Gilst's death — and caused it: a month of prescribed evening tea, and the last tin not the same as the others. Far more frightened than a routine certification should make anyone.</p>",
         "format": 1,
         "markdown": null
       }
@@ -453,7 +453,7 @@
         "lastModifiedBy": null
       },
       "text": {
-        "content": "<h1>Vellin Moraven</h1><p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/portraits/vellin-moraven-portrait.png\" alt=\"Portrait of Vellin Moraven\" style=\"max-width: 420px; border-radius: 4px;\"></p><p>Tamsin Moraven's husband. Potential hostage thread in Phase 2; at risk if the party moves too publicly. Forty, mild, manages the household while Tamsin runs the counting house.</p>",
+        "content": "<h1>Vellin Moraven</h1><p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/portraits/vellin-moraven-portrait.png\" alt=\"Portrait of Vellin Moraven\" style=\"max-width: 420px; border-radius: 4px;\"></p><p>Tamsin Moraven's husband. Potential hostage thread in Phase 2; at risk if the party moves too publicly. In his fifties, mild; a quiet schoolmaster at a small private school, keeping the house on Tannerway while Tamsin ran the counting house.</p>",
         "format": 1,
         "markdown": null
       }
@@ -484,7 +484,7 @@
         "lastModifiedBy": null
       },
       "text": {
-        "content": "<h1>Veshen Cindren</h1><p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/portraits/veshen-cindren-portrait.png\" alt=\"Portrait of Veshen Cindren\" style=\"max-width: 420px; border-radius: 4px;\"></p><p>Senior partner of Cindren &amp; Vhal in Greyhawk. Hosts the Festival of Lamps reception where the party may first encounter the firm's leadership. Cordial, evasive, careful.</p>",
+        "content": "<h1>Veshen Cindren</h1><p style=\"text-align: center;\"><img src=\"modules/blooming-rot-2/assets/portraits/veshen-cindren-portrait.png\" alt=\"Portrait of Veshen Cindren\" style=\"max-width: 420px; border-radius: 4px;\"></p><p>Senior partner of Cindren &amp; Vhal at the Rel Astra counting house — the public-facing nephew of the founder, fifty-eight. The party will not meet him in Phases 2&ndash;3; his allegiance is a question Phase 4 inherits. Cordial, evasive, careful.</p>",
         "format": 1,
         "markdown": null
       }

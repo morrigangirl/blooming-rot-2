@@ -1,0 +1,149 @@
+{
+  "_key": "!journal!BR2T1FordJrnl000",
+  "_id": "BR2T1FordJrnl000",
+  "name": "Intermission 1 \u2014 Encounter 1: The Fallow Ford (Land)",
+  "folder": null,
+  "sort": 100000,
+  "ownership": {
+    "default": -1
+  },
+  "flags": {
+    "blooming-rot-2": {
+      "kind": "travel-intermission",
+      "intermission": 1
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "pages": [
+    {
+      "_id": "BR2T1FdPgSetup00",
+      "_key": "!journal.pages!BR2T1FordJrnl000.BR2T1FdPgSetup00",
+      "name": "Setup &amp; Read-Aloud",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "text": {
+        "format": 1,
+        "content": "<h1>The Fallow Ford</h1>\n<img src=\"modules/blooming-rot-2/assets/illustrations/fallow-ford-ankhegs.png\" alt=\"Ankhegs erupting from a fallow stubble field beside an ox-ford, fans of torn earth thrown up around them, oxen plunging in harness as the party scatters across the cart road.\" style=\"max-width: 100%; border-radius: 4px;\">\n<p><em>Day 6. Three days past Stell, where the Wool Road drops into the Sheldomar bottom-land and joins the Keoish cart road. Late afternoon. Fallow stubble, a drainage ditch along the east side, an ox-ford ahead. The Dreadwood is a green line on the western horizon and everyone on the road mentions it and nobody means anything by it.</em></p>\n<h2>Who is on the road with them</h2>\n<p>The party is travelling as a wool-buying delegation, which means they are travelling the way one actually does: their own cart of samples and letters, and four more carts belonging to @UUID[Compendium.blooming-rot-2.travel-1-actors.Actor.BR2T1ActVole0000]{Hennet Vole}, a real Keoish drover taking fleeces to the Gradsul autumn market, who was glad of the company and is paying nothing for it. Eleven oxen, three drovers, a boy of about twelve.</p>\n<p>This matters for exactly one reason. <strong>There are witnesses, and the witnesses are going to the same market where the party will shortly be choosing a hull.</strong></p>\n<h2>Read aloud</h2>\n<p>The oxen stop.</p>\n<p>Not shying, not baulking at the water \u2014 stopping. All eleven of them, heads down, and the lead pair in Vole's second string begin, slowly and with great determination, to back the cart up the road they came down. One of the drovers swears and goes to the bridles. The boy doesn't move at all.</p>\n<p>Vole says, to nobody: <em>&ldquo;That's not the ford they don't like.&rdquo;</em></p>\n<h2>The round before initiative</h2>\n<p>Give them one. Anyone who asks the animals or the ground: <strong>Survival DC 12</strong> to read it as ground-sense rather than temperament \u2014 something under the field, moving, and the oxen can feel it through their feet. Gianni and Kitty get this free; a druid does not need a die to know what a frightened ox knows.</p>\n<p>What they do with that round is the encounter's first real decision: get the carts turned (two rounds of work, and it saves the sample cart), or get bodies between the field and the oxen (and the carts stay where they are).</p>\n<p>Then the first ankheg comes up under the second cart.</p>"
+      }
+    },
+    {
+      "_id": "BR2T1FdPgEnemy00",
+      "_key": "!journal.pages!BR2T1FordJrnl000.BR2T1FdPgEnemy00",
+      "name": "The Ankheg Brood \u2014 Enemies &amp; Tactics",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "sort": 200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "text": {
+        "format": 1,
+        "content": "<h1>The Ankheg Brood \u2014 Enemies &amp; Tactics</h1>\n<p><strong>Six ankhegs</strong>, one of them old. They have been feeding on this stretch of road all autumn, which is why it is empty at this hour and why nobody in Stell thought to mention it.</p>\n<table><tbody>\n<tr><th>Enemy</th><th>Count</th><th>CR</th><th>XP each</th><th>Total</th></tr>\n<tr><td>Ankheg</td><td>5</td><td>2</td><td>450</td><td>2,250</td></tr>\n<tr><td>Ankheg, <em>the old one</em> \u2014 +20 hp, acid spray recharges on 5\u20136</td><td>1</td><td>2</td><td>450</td><td>450</td></tr>\n<tr><td colspan=\"4\"><strong>Encounter total</strong></td><td><strong>2,700 XP</strong></td></tr>\n</tbody></table>\n<p><em>Six PCs: a seventh ankheg (+450).</em></p>\n<p><strong>Where the sheet comes from.</strong> This module ships no beast or monstrosity actors \u2014 155 of its 157 NPCs are humanoid and the other two are constructs \u2014 so pull the ankheg from your monster compendium; it is SRD content and present in every monster set. Use whichever statistics your compendium actually has rather than a number written here, and give the old one the flat +20 hit points and the wider recharge window. What matters mechanically is the shape: <strong>burrow, tremorsense, a bite that grapples, and a line of acid on a recharge</strong>.</p>\n<h2>How they fight</h2>\n<p>They are not hunting the party. They are hunting the <strong>oxen</strong>, which weigh eight hundred pounds each and cannot run, and an ankheg that gets a grapple drags toward a tunnel mouth rather than staying to trade blows. That single behaviour is what makes this fight interesting against a party with no front line: every grapple is a countdown rather than a damage roll, and every PC who goes to break one is a PC who is not killing anything.</p>\n<p>The old one does not close. It surfaces at distance, lines up the longest row of bodies or the highest-value target it can see, and sprays. It targets the <strong>sample cart</strong> in preference to a person, because it is trying to drive the herd, not win a battle.</p>\n<h2>What beats them, and let it</h2>\n<p>An ankheg moves 30 feet and burrows 10. <em>Spike growth</em> or <em>entangle</em> across the field turns the brood into paper targets, and the first time Kitty does that to a burrowing monster she should get to feel clever about it for the rest of the voyage. Equally, six creatures at AC 14 standing in a stubble field is the best <em>fireball</em> target the party will see for a month \u2014 and taking it has a price that is not mechanical. See the visibility tally.</p>"
+      }
+    },
+    {
+      "_id": "BR2T1FdPgTerr000",
+      "_key": "!journal.pages!BR2T1FordJrnl000.BR2T1FdPgTerr000",
+      "name": "Terrain, the Cart Clock &amp; Outcomes",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "sort": 300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "text": {
+        "format": 1,
+        "content": "<h1>Terrain, the Cart Clock &amp; Outcomes</h1>\n<img src=\"modules/blooming-rot-2/assets/maps/fallow-ford.png\" alt=\"Battle map, top-down: the cart road and ox-ford across a stubble field, the drainage ditch along the near side, four loaded wool carts strung along the road, and five ankheg tunnel mouths broken open in the earth around them.\" style=\"max-width: 100%; border-radius: 4px;\">\n<h2>Three pieces of terrain, and no more</h2>\n<p><strong>The ditch</strong> along the east side of the road is cover and an acid-break: a spray does not turn a corner, and a body prone in the ditch is out of the line. <strong>The ford</strong> is difficult ground, and ankhegs will not cross moving water \u2014 anything that gets over it is safe, and Vole's drovers will work that out on their own and start hauling oxen across it whether or not the party tells them to. <strong>The carts</strong> are the point of the fight.</p>\n<h2>The cart clock</h2>\n<p>Run three rounds. The encounter is not a hit-point race; it is a question about the second cart, which is the sample cart, and which is parked over a tunnel.</p>\n<p><strong>The samples are ruined</strong> if either of these happens: the old one lands a spray on the bales, or two ankhegs are grappling the same cart at the start of a round. That is not a disaster and should not be played as one. It is three days in Gradsul and about a hundred and forty gold buying replacement fleeces off a stranger, plus a story about why a wool delegation is buying wool on its way east to buy wool \u2014 exactly the sort of loose thread that gets repeated at a quayside. Let them pay it if they earn it.</p>\n<h2>Outcomes</h2>\n<p><strong>Clean win, samples intact.</strong> Vole insists on paying them out of his own purse and they should let him; refusing a Keoish drover's debt in front of his own men is worse manners than taking it. He tells the story at the market as <em>&ldquo;the western buyers can handle themselves,&rdquo;</em> which is the best version of it for them.</p>\n<p><strong>Win, samples lost.</strong> Three days and a purchase in Gradsul, and the first crack in the cover: their letters of introduction describe a delegation carrying its own samples, and now the samples do not match the letters. A customs boy would not notice. A clerk of the firm would.</p>\n<p><strong>A PC dragged down a tunnel.</strong> The likeliest bad outcome, and it is a rescue rather than a death: the tunnels run eight or ten feet down and forty long, and a grappled PC is at the bottom of one, alone, in the dark, with an ankheg. Two rounds to reach them by digging or by following, and Elle is the only one who fits comfortably. Play the dark.</p>\n<p><strong>A drover dies</strong> if the party ignores the oxen entirely. Name him first if you intend to let it happen \u2014 he is Sev, he has been laughing at Gianni's accent for three days, and his death is what makes the party careful for the next five weeks.</p>"
+      }
+    },
+    {
+      "_id": "BR2T1FdPgTally00",
+      "_key": "!journal.pages!BR2T1FordJrnl000.BR2T1FdPgTally00",
+      "name": "The Visibility Tally",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "sort": 400000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "text": {
+        "format": 1,
+        "content": "<h1>The Visibility Tally</h1>\n<p>This is the mechanism that connects the road to the sea. Keep it on a scrap of paper and <strong>do not explain it to the table</strong>, now or later.</p>\n<p>Count <strong>loud acts</strong> during the Fallow Ford. A loud act is any spell with a visible area effect, any casting a drover can see and describe afterwards, a wild shape taken in the open, or anything at all that a man would tell a story about in a market tent.</p>\n<table><tbody>\n<tr><th>Loud acts</th><th>Tier</th><th>What Vole tells the market</th></tr>\n<tr><td>0\u20131</td><td><strong>Quiet</strong></td><td>&ldquo;The western buyers can handle themselves.&rdquo; Steel, arrows, and a lot of shouting.</td></tr>\n<tr><td>2\u20133</td><td><strong>Mixed</strong></td><td>He tells it with detail, including the blade Alicia carries, which people do look at.</td></tr>\n<tr><td>4+, or any <em>fireball</em></td><td><strong>Loud</strong></td><td>He tells it for the rest of his life, and he tells it in the Gradsul market tents for three weeks while a certain sort of person is asking a certain sort of question.</td></tr>\n</tbody></table>\n<p>The tier sets <strong>one line</strong> of the circular found in the second encounter and nothing else. The party never learns the rule existed; four weeks later they simply find out how well their disguise was working. The three versions of the line are on the handout page.</p>\n<p><strong>Why it is fair.</strong> The conspiracy's Loftwick intelligence is genuinely thin \u2014 @UUID[Compendium.blooming-rot-2.phase-3-journals.JournalEntry.BR2P3ArrivalJrnl.JournalEntryPage.BR2P3ArPgGMBrief]{GM Brief \u2014 Phase 3 Purpose} fixes that at <em>they suspect; they don't know</em> \u2014 so everything specific in that circular has to have come from somewhere the party can identify afterwards. A drover at a wool market is a source they can reconstruct. An omniscient enemy is not.</p>"
+      }
+    }
+  ]
+}

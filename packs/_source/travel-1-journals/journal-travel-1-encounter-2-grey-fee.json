@@ -1,0 +1,179 @@
+{
+  "_key": "!journal!BR2T1GFeeJrnl000",
+  "_id": "BR2T1GFeeJrnl000",
+  "name": "Intermission 1 \u2014 Encounter 2: The Grey Fee (Boarding)",
+  "folder": null,
+  "sort": 200000,
+  "ownership": {
+    "default": -1
+  },
+  "flags": {
+    "blooming-rot-2": {
+      "kind": "travel-intermission",
+      "intermission": 1
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "pages": [
+    {
+      "_id": "BR2T1GfPgSetup00",
+      "_key": "!journal.pages!BR2T1GFeeJrnl000.BR2T1GfPgSetup00",
+      "name": "Setup &amp; the Two Rounds Before Initiative",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "text": {
+        "format": 1,
+        "content": "<h1>The Grey Fee</h1>\n<img src=\"modules/blooming-rot-2/assets/illustrations/grey-fee-alongside.png\" alt=\"The Grey Fee coming up on a flat oily sea: a low sleek coaster with an unnaturally clean deck, men lying hidden along her near rail, and one man in a too-large blue merchant's coat hailing across the water.\" style=\"max-width: 100%; border-radius: 4px;\">\n<p><em>Day 29, second dog watch. Off the Pomarj shore on the Highport reach. Flat oily sea, no wind worth the name, the Kestrel Wife making three knots and grumbling about it.</em></p>\n<h2>Why this hull, and why now</h2>\n<p>The shipped text does this work for you. @UUID[Compendium.blooming-rot-2.phase-3-journals.JournalEntry.BR2P3ArrivalJrnl.JournalEntryPage.BR2P3ArPgArr02Cmm]{Arrival \u2014 Commercial Cover} gives the Kestrel Wife a master who <em>put in twice at ports nobody told you about, because he is a trader before he is anybody's courier</em> \u2014 so that is how a Fax freebooter learned which hull out of Gradsul was carrying five westerners who paid in Yeomanry drafts. @UUID[Compendium.blooming-rot-2.travel-1-actors.Actor.BR2T1ActRoke0000]{Master Orin Roke}'s own small dishonesty is the leak. He works it out the moment he sees the topsail, which is why he is so quiet afterwards and so generous with the wine.</p>\n<p>Nobody aboard the Grey Fee knows who the party are. They have a description, a count, and a price list.</p>\n<h2>Read aloud</h2>\n<p>She comes up from the landward side in the last of the light: low, sweet-lined, a coaster of eighty tons with a Keoish pennant at her masthead and a deck as clean as a chapel. A man at her rail in a good coat cups his hands and hails you in trade-Keoish, friendly as a neighbour, asking whether you have water to spare and news out of Gradsul.</p>\n<p>Master Roke does not answer him. Master Roke is looking at the deck.</p>\n<h2>The two rounds before initiative</h2>\n<p><strong>Perception DC 13:</strong> her deck is too clean and too empty for a working coaster at this hour. <strong>DC 16, or any sailor asked directly:</strong> men lying down behind the rail, and the shadows are wrong. Gianni gets the second one free. Anyone who studies the man in the good coat: <strong>Insight DC 14</strong> \u2014 the coat does not fit him and he keeps touching the cuff, which is @UUID[Compendium.blooming-rot-2.travel-1-actors.Actor.BR2T1ActOrd00000]{Vennick Ord} wearing <em>disguise self</em> and not quite wearing it well.</p>\n<p>Give the party those two rounds and let the setup matter. Grappling irons come first, then the plank, then twelve men. Anything that fouls the irons, cuts a line or breaks the plank buys a full round \u2014 and a party that opens by shooting the man in the good coat has done the single most useful thing available to them.</p>"
+      }
+    },
+    {
+      "_id": "BR2T1GfPgEnemy00",
+      "_key": "!journal.pages!BR2T1GFeeJrnl000.BR2T1GfPgEnemy00",
+      "name": "Who Is Aboard \u2014 Enemies &amp; Tactics",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "sort": 200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "text": {
+        "format": 1,
+        "content": "<h1>Who Is Aboard \u2014 Enemies &amp; Tactics</h1>\n<img src=\"modules/blooming-rot-2/assets/illustrations/grey-fee-boarding.png\" alt=\"The boarding on the Kestrel Wife's deck at dusk: pirates coming over the rail with nets and belaying pins among cut-open fleece bales, the party fighting across the planking, one shuttered lantern and no fire anywhere.\" style=\"max-width: 100%; border-radius: 4px;\">\n<p>A mixture, because @UUID[Compendium.blooming-rot-2.travel-1-actors.Actor.BR2T1ActSarn0000]{Mattick Sarn} takes what Fax sends him: two old hands who know their work, a hired wand-waver, and a dozen dockside boys with hangers.</p>\n<table><tbody>\n<tr><th>Enemy</th><th>Count</th><th>CR</th><th>XP each</th><th>Total</th></tr>\n<tr><td>@UUID[Compendium.blooming-rot-2.travel-1-actors.Actor.BR2T1ActSarn0000]{Mattick Sarn}, master of the Grey Fee</td><td>1</td><td>4</td><td>1,100</td><td>1,100</td></tr>\n<tr><td>@UUID[Compendium.blooming-rot-2.travel-1-actors.Actor.BR2T1ActTarrow00]{Loy Tarrow}, mate \u2014 carries the slow-match</td><td>1</td><td>3</td><td>700</td><td>700</td></tr>\n<tr><td>@UUID[Compendium.blooming-rot-2.travel-1-actors.Actor.BR2T1ActOrd00000]{Vennick Ord}, hired caster</td><td>1</td><td>2</td><td>450</td><td>450</td></tr>\n<tr><td>@UUID[Compendium.blooming-rot-2.travel-1-actors.Actor.BR2T1ActTopman00]{Grey Fee Topman} \u2014 in the tops, longbows</td><td>2</td><td>1/2</td><td>100</td><td>200</td></tr>\n<tr><td>@UUID[Compendium.blooming-rot-2.travel-1-actors.Actor.BR2T1ActBoardr00]{Grey Fee Boarder} \u2014 on the party's side of the deck</td><td>4</td><td>1/2</td><td>100</td><td>400</td></tr>\n<tr><td colspan=\"4\"><strong>On the party's side of the deck</strong></td><td><strong>2,850 XP</strong></td></tr>\n<tr><td>@UUID[Compendium.blooming-rot-2.travel-1-actors.Actor.BR2T1ActBoardr00]{Grey Fee Boarder} \u2014 second wave, forward (the dial)</td><td>4</td><td>1/2</td><td>100</td><td>+400</td></tr>\n</tbody></table>\n<p><em>Six PCs: two more boarders in the first wave (+200).</em></p>\n<h2>Do not put the other fourteen pirates on the map</h2>\n<p>The Kestrel Wife carries eleven hands and they fight for their own hull. Run that as a <strong>crew line</strong>, not as tokens \u2014 one d20 a round:</p>\n<table><tbody>\n<tr><th>Roll</th><th>The waist of the ship</th></tr>\n<tr><td>11+</td><td>The crew holds. No change.</td></tr>\n<tr><td>6\u201310</td><td>They give a step. Roll again next round at \u22122.</td></tr>\n<tr><td>5 or less</td><td>One of them dies and the line breaks. The second wave comes aft onto the party.</td></tr>\n</tbody></table>\n<p>A PC who spends an action on the crew line instead of the aft deck \u2014 a shout, a spell, a well-placed arrow \u2014 gives the next roll advantage. That is Elle's and Gianni's chance to be worth something to eleven men they have been eating with for a fortnight, and it costs you no tokens and no time at all.</p>\n<h2>How the three named ones fight</h2>\n<p><strong>Sarn</strong> fights to take, not to kill, and he is good at it: he leads with the net, uses Parry against whoever hits hardest, and spends his <em>Subdue</em> on the PC nearest to going down rather than on the strongest. He is a contractor. If the fight turns against him past the point of profit he will cut his lines and go, and he will do it while people are still swinging.</p>\n<p><strong>Tarrow</strong> does not join the melee if he can help it. His job is the slow-match and the fore hatch \u2014 see the clocks. Multiattack and Parry make him a real obstacle for anyone who chases him alone.</p>\n<p><strong>Ord</strong> opens with <em>disguise self</em> already up and <em>mage armor</em> already cast, and his signature move is <em>thunderwave</em> at the rail, which on a crowded deck is not damage but <strong>ten feet of push over open water</strong>. Use it that way. After that: <em>ice knife</em> at whoever is casting, <em>mage hand</em> to work a line or tip a lantern out of reach, and if the deck turns he is the first man back across the plank and he does not look behind him.</p>"
+      }
+    },
+    {
+      "_id": "BR2T1GfPgClocks0",
+      "_key": "!journal.pages!BR2T1GFeeJrnl000.BR2T1GfPgClocks0",
+      "name": "Three Clocks",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "sort": 300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "text": {
+        "format": 1,
+        "content": "<h1>Three Clocks</h1>\n<img src=\"modules/blooming-rot-2/assets/maps/kestrel-wife-deck.png\" alt=\"Battle map, top-down: the Kestrel Wife's deck, bow to the top. The foredeck and windlass forward, the open waist stacked with lashed fleece bales and two cargo hatches, the wheel and companionway aft, and the Grey Fee lashed alongside to starboard with grappling lines and a single boarding plank.\" style=\"max-width: 100%; border-radius: 4px;\">\n<p>This encounter is not a hit-point race. It is three questions running at once, and a party that tries to answer all three will answer none of them well. That is the design.</p>\n<h2>1. The berth \u2014 three rounds</h2>\n<p>Two boarders go down the aft hatch on round one and make for the passengers' quarters and the strongbox. If nobody follows them, they come back up at the top of round four with it.</p>\n<p>What is in it is <strong>the decoy</strong> \u2014 the same tradecraft Trina Alvere used on Merev Sarth's burglary, packed in Loftwick for exactly this contingency: a locked case, a wax-sealed bundle of correct-looking paper, and nothing that matters. <strong>The real package is sewn into a bale in the hold</strong>, which is the module's own idiom for it. Tell the party so the moment they open the true hiding place, not before.</p>\n<p>So the worst case here is a scare, a lost decoy and a very bad four minutes \u2014 not a dead campaign. <em>If your table would rather the stakes were real, move the package into the strongbox and cut the decoy; the intermission survives either choice, but then a lost strongbox costs Phase 3 its evidence and you will need Veska's sworn description to carry the whole indictment.</em></p>\n<h2>2. The slow-match \u2014 four rounds</h2>\n<p>Tarrow's real orders are to make sure the hull does not get away if the boarding fails. If he reaches the fore hatch with a lit match, start a burn clock: one segment a round, <strong>three segments and the forward hold is going</strong>, <strong>six and the Kestrel Wife is a beacon on a flat sea within sight of the Pomarj</strong>. Two crew on it with buckets erase one segment a round; a PC with an appropriate spell or a great deal of nerve erases two.</p>\n<p>This is also where the party's own artillery lives. Fire cast on this deck by anybody rolls the same clock, and the players were told on the quay.</p>\n<h2>3. The count \u2014 round two or three</h2>\n<p>The beat the whole encounter exists to deliver. Somewhere in the second or third round, over the noise, the party hears the mate call it:</p>\n<p><em>&ldquo;Five! Count 'em \u2014 five, and no burning!&rdquo;</em></p>\n<p>And the fight changes shape in front of them. The saps come out. The net comes out. Men who were swinging to kill start swinging to put down. <strong>From that moment, anything that drops a PC to 0 hit points is a sap or a net, and they wake in the Grey Fee's hold rather than dying</strong> \u2014 which lets you run the fight harder than the XP would normally allow while taking the lethality out of a fight the voyage cannot afford to lose.</p>\n<p>What the party should take away, before they find one scrap of paper: <strong>these men were paid to count us.</strong></p>"
+      }
+    },
+    {
+      "_id": "BR2T1GfPgLetter0",
+      "_key": "!journal.pages!BR2T1GFeeJrnl000.BR2T1GfPgLetter0",
+      "name": "The Letter \u2014 Where It Is and How It Surfaces",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "sort": 400000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "text": {
+        "format": 1,
+        "content": "<h1>The Letter \u2014 Where It Is and How It Surfaces</h1>\n<p>The circular is the only thing in this intermission that Phase 3 needs, so it has three ways to be found and a floor under all of them. The text itself is on the handout page.</p>\n<h2>Where it is</h2>\n<p>Sarn keeps it in a writing box in the Grey Fee's stern cabin, under a false bottom. He kept a copy he was told to burn because he needed the payment terms and the wharf address and could not hold them in his head \u2014 which is the ordinary greed that breaks every careful arrangement in this campaign. The box is on <strong>his</strong> hull, not the party's, so getting it means boarding the Grey Fee: a good second act if the fight is going well and they want to stop her cutting her lines.</p>\n<h2>Three ways in</h2>\n<p><strong>Investigation DC 14</strong> in the stern cabin finds the false bottom. <strong>Perception DC 16</strong> on @UUID[Compendium.blooming-rot-2.travel-1-actors.Actor.BR2T1ActTarrow00]{Loy Tarrow}'s body finds a reader's copy in a tarred wallet against his skin \u2014 which is how the letter reaches the party even if the Grey Fee burns, runs, or sinks. <strong>Intimidation DC 13</strong> or <strong>Persuasion DC 15</strong> on any surrendered pirate gets it handed over, with the boat thrown in as a sweetener.</p>\n<h2>Failure floor</h2>\n<p>If they get none of the three, @UUID[Compendium.blooming-rot-2.travel-1-actors.Actor.BR2T1ActRoke0000]{Master Orin Roke} searches the dead himself while they sleep, says nothing for two days, and then puts it on the table in his own cabin with his hands flat on either side of it and asks what he has been carrying. That version is better than the others and you should not be sorry to end up there.</p>\n<h2>What it gives them, in order of how much it hurts</h2>\n<p><strong>They are hunted, and have been since Loftwick.</strong> Not followed \u2014 <em>priced</em>.</p>\n<p><strong>It is the same network.</strong> The mark in the wax is the one from @UUID[Compendium.blooming-rot-2.phase-2-journals.JournalEntry.BR2P2SeedsBeats0.JournalEntryPage.BR2P2SdPgRepairs]{Seed Repairs \u2014 What Phase 2 Was Missing}: a single upright stroke with a short bar across it, up near the top. They found it behind a loose stone on Tannery Row and again on Sarth's forged writ. No NPC is needed and none should be offered.</p>\n<p><strong>The hunter is guessing.</strong> The circular says its own route is a guess, sent to four masters. That back-traces to Hesren Vesh's glass of water and the back door \u2014 the firm knows five Yeomanry people asked about Hardby endorsements and nothing sharper. Which is exactly the Phase 3 position: <em>they suspect; they don't know</em>.</p>\n<p><strong>The paper is worth more than the people.</strong> Six hundred a head, alive; for the documents, <em>whatever you care to ask</em>. First time anyone has valued their evidence above their lives, and the party should sit with that.</p>\n<h2>The one thing this page must not do</h2>\n<p>Spend Veska. Her reveal in @UUID[Compendium.blooming-rot-2.phase-3-journals.JournalEntry.BR2P3InvestigJrn.JournalEntryPage.BR2P3InPgVeskaR1]{The Veska Reveal \u2014 Reading the Chops} is not the initial \u2014 it is the three small details of how that hand forms it, the loop and the serif and the angle of the descender. <strong>This sheet is a clerk's fair copy</strong>: transcribed in a Hardby office for distribution to four masters. The initial survives the copying; the hand does not. When Veska gives them the three details, the party will come back to this sheet and find that it does not match \u2014 and that mismatch is a finding of its own, because it means somebody in Hardby sat down and copied out orders from a hand nobody in Hardby admits to having seen.</p>\n<p>&ldquo;E.&rdquo; leaves this intermission as one letter of the alphabet. Keep it there.</p>"
+      }
+    },
+    {
+      "_id": "BR2T1GfPgAfter00",
+      "_key": "!journal.pages!BR2T1GFeeJrnl000.BR2T1GfPgAfter00",
+      "name": "Aftermath &amp; What It Changes",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "sort": 500000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "text": {
+        "format": 1,
+        "content": "<h1>Aftermath &amp; What It Changes</h1>\n<h2>The Grey Fee</h2>\n<p>If the party takes her: she is worth about nine hundred gold in Hardby and they cannot possibly sell her, since a wool delegation arriving with a captured Pomarj coaster is not a wool delegation any more. Roke will suggest stripping her and letting her go, and Roke is right. If they insist on a prize crew, they arrive with a second hull and a story the harbour will actually investigate \u2014 which is a legitimate choice with a real cost, and Phase 3's Pressure Clock should start two segments up.</p>\n<p>If she runs, she runs east, and Sarn is a name that can come back in Hardby's harbour district at whatever moment is most inconvenient.</p>\n<h2>Prisoners</h2>\n<p>Sarn talks for his life and has almost nothing: a wharf, a mark on a seal, and a man he has never met. He can give them <strong>the third wharf at Hardby</strong> and the fact that he was to be paid in trade-drafts drawn on a Hardby house that is <em>not</em> Cindren &amp; Vhal \u2014 the same shape of payment Merev Sarth described three nights before they sailed. If the party puts those two facts side by side they have a second institution in the chain, which Phase 3 can spend at the Greater Market money-changers. <em>Leave the house unnamed here so Phase 3 can name it.</em></p>\n<p>He will not be taken to Hardby alive by anyone thinking clearly: he is a witness to their real identity, and the third wharf is where his employer's man waits.</p>\n<h2>The crew, and the ship</h2>\n<p>Count the Kestrel Wife's dead by how the crew line went \u2014 one, two, or none. Whoever died had a name and the party knew it by day twenty-nine. The rail is stove in where the irons came over, and they will be a fortnight patching it.</p>\n<p>Master Roke stops putting in at ports nobody told them about. He does not apologise and he does not explain, and if anyone asks him directly he says <em>&ldquo;I've left money on a wharf in Highport that I'll not see again, and that's my business settled with you.&rdquo;</em></p>\n<h2>Per-PC beats that fire here</h2>\n<p>See @UUID[Compendium.blooming-rot-2.pc-threads.JournalEntry.BR2PcThreadsJrnl]{Per-PC Plot Threads}. <strong>Alicia:</strong> the pact silence is loudest in the moment she needs it most \u2014 she reaches during the boarding and gets the distant attentiveness, in the middle of a fight, for the first time. <strong>Gianni:</strong> the Grey Fee's chart case has a coastal chart with two anchorages scraped out and redrawn, the same hand as the recut waymark. <strong>Kitty:</strong> Sarn looks at her once, properly, and then makes a point of not looking again \u2014 a Fax man knows what unlucky cargo looks like. <strong>Elle:</strong> Tarrow's crossbow has a Heironean sunburst filed off the stock, badly, and the file marks are recent.</p>"
+      }
+    }
+  ]
+}

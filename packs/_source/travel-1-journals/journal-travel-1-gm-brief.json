@@ -1,0 +1,149 @@
+{
+  "_key": "!journal!BR2T1BriefJrnl00",
+  "_id": "BR2T1BriefJrnl00",
+  "name": "First Travel Intermission \u2014 GM Brief",
+  "folder": null,
+  "sort": 50000,
+  "ownership": {
+    "default": -1
+  },
+  "flags": {
+    "blooming-rot-2": {
+      "kind": "travel-intermission",
+      "intermission": 1
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "pages": [
+    {
+      "_id": "BR2T1BrPgWhat000",
+      "_key": "!journal.pages!BR2T1BriefJrnl00.BR2T1BrPgWhat000",
+      "name": "GM Brief \u2014 What This Intermission Is",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "text": {
+        "format": 1,
+        "content": "<h1>First Travel Intermission \u2014 GM Brief</h1>\n<img src=\"modules/blooming-rot-2/assets/illustrations/kestrel-wife-at-sea.png\" alt=\"The Kestrel Wife under way: a broad-beamed Keoish wool trader, deep in the water, her waist stacked with tarpaulined fleece bales, on a long grey swell under hazy autumn overcast.\" style=\"max-width: 100%; border-radius: 4px;\">\n<p><em>Read this before you run any of it. Do not read aloud.</em></p>\n<p>This intermission fills the gap between @UUID[Compendium.blooming-rot-2.phase-2-journals.JournalEntry.BR2P2DepartreJrn.JournalEntryPage.BR2P2DpPgEndRdAl]{Ending Read-Aloud \u2014 Departing East} and @UUID[Compendium.blooming-rot-2.phase-3-journals.JournalEntry.BR2P3ArrivalJrnl.JournalEntryPage.BR2P3ArPgArr02Cmm]{Arrival \u2014 Commercial Cover}. It exists because the Commercial Cover road is <strong>six weeks long</strong> and the module previously crossed it in a paragraph. Six weeks of nothing teaches the table that the choice they made in @UUID[Compendium.blooming-rot-2.phase-2-journals.JournalEntry.BR2P2DepartreJrn.JournalEntryPage.BR2P2DpPgPaths01]{Scene 7 \u00b7 Three Roads East} was a menu item. Six weeks with three fights in it teaches them it was a decision.</p>\n<h2>What it is for</h2>\n<p>Three encounters, each doing different work, in escalating order of what is at stake.</p>\n<p><strong>The Fallow Ford</strong> (Day 6, land). A monster that does not care who they are. What it tests is the cover, because the cover is the only asset the conspiracy cannot buy. How loudly the party wins here is recorded and paid back in the second encounter.</p>\n<p><strong>The Grey Fee</strong> (Day 29, boarding). The plot encounter. A Wild Coast freebooter comes alongside for cargo and turns out to be holding a circular with the party's number on it. Ends with a letter signed <strong>E.</strong></p>\n<p><strong>The Grey-Back</strong> (Day 37, sea). The consequence encounter. The dead from the boarding went over the side and something followed the hull for a week. What is at stake is the ship and the crew, which makes this the only one of the three the party can lose while surviving it.</p>\n<h2>The three canon anchors this intermission must not break</h2>\n<p><strong>One. The firm suspects; it does not know.</strong> @UUID[Compendium.blooming-rot-2.phase-3-journals.JournalEntry.BR2P3ArrivalJrnl.JournalEntryPage.BR2P3ArPgGMBrief]{GM Brief \u2014 Phase 3 Purpose} sets the Commercial Cover head start at about five weeks of alarm and states plainly: <em>they suspect; they don't know</em>. Everything here is built to leave that sentence true. The circular in the second encounter is a <em>guess</em>, sent to four masters, and it says so in its own text. If you rewrite it into certainty you have rewritten Phase 3's opening position.</p>\n<p><strong>Two. &ldquo;E.&rdquo; stays a single initial.</strong> @UUID[Compendium.blooming-rot-2.phase-3-journals.JournalEntry.BR2P3InvestigJrn.JournalEntryPage.BR2P3InPgVeskaR1]{The Veska Reveal \u2014 Reading the Chops} is where the fourth hand gets named as a hand \u2014 and Veska's gift is not the letter, it is the three small details of <em>how that hand forms it</em>: the loop, the serif, the angle of the descender. So the circular the party finds is <strong>a clerk's fair copy</strong>. The initial survives the copying; the hand does not. When Veska gives them the three details they can go back to this sheet and find it does not match, which is its own finding \u2014 somebody in a Hardby office sat down and transcribed orders from a hand nobody in Hardby is supposed to have seen. Her scene gets stronger. Nothing is spent.</p>\n<p><strong>Three. The courier's mark is the party's own recognition.</strong> The wax on the circular carries the mark from @UUID[Compendium.blooming-rot-2.phase-2-journals.JournalEntry.BR2P2SeedsBeats0.JournalEntryPage.BR2P2SdPgRepairs]{Seed Repairs \u2014 What Phase 2 Was Missing}, in its exact words: <em>a single upright stroke with a short bar across it, up near the top</em>. They pulled it out of a loose stone on Tannery Row and saw it again on Merev Sarth's forged writ. They do not need an NPC to read it for them, and they should not get one.</p>\n<h2>What it resolves, and what it does not</h2>\n<p>It resolves nothing about the conspiracy that Phase 3 was going to resolve. It gives the party exactly three new facts: that they were hunted before they left Keoland, that the hunt runs on the same courier network they already found in Loftwick, and that whoever is paying prices their paper higher than their lives. The mastermind, the harbour commission, Tamsin's location and the names of the partners all stay where they are.</p>\n<p>It also quietly closes the level gap. Phase 3 is calibrated for five PCs at levels 6\u20137; the party leaves Loftwick at 5th. This is where they make 6th \u2014 see the run sheet for the arithmetic.</p>\n<h2>If they did not take the Commercial Cover</h2>\n<p>Run the Fallow Ford anyway; it works on any road south or east and only wants a cart to threaten. The boarding and the grey-back are sea encounters and assume a hull. On <strong>Quiet Pursuit</strong> (post horses, two weeks) the circular still reaches them \u2014 hand it to them in a road-house, taken off a dead man by a Yeomanry patrol, with the wax mark intact. On <strong>Official Delegation</strong> nobody boards an accredited column; put the circular in the diplomatic post, opened by a clerk who should not have opened it.</p>"
+      }
+    },
+    {
+      "_id": "BR2T1BrPgDays000",
+      "_key": "!journal.pages!BR2T1BriefJrnl00.BR2T1BrPgDays000",
+      "name": "The Six Weeks \u2014 Day Calendar",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "sort": 200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "text": {
+        "format": 1,
+        "content": "<h1>The Six Weeks \u2014 Day Calendar</h1>\n<p>Canon, from @UUID[Compendium.blooming-rot-2.phase-3-journals.JournalEntry.BR2P3ArrivalJrnl.JournalEntryPage.BR2P3ArPgArr02Cmm]{Arrival \u2014 Commercial Cover}: six weeks, of which two are the ride down the Sheldomar and the wait for a hull going the right way, and the rest is the <strong>Kestrel Wife</strong>, a fat Keoish wool trader with a master who <em>put in twice at ports nobody told you about, because he is a trader before he is anybody's courier</em>. Hardby comes up on the starboard bow <strong>at dusk on the fortieth day</strong>.</p>\n<p>That master's two unannounced stops are not colour. They are the mechanism by which the second encounter happens, and they are already in the shipped text, which means the party's bad luck is nobody's invention.</p>\n<table><tbody>\n<tr><th>Day</th><th>Where</th><th>What</th></tr>\n<tr><td>1\u20133</td><td>The Wool Road south, Loftwick to Stell</td><td>Ground the party has already covered if they ran the Brown Hare sidequest. Ordinary road.</td></tr>\n<tr><td><strong>6</strong></td><td>The Sheldomar bottom-land, past Stell</td><td><strong>Encounter 1 \u2014 The Fallow Ford.</strong> Ankheg brood under a fallow field at an ox-ford.</td></tr>\n<tr><td>7\u201311</td><td>Down the corridor into Keoland proper</td><td>Farmland, tolls, two nights in wool-houses. Gianni's map thread can fire here (see @UUID[Compendium.blooming-rot-2.pc-threads.JournalEntry.BR2PcThreadsJrnl]{Per-PC Plot Threads}).</td></tr>\n<tr><td>12\u201314</td><td>Gradsul</td><td>The quayside wait. Buying a berth; Master Roke's terms; the fire rule said out loud on his deck.</td></tr>\n<tr><td>15</td><td>Sailing</td><td>Out of the Sheldomar mouth. Kitty and anyone else with no sea legs pays for it for three days.</td></tr>\n<tr><td>20\u201322</td><td>First unannounced port</td><td>Roke trades on his own account. The party is asked, politely, to stay aboard. This is where the hull's name gets loose.</td></tr>\n<tr><td><strong>29</strong></td><td>Off the Pomarj shore, the Highport reach</td><td><strong>Encounter 2 \u2014 The Grey Fee.</strong> Boarding. The circular.</td></tr>\n<tr><td>31\u201335</td><td>Rounding into Woolly Bay</td><td>Repairs, a burial or two, and a crew who keep saying a grey-back is following. Roke tells them to stow it.</td></tr>\n<tr><td><strong>37</strong></td><td>Inside Woolly Bay</td><td><strong>Encounter 3 \u2014 The Grey-Back.</strong> The crew were right.</td></tr>\n<tr><td>38\u201339</td><td>The last of the bay</td><td>Pumping, if it went badly. Fax on the western shore, and nobody suggests stopping there.</td></tr>\n<tr><td><strong>40</strong></td><td>Hardby, at dusk</td><td>Hand off to @UUID[Compendium.blooming-rot-2.phase-3-journals.JournalEntry.BR2P3ArrivalJrnl.JournalEntryPage.BR2P3ArPgArr02Cmm]{Arrival \u2014 Commercial Cover} \u2014 with two lines adjusted. See the run sheet.</td></tr>\n</tbody></table>\n<p><strong>Dates.</strong> The party left Loftwick in Patchwall. Day 40 lands in late Ready'reat by that reckoning, which agrees with the arrival page's <em>&ldquo;you left Loftwick in autumn; it is winter here now.&rdquo;</em> If your table's calendar has drifted, the intermission cares about the intervals and not the month names.</p>"
+      }
+    },
+    {
+      "_id": "BR2T1BrPgCal0000",
+      "_key": "!journal.pages!BR2T1BriefJrnl00.BR2T1BrPgCal0000",
+      "name": "Party Calibration &amp; the Fire Rule",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "sort": 300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "text": {
+        "format": 1,
+        "content": "<h1>Party Calibration &amp; the Fire Rule</h1>\n<p>Written for <strong>five PCs at 5th level</strong>, per PC-01 (Cam absent). Where a count changes for a six-PC table the adjustment appears inline in italics. Budgets for the record, five PCs at 5th: <strong>low 2,500 / moderate 5,000 / high 7,500</strong>. All three encounters sit between low and moderate on paper and play at moderate, for two reasons that are specific to this party and worth stating plainly.</p>\n<h2>They have no front line</h2>\n<p>A warlock with a blade pact, a druid, a ranger, a monk and a sorcerer. No plate, no dedicated healer beyond wild-shape and a spell list, and one PC who willingly stands in reach. Two consequences run through all three encounters: <strong>anything that grapples is the real threat</strong>, and <strong>anything that clusters dies to one area spell</strong>. Both of those are correct outcomes. Do not nerf the second to protect the first \u2014 the party earned the spell slot.</p>\n<h2>Fire is banned on a wool hull, and it is the best constraint in the chapter</h2>\n<p>Bales, tar, oakum, canvas, pitch. The party's most efficient answer to a boarding action is a weapon pointed at their own transport, and the whole second encounter is better if the players know that <em>before</em> initiative rather than discovering it as a punishment.</p>\n<p>So: say it out loud on the Gradsul quay, on day 12, in @UUID[Compendium.blooming-rot-2.travel-1-actors.Actor.BR2T1ActRoke0000]{Master Orin Roke}'s mouth, before any of this matters.</p>\n<h2>Read aloud \u2014 Master Roke's one condition</h2>\n<p>He looks at the five of you for a while, and then at the bales, and then back.</p>\n<p><em>&ldquo;No fire on my deck. Not for anything. Not if we're sinking, not if we're boarded, not if your own hair's alight \u2014 you come to me and I'll find you a bucket. I've seen a wool hull go up. It took four minutes and there was nothing left to bury.&rdquo;</em></p>\n<p>If Selvara throws fire on that deck anyway, she gets exactly what she chose: roll the burn clock from the boarding, and Roke remembers who did it for the remaining eleven days.</p>"
+      }
+    },
+    {
+      "_id": "BR2T1BrPgShort00",
+      "_key": "!journal.pages!BR2T1BriefJrnl00.BR2T1BrPgShort00",
+      "name": "Running It Short",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "sort": 400000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "text": {
+        "format": 1,
+        "content": "<h1>Running It Short</h1>\n<p>Six weeks is three sessions if you let it be. If the table wants Hardby, cut in this order.</p>\n<p><strong>The minimum viable intermission is the boarding.</strong> It carries the circular, which is the only thing here Phase 3 wants. Run it cold on day 29 with a montage in front of it and you have spent forty minutes and lost nothing structural.</p>\n<p><strong>Second to go is the grey-back</strong>, which is the one encounter with no plot in it. If you cut it, keep the shark as a story the crew tells and give the ship its sprung rudder anyway \u2014 the patched hull earns its line at the customs mole.</p>\n<p><strong>The Fallow Ford is the one to keep if you only keep one non-plot fight</strong>, because it is the only place the visibility tally can be set, and that tally is what makes the circular's description of the party feel like a consequence instead of an author's convenience. If you cut it, set the tally from how the party behaved in Loftwick instead: loud if they fought Sparrow's chase in the open or drew steel at the branch, quiet otherwise.</p>\n<p><strong>What not to cut:</strong> the fire rule on the Gradsul quay, and the count in round two of the boarding. Those are each one sentence and they are the two sentences the whole intermission is built on.</p>"
+      }
+    }
+  ]
+}

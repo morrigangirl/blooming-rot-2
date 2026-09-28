@@ -46,6 +46,8 @@ const PACKS = [
   "phase-2-journals",
   "phase-2-actors",
   "phase-2-scenes",
+  "travel-1-journals",
+  "travel-1-actors",
   "phase-3-journals",
   "phase-3-actors",
   "phase-3-scenes",

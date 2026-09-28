@@ -1,0 +1,119 @@
+{
+  "_key": "!journal!BR2T1HandJrnl000",
+  "_id": "BR2T1HandJrnl000",
+  "name": "Intermission 1 \u2014 Player Handouts",
+  "folder": null,
+  "sort": 500000,
+  "ownership": {
+    "default": -1
+  },
+  "flags": {
+    "blooming-rot-2": {
+      "kind": "travel-intermission",
+      "intermission": 1
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "pages": [
+    {
+      "_id": "BR2T1HoPgIndex00",
+      "_key": "!journal.pages!BR2T1HandJrnl000.BR2T1HoPgIndex00",
+      "name": "Handout Index &amp; GM Notes",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "text": {
+        "format": 1,
+        "content": "<h1>Handout Index (GM)</h1>\n<p><em>GM page. Not for the table. The handouts that follow carry no GM text at all, so &ldquo;Show Players&rdquo; is safe on every one of them.</em></p>\n<table><tbody>\n<tr><th>#</th><th>Handout</th><th>Where it comes from</th></tr>\n<tr><td>1</td><td>The Circular from Sarn's Writing Box</td><td>Encounter 2. Investigation DC 14 in the stern cabin, Perception DC 16 on Tarrow's body, or a surrendered pirate. Failure floor: Roke finds it.</td></tr>\n<tr><td>2</td><td>The Seal</td><td>Hand out with #1, or separately if the party examines the wax. It is the Tannery Row mark.</td></tr>\n</tbody></table>\n<h2>Before you hand over #1 \u2014 the one edit you must make</h2>\n<p>The circular has a bracketed line in it: <strong>[VISIBILITY LINE]</strong>. Replace it with one of the three below, chosen by the tally you kept at the Fallow Ford, and delete the brackets before the players see the page. If you are handing it over on a screen, duplicate the page first and edit the duplicate.</p>\n<table><tbody>\n<tr><th>Tier</th><th>Line</th></tr>\n<tr><td><strong>Quiet</strong></td><td>We have nothing better than this. Look at the hands and the boots; they will not look like buyers when they are working.</td></tr>\n<tr><td><strong>Mixed</strong></td><td>One of them carries a blade it is not comfortable to look at directly. You will know it.</td></tr>\n<tr><td><strong>Loud</strong></td><td>One of them throws fire. Take her first, and take her sleeping if you can.</td></tr>\n</tbody></table>\n<h2>What it must not say</h2>\n<p>No house name, no city of origin beyond Hardby, and nothing about the hand that signs it. See @UUID[Compendium.blooming-rot-2.phase-3-journals.JournalEntry.BR2P3InvestigJrn.JournalEntryPage.BR2P3InPgVeskaR1]{The Veska Reveal \u2014 Reading the Chops} \u2014 the initial is a clerk's copy of an initial, and Veska's three details are the only reveal about that hand that this campaign is allowed to make before Rel Astra.</p>"
+      }
+    },
+    {
+      "_id": "BR2T1HoPgLetter0",
+      "_key": "!journal.pages!BR2T1HandJrnl000.BR2T1HoPgLetter0",
+      "name": "Handout 1 \u2014 The Circular",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "sort": 200000,
+      "ownership": {
+        "default": 1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "text": {
+        "format": 1,
+        "content": "<h1>Handout 1 \u2014 The Circular</h1>\n<img src=\"modules/blooming-rot-2/assets/handouts/handout-the-circular.png\" alt=\"A folded sheet of pale writing paper in an even clerk's copying hand, signed with a single capital E, a blob of dark red sealing wax at the lower corner.\" style=\"max-width: 100%; border-radius: 4px;\">\n<p><em>A single sheet of good Hardby paper, no letterhead, folded three times and carried folded for a month. An even, trained, copying hand \u2014 a clerk's hand, not a principal's. The wax is intact where somebody lifted it and pressed it down again.</em></p>\n<h2>Copy for the master. Burn it at the first hail.</h2>\n<p>Five persons have left the Yeomanry eastward on the Council's business. Their road is not known to us. They have not taken the mails and they have not been seen on the post roads, from which it follows that they are travelling as trade. A wool hull out of Gradsul for Hardby is the likeliest of the guesses. It is a guess. There are four such hulls in the season and you are not the only master holding this paper.</p>\n<p>Five, and all of them women, which should make the counting easier. One who does the talking. One who is not entirely what she appears. One who counts doors and windows. One who fights with her hands. And one more. [VISIBILITY LINE]</p>\n<p>You will not take Council people off a Keoish deck for sport, and you will sink nothing. Confirm before you carry.</p>\n<p>For confirmation by name \u2014 one hundred, in trade-drafts at Hardby.</p>\n<p>For the persons, whole and able to speak \u2014 six hundred each, at the third wharf, to the man who shows you the mark on this seal.</p>\n<p>For the papers they carry \u2014 every sheet, every copy, the bindings as well as the loose \u2014 whatever you care to ask. Do not read them. Do not let your people read them.</p>\n<p>Nothing of this in writing. Not the house's name, not in your own accounts. If you are taken, you were hired by a Hardby factor for cargo recovery and you never held this paper.</p>\n<p style=\"text-align:right\"><strong>E.</strong></p>"
+      }
+    },
+    {
+      "_id": "BR2T1HoPgSeal000",
+      "_key": "!journal.pages!BR2T1HandJrnl000.BR2T1HoPgSeal000",
+      "name": "Handout 2 \u2014 The Seal",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "sort": 300000,
+      "ownership": {
+        "default": 1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "text": {
+        "format": 1,
+        "content": "<h1>Handout 2 \u2014 The Seal</h1>\n<img src=\"modules/blooming-rot-2/assets/handouts/handout-the-seal.png\" alt=\"Close-up of the dark red wax: cheap, cracked, pressed twice and out of true, bearing no crest at all \u2014 only a single upright stroke with a short bar across it near the top.\" style=\"max-width: 100%; border-radius: 4px;\">\n<p><em>The wax on the circular. Dark red, cheap, pressed twice \u2014 once by whoever sealed it and once by whoever opened it and closed it again badly.</em></p>\n<p>There is no crest. No house, no initials, no motto, nothing a herald would recognise.</p>\n<p>In the corner of it, small, off to one side where a clerk's thumb would go: <strong>a single upright stroke with a short bar across it, up near the top.</strong></p>\n<p>You have seen this twice before. Once in wax, behind a loose stone on Tannery Row in Loftwick, on a packet a boy of eleven carried four streets and left for somebody who never came. And once on the forged inspection writ that got Merev Sarth through a locked door at two in the morning.</p>"
+      }
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "_key": "!journal!BR2T1GBckJrnl000",
+  "_id": "BR2T1GBckJrnl000",
+  "name": "Intermission 1 \u2014 Encounter 3: The Grey-Back (Sea)",
+  "folder": null,
+  "sort": 300000,
+  "ownership": {
+    "default": -1
+  },
+  "flags": {
+    "blooming-rot-2": {
+      "kind": "travel-intermission",
+      "intermission": 1
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "pages": [
+    {
+      "_id": "BR2T1GbPgSetup00",
+      "_key": "!journal.pages!BR2T1GBckJrnl000.BR2T1GbPgSetup00",
+      "name": "Setup &amp; Read-Aloud",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "text": {
+        "format": 1,
+        "content": "<h1>The Grey-Back</h1>\n<img src=\"modules/blooming-rot-2/assets/illustrations/grey-back-strike.png\" alt=\"The grey-back rolling half out of the water against the Kestrel Wife's sprung rudder in thin cold rain, three smaller sharks cutting a slick of blood-dark water, a sailor in the sea below the reach of the stern sweep.\" style=\"max-width: 100%; border-radius: 4px;\">\n<p><em>Day 37, inside Woolly Bay, the third day of thin rain. The rail is patched where the irons tore her, they are short two hands, and something has been keeping station astern since the Pomarj.</em></p>\n<h2>Plant it on day 31</h2>\n<p>The crew have been saying it for a week and @UUID[Compendium.blooming-rot-2.travel-1-actors.Actor.BR2T1ActRoke0000]{Master Orin Roke} has been telling them to stow it. A grey-back follows a bloody hull, and they put nine dead pirates over the side in one afternoon. Let the players hear the superstition, let them watch Roke dismiss it, and let them dismiss it too.</p>\n<h2>Read aloud</h2>\n<p>The wheel goes heavy just after the forenoon watch changes.</p>\n<p>Not fouled, not jammed \u2014 heavy, the way a door is heavy when somebody is leaning on the other side of it. The man at the helm braces a foot on the binnacle and hauls, and the ship answers him about half as much as she should, and then not at all, and then all at once.</p>\n<p>Roke comes up from below without his coat. He looks over the stern for a long moment at nothing, at grey water going by, and says, in a perfectly ordinary voice: <em>&ldquo;Get the cod up on deck. All of it.&rdquo;</em></p>\n<p>Then the whole ship shudders, forward of the mainmast, from underneath.</p>"
+      }
+    },
+    {
+      "_id": "BR2T1GbPgEnemy00",
+      "_key": "!journal.pages!BR2T1GBckJrnl000.BR2T1GbPgEnemy00",
+      "name": "The Pack \u2014 Enemies &amp; Tactics",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "sort": 200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "text": {
+        "format": 1,
+        "content": "<h1>The Pack \u2014 Enemies &amp; Tactics</h1>\n<table><tbody>\n<tr><th>Enemy</th><th>Count</th><th>CR</th><th>XP each</th><th>Total</th></tr>\n<tr><td>Giant shark \u2014 <em>the grey-back</em></td><td>1</td><td>5</td><td>1,800</td><td>1,800</td></tr>\n<tr><td>Hunter shark \u2014 the pack that has been feeding behind her</td><td>3</td><td>2</td><td>450</td><td>1,350</td></tr>\n<tr><td colspan=\"4\"><strong>Encounter total</strong></td><td><strong>3,150 XP</strong></td></tr>\n</tbody></table>\n<p><em>Six PCs: a fourth hunter shark (+450).</em></p>\n<p>Both are SRD, so both are in whatever monster compendium you have. As with the ankhegs, use your compendium's numbers rather than any written here; what matters is the shape. The giant shark is the right monster for this table for one specific reason: <strong>low armour and a great many hit points</strong>. Four ranged chassis will land nearly everything they throw and still need three or four rounds, so the fight lasts long enough for the clocks to bite without ever threatening a wipe. Its blood frenzy is where the danger actually lives \u2014 advantage against anything already wounded, which means the people in the water, not the people on deck.</p>\n<h2>How it fights</h2>\n<p>It is not attacking the party. It is attacking <strong>the ship</strong>, because the ship is the wounded thing it has been following, and it does not distinguish between a hull and a whale. It rams at the end of any round in which nothing is bleeding in the water. The pack works the surface and takes anything that falls.</p>\n<p>It has no interest in boarding, cannot reach the deck, and will not chase a target out of the water. Every hit point of threat it presents has to be delivered through the hull or through somebody who is swimming \u2014 which is why the encounter has three objectives and no kill requirement.</p>"
+      }
+    },
+    {
+      "_id": "BR2T1GbPgClock00",
+      "_key": "!journal.pages!BR2T1GBckJrnl000.BR2T1GbPgClock00",
+      "name": "Ship Damage, the Overboard Clock &amp; the Bait",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "sort": 300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "text": {
+        "format": 1,
+        "content": "<h1>Ship Damage, the Overboard Clock &amp; the Bait</h1>\n<h2>1. The hull \u2014 a four-segment track</h2>\n<p>Mark one segment each time the grey-back rams.</p>\n<table><tbody>\n<tr><th>Segment</th><th>The Kestrel Wife</th></tr>\n<tr><td>1</td><td>Steering goes heavy. DC 12 to hold a course; a failure means a round broadside to the swell and everyone on deck makes DC 10 or goes prone.</td></tr>\n<tr><td>2</td><td>The rudder head is sprung. She can only be steered with the sweeps \u2014 four hands occupied for the rest of the voyage.</td></tr>\n<tr><td>3</td><td>A plank starts. Two people on the pump from here to Hardby, in shifts, and one of them will be a PC.</td></tr>\n<tr><td>4</td><td>She is taking water faster than the pump. Hardby is three days off. Nobody drowns \u2014 she limps in, and the customs mole looks at her repairs rather than at her bales.</td></tr>\n</tbody></table>\n<p>Segment 4 is not a fail state. It is a different arrival, and it touches @UUID[Compendium.blooming-rot-2.phase-3-journals.JournalEntry.BR2P3ArrivalJrnl.JournalEntryPage.BR2P3ArPgArr02Cmm]{Arrival \u2014 Commercial Cover}: the harbour that was written to take them in <em>without a flicker</em> now has a reason to ask one question. Let it.</p>\n<h2>2. Two in the water \u2014 two rounds each</h2>\n<p>The first strike takes a hand off the rail. <strong>Name him days ago.</strong> He is Wick Ferrin, he has a wife in Gradsul and a daughter he has not met, and he taught Elle to splice on day nineteen. Two rounds to get him out before the pack has him; the grey-back's blood frenzy triggers off him the moment he is hurt.</p>\n<p>This is the choice the encounter is built on. A party that spends its first two rounds killing sharks loses him. A party that spends them on the rescue eats two more rams and arrives on segment 3 or 4. <strong>There is no clever third answer and you should not invent one.</strong></p>\n<h2>3. The bait \u2014 the smart win</h2>\n<p>The hold has salt cod in it, and a crew who have already told them what grey-backs follow, and Roke shouts for the cod in his read-aloud because he has done this before. Anyone who puts it together \u2014 stave the barrels over the lee side, get the blood-water away from the hull \u2014 ends the fight: the pack goes at it, and the big one turns into the frenzy on the wrong side of the ship. <strong>Award the full XP.</strong> A table that solves a monster with cargo has done the thing the whole intermission is teaching them to do.</p>\n<p>The grey-back also breaks off on its own at a third of its hit points if there is enough blood elsewhere in the water \u2014 so a party that wounds it badly and then chums gets the same result at a higher price.</p>"
+      }
+    },
+    {
+      "_id": "BR2T1GbPgRules00",
+      "_key": "!journal.pages!BR2T1GBckJrnl000.BR2T1GbPgRules00",
+      "name": "Underwater Rules at the Table",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "sort": 400000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "text": {
+        "format": 1,
+        "content": "<h1>Underwater Rules at the Table</h1>\n<p>Have these to hand before anybody jumps in, and say the first one out loud before Selvara picks a spell rather than after.</p>\n<p><strong>Fire.</strong> A fully submerged creature has <strong>resistance to fire damage</strong>. That is the rule as written and it is the one that will come up.</p>\n<p><strong>Ranged weapon attacks</strong> made underwater are at disadvantage inside normal range and <strong>automatically miss beyond it</strong>. From the tops, shooting at something on the surface, none of that applies \u2014 Gianni has clean shots all fight and should be told so.</p>\n<p><strong>Melee underwater</strong> is at disadvantage for a creature without a swim speed, unless the weapon is a dagger, javelin, shortsword, spear or trident. A monk's unarmed strikes are not on that list.</p>\n<p><strong>Do not invent a lightning-in-water bonus.</strong> There isn't one, and a ruling made here to be generous becomes an argument in Phase 8 when somebody wants it in a flooded gallery.</p>\n<h2>Who this encounter belongs to</h2>\n<p><strong>Kitty.</strong> She is the only person aboard who can meet it in its own element, and a druid who spends a wild shape to go into black water after a drowning sailor is doing the bravest thing in the intermission. Build the beat for her; let the others hold the deck.</p>\n<p><strong>Alicia's</strong> eldritch blast is force damage and cares about none of the rules above, and a repelling blast will shove three hundred pounds of shark off a rudder. Let that work exactly as she hopes. <strong>Elle</strong> should get one moment out along the sweep or the stern rail with nothing under her. <strong>Selvara</strong> is the one the rules bite, and the fair thing is to tell her before she spends the slot.</p>"
+      }
+    },
+    {
+      "_id": "BR2T1GbPgOut0000",
+      "_key": "!journal.pages!BR2T1GBckJrnl000.BR2T1GbPgOut0000",
+      "name": "Outcomes",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "sort": 500000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "text": {
+        "format": 1,
+        "content": "<h1>Outcomes</h1>\n<p><strong>Killed it.</strong> Twenty feet of grey-back alongside and a crew who will not stop talking about it. The jaw comes aboard. It is worth nothing and they will never part with it, and it hangs in the Kestrel Wife's waist for the rest of the campaign, and if the party ever sees that ship again it is the first thing they recognise.</p>\n<p><strong>Drove it off or baited it.</strong> The better ending, honestly. Nobody won; the sea lost interest. Roke's opinion of them goes up more for this than for killing it.</p>\n<p><strong>Lost Ferrin.</strong> Do not soften it and do not punish them with it. He goes under, the water closes, and the fight carries on for two more rounds because it has to. What it costs is the crew's warmth for the last three days, and that silence is worth more at the rail on day forty than any mechanical consequence.</p>\n<p><strong>Hull at segment 4.</strong> They arrive pumping. See the hand-off page for the two lines of the canon arrival read-aloud that want adjusting.</p>"
+      }
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "_key": "!journal!BR2T1QRefJrnl000",
+  "_id": "BR2T1QRefJrnl000",
+  "name": "Intermission 1 \u2014 Quick Reference (GM)",
+  "folder": null,
+  "sort": 600000,
+  "ownership": {
+    "default": -1
+  },
+  "flags": {
+    "blooming-rot-2": {
+      "kind": "travel-intermission",
+      "intermission": 1
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "pages": [
+    {
+      "_id": "BR2T1QrPgRun0000",
+      "_key": "!journal.pages!BR2T1QRefJrnl000.BR2T1QrPgRun0000",
+      "name": "Run Sheet",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "text": {
+        "format": 1,
+        "content": "<h1>Run Sheet</h1>\n<p>One page. Everything else in this intermission is commentary.</p>\n<table><tbody>\n<tr><th>Day</th><th>Beat</th><th>The one thing that must happen</th></tr>\n<tr><td>6</td><td><strong>The Fallow Ford</strong> \u2014 6 ankhegs, 2,700 XP</td><td>Keep the visibility tally. Nothing else here is load-bearing.</td></tr>\n<tr><td>12</td><td>Gradsul quay</td><td>Roke says the fire rule out loud. One sentence, on his deck, in front of the players.</td></tr>\n<tr><td>29</td><td><strong>The Grey Fee</strong> \u2014 2,850 XP on the party's side</td><td>The count in round two: <em>&ldquo;Five! Count 'em \u2014 five, and no burning!&rdquo;</em> Then the circular reaches them by one of four routes.</td></tr>\n<tr><td>31</td><td>The crew's superstition</td><td>Somebody says a grey-back follows a bloody hull. Roke tells them to stow it.</td></tr>\n<tr><td>37</td><td><strong>The Grey-Back</strong> \u2014 3,150 XP</td><td>Wick Ferrin goes over the rail in round one. The hull track starts.</td></tr>\n<tr><td>40</td><td>Hardby, dusk</td><td>Hand off to @UUID[Compendium.blooming-rot-2.phase-3-journals.JournalEntry.BR2P3ArrivalJrnl.JournalEntryPage.BR2P3ArPgArr02Cmm]{Arrival \u2014 Commercial Cover} with two lines adjusted \u2014 see the hand-off page.</td></tr>\n</tbody></table>\n<h2>The clocks, all in one place</h2>\n<table><tbody>\n<tr><th>Clock</th><th>Length</th><th>What it costs</th></tr>\n<tr><td>The cart (Ford)</td><td>3 rounds</td><td>Wool samples ruined. Three days and 140 gp in Gradsul, and letters that no longer match the cargo.</td></tr>\n<tr><td>The berth (Grey Fee)</td><td>3 rounds</td><td>The decoy strongbox is taken. The real package is sewn into a bale.</td></tr>\n<tr><td>The slow-match (Grey Fee)</td><td>4 rounds, then 6 segments</td><td>3 segments, the forward hold is going. 6, the ship is a beacon off the Pomarj.</td></tr>\n<tr><td>Overboard (Grey-Back)</td><td>2 rounds per man</td><td>Wick Ferrin.</td></tr>\n<tr><td>The hull (Grey-Back)</td><td>4 segments</td><td>Steering, then the rudder, then the pump, then a harbour that looks twice.</td></tr>\n</tbody></table>\n<h2>Stall rails</h2>\n<p><strong>If they will not leave Gradsul:</strong> Vole's market gossip reaches them \u2014 a man has been asking after westerners who pay in Yeomanry drafts. It is true, it is vague, and it moves them onto a hull inside a day.</p>\n<p><strong>If they try to hire their own ship:</strong> let them, at four times the price, and put the circular in the hands of the second master they interview rather than the one they hire. The hunt does not depend on the Grey Fee; it depends on four hulls and a guess.</p>\n<p><strong>If they want to fight nothing:</strong> the Ford can be run past (two rounds of cart-turning and a Survival check to find the upper crossing) and the grey-back can be baited off in one round by anyone who listens to the crew. The boarding cannot be avoided, because it comes to them.</p>"
+      }
+    },
+    {
+      "_id": "BR2T1QrPgXP00000",
+      "_key": "!journal.pages!BR2T1QRefJrnl000.BR2T1QrPgXP00000",
+      "name": "XP and the Sixth-Level Line",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "sort": 200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "text": {
+        "format": 1,
+        "content": "<h1>XP and the Sixth-Level Line</h1>\n<p>The party ends Phase 2 on <strong>12,169 XP</strong> each. Sixth level is 14,000. So they need <strong>1,831 each</strong>, which across five PCs is <strong>9,155 XP of enemies</strong>.</p>\n<table><tbody>\n<tr><th>Build</th><th>Enemy XP</th><th>Per PC</th><th>Lands at</th></tr>\n<tr><td>Base: 6 ankhegs + boarding as written + grey-back and three hunters</td><td>8,700</td><td>1,740</td><td>13,909 \u2014 <em>91 short of 6th</em></td></tr>\n<tr><td>+ the boarding's second wave (4 more boarders)</td><td>9,100</td><td>1,820</td><td>13,989 \u2014 <em>11 short, which would be unbearable</em></td></tr>\n<tr><td>+ second wave <strong>and</strong> a fourth hunter shark</td><td>9,550</td><td>1,910</td><td><strong>14,079 \u2014 6th level at the rail</strong></td></tr>\n</tbody></table>\n<p>So: run both dials and they make 6th somewhere in Woolly Bay on day thirty-seven, which is where you want it \u2014 because Phase 3 is calibrated for five PCs at levels 6\u20137. Or ignore the arithmetic entirely and award the voyage as a milestone the way the Loftwick sessions were awarded; 2,000 each covers it with room to spare.</p>\n<p><strong>Do not</strong> hand the level out on arrival in Hardby. Levelling on the deck, before the harbour, is what makes the six weeks feel like it counted for something; levelling on the quay makes it feel like a reward for turning up.</p>\n<h2>Budgets, for the record</h2>\n<p>Five PCs at 5th: <strong>low 2,500, moderate 5,000, high 7,500</strong>. All three encounters sit between low and moderate on paper and play at moderate, because each is an objective with a clock rather than a hit-point race and because this party has no front line to absorb a first exchange. Nothing here should threaten a wipe; the boarding explicitly cannot, once the count is called.</p>"
+      }
+    },
+    {
+      "_id": "BR2T1QrPgHandoff",
+      "_key": "!journal.pages!BR2T1QRefJrnl000.BR2T1QrPgHandoff",
+      "name": "Hand-off to Phase 3",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "sort": 300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "text": {
+        "format": 1,
+        "content": "<h1>Hand-off to Phase 3</h1>\n<h2>Two lines of the canon arrival want adjusting</h2>\n<p>@UUID[Compendium.blooming-rot-2.phase-3-journals.JournalEntry.BR2P3ArrivalJrnl.JournalEntryPage.BR2P3ArPgArr02Cmm]{Arrival \u2014 Commercial Cover} still runs almost unchanged, which is the point of building the intermission this way. Two sentences want a hand.</p>\n<p><strong>&ldquo;The harbour takes you in without a flicker&rdquo;</strong> \u2014 if the hull track reached segment 2 or worse, it takes them in with one flicker: the customs boy counts bales, and then walks aft and looks at the repairs, and asks what happened, and writes down whatever they tell him. He still does not count faces. But there is now a piece of paper in a Hardby harbour office with their story on it, which Phase 3's Pressure Clock may want later.</p>\n<p><strong>&ldquo;You have learned the smell of raw fleece in a wet hold&rdquo;</strong> \u2014 let that sentence carry the rest of it: nine dead pirates, a fortnight of pumping, and the hand they got back or didn't.</p>\n<h2>What the party carries up the Whalemarket steps</h2>\n<p>Three things they did not have in Loftwick. <strong>A circular</strong> proving they were hunted before they ever left Keoland, and that the hunt was a guess. <strong>A mark in wax</strong> tying that hunt to the loose stone on Tannery Row and to Sarth's forged writ. <strong>One initial</strong> nobody has explained.</p>\n<p>And two smaller things worth writing on the back of the sheet: <strong>the third wharf</strong>, and <strong>trade-drafts on a Hardby house that is not Cindren &amp; Vhal</strong>.</p>\n<h2>What must still be true when Phase 3 opens</h2>\n<p><strong>The firm suspects and does not know.</strong> @UUID[Compendium.blooming-rot-2.phase-3-journals.JournalEntry.BR2P3ArrivalJrnl.JournalEntryPage.BR2P3ArPgGMBrief]{GM Brief \u2014 Phase 3 Purpose} is unchanged: about five weeks of alarm, no confirmation the party is in Hardby. The circular went to four masters on a guess; one of them acted on it and is now dead, sunk or fled, and nobody has reported back. If the Grey Fee escaped, that is worth one Pressure Clock segment at the GM's discretion and no more.</p>\n<p><strong>&ldquo;E.&rdquo; is one letter.</strong> Veska's reveal in @UUID[Compendium.blooming-rot-2.phase-3-journals.JournalEntry.BR2P3InvestigJrn.JournalEntryPage.BR2P3InPgVeskaR1]{The Veska Reveal \u2014 Reading the Chops} is intact and is now <em>better</em>, because the party is holding a copy of that initial before she explains what a hand is.</p>\n<p><strong>Tamsin is alive at the Whitemoor Estate</strong>, Veska is cautious, Tarsh is confrontable, and Castrian Vell is the party's host. Nothing here touches any of that.</p>\n<h2>Ledger</h2>\n<p>Findings against this intermission take the stable prefix <strong>TI1-</strong> in <code>docs/gm-fix-ledger.md</code>, filed after the Phase 9 block so the phase numbering stays contiguous. Nothing is filed yet; it has never been run.</p>"
+      }
+    },
+    {
+      "_id": "BR2T1QrPgNever00",
+      "_key": "!journal.pages!BR2T1QRefJrnl000.BR2T1QrPgNever00",
+      "name": "Never-Name Reminder &amp; the &ldquo;E.&rdquo; Problem",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "sort": 400000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "text": {
+        "format": 1,
+        "content": "<h1>Never-Name Reminder &amp; the &ldquo;E.&rdquo; Problem</h1>\n<p>This intermission puts a signed letter in the players' hands, which makes it the most dangerous document the campaign has produced so far. The guardrail, restated:</p>\n<p><strong>Never, on any page a player can see:</strong> Eclavdra. House Eilserv. Drow, dark elves, or any synonym. Erelhei-Cinlu. The Vault. The Underdark. Nor any inference that narrows &ldquo;E.&rdquo; to a person, a species, or a place.</p>\n<p><strong>What &ldquo;E.&rdquo; is allowed to be, here:</strong> a letter of the alphabet at the bottom of a circular, copied by a clerk who also does not know what it means.</p>\n<h2>Three ways a table talks itself into the reveal, and the answer to each</h2>\n<p><strong>&ldquo;Whose initial is it?&rdquo;</strong> \u2014 Nobody aboard knows, including Sarn, who was told not to read the papers and is proud of having obeyed. The honest GM answer is that the party is holding the first physical evidence that the person exists. That is a lot. Let it be a lot.</p>\n<p><strong>&ldquo;Is it a person or a house?&rdquo;</strong> \u2014 The circular's own text refuses to say: <em>not the house's name, not in your own accounts</em>. A house with a name it will not write down, signed with one letter, is exactly as far as Phase 3 goes.</p>\n<p><strong>&ldquo;Can we match the handwriting?&rdquo;</strong> \u2014 Yes, and this is the trap worth walking into on purpose. They can match it to <em>a Hardby clerk's copying hand</em>, because that is what it is. The matching that matters happens in Hardby with Veska, and what it produces is a mismatch, not a name.</p>"
+      }
+    }
+  ]
+}

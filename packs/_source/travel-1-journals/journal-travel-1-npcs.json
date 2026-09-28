@@ -1,0 +1,179 @@
+{
+  "_key": "!journal!BR2T1NpcsJrnl000",
+  "_id": "BR2T1NpcsJrnl000",
+  "name": "Intermission 1 \u2014 NPCs",
+  "folder": null,
+  "sort": 400000,
+  "ownership": {
+    "default": -1
+  },
+  "flags": {
+    "blooming-rot-2": {
+      "kind": "travel-intermission",
+      "intermission": 1
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "pages": [
+    {
+      "_id": "BR2T1NpPgRoke000",
+      "_key": "!journal.pages!BR2T1NpcsJrnl000.BR2T1NpPgRoke000",
+      "name": "Master Orin Roke \u2014 the Kestrel Wife",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "text": {
+        "format": 1,
+        "content": "<h1>Master Orin Roke</h1>\n<img src=\"modules/blooming-rot-2/assets/portraits/orin-roke-portrait.png\" alt=\"Master Orin Roke, fifty-one, short and wide and weathered, in a plain wool jersey against the stacked fleece bales of his own ship's waist.\" style=\"max-width: 100%; border-radius: 4px;\">\n<p><strong>Sheet:</strong> @UUID[Compendium.blooming-rot-2.travel-1-actors.Actor.BR2T1ActRoke0000]{Master Orin Roke} \u00b7 Master of the <em>Kestrel Wife</em>, a Keoish wool trader out of Gradsul. Fifty-one. Non-combatant and knows it.</p>\n<p><strong>Appearance:</strong> Short, wide, weathered to the colour of a saddle, grey stubble he shaves twice a week whether it needs it or not. A good coat he never wears at sea and wears to every negotiation.</p>\n<h2>What he is</h2>\n<p>The module gave him one line and it is the best characterisation in the chapter: a master who <em>put in twice at ports nobody told you about, because he is a trader before he is anybody's courier</em>. He is not corrupt. He is a small businessman with a hull, and the difference between those two things is why the party gets boarded.</p>\n<p>He does not want to know what is in their bales. He has taken money from a Yeomanry councilman's agent for passage and letters and the story about wool, and he has decided, deliberately, that the story is true. When the boarding proves it isn't, he does not blame them and he does not ask. He simply stops putting in at ports nobody told them about.</p>\n<h2>What he says</h2>\n<p>On the quay at Gradsul, about fire: the read-aloud on the calibration page. Use it.</p>\n<p>After the boarding, if pushed: <em>&ldquo;I've left money on a wharf in Highport that I'll not see again, and that's my business settled with you.&rdquo;</em></p>\n<p>On day thirty-nine, unprompted, to whichever PC is awake: <em>&ldquo;I'll not ask. But when you're ashore, and you're doing whatever it is \u2014 there's eleven of us on this hull and one of them's dead. I'd like it to have been for something.&rdquo;</em></p>\n<h2>Use him for</h2>\n<p>The failure floor on the letter. The fire rule. And the only outside eye on the party for six weeks \u2014 he is the man who notices if they break character, and he is the man who says nothing about it, which is worse.</p>"
+      }
+    },
+    {
+      "_id": "BR2T1NpPgVole000",
+      "_key": "!journal.pages!BR2T1NpcsJrnl000.BR2T1NpPgVole000",
+      "name": "Hennet Vole \u2014 the Drover",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "sort": 200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "text": {
+        "format": 1,
+        "content": "<h1>Hennet Vole</h1>\n<img src=\"modules/blooming-rot-2/assets/portraits/hennet-vole-portrait.png\" alt=\"Hennet Vole, a sun-reddened Keoish drover in a shapeless felt hat, caught mid-anecdote beside the shoulder of one of his oxen.\" style=\"max-width: 100%; border-radius: 4px;\">\n<p><strong>Sheet:</strong> @UUID[Compendium.blooming-rot-2.travel-1-actors.Actor.BR2T1ActVole0000]{Hennet Vole} \u00b7 Keoish drover, four carts of fleeces, bound for the Gradsul autumn market. Forties. Talks constantly.</p>\n<p>He attached himself to the party on day four because five armed westerners on the Wool Road are free escort, and he has been paying for it in conversation and bad tea ever since. Three drovers work for him and a boy of twelve, and one of the drovers is Sev, who has been laughing at Gianni's accent since the day they met.</p>\n<h2>Why he exists</h2>\n<p>He is the witness. Everything the party does at the Fallow Ford, Vole sees, and three weeks later Vole is standing in a market tent in Gradsul telling it to anybody who buys him a drink \u2014 which is where the visibility tally becomes the circular's description of them. He is not an informant and he is not a plant. He is a man who saw something remarkable and cannot stop saying so.</p>\n<h2>At the table</h2>\n<p>Warm, useful, slightly exhausting. He knows the road, the tolls, which wool-house will put five people up, and which Gradsul factors are honest \u2014 all of which the party genuinely needs, and all of which they will happily accept without noticing they are buying it with visibility.</p>\n<p>If the party is careful with him, he is also the most efficient cover-repair available: a real Keoish drover vouching for them at the Gradsul quay is worth more than any of Caelith's letters, and it is the reason a berth on the <em>Kestrel Wife</em> is available at all.</p>"
+      }
+    },
+    {
+      "_id": "BR2T1NpPgSarn000",
+      "_key": "!journal.pages!BR2T1NpcsJrnl000.BR2T1NpPgSarn000",
+      "name": "Mattick Sarn \u2014 the Grey Fee",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "sort": 300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "text": {
+        "format": 1,
+        "content": "<h1>Mattick Sarn</h1>\n<img src=\"modules/blooming-rot-2/assets/portraits/mattick-sarn-portrait.png\" alt=\"Mattick Sarn, master of the Grey Fee: mid-forties, burnt dark, iron at the temples, one hand on the rail and a cutlass at his hip, doing arithmetic.\" style=\"max-width: 100%; border-radius: 4px;\">\n<p><strong>Sheet:</strong> @UUID[Compendium.blooming-rot-2.travel-1-actors.Actor.BR2T1ActSarn0000]{Mattick Sarn} \u00b7 CR 4. Master of the <em>Grey Fee</em>, a Pomarj coaster working out of Fax. Forties, burnt dark, missing the top joint of two fingers on his left hand.</p>\n<h2>What he is</h2>\n<p>A contractor, not a fanatic \u2014 the same species as Merev Sarth and worth playing the same way. He was handed a circular and a price list by a man at a wharf and he has been reading the same four lines for a month, working out how to earn six hundred a head without dying for it. He takes what Fax sends him for crew, which is why his boarding party is two professionals and a dozen boys.</p>\n<h2>How he fights</h2>\n<p>To take, not to kill, and competently: the net first, Parry against whoever hits hardest, and <em>Subdue</em> spent on whichever PC is closest to going down rather than on the most dangerous one. Alive is worth six hundred; dead is worth an argument at a wharf.</p>\n<p>He breaks off the moment the arithmetic turns, and he does it while people are still swinging. He is not brave and does not pretend to be.</p>\n<h2>What he knows</h2>\n<p>Almost nothing, which is the point. <strong>The third wharf at Hardby.</strong> <strong>A man who shows the mark on the seal</strong> \u2014 whom he has never met. <strong>Payment in trade-drafts on a Hardby house that is not Cindren &amp; Vhal.</strong> He has never read the circular's implications because he was told not to read the papers and, in his own words, he isn't paid to be curious. He does not know the letter <em>E.</em> means anything.</p>\n<p>He can be flipped for his life and his boat, and he will stay flipped for exactly as long as the party is the largest thing in the room.</p>"
+      }
+    },
+    {
+      "_id": "BR2T1NpPgTarrow0",
+      "_key": "!journal.pages!BR2T1NpcsJrnl000.BR2T1NpPgTarrow0",
+      "name": "Loy Tarrow \u2014 the Mate",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "sort": 400000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "text": {
+        "format": 1,
+        "content": "<h1>Loy Tarrow</h1>\n<img src=\"modules/blooming-rot-2/assets/portraits/loy-tarrow-portrait.png\" alt=\"Loy Tarrow, Sea Princes-trained mate: wiry and economical, a boarding axe through his belt and a lit slow-match held low and away from his body.\" style=\"max-width: 100%; border-radius: 4px;\">\n<p><strong>Sheet:</strong> @UUID[Compendium.blooming-rot-2.travel-1-actors.Actor.BR2T1ActTarrow00]{Loy Tarrow} \u00b7 CR 3. Mate of the <em>Grey Fee</em>. Sea Princes-trained, and it shows in everything he does.</p>\n<p>The dangerous one. Sarn is the man with the contract; Tarrow is the man who knows how to take a hull. He is the one who calls the count in round two, and he is the one carrying the slow-match, because his real job is to make sure that if the boarding fails the cargo does not reach Hardby either.</p>\n<h2>How he fights</h2>\n<p>He avoids the melee if he can and works toward the fore hatch. Multiattack and Parry make him a serious problem for anyone who chases him alone, and he will not be drawn away from the hatch by an insult \u2014 only by something between him and it.</p>\n<p>He carries a reader's copy of the circular in a tarred wallet against his skin. That is the letter's second delivery route and the reason this encounter cannot fail to hand the party its clue.</p>\n<p><strong>Elle's thread:</strong> the sunburst filed off his crossbow stock, badly, recently. He will not say where he got it and there is no good answer.</p>"
+      }
+    },
+    {
+      "_id": "BR2T1NpPgOrd0000",
+      "_key": "!journal.pages!BR2T1NpcsJrnl000.BR2T1NpPgOrd0000",
+      "name": "Vennick Ord \u2014 the Hired Caster",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "sort": 500000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "text": {
+        "format": 1,
+        "content": "<h1>Vennick Ord</h1>\n<img src=\"modules/blooming-rot-2/assets/portraits/vennick-ord-portrait.png\" alt=\"Vennick Ord, a hedge-caster in a fine merchant's coat several sizes too large, touching one overlong cuff, aggrieved and entirely without conviction.\" style=\"max-width: 100%; border-radius: 4px;\">\n<p><strong>Sheet:</strong> @UUID[Compendium.blooming-rot-2.travel-1-actors.Actor.BR2T1ActOrd00000]{Vennick Ord} \u00b7 CR 2. Hired out of Fax by the week, and resentful about the rate.</p>\n<p>Not a conspirator, not a pirate, and not brave: a working hedge-caster who takes ship-work because ship-work pays and nobody on a coaster asks what happened to his apprenticeship. He is the man in the good coat at the rail making the friendly hail, wearing <em>disguise self</em> and not quite wearing it well \u2014 he keeps touching the cuff.</p>\n<h2>His kit, as the sheet actually has it</h2>\n<p><em>Mage armor</em> (up before the hail) and <em>disguise self</em> (the coat). Then <strong><em>thunderwave</em>, which on a crowded deck is not damage but ten feet of push over open water</strong> \u2014 that is his whole contribution and you should use it that way, early, on whoever is standing nearest the rail. After that <em>ice knife</em> at whatever is casting, <em>mage hand</em> to work a line or move a lantern, and <em>prestidigitation</em> for the smoke and noise he uses instead of courage.</p>\n<p>He is the first man back across the plank when the deck turns, and he does not look behind him. If taken, he talks immediately, completely, and about nothing of value \u2014 he was hired at a tavern by the mate, he has never seen a letter, and he would like it recorded that he never hurt anyone.</p>"
+      }
+    }
+  ]
+}

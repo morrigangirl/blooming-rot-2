@@ -5876,6 +5876,388 @@ ${ART_STYLE}`,
     postProcess: "round-token-512",
     ring: { base: "#6a543a", highlight: "#a08560", shadow: "#1a1208" } /* rural commoner warm-brown */ },
 
+
+  // ============== TIER 42 — Phase 2 chase map (Sparrow's Run) ==============
+  {
+    id: "p2-loftwick-sparrows-run-map",
+    tier: 42,
+    out: "assets/maps/loftwick-sparrows-run.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Hand-painted top-down fantasy street map in cartographic style for a tabletop role-playing game. Painted-map feel like a published adventure module city handout (Mike Schley / Tales of the Valiant city handout style). Parchment substrate, sepia-and-warm-color palette. Strictly top-down plan view — no oblique projection, no perspective; roofs seen from directly above.
+
+The map shows a SMALL PORTION of LOFTWICK, capital of the Yeomanry (a pre-Greyhawk-Wars republic of pale limestone, slate roofs and practical civic architecture — no cathedrals, no palaces). It covers about five blocks running DOWNHILL from a narrow paper-trade lane at the top of the map to the river-front at the bottom. North faces the top edge; the ground falls away toward the water at the bottom.
+
+From top to bottom, the map must show, in this order:
+
+1. TOP EDGE — WICK LANE: a short cobbled dead-end lane barely two carts wide, opening off a broader street that runs across the very top edge of the map. Only THREE buildings on the lane: a narrow two-story stone counting-office with a dark green door and a small brass plate beside it (west side); a plain four-story boarding house with many small windows (east side); and a modest physician's house with shuttered ground-floor windows, next to the boarding house. A small cobbled service yard behind the counting-office, with an alley leading out of it down toward the market square below.
+
+2. UPPER MIDDLE — THE CLOTH MARKET: an irregular open market square at the foot of Wick Lane, crowded with rows of cloth-sellers' stalls under striped awnings, trestle tables, stacked bolts of cloth and hand-barrows. Two or three narrow streets feed into the square from the sides.
+
+3. MIDDLE — THE MARKET WALL AND THE STEPS: the lower (south) side of the square ends at a LOW STONE RETAINING WALL, because the ground drops away here. Beyond and below the wall, a worn flight of stone steps descends steeply toward the water, turning once at a small landing. The wall is low — waist-high — and clearly climbable.
+
+4. LOWER MIDDLE — THE TANNERS' CUT: below the steps, a cramped tannery district: one reeking narrow alley running between long low tannery sheds, with open vats, drying racks, stacked fleeces and overturned hand-barrows in the yards, washing lines overhead, timber-and-daub construction instead of stone.
+
+5. BOTTOM EDGE — THE WATERLINE: the alley ends at a low stone quay along the bottom of the map. Slow green-grey river water and reeds fill the bottom edge. Set into the quay wall at the waterline is a HALF-OPEN IRON CULVERT GRATE, just big enough for a child to slip through. Beside it, a flat-bottomed poling skiff drawn up among the reeds. A little way along the quay, a low brick DRAIN ARCH runs back in under the streets, dark inside.
+
+Additional detail: cobbled streets and lanes throughout the upper half; roof slates in warm grey and brown; small yards, wells, water butts and stacked crates in the gaps between buildings; two or three narrow connecting alleys so the block reads as a real warren rather than a grid. Beyond the outer edges of the built blocks, fade softly to plain parchment.
+
+CRITICAL: NO text, NO lettering, NO labels, NO numbers, NO cartouche, NO compass rose, NO scale bar, NO grid lines anywhere on the image. NO people, NO animals — figures are placed on top of this map at the table.
+
+Palette: pale limestone and lime-washed plaster, warm grey slate, grey-brown cobbles, autumn ochres, the dull green-grey of river water, the dark browns of the tanneries. Midday early-autumn light with soft short shadows. Painted, not vector.`,
+    postProcess: null,
+  },
+
+
+  // ============== TIER 43 — First Travel Intermission: NPC portraits & tokens ==============
+  {
+    id: "mattick-sarn-portrait",
+    tier: 43,
+    out: "assets/portraits/mattick-sarn-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of MATTICK SARN, master of a Pomarj coaster out of Fax — a human freebooter in his mid-forties.
+Burnt dark by twenty years of sun off water, deep creases at the eyes, black hair going iron at the temples and tied back with a leather thong. Several days of grey stubble.
+He is missing the top joint of two fingers on his LEFT hand — show that hand resting on the rail, the shortened fingers clearly visible but unremarked.
+Clothing: a heavy salt-stained dark coat over a plated leather jack, a wide belt, a cutlass hilt at his hip. No jewelry, no earrings, nothing piratical or theatrical — he dresses like a man who works a ship for a living.
+Expression: flat, appraising, doing arithmetic. He is not cruel and he is not brave; he is a contractor looking at a job and deciding what it is worth. The look of a man who has already decided he will run if the numbers turn.
+Three-quarter view from waist up, one hand on a ship's rail, grey flat sea behind him, no wind.
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  {
+    id: "loy-tarrow-portrait",
+    tier: 43,
+    out: "assets/portraits/loy-tarrow-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of LOY TARROW, mate of a Pomarj coaster — a human sailor in his late thirties, trained in the Hold of the Sea Princes and still carrying himself like it.
+Wiry, economical, close-cropped sandy hair, a long-healed rope burn across the left side of the neck. Pale eyes that do not move much.
+Clothing: brigandine over a salt-bleached shirt, sleeves rolled, a boarding axe through his belt. Tucked into the front of his shirt against the skin, a flat oilcloth wallet, barely visible as a rectangular shape beneath the fabric.
+In his right hand, held low and away from his body with obvious care, a short lit SLOW-MATCH — a length of smouldering cord, one orange coal at its tip, a thread of smoke.
+Expression: absolutely calm. He is the competent one and he knows exactly how much that is worth. No sneer, no swagger — the stillness of a professional waiting for a specific moment.
+Three-quarter view from waist up, low evening light on a ship's deck behind him.
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  {
+    id: "vennick-ord-portrait",
+    tier: 43,
+    out: "assets/portraits/vennick-ord-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of VENNICK ORD, a hedge-caster hired out of Fax by the week — a human man of about thirty, hired help who resents the rate.
+Soft-featured, indoor-pale under a bad sunburn across the nose and cheekbones, thinning brown hair, a fussy small beard. Ink on the fingers of his right hand.
+He is wearing a GOOD COAT THAT DOES NOT FIT HIM — a merchant master's coat, deep blue with brass buttons, cut for a broader man, the cuffs falling past his knuckles. He is touching one cuff with the other hand, a nervous tell, as if checking it is still there.
+A cheap component pouch at his belt. No staff, no orb, no obvious arcane regalia — his magic is a trade he half-finished learning, not a calling.
+Expression: aggrieved, watchful, entirely without conviction. A man who took ship-work because ship-work pays and who intends to be the first one back over the rail.
+Three-quarter view from waist up, grey sea light, a ship's rail at the edge of frame.
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  {
+    id: "orin-roke-portrait",
+    tier: 43,
+    out: "assets/portraits/orin-roke-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of MASTER ORIN ROKE, fifty-one, Keoish master of a fat wool trader out of Gradsul.
+Short and wide and weathered to the colour of a saddle. Grey stubble he shaves twice a week whether it needs it or not. Heavy hands, cracked knuckles, a sailor's squint permanently set into his face.
+Clothing: a plain thick wool jersey and canvas breeches — the working clothes, not the good coat. A brass-and-horn navigational divider tucked in a breast pocket.
+Expression: shrewd, tired, fundamentally decent, and deliberately not curious. This is a small businessman with a hull, not an adventurer; he has decided to believe the story he was told and the decision shows in his face.
+Behind him, out of focus: stacked bales of raw fleece in a ship's waist, rigging, wet timber.
+Three-quarter view from chest up, overcast north light.
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  {
+    id: "hennet-vole-portrait",
+    tier: 43,
+    out: "assets/portraits/hennet-vole-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of HENNET VOLE, a Keoish drover in his forties taking four carts of fleeces to the Gradsul autumn market.
+Sun-reddened, cheerful, a wide gap-toothed talker's mouth caught mid-sentence. Unruly brown hair under a shapeless felt hat. A week of road dust in every crease.
+Clothing: a patched brown coat over homespun, a length of cord for a belt, a drover's goad held loosely across one shoulder.
+Expression: open, friendly, mid-anecdote — a man telling you something you did not ask about and will hear again tomorrow. Nothing sly in him at all; the harm he does is entirely accidental.
+Behind him, out of focus: an ox's shoulder and the rail of a loaded wool cart, autumn stubble field, late afternoon.
+Three-quarter view from chest up, warm low sun.
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  {
+    id: "grey-fee-boarder-portrait",
+    tier: 43,
+    out: "assets/portraits/grey-fee-boarder-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of an ANONYMOUS DOCKSIDE PIRATE from the Pomarj port of Fax — a young human man of perhaps twenty, hired for a share and no questions. Deliberately generic: this image stands in for a dozen men.
+Lank dark hair, a bad haircut, one broken front tooth, a jaw not yet filled out. Cheap tar-stained slops and a leather jerkin, a hanger on a rope belt, a belaying pin thrust through it. A coil of light line over one shoulder.
+Expression: keyed-up, frightened, pretending otherwise — this is the third time he has done this and he is not good at it yet.
+Waist up, three-quarter view, deliberately unmemorable face, flat grey sea light.
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  {
+    id: "grey-fee-topman-portrait",
+    tier: 43,
+    out: "assets/portraits/grey-fee-topman-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of an ANONYMOUS SHIP'S ARCHER — one of two topmen aboard a Pomarj coaster, the only men aboard who can actually shoot. Deliberately generic.
+A lean weather-burnt human woman in her late twenties, hair cropped close and bleached at the ends, a forearm bracer worn shiny. A longbow held upright at her side, a quiver at the hip, a shortsword slung behind.
+She is high up: rigging and a slack topsail behind and below her, the deck far beneath out of frame.
+Expression: patient and unbothered, a workman's concentration. She has orders not to kill and she will follow them because it is easier.
+Waist up, three-quarter view from slightly below, bright hazy overcast.
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  // --- tokens: post-processed from the portraits above, no API calls ---
+  {
+    id: "mattick-sarn-token",
+    tier: 43,
+    out: "assets/tokens/mattick-sarn-token.png",
+    sourceFromExisting: "assets/portraits/mattick-sarn-portrait.png",
+    skipGeneration: true,
+    postProcess: "round-token-512",
+    // Tarnished brass — a working master's fittings.
+    ring: { base: "#5a4a2a", highlight: "#a08c50", shadow: "#1a1206" },
+  },
+  {
+    id: "loy-tarrow-token",
+    tier: 43,
+    out: "assets/tokens/loy-tarrow-token.png",
+    sourceFromExisting: "assets/portraits/loy-tarrow-portrait.png",
+    skipGeneration: true,
+    postProcess: "round-token-512",
+    // Cold iron and sea-grey.
+    ring: { base: "#2a3a44", highlight: "#6a8290", shadow: "#080e12" },
+  },
+  {
+    id: "vennick-ord-token",
+    tier: 43,
+    out: "assets/tokens/vennick-ord-token.png",
+    sourceFromExisting: "assets/portraits/vennick-ord-portrait.png",
+    skipGeneration: true,
+    postProcess: "round-token-512",
+    // Dull violet — hired arcana.
+    ring: { base: "#3a2a4a", highlight: "#7a6890", shadow: "#0a0612" },
+  },
+  {
+    id: "orin-roke-token",
+    tier: 43,
+    out: "assets/tokens/orin-roke-token.png",
+    sourceFromExisting: "assets/portraits/orin-roke-portrait.png",
+    skipGeneration: true,
+    postProcess: "round-token-512",
+    // Fleece ochre — the wool trade.
+    ring: { base: "#6a5230", highlight: "#b09660", shadow: "#1c1408" },
+  },
+  {
+    id: "hennet-vole-token",
+    tier: 43,
+    out: "assets/tokens/hennet-vole-token.png",
+    sourceFromExisting: "assets/portraits/hennet-vole-portrait.png",
+    skipGeneration: true,
+    postProcess: "round-token-512",
+    // Road green and dust.
+    ring: { base: "#4a4a2a", highlight: "#8c8c58", shadow: "#12120a" },
+  },
+  {
+    id: "grey-fee-boarder-token",
+    tier: 43,
+    out: "assets/tokens/grey-fee-boarder-token.png",
+    sourceFromExisting: "assets/portraits/grey-fee-boarder-portrait.png",
+    skipGeneration: true,
+    postProcess: "round-token-512",
+    // Plain dark iron — mooks.
+    ring: { base: "#3a3a3a", highlight: "#6a6a6a", shadow: "#080808" },
+  },
+  {
+    id: "grey-fee-topman-token",
+    tier: 43,
+    out: "assets/tokens/grey-fee-topman-token.png",
+    sourceFromExisting: "assets/portraits/grey-fee-topman-portrait.png",
+    skipGeneration: true,
+    postProcess: "round-token-512",
+    // Tarred rope and canvas.
+    ring: { base: "#3a4238", highlight: "#6e7a68", shadow: "#0a0c08" },
+  },
+
+  // ============== TIER 44 — First Travel Intermission: illustrations ==============
+  {
+    id: "kestrel-wife-at-sea",
+    tier: 44,
+    out: "assets/illustrations/kestrel-wife-at-sea.png",
+    size: "1536x1024",
+    quality: "high",
+    prompt: `Modern high-fantasy illustration / digital concept art in the style of contemporary tabletop-RPG book interiors. Establishing shot of a merchant ship at sea, seen from a low angle off her quarter.
+The ship is the KESTREL WIFE — a FAT Keoish wool trader, not a warship and not a sleek clipper: a broad-beamed two-masted merchantman, high-sided, deep in the water, tar-black hull with a faded ochre strake, patched brown canvas, working rigging with rope ends whipping. She is ugly and beloved and she wallows.
+Her waist is stacked with lashed BALES OF RAW FLEECE under tarpaulins. Two or three crew visible small on deck, doing ordinary work.
+Weather: grey-green open water, a long low swell, hazy overcast with one shaft of pale sun on the water astern. Late autumn, cold light, no storm.
+Composition: classic module establishing illustration, ship occupying the right two-thirds, empty sea and sky to the left for breathing room.
+Style: painterly digital fantasy illustration, palette of wet slate, tar-black, fleece-cream, faded ochre, cold sea-green. NOT 19th-century marine oil painting — modern fantasy genre art.
+No text, no labels, no flags with insignia.`,
+    postProcess: null,
+  },
+  {
+    id: "fallow-ford-ankhegs",
+    tier: 44,
+    out: "assets/illustrations/fallow-ford-ankhegs.png",
+    size: "1536x1024",
+    quality: "high",
+    referenceImages: activePartyRefs(),
+    prompt: `Modern high-fantasy illustration / digital concept art in the style of contemporary tabletop-RPG book covers. Cinematic wide landscape, late afternoon, autumn.
+**Five reference images supplied — the five-PC adventuring party. Identify each by features and match exactly:**
+- **Alicia** (human Warlock) — red-haired, high ponytail, blue tunic with gold piping, holding a CLOSED BOOK with a colorful artistically stylized cover cradled in her hands, tattoo sleeve on left arm.
+- **Selvara** (human Sorcerer) — hooded, dark red cloak, scar across face with one milky pale eye, blue gem pendant, tall wooden staff.
+- **Kitty** (chthonic-tiefling Druid) — ashen-grey skin, small dark curving horns, pale luminescent eyes, dark hair in long braids, sigil-veining at temples, dark slender tail, woven-wood spear.
+- **Gianni** (human Ranger) — dark hair in a single thick braid, fierce dark-lined eyes, leather cuirass over yellow-cream tunic, quiver of arrows, bow drawn.
+- **Elle** (halfling Monk) — halfling-sized and visibly shorter than the others, yellow/saffron robes with red sash, brown hair, agile build, fighting unarmed.
+Scene: a shallow ox-ford on a rutted cart road crossing a FALLOW STUBBLE FIELD. A drainage ditch runs along the near side. Four loaded wool carts are strung along the road with yoked oxen plunging and bellowing in their harness.
+Erupting from the broken earth beneath and beside the carts are THREE enormous insectoid burrowing predators — segmented chitin-plated bodies the size of draft horses, chestnut-brown and oil-dark, six legs, long armored abdomens still half-buried in the collapsing soil, heavy mandibles clamped on an ox's shoulder. Great fans of dirt and torn stubble thrown up around them. One rears higher than a cart wheel. They are insects, not dragons: no wings, no fire.
+The five PCs are scattered across the road and the ditch, fighting toward the animals. Dust, panic, a drover running.
+Far horizon: a dark green line of distant forest under a wide pale autumn sky.
+Lighting: low warm sun raking across the field, long shadows, dust catching the light.
+Style: painterly digital fantasy illustration, palette of dun stubble-gold, chitin brown, dust ochre, deep shadow. Detail-rich but not photorealistic. NOT 19th-century oil painting — modern fantasy genre art.
+No text, no labels.`,
+    postProcess: null,
+  },
+  {
+    id: "grey-fee-alongside",
+    tier: 44,
+    out: "assets/illustrations/grey-fee-alongside.png",
+    size: "1536x1024",
+    quality: "high",
+    prompt: `Modern high-fantasy illustration / digital concept art in the style of contemporary tabletop-RPG book interiors. The moment before a boarding action, seen from the deck of a merchant ship looking across at another vessel.
+Water: flat, oily, dead calm at the end of the day — no wind, no whitecaps, the swell long and slow. This stillness is the point of the picture.
+The other ship is a LOW SLEEK COASTER, eighty tons, dark-hulled, sweet-lined, coming up from the landward side close enough to hail. Her deck is unnaturally CLEAN and EMPTY. Along her near rail, half-hidden, the humped shapes of MEN LYING DOWN — visible to the viewer, not obviously visible to anyone aboard the merchant ship. Grappling irons and coiled lines lie ready at her feet, not yet thrown.
+At her rail, standing alone and upright, one man waves in friendly greeting with both hands cupped to call across the water. He is wearing a fine deep-blue merchant master's coat with brass buttons that is plainly TOO BIG FOR HIM — cuffs past his knuckles, shoulders wrong. He is soft-featured, indoor-pale, sunburnt across the nose.
+Foreground edge: the near ship's own rail and a stack of tarpaulined fleece bales, a coil of rope, out of focus — we are standing on the wool trader.
+A low-slanting shaft of last light on the water between the two hulls. A masthead pennant hangs limp.
+Composition: two hulls converging, the friendly figure small and central, the hidden men the detail a careful eye finds second.
+Style: painterly digital fantasy illustration, tense and quiet, palette of oiled pewter water, tar-black hull, deep blue coat, last-light amber. NOT 19th-century marine oil painting — modern fantasy genre art.
+No text, no labels, no skull-and-crossbones, no pirate cliché.`,
+    postProcess: null,
+  },
+  {
+    id: "grey-fee-boarding",
+    tier: 44,
+    out: "assets/illustrations/grey-fee-boarding.png",
+    size: "1536x1024",
+    quality: "high",
+    referenceImages: activePartyRefs(),
+    prompt: `Modern high-fantasy illustration / digital concept art in the style of contemporary tabletop-RPG book covers. A boarding action on the crowded deck of a merchant ship, evening.
+**Five reference images supplied — the five-PC adventuring party. Identify each by features and match exactly:**
+- **Alicia** (human Warlock) — red-haired, high ponytail, blue tunic with gold piping, the CLOSED stylized book in one hand, ribbons of pale force-light flickering from her free hand, tattoo sleeve on left arm.
+- **Selvara** (human Sorcerer) — hooded dark red cloak, facial scar with one milky pale eye, blue gem pendant, staff raised, NO fire or flame of any kind in her hands.
+- **Kitty** (chthonic-tiefling Druid) — ashen-grey skin, small dark horns, pale luminescent eyes, long dark braids, sigil-veining, dark tail, woven-wood spear, green growth curling up around a boarder's legs.
+- **Gianni** (human Ranger) — single thick dark braid, leather cuirass over yellow-cream tunic, loosing an arrow upward into the rigging.
+- **Elle** (halfling Monk) — halfling-sized, clearly shortest, saffron robes with red sash, mid-leap along the ship's rail, striking unarmed.
+Enemies: rough dockside pirates in tar-stained slops swarming over the near rail from a second hull lashed alongside — hangers, belaying pins, a weighted NET being swung, a coil of line. Two grappling irons bite into the rail with taut ropes. One boarding plank spans the gap between hulls. They are trying to DRAG AND SUBDUE rather than kill.
+Behind the fighting: stacked BALES OF RAW FLEECE under cut tarpaulins, spilled fleece trodden across the planking, and the merchant ship's own sailors fighting with capstan bars in the middle distance.
+CRITICAL: there is NO FIRE anywhere in this image — no torches, no flames, no burning, no explosions. The light is cold evening light and one shuttered lantern.
+Lighting: blue-grey dusk, one warm lantern low on the deck, cold rim-light on wet planking.
+Composition: chaotic but readable, foreground PCs, midground rail and boarders, the second hull's dark mass at the right edge.
+Style: painterly digital fantasy illustration, palette of dusk blue-grey, tar-black, fleece-cream, blood-rust, one amber lantern. NOT 19th-century oil painting — modern fantasy genre art.
+No text, no labels, no skull flags.`,
+    postProcess: null,
+  },
+  {
+    id: "grey-back-strike",
+    tier: 44,
+    out: "assets/illustrations/grey-back-strike.png",
+    size: "1536x1024",
+    quality: "high",
+    referenceImages: activePartyRefs(),
+    prompt: `Modern high-fantasy illustration / digital concept art in the style of contemporary tabletop-RPG book covers. A sea-monster attack on a merchant ship, seen from aft and slightly above, thin cold rain.
+**Five reference images supplied — the five-PC adventuring party. Match features exactly. Prominent in frame:**
+- **Gianni** (human Ranger) — single thick dark braid, leather cuirass over yellow-cream tunic, braced high in the rigging, bow drawn downward at the water.
+- **Elle** (halfling Monk) — halfling-sized, clearly shortest, saffron robes with red sash soaked dark, out along the projecting steering sweep over open water, one hand reaching down.
+- **Alicia** (human Warlock) — red-haired high ponytail, blue tunic with gold piping, closed stylized book in one hand, a bolt of pale force-light lancing from the other into the sea.
+- **Kitty** (chthonic-tiefling Druid) — ashen-grey skin, small dark horns, long dark braids, sigil-veining, mid-transformation at the rail: her outline blurring, water already wrapping her.
+- **Selvara** (human Sorcerer) — hooded dark red cloak, facial scar and milky eye, gripping the stern rail, staff braced, NO fire in her hands.
+The monster: an ENORMOUS GREY SHARK, eighteen to twenty feet, rolling half out of the water hard against the ship's rudder and stern post — slate-grey above, dirty white below, a blunt scarred snout, one black eye rolled white, jaws wide. Splintered timber where the rudder head is sprung. Around it, THREE smaller sharks cutting the surface in a slick of blood-dark water.
+In the water below Elle's reach: a CREW SAILOR, one arm up, being pulled away from the hull.
+Foreground detail: the ship's wet stern rail, a trailing rope, staved-in barrels of salt cod spilling over the lee side as chum.
+Weather: thin cold rain, low grey sky, no sun. Spray and rain streaks across the frame.
+Composition: high dramatic diagonal — monster lower right, ship's stern upper left, the man in the water the emotional centre.
+Style: painterly digital fantasy illustration, palette of slate grey, drowned green, rust-red, pale sea-foam. NOT 19th-century marine oil painting — modern fantasy genre art.
+No text, no labels.`,
+    postProcess: null,
+  },
+  // ============== TIER 45 — First Travel Intermission: handouts & battle maps ==============
+  {
+    id: "handout-the-circular",
+    tier: 45,
+    out: "assets/handouts/handout-the-circular.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `A single sheet of good pale writing paper, photographed flat, folded into thirds and carried folded for a month so the creases are soft and dark and the edges are foxed and thumb-worn.
+The hand is an EVEN, TRAINED, COPYING HAND — a clerk's transcription, regular and characterless, not a principal's signature style.
+The following lines appear, clearly legible, generously spaced, occupying the upper two-thirds of the sheet:
+"Copy for the master. Burn it at the first hail."
+"Five persons have left the Yeomanry eastward on the Council's business. Their road is not known to us."
+"A wool hull out of Gradsul for Hardby is the likeliest of the guesses. It is a guess."
+"Confirm before you carry."
+"Nothing of this in writing."
+Below those lines, at the lower right, a single capital letter alone on its own line as a signature:
+"E."
+The "E." is written in the SAME plain clerk's hand as the rest — deliberately unremarkable, no flourish, no distinctive loop or serif. It must not look like a personal signature.
+At the lower left corner of the sheet, a blob of DARK RED SEALING WAX, cheap and slightly cracked, pressed twice so the impression is doubled and imperfect. The wax bears NO crest and NO heraldry — only, small and off to one side, a single upright stroke with a short bar across it near the top, like a letter T with a low crossbar.
+${HANDOUT_STYLE}`,
+    postProcess: null,
+  },
+  {
+    id: "handout-the-seal",
+    tier: 45,
+    out: "assets/handouts/handout-the-seal.png",
+    size: "1024x1024",
+    quality: "high",
+    prompt: `Extreme close-up macro photograph of a blob of DARK RED SEALING WAX on the corner of a folded sheet of aged pale paper, lit by soft warm raking light so the wax's surface texture and the depth of the impression read clearly.
+The wax is cheap: slightly dull, a hairline crack across one lobe, the edges feathered where it was pressed while too cool. It has been pressed TWICE and the two impressions do not quite align — once by whoever sealed it and once, badly, by whoever opened it and closed it again.
+The wax bears NO crest, NO coat of arms, NO initials, NO motto, NO heraldic device of any kind — it is deliberately anonymous.
+The ONLY mark on it, small and set off to one side where a thumb would go, is a single UPRIGHT STROKE with a SHORT BAR ACROSS IT near the top — resembling a letter T whose crossbar is narrow and set a little below the top of the stem. The mark is shallow, quickly made, functional, like a clerk's routing mark rather than a seal.
+Background: plain dark surface, the paper's fold crease running out of frame.
+Painterly-photographic prop realism, warm light, shallow depth of field. No text, no lettering anywhere except the single stroke-and-bar mark described.`,
+    postProcess: null,
+  },
+  {
+    id: "kestrel-wife-deck-map",
+    tier: 45,
+    out: "assets/maps/kestrel-wife-deck.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Hand-painted TOP-DOWN battle map for a tabletop RPG: the deck of a merchant sailing ship, viewed from directly overhead at ninety degrees, no perspective, no tilt, orthographic.
+The ship runs vertically up the frame, bow at the top, stern at the bottom. She is BROAD-BEAMED and fat — a wool trader, not a warship. Painted plank-by-plank decking with visible caulked seams, tar-dark and wet-looking.
+Deck features, all drawn as seen from directly above:
+- BOW: a raised foredeck platform, an anchor windlass, a coil of heavy cable, the foremast as a circular cross-section with a ring of belaying pins.
+- WAIST (the widest, most open area, the main fighting floor): rows of LASHED BALES OF RAW FLEECE under partly cut-away tarpaulins, some bales burst with pale fleece spilling across the planks. A ship's boat stowed upside down. Two open CARGO HATCHES showing dark holds below. The mainmast as a circular cross-section.
+- AFT: a lower stern deck with the ship's wheel, a binnacle, a companionway hatch down to the cabins, a stacked pile of spare spars.
+- Along both rails: pin rails, coiled lines, two water butts, a shuttered lantern.
+Alongside the ship's starboard (right) rail, a SECOND, NARROWER, SLEEKER HULL is lashed on, only its near third entering the frame — dark-hulled, her own clean empty deck partly visible. Between the two hulls: two GRAPPLING IRONS biting the merchant's rail with taut ropes, and a single BOARDING PLANK bridging the gap.
+Surround the ship with dark grey-green open water, flat and oily, painted with soft swell texture.
+CRITICAL: NO text, NO lettering, NO labels, NO numbers, NO grid lines, NO grid squares, NO compass rose, NO scale bar, NO cartouche, NO border or frame. NO people, NO figures, NO creatures anywhere. No fire, no smoke, no flames.
+Style: painterly hand-painted fantasy cartography, warm muted earth palette, soft natural top light, consistent with classic Greyhawk-era D&D module battle maps.`,
+    postProcess: null,
+  },
+  {
+    id: "fallow-ford-map",
+    tier: 45,
+    out: "assets/maps/fallow-ford.png",
+    size: "1536x1024",
+    quality: "high",
+    prompt: `Hand-painted TOP-DOWN battle map for a tabletop RPG, viewed from directly overhead at ninety degrees, no perspective, orthographic. Autumn farmland.
+A rutted brown CART ROAD runs left to right across the frame. At the right of centre it dips through a shallow stony OX-FORD across a slow brown stream perhaps fifteen feet wide, with pale gravel shallows and darker deep water at its middle, the banks trodden to mud on both sides.
+Along the near (lower) side of the road, a straight DRAINAGE DITCH with a grassy lip and standing brown water in its bottom.
+Above and below the road: wide FALLOW FIELDS of cut autumn stubble, painted as fine pale-gold texture with patches of bare earth and thistle. A low field wall of loose grey stones runs along the upper edge.
+Standing on the road, strung out in a line to the left of the ford: FOUR loaded farm CARTS seen from above — plank beds heaped with lashed pale fleeces, tall spoked wheels, long draught poles, with pairs of YOKED OXEN in harness at the front of each.
+Scattered in the stubble on both sides of the road: FIVE ragged dark TUNNEL MOUTHS in the earth, each a rough collapsed hole two or three feet across with a fan of freshly thrown-up dark soil and torn stubble around it. One of them is directly beneath the second cart, which sits tipped at an angle into the hole.
+Bottom-left corner of the frame: the last few trees of a dark green wood, drawn as overhead canopy.
+CRITICAL: NO text, NO lettering, NO labels, NO numbers, NO grid lines, NO grid squares, NO compass rose, NO scale bar, NO cartouche, NO border or frame. NO people, NO figures, NO monsters or creatures of any kind anywhere on the map.
+Style: painterly hand-painted fantasy cartography, warm muted earth palette, soft natural top light, consistent with classic Greyhawk-era D&D module battle maps.`,
+    postProcess: null,
+  },
 ];
 
 // ----------------- engine -----------------
@@ -5890,7 +6272,7 @@ const dryRun = args.includes("--dry-run");
 const apiKey = process.env.OPENAI_API_KEY;
 
 fs.mkdirSync(RAW, { recursive: true });
-for (const sub of ["portraits", "tokens", "handouts", "sigils", "gm-only", "illustrations"]) {
+for (const sub of ["portraits", "tokens", "handouts", "sigils", "gm-only", "illustrations", "maps", "banners"]) {
   fs.mkdirSync(path.join(ROOT, "assets", sub), { recursive: true });
 }
 

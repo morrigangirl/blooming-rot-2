@@ -6258,6 +6258,79 @@ CRITICAL: NO text, NO lettering, NO labels, NO numbers, NO grid lines, NO grid s
 Style: painterly hand-painted fantasy cartography, warm muted earth palette, soft natural top light, consistent with classic Greyhawk-era D&D module battle maps.`,
     postProcess: null,
   },
+
+  // ============== TIER 46 — First Travel Intermission: playable scenes ==============
+  // The tier-45 fallow-ford map bakes in the ambush (tunnel mouths visible, a
+  // cart already tipped). These are the start-state map plus tiles the GM
+  // reveals as the fight unfolds.
+  {
+    id: "fallow-ford-road-map",
+    tier: 46,
+    out: "assets/maps/fallow-ford-road.webp",
+    size: "1536x1024",
+    quality: "high",
+    postProcess: "battlemap",
+    grid: { cols: 30, rows: 20, px: 100 },
+    prompt: `Hand-painted TOP-DOWN battle map for a tabletop RPG, viewed from directly overhead at ninety degrees, orthographic, no perspective, no tilt. Autumn farmland, late afternoon.
+SCALE: the whole image represents an area 150 feet wide by 100 feet tall. Size every feature to that scale.
+- A rutted brown dirt CART ROAD, 15 feet wide, runs straight across the full width of the image from the left edge to the right edge, centred slightly below the vertical middle. Deep wheel ruts, hoof-churned mud, puddles in the ruts.
+- About two-thirds of the way across, a slow shallow STREAM, 15 to 20 feet wide, runs from the top edge to the bottom edge and crosses the road at an OX-FORD: pale gravel shallows where the road crosses, darker deeper water upstream and downstream, trodden mud banks.
+- Along the SOUTH (lower) side of the road, a straight DRAINAGE DITCH about 5 feet wide with a grassy lip and standing brown water, running from the left edge to the stream.
+- Along the NORTH (upper) part of the image, a low FIELD WALL of loose grey stones, knee high, running roughly parallel to the road about 30 feet above it, with one gap.
+- Everywhere else: wide FALLOW FIELDS of cut autumn grain stubble, fine pale-gold texture, patches of bare earth, thistles. The ground is completely UNDISTURBED — smooth, whole, untouched.
+- Bottom-left corner: the edge of a dark green wood, drawn as overhead tree canopy, occupying no more than the corner.
+CRITICAL — this is an EMPTY starting map:
+NO carts, NO wagons, NO animals, NO oxen, NO people, NO creatures of any kind.
+NO holes, NO burrows, NO tunnels, NO disturbed or thrown-up earth anywhere.
+NO text, NO lettering, NO labels, NO numbers, NO grid lines, NO grid squares, NO compass rose, NO scale bar, NO cartouche, NO border or frame.
+Style: painterly hand-painted fantasy cartography, warm muted earth palette of stubble-gold, road brown and water slate, soft natural top light, consistent with classic Greyhawk-era D&D module battle maps.`,
+  },
+  {
+    id: "kestrel-wife-deck-clean-map",
+    tier: 46,
+    out: "assets/maps/kestrel-wife-deck-clean.png",
+    size: "1024x1536",
+    quality: "high",
+    referenceImages: ["assets/maps/kestrel-wife-deck.png"],
+    prompt: `Reproduce this exact top-down battle map of the merchant ship — IDENTICAL hull shape, deck planking, foredeck, windlass, masts, hatches, stowed boat, fleece bales, wheel, binnacle, companionway, spare spars, lanterns and coils, all in exactly the same positions, same painterly style and palette, same orthographic overhead view.
+Make ONLY these changes:
+1. REMOVE the second, narrower hull entirely from the right-hand side of the image. Where it was, paint open grey-green sea, matching the water everywhere else.
+2. REMOVE the boarding plank and both grappling irons with their ropes. The starboard rail is intact.
+3. On the starboard (right) rail, amidships where the grappling irons were, show a section of rail about ten feet long REPAIRED with pale new unweathered timber, lashed and pegged — obviously fresher than the rest of the ship.
+4. At the stern (bottom of the image), the rudder head and the top of the rudder post are visible just below the stern rail, with darker disturbed water around the stern.
+The water around the ship should read as a long heavy swell, darker and colder than before.
+CRITICAL: NO text, NO lettering, NO labels, NO grid lines, NO compass rose, NO scale bar, NO border. NO people, NO figures, NO creatures, NO fire.`,
+    postProcess: null,
+  },
+  {
+    id: "tile-ox-cart-fleece",
+    tier: 46,
+    out: "assets/tiles/ox-cart-fleece.png",
+    size: "1536x1024",
+    quality: "high",
+    background: "transparent",
+    postProcess: "trim",
+    prompt: `A single four-wheeled wooden FARM CART seen from DIRECTLY OVERHEAD at ninety degrees, orthographic, no perspective — a game tile for a top-down battle map.
+The cart bed is heaped high with raw pale cream FLEECES, lashed down with rope in a criss-cross net, a rough canvas tarpaulin half-thrown over one end. Four spoked wheels visible at the corners from above. A single long wooden DRAUGHT POLE extends straight out to the RIGHT from the front of the cart, with a plain wooden ox-yoke crossbar at its tip.
+The cart is oriented HORIZONTALLY: the bed on the left, the pole running to the right, the whole object filling most of the width of the image.
+No oxen, no animals, no driver, no people. No ground, no road, no grass, no shadow on the ground beneath it.
+The background must be fully TRANSPARENT — the cart alone, nothing behind or around it.
+Style: painterly hand-painted fantasy cartography matching classic Greyhawk-era D&D battle-map art, warm muted wood and fleece tones, soft even top light.`,
+  },
+  {
+    id: "tile-ankheg-tunnel-mouth",
+    tier: 46,
+    out: "assets/tiles/ankheg-tunnel-mouth.png",
+    size: "1024x1024",
+    quality: "high",
+    background: "transparent",
+    postProcess: "trim",
+    prompt: `A freshly broken-open BURROW MOUTH in a farm field, seen from DIRECTLY OVERHEAD at ninety degrees, orthographic — a game tile for a top-down battle map.
+In the centre, a ragged roughly circular HOLE about five feet across, black and deep at its middle. Around it, a wide irregular FAN of freshly thrown-up dark wet soil, broken clods, torn roots and flattened cut grain-stubble, spreading outward unevenly and heavier on one side, as if something large just forced its way up from below. The outer edge breaks up into scattered clods and loose earth that fade out naturally.
+No creatures, no insects, no legs, no people. Nothing else.
+The background outside the disturbed earth must be fully TRANSPARENT so the tile can sit on top of an existing field map.
+Style: painterly hand-painted fantasy cartography matching classic Greyhawk-era D&D battle-map art, dark earth browns and pale stubble gold, soft even top light.`,
+  },
 ];
 
 // ----------------- engine -----------------
@@ -6272,7 +6345,7 @@ const dryRun = args.includes("--dry-run");
 const apiKey = process.env.OPENAI_API_KEY;
 
 fs.mkdirSync(RAW, { recursive: true });
-for (const sub of ["portraits", "tokens", "handouts", "sigils", "gm-only", "illustrations", "maps", "banners"]) {
+for (const sub of ["portraits", "tokens", "handouts", "sigils", "gm-only", "illustrations", "maps", "banners", "tiles"]) {
   fs.mkdirSync(path.join(ROOT, "assets", sub), { recursive: true });
 }
 
@@ -6336,6 +6409,8 @@ async function generateOne(job) {
       n: 1,
       size: job.size,
       quality: job.quality,
+      // Tiles meant to sit on a battlemap ask for a transparent background.
+      ...(job.background ? { background: job.background } : {}),
     };
     res = await fetch(endpoint, {
       method: "POST",
@@ -6393,6 +6468,22 @@ async function postProcess(job, srcPath) {
       "-draw", "circle 256,256 256,17",
       outPath,
     ], { stdio: "inherit" });
+  } else if (job.postProcess === "battlemap") {
+    // Resize to an exact grid multiple so Foundry's grid lands on the art:
+    // job.grid = { cols, rows, px } -> a (cols*px) x (rows*px) image.
+    // Output format follows the extension of job.out (.webp keeps it small).
+    const { cols, rows, px } = job.grid;
+    execFileSync("magick", [
+      srcPath, "-resize", `${cols * px}x${rows * px}!`,
+      "-alpha", "off", "-quality", "90", outPath,
+    ], { stdio: "inherit" });
+  } else if (job.postProcess === "trim") {
+    // Transparent tile: crop to the painted content so the tile's
+    // footprint in Foundry is the object, not the empty canvas.
+    // -fuzz: the model leaves faint near-transparent noise at the canvas
+    // edges, which stops a plain -trim cold (a cart tile kept 1476x1001 of
+    // mostly-empty canvas; with fuzz it trims to its real 1465x654).
+    execFileSync("magick", [srcPath, "-fuzz", "8%", "-trim", "+repage", outPath], { stdio: "inherit" });
   } else if (job.postProcess) {
     throw new Error(`Unknown postProcess: ${job.postProcess}`);
   } else {

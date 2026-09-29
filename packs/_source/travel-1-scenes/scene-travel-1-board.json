@@ -1,0 +1,215 @@
+{
+  "_key": "!scenes!BR2T1ScnBoard000",
+  "_id": "BR2T1ScnBoard000",
+  "name": "Intermission 1 \u2014 The Kestrel Wife, Boarded",
+  "active": false,
+  "navigation": true,
+  "navOrder": 0,
+  "navName": "Kestrel Wife (Boarded)",
+  "background": {
+    "src": "modules/blooming-rot-2/assets/maps/kestrel-wife-deck.png",
+    "anchorX": 0.5,
+    "anchorY": 0.5,
+    "offsetX": 0,
+    "offsetY": 0,
+    "fit": "fill",
+    "scaleX": 1,
+    "scaleY": 1,
+    "rotation": 0,
+    "tint": "#ffffff",
+    "alphaThreshold": 0
+  },
+  "foreground": null,
+  "foregroundElevation": 20,
+  "thumb": null,
+  "width": 1024,
+  "height": 1536,
+  "padding": 0,
+  "initial": null,
+  "backgroundColor": "#1a1a1a",
+  "grid": {
+    "type": 1,
+    "size": 100,
+    "style": "solidLines",
+    "thickness": 1,
+    "color": "#000000",
+    "alpha": 0.2,
+    "distance": 5,
+    "units": "ft"
+  },
+  "tokenVision": false,
+  "fog": {
+    "exploration": false,
+    "reset": null,
+    "overlay": null,
+    "colors": {
+      "explored": null,
+      "unexplored": null
+    }
+  },
+  "environment": {
+    "darknessLevel": 0.25,
+    "darknessLock": false,
+    "globalLight": {
+      "enabled": true,
+      "alpha": 0.5,
+      "bright": false,
+      "color": null,
+      "coloration": 1,
+      "luminosity": 0,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "darkness": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "cycle": true,
+    "base": {
+      "hue": 0,
+      "intensity": 0,
+      "luminosity": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "dark": {
+      "hue": 0,
+      "intensity": 0,
+      "luminosity": -0.25,
+      "saturation": 0,
+      "shadows": 0
+    }
+  },
+  "drawings": [],
+  "tokens": [],
+  "lights": [],
+  "walls": [],
+  "templates": [],
+  "tiles": [],
+  "regions": [],
+  "notes": [
+    {
+      "_id": "BR2T1NtForeHatch",
+      "entryId": "BR2T1GFeeJrnl000",
+      "pageId": "BR2T1GfPgClocks0",
+      "x": 630,
+      "y": 690,
+      "elevation": 0,
+      "sort": 0,
+      "texture": {
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "fill",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "src": "icons/svg/fire.svg",
+        "alphaThreshold": 0
+      },
+      "iconSize": 48,
+      "fontSize": 32,
+      "fontFamily": "Signika",
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "text": "Fore hatch \u2014 Tarrow's slow-match",
+      "global": false,
+      "flags": {},
+      "_key": "!scenes.notes!BR2T1ScnBoard000.BR2T1NtForeHatch"
+    },
+    {
+      "_id": "BR2T1NtAftHatch0",
+      "entryId": "BR2T1GFeeJrnl000",
+      "pageId": "BR2T1GfPgClocks0",
+      "x": 580,
+      "y": 1290,
+      "elevation": 0,
+      "sort": 0,
+      "texture": {
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "fill",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "src": "icons/svg/locked.svg",
+        "alphaThreshold": 0
+      },
+      "iconSize": 48,
+      "fontSize": 32,
+      "fontFamily": "Signika",
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "text": "Companionway \u2014 the berth (decoy strongbox)",
+      "global": false,
+      "flags": {},
+      "_key": "!scenes.notes!BR2T1ScnBoard000.BR2T1NtAftHatch0"
+    },
+    {
+      "_id": "BR2T1NtPlank0000",
+      "entryId": "BR2T1GFeeJrnl000",
+      "pageId": "BR2T1GfPgSetup00",
+      "x": 860,
+      "y": 885,
+      "elevation": 0,
+      "sort": 0,
+      "texture": {
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "fill",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "src": "icons/svg/door-exit.svg",
+        "alphaThreshold": 0
+      },
+      "iconSize": 48,
+      "fontSize": 32,
+      "fontFamily": "Signika",
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "text": "The plank",
+      "global": false,
+      "flags": {},
+      "_key": "!scenes.notes!BR2T1ScnBoard000.BR2T1NtPlank0000"
+    }
+  ],
+  "sounds": [],
+  "journal": "BR2T1GFeeJrnl000",
+  "journalEntryPage": "BR2T1GfPgClocks0",
+  "playlist": null,
+  "playlistSound": null,
+  "weather": "",
+  "folder": null,
+  "sort": 200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "blooming-rot-2": {
+      "kind": "travel-intermission",
+      "intermission": 1,
+      "sceneNote": "Bow at the top. The Grey Fee is lashed to starboard; the plank is the only walkway between hulls."
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

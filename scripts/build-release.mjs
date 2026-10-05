@@ -98,7 +98,7 @@ copyDirFiltered(packsSrc, packsDst, (relPath) => !relPath.startsWith("_source") 
 // Copy ONLY assets actually referenced by shipping content (compiled packs,
 // module.json, README) plus the dynamic/world-referenced keep-lists.
 // See scripts/collect-referenced-assets.mjs for the full rules.
-const { referenced, missing } = collectReferencedAssets();
+const { referenced, missing, retained = [] } = collectReferencedAssets();
 if (missing.length) {
   console.error(`ERROR: ${missing.length} referenced asset(s) missing on disk:`);
   for (const p of missing) console.error("  " + p);
@@ -111,6 +111,7 @@ for (const rel of referenced) {
   fs.copyFileSync(src, dst);
 }
 console.log(`  ✓ ${referenced.length} referenced assets staged (unreferenced files excluded)`);
+if (retained.length) console.log(`    including ${retained.length} kept because an earlier release used them (world copies still point there): ${retained.join(", ")}`);
 
 // Copy README.md
 fs.copyFileSync(path.join(ROOT, "README.md"), path.join(stagingDir, "README.md"));

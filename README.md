@@ -41,6 +41,7 @@ To round-trip changes made inside Foundry back to JSON, use `npm run unpack:pack
 module.json                       Foundry manifest
 package.json                      build tooling
 scripts/                          fvtt-cli wrappers
+runtime/                          code Foundry loads (module.json "esmodules")
 packs/_source/                    editable JSON (one file per top-level doc)
   phase-1-journals/
   phase-1-actors/
@@ -59,6 +60,16 @@ assets/
   portraits/                      Caelith-Dunivar-Portrait.png
   tokens/                         token art (TBD; falls back to actor img)
 ```
+
+## Scene links in journals
+
+Foundry's own behaviour for a scene link in a journal is to open that scene's notes, or its configuration, but never the map. Because every scene in this module keeps its notes on its encounter page, a link on that page would just reopen the page you're reading. `runtime/scene-links.mjs` changes this for the GM, for links to this module's own scenes:
+
+- **Click** views the scene. If it isn't in your world yet, it is imported first (keeping its id), and it's never imported twice.
+- **Shift-click** does the same, then activates the scene for your players.
+- **Alt-click** does what Foundry does by default.
+
+Players, other modules' scenes and your own world scenes are left alone, and if anything goes wrong the click falls back to Foundry's default.
 
 ## Asset status
 

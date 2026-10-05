@@ -38,6 +38,9 @@
       }
     ]
   },
+  "esmodules": [
+    "runtime/scene-links.mjs"
+  ],
   "packs": [
     {
       "name": "welcome",

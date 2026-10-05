@@ -113,6 +113,20 @@ for (const rel of referenced) {
 console.log(`  ✓ ${referenced.length} referenced assets staged (unreferenced files excluded)`);
 if (retained.length) console.log(`    including ${retained.length} kept because an earlier release used them (world copies still point there): ${retained.join(", ")}`);
 
+// Copy the runtime code module.json declares (esmodules / scripts / styles).
+// Foundry loads these from the install, so a missing one is a broken release.
+for (const rel of ["esmodules", "scripts", "styles"].flatMap((k) => manifest[k] ?? [])) {
+  const src = path.join(ROOT, rel);
+  if (!fs.existsSync(src)) {
+    console.error(`ERROR: module.json lists ${rel}, which does not exist.`);
+    process.exit(1);
+  }
+  const dst = path.join(stagingDir, rel);
+  fs.mkdirSync(path.dirname(dst), { recursive: true });
+  fs.copyFileSync(src, dst);
+  console.log(`  ✓ ${rel}`);
+}
+
 // Copy README.md
 fs.copyFileSync(path.join(ROOT, "README.md"), path.join(stagingDir, "README.md"));
 

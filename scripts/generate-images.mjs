@@ -6331,6 +6331,33 @@ No creatures, no insects, no legs, no people. Nothing else.
 The background outside the disturbed earth must be fully TRANSPARENT so the tile can sit on top of an existing field map.
 Style: painterly hand-painted fantasy cartography matching classic Greyhawk-era D&D battle-map art, dark earth browns and pale stubble gold, soft even top light.`,
   },
+  // ============== TIER 47 — First Travel Intermission: the ankheg tunnel ==============
+  // For "A PC dragged down a tunnel" (Fallow Ford, Terrain page): the tunnels
+  // run eight or ten feet down and forty long, Elle is the only one who fits
+  // comfortably, and the instruction is "play the dark". The surrounding earth
+  // is near-black on purpose, so walls can be traced from the floor shape.
+  {
+    id: "ankheg-tunnel-map",
+    tier: 47,
+    out: "assets/maps/ankheg-tunnel.webp",
+    size: "1536x1024",
+    quality: "high",
+    postProcess: "battlemap",
+    grid: { cols: 18, rows: 12, px: 100 },
+    prompt: `Hand-painted TOP-DOWN battle map for a tabletop RPG: a cramped underground burrow dug by a giant insect, shown as a cutaway floor plan viewed from directly overhead at ninety degrees, orthographic, no perspective, no tilt.
+SCALE: the whole image represents an area 90 feet wide by 60 feet tall. Size every feature to that scale.
+- ENTRANCE, upper-left area: the underside of a ragged hole broken up through the farm field above. A pale shaft of daylight falls through it onto a slope of loose, freshly collapsed soil, torn grain stubble and dangling roots, about 10 feet across.
+- THE TUNNEL: from the entrance slope, ONE narrow tunnel only 5 feet wide runs about 40 feet in total, with one or two gentle bends, down toward the lower right. Its floor is packed, damp earth scored with two parallel DRAG FURROWS where something heavy was hauled along it. The walls are smooth and glistening, etched pale and pitted by acid. Pale roots hang from the walls.
+- THE FEEDING CHAMBER, lower-right area: the tunnel opens into a low, roughly oval hollow about 15 feet across. On its floor: scattered ox bones and a cracked ox skull, a torn leather harness strap, tufts of raw cream-colored wool, and a puddle of yellow-green acid-stained mud.
+- ONE SIDE BRANCH: partway along, a second 5-foot tunnel branches off and runs straight to the bottom edge of the image, so it leaves the map.
+- EVERYTHING ELSE is solid undug earth: render it as a very dark, nearly black-brown mass with only the faintest texture, so the open tunnel, slope and chamber read crisply against it. The edge between open floor and solid earth must be sharp and continuous everywhere.
+- Light the open floor evenly and clearly, like any battle map. Do not darken the floor for mood.
+CRITICAL:
+NO creatures, NO insects, NO ankheg, NO people, NO figures, NO bodies other than the bones described.
+NO text, NO lettering, NO labels, NO numbers, NO grid lines, NO grid squares, NO compass rose, NO scale bar, NO cartouche, NO border or frame.
+NO perspective, NO side view, NO sky.
+Style: painterly hand-painted fantasy cartography, earthy palette of wet umber, ochre clay, bone white and acid yellow-green, consistent with classic Greyhawk-era D&D module battle maps.`,
+  },
 ];
 
 // ----------------- engine -----------------

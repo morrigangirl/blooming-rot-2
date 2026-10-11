@@ -78,7 +78,7 @@ Late forties. Public face: published reformist, "opaque berth allocation" pamphl
 
 **Aerdi commercial code §187 (Conflict-of-Interest Disqualification):** no person may sit on the harbor commission while indebted to any counting house with active commercial business before the commission. The C&V loans are a textbook case. **Disqualification is automatic if the loans can be documented.**
 
-Copies of the loan agreements are in **Solen Mereth's compromised correspondence cabinet at C&V Hardby** — the party may already have them from Phase 3 (Path 1 burglary or Path 3 subpoena). If they don't, Halask can compel a deposition from Solen by Aerdi commercial subpoena within ten days.
+Copies of the loan agreements are in **Solen Mereth's compromised correspondence cabinet at C&V Hardby** — the party may already have them from Phase 3 (Path 1 burglary or Path 3 subpoena). If they don't, Halask can compel a deposition from Solen by Aerdi commercial subpoena, but Solen is in Hardby: the subpoena goes by packet, thirty days each way, and only works if he is alive and still at the branch.
 
 Three ways to handle Mirelth:
 
@@ -104,6 +104,8 @@ Halask has noted two procedural vulnerabilities in Tenrel's commercial-court pra
 
 #### How seating actually works
 
+The three vacancies are **old-house seats**. In the window before a new Overking is seated they are filled by the protocol Phase 3 reads out of the Gynarchy registry: the **senior partners of Rel Astra's old commercial families, voting in convocation**, name the commissioner — and **Tarlith Vhal Sereth, by his rank, is one of the senior partners who votes.** Mirelth, Vesh and Tenrel are the convocation's slate because Sereth arranged it. The convocation sits on the morning of the commission vote, the date the conspiracy chose. Naming is not seating: a named commissioner is then received by the sitting commission by majority of the votes actually cast, and confirmed by the Old Harbor Ward Council. *(CANON-10, v1.9.3.)*
+
 Currently four commissioners sit: **Aldaen Veth** (Senior, sixty-eight, openly skeptical but politically isolated; will vote no on all three), **Hold Veshanen** (Commerce, Sereth-aligned, votes yes on all three), **Eled Ruth** (Civic, independent and irritable, votes no on the first one out of procedural objection — which the conspiracy *wants*), and **Captain Volin Reach** (Imperial, votes the imperial line, which means abstention on discretionary matters).
 
 The conspiracy's plan: bring all three candidates to a vote on the same day with a ceremonial imperial-herald visit scheduled the following day. Veshanen yes, Reach abstain, Ruth no on the first (Mirelth, held over for re-vote later — exactly the conspiracy's outcome), then **Vesh and Tenrel pass 2-1 with Veth alone in dissent.** Old Harbor Ward Council confirms; Astor and possibly Sayan vote against; the other five councilors vote with the commission majority. **Vesh and Tenrel are seated.**
@@ -111,7 +113,7 @@ The conspiracy's plan: bring all three candidates to a vote on the same day with
 Three lines of attack, **not exclusive**:
 
 1. **Disqualify Mirelth** (above). Delays but does not stop.
-2. **Indict Sereth** (next scene). Suspends the slate pending investigation. Stops the seating in the current cycle.
+2. **Indict Sereth** (next scene). Suspends the slate pending investigation — it is the slate he carried into the convocation. Stops the seating in the current cycle.
 3. **Brief Captain Reach** through Aerdi imperial intelligence (Halask knows the channel). Shifts the imperial seat from abstention to opposition. The vote fails 2-2. **+1 segment on the Pressure Clock** because the embassy leaks the visit within a day.
 
 **Disqualify Mirelth, indict Sereth, and brief the imperial seat — taken together, the conspiracy's harbor-commission play collapses for at least two years.** Encourage the party to do all three.
@@ -197,14 +199,14 @@ He uses the legal-formal register even in private conversation. He never raises 
 
 The procedurally clean path. **Halask drives this.** The party provides the package, supports the depositions, stays out of the way. Slow, public, certain. The conspiracy's hardest outcome to recover from.
 
-Prerequisites: the Phase 3 indictment package (Veska's notarized opinion, the C&V Hardby branch records, the Sereth blotter rubbing, the chipped Hardby clearing-stamp), Halask's procedural framework, at least two corroborating depositions (Solen Mereth compelled by subpoena and one other — Vella Tannin, Hesren Vesh, or in extremis Mira Cindren), and the Mirelth disqualification documented.
+Prerequisites: the Phase 3 indictment package (Veska's notarized opinion, the C&V Hardby branch records, the Sereth blotter rubbing, the chipped Hardby clearing-stamp), Halask's procedural framework, at least two corroborating depositions **taken in Rel Astra** — Tamsin Moraven if she came east with the party (Phase 3's strongest witness), a C&V Rel Astra junior partner, Adra Sayan's signed statement, or Holyn Sevarian on the documents — and the Mirelth disqualification documented. The Hardby witnesses (Solen Mereth, Mira Cindren, an extracted Hesren Vesh in Loftwick or Vella Tannin in Saltmarsh) reach Rel Astra only on paper, and only Solen's commissioned deposition comes back in time for the trial. **Without the Hardby branch material,** add fourteen days before Day 1 and one more Rel Astra deposition — Phase 3's price for a thin package. *(CANON-11/12/13, v1.9.3.)*
 
 Timeline:
 
-1. **Days 1–4 — preparation.** Halask works in his rooms, asks the party for one specific document per day. The party readies witnesses.
+1. **Days 1–4 — preparation.** Halask works in his rooms, asks the party for one specific document per day. The party readies the witnesses in the city and, through Halask, writes to the ones who cannot come: an Aerdi commission for Solen's deposition in Hardby, letters to an extracted Hesren or Vella.
 2. **Day 5 — filing.** Halask submits the formal indictment to the Aerdi Commercial Court at the seventh bell of morning. By the eleventh bell, the court has docketed it. By dusk, the firm's senior staff are reading copies. **+1 Pressure Clock segment.**
 3. **Days 6–10 — preliminary motions.** Sereth's defense files three motions to dismiss. Magister Velren Ostrach (sitting; Halask knows him as honest and dislikes Sereth) denies all three.
-4. **Days 11–28 — depositions.** Solen Mereth, Vella Tannin (if available), Hesren Vesh (if available), and one C&V Rel Astra junior partner. **This is when the party is most exposed to retaliation. Run two of the four Pressure Clock segments during this window.**
+4. **Days 11–28 — depositions.** Tamsin Moraven (if she is with them), one C&V Rel Astra junior partner, and if needed Adra Sayan or Holyn Sevarian. **This is when the party is most exposed to retaliation. Run two of the four Pressure Clock segments during this window.**
 5. **Day 29 — preliminary hearing.** Ostrach accepts the indictment for trial. Sereth's bail is set at **50,000 gp** (posted within the hour). **The harbor commission suspends candidate selection pending the trial's resolution.**
 6. **Days 30–60 — trial preparation.** The party need not stay. Halask carries the trial.
 7. **Conviction (off-screen, ninety days after departure).** Sereth convicted on conspiracy-to-defraud and procedural-fraud counts. Sentence: removal from the firm, forfeiture of personal estates, **twenty-year exclusion from any commercial office in Aerdi territory.** Not death. Not imprisonment. Aerdi commercial court does not execute.
@@ -216,6 +218,8 @@ What this buys: harbor-commission play collapses for at least two years. Sereth 
 #### Path 2 — Private Removal
 
 The fast path. The party uses the indictment package as **leverage rather than as evidence.** They confront Sereth in his offices, present the consequences of refusal, accept his quiet resignation in exchange for not filing. Lower cost to the party, higher cost to the long-term suppression.
+
+**Official Delegation only.** Path 2 needs the Day 9 audience, and only the councilman's carriage buys it — Phase 3 charged eleven and a half weeks for it as the one route that puts the party in a room with Sereth. On every other approach Path 2 is closed. If Tamsin is with them, she is what makes the threat to file more than a bluff. *(CANON-14, v1.9.3.)*
 
 Sample demands:
 
@@ -275,7 +279,7 @@ What this buys (very little): Sereth dead. A narrow window at the strongroom tha
 Three letters reach the party in Rel Astra by separate couriers, two to three days behind the news that prompted them. All on the *Caelith's Continuing Letters (4–6)* page.
 
 - **Letter 4 — within three days of arrival.** Two things. First, **Trina has sent a sealed copy of Veska's notarial opinion** by separate courier to a person she names only as "*my old correspondent in the wood.*" Caelith does not know who. He has not asked. The opinion will, by some path, find at least one set of eyes that no Aerdi or Yeomanry court will ever recognize as having read it. Second, **Brane's Civic Reconciliation Closure motion passed in the Council on the seventh day after the party sailed.** The Vandrell matter is, in Loftwick civic record, declared resolved. Caelith is writing on his own paper. *Anything the party accomplishes in Rel Astra now stands on Aerdi court, not on any letter Caelith can write.*
-- **Letter 5 — about a week in.** *"The clerk in my office is named Ostren Pell. I have known this for nineteen days. I have done nothing about it."* Caelith is keeping Pell in place. The lesson he draws for the party: ***"Sometimes the people who know are the ones who appear to be doing nothing."*** Apply that rule to Halask, to the council members, to anyone at the harbor commission who has done a small public courtesy. Also: a man fitting Haskur Vandrell's description was seen in Greyhawk City three weeks ago, in the company of a younger man whose gait was "*not Aerdi and not Yeomanry.*"
+- **Letter 5 — about a week in.** *"The clerk in my office still comes to work. You have his name from the pouch, if the pouch reached you; I will not write it here."* Caelith keeps to the burn-pouch protocol of Phase 3 — the name never goes on paper — and he is keeping the clerk in place. The lesson he draws for the party: ***"Sometimes the people who know are the ones who appear to be doing nothing."*** Apply that rule to Halask, to the council members, to anyone at the harbor commission who has done a small public courtesy.
 - **Letter 6 — toward the end of Phase 4.** *"The conspiracy you have named is not the conspiracy. The conspiracy is positioned to take advantage of the next Aerdy succession."* Whoever drew the plan drew it ten years ago. **The annotation Veska could not place — the party will, in Rel Astra, find a second and possibly a third instance.** Notice the small details. *Do not pursue the writer.* The writer is not in Rel Astra. *"I do not know who the writer is. I know what a hand looks like that has not spent its life under Aerdi or Yeomanry sun, and I have seen exactly one person in twenty years whose hand looked like that, and she would not write on Rel Astran vellum."*
 
 Read Letter 6 at the table. Slowly. **It is the line the players need to remember**, and one of them will say it back to you later: *"The conspiracy you have named is not the conspiracy."*
@@ -329,7 +333,7 @@ Stat blocks for all of these live in `packs/_source/phase-4-actors/`.
 
 - **Caelith's letter of introduction to Halask.** Carried since Phase 3. Contains the unique approach phrase ***"By the wheatsheaf and the open scroll."***
 - **The indictment package from Phase 3.** Veska's notarized opinion (names Sereth), C&V Hardby branch records, the Sereth blotter rubbing, the chipped Hardby clearing-stamp. Halask takes custody and will not release it.
-- **The Mirelth loan documents.** Either carried from Phase 3 (Solen Mereth's cabinet) or compelled by Halask's subpoena within ten days. Disqualify Mirelth under §187.
+- **The Mirelth loan documents.** Either carried from Phase 3 (Solen Mereth's cabinet) or compelled by Halask's subpoena on Solen in Hardby — by packet, thirty days each way, and only if Solen is alive and still at the branch. Disqualify Mirelth under §187.
 - **Caelith's Letters 4, 5, and 6.** Three sealed letters delivered by separate couriers. Letter 6 contains the campaign-defining line.
 - **The Registry Annotation.** Instance 4 of the "E." hand. *"Sufficient. Hold open until the second autumn after the next."* On the ceremonial succession-deferral for the Third Seat. Black-residue wax.
 - **Sereth's signed private statement (Path 2 only).** Framed as personal initiative, not firm policy. A lie. Useful as leverage; not useful in court.
@@ -393,10 +397,11 @@ Make a private note of the following — these are seeds that mature in Phase 5 
 - **Whether Mirelth was disqualified quietly, publicly, or held in reserve.** Public disqualification rebounds in Phase 5 — Brane's faction tries to spin it as Yeomanry overreach.
 - **Whether Halask resolved Lyla Vesh's case.** If yes, Halask is a permanent Rel Astra ally and Vesh becomes a quiet posthumous-favor debt. If no, Vesh sits and the conspiracy keeps one seat.
 - **What Galenix knows.** Briefed honestly, he is an ally. Unbriefed, he is the same tool the conspiracy intended. Used, he is the party's debtor for years.
-- **The "E." observations.** Five on file. The writer is unnamed. *Do not name the writer.* The Drow thread does not surface in Phase 5 either. Phase 5 is Loftwick counterintelligence (Ostren Pell is the leak; Caelith has known for nineteen days when Phase 4 begins). The "E." thread continues into the expansion phases.
+- **The "E." observations.** Five on file. The writer is unnamed. *Do not name the writer.* The Drow thread does not surface in Phase 5 either. Phase 5 is Loftwick counterintelligence (Ostren Pell is the leak; Caelith has known since early in Phase 3, when he sent the name by pouch rather than write it). The "E." thread continues into the expansion phases.
 - **The line from Letter 6.** *"The conspiracy you have named is not the conspiracy."* If a player quotes it back at you in Phase 5, smile and let it land. That is the campaign's central hinge, and they have it.
 - **Trina's sealed copy of Veska's opinion.** Trina sent it to "*my old correspondent in the wood.*" Caelith has not asked. Do not surface this in Phase 5. It matures much later, if at all.
 - **Whether Sereth said the "great desert" line.** Path 2 only. If he did, the party has explicit verbal confirmation that the writer is *not from this side of the great desert.* They have not been told what is on the other side. They have not been told there is a "great desert" in literal-cartographic terms; the phrase may be metaphorical. Hold the ambiguity.
-- **Haskur Vandrell, last seen in Greyhawk City.** From Letter 5. He is alive, on the move with a younger man whose gait is "not Aerdi and not Yeomanry." Plant this. It matures in the expansion phases — possibly as a Part 3 antagonist, possibly just as the operative who survived this round.
+- **Haskur Vandrell.** Alive, and nobody in Phase 4 knows it: Phase 3 reserves that for Phase 6 and beyond, where the party learns in Greyhawk City that he was "collected, not rescued." Caelith's letters say nothing about him. *(CANON-16, v1.9.3: Letter 5 no longer reports a sighting.)*
+- **Tamsin Moraven.** Deposed (Path 1) or behind the threat to file (Path 2) if she came east; whatever she swore to before leaving Hardby if she went west; absent if she died there.
 
 Phase 5 begins with the party's arrival back at the Little Palace in Loftwick, with Caelith waiting in the Refectory and a fresh complication on his desk. Until then: *you ride west.*

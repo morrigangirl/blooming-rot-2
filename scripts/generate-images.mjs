@@ -6358,6 +6358,36 @@ NO text, NO lettering, NO labels, NO numbers, NO grid lines, NO grid squares, NO
 NO perspective, NO side view, NO sky.
 Style: painterly hand-painted fantasy cartography, earthy palette of wet umber, ochre clay, bone white and acid yellow-green, consistent with classic Greyhawk-era D&D module battle maps.`,
   },
+  // ============== TIER 48 — First Travel Intermission: the old ankheg (staged for v1.9.3) ==============
+  // The Fallow Ford brood's elder ("the old one"), which surfaces at distance and
+  // sprays. Same creature design as tier 44's fallow-ford-ankhegs so the two read
+  // as one species. Portrait plus round token, like the tier-43 NPCs. The token
+  // crop keeps the top square of the portrait, so the head sits in the upper half.
+  {
+    id: "ankheg-elder-portrait",
+    tier: 48,
+    out: "assets/portraits/ankheg-elder-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of THE OLD ONE: an ELDER ANKHEG, the oldest of a brood of giant burrowing insect predators that has been feeding on a quiet stretch of cart road all autumn.
+Same species as the rest of the brood: a segmented, chitin-plated insectoid the size of a draft horse, six legs, heavy hooked mandibles, long jointed antennae, chestnut-brown and oil-dark plates. No wings, no fire, nothing dragon-like.
+What makes this one OLD: it is bigger and heavier than its kin. Its carapace has faded to a dusty grey-brown, pitted and scarred, with one plate cracked and healed crooked and one antenna snapped short. Lichen and dried mud crust the seams of its armor. Its mandibles are stained and etched a pale acid yellow-green, and a thin thread of acid drips from them, smoking where it lands.
+Pose: head and forequarters rearing out of a collapsing hole in a fallow STUBBLE FIELD, dirt and torn stubble sliding off its back, the rest of the body still underground. The head and mandibles are centered horizontally in the UPPER HALF of the frame, facing the viewer at a slight three-quarter angle.
+Behind it, out of focus: dun autumn stubble, a low broken field wall, a late-afternoon sky.
+Low warm sun from the side, long shadows, dust in the light. Patient and unhurried rather than frenzied: an animal that has learned to wait at a distance.
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  {
+    id: "ankheg-elder-token",
+    tier: 48,
+    out: "assets/tokens/ankheg-elder-token.png",
+    sourceFromExisting: "assets/portraits/ankheg-elder-portrait.png",
+    skipGeneration: true,
+    postProcess: "round-token-512",
+    // Acid yellow-green on old chitin, so it reads apart from the brood at a glance.
+    ring: { base: "#5a5a1e", highlight: "#a6b94a", shadow: "#14140a" },
+  },
 ];
 
 // ----------------- engine -----------------

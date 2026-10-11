@@ -7,7 +7,7 @@
   "navOrder": 0,
   "navName": "Kestrel Wife (Boarded)",
   "background": {
-    "src": "modules/blooming-rot-2/assets/maps/kestrel-wife-deck.png",
+    "src": "modules/blooming-rot-2/assets/maps/kestrel-wife-boarding.webp",
     "anchorX": 0.5,
     "anchorY": 0.5,
     "offsetX": 0,
@@ -22,8 +22,8 @@
   "foreground": null,
   "foregroundElevation": 20,
   "thumb": null,
-  "width": 1024,
-  "height": 1536,
+  "width": 2400,
+  "height": 1600,
   "padding": 0,
   "initial": null,
   "backgroundColor": "#1a1a1a",
@@ -93,8 +93,8 @@
       "_id": "BR2T1NtForeHatch",
       "entryId": "BR2T1GFeeJrnl000",
       "pageId": "BR2T1GfPgClocks0",
-      "x": 630,
-      "y": 690,
+      "x": 1010,
+      "y": 770,
       "elevation": 0,
       "sort": 0,
       "texture": {
@@ -124,8 +124,8 @@
       "_id": "BR2T1NtAftHatch0",
       "entryId": "BR2T1GFeeJrnl000",
       "pageId": "BR2T1GfPgClocks0",
-      "x": 580,
-      "y": 1290,
+      "x": 956,
+      "y": 1430,
       "elevation": 0,
       "sort": 0,
       "texture": {
@@ -155,8 +155,8 @@
       "_id": "BR2T1NtPlank0000",
       "entryId": "BR2T1GFeeJrnl000",
       "pageId": "BR2T1GfPgSetup00",
-      "x": 860,
-      "y": 885,
+      "x": 1400,
+      "y": 810,
       "elevation": 0,
       "sort": 0,
       "texture": {
@@ -181,6 +181,37 @@
       "global": false,
       "flags": {},
       "_key": "!scenes.notes!BR2T1ScnBoard000.BR2T1NtPlank0000"
+    },
+    {
+      "_id": "BR2T1NtGFStern00",
+      "entryId": "BR2T1GFeeJrnl000",
+      "pageId": "BR2T1GfPgLetter0",
+      "x": 1700,
+      "y": 1180,
+      "elevation": 0,
+      "sort": 0,
+      "texture": {
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "fill",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "src": "icons/svg/book.svg",
+        "alphaThreshold": 0
+      },
+      "iconSize": 48,
+      "fontSize": 32,
+      "fontFamily": "Signika",
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "text": "Grey Fee stern cabin \u2014 Sarn's letter",
+      "global": false,
+      "flags": {},
+      "_key": "!scenes.notes!BR2T1ScnBoard000.BR2T1NtGFStern00"
     }
   ],
   "sounds": [],
@@ -198,7 +229,7 @@
     "blooming-rot-2": {
       "kind": "travel-intermission",
       "intermission": 1,
-      "sceneNote": "Bow at the top. The Grey Fee is lashed to starboard; the plank is the only walkway between hulls."
+      "sceneNote": "Bow at the top. The Grey Fee is lashed to starboard; the plank is the only walkway between hulls. Both hulls are whole on the map: Sarn's letter is in the Grey Fee's stern cabin, under the skylight aft."
     }
   },
   "_stats": {

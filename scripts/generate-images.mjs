@@ -6392,6 +6392,29 @@ ${ART_STYLE}`,
     // Acid yellow-green on old chitin, so it reads apart from the brood at a glance.
     ring: { base: "#5a5a1e", highlight: "#a6b94a", shadow: "#14140a" },
   },
+  // ============== TIER 49 — First Travel Intermission: the boarding, both hulls ==============
+  // Tier 45's deck map only showed "the near third" of the Grey Fee, but the Letter
+  // page sends the party into her stern cabin. This is the same boarding with both
+  // ships whole, built on the tier-45 map so the Kestrel Wife matches the at-sea map.
+  // Ships run bow-up as before; 24x16 squares at 5 ft puts the Kestrel at ~75 ft.
+  {
+    id: "kestrel-wife-boarding-map",
+    tier: 49,
+    out: "assets/maps/kestrel-wife-boarding.webp",
+    size: "1536x1024",
+    quality: "high",
+    referenceImages: ["assets/maps/kestrel-wife-deck.png"],
+    postProcess: "battlemap",
+    grid: { cols: 24, rows: 16, px: 100 },
+    prompt: `The reference image is a top-down battle map of a merchant ship, the KESTREL WIFE, with only the edge of a second hull showing at the right-hand side. Make a WIDER LANDSCAPE version of the same scene that shows BOTH SHIPS WHOLE.
+LEFT-CENTRE: the merchant ship, reproduced from the reference as exactly as possible — the same broad-beamed hull, plank-by-plank decking, raised foredeck with windlass and cable, foremast and mainmast cross-sections with rings of belaying pins, the ship's boat stowed upside down, the lashed fleece bales with burst fleece, the two open cargo hatches, the wheel, binnacle, companionway hatch and spare spars aft, lanterns and coils along the rails. Same orientation: running vertically, BOW AT THE TOP, stern at the bottom, filling most of the image's height.
+RIGHT: the second ship, the GREY FEE, now shown WHOLE, lying alongside the merchant's starboard (right) rail on the same heading, bow at the top. A low, sleek, sweet-lined coaster with a TAR-BLACK hull, narrower than the merchant and a little shorter. Her deck is unnaturally clean and empty: two mast cross-sections with rings of belaying pins, coiled lines, a small fore hatch, and at her STERN a raised afterdeck with a tiller, a CABIN SKYLIGHT and a small companionway door leading down to the stern cabin.
+BETWEEN THE HULLS: a strip of open water about a third of the merchant's width. Two GRAPPLING IRONS bite the merchant's starboard rail, their ropes running taut back to the coaster's rail, with further lashing lines at bow and stern. A single BOARDING PLANK bridges the gap amidships — the only walkway between the two ships.
+Surround both ships with the same dark grey-green, flat, oily open water as the reference, with soft swell texture.
+Viewed from directly overhead at ninety degrees: orthographic, no perspective, no tilt, both ships at the SAME scale.
+CRITICAL: NO text, NO lettering, NO labels, NO numbers, NO grid lines, NO grid squares, NO compass rose, NO scale bar, NO border or frame. NO people, NO figures, NO creatures anywhere. No fire, no smoke, no flames.
+Style: identical to the reference — painterly hand-painted fantasy cartography, warm muted earth palette, soft natural top light, consistent with classic Greyhawk-era D&D module battle maps.`,
+  },
 ];
 
 // ----------------- engine -----------------

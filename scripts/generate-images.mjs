@@ -6415,6 +6415,67 @@ Viewed from directly overhead at ninety degrees: orthographic, no perspective, n
 CRITICAL: NO text, NO lettering, NO labels, NO numbers, NO grid lines, NO grid squares, NO compass rose, NO scale bar, NO border or frame. NO people, NO figures, NO creatures anywhere. No fire, no smoke, no flames.
 Style: identical to the reference — painterly hand-painted fantasy cartography, warm muted earth palette, soft natural top light, consistent with classic Greyhawk-era D&D module battle maps.`,
   },
+  // ============== TIER 51 — First Travel Intermission: Gradsul (v1.9.4) ==============
+  // Colour for Days 12–15: the party on the Gradsul wool quays, going aboard the
+  // Kestrel Wife under Master Roke's eye, and Gianni at the prow on the first
+  // morning out. Ship as tier 44's kestrel-wife-at-sea; Roke from his tier-43
+  // portrait; PCs from the party bible (assets/_reference/party/party-prompts.md).
+  {
+    id: "gradsul-wool-quays",
+    tier: 51,
+    out: "assets/illustrations/gradsul-wool-quays.png",
+    size: "1536x1024",
+    quality: "high",
+    referenceImages: activePartyRefs(),
+    prompt: `Modern high-fantasy illustration / digital concept art. Wide street-level scene, late afternoon, autumn.
+**Five reference images supplied — the five-PC adventuring party, all women. Identify each by features and match exactly:**
+- **Alicia** (human warlock) — fair skin, long copper-red hair in a high ponytail with a soft fringe; fitted powder-blue doublet with gold seam-piping and a high collar; right arm bare with black scrollwork tattoo shoulder to wrist; dusty-rose glove on her sword hand; slender gold-hilted blade at her hip.
+- **Elle** (halfling monk) — halfling-sized, visibly the shortest; long wild chestnut hair with red ribbon streamers; saffron-yellow tunic and loose trousers, crimson sash and wrist-wraps.
+- **Gianni** (human ranger) — olive skin, near-black hair centre-parted into two long braids; cream homespun shirt with rolled sleeves under a dark teal-grey embossed leather cuirass with a crossed chest-strap and one shoulder pauldron; a wrapped bow stock over her right shoulder.
+- **Kitty** (tiefling druid) — slate grey-violet skin, blank glowing white eyes, two ram-curved tan horns, black hair in two very long braids, slender spaded tail; moss-green laced dress under a brown leather corset-belt; tall twisted wooden staff.
+- **Selvara** (human sorcerer) — pale-tan skin, wavy chestnut hair under a deep-maroon hooded cloak; mismatched eyes (left pale blue, right clouded white) with a thin scar across the bridge of the nose; dark blue-green embroidered robe; round lapis amulet; dark wooden spear.
+All five are travelling as a wool-buying delegation: weapons carried but not drawn, travel-worn cloaks, no armour beyond what is listed.
+Scene: the five women walk together through the open market at the waterfront of GRADSUL, the great seaport of Keoland at the mouth of the Sheldomar River — curious, alert, unhurried, taking the city in. Around them a dense, colourful crowd of Suel-fair and Oeridian-brown townsfolk, sailors and merchants; stalls of fish, rope, lamp-oil and fruit; carts of raw fleece bales; a woman with a tray of hot fish pies. Behind the market, long ranks of FLAT-ROOFED STONE WAREHOUSES stand at the waterline, their walls stained dark to the height of a man by sea spray; beyond them the harbour is crowded with the masts of merchant ships. At the far end of a long stone outer mole, a SQUAT ROUND GREY STONE TOWER with white surf breaking around its foot — a sailors' temple. Behind and above, the city climbs in tiers of slate roofs and whitewash. Gulls. Warm low sun, long shadows, salt haze.
+Composition: the five PCs mid-ground, all faces visible and distinct, the harbour and the round tower readable behind them.
+Style: painterly digital fantasy illustration in the style of contemporary tabletop-RPG book interiors, detail-rich but not photorealistic. NOT 19th-century oil painting — modern fantasy genre art. No text, no labels, no flags with insignia.`,
+    postProcess: null,
+  },
+  {
+    id: "kestrel-wife-loading",
+    tier: 51,
+    out: "assets/illustrations/kestrel-wife-loading.png",
+    size: "1536x1024",
+    quality: "high",
+    referenceImages: [...activePartyRefs(), "assets/portraits/orin-roke-portrait.png"],
+    prompt: `Modern high-fantasy illustration / digital concept art. A quayside boarding scene in the harbour of Gradsul, late afternoon, autumn.
+**Five reference images supplied — the five-PC adventuring party, all women. Identify each by features and match exactly:**
+- **Alicia** (human warlock) — fair skin, long copper-red hair in a high ponytail with a soft fringe; fitted powder-blue doublet with gold seam-piping and a high collar; right arm bare with black scrollwork tattoo shoulder to wrist; dusty-rose glove on her sword hand; slender gold-hilted blade at her hip.
+- **Elle** (halfling monk) — halfling-sized, visibly the shortest; long wild chestnut hair with red ribbon streamers; saffron-yellow tunic and loose trousers, crimson sash and wrist-wraps.
+- **Gianni** (human ranger) — olive skin, near-black hair centre-parted into two long braids; cream homespun shirt with rolled sleeves under a dark teal-grey embossed leather cuirass with a crossed chest-strap and one shoulder pauldron; a wrapped bow stock over her right shoulder.
+- **Kitty** (tiefling druid) — slate grey-violet skin, blank glowing white eyes, two ram-curved tan horns, black hair in two very long braids, slender spaded tail; moss-green laced dress under a brown leather corset-belt; tall twisted wooden staff.
+- **Selvara** (human sorcerer) — pale-tan skin, wavy chestnut hair under a deep-maroon hooded cloak; mismatched eyes (left pale blue, right clouded white) with a thin scar across the bridge of the nose; dark blue-green embroidered robe; round lapis amulet; dark wooden spear.
+All five are travelling as a wool-buying delegation: weapons carried but not drawn, travel-worn cloaks, no armour beyond what is listed.
+**Sixth reference image: MASTER ORIN ROKE**, master of the ship — short, wide, weathered to the colour of a saddle, grey stubble, in a good dark coat that has plainly come out of a chest for the occasion. Match his face to the reference.
+The ship is the KESTREL WIFE — a FAT Keoish wool trader: broad-beamed two-masted merchantman, high-sided, deep in the water, TAR-BLACK HULL WITH A FADED OCHRE STRAKE, patched brown canvas furled on the yards. She lies alongside a stone quay. A single wide plank runs from the quay up to her waist; a line of stevedores carries BALES OF RAW FLEECE up it two at a time, and her waist is already stacked with lashed bales under tarpaulins. ROKE stands at the ship's rail at the head of the plank, a coil of rope in one hand, watching the party, unsmiling. A young deckhand with tar to the elbows comes down the plank for their bales, grinning.
+The five PCs are at the foot of the plank and starting up it, each distinct and recognisable, their own small cart of sample bales beside them on the quay.
+Background: other masts along the quay, warehouses, gulls, warm low light on wet stone.
+Style: painterly digital fantasy illustration in the style of contemporary tabletop-RPG book interiors, detail-rich but not photorealistic. NOT 19th-century oil painting — modern fantasy genre art. No text, no labels, no flags with insignia.`,
+    postProcess: null,
+  },
+  {
+    id: "gianni-at-the-prow",
+    tier: 51,
+    out: "assets/illustrations/gianni-at-the-prow.png",
+    size: "1536x1024",
+    quality: "high",
+    referenceImages: partyRefs("gianni"),
+    prompt: `Modern high-fantasy illustration / digital concept art. Quiet, wide seascape, early morning.
+**One reference image supplied — GIANNI VARREN, human ranger. Match her exactly:** an olive-skinned woman with near-black hair centre-parted into two long braids (the wind catching them), hazel-green eyes, strong dark brows, small ear stud; cream homespun shirt with rolled sleeves under a dark teal-grey embossed leather cuirass with a crossed chest-strap and a single shoulder pauldron; a wrapped bow stock over her right shoulder.
+Scene: Gianni stands alone at the very bow of a fat merchant ship, one hand on the rail beside the bowsprit, gazing out over the open sea toward the horizon. Her face is in clear side profile, turned toward the horizon, eyes on the distance — she is NOT looking at the viewer and NOT looking back over her shoulder. We see her from slightly behind and to one side, the sea filling most of the frame ahead of her. Around her feet: the anchor cable, a coil of line, the first of the lashed fleece bales just behind her. The ship's tar-black bow with a faded ochre strake is cutting a long low grey-green swell; spray lifts off the cutwater. Ahead, nothing but water to a hazy horizon under a pale overcast sky with a band of early sun. Far behind on the right edge, a low coastline and a river mouth fading into haze.
+Mood: stillness, release — a land ranger seeing open water for the first time.
+Style: painterly digital fantasy illustration in the style of contemporary tabletop-RPG book interiors, detail-rich but not photorealistic. NOT 19th-century oil painting — modern fantasy genre art. No text, no labels, no flags with insignia.`,
+    postProcess: null,
+  },
 ];
 
 // ----------------- engine -----------------

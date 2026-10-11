@@ -4,9 +4,11 @@
 Reads the journal pages and actor biographies from `packs/_source/`, the
 illustrations and portraits from `assets/`, and builds:
 
-  docs/blooming-rot-2-gm-prep.pdf       (full 9-phase + sandbox doc)
-  docs/phase-1.pdf  …  docs/phase-9.pdf (per-phase split for session prep)
-  docs/sandbox.pdf
+  docs/blooming-rot-2-gm-prep.pdf       (full 9-phase + intermission + sandbox doc)
+  docs/phase-1-gm-prep.pdf … docs/phase-9-gm-prep.pdf (per-phase split for session prep)
+  docs/travel-intermission-1-gm-prep.pdf (First Travel Intermission)
+  docs/sandbox-gm-prep.pdf
+  docs/narrative-deepening-gm-prep.pdf
 
 These docs are GM-facing, intentionally heavy — they contain spoilers,
 flow diagrams, and the entire narrative text. They are NOT part of the
@@ -14,7 +16,9 @@ shipped Foundry module; they live in `docs/` so the GM can keep them
 elsewhere (Drive, paper printout, tablet, etc.).
 
 Run with:
-    .venv-docs/bin/python scripts/build-gm-prep-pdf.py
+    .venv-docs/bin/python scripts/build-gm-prep-pdf.py              # everything
+    .venv-docs/bin/python scripts/build-gm-prep-pdf.py --only travel-1,phase-3
+      (names: full, phase-1 … phase-9, travel-1, sandbox, narrative)
 
 Requires reportlab + beautifulsoup4 + lxml + Pillow.
 """
@@ -77,6 +81,13 @@ PHASES = [
     {"n": 7, "title": "The Seventh Question", "color": "#4a3d2a"},
     {"n": 8, "title": "The Stair Beneath Tarnsmere", "color": "#2a2a3d"},
     {"n": 9, "title": "Below the Clean Paper", "color": "#1a1a2a"},
+]
+
+# Travel intermissions sit between phases. Each has its own journal/actor packs
+# and no flow diagram; "after" is the phase it follows in the full document.
+INTERMISSIONS = [
+    {"key": "travel-1", "after": 2, "title": "First Travel Intermission",
+     "subtitle": "Loftwick to Hardby", "pdf": "travel-intermission-1-gm-prep.pdf"},
 ]
 
 PALETTE = {
@@ -987,6 +998,35 @@ def phase_chapter(phase_n, styles):
     story.append(PageBreak())
     return story
 
+def intermission_chapter(spec, styles):
+    journals = sorted(load_jsons(SOURCE / f"{spec['key']}-journals"), key=lambda j: j.get("sort", 0))
+    actors = sorted(load_jsons(SOURCE / f"{spec['key']}-actors"), key=lambda a: a.get("sort", 0))
+
+    story = []
+    story.append(Paragraph("Intermission", styles["chapter_eyebrow"]))
+    story.append(Paragraph(spec["title"], styles["chapter_title"]))
+    story.append(Paragraph(_escape(spec["subtitle"]), styles["meta"]))
+    story.append(Spacer(1, 0.2*inch))
+
+    if actors:
+        story.append(Paragraph("Key NPCs in this Intermission", styles["section_h"]))
+        for actor in actors:
+            bio = actor.get("system", {}).get("details", {}).get("biography", {}).get("value", "")
+            if bio:
+                story.extend(npc_card(actor, styles))
+        story.append(PageBreak())
+
+    for journal in journals:
+        story.append(Paragraph(_escape(journal.get("name", "")), styles["section_h"]))
+        for page in sorted(journal.get("pages", []), key=lambda pg: pg.get("sort", 0)):
+            story.append(Paragraph(_escape(page.get("name", "")), styles["sub_h"]))
+            story.extend(html_to_flowables(page.get("text", {}).get("content", ""), styles))
+            story.append(Spacer(1, 6))
+        story.append(Spacer(1, 0.15*inch))
+
+    story.append(PageBreak())
+    return story
+
 def narrative_chapter(styles):
     """Combine the four narrative-deepening packs (v0.9.0) into one chapter."""
     story = []
@@ -1113,6 +1153,17 @@ def sandbox_chapter(styles):
 def main():
     styles = make_styles()
 
+    # --only full,phase-3,travel-1,sandbox,narrative builds a subset; no flag builds everything.
+    names = (["full"] + [f"phase-{p['n']}" for p in PHASES] + [i["key"] for i in INTERMISSIONS]
+             + ["sandbox", "narrative"])
+    only = None
+    if "--only" in sys.argv:
+        only = {x.strip() for x in sys.argv[sys.argv.index("--only") + 1].split(",") if x.strip()}
+        unknown = only - set(names)
+        if unknown:
+            sys.exit(f"--only: unknown {sorted(unknown)}; choose from {', '.join(names)}")
+    want = lambda name: only is None or name in only
+
     # Read module version
     with open(ROOT / "module.json") as fh:
         module = json.load(fh)
@@ -1121,25 +1172,31 @@ def main():
     print(f"Building GM Prep PDF (module v{version})...")
 
     # ---- Full doc ----
-    full_story = []
-    full_story.extend(cover_page(styles, version))
-    full_story.extend(overview_page(styles))
-    for phase in PHASES:
-        print(f"  Phase {phase['n']}: {phase['title']}...")
-        full_story.extend(phase_chapter(phase["n"], styles))
-    print("  Narrative Deepening (PC threads + faction + stakes + relief)...")
-    full_story.extend(narrative_chapter(styles))
-    print("  Sandbox & Downtime...")
-    full_story.extend(sandbox_chapter(styles))
-    full_pdf = DOCS / "blooming-rot-2-gm-prep.pdf"
-    build_document(full_pdf, full_story,
-                   title=f"Blooming Rot 2 — GM Prep (v{version})")
-    size_mb = full_pdf.stat().st_size / 1024 / 1024
-    print(f"\n✓ {full_pdf} ({size_mb:.1f} MB)")
+    if want("full"):
+        full_story = []
+        full_story.extend(cover_page(styles, version))
+        full_story.extend(overview_page(styles))
+        for phase in PHASES:
+            print(f"  Phase {phase['n']}: {phase['title']}...")
+            full_story.extend(phase_chapter(phase["n"], styles))
+            for inter in (i for i in INTERMISSIONS if i["after"] == phase["n"]):
+                print(f"  {inter['title']}...")
+                full_story.extend(intermission_chapter(inter, styles))
+        print("  Narrative Deepening (PC threads + faction + stakes + relief)...")
+        full_story.extend(narrative_chapter(styles))
+        print("  Sandbox & Downtime...")
+        full_story.extend(sandbox_chapter(styles))
+        full_pdf = DOCS / "blooming-rot-2-gm-prep.pdf"
+        build_document(full_pdf, full_story,
+                       title=f"Blooming Rot 2 — GM Prep (v{version})")
+        size_mb = full_pdf.stat().st_size / 1024 / 1024
+        print(f"\n✓ {full_pdf} ({size_mb:.1f} MB)")
 
     # ---- Per-phase PDFs ----
     for phase in PHASES:
         n = phase["n"]
+        if not want(f"phase-{n}"):
+            continue
         story = []
         story.extend(cover_page(styles, version))
         story.extend(phase_chapter(n, styles))
@@ -1149,23 +1206,37 @@ def main():
         size_mb = out.stat().st_size / 1024 / 1024
         print(f"✓ {out} ({size_mb:.1f} MB)")
 
+    # ---- Per-intermission PDFs ----
+    for inter in INTERMISSIONS:
+        if not want(inter["key"]):
+            continue
+        story = []
+        story.extend(cover_page(styles, version))
+        story.extend(intermission_chapter(inter, styles))
+        out = DOCS / inter["pdf"]
+        build_document(out, story, title=f"BR2 {inter['title']} (v{version})")
+        size_mb = out.stat().st_size / 1024 / 1024
+        print(f"✓ {out} ({size_mb:.1f} MB)")
+
     # ---- Sandbox-only PDF ----
-    story = []
-    story.extend(cover_page(styles, version))
-    story.extend(sandbox_chapter(styles))
-    out = DOCS / "sandbox-gm-prep.pdf"
-    build_document(out, story, title=f"BR2 Sandbox & Downtime (v{version})")
-    size_mb = out.stat().st_size / 1024 / 1024
-    print(f"✓ {out} ({size_mb:.1f} MB)")
+    if want("sandbox"):
+        story = []
+        story.extend(cover_page(styles, version))
+        story.extend(sandbox_chapter(styles))
+        out = DOCS / "sandbox-gm-prep.pdf"
+        build_document(out, story, title=f"BR2 Sandbox & Downtime (v{version})")
+        size_mb = out.stat().st_size / 1024 / 1024
+        print(f"✓ {out} ({size_mb:.1f} MB)")
 
     # ---- Narrative deepening standalone PDF ----
-    story = []
-    story.extend(cover_page(styles, version))
-    story.extend(narrative_chapter(styles))
-    out = DOCS / "narrative-deepening-gm-prep.pdf"
-    build_document(out, story, title=f"BR2 Narrative Deepening (v{version})")
-    size_mb = out.stat().st_size / 1024 / 1024
-    print(f"✓ {out} ({size_mb:.1f} MB)")
+    if want("narrative"):
+        story = []
+        story.extend(cover_page(styles, version))
+        story.extend(narrative_chapter(styles))
+        out = DOCS / "narrative-deepening-gm-prep.pdf"
+        build_document(out, story, title=f"BR2 Narrative Deepening (v{version})")
+        size_mb = out.stat().st_size / 1024 / 1024
+        print(f"✓ {out} ({size_mb:.1f} MB)")
 
     print("\nDone.")
 

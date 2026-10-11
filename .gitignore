@@ -24,3 +24,7 @@ docs/*.pdf
 
 # ImageMagick font registry written at build time — not a source file
 assets/_raw/magick-cfg/
+
+# --refine keeps every critique pass here; only the winning image is written to
+# assets/_raw/<id>.png, which stays tracked like any other raw
+assets/_raw/refine/

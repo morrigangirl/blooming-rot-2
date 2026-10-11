@@ -8,6 +8,10 @@
 //   OPENAI_API_KEY=sk-... node scripts/generate-images.mjs --tier 1     # only tier-1
 //   OPENAI_API_KEY=sk-... node scripts/generate-images.mjs --only merev-sarth-portrait
 //   OPENAI_API_KEY=sk-... node scripts/generate-images.mjs --dry-run    # print plan, don't call API
+//   OPENAI_API_KEY=sk-... node scripts/generate-images.mjs --only fallow-ford-road-map --refine
+//                                    # baseline + 5 critique-and-regenerate passes; best pass wins
+//   OPENAI_API_KEY=sk-... node scripts/generate-images.mjs --tier 46 --refine 3 --critic gpt-5.5
+//   (see "refine" in the engine section for how the loop works)
 //
 // Output:
 //   assets/portraits/<id>.png
@@ -6401,6 +6405,431 @@ const dryRun = args.includes("--dry-run");
 
 const apiKey = process.env.OPENAI_API_KEY;
 
+// ----------------- refine: critique-and-regenerate loop -----------------
+//
+// --refine [N]  (N = 1-10, default 5). For each generated job: a baseline
+// image, then N passes of critique -> regenerate. A vision model reviews each
+// image against the job's own prompt plus a rubric for its kind (maps, tiles,
+// portraits, handouts, illustrations). Defects go into an append-only ledger.
+// The next prompt is the job's canonical prompt verbatim, then PRIORITY FIXES
+// (open defects, hard fail -> major -> minor; any that survive two reviews
+// are rewritten more forcefully) and KEEP (everything already fixed plus the
+// latest strengths, so a later pass doesn't undo an earlier one). When the
+// structure holds and only local problems remain, the pass EDITS the previous
+// image instead of regenerating. The last image gets a final scoring review
+// and the best-scoring pass wins -- not necessarily the last one, because
+// regressions happen. The winner is written to assets/_raw/<id>.png and
+// post-processed as normal, so a refined job ships exactly like any other.
+//
+//   --critic <model>   review model (default $REFINE_CRITIC_MODEL, else gpt-5.5)
+//   --refine-all       allow --refine without --only or --tier
+//   REFINE_CRITIC_EFFORT=low|medium|high   reviewer reasoning effort (default high)
+//
+// Every pass is kept under assets/_raw/refine/<id>/<timestamp>/ (gitignored):
+// pass-N.png, pass-N.prompt.txt, pass-N.critique.json, ledger.json, best.png,
+// and report.md with the score table and the prompt that won.
+
+const refineArg = args.find((a) => a === "--refine" || a.startsWith("--refine="));
+let refinePasses = 0;
+if (refineArg) {
+  const raw = refineArg.includes("=") ? refineArg.slice(refineArg.indexOf("=") + 1) : args[args.indexOf("--refine") + 1];
+  refinePasses = /^\d+$/.test(raw ?? "") ? Number(raw) : 5;
+  if (refinePasses < 1 || refinePasses > 10) {
+    console.error(`--refine takes 1-10 passes (got ${raw}).`);
+    process.exit(1);
+  }
+}
+const criticArg = args.find((a) => a.startsWith("--critic="));
+const criticModel = criticArg ? criticArg.slice("--critic=".length)
+  : args.includes("--critic") ? args[args.indexOf("--critic") + 1]
+  : process.env.REFINE_CRITIC_MODEL || "gpt-5.5";
+const criticEffort = process.env.REFINE_CRITIC_EFFORT || "high";
+if (refinePasses && (!criticModel || criticModel.startsWith("--"))) {
+  console.error("--critic needs a model name, e.g. --critic gpt-5.5");
+  process.exit(1);
+}
+if (refinePasses && !onlyIds && tierFilter === null && !args.includes("--refine-all")) {
+  console.error("--refine makes a baseline plus N passes for every job it touches. Narrow it with --only or --tier, or add --refine-all if you really mean every job.");
+  process.exit(1);
+}
+
+// >>> refine-core -- pure functions: rubric, review brief, ledger, prompt, scoring, report
+
+const SEVERITY_RANK = { hard_fail: 0, major: 1, minor: 2 };
+
+const RUBRIC_BASE = [
+  { key: "fidelity", label: "SPEC FIDELITY", structural: true,
+    desc: "Every element the spec asks for is present, in the position, count, size and colour it asks for; nothing in the image contradicts the spec." },
+  { key: "forbidden", label: "FORBIDDEN ELEMENTS", structural: true,
+    desc: "HARD FAIL. Anything the spec says NO to, plus any text, lettering, numbers, watermark, logo, border or frame the spec does not ask for. A single instance scores 1." },
+  { key: "style", label: "STYLE & PALETTE",
+    desc: "Matches the style, medium, palette and lighting the spec names, and is no more stylised, saturated or photographic than it asks for." },
+  { key: "rendering", label: "RENDERING QUALITY",
+    desc: "No generation artifacts: melted or smeared textures, extra or fused fingers and limbs, garbled small detail, mirrored or obviously tiled patterns, inconsistent light direction, or detail density collapsing in one region." },
+];
+
+const RUBRIC_BY_KIND = {
+  maps: [
+    { key: "projection", label: "PROJECTION", structural: true,
+      desc: "Truly straight-down and orthographic. Fail signs: a horizon or sky, perspective convergence, side-on walls, trees, stones or hulls, and cast shadows long enough to imply a low camera." },
+    (job) => ({ key: "scale", label: "SCALE", structural: true,
+      desc: job.grid
+        ? `Mentally lay a ${job.grid.cols} x ${job.grid.rows} grid of ${job.grid.ft ?? 5}-ft squares over the whole image and check every size the spec states against it. A feature off by more than 50% scores 2 or lower.`
+        : "Features are sized consistently with one another and with any dimensions the spec states, read against a 5-ft battle grid. A feature off by more than 50% scores 2 or lower." }),
+    { key: "legibility", label: "TACTICAL LEGIBILITY",
+      desc: "At a 5-ft square a GM can tell open ground from difficult terrain, cover, water and obstacles without guessing. Boundaries are crisp, no vignette or darkened edge hides usable ground, and open areas are clear, not cluttered." },
+    { key: "gridfit", label: "GRID-FRIENDLINESS",
+      desc: "Long straight features (roads, walls, ditches, rails, hull lines) run straight and close to the image axes, and nothing straddles squares so ambiguously that you can't tell which square it occupies." },
+  ],
+  tiles: [
+    { key: "projection", label: "PROJECTION", structural: true,
+      desc: "Straight-down and orthographic, so the tile sits naturally on a top-down battle map: no perspective, and no sides visible beyond what an overhead view shows." },
+    { key: "isolation", label: "ISOLATION", structural: true,
+      desc: "The object alone with clean edges: no ground, floor, cast shadow on a surface, or background fill around it." },
+  ],
+  portraits: [
+    { key: "subject", label: "SUBJECT", structural: true,
+      desc: "Age, build, features, hair, clothing, props and expression match the spec, and the face reads as the specific person described rather than a generic one." },
+    { key: "framing", label: "FRAMING",
+      desc: "The view and crop the spec asks for, with the head in the upper part of the frame: a round token is cropped from the top of the image and has to land on the face." },
+  ],
+  handouts: [
+    { key: "text", label: "TEXT", structural: true,
+      desc: "Every line the spec quotes appears exactly as written (wording, spelling, punctuation and order), legibly, with nothing extra or garbled; each wrong or missing word is a major defect. If the spec quotes no text, score whether the image correctly has none beyond the marks it describes." },
+    { key: "prop", label: "PROP REALISM",
+      desc: "Reads as a real physical object photographed flat: paper, ink, wax and wear behave like the real materials." },
+  ],
+  illustrations: [
+    { key: "subjects", label: "SUBJECTS", structural: true,
+      desc: "Every figure and creature the spec names is present, identifiable, in the right number, and doing what the spec says, with no extra figures." },
+    { key: "composition", label: "COMPOSITION",
+      desc: "The focal point and reading order the spec asks for; the key action reads at a glance." },
+  ],
+};
+
+const RUBRIC_LIKENESS = { key: "likeness", label: "LIKENESS", structural: true,
+  desc: "Each character matches their reference image: face, hair, skin, build, costume and signature items. The reference images are supplied after the image under review." };
+const RUBRIC_REFERENCE = { key: "reference", label: "REFERENCE CONSISTENCY", structural: true,
+  desc: "Matches the supplied reference image wherever the spec asks it to stay the same, and changes only what the spec asks to change." };
+
+function jobRefs(job) {
+  return Array.isArray(job.referenceImages) ? job.referenceImages : [];
+}
+
+function jobKind(job) {
+  return String(job.out ?? "").split("/")[1] ?? "";
+}
+
+// Base criteria + the kind's criteria + likeness/consistency when the job has
+// reference images + any per-job extras in job.rubric ({ key, label, desc,
+// structural? }). Keys are unique; the first definition of a key wins.
+function rubricFor(job) {
+  const kind = jobKind(job);
+  const list = [...RUBRIC_BASE, ...(RUBRIC_BY_KIND[kind] ?? []).map((c) => (typeof c === "function" ? c(job) : c))];
+  if (jobRefs(job).length) list.push(kind === "illustrations" || kind === "portraits" ? RUBRIC_LIKENESS : RUBRIC_REFERENCE);
+  list.push(...(job.rubric ?? []));
+  return list.filter((c, i) => list.findIndex((d) => d.key === c.key) === i);
+}
+
+// Strict JSON schema for one review. Property order is deliberate: structured
+// output is generated in schema order, so the reviewer describes the picture
+// and scans for forbidden elements BEFORE it scores anything.
+function critiqueSchema(rubric) {
+  const str = { type: "string" };
+  const keys = rubric.map((c) => c.key);
+  const obj = (properties) => ({ type: "object", additionalProperties: false, required: Object.keys(properties), properties });
+  return obj({
+    description: obj({ top_left: str, top_right: str, bottom_left: str, bottom_right: str, centre: str }),
+    forbidden_scan: str,
+    scores: obj(Object.fromEntries(keys.map((k) => [k, obj({ score: { type: "integer" }, reason: str })]))),
+    ledger_status: { type: "array", items: obj({ id: str, present: { type: "boolean" }, fix: str }) },
+    new_defects: { type: "array", items: obj({
+      criterion: { type: "string", enum: keys }, location: str, problem: str,
+      severity: { type: "string", enum: ["hard_fail", "major", "minor"] }, fix: str,
+    }) },
+    strengths: { type: "array", items: str },
+    regressions: { type: "array", items: str },
+  });
+}
+
+const CRITIC_SYSTEM = `You are a skeptical senior art director reviewing one generated image against its written spec, for a published tabletop RPG module. You are paid to find problems, not to praise.
+
+Work in this order:
+1. LOOK. Describe only what is actually visible in each quadrant and in the centre. Never describe what the spec intended; describe the picture.
+2. SCAN. Check every quadrant for every forbidden element: anything the spec says NO to, plus any text, lettering, watermark, logo, border or frame the spec does not ask for. Say in forbidden_scan that you did, and what you found.
+3. SCORE every rubric criterion from 1 to 5: 5 flawless; 4 minor issues only; 3 clearly visible problems; 2 a major failure; 1 absent, wrong, or a hard fail. Give a one-line reason for each.
+4. LEDGER. For EVERY ledger entry, report whether that defect is present in THIS image. Judge this image only, not earlier ones.
+5. NEW DEFECTS. Assume at least three real defects exist until you have looked for them and can say exactly where they are not. For each new defect give the rubric criterion it falls under; an exact location (quadrant, or distance from an edge); what is wrong; the severity (hard_fail for anything the spec forbids, major for anything that breaks the image's purpose, minor otherwise); and the fix, written as a direct instruction an image model can follow. Do not re-report a ledger entry as new.
+6. STRENGTHS. What this image gets right, each phrased as a positive instruction for the next image ("Keep the road running straight from edge to edge").
+7. REGRESSIONS. Anything worse than in the previous scores, naming the criterion.
+
+Be concrete: sizes, positions and counts, not adjectives.`;
+
+function critiqueBrief({ job, rubric, ledger, prevScores, pass, total, mode, refCount }) {
+  const lines = [pass === 0 ? "REVIEW OF THE BASELINE IMAGE." : `REVIEW AFTER REFINEMENT PASS ${pass} OF ${total}.`];
+  if (mode === "edit") lines.push("This image was made by EDITING the previous one: check that nothing outside the requested fixes changed.");
+  lines.push("", "=== SPEC: the image must match this ===", job.prompt, "=== END SPEC ===", "",
+    "=== RUBRIC ===", ...rubric.map((c) => `${c.key} (${c.label}): ${c.desc}`), "=== END RUBRIC ===", "",
+    "=== LEDGER: defects found in earlier reviews ===");
+  if (!ledger.length) lines.push("(empty: this is the first review)");
+  for (const d of ledger) {
+    const persistent = d.status === "open" && d.timesSeen >= 2;
+    lines.push(`${d.id} | ${d.severity} | ${d.status}${persistent ? ` | PERSISTENT (seen in ${d.timesSeen} reviews)` : ""} | criterion ${d.criterion}`,
+      `    where: ${d.location}`, `    problem: ${d.problem}`, `    current fix: ${d.fix}`);
+  }
+  lines.push("=== END LEDGER ===");
+  if (ledger.length) lines.push("Report EVERY entry above in ledger_status, judged on this image alone. For a PERSISTENT entry that is still present, rewrite its fix more forcefully and concretely (exact size, position or count, plus the matching NO statement). Otherwise return its fix unchanged.");
+  lines.push("", `PREVIOUS SCORES: ${prevScores ? rubric.map((c) => `${c.key} ${prevScores[c.key]}`).join(", ") : "none (this is the baseline)"}`);
+  if (refCount) lines.push(`The ${refCount} image(s) after the one under review are REFERENCES, supplied only to judge likeness and consistency. Do not review them.`);
+  if (jobKind(job) === "tiles") lines.push("This is a game tile with a transparent background. Transparent areas may display as black, white, grey or a checkerboard: treat a flat uniform field around the object as transparent background, not as content.");
+  return lines.join("\n");
+}
+
+// Fold one review into the append-only ledger. Entries are never removed:
+// they move open -> fixed, and back to open (a regression) if they reappear.
+function applyCritique(ledger, critique, pass) {
+  const fixed = [], reopened = [], added = [];
+  const seen = new Set();
+  for (const st of critique.ledger_status ?? []) {
+    const d = ledger.find((e) => e.id === st.id);
+    if (!d || seen.has(d.id)) continue;
+    seen.add(d.id);
+    if (st.present) {
+      if (d.status === "fixed") { d.status = "open"; d.reopenedAt = pass; d.fixedAt = null; reopened.push(d.id); }
+      d.timesSeen += 1;
+      d.lastSeen = pass;
+      if (String(st.fix ?? "").trim()) d.fix = String(st.fix).trim();
+    } else if (d.status === "open") {
+      d.status = "fixed"; d.fixedAt = pass; fixed.push(d.id);
+    }
+  }
+  const unreported = ledger.filter((d) => !seen.has(d.id)).map((d) => d.id);
+  for (const nd of critique.new_defects ?? []) {
+    const id = `D${ledger.length + 1}`;
+    ledger.push({ id, criterion: nd.criterion, location: nd.location, problem: nd.problem, severity: nd.severity,
+      fix: nd.fix, firstSeen: pass, lastSeen: pass, timesSeen: 1, status: "open", fixedAt: null, reopenedAt: null });
+    added.push(id);
+  }
+  return { fixed, reopened, added, unreported };
+}
+
+// Clamp to 1-5; an open hard fail caps its criterion (forbidden -> 1, others -> 2)
+// so the best-pass pick can't reward an image that still breaks the spec.
+function normalizeScores(rubric, critique, ledger) {
+  const scores = {};
+  for (const c of rubric) {
+    const v = Number(critique.scores?.[c.key]?.score);
+    scores[c.key] = Number.isFinite(v) ? Math.min(5, Math.max(1, Math.round(v))) : 3;
+  }
+  for (const d of ledger) {
+    if (d.status === "open" && d.severity === "hard_fail" && d.criterion in scores) {
+      scores[d.criterion] = Math.min(scores[d.criterion], d.criterion === "forbidden" ? 1 : 2);
+    }
+  }
+  return scores;
+}
+
+function openCounts(ledger) {
+  const open = ledger.filter((d) => d.status === "open");
+  const n = (sev) => open.filter((d) => d.severity === sev).length;
+  return { hard: n("hard_fail"), major: n("major"), minor: n("minor") };
+}
+
+function chooseMode(job, rubric, scores, ledger) {
+  if (job.background === "transparent") return { mode: "regenerate", why: "transparent output: edits are not trusted to keep the alpha channel" };
+  if (ledger.some((d) => d.status === "open" && d.severity === "hard_fail")) return { mode: "regenerate", why: "an open hard fail" };
+  const weak = rubric.filter((c) => c.structural && scores[c.key] < 4).map((c) => `${c.key} ${scores[c.key]}`);
+  return weak.length
+    ? { mode: "regenerate", why: `structural criteria below 4: ${weak.join(", ")}` }
+    : { mode: "edit", why: "structure holds; only local fixes remain" };
+}
+
+const PROMPT_LIMIT = 30000;   // gpt-image prompt ceiling is 32k characters
+
+function buildRefinedPrompt(job, ledger, strengths, mode) {
+  const open = ledger.filter((d) => d.status === "open")
+    .sort((a, b) => SEVERITY_RANK[a.severity] - SEVERITY_RANK[b.severity] || b.timesSeen - a.timesSeen);
+  const fixes = open.map((d, i) => {
+    const tag = d.severity.replace("_", " ").toUpperCase() + (d.timesSeen >= 2 ? `, PERSISTENT: still present after ${d.timesSeen} reviews` : "");
+    return `${i + 1}. [${tag}] ${d.location}: ${d.fix}`;
+  });
+  const keep = [
+    ...ledger.filter((d) => d.status === "fixed").map((d) => `- ${d.fix}`),
+    ...strengths.map((t) => `- ${t}`),
+  ];
+  const head = mode === "edit"
+    ? ["REVISE THE FIRST SUPPLIED IMAGE. Keep its composition, layout and every detail not listed under PRIORITY FIXES exactly as it is; change only what PRIORITY FIXES requires."
+        + (jobRefs(job).length ? " Any further supplied images are references, not the image to revise." : ""), ""]
+    : [];
+  const render = () => [...head, job.prompt,
+    ...(fixes.length ? ["", "PRIORITY FIXES (from art-direction review, most severe first):", ...fixes] : []),
+    ...(keep.length ? ["", "KEEP (already correct; do not regress):", ...keep] : []),
+  ].join("\n");
+  let text = render();
+  while (text.length > PROMPT_LIMIT && (keep.length || fixes.length > 1)) {
+    if (keep.length) keep.pop(); else fixes.pop();   // shed the oldest keeps, then the least severe fixes
+    text = render();
+  }
+  return text;
+}
+
+// Best scored pass. Passes still holding a hard fail only win if every pass does.
+// Ties go to fewer open majors, then to the later pass.
+function pickBest(passes) {
+  const scored = passes.filter((p) => p.scores);
+  if (!scored.length) return passes[passes.length - 1];
+  const clean = scored.filter((p) => !p.hardFail);
+  return [...(clean.length ? clean : scored)].sort((a, b) => b.total - a.total || a.open.major - b.open.major || b.n - a.n)[0];
+}
+
+function buildReport({ job, rubric, passes, ledger, best, criticModel, criticEffort, stamp, rawPath }) {
+  const cell = (v) => String(v ?? "").replace(/\|/g, "\\|").replace(/\s*\n\s*/g, " ");
+  const label = (p) => (p.n === 0 ? "baseline" : `pass ${p.n}`);
+  const row = (name, fn) => `| ${name} | ${passes.map(fn).join(" | ")} |`;
+  const max = rubric.length * 5;
+  const status = (d) => d.status + (d.status === "fixed" ? ` (pass ${d.fixedAt})` : "") + (d.reopenedAt != null ? `, reopened pass ${d.reopenedAt}` : "");
+  return [
+    `# Refine report: ${job.id}`,
+    "",
+    `Critic \`${criticModel}\` (effort ${criticEffort}), ${passes.length} image(s), run ${stamp}.`,
+    "",
+    `**Best: ${label(best)}**` + (best.scores ? `, ${best.total}/${max}${best.hardFail ? " (no pass cleared the hard fail)" : ""}` : " (unscored: the review failed)")
+      + `. Written to \`${rawPath}\`, then post-processed to \`${job.out}\`.`,
+    "",
+    `| criterion | ${passes.map(label).join(" | ")} |`,
+    `|---|${passes.map(() => "---:").join("|")}|`,
+    ...rubric.map((c) => row(c.key, (p) => (p.scores ? p.scores[c.key] : "-"))),
+    row("**total**", (p) => (p.scores ? `**${p.total}**` : "-")),
+    row("open hard / major / minor", (p) => (p.open ? `${p.open.hard} / ${p.open.major} / ${p.open.minor}` : "-")),
+    row("made by", (p) => (p.n === 0 ? "generate" : p.mode)),
+    "",
+    "## Ledger",
+    "",
+    "| id | severity | criterion | first seen | times seen | status | fix |",
+    "|---|---|---|---:|---:|---|---|",
+    ...ledger.map((d) => `| ${d.id} | ${d.severity} | ${d.criterion} | ${d.firstSeen} | ${d.timesSeen} | ${status(d)} | ${cell(d.fix)} |`),
+    "",
+    "## Prompt that produced the best image",
+    "",
+    "```text",
+    best.prompt,
+    "```",
+    "",
+  ].join("\n");
+}
+
+// <<< refine-core
+
+// One review call. Retries network errors, 429s, 5xx and unparseable JSON
+// (twice, with backoff); a 4xx or a refusal fails immediately.
+async function critiqueImage({ job, rubric, buf, ledger, prevScores, pass, mode }) {
+  const refs = jobRefs(job).map(readImageInput);
+  const content = [
+    { type: "text", text: critiqueBrief({ job, rubric, ledger, prevScores, pass, total: refinePasses, mode, refCount: refs.length }) },
+    { type: "text", text: "IMAGE UNDER REVIEW:" },
+    { type: "image_url", image_url: { url: `data:image/png;base64,${buf.toString("base64")}`, detail: "high" } },
+    ...(refs.length ? [{ type: "text", text: `REFERENCE IMAGES (${refs.length}), for likeness and consistency only, not under review:` }] : []),
+    ...refs.map((r) => ({ type: "image_url", image_url: { url: `data:${r.mime};base64,${r.buf.toString("base64")}`, detail: "high" } })),
+  ];
+  const body = {
+    model: criticModel,
+    messages: [{ role: "system", content: CRITIC_SYSTEM }, { role: "user", content }],
+    response_format: { type: "json_schema", json_schema: { name: "image_critique", strict: true, schema: critiqueSchema(rubric) } },
+    max_completion_tokens: 16000,
+    ...(/^(gpt-5|o\d)/.test(criticModel) ? { reasoning_effort: criticEffort } : {}),
+  };
+  for (let attempt = 0; ; attempt++) {
+    try {
+      const res = await fetch("https://api.openai.com/v1/chat/completions", {
+        method: "POST",
+        headers: { "Authorization": `Bearer ${apiKey}`, "Content-Type": "application/json" },
+        body: JSON.stringify(body),
+      });
+      if (!res.ok) {
+        const text = await res.text();
+        throw Object.assign(new Error(`critic ${criticModel} ${res.status}: ${text.slice(0, 500)}`), { retryable: res.status === 429 || res.status >= 500 });
+      }
+      const msg = (await res.json()).choices?.[0]?.message;
+      if (msg?.refusal) throw Object.assign(new Error(`critic refused: ${msg.refusal}`), { retryable: false });
+      return JSON.parse(msg?.content ?? "");
+    } catch (err) {
+      if (err.retryable === false || attempt >= 2) throw err;
+      console.log(`    review attempt ${attempt + 1} failed (${String(err.message).slice(0, 140)}); retrying...`);
+      await new Promise((r) => setTimeout(r, 3000 * 2 ** attempt));
+    }
+  }
+}
+
+async function refineJob(job, rawPath) {
+  const stamp = new Date().toISOString().replace(/[:.]/g, "-");
+  const dir = path.join(RAW, "refine", job.id, stamp);
+  fs.mkdirSync(dir, { recursive: true });
+  const rubric = rubricFor(job);
+  const refs = jobRefs(job);
+  const max = rubric.length * 5;
+  const ledger = [];
+  const passes = [];
+  let prompt = job.prompt;
+  let mode = "generate";
+  let prev = null;
+  console.log(`→ ${job.id}: refine x${refinePasses} with ${criticModel} (gpt-image-2, ${job.size}, ${job.quality}) · rubric: ${rubric.map((c) => c.key).join(", ")}`);
+  console.log(`  passes: ${path.relative(ROOT, dir)}/`);
+
+  for (let n = 0; n <= refinePasses; n++) {
+    const images = mode === "edit" ? [{ buf: prev.buf, name: `pass-${prev.n}.png` }, ...refs] : refs;
+    let buf;
+    try {
+      buf = await callImageApi({ prompt, size: job.size, quality: job.quality, background: job.background, images });
+    } catch (err) {
+      if (!passes.some((p) => p.scores)) throw err;      // nothing paid-for to keep yet
+      console.log(`  ⚠ image call for pass ${n} failed; keeping the best pass so far: ${String(err.message).slice(0, 200)}`);
+      break;
+    }
+    fs.writeFileSync(path.join(dir, `pass-${n}.png`), buf);
+    fs.writeFileSync(path.join(dir, `pass-${n}.prompt.txt`), prompt + "\n");
+    const pass = { n, buf, prompt, mode };
+    passes.push(pass);
+
+    let critique;
+    try {
+      critique = await critiqueImage({ job, rubric, buf, ledger, prevScores: prev?.scores ?? null, pass: n, mode });
+    } catch (err) {
+      console.log(`  ⚠ review of pass ${n} failed; stopping and keeping the best image so far: ${String(err.message).slice(0, 200)}`);
+      break;
+    }
+    fs.writeFileSync(path.join(dir, `pass-${n}.critique.json`), JSON.stringify(critique, null, 2) + "\n");
+    const delta = applyCritique(ledger, critique, n);
+    pass.scores = normalizeScores(rubric, critique, ledger);
+    pass.total = Object.values(pass.scores).reduce((a, b) => a + b, 0);
+    pass.open = openCounts(ledger);
+    pass.hardFail = pass.scores.forbidden === 1 || pass.open.hard > 0;
+    fs.writeFileSync(path.join(dir, "ledger.json"), JSON.stringify(ledger, null, 2) + "\n");
+
+    const drops = prev?.scores ? rubric.filter((c) => pass.scores[c.key] < prev.scores[c.key]).map((c) => `${c.key} ${prev.scores[c.key]}→${pass.scores[c.key]}`) : [];
+    const regress = [...delta.reopened.map((id) => `${id} back`), ...drops];
+    console.log(`  ${n === 0 ? "baseline" : `pass ${n}/${refinePasses}`} · ${mode} · ${pass.total}/${max}${pass.hardFail ? " · HARD FAIL" : ""}`
+      + ` · open ${pass.open.hard} hard, ${pass.open.major} major, ${pass.open.minor} minor`
+      + (delta.fixed.length ? ` · fixed ${delta.fixed.join(", ")}` : "")
+      + (delta.added.length ? ` · new ${delta.added.join(", ")}` : "")
+      + (regress.length ? ` · REGRESSION: ${regress.join(", ")}` : "")
+      + (delta.unreported.length ? ` · unreported by reviewer: ${delta.unreported.join(", ")}` : ""));
+    prev = pass;
+    if (n === refinePasses) break;
+
+    const next = chooseMode(job, rubric, pass.scores, ledger);
+    mode = next.mode;
+    console.log(`    next: ${mode} (${next.why})`);
+    prompt = buildRefinedPrompt(job, ledger, critique.strengths ?? [], mode);
+  }
+
+  const best = pickBest(passes);
+  fs.writeFileSync(rawPath, best.buf);
+  fs.writeFileSync(path.join(dir, "best.png"), best.buf);
+  fs.writeFileSync(path.join(dir, "report.md"), buildReport({ job, rubric, passes, ledger, best, criticModel, criticEffort, stamp, rawPath: path.relative(ROOT, rawPath) }));
+  console.log(`  ★ best: ${best.n === 0 ? "baseline" : `pass ${best.n}`}${best.scores ? ` (${best.total}/${max})` : " (unscored)"} → ${path.relative(ROOT, rawPath)}`);
+  console.log(`    report: ${path.relative(ROOT, path.join(dir, "report.md"))}`);
+}
+
 fs.mkdirSync(RAW, { recursive: true });
 for (const sub of ["portraits", "tokens", "handouts", "sigils", "gm-only", "illustrations", "maps", "banners", "tiles"]) {
   fs.mkdirSync(path.join(ROOT, "assets", sub), { recursive: true });
@@ -6415,6 +6844,13 @@ const queue = JOBS.filter((j) => {
 console.log(`Plan: ${queue.length} job(s)\n`);
 for (const j of queue) {
   console.log(`  [tier ${j.tier}] ${j.id} → ${j.out}${j.skipGeneration ? "  (post-process from existing)" : ""}`);
+  if (refinePasses && !j.skipGeneration) {
+    console.log(`      ↻ refine x${refinePasses} · rubric: ${rubricFor(j).map((c) => c.key).join(", ")}`);
+  }
+}
+if (refinePasses) {
+  const n = queue.filter((j) => !j.skipGeneration).length;
+  console.log(`\nRefine: ${n} job(s) x ${refinePasses + 1} images (baseline + ${refinePasses} passes) = ${n * (refinePasses + 1)} image calls and ${n * (refinePasses + 1)} reviews by ${criticModel} (effort ${criticEffort}).`);
 }
 console.log("");
 
@@ -6430,31 +6866,47 @@ async function generateOne(job) {
   if (!apiKey) {
     throw new Error("OPENAI_API_KEY not set; this job needs the OpenAI API. Source .env first.");
   }
+  const rawPath = path.join(RAW, `${job.id}.png`);
+  if (refinePasses) {
+    await refineJob(job, rawPath);   // leaves the winning pass at rawPath
+  } else {
+    // A job with referenceImages goes to /v1/images/edits with multipart upload,
+    // so the model grounds character likenesses in those portraits.
+    const refs = jobRefs(job);
+    console.log(`→ ${job.id}: calling gpt-image-2 (${job.size}, ${job.quality})${refs.length ? ` with ${refs.length} reference image(s)` : ""}...`);
+    fs.writeFileSync(rawPath, await callImageApi({ prompt: job.prompt, size: job.size, quality: job.quality, background: job.background, images: refs }));
+    console.log(`  raw saved: ${rawPath}`);
+  }
+  return await postProcess(job, rawPath);
+}
 
-  // If the job specifies referenceImages, use the /v1/images/edits endpoint with
-  // multipart upload so the model grounds character likenesses in those portraits.
-  const useEdits = Array.isArray(job.referenceImages) && job.referenceImages.length > 0;
-  const endpoint = useEdits
-    ? "https://api.openai.com/v1/images/edits"
-    : "https://api.openai.com/v1/images/generations";
-  console.log(`→ ${job.id}: calling gpt-image-2 (${job.size}, ${job.quality})${useEdits ? ` with ${job.referenceImages.length} reference image(s)` : ""}...`);
+const IMG_MIME = { ".png": "image/png", ".jpg": "image/jpeg", ".jpeg": "image/jpeg", ".webp": "image/webp" };
 
+// An image input is a repo-relative or absolute path, or { buf, name, mime? }.
+function readImageInput(entry) {
+  if (typeof entry === "string") {
+    const abs = path.isAbsolute(entry) ? entry : path.join(ROOT, entry);
+    return { buf: fs.readFileSync(abs), name: path.basename(abs), mime: IMG_MIME[path.extname(abs).toLowerCase()] ?? "image/png" };
+  }
+  return { mime: "image/png", ...entry };
+}
+
+// One gpt-image-2 call, returning the PNG bytes. With input images it uses
+// /v1/images/edits; without, /v1/images/generations.
+async function callImageApi({ prompt, size, quality, background, images = [] }) {
   let res;
-  if (useEdits) {
+  if (images.length) {
     const form = new FormData();
     form.append("model", "gpt-image-2");
-    form.append("prompt", job.prompt);
+    form.append("prompt", prompt);
     form.append("n", "1");
-    form.append("size", job.size);
-    form.append("quality", job.quality);
-    for (const refPath of job.referenceImages) {
-      const abs = path.isAbsolute(refPath) ? refPath : path.join(ROOT, refPath);
-      const buf = fs.readFileSync(abs);
-      const ext = path.extname(abs).replace(/^\./, "").toLowerCase();
-      const mime = ext === "jpg" || ext === "jpeg" ? "image/jpeg" : "image/png";
-      form.append("image[]", new Blob([buf], { type: mime }), path.basename(abs));
+    form.append("size", size);
+    form.append("quality", quality);
+    for (const entry of images) {
+      const { buf, name, mime } = readImageInput(entry);
+      form.append("image[]", new Blob([buf], { type: mime }), name);
     }
-    res = await fetch(endpoint, {
+    res = await fetch("https://api.openai.com/v1/images/edits", {
       method: "POST",
       headers: { "Authorization": `Bearer ${apiKey}` },
       body: form,
@@ -6462,14 +6914,14 @@ async function generateOne(job) {
   } else {
     const body = {
       model: "gpt-image-2",
-      prompt: job.prompt,
+      prompt,
       n: 1,
-      size: job.size,
-      quality: job.quality,
+      size,
+      quality,
       // Tiles meant to sit on a battlemap ask for a transparent background.
-      ...(job.background ? { background: job.background } : {}),
+      ...(background ? { background } : {}),
     };
-    res = await fetch(endpoint, {
+    res = await fetch("https://api.openai.com/v1/images/generations", {
       method: "POST",
       headers: {
         "Authorization": `Bearer ${apiKey}`,
@@ -6485,10 +6937,7 @@ async function generateOne(job) {
   const data = await res.json();
   const b64 = data?.data?.[0]?.b64_json;
   if (!b64) throw new Error(`No b64_json in response: ${JSON.stringify(data).slice(0, 200)}`);
-  const rawPath = path.join(RAW, `${job.id}.png`);
-  fs.writeFileSync(rawPath, Buffer.from(b64, "base64"));
-  console.log(`  raw saved: ${rawPath}`);
-  return await postProcess(job, rawPath);
+  return Buffer.from(b64, "base64");
 }
 
 async function postProcess(job, srcPath) {

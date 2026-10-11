@@ -476,7 +476,7 @@
         "max": 3
       },
       "senses": {
-        "units": null,
+        "units": "ft",
         "special": "",
         "ranges": {
           "darkvision": 60,

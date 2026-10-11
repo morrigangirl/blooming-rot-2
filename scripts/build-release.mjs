@@ -56,6 +56,16 @@ console.log(`Building release artifacts for ${manifest.id} v${version}`);
 console.log(`  GitHub: ${owner}/${repo}`);
 console.log(`  Output: ${DIST}/`);
 
+// === Step 0: calendar lint (fix ledger YEAR-01 / CAL-01) ===
+// A release never ships a four-digit year, a non-Greyhawk month or an Earth
+// weekday. The lint prints each problem and exits 1, which stops the build here.
+try {
+  execFileSync(process.execPath, [path.join(ROOT, "scripts", "lint-calendar.mjs")], { stdio: "inherit" });
+} catch {
+  console.error("ERROR: calendar lint failed; fix the dates above, then rebuild.");
+  process.exit(1);
+}
+
 // Clean dist/ and recreate.
 fs.rmSync(DIST, { recursive: true, force: true });
 fs.mkdirSync(DIST, { recursive: true });

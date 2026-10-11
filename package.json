@@ -8,7 +8,8 @@
     "build:packs": "node ./scripts/build-packs.mjs",
     "unpack:packs": "node ./scripts/unpack-packs.mjs",
     "build:release": "node ./scripts/build-release.mjs",
-    "populate:items": "node ./scripts/populate-actor-items.mjs"
+    "populate:items": "node ./scripts/populate-actor-items.mjs",
+    "lint:calendar": "node ./scripts/lint-calendar.mjs"
   },
   "devDependencies": {
     "@foundryvtt/foundryvtt-cli": "^1.0.4"

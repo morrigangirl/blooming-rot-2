@@ -1014,7 +1014,7 @@
       "img": "icons/equipment/chest/coat-collared-black.webp",
       "system": {
         "description": {
-          "value": "<p>Dark grey Aerdi advocate's overcoat — a credential, not a profession. Sereth was admitted to commercial court in 1556 and has never represented a client at trial; he wears the coat to mark his standing.</p>",
+          "value": "<p>Dark grey Aerdi advocate's overcoat — a credential, not a profession. Sereth was admitted to commercial court in 556 and has never represented a client at trial; he wears the coat to mark his standing.</p>",
           "chat": ""
         },
         "source": {

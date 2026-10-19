@@ -1,0 +1,329 @@
+{
+  "_key": "!journal!BR2T1GzetJrnl000",
+  "_id": "BR2T1GzetJrnl000",
+  "name": "Gradsul \u2014 A Gazetteer (Before the Wars)",
+  "folder": null,
+  "sort": 151000,
+  "ownership": {
+    "default": -1
+  },
+  "flags": {
+    "blooming-rot-2": {
+      "kind": "travel-intermission",
+      "intermission": 1
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "pages": [
+    {
+      "_id": "BR2T1GzPgGM00000",
+      "_key": "!journal.pages!BR2T1GzetJrnl000.BR2T1GzPgGM00000",
+      "name": "Using This Gazetteer (GM)",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h1>Using This Gazetteer</h1>\n<p><em>GM page. The pages between this one and <strong>The Waterfront Underneath</strong> are written to be shown: they carry no secrets, so <strong>Show to Players</strong> is safe on any of them. This page, <em>The Waterfront Underneath</em> and <em>Sources &amp; Credits</em> are yours.</em></p>\n<h2>What it is for</h2>\n<p>The party has Days 12 to 14 in Gradsul with nothing they must do except hear Roke's fire rule (@UUID[Compendium.blooming-rot-2.travel-1-journals.JournalEntry.BR2T1GradJrnl000.JournalEntryPage.BR2T1GrPgShip000]{The Kestrel Wife}). This is the city around that sentence: where things are, who runs them, where five women from the west can buy a meal, a sermon or a fight. Nothing here is load-bearing. The @UUID[Compendium.blooming-rot-2.travel-1-journals.JournalEntry.BR2T1QRefJrnl000.JournalEntryPage.BR2T1QrPgRun0000]{Run Sheet} still gives Gradsul exactly one line.</p>\n<p>If the party goes looking for trouble, it is waiting at the Mermaid's Inn: @UUID[Compendium.blooming-rot-2.travel-1-journals.JournalEntry.BR2T1GullJrnl000.JournalEntryPage.BR2T1GuPgGM00000]{The Gull's Job}.</p>\n<h2>The map</h2>\n<p>@UUID[Compendium.blooming-rot-2.travel-1-scenes.Scene.BR2T1ScnGrad0000]{Gradsul \u2014 City Map (GM)} is the city on a single sheet, GM only: it is not in the navigation bar and players cannot open it. Every pin opens the page here that describes its place, and the gold pins belong to the Gull's Job instead. The pins open GM pages, so players would not see them even on a shown map; if you want the table to see Gradsul later, put the map image on a journal image page and show that.</p>\n<p>The map is a fan-made map, found without a credit; its maker is unknown and is thanked here all the same. Its district and building names appear to come from a fan campaign setting rather than from any published Greyhawk book, and this module uses them as names only: every description in this journal is the module's own. Where a building on the map has a name but no obvious purpose, the entry says so and offers one.</p>\n<h2>Before the Wars</h2>\n<p>This is Gradsul as the older sources draw it: Keoland's greatest port, rich, crowded, pleased with itself and untouched by war. Nothing from the Greyhawk Wars or after is used here \u2014 no blockades, no refugees, no Brotherhood on the horizon \u2014 and this journal gives no year at all, so it reads the same whichever history your table keeps.</p>\n<h2>One disagreement, settled</h2>\n<p>The map puts its <em>Foaming Tower</em> label a street back from the water in the Docklands. @UUID[Compendium.blooming-rot-2.travel-1-journals.JournalEntry.BR2T1GradJrnl000.JournalEntryPage.BR2T1GrPgCity000]{Into Gradsul} and the Wool Quays picture put the tower at the end of the outer mole, with the surf at its foot. Both are true: the building on the map is the temple house where Osprem's bell-mothers live, teach and keep their books, and the tower sailors mean \u2014 the one with the bell \u2014 stands on the mole, just beyond the map's southern edge. The pin marks the house.</p>\n<h2>Running the city</h2>\n<ul>\n<li><strong>Prices</strong> are the ordinary ones in Keoish coin (see <em>Gradsul at a Glance</em>). Gradsul has everything; it simply charges a little more for it than Loftwick.</li>\n<li><strong>Nobody looks twice</strong> at the party (@UUID[Compendium.blooming-rot-2.travel-1-journals.JournalEntry.BR2T1GradJrnl000.JournalEntryPage.BR2T1GrPgCity000]{Into Gradsul}). That is the city's great virtue for them and it holds everywhere on these pages except the Kestrel Wife's plank.</li>\n<li><strong>People.</strong> Officials, celebrities and the underworld are in @UUID[Compendium.blooming-rot-2.travel-1-journals.JournalEntry.BR2T1GPplJrnl000.JournalEntryPage.BR2T1PpPgOffic00]{Gradsul \u2014 Who's Who}, with sheets in the <em>Gradsul</em> folder of First Travel Intermission \u2014 NPCs.</li>\n</ul>\n<h2>What the shown pages leave to you</h2>\n<ul>\n<li><strong>The Umbertine and the Lechtur</strong> are named on the map with no purpose; the module makes the first the Customs House and Exchange and the second the harbour light.</li>\n<li><strong>The great houses</strong> (Hochel Manor, Gelder's Home, Hannay's Home) belong to families the module does not define: use them for any merchant dynasty or minor noble house the party needs to visit, insult or rob.</li>\n<li><strong>The Seekers' lodge</strong> is one of the inns on <em>Inns, Taverns &amp; Shops</em>; the sources do not say which, so pick one.</li>\n<li><strong>Armand's Archery</strong> is worth an hour of Gianni's time.</li>\n</ul>"
+      },
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "BR2T1GzPgCity000",
+      "_key": "!journal.pages!BR2T1GzetJrnl000.BR2T1GzPgCity000",
+      "name": "Gradsul at a Glance",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h1>Gradsul at a Glance</h1>\n<p><strong>Gradsul</strong> means <em>Haven of the Suel</em>, and it is the oldest thing on this coast that still has a roof on it. House Rhola founded it in \u2212368 CY, at the mouth of the Sheldomar where the brown river meets the Azure Sea, and a Rhola still holds it. It is the greatest port in Keoland and its richest market \u2014 it out-trades the capital, Niole Dra, and does not mind who knows it.</p>\n<h2>Who rules</h2>\n<p>Gradsul is the seat of a duchy of the Keoish crown. <strong>Duke Luschan VIII of House Rhola</strong> is also Lord High Admiral of Keoland, and the navy keeps him at <strong>Sanduchar</strong>, the ducal palace and the kingdom's chief shipyard, forty miles down the coast to the south-west. The city itself is run day to day by his cousin, the <strong>Lord Mayor</strong>, from the castle and the halls beneath it. Above them both sits <strong>King Kimbertos Skotti</strong> in Niole Dra, a ranger the Council of Niole Dra chose for the crown, whom half the city calls <em>the Commoner</em>, fondly or otherwise.</p>\n<h2>Who lives here</h2>\n<p>About three people in four are human \u2014 fair Suel and brown Oeridian, with old Flan blood in most families if you go back far enough. The rest are elves, gnomes and halflings in that order, with half-elves and a handful of dwarves. It is a port, and a cosmopolitan one: less superstitious than the Keoish countryside, quicker to laugh, slower to be impressed. A tiefling on the quay draws less attention here than a farmer's cart in the wrong lane.</p>\n<h2>Money</h2>\n<p>Keoish coin: the platinum <strong>griffon</strong>, the gold <strong>lion</strong>, the electrum <strong>eagle</strong>, the silver <strong>hawk</strong> and the copper <strong>sparrow</strong>. Every other coin on the Azure Sea changes hands too, at a rate the money-changers in Plasfeyr will explain at length.</p>\n<h2>What moves through it</h2>\n<p>Down the Sheldomar: wool (it is autumn, and the clip is coming in), grain, hides, Dreadwood timber in great rafts. In from the sea: everything else. Out again: east along the coast to the Aerdi ports and south and west across the Azure Sea. The city eats fish from a ring of fishing villages up and down the coast, and its bread depends on the river barges arriving on time. All wool sold in Gradsul is weighed at the city weigh-house in Orgsworth and taxed by the weight.</p>\n<h2>What it believes</h2>\n<p>Everything, cheerfully, and Osprem first. No hand in this port steps aboard a hull until the bell at the Foaming Tower has rung for it, and the bell-mothers' blessing is the one Keoish custom no Gradsul sailor will laugh at. Procan has a temple on the waterfront for when the sea is in a mood; Zilchus has the merchants; St. Cuthbert has the largest roof in the city; and the rest of the Keoish gods \u2014 Heironeous, Phaulkon, Fharlanghn, Ehlonna, Kord, Lydia, Olidammara and more \u2014 have houses, shrines or at least a table in somebody's tavern.</p>\n<h2>Getting about</h2>\n<p>The Sheldomar cuts the city in two. The old city, the castle, the harbour and nearly everything on these pages are on the <strong>west bank</strong>; the east bank is newer houses and then farms. Bridges cross the river in the north, and ferries everywhere else. The main road north is the <strong>Caisteallweg</strong>, through the north gate past Garrisfurd; the <strong>River Road</strong> runs up the west bank through the <strong>River Gate</strong>; and <strong>High Gate</strong> lets the western road in through Hillgate. The Watch keeps the gates, and the gates close at dark only when someone important is frightened.</p>\n<h2>What it is like</h2>\n<p>Gulls, all day, and bells \u2014 the Foaming Tower's for ships, St. Cuthbert's for the hours, a dozen smaller ones for anything else. Tar and fish and wet wool. Steep streets that turn into stairs without warning. Every third building a warehouse, every fifth an inn. People in Gradsul give directions by the names of taverns, and they are always right.</p>"
+      },
+      "sort": 200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "BR2T1GzPgWater00",
+      "_key": "!journal.pages!BR2T1GzetJrnl000.BR2T1GzPgWater00",
+      "name": "The Waterfront",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h1>The Waterfront</h1>\n<p><em>The harbour quarters along the south shore, from the shipyards in the west to the Port Authority under the castle hill.</em></p>\n<h3>The Docklands</h3>\n<p>The oldest and loudest quarter in the city, packed between the Shipyards and the castle quay: narrow lanes that smell of tar and fish, chandlers and net-lofts, sailors' boarding houses, a dozen inns that never quite close, and the long stone piers where the coastal traffic ties up three deep. Most of what the party will want in Gradsul \u2014 a drink, a berth, a rumour, a fight \u2014 is somewhere in the Docklands, and so is the Kestrel Wife's quay.</p>\n<h3>Orgsworth (the Warehouse District)</h3>\n<p>West of the Shipyards, a grid of great timber-and-stone warehouses with hoists over every door, and at its heart the city <strong>weigh-house</strong>, a long hall with a beam scale big enough to weigh a cart, where every bale of wool sold in Gradsul is weighed and taxed. The wool factors keep their counting rooms here, which is where Vole will send the party if they need fleeces. By day it is the busiest square mile in Keoland; by night it is the emptiest, and the watchmen walk in pairs.</p>\n<h3>The Shipyards</h3>\n<p>A long tongue of land between two basins, covered from end to end with slipways, sheds, rope-walks, sawpits and the ribs of half-built hulls. Most Gradsul merchant hulls are built and mended here; the navy builds at Sanduchar. The noise starts at dawn and the yards are fenced and watched at night, more for the timber than for anything else.</p>\n<h3>The Trading Houses</h3>\n<p>Along the western waterfront the big merchant companies keep their own wharves and warehouses: the <strong>Mandrennin Trading Company</strong>, the <strong>Azure Trading Company</strong> by the long western piers, and <strong>Gelder's Warehouse</strong> among others. Their factors will buy and sell anything in quantity and nothing at retail, and they know the departures of every hull on the coast a week before the hull's own crew does.</p>\n<h3>Plasfeyr (the Market Square)</h3>\n<p>The great open market at the top of the waterfront, where the carts come down from the north road. Awnings, barrows, money-changers' tables, fish on ice and cloth on poles, a fountain nobody can get to, and a crowd that never thins before dark. This is where the party arrives on Day 12 behind Vole's oxen (@UUID[Compendium.blooming-rot-2.travel-1-journals.JournalEntry.BR2T1GradJrnl000.JournalEntryPage.BR2T1GrPgCity000]{Into Gradsul}).</p>\n<h3>The Promenade</h3>\n<p>The broad paved walk that runs south from Plasfeyr toward the Docklands, lined with the tall narrow houses of old Gradsul families and the shops that serve them \u2014 goldsmiths, booksellers, wine merchants, a famous bowyer. It is where Gradsul goes to be seen in the evening, and where reduced gentry rent the top floors of houses their grandparents owned.</p>\n<h3>The Port Authority</h3>\n<p>A squat stone office at the foot of the castle hill with its own pier. The <strong>Harbour Warden</strong> sits here, and nothing leaves Gradsul on a tide without her clearance: every outbound hull is entered, inspected if she likes, and signed out. The Kestrel Wife's papers will pass across this desk on the morning of Day 15. In an emergency the Warden can hold a tide \u2014 every hull in the harbour stays at her moorings until the Watch has looked at it \u2014 and the whole waterfront talks of nothing else for a week when she does.</p>\n<h3>The Dock Workers' Union</h3>\n<p>The stevedores' and porters' guild hall, east of the Port Authority on the castle shore. The union sets the rates for carrying cargo on and off every hull in the port and decides who carries it, and it can empty the quays in an hour if it is unhappy. Gradsul merchants complain about it constantly and pay its rates without exception.</p>\n<h3>The Umbertine</h3>\n<p>The great blue-roofed hall on the waterfront below the castle walls, the largest building in the Docklands. It is the <strong>Customs House and Exchange</strong>: where the Duke's customs are paid on goods landed, where merchants buy and sell cargoes they will never see, and where ships' shares are traded on the floor in the mornings like fish.</p>"
+      },
+      "sort": 300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "BR2T1GzPgUpper00",
+      "_key": "!journal.pages!BR2T1GzetJrnl000.BR2T1GzPgUpper00",
+      "name": "Castle Hill & the Upper Town",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h1>Castle Hill &amp; the Upper Town</h1>\n<p><em>The high ground east of the Docklands, between the harbour and the river: the castle, the old noble quarter, the academies and the parks.</em></p>\n<h3>Kaylgrunn Castle</h3>\n<p>The Rhola fortress on its hill above the harbour, walls and towers of grey stone with the ducal standard over the gate. The Duke is rarely in it \u2014 the navy keeps him at Sanduchar \u2014 and the castle is the Lord Mayor's in practice: the city's courts, treasury and garrison are here, and the Lord Mayor holds his audiences in the old hall. Visitors are admitted by the land gate with business, and turned away without it.</p>\n<h3>The Lechtur</h3>\n<p>A stone tower on the castle hill above the harbour: Gradsul's <strong>harbour light</strong>, a great lamp kept burning in a glass room at the top of a stone tower from dusk to dawn, every night of the year, so that ships coming in from the Azure Sea can find the river mouth and the mole. Keeping it lit is the Duke's oldest duty to the city, and there has been no night without it in living memory.</p>\n<h3>Havverd</h3>\n<p>The quarter north of the castle, built for the old nobility and still mostly theirs: walled houses with gardens, quiet tree-lined streets, the National Academy of Wizardry, the duelling academy, the Royal Museum and the temples of Zilchus and Ehlonna. Watch patrols here are frequent, polite and very curious about strangers after dark.</p>\n<h3>Havverd Barracks</h3>\n<p>The garrison of the upper town, on the north edge of Havverd. Ducal soldiers, not the City Watch: they guard the castle, the Royal Apartments and the treasury, and they do not concern themselves with tavern brawls.</p>\n<h3>The Royal Apartments</h3>\n<p>A walled range of handsome apartments below the castle where the King and his household lodge when the court comes to Gradsul, and where favoured guests of the Crown are housed the rest of the year. Empty this autumn except for servants, a steward and a great many dust-sheets.</p>\n<h3>Gradsul Pond</h3>\n<p>A small lake in a wooded park at the top of the upper town, ringed with walks and benches. Children sail toy ships on it; old sea-captains criticise their seamanship.</p>\n<h3>The Great Houses</h3>\n<p>Gradsul's great merchant families keep their houses in the upper town and the old quarters \u2014 <strong>Hochel Manor</strong> on the Caisteallweg, <strong>Gelder's Home</strong> in Gartten and <strong>Hannay's Home</strong> off the Promenade among them \u2014 behind walls, with porters at the gate who know exactly who is expected.</p>"
+      },
+      "sort": 400000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "BR2T1GzPgOuter00",
+      "_key": "!journal.pages!BR2T1GzetJrnl000.BR2T1GzPgOuter00",
+      "name": "The Old Town & the North",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h1>The Old Town &amp; the North</h1>\n<p><em>The quarters north and west of the market, the gates, and the east bank.</em></p>\n<h3>Gartten</h3>\n<p>The old town proper, west of the market and north of the waterfront: a maze of tall houses, small squares and good-sized public buildings, where most of Gradsul's guildsmen, clerks and shopkeepers live. The Nautical Library is here, and the City Watch House, and a great many temples small and large.</p>\n<h3>Gartten Cemetery</h3>\n<p>A walled city of the dead at the northern edge of Gartten, laid out in neat streets of family tombs. The old families of Gradsul are buried here; the very old ones in the Northern Necropolis.</p>\n<h3>Barndanhel</h3>\n<p>The poorest quarter in the city, a warren of crooked lanes and patched houses north of the Docklands and east of Gartten, crowded with dockhands, rope-makers, washerwomen and everybody who cannot afford to live anywhere better. Friendly by day, unlit by night, and the place the City Watch goes in fours.</p>\n<h3>Little Molvar</h3>\n<p>A crowded, colourful quarter in the north-west, of small low houses and tents, workshops and stalls, settled long ago by people from somewhere else and never entirely persuaded to become Gradsul. Its market is cheaper than Plasfeyr's and its cooking is better.</p>\n<h3>Hillgate &amp; High Gate</h3>\n<p>The quiet western quarter on the hillside, of terraced houses and kitchen gardens, and the gate in the city wall through which the western road comes in. Carters coming from the west pay their toll at High Gate.</p>\n<h3>Garrisfurd &amp; the Arena</h3>\n<p>A busy northern quarter of inns, stables and carters' yards along the Caisteallweg, dominated by the great round <strong>Garrisfurd Arena</strong>: races, bear-baiting, prize-fights and tournaments in season, and on the right afternoon a crowd of ten thousand. Garrisgate, on its southern edge, opens into the market.</p>\n<h3>Bellsfurd &amp; Maldurnanhel</h3>\n<p>The newer northern quarters, of solid tradesmen's houses with yards and kitchen gardens, spreading across both banks of the river at the top of the city. Respectable, prosperous and dull, which their residents consider the point.</p>\n<h3>Ulgrad</h3>\n<p>The north-eastern quarter on the west bank, between the cathedral and the river, of craftsmen's houses, small inns and herbalists. The Maldurn Inn and Alan's Ales are here, and the River Road runs past to the River Gate.</p>\n<h3>The Northern Necropolis</h3>\n<p>The oldest burial ground in Gradsul, a walled and overgrown enclosure off the Caisteallweg, where the first Suel families of the city lie in tombs older than Keoland. Kept locked; opened once a year for the families and otherwise visited by nobody with a respectable reason.</p>\n<h3>The Caisteallweg &amp; the North Gate</h3>\n<p>The main road north out of Gradsul toward Niole Dra, through a fortified gate in the city wall above Garrisfurd. The Watch keeps the gate and a small barracks beside it.</p>\n<h3>The River Road &amp; the River Gate</h3>\n<p>The road up the west bank of the Sheldomar, through the River Gate, past the Riverside Inn and on to the bridge. This is the road the party came in by on Day 12, with Vole's carts.</p>\n<h3>The Sheldomar &amp; the East Bank</h3>\n<p>The river is wide here, brown and busy, crossed by a stone bridge in the north and by ferries everywhere else. The east bank has its own barracks at the bridgehead, a quarter of houses on the high ground, and then open farmland down to the river mouth: fields, a mill, dykes against the tide, and the islands of the Sheldomar mouth beyond.</p>"
+      },
+      "sort": 500000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "BR2T1GzPgTmpl000",
+      "_key": "!journal.pages!BR2T1GzetJrnl000.BR2T1GzPgTmpl000",
+      "name": "Temples & Shrines",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h1>Temples &amp; Shrines</h1>\n<h3>The Foaming Tower (Osprem)</h3>\n<p>The great temple of Osprem, the Suel goddess of sea voyages, is the most important house of worship in Gradsul to anyone who earns a living on the water. The tower itself stands at the end of the outer mole, squat and round and grey, with the surf breaking at its foot and a great bronze bell in its crown; the bell is rung for every hull that leaves the harbour, and the hands aboard touch their foreheads to it as they pass. The temple house in the Docklands, where the map's label sits, is where Osprem's clergy live and work: the <strong>bell-mothers</strong>, in blue vestments worked with ships and dolphins, who bless hulls, teach navigation to the children of the waterfront, nurse the sick off every ship that comes in, and keep the records of every hull lost at sea since the city was founded.</p>\n<h3>The Temple of Procan</h3>\n<p>On the shore east of the castle, a long low temple with its own small harbour, sacred to Procan, the storm-tempered god of the sea itself. Where Osprem is asked for a safe voyage, Procan is asked not to drown you, and the fishermen of the coast keep both temples busy. His priests are blunt, weather-wise and the best boat-handlers in Gradsul.</p>\n<h3>The Temple of the Children (Atroa)</h3>\n<p>A large wooden temple on the edge of the Docklands, sacred to Atroa, the goddess of spring and new beginnings, and home to one of the largest orphanages in Keoland. The children of drowned sailors are raised here by the hundred; on fine days they are everywhere on the waterfront, in clean grey smocks, in long noisy lines.</p>\n<h3>The Cathedral of St. Cuthbert</h3>\n<p>The largest roof in Gradsul: a great stone cathedral in the north of the city with a blue slate spire visible from the sea, and the bells that ring the hours. Cuthbert's clergy are many, earnest and well endowed, and preach common sense, order and hard work to a city that admires all three in moderation.</p>\n<h3>The Temple of Zilchus</h3>\n<p>A handsome colonnaded temple at the top of Havverd, where the merchants of Gradsul honour the god of money and influence, sign their contracts before witnesses and settle their quarrels by arbitration. The temple's clerks keep the most reliable record of debts in the city.</p>\n<h3>The Temple of Ehlonna</h3>\n<p>A temple of green copper and pale stone set in its own garden park in Havverd, sacred to Ehlonna of the Forests. Foresters, rangers, the Dreadwood timber men and every gardener in the upper town come here. Its priestesses keep the park, and the park is the loveliest place in Gradsul.</p>\n<h3>The Temple of Rao</h3>\n<p>A modest temple in Gartten to Rao, the god of peace, reason and serenity. Quiet, calm and kind, and much used by people trying to settle a quarrel without the Watch.</p>\n<h3>Olidammara's Hall</h3>\n<p>The laughing god's house in Gartten, off the Promenade, which is as much a theatre and a wine-hall as a temple. Musicians, actors and rogues worship here, and the jokes in the sermons are very good. It is said in the Docklands that anything stolen in Gradsul is offered back to its owner here, for a fee, before it is offered to anyone else; the priests deny this with a wink.</p>\n<h3>The Druid Hall</h3>\n<p>A low round hall in a walled garden in Gartten, where the Old Faith keeps a grove in the middle of the city. The druids bless the fishing fleet in spring, quarrel politely with Ehlonna's priestesses about trees, and are the only people in Gradsul who know the moods of the Sheldomar better than Procan's priests.</p>\n<h3>The Hall of Inner Perfection</h3>\n<p>A small, plain monastery in Gartten where an old order of monks teaches the discipline of the empty hand to anyone who will sweep its floors for a season: dockhands' children, sailors who want to fight without a knife, the occasional young noble sent there to be humbled. Visitors who move as though they have been taught are given a mat and a meal and asked, politely, to show what they know.</p>"
+      },
+      "sort": 600000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "BR2T1GzPgInst000",
+      "_key": "!journal.pages!BR2T1GzetJrnl000.BR2T1GzPgInst000",
+      "name": "Learning, Guilds & Institutions",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h1>Learning, Guilds &amp; Institutions</h1>\n<h3>The Sea Mages</h3>\n<p>A guild of free wizards with a hall on the eastern shore under the castle hill, who will not submit to the royal academy at Niole Dra and have never needed to: the Duke protects them, and it is said that the archmage Drawmij \u2014 who visits Gradsul more often than he admits, and is some sort of distant relation of the Duke's \u2014 protects them too. The Sea Mages sell their art to the port: weather-reading, ward-laying, finding lost hulls, laying wards on warehouses and strongrooms for a fee. Half the important doors in the city have a Sea Mage's ward on them, and the Sea Mages know it.</p>\n<h3>The Mage's Library</h3>\n<p>A great domed library of the arcane on the upper ground above the River Road, open to members of the Sea Mages and the Academy and to anyone else with a letter and a fee. Its collection of sea-charts annotated with magical hazards is the best on the Azure Sea.</p>\n<h3>The National Academy of Wizardry</h3>\n<p>Gradsul's old school of magic in Havverd, beside the Artisans' Guild \u2014 a school with a famous past and a quieter present. It trains wizards for the navy, the merchant houses and the noble families, and has an uneasy truce with the Sea Mages that both sides describe as friendship.</p>\n<h3>The Nautical Library</h3>\n<p>A round, domed library in Gartten devoted to the sea: charts, rutters, ships' logs, accounts of voyages back to the first Suel landings, and a reading room where copyists make fair copies of charts for any master who can pay. Among its curiosities is an onyx relief brought back from ruins in the far southern jungles: twin serpents coiled about an egg carved over with continents, ringed with screaming figures, and a single number, <em>13,597</em>, that nobody has ever explained.</p>\n<h3>The Royal Explorers' Chapterhouse</h3>\n<p>The Gradsul house of the <strong>Royal Explorers' Society</strong>, a fellowship of scholars, mapmakers and adventurers chartered by the Keoish crown in the reign of Tavish I. Members bring back maps, specimens and accounts of distant places and publish them in the Society's <em>Minutes</em>; to stay in good standing, a member must submit a report every year. The Society's arms are a gold lion of Keoland within a compass rose on a green field. Its chapterhouse on the eastern shore holds a lecture most weeks, open to the public for a silver hawk, and the lectures are the best entertainment in Gradsul that does not involve ale.</p>\n<h3>The Seekers</h3>\n<p>A looser and less respectable fellowship of treasure hunters, antiquarians and tomb-robbers with a gentleman's vocabulary, patronised in Gradsul by the Sellark family. Their lodges are disguised as drinking clubs or ordinary inns, and their signet is eight triangles set around a circle. Nobody outside the Seekers knows which Gradsul inn is their lodge. The Royal Explorers' Society regards them as vandals; the Seekers regard the Society as a lecture with a cellar.</p>\n<h3>Hochonn Naval College</h3>\n<p>A walled college on the far western waterfront where the sons and daughters of good families learn to be officers in the Keoish navy. Its cadets are recognisable all over the city by their blue coats, their sunburn and their conviction that they own the pavement.</p>\n<h3>The Royal Museum</h3>\n<p>A small, narrow townhouse in Havverd, two floors over a cellar, left to the Crown by an admiral's widow a century ago and filled ever since with whatever the Crown seized, salvaged or was given and did not want: figureheads, anchors, old weapons, ship models, stuffed creatures from the southern jungles, and a gallery upstairs of curiosities from the sea. Royal by charter and small in every other respect. Open to anyone with a copper sparrow, most afternoons; its Keeper lectures at the Explorers' Chapterhouse and is delighted to show visitors round.</p>\n<h3>The City Watch House</h3>\n<p>The Watch's headquarters in Gartten, a fortified stone house with cells in the basement and a bell in the roof that summons every patrol in earshot. The Watch is large, mostly honest and very good at stopping fights it can see.</p>\n<h3>The Performers' Guild</h3>\n<p>A guildhall and theatre off the Promenade, home to the city's players, musicians and acrobats. A new comedy opens most months, and the Guild's wardrobe, costume store and makeup rooms are the best-stocked in Keoland.</p>\n<h3>The Artisans' Guild</h3>\n<p>The guildhall of the city's skilled crafts \u2014 goldsmiths, glaziers, engravers, clockmakers \u2014 in a domed building in Havverd. Its members' marks are registered here, which makes it the first place anyone checks when a piece of fine work turns out to be a fake.</p>\n<h3>The Brewers' Guild</h3>\n<p>South of Plasfeyr at the head of the Promenade, a guildhall that smells permanently of malt. The Guild sets the price of ale in Gradsul and tests every brewery's barrels at the turn of each season, and its tasters are the most popular officials in the city.</p>\n<h3>The Illadra Academy (the Duelling Academy)</h3>\n<p>A fencing school in Havverd, where the young bloods of Gradsul learn the sword, the dagger and the art of insulting somebody exactly enough. Its masters are celebrities; its public bouts on holidays fill the courtyard; and its students fight more duels than they should, almost always with blunted blades.</p>"
+      },
+      "sort": 700000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "BR2T1GzPgInns000",
+      "_key": "!journal.pages!BR2T1GzetJrnl000.BR2T1GzPgInns000",
+      "name": "Inns, Taverns & Shops",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h1>Inns, Taverns &amp; Shops</h1>\n<p><em>Gradsul gives directions by tavern names, and everyone has an opinion about every one of them. A selection.</em></p>\n<h2>On the waterfront</h2>\n<h3>The Mermaid's Inn</h3>\n<p>The most famous tavern in Gradsul: a cavernous old taproom at the edge of the Docklands with a great glass tank at its heart, fed by the sea, in which a real mer dances most nights in a wash of blue light. It is loud, crowded, cheap and safe, and painted on the beam over its wide double doors are the words <strong>NO STEEL UNDER THE MERMAID</strong>. Everybody keeps the rule. The keeper, Maud Gannet, sees to it.</p>\n<h3>The Sleeping Dog Inn</h3>\n<p>Below the castle walls on the Docklands' eastern edge: a quiet, clean, expensive inn favoured by ships' masters and merchants who would like to sleep. Its dog, a vast grey mastiff, has been asleep on the step for nine years.</p>\n<h3>The Three Bells Inn</h3>\n<p>A tall old inn in the Docklands with three ships' bells hung over its door, each from a hull lost at sea. Sailors' families gather here to wait for news, and on a bad night the landlord rings one of the bells and the room goes silent.</p>\n<h3>The Golden Anchor Inn</h3>\n<p>The sailors' favourite: good beer, bad food, long tables, and rooms upstairs rented by the night, the hour or the voyage. Everyone in the Docklands has slept here at least once, usually by accident.</p>\n<h3>The Red Belly Tavern</h3>\n<p>A tarry little tavern right on the water, named for the red-bellied fish it fries. Fishermen at dawn, stevedores at noon, and after dark the kind of drinkers who sit with their backs to the wall.</p>\n<h2>In the town</h2>\n<h3>The Golden Clipper Inn</h3>\n<p>A smart inn on the Promenade, with bow windows and a famous wine list, where visiting merchants and minor gentry stay when they want to be seen to be doing well.</p>\n<h3>The Goat and the Gorgon</h3>\n<p>A carters' inn in Garrisfurd, big, warm and noisy, with a yard for a dozen wagons. The sign shows exactly what it says, and the story behind it changes every time somebody tells it.</p>\n<h3>Buellok's Guesthouse</h3>\n<p>A respectable guesthouse in the far west, by Orgsworth and the naval college, much used by wool factors from upriver. Plain rooms, early breakfast and a landlady who knows every bale price on the Sheldomar.</p>\n<h3>The Riverside Inn</h3>\n<p>A low old inn on the River Road outside the River Gate, used by bargemen and drovers who would rather not pay the gate toll twice. Vole's carts water here on their way in on Day 12.</p>\n<h3>The Maldurn Inn &amp; Alan's Ales</h3>\n<p>Two neighbourly rivals in Ulgrad, the inn for its beds and the alehouse for its brown ale. The regulars of each are banned from the other about once a year, for about a week.</p>\n<h3>Barnum's Brews</h3>\n<p>An alehouse just south of Plasfeyr that brews its own, and a favourite of the Brewers' Guild's own tasters when they are off duty.</p>\n<h2>A few shops</h2>\n<h3>Phoebe's Potions</h3>\n<p>A narrow apothecary's shop at the top of Plasfeyr, under a sign of a green glass bottle. Remedies, salves, seasick cures (good ones) and, for the right customer, the more interesting stock in the back room.</p>\n<h3>Armand's Archery</h3>\n<p>The famous bowyer and fletcher of the Promenade, who makes bows for the naval college and arrows for anyone.</p>\n<h3>The Ulgrad Herbalist</h3>\n<p>A herb-woman's shop in Ulgrad with a garden behind it, cheaper than Phoebe's and better at telling you what is actually wrong with you.</p>\n<h3>Fae's Stablery</h3>\n<p>A large livery stable in Garrisfurd. Horses and mules for hire by the day or bought outright, and stabling for anyone's.</p>"
+      },
+      "sort": 800000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "BR2T1GzPgUnder00",
+      "_key": "!journal.pages!BR2T1GzetJrnl000.BR2T1GzPgUnder00",
+      "name": "The Waterfront Underneath (GM)",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h1>The Waterfront Underneath</h1>\n<p><em>GM page \u2014 not for showing. The rest of the Gull's Job is in @UUID[Compendium.blooming-rot-2.travel-1-journals.JournalEntry.BR2T1GullJrnl000.JournalEntryPage.BR2T1GuPgGM00000]{The Gull's Job}.</em></p>\n<h2>What the books say</h2>\n<p>Very little, on purpose: Gradsul's underworld is run by <strong>several thieves' guilds</strong> that the sources never name. And anyone in Keoland who needs to vanish goes to the Earldom of Gand, where the earl asks nobody anything. This module names two of Gradsul's guilds, because the Gull's Job needs them, and leaves the rest for you.</p>\n<h2>The Mooncursers</h2>\n<p>The Docklands guild: smugglers, salvagers, net-loft fences and cutpurses, descended from the wrecking families of Dunmore Head, who used to light false lamps on the cliffs to bring ships onto the rocks and cursed the moon for spoiling the trick. They wreck nothing now. They land cargoes without customs, buy salvage without questions and run every lane between the Shipyards and the castle quay. They are led by a woman the Docklands knows only as <strong>the Gull</strong> \u2014 @UUID[Compendium.blooming-rot-2.travel-1-actors.Actor.BR2T1ActGull0000]{Lady Ysolde Dunmore}, which fewer than a dozen people alive know.</p>\n<h2>The Orgsworth crews</h2>\n<p>The warehouse guild: porters' gangs, cargo thieves and the rackets on the weigh-house scales. Their master is @UUID[Compendium.blooming-rot-2.travel-1-actors.Actor.BR2T1ActWeigh000]{Hobb Garrow, the Weigher}, who holds an honest city office as Deputy Weighmaster and sells dishonest weigh-tickets out of it. Every bale weighed short in Gradsul pays him, and wool is the city's trade. He would like the Docklands too.</p>\n<h2>The Low Table</h2>\n<p>The crews of the waterfront meet when they must at a table in a cellar under the Docklands, at the turn of the morning tide, and settle among themselves what the Watch would settle for them worse. By the oldest custom on the waterfront, whoever brings the <strong>Mooncurser's Pearl</strong> to that table sits at its head, and nobody draws against the head of the Low Table without breaking the custom that every crew on the coast lives by. The Pearl has been in a glass case in the Royal Museum for twelve years.</p>\n<h2>Neutral ground</h2>\n<p>The <strong>Mermaid's Inn</strong> belongs to nobody. <em>No steel under the mermaid</em> is the only law both guilds keep, and the Mermaid's is where the crews meet when they need to meet without killing each other. Breaking that custom is the worst manners on the waterfront. On Day 12, the Weigher breaks it.</p>\n<h2>The Watch's price</h2>\n<p>@UUID[Compendium.blooming-rot-2.travel-1-actors.Actor.BR2T1ActPritch00]{Captain Odo Pritchard} of the City Watch takes the Gull's money for early warning and the Weigher's money for late arrival, and does an honest job of everything else. He will not touch a killing for anybody.</p>"
+      },
+      "sort": 900000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "BR2T1GzPgSrc0000",
+      "_key": "!journal.pages!BR2T1GzetJrnl000.BR2T1GzPgSrc0000",
+      "name": "Sources & Credits (GM)",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h1>Sources &amp; Credits</h1>\n<p><em>GM page.</em></p>\n<h2>Canon used</h2>\n<p>From <a href=\"https://greyhawkonline.com/greyhawkwiki/Gradsul\">Greyhawk Online \u2014 Gradsul</a> and <a href=\"https://greyhawkonline.com/greyhawkwiki/Gradsul_(realm)\">Gradsul (realm)</a>, which in turn cite the <em>Living Greyhawk Gazetteer</em> (2000), <em>Living Greyhawk Journal</em> #1 and Dragon #263 (1999), with the older <em>World of Greyhawk</em> folio (1980) and boxed set (1983) behind them: the city's name, founding by House Rhola in \u2212368 CY, its rank as Keoland's chief port, the Duke, Lord High Admiral and his palace and shipyard at Sanduchar forty miles south-west, the cousin who serves as Lord Mayor, the population mix, the Keoish coins, the dependence on fishing villages, the Temple of the Children with its orphanage, the Foaming Tower of Osprem, the old school of magic, the Sea Mages and their patrons, the library's onyx relief, the Seekers' clubhouse and the Sellark family, the unnamed thieves' guilds, and Gand as the refuge of the hunted.</p>\n<p>Also from Greyhawk Online: <a href=\"https://greyhawkonline.com/greyhawkwiki/Royal_Explorer%27s_Society\">Royal Explorer's Society</a> (charter under Tavish I, the <em>Minutes</em>, the yearly report, the arms), <a href=\"https://greyhawkonline.com/greyhawkwiki/Seekers\">Seekers</a> (lodges as drinking clubs, the signet), <a href=\"https://greyhawkonline.com/greyhawkwiki/Osprem\">Osprem</a> (portfolio and vestments), <a href=\"https://greyhawkonline.com/greyhawkwiki/Kimbertos_Skotti\">Kimbertos Skotti</a> and <a href=\"https://www.greyhawkonline.com/greyhawkwiki/Drawmij\">Drawmij</a>.</p>\n<h2>Left out on purpose</h2>\n<p>Everything those pages date to the Greyhawk Wars or after: the naval blockade and the Duke's victory over it, the refugees of the following year, the later fleet-building and the alliances and bans of the 590s. Also the city's later population figure, which belongs to that later city.</p>\n<h2>Invented here</h2>\n<p>The Lord Mayor's name (the sources give him none), the uses of the Umbertine and the Lechtur, every person in @UUID[Compendium.blooming-rot-2.travel-1-journals.JournalEntry.BR2T1GPplJrnl000.JournalEntryPage.BR2T1PpPgOffic00]{Gradsul \u2014 Who's Who} except the Duke, the King and Drawmij, the Mooncursers, the Orgsworth crews, the Low Table, the Pearl, the weigh-house tax and every description of a place named only on the map.</p>\n<h2>The map</h2>\n<p>A fan-made map of Gradsul whose maker is unknown; it is shipped with the module with thanks and without any claim on it. Its district and building names match a fan campaign setting (\u201cFirefall's Greyhawk\u201d on World Anvil); none of that setting's text is used.</p>"
+      },
+      "sort": 1000000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    }
+  ]
+}

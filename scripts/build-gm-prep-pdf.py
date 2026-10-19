@@ -307,6 +307,10 @@ def html_to_flowables(html, styles, max_image_width=5.5*inch):
     """
     if not html:
         return []
+    # Foundry enrichers mean nothing on paper: keep a link's label, drop its target.
+    html = re.sub(r"@(?:UUID|Compendium)\[[^\]]*\]\{([^}]*)\}", r"<em>\1</em>", html)
+    html = re.sub(r"@(?:UUID|Compendium)\[[^\]]*\]", "", html)
+    html = re.sub(r"&(?:amp;)?Reference\[([^\]]*)\]", r"\1", html)
     # Foundry stores HTML inside JSON strings — make sure we got real HTML
     soup = BeautifulSoup(html, "lxml")
     flow = []

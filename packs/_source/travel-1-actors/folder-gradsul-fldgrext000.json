@@ -1,0 +1,28 @@
+{
+  "_id": "BR2T1FldGrExt000",
+  "_key": "!folders!BR2T1FldGrExt000",
+  "name": "Extras",
+  "type": "Actor",
+  "description": "",
+  "folder": "BR2T1FldGrad0000",
+  "sorting": "m",
+  "sort": 400000,
+  "color": null,
+  "flags": {
+    "blooming-rot-2": {
+      "kind": "travel-intermission",
+      "intermission": 1
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

@@ -6476,6 +6476,192 @@ Mood: stillness, release — a land ranger seeing open water for the first time.
 Style: painterly digital fantasy illustration in the style of contemporary tabletop-RPG book interiors, detail-rich but not photorealistic. NOT 19th-century oil painting — modern fantasy genre art. No text, no labels, no flags with insignia.`,
     postProcess: null,
   },
+  // ============== TIER 52 — First Travel Intermission: Gradsul expansion (v1.9.5) ==============
+  // The six key Gradsul NPCs for the Gull's Job (portrait + round token each), and the
+  // Royal Museum heist map: two floors of one small townhouse museum side by side,
+  // street front at the bottom of both plans, so walls can be traced from the image.
+  {
+    id: "gull-portrait",
+    tier: 52,
+    out: "assets/portraits/gull-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of LADY YSOLDE DUNMORE, twenty-four, the last daughter of an attainted Keoish noble house, living as a poor relation among the great houses of Gradsul.
+Suel-fair: very pale skin, ash-blonde hair worn up in an old-fashioned braided coil, clear grey eyes, a fine straight nose, a small pale mouth. Slight and upright.
+Clothing: a good grey silk gown three seasons out of date and carefully mended at one cuff, a high lace collar, a single seed pearl at each ear. A grey gauze travelling veil has just been lifted back over her hair, and one gloved hand still holds its edge at her temple.
+Two small details a careful eye would catch: a short grey-and-white GULL FEATHER pinned out of sight under the edge of the lace collar, and a pale rope-burn scar across the knuckles of her ungloved left hand.
+Expression: the very picture of a gentle, frightened, well-brought-up young lady — soft brows, lips parted — except the eyes, which are perfectly calm, amused and measuring, as if she has just decided exactly what you are worth.
+Behind her, out of focus: a dim tavern booth, dark wood, and a wash of rippling BLUE-GREEN WATER-LIGHT across the wall, as if from a great lit aquarium tank out of frame.
+Three-quarter view from the chest up, her face centred horizontally in the UPPER HALF of the frame.
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  {
+    id: "gull-token",
+    tier: 52,
+    out: "assets/tokens/gull-token.png",
+    sourceFromExisting: "assets/portraits/gull-portrait.png",
+    skipGeneration: true,
+    postProcess: "round-token-512",
+    // Gull grey and silver: reads as a lady, not a boss.
+    ring: { base: "#4a5561", highlight: "#c9d2da", shadow: "#151a20" },
+  },
+  {
+    id: "weigher-portrait",
+    tier: 52,
+    out: "assets/portraits/weigher-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of HOBB GARROW, called THE WEIGHER, fifty-five, master of the Orgsworth warehouse crews of Gradsul and of every bent scale in the city's weigh-house.
+A heavy, broad, slow-moving man with a butcher's build gone soft at the middle. Bald crown with a close fringe of grey, heavy jowls, a clean-shaven chin, small pale patient eyes, a nose broken long ago. Ink-stained fingers with three plain gold rings.
+Clothing: a merchant's long dark-brown coat with a worn fur collar over a plain linen shirt; across his waistcoat a heavy brass watch-chain hung with a set of tiny brass MERCHANT'S WEIGHTS in place of seals.
+Expression: unhurried, mild, faintly amused — a man sizing you up exactly the way he sizes up a bale of wool, and finding you a little light.
+Behind him, out of focus: the inside of a great timber WEIGH-HOUSE — the long iron beam of a warehouse steelyard scale, chains and hooks, stacked bales of raw fleece, dust in lamplight.
+Three-quarter view from the chest up, his face centred horizontally in the UPPER HALF of the frame, low warm lamplight from one side.
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  {
+    id: "weigher-token",
+    tier: 52,
+    out: "assets/tokens/weigher-token.png",
+    sourceFromExisting: "assets/portraits/weigher-portrait.png",
+    skipGeneration: true,
+    postProcess: "round-token-512",
+    // Weigh-house brass.
+    ring: { base: "#6b5320", highlight: "#d4b25a", shadow: "#1c1406" },
+  },
+  {
+    id: "breck-portrait",
+    tier: 52,
+    out: "assets/portraits/breck-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of WIDOW ANNIS BRECK, sixty-three, who keeps a ship-chandler's shop on the Gradsul docks and buys whatever is brought to her back door.
+Small, wiry and quick, with a sharp nose, sharp chin and bright black eyes; iron-grey hair scraped under a plain black cap; thin lips pressed together. Weathered hands.
+Clothing: widow's black wool, a heavy LEATHER CHANDLER'S APRON over it with a pencil and a twist of tarred twine in its pocket, a ring of iron keys at her belt.
+Expression: shrewd, guarded, and — under it — frightened and guilty, the look of a decent woman who has just done something she cannot take back and is pretending to everyone, including herself, that she has not.
+Behind her, out of focus: crowded chandlery shelves — coils of rope, tallow candles, jars of lamp oil, hanging brass lanterns, a tin toy soldier set carefully on one shelf.
+Three-quarter view from the chest up, her face centred horizontally in the UPPER HALF of the frame, grey daylight from a small window.
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  {
+    id: "breck-token",
+    tier: 52,
+    out: "assets/tokens/breck-token.png",
+    sourceFromExisting: "assets/portraits/breck-portrait.png",
+    skipGeneration: true,
+    postProcess: "round-token-512",
+    // Tallow and tarred rope.
+    ring: { base: "#5a4632", highlight: "#b39a72", shadow: "#18110a" },
+  },
+  {
+    id: "pike-portrait",
+    tier: 52,
+    out: "assets/portraits/pike-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of ABSALOM PIKE, forty-six, copyist at the Nautical Library of Gradsul by day, and by night the finest forger on the Azure coast.
+Thin, stooped, long-necked and long-fingered; thinning dark hair combed flat; a long mild face; half-moon READING LENSES on the end of his nose; a jeweller's LOUPE hanging on a black cord round his neck. Every fingertip stained with ink.
+Clothing: threadbare scholar's black with black linen sleeve-guards pulled up to the elbows, a quill behind one ear.
+Expression: mild, shy, nervous and utterly precise — a man who would apologise to a door for walking into it, and who has not made a mistake with a pen in twenty years.
+Behind him, out of focus: a copyist's slanted desk under a library window, rolled sea charts and open ledgers, and on a square of black velvet a half-finished BLACK GLASS PEARL beside a fine silver claw-setting.
+Three-quarter view from the chest up, his face centred horizontally in the UPPER HALF of the frame, soft north light.
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  {
+    id: "pike-token",
+    tier: 52,
+    out: "assets/tokens/pike-token.png",
+    sourceFromExisting: "assets/portraits/pike-portrait.png",
+    skipGeneration: true,
+    postProcess: "round-token-512",
+    // Ink blue.
+    ring: { base: "#22304f", highlight: "#7d8fbf", shadow: "#0a0f1c" },
+  },
+  {
+    id: "rhola-mayor-portrait",
+    tier: 52,
+    out: "assets/portraits/rhola-mayor-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of LORD AMALRIC RHOLA, fifty-eight, Lord Mayor of Gradsul and cousin of the Duke, who runs the city while the Duke runs the navy.
+A tall, lean Suel aristocrat: very fair skin weathered by sea wind, silver-white hair worn short, clean-shaven, pale blue eyes with deep lines at their corners, a long patrician nose.
+Clothing: rich civic robes of deep sea-blue wool trimmed with silver-grey fur, and across his shoulders the heavy silver CHAIN OF OFFICE of the Lord Mayor, its links shaped like small anchors (no heraldry, no lettering). A rolled document in one hand.
+Expression: urbane, courteous and tired — a capable man doing a cousin's job without a cousin's title, who has heard every petition twice.
+Behind him, out of focus: a tall leaded window of a council chamber looking out over a harbour crowded with masts, grey afternoon light.
+Three-quarter view from the chest up, his face centred horizontally in the UPPER HALF of the frame.
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  {
+    id: "rhola-mayor-token",
+    tier: 52,
+    out: "assets/tokens/rhola-mayor-token.png",
+    sourceFromExisting: "assets/portraits/rhola-mayor-portrait.png",
+    skipGeneration: true,
+    postProcess: "round-token-512",
+    // Ducal sea-blue and silver.
+    ring: { base: "#28457a", highlight: "#9fb7e0", shadow: "#0b1428" },
+  },
+  {
+    id: "gannet-portrait",
+    tier: 52,
+    out: "assets/portraits/gannet-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of MAUD GANNET, fifty-two, keeper of the Mermaid's Inn on the Gradsul docks, where nobody draws steel under her roof.
+Big, broad-shouldered and deep-chested, with a stevedore's forearms; a red, weathered, good-humoured face; grey hair cropped short as a man's; small gold rings in both ears; a front tooth missing.
+Clothing: rolled shirtsleeves, a stained leather tapster's apron, and a heavy wooden BELAYING PIN thrust through the apron string at her hip.
+Expression: amused, unafraid and completely immovable — a woman who has broken up a thousand fights and enjoyed most of them.
+Behind her, out of focus: a dim, crowded tavern of dark beams and lanterns, and the glowing BLUE-GREEN glass wall of a great water tank rising behind the bar; far back inside it, small and blurred, the dark silhouette of a MER — a woman's head and shoulders in a shell-and-seaweed bodice above a long, curling FISH'S TAIL (no legs).
+Three-quarter view from the chest up, her face centred horizontally in the UPPER HALF of the frame, blue tank-light on one side of her face and warm lamplight on the other.
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  {
+    id: "gannet-token",
+    tier: 52,
+    out: "assets/tokens/gannet-token.png",
+    sourceFromExisting: "assets/portraits/gannet-portrait.png",
+    skipGeneration: true,
+    postProcess: "round-token-512",
+    // Mermaid's Inn sea-green.
+    ring: { base: "#22574f", highlight: "#6fc0b0", shadow: "#081a17" },
+  },
+  {
+    id: "royal-museum-map",
+    tier: 52,
+    out: "assets/maps/royal-museum.webp",
+    size: "1536x1024",
+    quality: "high",
+    postProcess: "battlemap",
+    grid: { cols: 24, rows: 16, px: 100 },
+    prompt: `Hand-painted TOP-DOWN battle map for a tabletop RPG: TWO FLOORS of the same small, old, narrow stone townhouse that serves as a city MUSEUM, shown SIDE BY SIDE as two separate cutaway floor plans viewed from directly overhead at ninety degrees, orthographic, no perspective, no tilt.
+SCALE: the whole image represents an area 120 feet wide by 80 feet tall. Each floor plan is the SAME building footprint, about 45 feet wide and 65 feet deep. The LEFT plan is the GROUND FLOOR; the RIGHT plan is the UPPER FLOOR. Both plans are oriented the same way, with the STREET FRONT at the BOTTOM, and both sit side by side at the same height with a clear gap between them.
+Thick dark stone outer walls; thinner plastered inner walls; every doorway drawn as a clear gap holding a wooden door.
+LEFT PLAN — GROUND FLOOR:
+- Across the front (bottom): an ENTRANCE HALL with tall double front doors centred in the street wall, a high wooden keeper's desk, a coat rack and a small iron donation box on a post. Beside the front doors, low in the street wall, a small square iron COAL-CHUTE hatch.
+- Left middle: the WRECK ROOM, a long room holding a huge carved wooden ship's FIGUREHEAD of a crowned woman lying on trestles, two great iron anchors, a ship's bell hung on a timber frame, coils of old cable and a broken ship's wheel.
+- Right middle: the STAIR HALL, with a wide wooden STAIRCASE drawn as steps rising toward the back of the house, and a small door under it leading down to a cellar stair.
+- Back left: the WARDENS' ROOM — two narrow cots, a small table with a lantern and playing cards, a stool, a cold hearth, and a long BELL-PULL rope hanging on the wall.
+- Back right: the KEEPER'S OFFICE — a desk piled with papers and ledgers, tall cabinets, a small iron strongbox, a narrow cot.
+- A short rear passage between the two back rooms ends at a BACK DOOR opening onto a small walled BACK YARD (at the top of the left plan) with a rain barrel, a privy and a narrow gate in its far wall.
+RIGHT PLAN — UPPER FLOOR:
+- Most of the floor is THE GALLERY: one long room with three tall WINDOWS in the street wall (bottom) and two rows of glass-topped wooden DISPLAY CASES down its length; ship models on stands, a tall arch made from a whale's jawbone, framed sea charts on the walls.
+- At the back of the gallery (top), a raised alcove up two shallow steps holds a single ROUND GLASS-DOMED PEDESTAL CASE alone in the centre, directly beneath a square SKYLIGHT drawn as panes of glass in the roof; a few small cases stand around the alcove walls.
+- On the right side, the STAIR HEAD where the staircase from below arrives, opening into the gallery through a wide ARCHWAY; above the stair head, a second, smaller SKYLIGHT.
+- In the back right corner, a small WORKROOM with a workbench, tools, open packing crates and straw.
+OUTSIDE THE PLANS: along the full bottom edge of the image, a strip of wet COBBLED STREET in front of both plans. Everything else around and between the plans is a plain flat dark slate-grey background.
+Light every floor evenly and clearly, like any battle map. Wooden floorboards on the ground floor, a worn patterned carpet runner down the gallery.
+CRITICAL:
+NO people, NO figures, NO creatures anywhere.
+NO text, NO lettering, NO labels, NO numbers, NO grid lines, NO grid squares, NO compass rose, NO scale bar, NO cartouche, NO border or frame.
+NO perspective, NO side view, NO sky, NO roof drawn over the rooms (except the two skylights as described).
+Style: painterly hand-painted fantasy cartography, warm muted earth palette of oak, plaster, slate and brass, consistent with classic Greyhawk-era D&D module battle maps.`,
+  },
 ];
 
 // ----------------- engine -----------------

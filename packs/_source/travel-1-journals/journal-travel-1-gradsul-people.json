@@ -1,0 +1,149 @@
+{
+  "_key": "!journal!BR2T1GPplJrnl000",
+  "_id": "BR2T1GPplJrnl000",
+  "name": "Gradsul \u2014 Who's Who",
+  "folder": null,
+  "sort": 152000,
+  "ownership": {
+    "default": -1
+  },
+  "flags": {
+    "blooming-rot-2": {
+      "kind": "travel-intermission",
+      "intermission": 1
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "pages": [
+    {
+      "_id": "BR2T1PpPgOffic00",
+      "_key": "!journal.pages!BR2T1GPplJrnl000.BR2T1PpPgOffic00",
+      "name": "Officials & Functionaries",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h1>Officials &amp; Functionaries</h1>\n<p><em>GM page. Sheets are in the <strong>Gradsul \u2192 Officials &amp; Functionaries</strong> folder of First Travel Intermission \u2014 NPCs. None of these people needs to appear; each is here for the moment the party asks who is in charge of something.</em></p>\n<table><thead><tr><th>Who</th><th>What they are</th><th>What they want</th><th>If the party crosses them</th></tr></thead><tbody><tr><td>@UUID[Compendium.blooming-rot-2.travel-1-actors.Actor.BR2T1ActMayor000]{Lord Amalric Rhola}</td><td>Lord Mayor of Gradsul, the Duke's cousin. Runs the city from Kaylgrunn Castle while the Duke runs the navy from Sanduchar.</td><td>A quiet autumn. Anything that reaches the Duke's ears as <em>disorder</em> is a failure he will be reminded of at the midwinter feast.</td><td>He does not deal with five wool buyers. His clerks do, slowly. A hue and cry on the Promenade gets the Watch doubled for a week, and his personal attention to the Dunmore name if it surfaces \u2014 his cousin's marines took Dunmore Head.</td></tr><tr><td>@UUID[Compendium.blooming-rot-2.travel-1-actors.Actor.BR2T1ActCotter00]{Jessamy Cotter}</td><td>Harbour Warden, at the Port Authority. Signs every outbound hull out of Gradsul, the Kestrel Wife included.</td><td>Every hull entered, every tide on time, and nothing leaving her harbour that the Watch is looking for.</td><td>She can <strong>hold a tide</strong>: every hull stays at her moorings until the Watch has searched it. She does it perhaps twice a year. See @UUID[Compendium.blooming-rot-2.travel-1-journals.JournalEntry.BR2T1GullJrnl000.JournalEntryPage.BR2T1GuPgPay0000]{Payoff &amp; Consequences}.</td></tr><tr><td>@UUID[Compendium.blooming-rot-2.travel-1-actors.Actor.BR2T1ActPritch00]{Captain Odo Pritchard}</td><td>Captain of the City Watch, from the Watch House in Gartten. Competent, tired, and on two guilds' books.</td><td>Fights stopped, nobody killed, and enough coin from both waterfront guilds to keep his daughters in the convent school.</td><td>He arrests what he can see. He will lose a prisoner for the Gull once, if she asks, and he will not touch a killing for anyone.</td></tr><tr><td>@UUID[Compendium.blooming-rot-2.travel-1-actors.Actor.BR2T1ActLusk0000]{Sea-Mage Perrin Lusk}</td><td>A senior Sea Mage. Laid the ward on the Royal Museum's gallery, among two hundred other wards in the city.</td><td>To be recognised as the finest ward-wright on the Azure coast, and for the royal academy at Niole Dra to admit it in writing.</td><td>If his museum ward is dispelled, he feels it go out and comes to look in the morning, very offended. If it rings, he sends the Watch. He does not come himself unless something has gone very wrong.</td></tr><tr><td>@UUID[Compendium.blooming-rot-2.travel-1-actors.Actor.BR2T1ActWhitlk00]{Keeper Ambrose Whitlock}</td><td>Keeper of the Royal Museum. Popular lecturer, devoted antiquarian, lifelong bachelor, gentle snob.</td><td>Visitors. Money for a new roof. A copy of the Royal Explorers' <em>Minutes</em> with his own paper in it.</td><td>He notices his ward-token is gone the morning after it goes. He notices a bad copy of anything in his museum within a week, and a good one never.</td></tr></tbody></table>\n<h2>Where they are on Days 12\u201314</h2>\n<ul>\n<li><strong>Lord Amalric Rhola:</strong> at the castle, hearing petitions in the mornings. Not available to strangers without a letter.</li>\n<li><strong>Jessamy Cotter:</strong> at the Port Authority from first light to dark, and on the castle quay for every morning tide.</li>\n<li><strong>Captain Pritchard:</strong> anywhere on the waterfront; at the Watch House when the bell rings.</li>\n<li><strong>Perrin Lusk:</strong> the Sea Mages' hall, the Mage's Library, and the best table at the Sleeping Dog.</li>\n<li><strong>Keeper Whitlock:</strong> the Royal Museum in the afternoons; on the evening of <strong>Day 14</strong> he lectures at the Royal Explorers' Chapterhouse (@UUID[Compendium.blooming-rot-2.travel-1-journals.JournalEntry.BR2T1GullJrnl000.JournalEntryPage.BR2T1GuPgPrep000]{Laying the Job}).</li>\n</ul>"
+      },
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "BR2T1PpPgPopul00",
+      "_key": "!journal.pages!BR2T1GPplJrnl000.BR2T1PpPgPopul00",
+      "name": "Popular Figures",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h1>Popular Figures</h1>\n<p><em>GM page. The people Gradsul talks about. Sheets are in <strong>Gradsul \u2192 Popular Figures</strong>.</em></p>\n<table><thead><tr><th>Who</th><th>What they are</th><th>What they want</th><th>If the party crosses them</th></tr></thead><tbody><tr><td>@UUID[Compendium.blooming-rot-2.travel-1-actors.Actor.BR2T1ActLark0000]{Pippa Lark}</td><td>The most famous comic actress in Keoland, at the Performers' Guild off the Promenade. Plays queens, fishwives and, notoriously, the Lord Mayor.</td><td>A good story \u2014 true or not, theirs or anyone's. Tell her one and she will lend you anything in the Guild's wardrobe.</td><td>She is wounded, loudly, in every green room in Gradsul, and the Guild's wardrobe is closed to them.</td></tr><tr><td>@UUID[Compendium.blooming-rot-2.travel-1-actors.Actor.BR2T1ActPlover00]{Bell-Mother Agathe Plover}</td><td>Senior bell-mother of the Foaming Tower. Rings the bell for every departing hull and blesses every one by name.</td><td>Every hand home again. Nobody sailing unblessed.</td><td>Nobody crosses a bell-mother on this waterfront. If the party tries, every sailor in earshot sides with her.</td></tr><tr><td>@UUID[Compendium.blooming-rot-2.travel-1-actors.Actor.BR2T1ActOona0000]{Oona}</td><td>The mer who dances in the great tank at the Mermaid's Inn most nights, for coin and herring. Comes and goes by the sea channel under the floor.</td><td>Her own business, which nobody on land understands. She likes Maud, dislikes noise, and sees everything that happens in the room.</td><td>She dives, and the room loses its show. She remembers faces.</td></tr><tr><td>@UUID[Compendium.blooming-rot-2.travel-1-actors.Actor.BR2T1ActFerrand0]{Josca Ferrand}</td><td>Swordmistress of the Illadra Academy, the duelling school, and the most celebrated blade in Gradsul.</td><td>To drink in peace, which is why she drinks at the Mermaid's: nobody can challenge her where nobody draws.</td><td>She is delighted. A fight with fists is a holiday for her, and she has never lost one either.</td></tr></tbody></table>\n<h2>Using them</h2>\n<ul>\n<li><strong>Pippa Lark</strong> is the party's way into costume and character for the front-door approach to the museum; see @UUID[Compendium.blooming-rot-2.travel-1-journals.JournalEntry.BR2T1GullJrnl000.JournalEntryPage.BR2T1GuPgPrep000]{Laying the Job}.</li>\n<li><strong>Bell-Mother Plover</strong> rings the Kestrel Wife out on Day 15 (@UUID[Compendium.blooming-rot-2.travel-1-journals.JournalEntry.BR2T1GradJrnl000.JournalEntryPage.BR2T1GrPgSail000]{Out of the Sheldomar}). If anyone in the party visits the Foaming Tower, she is who meets them at the door.</li>\n<li><strong>Oona</strong> and <strong>Josca Ferrand</strong> are both in the room for the brawl (@UUID[Compendium.blooming-rot-2.travel-1-journals.JournalEntry.BR2T1GullJrnl000.JournalEntryPage.BR2T1GuPgBrawl00]{The Brawl at the Mermaid}).</li>\n</ul>"
+      },
+      "sort": 200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "BR2T1PpPgUnder00",
+      "_key": "!journal.pages!BR2T1GPplJrnl000.BR2T1PpPgUnder00",
+      "name": "The Underworld (GM)",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h1>The Underworld</h1>\n<p><em>GM page \u2014 the cast of @UUID[Compendium.blooming-rot-2.travel-1-journals.JournalEntry.BR2T1GullJrnl000.JournalEntryPage.BR2T1GuPgGM00000]{The Gull's Job}. Sheets are in <strong>Gradsul \u2192 The Underworld</strong> and, for the nameless, <strong>Gradsul \u2192 Extras</strong>.</em></p>\n<table><thead><tr><th>Who</th><th>What they are</th><th>What the party sees first</th></tr></thead><tbody><tr><td>@UUID[Compendium.blooming-rot-2.travel-1-actors.Actor.BR2T1ActGull0000]{Lady Ysolde Dunmore \u2014 the Gull}</td><td>Head of the Mooncursers, the Docklands guild. Last of the attainted House Dunmore. Twenty-four. Nobody on the Promenade suspects her and fewer than a dozen people on the waterfront know her face.</td><td>A frightened young noblewoman in a grey veil, alone at a corner table in the Mermaid's Inn.</td></tr><tr><td>@UUID[Compendium.blooming-rot-2.travel-1-actors.Actor.BR2T1ActNye00000]{Gethin Nye}</td><td>Her right hand. Her father's bosun, who carried her off Dunmore Head when the Duke's marines came.</td><td>Her elderly coachman, with a lantern, waiting outside.</td></tr><tr><td>@UUID[Compendium.blooming-rot-2.travel-1-actors.Actor.BR2T1ActWeigh000]{Hobb Garrow \u2014 the Weigher}</td><td>Deputy Weighmaster of the city weigh-house, master of the Orgsworth crews. Wants the Docklands and the head of the Low Table.</td><td>Nothing, if they are lucky. A fat, mild, fur-collared man at the weigh-house if they go looking.</td></tr><tr><td>@UUID[Compendium.blooming-rot-2.travel-1-actors.Actor.BR2T1ActDogger00]{Dogger Haines}</td><td>The Weigher's hook-man. Ran the snatch at the Mermaid's.</td><td>A big, cheerful stevedore who starts the fight on the far side of the room.</td></tr><tr><td>@UUID[Compendium.blooming-rot-2.travel-1-actors.Actor.BR2T1ActBreck000]{Widow Annis Breck}</td><td>Ship-chandler and fence on the Docklands. Sold the Gull's face to the Weigher, and will sell the night of the job too. The Weigher holds her grandson's debt.</td><td>A sharp old widow in a leather apron who has exactly what they need, at a price.</td></tr><tr><td>@UUID[Compendium.blooming-rot-2.travel-1-actors.Actor.BR2T1ActPike0000]{Absalom Pike}</td><td>Copyist at the Nautical Library, and the finest forger on the coast. Makes the replica Pearl and the party's papers.</td><td>A thin man in black diving under the Gull's table with a satchel clutched to his chest.</td></tr><tr><td>@UUID[Compendium.blooming-rot-2.travel-1-actors.Actor.BR2T1ActGannet00]{Maud Gannet}</td><td>Keeper of the Mermaid's Inn, neutral ground. Pays neither guild and is respected by both.</td><td>The very large woman with the belaying pin.</td></tr></tbody></table>\n<h2>Extras</h2>\n<p>@UUID[Compendium.blooming-rot-2.travel-1-actors.Actor.BR2T1ActWTough00]{Weigher's Tough} (the snatch team and the Weigher's crew), @UUID[Compendium.blooming-rot-2.travel-1-actors.Actor.BR2T1ActWatch000]{Gradsul Watchman} (patrols, and the hue and cry), @UUID[Compendium.blooming-rot-2.travel-1-actors.Actor.BR2T1ActWarden00]{Museum Night Warden} (two at the museum), @UUID[Compendium.blooming-rot-2.travel-1-actors.Actor.BR2T1ActCutter00]{Mooncurser Cutter} (the Gull's people on the rooftops) and @UUID[Compendium.blooming-rot-2.travel-1-actors.Actor.BR2T1ActRegulr00]{Mermaid's Inn Regular} (the crowd in the Mermaid's, when it turns on whoever drew steel).</p>\n<h2>Names and tokens</h2>\n<p>The Gull's token is named <em>Veiled Lady</em>, so dropping it on a scene gives nothing away. Token names are hidden on every sheet in this folder.</p>"
+      },
+      "sort": 300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "BR2T1PpPgCrown00",
+      "_key": "!journal.pages!BR2T1GPplJrnl000.BR2T1PpPgCrown00",
+      "name": "The Duke, the King & the Archmage",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h1>The Duke, the King &amp; the Archmage</h1>\n<p><em>GM page. Canon figures who are not in Gradsul this week, and are not statted on purpose: if the party is fighting the Lord High Admiral of Keoland, something has gone wrong that a sheet will not fix.</em></p>\n<h2>Duke Luschan VIII of Rhola</h2>\n<p>Duke of Gradsul and Lord High Admiral of Keoland: a wizard and a fighter both, and the kingdom's sea power in one man. He spends most of the year at <strong>Sanduchar</strong>, his palace and the navy's shipyard forty miles south-west, and leaves the city to his cousin. He is a serious man about the coast and has been known to arrive in Gradsul by sea without warning, which keeps the Lord Mayor honest.</p>\n<h2>King Kimbertos Skotti</h2>\n<p>King of Keoland in Niole Dra, a ranger raised to the throne by the Council of Niole Dra; called <em>the Commoner</em> by people who mean it kindly and by people who do not. He is a long way upriver and nothing in this intermission reaches him.</p>\n<h2>Drawmij</h2>\n<p>The archmage, one of the Circle of Eight, who keeps a home somewhere under the sea south of Gradsul, visits the city more often than he admits, protects the Sea Mages, and is said to be some distant relation of the Duke's. If the party meets Drawmij in Gradsul, it is because you decided they should.</p>"
+      },
+      "sort": 400000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    }
+  ]
+}

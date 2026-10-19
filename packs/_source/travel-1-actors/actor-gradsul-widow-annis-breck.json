@@ -1,0 +1,819 @@
+{
+  "_key": "!actors!BR2T1ActBreck000",
+  "_id": "BR2T1ActBreck000",
+  "name": "Widow Annis Breck",
+  "type": "npc",
+  "img": "modules/blooming-rot-2/assets/portraits/breck-portrait.png",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 14,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "dex": {
+        "value": 12,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "con": {
+        "value": 14,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "int": {
+        "value": 13,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "wis": {
+        "value": 15,
+        "proficient": 1,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "cha": {
+        "value": 13,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      }
+    },
+    "attributes": {
+      "init": {
+        "ability": "dex",
+        "bonus": ""
+      },
+      "movement": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 0,
+        "swim": 0,
+        "walk": 30,
+        "units": "ft",
+        "hover": false
+      },
+      "attunement": {
+        "max": 3
+      },
+      "senses": {
+        "ranges": {
+          "darkvision": 0,
+          "blindsight": 0,
+          "tremorsense": 0,
+          "truesight": 0
+        },
+        "units": "ft",
+        "special": ""
+      },
+      "spellcasting": "",
+      "exhaustion": 0,
+      "concentration": {
+        "ability": "",
+        "bonuses": {
+          "save": ""
+        },
+        "limit": 1
+      },
+      "hp": {
+        "value": 33,
+        "max": 33,
+        "temp": 0,
+        "tempmax": 0,
+        "formula": ""
+      },
+      "ac": {
+        "flat": 13,
+        "calc": "natural",
+        "formula": ""
+      },
+      "death": {
+        "success": 0,
+        "failure": 0
+      },
+      "inspiration": false
+    },
+    "details": {
+      "biography": {
+        "value": "<p><strong>Ship-chandler on Tarpot Lane, and the oldest fence on the Docklands.</strong> Sixty-three. CR 1/2.</p><p>She sold the Gull to the Weigher, and it is the worst thing she has ever done. The Weigher holds the debt of her grandson Kit \u2014 forty gold lions lost at dice in Orgsworth, and the boy's hands if it is not paid \u2014 and the price of the marker was the name of the only customer who had ever lifted her veil in Breck's shop.</p><p><strong>In the Gull's Job</strong> she sells the party tools and a builder's plan of the museum, at the Gull's direction, and then sells the Weigher the night they mean to use them. She is frightened, guilty, quick-tongued and not wicked: she is cornered. The tin soldier on her shelf is Kit's.</p><p><strong>Turning her:</strong> pay Kit's debt (40 gp to the Weigher's clerk at the weigh-house, and she will believe it when she sees the marker), or bring her the Gull's own word that Kit is safe. Either way she will tell the Weigher whatever night the party chooses.</p><p><em>Sheet derived from the Councilor Belven Astor stat block (CR 1/2, 33 hp) \u2014 kit renamed and redescribed.</em></p>",
+        "public": ""
+      },
+      "alignment": "Lawful Good",
+      "race": null,
+      "type": {
+        "value": "humanoid",
+        "subtype": "human",
+        "swarm": "",
+        "custom": ""
+      },
+      "environment": "urban",
+      "cr": 0.5,
+      "spellLevel": 0,
+      "source": {
+        "custom": "Blooming Rot, Part 2 \u2014 First Travel Intermission",
+        "book": "",
+        "page": "",
+        "license": ""
+      }
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dm": {
+        "amount": {},
+        "bypasses": []
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
+      "languages": {
+        "value": [
+          "common"
+        ],
+        "custom": "Old Aerdi; Aerdy nautical cipher"
+      }
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "skills": {
+      "his": {
+        "value": 1,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ins": {
+        "value": 1,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "prc": {
+        "value": 1,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "prs": {
+        "value": 1,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      }
+    },
+    "spells": {
+      "spell1": {
+        "value": 0,
+        "override": 0,
+        "max": 0
+      },
+      "spell2": {
+        "value": 0,
+        "override": 0,
+        "max": 0
+      },
+      "spell3": {
+        "value": 0,
+        "override": 0,
+        "max": 0
+      },
+      "spell4": {
+        "value": 0,
+        "override": 0,
+        "max": 0
+      },
+      "spell5": {
+        "value": 0,
+        "override": 0,
+        "max": 0
+      },
+      "spell6": {
+        "value": 0,
+        "override": 0,
+        "max": 0
+      },
+      "spell7": {
+        "value": 0,
+        "override": 0,
+        "max": 0
+      },
+      "spell8": {
+        "value": 0,
+        "override": 0,
+        "max": 0
+      },
+      "spell9": {
+        "value": 0,
+        "override": 0,
+        "max": 0
+      },
+      "pact": {
+        "value": 0,
+        "override": null,
+        "max": 0,
+        "level": 0
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": false,
+        "initiative": null
+      }
+    },
+    "bonuses": {
+      "mwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "msak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rsak": {
+        "attack": "",
+        "damage": ""
+      },
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      },
+      "spell": {
+        "dc": ""
+      }
+    }
+  },
+  "prototypeToken": {
+    "name": "Widow Annis Breck",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/blooming-rot-2/assets/tokens/breck-token.png",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "fit": "contain",
+      "anchorX": 0.5,
+      "anchorY": 0.5
+    },
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": 0,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "negative": false,
+      "priority": 0
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": true,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {}
+  },
+  "items": [
+    {
+      "_key": "!actors.items!BR2T1ActBreck000.BR2Ieb04b1242e65",
+      "_id": "BR2Ieb04b1242e65",
+      "name": "Dagger",
+      "type": "weapon",
+      "img": "modules/dnd-players-handbook/assets/icons/items/dagger.webp",
+      "system": {
+        "description": {
+          "value": "",
+          "chat": ""
+        },
+        "price": {
+          "value": 2,
+          "denomination": "gp"
+        },
+        "source": {
+          "custom": "",
+          "rules": "2024"
+        },
+        "identified": true,
+        "unidentified": {
+          "description": ""
+        },
+        "container": null,
+        "quantity": 1,
+        "weight": {
+          "value": 1,
+          "units": "lb"
+        },
+        "rarity": "",
+        "attunement": "",
+        "attuned": false,
+        "equipped": true,
+        "cover": null,
+        "crewed": false,
+        "range": {
+          "value": 20,
+          "long": 60,
+          "units": "ft",
+          "reach": null
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "damage": {
+          "versatile": {
+            "number": null,
+            "denomination": null,
+            "bonus": "",
+            "types": [],
+            "custom": {
+              "enabled": true,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": null,
+              "formula": ""
+            }
+          },
+          "base": {
+            "number": 1,
+            "denomination": 4,
+            "types": [
+              "piercing"
+            ],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            },
+            "bonus": ""
+          }
+        },
+        "armor": {
+          "value": null
+        },
+        "hp": {
+          "value": null,
+          "max": null,
+          "dt": null,
+          "conditions": ""
+        },
+        "type": {
+          "value": "simpleM",
+          "baseItem": "dagger"
+        },
+        "magicalBonus": null,
+        "properties": [
+          "fin",
+          "lgt",
+          "thr"
+        ],
+        "proficient": null,
+        "activities": {
+          "3SJSAL3pv9gKkAM9": {
+            "type": "attack",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": "20",
+              "units": "ft",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": false,
+              "override": false
+            },
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "sort": 0,
+            "_id": "3SJSAL3pv9gKkAM9",
+            "name": "",
+            "img": "",
+            "appliedEffects": []
+          }
+        },
+        "ammunition": {},
+        "mastery": "nick",
+        "identifier": "dagger"
+      },
+      "effects": [],
+      "folder": "FL1Jee9DzStc7vM3",
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "activity": [],
+            "effect": []
+          }
+        },
+        "core": {
+          "sourceId": "Compendium.dnd-players-handbook.equipment.Item.phbwepDagger0000"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.dnd-players-handbook.equipment.Item.phbwepDagger0000",
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": 1724425918352,
+        "modifiedTime": 1726075772544,
+        "lastModifiedBy": "dnd5ebuilder0000",
+        "exportSource": null
+      }
+    },
+    {
+      "_key": "!actors.items!BR2T1ActBreck000.BR2If396c91cef15",
+      "_id": "BR2If396c91cef15",
+      "name": "Ring of Shop Keys",
+      "type": "loot",
+      "img": "icons/sundries/misc/pin-bronze.webp",
+      "system": {
+        "description": {
+          "value": "<p>Iron keys to the chandlery on Tarpot Lane, its strong cupboard and the back door that most of her business comes through.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Blooming Rot 2",
+          "book": "",
+          "page": ""
+        },
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "identified": true,
+        "equipped": false,
+        "type": {
+          "value": "trinket",
+          "subtype": ""
+        },
+        "properties": []
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_key": "!actors.items!BR2T1ActBreck000.BR2I5729395abbf5",
+      "_id": "BR2I5729395abbf5",
+      "name": "Chandler's Apron over Widow's Black",
+      "type": "equipment",
+      "img": "icons/equipment/chest/coat-collared-leather-tan.webp",
+      "system": {
+        "description": {
+          "value": "<p>A heavy leather chandler's apron over plain widow's black, with a pencil and a twist of tarred twine in the pocket.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Blooming Rot 2",
+          "book": "",
+          "page": ""
+        },
+        "quantity": 1,
+        "weight": {
+          "value": 1,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "identified": true,
+        "equipped": true,
+        "armor": {
+          "value": 10,
+          "type": "clothing",
+          "dex": null,
+          "magicalBonus": 0
+        },
+        "strength": 0,
+        "stealth": false,
+        "properties": [],
+        "type": {
+          "value": "clothing",
+          "baseItem": ""
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_key": "!actors.items!BR2T1ActBreck000.BR2I2a673b4c84b0",
+      "_id": "BR2I2a673b4c84b0",
+      "name": "Chandler's Eye",
+      "type": "feat",
+      "img": "icons/sundries/scrolls/scroll-rolled-tan.webp",
+      "system": {
+        "description": {
+          "value": "<p>Advantage on Insight and Perception checks about goods, prices, and who on the Docklands is buying what. Forty years behind a chandler's counter.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Blooming Rot 2 (NPC feature)",
+          "book": "",
+          "page": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": "",
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": [],
+          "spent": 0
+        },
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "requirements": "",
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": []
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "BR2T1FldGrUnd000",
+  "sort": 500000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "blooming-rot-2": {
+      "kind": "travel-intermission",
+      "intermission": 1
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

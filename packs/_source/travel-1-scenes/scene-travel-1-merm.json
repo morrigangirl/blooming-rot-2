@@ -7,7 +7,7 @@
   "navOrder": 0,
   "navName": "Mermaid's Inn",
   "background": {
-    "src": "assets/blooming-rot-2/mermaid-inn/MermaidInnFloor1.png",
+    "src": "blooming-rot-2-local/mermaid-inn/MermaidInnFloor1.png",
     "anchorX": 0.5,
     "anchorY": 0.5,
     "offsetX": 0,
@@ -1548,7 +1548,7 @@
     "blooming-rot-2": {
       "kind": "travel-intermission",
       "intermission": 1,
-      "sceneNote": "Drawn on the GM's own copy of 2-Minute Tabletop's The Mermaid Inn, which the module does not ship. If the background is blank, unzip MermaidInnFloor1.png and MermaidInnFloor2.png from MermaidInn.zip into Data/assets/blooming-rot-2/mermaid-inn/ on the machine that runs the world. 140 px grid, 19 x 8 squares."
+      "sceneNote": "Drawn on the GM's own copy of 2-Minute Tabletop's The Mermaid Inn, which the module does not ship. If the background is blank, unzip MermaidInnFloor1.png and MermaidInnFloor2.png from MermaidInn.zip into Data/blooming-rot-2-local/mermaid-inn/ on the machine that runs the world. 140 px grid, 19 x 8 squares."
     }
   },
   "_stats": {

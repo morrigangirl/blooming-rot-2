@@ -1466,6 +1466,152 @@
       }
     },
     {
+      "_key": "!actors.items!BR2T1ActSarn0000.BR2I5ccfc762b7ff",
+      "_id": "BR2I5ccfc762b7ff",
+      "name": "Net",
+      "type": "feat",
+      "img": "modules/dnd-players-handbook/assets/full/items/net.webp",
+      "system": {
+        "description": {
+          "value": "<p><em>Dexterity Saving Throw:</em> DC [[lookup @save.dc.value activity=w3Xl7LJUNuvF9Qvg]], one Large or smaller creature the [[lookup @name lowercase]] can see within 15 feet. <em>Failure:</em> the target has the Restrained condition until it escapes. It, or a creature within 5 feet of it, can take an action to make a DC 10 Strength (Athletics) check, freeing it on a success. Destroying the net (AC 10; 5 HP; immunity to Bludgeoning, Poison and Psychic damage) also frees it.</p><p>Sarn throws it in place of one attack of his Multiattack, and he carries one. He leads with it.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "",
+          "rules": "2024"
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "prerequisites": {
+          "level": null,
+          "repeatable": false,
+          "items": []
+        },
+        "properties": [],
+        "requirements": "",
+        "activities": {
+          "w3Xl7LJUNuvF9Qvg": {
+            "type": "save",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": true,
+              "units": "ft",
+              "value": "15",
+              "special": ""
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": "",
+                "size": "",
+                "count": "",
+                "width": "",
+                "stationary": false
+              },
+              "affects": {
+                "choice": false,
+                "count": "1",
+                "type": "creature",
+                "special": "Large or smaller"
+              },
+              "override": true,
+              "prompt": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "damage": {
+              "parts": [],
+              "onSave": "none",
+              "critical": {
+                "allow": false
+              }
+            },
+            "save": {
+              "ability": [
+                "dex"
+              ],
+              "dc": {
+                "calculation": "",
+                "formula": "11"
+              }
+            },
+            "name": "",
+            "_id": "w3Xl7LJUNuvF9Qvg",
+            "img": null,
+            "flags": {},
+            "visibility": {
+              "level": {},
+              "requireAttunement": false,
+              "requireIdentification": false,
+              "requireMagic": false
+            }
+          }
+        },
+        "enchant": {},
+        "identifier": "net",
+        "advancement": {},
+        "crewed": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 850,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "activity": [],
+            "effect": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      }
+    },
+    {
       "_key": "!actors.items!BR2T1ActSarn0000.BR2I6b2771d8884a",
       "_id": "BR2I6b2771d8884a",
       "name": "Parry",
@@ -1473,7 +1619,7 @@
       "img": "icons/skills/melee/shield-block-bash-blue.webp",
       "system": {
         "description": {
-          "value": "<p>When another creature damages you with a melee attack roll, you can take a Reaction and expend one Superiority Die to reduce the damage by the number you roll on your Superiority Die plus your Strength or Dexterity modifier (your choice).</p><section class=\"secret\" id=\"secret-0wY3O9dAMQDKj066\"><p><strong>Foundry Note</strong></p><p>This feature includes a Healing Reaction activity which can be used to retroactively recover the received damage.</p></section>",
+          "value": "<p><strong>Reaction.</strong> When the [[lookup @name lowercase]] is hit by a melee attack roll while holding a weapon, it adds 2 to its AC against that attack, possibly causing it to miss.</p>",
           "chat": ""
         },
         "source": {
@@ -1494,84 +1640,7 @@
         },
         "properties": [],
         "requirements": "",
-        "activities": {
-          "F4UxiihGgkdv4orJ": {
-            "type": "heal",
-            "_id": "F4UxiihGgkdv4orJ",
-            "activation": {
-              "type": "reaction",
-              "value": null,
-              "override": false,
-              "condition": "When another creature damages you with a melee attack roll"
-            },
-            "consumption": {
-              "scaling": {
-                "allowed": false
-              },
-              "spellSlot": true,
-              "targets": [
-                {
-                  "type": "itemUses",
-                  "value": "1",
-                  "target": "Compendium.dnd-players-handbook.classes.Item.phbftrCombatSupe"
-                }
-              ]
-            },
-            "description": {
-              "chatFlavor": ""
-            },
-            "duration": {
-              "units": "inst",
-              "concentration": false,
-              "override": false
-            },
-            "effects": [],
-            "range": {
-              "override": false,
-              "units": "self",
-              "special": ""
-            },
-            "target": {
-              "template": {
-                "contiguous": false,
-                "units": "ft",
-                "type": ""
-              },
-              "affects": {
-                "choice": false,
-                "count": "",
-                "type": "self",
-                "special": ""
-              },
-              "override": false,
-              "prompt": false
-            },
-            "uses": {
-              "spent": 0,
-              "recovery": [],
-              "max": ""
-            },
-            "sort": 0,
-            "healing": {
-              "number": null,
-              "denomination": "",
-              "types": [
-                "healing"
-              ],
-              "custom": {
-                "enabled": true,
-                "formula": "@scale.battle-master.superiority.die + max(@abilities.str.mod, @abilities.dex.mod)"
-              },
-              "scaling": {
-                "number": 1
-              },
-              "bonus": ""
-            },
-            "name": "",
-            "img": "",
-            "appliedEffects": []
-          }
-        },
+        "activities": {},
         "enchant": {},
         "identifier": "parry"
       },
@@ -1612,7 +1681,7 @@
       "img": "icons/sundries/scrolls/scroll-rolled-tan.webp",
       "system": {
         "description": {
-          "value": "<p>When Thale reduces a creature to 0 HP with a melee attack, he may choose to knock them <strong>unconscious</strong> instead of killing them, with no penalty to the attack. <strong>Recharges:</strong> short or long rest.</p>",
+          "value": "<p>When the [[lookup @name lowercase]] reduces a creature to 0 hit points with a melee attack, it can knock the creature unconscious instead of killing it, with no penalty to the attack. Recharges on a short or long rest.</p>",
           "chat": ""
         },
         "source": {

@@ -445,7 +445,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p><strong>Mate of the <em>Grey Fee</em>.</strong> Sea Princes-trained, and it shows in everything he does. CR 3.</p><p>The dangerous one. Sarn holds the contract; Tarrow knows how to take a hull. He calls the count in round two \u2014 <em>&ldquo;Five! Count 'em \u2014 five, and no burning!&rdquo;</em> \u2014 and he carries the slow-match, because his real orders are to make sure that if the boarding fails the cargo does not reach Hardby either.</p><p><strong>Tactics:</strong> avoids the melee and works toward the fore hatch. Multiattack and Parry make him a real problem for anyone who chases him alone, and he will not be drawn off the hatch by an insult \u2014 only by a body between him and it.</p><p><strong>On his person:</strong> a reader's copy of the circular in a tarred wallet against his skin (Perception DC 16). This is the letter's second delivery route and the reason the encounter cannot fail to hand the party its clue.</p><p><strong>Elle's thread:</strong> a Heironean sunburst filed off his crossbow stock, badly, and recently. He will not say where he got it, and there is no good answer.</p><p><em>Sheet derived from the Brell Kostan stat block (CR 3, 65 hp), kit renamed.</em></p>",
+        "value": "<p><strong>Mate of the <em>Grey Fee</em>.</strong> Sea Princes-trained, and it shows in everything he does. CR 3.</p><p>The dangerous one. Sarn holds the contract; Tarrow knows how to take a hull. He calls the count in round two \u2014 <em>&ldquo;Five! Count 'em \u2014 five, and no burning!&rdquo;</em> \u2014 and he carries the slow-match, because his real orders are to make sure that if the boarding fails the cargo does not reach Hardby either.</p><p><strong>Tactics:</strong> avoids the melee and works toward the fore hatch. Multiattack and Parry make him a real problem for anyone who chases him alone, and he will not be drawn off the hatch by an insult \u2014 only by a body between him and it.</p><p><strong>On his person:</strong> a reader's copy of the circular in a tarred wallet against his skin (Perception DC 16). This is the letter's second delivery route and the reason the encounter cannot fail to hand the party its clue.</p><p><strong>Elle's thread:</strong> the lightning bolt of Heironeous filed off his crossbow stock, badly, and recently. He will not say where he got it, and there is no good answer.</p><p><em>Sheet derived from the Brell Kostan stat block (CR 3, 65 hp), kit renamed.</em></p>",
         "public": ""
       },
       "alignment": "Neutral",
@@ -1271,7 +1271,7 @@
       "img": "icons/skills/melee/shield-block-bash-blue.webp",
       "system": {
         "description": {
-          "value": "<p>When another creature damages you with a melee attack roll, you can take a Reaction and expend one Superiority Die to reduce the damage by the number you roll on your Superiority Die plus your Strength or Dexterity modifier (your choice).</p><section class=\"secret\" id=\"secret-0wY3O9dAMQDKj066\"><p><strong>Foundry Note</strong></p><p>This feature includes a Healing Reaction activity which can be used to retroactively recover the received damage.</p></section>",
+          "value": "<p><strong>Reaction.</strong> When the [[lookup @name lowercase]] is hit by a melee attack roll while holding a weapon, it adds 2 to its AC against that attack, possibly causing it to miss.</p>",
           "chat": ""
         },
         "source": {
@@ -1292,84 +1292,7 @@
         },
         "properties": [],
         "requirements": "",
-        "activities": {
-          "F4UxiihGgkdv4orJ": {
-            "type": "heal",
-            "_id": "F4UxiihGgkdv4orJ",
-            "activation": {
-              "type": "reaction",
-              "value": null,
-              "override": false,
-              "condition": "When another creature damages you with a melee attack roll"
-            },
-            "consumption": {
-              "scaling": {
-                "allowed": false
-              },
-              "spellSlot": true,
-              "targets": [
-                {
-                  "type": "itemUses",
-                  "value": "1",
-                  "target": "Compendium.dnd-players-handbook.classes.Item.phbftrCombatSupe"
-                }
-              ]
-            },
-            "description": {
-              "chatFlavor": ""
-            },
-            "duration": {
-              "units": "inst",
-              "concentration": false,
-              "override": false
-            },
-            "effects": [],
-            "range": {
-              "override": false,
-              "units": "self",
-              "special": ""
-            },
-            "target": {
-              "template": {
-                "contiguous": false,
-                "units": "ft",
-                "type": ""
-              },
-              "affects": {
-                "choice": false,
-                "count": "",
-                "type": "self",
-                "special": ""
-              },
-              "override": false,
-              "prompt": false
-            },
-            "uses": {
-              "spent": 0,
-              "recovery": [],
-              "max": ""
-            },
-            "sort": 0,
-            "healing": {
-              "number": null,
-              "denomination": "",
-              "types": [
-                "healing"
-              ],
-              "custom": {
-                "enabled": true,
-                "formula": "@scale.battle-master.superiority.die + max(@abilities.str.mod, @abilities.dex.mod)"
-              },
-              "scaling": {
-                "number": 1
-              },
-              "bonus": ""
-            },
-            "name": "",
-            "img": "",
-            "appliedEffects": []
-          }
-        },
+        "activities": {},
         "enchant": {},
         "identifier": "parry"
       },

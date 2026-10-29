@@ -23,16 +23,16 @@ Party tier: written for **five PCs at 5th level** (PC-01, Cam absent). This is a
 Read these in this order:
 
 - `packs/_source/travel-1-journals/journal-travel-1-gm-brief.json` — purpose, the three canon anchors, the day calendar, party calibration and the fire rule, and how to run it short.
-- `packs/_source/travel-1-journals/journal-travel-1-encounter-1-fallow-ford.json` — the land fight and the visibility tally.
+- `packs/_source/travel-1-journals/journal-travel-1-encounter-1-fallow-ford.json` — the road south (Days 1–5), the land fight and the visibility tally, and into Keoland (Days 7–11).
 - `packs/_source/travel-1-journals/journal-travel-1-gradsul.json` — Gradsul, Days 12–15: into the city with Vole, aboard the Kestrel Wife ending on the fire rule, and out of the Sheldomar.
 - `packs/_source/travel-1-journals/journal-travel-1-gradsul-gazetteer.json` — the city as it stood before the Wars, one page per part of town, keyed to the GM-only city map.
 - `packs/_source/travel-1-journals/journal-travel-1-gradsul-people.json` — Gradsul's officials, popular figures and underworld, with links to every sheet.
 - `packs/_source/travel-1-journals/journal-travel-1-gradsul-gull.json` — **optional:** *The Gull's Job*, a rescue at the Mermaid's Inn and a museum heist, Days 12–15. Costs no days.
-- `packs/_source/travel-1-journals/journal-travel-1-encounter-2-grey-fee.json` — the boarding, its three clocks, and where the letter lives.
-- `packs/_source/travel-1-journals/journal-travel-1-encounter-3-grey-back.json` — the sea monster, the hull track, the underwater rules.
+- `packs/_source/travel-1-journals/journal-travel-1-encounter-2-grey-fee.json` — out to sea (Days 15–28), the boarding, its three clocks, and where the letter lives.
+- `packs/_source/travel-1-journals/journal-travel-1-encounter-3-grey-back.json` — Woolly Bay (Days 30–36), the sea monster, the hull track, the underwater rules, and the last of the bay (Days 38–40).
 - `packs/_source/travel-1-journals/journal-travel-1-npcs.json` — Roke, Vole, Sarn, Tarrow, Ord.
-- `packs/_source/travel-1-journals/journal-travel-1-handouts.json` — the circular and the seal. **Read the index page before you hand either over: the circular has one bracketed line you must replace.**
-- `packs/_source/travel-1-journals/journal-travel-1-quick-reference.json` — the run sheet, the XP arithmetic, the hand-off, and the never-name reminder.
+- `packs/_source/travel-1-journals/journal-travel-1-handouts.json` — the circular, in three copies that differ in one line, and the seal. **The index page says which copy the visibility tally earned.** None needs editing.
+- `packs/_source/travel-1-journals/journal-travel-1-quick-reference.json` — the run sheet, the XP arithmetic, the per-PC beats, the hand-off (with the two arrival lines written out), and the never-name reminder.
 
 You need to have decided three things before play:
 
@@ -56,14 +56,19 @@ Canon, from *Arrival — Commercial Cover*: six weeks, two of them the ride down
 
 | Day | Where | What |
 |---|---|---|
-| 1–3 | Wool Road, Loftwick to Stell | Ground they have seen if they ran the Brown Hare. |
+| 1–5 | Wool Road, Loftwick to Stell and on | Ground they have seen if they ran the Brown Hare. Hennet Vole joins them on Day 4. |
 | **6** | Sheldomar bottom-land | **Encounter 1 — The Fallow Ford.** |
 | 7–11 | Into Keoland proper | Tolls, wool-houses. Gianni's map thread can fire. |
 | 12–14 | Gradsul | The berth, Roke's terms, **the fire rule said out loud**. Optional: the Gull's Job (night of Day 12 to dawn of Day 15). |
+| 15 | Sailing | Out of the Sheldomar on the morning tide, or the evening one if the Gull's Job went to hue and cry. |
+| 15–19 | Azure Sea coast | Sea legs; Wick Ferrin teaches Elle to splice on Day 19. |
 | 20–22 | First unannounced port | Where the hull's name gets loose. |
-| **29** | Pomarj shore, Highport reach | **Encounter 2 — The Grey Fee.** |
-| 31–35 | Rounding into Woolly Bay | Repairs, a burial, a crew who keep mentioning grey-backs. |
+| 24–25 | Second unannounced port | Roke's last. After the boarding he puts in nowhere. |
+| 27–28 | Straits of Gearnat | Round the Pomarj's eastern end and into Woolly Bay. |
+| **29** | Pomarj's north shore, Highport reach | **Encounter 2 — The Grey Fee.** |
+| 30–36 | Up Woolly Bay | Repairs, a burial, a crew who keep mentioning grey-backs (Day 31). |
 | **37** | Inside Woolly Bay | **Encounter 3 — The Grey-Back.** |
+| 38–39 | The last of the bay | Pumping, if it went badly; Fax goes by on the western shore. |
 | **40** | Hardby, dusk | Hand off to *Arrival — Commercial Cover*, two lines adjusted. |
 
 ---
@@ -79,7 +84,7 @@ The party travels with **Hennet Vole**, a real Keoish drover with four carts of 
 - The old one does not close. It surfaces at range and sprays the **sample cart** in preference to a person.
 - **Terrain, three pieces:** the ditch (cover, and acid does not turn corners), the ford (difficult ground; ankhegs will not cross moving water), the carts (the point).
 - **Cart clock, three rounds.** A spray on the bales, or two ankhegs grappling one cart at the start of a round, ruins the wool samples: three days and ~140 gp in Gradsul, and letters of introduction that no longer match the cargo.
-- **Ankheg sheets come from your monster compendium** — this module ships no beasts (155 of its 157 NPCs are humanoid, the other two constructs). Use your compendium's numbers; give the old one +20 hp and a 5–6 recharge.
+- **The old one ships as the Ankheg Elder** (the 2024 ankheg with +20 hp, Acid Spray recharging on 5–6, Bite set to Slashing). The other five come from your monster compendium; use its numbers.
 
 **The visibility tally.** Count loud acts: any visible-area spell, any casting a drover can describe afterwards, a wild shape in the open. **0–1 quiet / 2–3 mixed / 4+ or any fireball loud.** It sets one line of the circular and nothing else, and the party never learns the rule existed.
 
@@ -87,10 +92,10 @@ The party travels with **Hennet Vole**, a real Keoish drover with four carts of 
 
 ## Encounter 2 — The Grey Fee (Day 29)
 
-**On the party's side of the deck: 2,850 XP** — Mattick Sarn (CR 4), Loy Tarrow (CR 3), Vennick Ord (CR 2), two topmen and four boarders (CR 1/2). **Second wave, the dial: four more boarders, +400.** *(Six PCs: two more in the first wave, +200.)*
+**On the party's side of the deck: 2,850 XP** — Mattick Sarn (CR 4), Loy Tarrow (CR 3), Vennick Ord (CR 2), two topmen and four boarders (CR 1/2). Her whole complement is those three and a dozen hands: two topmen, eight boarders (four aft, four forward) and two who mind the grapples. **Second wave, the dial: four more boarders, +400.** *(Six PCs: two more in the first wave, +200.)*
 
 - **Two rounds before initiative.** Perception DC 13 (her deck is too clean), DC 16 or any sailor (men lying behind the rail), Insight DC 14 on the man in the good coat — Ord in *disguise self*, touching the cuff. Let the setup matter: fouling the irons or breaking the plank buys a round.
-- **Do not put the other fourteen pirates on the map.** The Kestrel Wife's eleven hands fight for their own hull: one d20 a round, 11+ holds, 6–10 gives a step at −2, 5 or less breaks and releases the second wave. A PC who spends an action on the crew line gives the next roll advantage.
+- **The Kestrel Wife's crew is a line, not tokens.** Her eleven hands fight for their own hull: one d20 a round, 11+ holds, 6–10 gives a step at −2, 5 or less breaks and releases the second wave. A PC who spends an action on the crew line gives the next roll advantage.
 - **Three clocks.** The berth (3 rounds — two boarders go for the strongbox, which holds **the decoy**; the real package is sewn into a bale). The slow-match (Tarrow at the fore hatch: 4 rounds, then a six-segment burn clock — **and the party's own fire rolls it**). The count (round 2–3: *"Five! Count 'em — five, and no burning!"* — after which nets and saps, and a PC at 0 wakes in the Grey Fee's hold instead of dying).
 - **The letter.** Writing box, false bottom, Grey Fee's stern cabin: **Investigation DC 14.** Or **Perception DC 16** on Tarrow's body (tarred wallet, reader's copy). Or **Intimidation DC 13 / Persuasion DC 15** on a prisoner. **Failure floor:** Roke searches the dead himself, says nothing for two days, then puts it on the table and asks what he has been carrying.
 - **What it gives them:** they are hunted and have been since Loftwick; it is the same courier network; the hunter is guessing; and the paper is worth more than the people (six hundred a head alive, *whatever you care to ask* for the documents).
@@ -103,7 +108,7 @@ The party travels with **Hennet Vole**, a real Keoish drover with four carts of 
 
 - It attacks **the ship**, not the party, and rams at the end of any round in which nothing is bleeding in the water.
 - **Hull track, four segments.** Heavy steering (DC 12 to hold a course) → sprung rudder (sweeps only, four hands occupied) → a started plank (two on the pump to Hardby) → taking water faster than the pump. Segment 4 is not a fail state; it is a different arrival, and the customs mole looks at her repairs instead of her bales.
-- **Two rounds per man in the water.** Wick Ferrin goes over on the first strike — name him on day nineteen, and let him have taught Elle to splice. A party that kills sharks loses him; a party that saves him eats two more rams. There is no clever third answer.
+- **Two rounds per man in the water.** Wick Ferrin goes over on the first strike — he is named on Day 12 in Gradsul, and teaches Elle to splice on Day 19. A party that kills sharks loses him; a party that saves him eats two more rams. There is no clever third answer.
 - **The bait is the smart win.** Salt cod in the hold, staved over the lee side, ends the fight. Award the full XP: a table that solves a monster with cargo has done the thing this whole intermission teaches.
 - **Underwater rules to have ready:** submerged creatures have **resistance to fire**; ranged weapon attacks are at disadvantage inside normal range and auto-miss beyond it; melee without a swim speed is at disadvantage except dagger, javelin, shortsword, spear, trident. Do not invent a lightning-in-water bonus — it becomes an argument in Phase 8.
 - **This one belongs to Kitty**, the only person aboard who can meet it in its element.
@@ -133,7 +138,7 @@ Budgets, five PCs at 5th (2024 rules): low 2,500 / moderate 3,750 / high 5,500. 
 Two sentences of *Arrival — Commercial Cover* want a hand:
 
 - **"The harbour takes you in without a flicker."** If the hull track reached segment 2 or worse, it takes them in with one flicker — the customs boy counts bales, then walks aft, looks at the repairs, and writes down whatever they tell him. He still does not count faces. But there is now a piece of paper in a harbour office with their story on it.
-- **"You have learned the smell of raw fleece in a wet hold."** Let that carry the rest: nine dead pirates, a fortnight of pumping, and the hand they got back or didn't.
+- **"You have learned the smell of raw fleece in a wet hold."** Let that carry the rest: the Grey Fee's dead, a fortnight of pumping, and the hand they got back or didn't.
 
 They come up the Whalemarket steps with three things they did not have in Loftwick — a circular proving they were hunted before they left Keoland, a mark in wax tying that hunt to Tannery Row, and one initial nobody has explained — plus **the third wharf** and **trade-drafts on a Hardby house that is not Cindren & Vhal**.
 
@@ -152,13 +157,13 @@ Everything Phase 3 depends on is untouched: the firm still suspects without know
 
 ## Ledger
 
-Findings against this intermission take the stable prefix **TI1-** in `gm-fix-ledger.md`, filed after the Phase 9 block so phase numbering stays contiguous. Nothing is filed yet — it has never been run.
+Findings against this intermission take the stable prefix **TI1-** in `gm-fix-ledger.md`, filed after the Phase 9 block so phase numbering stays contiguous. TI1-01 to TI1-18 were filed and closed in the v1.9.6 review pass, before it was ever run at the table; number anything new from TI1-19.
 
 ## Build notes
 
-- Packs: `travel-1-journals` (11 journals, 61 pages), `travel-1-actors` (29 NPCs: 8 at the pack root and 21 in a `Gradsul` folder with four sub-folders, the module's first Folder documents) and `travel-1-scenes` (8 scenes), registered in `module.json` between Phase 2 and Phase 3, with their own pack folder, and added to `scripts/build-packs.mjs`.
+- Packs: `travel-1-journals` (11 journals, 69 pages), `travel-1-actors` (29 NPCs: 8 at the pack root and 21 in a `Gradsul` folder with four sub-folders, the module's first Folder documents) and `travel-1-scenes` (8 scenes), registered in `module.json` between Phase 2 and Phase 3, with their own pack folder, and added to `scripts/build-packs.mjs`.
 - **Gradsul (v1.9.4).** `Intermission 1 — Gradsul (Days 12–15)`, sorted between the ford and the boarding: a GM notes page, three read-alouds (into the city with Vole, aboard the Kestrel Wife ending on the fire rule in the Calibration page's exact words, and out of the Sheldomar on Day 15), per-PC beats marked outside the read-aloud text, and three picture-only pages for *Show to Players*. Roke is Caelith's arrangement as the Roke page already had it — paid by a Yeomanry agent for passage and letters, knows the quill-above-closed-gate seal, asks nothing. Wick Ferrin is named here, as the Grey-Back page asks. The Run Sheet's Day 12 row and the day calendar link it. Art is tier 51: `illustrations/gradsul-wool-quays`, `kestrel-wife-loading` (Roke from his portrait) and `gianni-at-the-prow`.
-- **Gradsul expansion (v1.9.5).** Three journals sorted straight after the Gradsul journal. *Gradsul — A Gazetteer (Before the Wars)*: ten pages, eight of them written with no secrets so *Show to Players* is safe, built from Greyhawk Online and the books it cites (LGG, LGJ #1, Dragon #263, the 1980 folio and 1983 boxed set) with every Wars-era and later event left out and no year given; the map's unexplained buildings (the Umbertine, the Lechtur) are given uses and marked as the module's own. *Gradsul — Who's Who*: officials, popular figures, the underworld, and the Duke, the King and Drawmij deliberately unstatted. *Gradsul — The Gull's Job (Days 12–15)*: a brawl at the Mermaid's Inn under a no-steel rule, a fair maiden who is the Docklands guild boss, and a swap-the-Pearl heist at the Royal Museum with a six-segment Heat clock, a Sea-Mage ward, a leak in the chandlery, five outcome tiers and two handouts (with and without the docket). Its reward, clean papers into Hardby, only pushes the hand-off back toward canon: a weigh-ticket that cancels the customs flicker and a docket that closes the Ford's samples crack.
+- **Gradsul expansion (v1.9.5).** Three journals sorted straight after the Gradsul journal. *Gradsul — A Gazetteer (Before the Wars)*: ten pages, seven of them written with no secrets so *Show to Players* is safe, built from Greyhawk Online and the books it cites (LGG, LGJ #1, Dragon #263, the 1980 folio and 1983 boxed set) with every Wars-era and later event left out and no year given; the map's unexplained buildings (the Umbertine, the Lechtur) are given uses and marked as the module's own. *Gradsul — Who's Who*: officials, popular figures, the underworld, and the Duke, the King and Drawmij deliberately unstatted. *Gradsul — The Gull's Job (Days 12–15)*: a brawl at the Mermaid's Inn under a no-steel rule, a fair maiden who is the Docklands guild boss, and a swap-the-Pearl heist at the Royal Museum with a six-segment Heat clock, a Sea-Mage ward, a leak in the chandlery, five outcome tiers and two handouts (with and without the docket). Its reward, clean papers into Hardby, only pushes the hand-off back toward canon: a weigh-ticket that cancels the customs flicker and a docket that closes the Ford's samples crack.
 - **Scenes (v1.9.5).** *Gradsul, City Map (GM)* is the user-supplied fan map (maker unknown, credited on the gazetteer's Sources page), 4096×4096 webp, gridless, navigation off: 73 white pins open gazetteer pages, 8 gold pins open the Gull's Job, one opens the Kestrel Wife read-aloud. *Gradsul, The Royal Museum* is tier 52's two-floor map, 2400×1600 (24×16 squares): 53 walls traced from the painting, 11 of them doors and 4 street windows; darkness 0.7, no global light, token vision on; five lights; 13 pins. **The Mermaid's Inn** is drawn on the GM's own copy of 2-Minute Tabletop's *The Mermaid Inn* ($1, bought for this), which the module does not ship: *Gradsul, The Mermaid's Inn* and *The Mermaid's Inn (Upstairs)* point at `blooming-rot-2-local/mermaid-inn/MermaidInnFloor1.png` and `…Floor2.png` in the Foundry **Data** folder, outside the module, so the asset collector never sees them. Both are 2660×1120 on the map's own 140 px grid (19×8 squares, aligned to the image origin): the taproom has 39 walls (front double doors, back door, nine windows, curtained booths, the glass tank and the bar counter as see-through barriers), four cosmetic lights and nine pins; upstairs has 34 walls (the gallery rail round the open well, four doors, three windows) and four pins. The brawl page was rewritten to the real room: the snatch runs from the north booth to the front doors, and the gallery rail is a ten-foot drop.
 - **Gradsul NPCs (v1.9.5).** 21 sheets, each derived from an existing module stat block as before: the Gull from Holyn Sevarian, Nye from Brell Kostan, the Weigher and Dogger from Olo Crask (firearm stripped; Dogger's sap set to bludgeoning), Breck from Belven Astor, Pike from Zoria Weis, Maud Gannet and the toughs and watchmen from the Hired Greyhawk Tough, the Lord Mayor from Lyra Vellanen, Cotter from Ortwell Brane, Pritchard from Rennic Thale (Subdue), Lusk from Ilen Vaden, Whitlock from Andrune Vesh, Pippa Lark from Holyn Sevarian, the bell-mother from Ashan Vell, Josca Ferrand from Merev Sarth (courier kit dropped), Oona from Hennet Vole (swim 40, Aquan), the wardens and cutters from the Silent Scout and the regulars from Brennan Kepf. Items carrying another NPC's story were renamed and redescribed. Token names are hidden on all of them, and the Gull's token is named *Veiled Lady*. Art is tier 52: portrait and round token for the Gull, the Weigher, Breck, Pike, the Lord Mayor and Maud Gannet, plus `maps/royal-museum.webp`; everyone else uses a generic token.
 - **Fixed (v1.9.5).** Roke's terms on Day 12 said the Kestrel Wife sailed *the day after tomorrow*, which is Day 14; every other page has her sailing on Day 15. The read-aloud now says *three days from now*, and the v1.9.4 builder was patched the same way so a rebuild cannot put it back.
@@ -173,3 +178,4 @@ Findings against this intermission take the stable prefix **TI1-** in `gm-fix-le
   - Battle maps: `maps/kestrel-wife-deck.png` (the Kestrel Wife with only the near third of the Grey Fee, plank and grapple lines, no grid; replaced in the Boarded scene by tier 49) and `maps/fallow-ford.png` (road, ford, ditch, four carts, five tunnel mouths, no grid).
 - Fixed while doing the art: the generator's start-up `mkdirSync` loop never created `assets/maps` or `assets/banners`, so any map job failed with ENOENT on a fresh checkout. Both are in the list now.
 - `scripts/build-gm-prep-pdf.py` builds this pack as its own PDF (`docs/travel-intermission-1-gm-prep.pdf`, `--only travel-1`) and as a chapter of the full GM prep after Phase 2, journals in sort order.
+- **Read-alouds and consistency pass (v1.9.6).** Every read-aloud in the intermission is now a house-style `<blockquote>` with an italic GM cue in front of it, as in Phases 1–9, so the GM prep PDFs print them as read-aloud blocks; per-PC beats stay outside the quote. New read-alouds for every encounter that lacked one — the Ford's approach, first strike, tunnel and aftermath; the snatch, the knife, Tarpot Lane, the net loft and the offer at the Mermaid's; the museum visit, Pike, Breck, the weigh-house, Pippa Lark and Whitlock's lecture; the street at night, the Weigher's crew, the bell, the handover and the feather; Roke's cabin; man overboard and the Grey-Back's endings — and five new montage pages that carry the days between: *The Road South (Days 1–5)* and *Into Keoland (Days 7–11)* in the Ford journal, *Out to Sea (Days 15–28)* in the Grey Fee journal, *Woolly Bay (Days 30–36)* and *The Last of the Bay (Days 38–40)* in the Grey-Back journal. The Quick Reference gains *Per-PC Narration Beats*; the hand-off page writes out the two arrival lines ready to read; the circular is three ready copies (1a–1c) instead of a placeholder; the GM Master Ledger gains an intermission page between Phases 2 and 3. Fixes: TI1-01 to TI1-18 in the fix ledger.

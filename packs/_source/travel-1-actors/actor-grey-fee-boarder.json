@@ -627,16 +627,16 @@
     {
       "_key": "!actors.items!BR2T1ActBoardr00.BR2I2f5418ecc8ce",
       "_id": "BR2I2f5418ecc8ce",
-      "name": "Mace",
+      "name": "Hanger",
       "type": "weapon",
-      "img": "modules/dnd-players-handbook/assets/icons/items/mace.webp",
+      "img": "modules/dnd-players-handbook/assets/icons/items/scimitar.webp",
       "system": {
         "description": {
-          "value": "",
+          "value": "<p>A short, curved boarding sword. After the count, the Grey Fee's boys turn it and fight with the flat and the hilt: a PC they drop wakes in the Grey Fee's hold.</p>",
           "chat": ""
         },
         "price": {
-          "value": 5,
+          "value": 25,
           "denomination": "gp"
         },
         "source": {
@@ -650,7 +650,7 @@
         "container": null,
         "quantity": 1,
         "weight": {
-          "value": 4,
+          "value": 3,
           "units": "lb"
         },
         "rarity": "",
@@ -690,7 +690,7 @@
             "number": 1,
             "denomination": 6,
             "types": [
-              "bludgeoning"
+              "slashing"
             ],
             "custom": {
               "enabled": false
@@ -711,11 +711,14 @@
           "conditions": ""
         },
         "type": {
-          "value": "simpleM",
-          "baseItem": "mace"
+          "value": "martialM",
+          "baseItem": "scimitar"
         },
         "magicalBonus": null,
-        "properties": [],
+        "properties": [
+          "fin",
+          "lgt"
+        ],
         "proficient": null,
         "activities": {
           "KiHlb6kIDAvWmnhv": {
@@ -802,8 +805,8 @@
           }
         },
         "ammunition": {},
-        "mastery": "sap",
-        "identifier": "mace"
+        "mastery": "nick",
+        "identifier": "hanger"
       },
       "effects": [],
       "folder": "FL1Jee9DzStc7vM3",
@@ -819,12 +822,10 @@
             "effect": []
           }
         },
-        "core": {
-          "sourceId": "Compendium.dnd-players-handbook.equipment.Item.phbwepMace000000"
-        }
+        "core": {}
       },
       "_stats": {
-        "compendiumSource": "Compendium.dnd-players-handbook.equipment.Item.phbwepMace000000",
+        "compendiumSource": null,
         "duplicateSource": null,
         "coreVersion": "13.351",
         "systemId": "dnd5e",

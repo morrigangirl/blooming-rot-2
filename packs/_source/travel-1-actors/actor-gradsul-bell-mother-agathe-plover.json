@@ -1154,7 +1154,7 @@
       "_id": "BR2I07f22210a8af",
       "name": "Spellcasting",
       "type": "feat",
-      "img": "icons/skills/trades/music-notes-sound-blue.webp",
+      "img": "icons/magic/holy/prayer-hands-glowing-yellow-white.webp",
       "system": {
         "description": {
           "value": "<p>The [[lookup @name lowercase]] casts the spells on this sheet, using Wisdom. Save DC and attack bonus are on the sheet.</p>",
@@ -1177,7 +1177,7 @@
           "level": 1
         },
         "properties": [],
-        "requirements": "Bard",
+        "requirements": "",
         "activities": {},
         "enchant": {},
         "identifier": "spellcasting"

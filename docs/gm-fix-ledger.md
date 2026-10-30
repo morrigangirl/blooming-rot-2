@@ -495,6 +495,10 @@ Review pass run 2026-10-28 against **v1.9.5**, at the GM's request that the inte
 17. ~~**TI1-17** · MEDIUM · The GM Master Ledger went from Phase 2 to Phase 3 with no intermission page; the intermission had no per-PC beats page, unlike Phases 2 and 3; and Phase 3's Commercial Cover arrival never pointed back at the two lines the hand-off adjusts.~~ **FIXED v1.9.6** — an intermission page in the ledger, in its notation; *Per-PC Narration Beats* in the Quick Reference; the two arrival lines written out on the hand-off page; a one-line pointer on the arrival page; the Phase 3 ledger's Arrival and Veska entries note what the intermission hands them.
 18. ~~**TI1-18** · LOW · The master walkthrough still said the module ships no beasts (and quoted the wrong NPC census), told the GM to give the old ankheg +20 hp by hand, named Wick on *"day nineteen"*, counted eight safe gazetteer pages, and told the GM to edit the circular.~~ **FIXED v1.9.6** — all five corrected.
 
+### Closed — v1.9.7 (found at the table)
+
+19. ~~**TI1-19** · MEDIUM · The Mermaid's Inn tank light was bright 10 ft / dim 30 ft: on the map's 140 px grid that is a 1,680 px circle on a 1,120 px floor, so the blue tint covered almost the whole taproom.~~ **FIXED v1.9.7** — bright 5 ft / dim 10 ft: the bright ring fills the tank and the dim glow reaches the four nearest tables, the same scale as the booth lamps. Checked against the map art. A scene already imported into a world keeps the old light; edit it there or re-import.
+
 ### Found while there
 
 - Phase 3's *GM Brief — Phase 3 Purpose* opened one paragraph twice (`<p><p>Each row is a complete viable Phase 3.`), caught by the tag-balance check this pass added. Browsers forgive it; the PDF builder need not. **FIXED v1.9.6.**

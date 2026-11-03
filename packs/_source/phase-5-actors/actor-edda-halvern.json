@@ -194,17 +194,17 @@
           "passive": ""
         }
       },
-      "prs": {
-        "value": 0,
-        "ability": "cha",
+      "sur": {
+        "value": 1,
+        "ability": "wis",
         "bonuses": {
           "check": "",
           "passive": ""
         }
       },
-      "sur": {
-        "value": 1,
-        "ability": "wis",
+      "per": {
+        "value": 0,
+        "ability": "cha",
         "bonuses": {
           "check": "",
           "passive": ""

@@ -1218,7 +1218,7 @@
           "max": ""
         },
         "description": {
-          "value": "<p>The [[lookup @name lowercase]] makes {count} [[/item]] attacks and uses [[/item]].</p>",
+          "value": "<p>[[lookup @name]] makes two attacks, using [[/item .BR2Ib3faf2961b30]] or [[/item .BR2I8d01ae6fe1a5]] in any combination.</p>",
           "chat": ""
         },
         "identifier": "multiattack",
@@ -1271,7 +1271,7 @@
       "img": "icons/skills/melee/shield-block-bash-blue.webp",
       "system": {
         "description": {
-          "value": "<p><strong>Reaction.</strong> When the [[lookup @name lowercase]] is hit by a melee attack roll while holding a weapon, it adds 2 to its AC against that attack, possibly causing it to miss.</p>",
+          "value": "<p><strong>Reaction.</strong> When [[lookup @name]] is hit by a melee attack roll while holding a weapon, he adds 2 to his AC against that attack, possibly causing it to miss.</p>",
           "chat": ""
         },
         "source": {

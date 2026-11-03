@@ -64,7 +64,7 @@
     "attributes": {
       "init": {
         "ability": "dex",
-        "bonus": "+3"
+        "bonus": ""
       },
       "movement": {
         "burrow": 0,
@@ -98,11 +98,11 @@
         "limit": 1
       },
       "hp": {
-        "value": 78,
-        "max": 78,
+        "value": 66,
+        "max": 66,
         "temp": 0,
         "tempmax": 0,
-        "formula": "12d8+24"
+        "formula": "12d8+12"
       },
       "ac": {
         "flat": 14,
@@ -117,7 +117,7 @@
     },
     "details": {
       "biography": {
-        "value": "<h2>Anver \"Tarsh\" Resh — Hardby Broker</h2>\n<p><em>The intermediary who hired Merev Sarth. Former Cindren &amp; Vhal Hardby clerk under Solen Mereth (576–582 CY), now a freelance broker operating out of the Coopered Wreck tavern. The Phase 3 confrontation node — yields names if cornered with leverage, will not testify, will not name his Rel Astra contact.</em></p>\n<h3>Description</h3>\n<p>Thin, fifties, balding with a fringe of dark hair worn long. A long pale face. Yellow stains on the second and third fingers of his right hand from cheap pipe-leaf. Smoker's rasp in the voice. Plain dark wool, a heavy wool coat in winter, no jewelry. He looks exactly like what he is: a clerk who left the office and never quite stopped clerking.</p>\n<h3>Combat behavior</h3>\n<p><strong>Avoids combat.</strong> Resh is a broker, not a fighter. He will negotiate, deflect, deceive, and exit before drawing a weapon. If combat starts in the Coopered Wreck, his bodyguard (if present) and a paid pair of harbor-district enforcers nearby will defend him while he exits through Olfard's back room. If he must fight, he uses his hand crossbow at range and his Cunning Action to disengage to cover.</p>\n<p>His one rule: <strong>he does not kill personally.</strong> Has not once since he left the firm. Will not now. He hires it done.</p>\n<h3>Statblock summary (CR 6, PB +3)</h3>\n<p><strong>AC</strong> 14 (studded leather under his coat) · <strong>HP</strong> 66 (12d8+12) · <strong>Speed</strong> 30 ft. · <strong>Init</strong> +3 · <strong>Passive Perception</strong> 15</p>\n<p><strong>STR</strong> 10 (+0) · <strong>DEX</strong> 17 (+3) · <strong>CON</strong> 13 (+1) · <strong>INT</strong> 16 (+3) · <strong>WIS</strong> 14 (+2) · <strong>CHA</strong> 14 (+2)</p>\n<p><strong>Saves:</strong> DEX +6, INT +6.</p>\n<p><strong>Skills:</strong> Deception +5, Insight +5, Investigation +6, Perception +5, Persuasion +5, Sleight of Hand +6, Stealth +6.</p>\n<p><strong>Senses:</strong> Passive Perception 14. <strong>Languages:</strong> Common, Old Aerdi, Thieves' Cant.</p>\n<h3>Traits</h3>\n<ul>\n<li><strong>Cunning Action.</strong> Bonus action to Dash, Disengage, or Hide.</li>\n<li><strong>Sneak Attack (1/Turn).</strong> +14 (4d6) damage on a weapon attack with advantage or an ally within 5 ft.</li>\n<li><strong>Uncanny Dodge.</strong> Reaction to halve damage from an attack he can see.</li>\n<li><strong>Evasion.</strong> No damage on a successful Dex save, half on a failed save.</li>\n<li><strong>Reader of Rooms.</strong> Advantage on Insight checks to determine if someone is lying or holding back, in any setting where he is the room's most senior occupant.</li>\n<li><strong>The Broker's Rule.</strong> Resh will not personally kill. He surrenders rather than make a killing blow himself.</li>\n</ul>\n<h3>Actions</h3>\n<ul>\n<li><strong>Multiattack.</strong> Two weapon attacks.</li>\n<li><strong>Hand Crossbow.</strong> Ranged Weapon Attack +6, range 30/120. <em>Hit:</em> 1d6+3 piercing.</li>\n<li><strong>Hidden Knife.</strong> Melee Weapon Attack +6, reach 5 ft. <em>Hit:</em> 1d4+3 piercing. He uses this only as last resort.</li>\n<li><strong>Smoke Pellet (2/encounter).</strong> Action to throw a 10-ft cube of acrid smoke at a point within 30 ft. The area is heavily obscured for 1 minute or until dispersed. Each creature inside at the start of its turn must succeed on a DC 13 Constitution save or be Blinded until the start of its next turn.</li>\n</ul>\n<h3>Equipment</h3>\n<ul>\n<li>Studded leather armor under his greatcoat (concealed).</li>\n<li>Hand crossbow + 10 bolts (in a courier's tube at his hip).</li>\n<li>Hidden knife in his right boot.</li>\n<li>Two smoke pellets in a coat pocket.</li>\n<li>A small pipe and a worn brass tobacco-tin.</li>\n<li>A small leather wallet with a notary's stylus and a smaller knife (his old C&amp;V working tools).</li>\n<li>No coin on his person beyond pocket-money. No identifying papers. No personal jewelry.</li>\n</ul>\n<h3>Source</h3>\n<p><em>Blooming Rot, Part 2 — Phase 3.</em> See <em>Hardby NPCs → Anver Resh</em> and <em>Investigation → Tarsh Confrontation</em> for the scene's full setup.</p>",
+        "value": "<h2>Anver \"Tarsh\" Resh — Hardby Broker</h2>\n<p><em>The intermediary who hired Merev Sarth. Former Cindren &amp; Vhal Hardby clerk under Solen Mereth (576–582 CY), now a freelance broker operating out of the Coopered Wreck tavern. The Phase 3 confrontation node — yields names if cornered with leverage, will not testify, will not name his Rel Astra contact.</em></p>\n<h3>Description</h3>\n<p>Thin, fifties, balding with a fringe of dark hair worn long. A long pale face. Yellow stains on the second and third fingers of his right hand from cheap pipe-leaf. Smoker's rasp in the voice. Plain dark wool, a heavy wool coat in winter, no jewelry. He looks exactly like what he is: a clerk who left the office and never quite stopped clerking.</p>\n<h3>Combat behavior</h3>\n<p><strong>Avoids combat.</strong> Resh is a broker, not a fighter. He will negotiate, deflect, deceive, and exit before drawing a weapon. If combat starts in the Coopered Wreck, his bodyguard (if present) and a paid pair of harbor-district enforcers nearby will defend him while he exits through Olfard's back room. If he must fight, he uses his hand crossbow at range and his Cunning Action to disengage to cover.</p>\n<p>His one rule: <strong>he does not kill personally.</strong> Has not once since he left the firm. Will not now. He hires it done.</p>\n<h3>Statblock summary (CR 6, PB +3)</h3>\n<p><em>The CR is his reputation; his numbers compute to about CR 2. Award 450 XP if it comes to a fight.</em></p>\n<p><strong>AC</strong> 14 (studded leather under his coat) · <strong>HP</strong> 66 (12d8+12) · <strong>Speed</strong> 30 ft. · <strong>Init</strong> +3 · <strong>Passive Perception</strong> 15</p>\n<p><strong>STR</strong> 10 (+0) · <strong>DEX</strong> 17 (+3) · <strong>CON</strong> 13 (+1) · <strong>INT</strong> 16 (+3) · <strong>WIS</strong> 14 (+2) · <strong>CHA</strong> 14 (+2)</p>\n<p><strong>Saves:</strong> DEX +6, INT +6.</p>\n<p><strong>Skills:</strong> Deception +5, Insight +5, Investigation +6, Perception +5, Persuasion +5, Sleight of Hand +6, Stealth +6.</p>\n<p><strong>Languages:</strong> Common, Old Aerdi, Thieves' Cant.</p>\n<h3>Traits</h3>\n<ul>\n<li><strong>Cunning Action.</strong> Bonus action to Dash, Disengage, or Hide.</li>\n<li><strong>Sneak Attack (1/Turn).</strong> +14 (4d6) damage on a weapon attack with advantage or an ally within 5 ft.</li>\n<li><strong>Uncanny Dodge.</strong> Reaction to halve damage from an attack he can see.</li>\n<li><strong>Evasion.</strong> No damage on a successful Dex save, half on a failed save.</li>\n<li><strong>Reader of Rooms.</strong> Advantage on Insight checks to determine if someone is lying or holding back, in any setting where he is the room's most senior occupant.</li>\n<li><strong>The Broker's Rule.</strong> Resh will not personally kill. He surrenders rather than make a killing blow himself.</li>\n</ul>\n<h3>Actions</h3>\n<ul>\n<li><strong>Multiattack.</strong> Two attacks, hand crossbow or dagger in any combination.</li>\n<li><strong>Hand Crossbow.</strong> Ranged Weapon Attack +6, range 30/120. <em>Hit:</em> 1d6+3 piercing.</li>\n<li><strong>Hidden Knife.</strong> Melee Weapon Attack +6, reach 5 ft. <em>Hit:</em> 1d4+3 piercing. He uses this only as last resort.</li>\n<li><strong>Smoke Pellet (2/encounter).</strong> Action to throw a 10-ft cube of acrid smoke at a point within 30 ft. The area is heavily obscured for 1 minute or until dispersed. Each creature inside at the start of its turn must succeed on a DC 13 Constitution save or be Blinded until the start of its next turn.</li>\n</ul>\n<h3>Equipment</h3>\n<ul>\n<li>Studded leather armor under his greatcoat (concealed).</li>\n<li>Hand crossbow + 10 bolts (in a courier's tube at his hip).</li>\n<li>Hidden knife in his right boot.</li>\n<li>Two smoke pellets in a coat pocket.</li>\n<li>A small pipe and a worn brass tobacco-tin.</li>\n<li>A small leather wallet with a notary's stylus and a smaller knife (his old C&amp;V working tools).</li>\n<li>No coin on his person beyond pocket-money. No identifying papers. No personal jewelry.</li>\n</ul>\n<h3>Source</h3>\n<p><em>Blooming Rot, Part 2 — Phase 3.</em> See <em>Hardby NPCs → Anver Resh</em> and <em>Investigation → Tarsh Confrontation</em> for the scene's full setup.</p>",
         "public": ""
       },
       "alignment": "Lawful Neutral",
@@ -210,14 +210,6 @@
           "passive": ""
         }
       },
-      "prs": {
-        "value": 1,
-        "ability": "cha",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      },
       "slt": {
         "value": 1,
         "ability": "dex",
@@ -229,6 +221,14 @@
       "ste": {
         "value": 1,
         "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "per": {
+        "value": 1,
+        "ability": "cha",
         "bonuses": {
           "check": "",
           "passive": ""
@@ -1373,6 +1373,117 @@
       }
     },
     {
+      "_key": "!actors.items!BR2P3ActAnverR.BR2I055d0b48f895",
+      "_id": "BR2I055d0b48f895",
+      "name": "Multiattack",
+      "type": "feat",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "system": {
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activities": {
+          "OUZUYMpbu5RIhLeW": {
+            "type": "utility",
+            "name": "Use",
+            "_id": "OUZUYMpbu5RIhLeW",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {},
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft"
+              },
+              "affects": {
+                "choice": false
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": []
+            },
+            "roll": {
+              "prompt": false,
+              "visible": false
+            }
+          }
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "description": {
+          "value": "<p>[[lookup @name]] makes two attacks, using [[/item .BR2I0ba17566688d]] or [[/item .BR2I9668d39df875]] in any combination.</p>",
+          "chat": ""
+        },
+        "identifier": "multiattack",
+        "source": {
+          "revision": 1,
+          "rules": "2024"
+        },
+        "enchant": {},
+        "prerequisites": {
+          "level": null
+        },
+        "properties": [],
+        "requirements": ""
+      },
+      "effects": [],
+      "folder": "4T18pEvubPMQLzvD",
+      "sort": 899,
+      "ownership": {
+        "default": 0,
+        "p7W6V9dOCsYphtv6": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "activity": [],
+            "effect": []
+          }
+        },
+        "core": {
+          "sourceId": "Compendium.dnd-monster-manual.features.Item.mmMultiattack000"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.dnd-monster-manual.features.Item.mmMultiattack000",
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": 1733432292956,
+        "modifiedTime": 1737515542020,
+        "lastModifiedBy": "dnd5ebuilder0000",
+        "exportSource": null
+      }
+    },
+    {
       "_key": "!actors.items!BR2P3ActAnverR.BR2I508181cf590f",
       "_id": "BR2I508181cf590f",
       "name": "Cunning Action",
@@ -1662,7 +1773,7 @@
       "img": "icons/skills/melee/strike-dagger-white-orange.webp",
       "system": {
         "description": {
-          "value": "<p>You know how to strike subtly and exploit a foe’s distraction. Once per turn, you can deal an extra 1d6 damage to one creature you hit with an attack roll if you have Advantage on the roll and the attack uses a Finesse or a Ranged weapon. The extra damage’s type is the same as the weapon’s type.</p><p>You don’t need Advantage on the attack roll if at least one of your allies is within 5 feet of the target, the ally doesn’t have the Incapacitated condition, and you don’t have Disadvantage on the attack roll.</p><p>The extra damage increases as you gain Rogue levels, as shown in the Sneak Attack column of the Rogue Features table.</p><p><strong>Current Sneak Attack Damage:</strong> [[lookup @scale.rogue.sneak-attack]]</p><section class=\"secret\" id=\"secret-ulLpai4CguAExpmN\"><p><strong>Foundry Note</strong></p><p>Your sneak attack damage will automatically scale as you level up. You can select the damage type in the damage roll's dialog box.</p></section>",
+          "value": "<p>Once per turn, [[lookup @name]] deals an extra 4d6 damage to one creature he hits with an attack roll if he has Advantage on the roll, or if an ally of his is within 5 feet of the target and he does not have Disadvantage. The attack must use a Finesse or a Ranged weapon.</p>",
           "chat": ""
         },
         "source": {
@@ -1679,11 +1790,11 @@
           "recovery": []
         },
         "type": {
-          "value": "class",
+          "value": "monster",
           "subtype": ""
         },
         "prerequisites": {
-          "level": 1
+          "level": null
         },
         "properties": [],
         "requirements": "",
@@ -1747,26 +1858,14 @@
               "parts": [
                 {
                   "custom": {
-                    "enabled": true,
-                    "formula": "@scale.rogue.sneak-attack"
+                    "enabled": false,
+                    "formula": ""
                   },
-                  "number": null,
-                  "denomination": null,
+                  "number": 4,
+                  "denomination": 6,
                   "bonus": "",
                   "types": [
-                    "acid",
-                    "bludgeoning",
-                    "cold",
-                    "fire",
-                    "force",
-                    "lightning",
-                    "necrotic",
-                    "piercing",
-                    "poison",
-                    "psychic",
-                    "radiant",
-                    "slashing",
-                    "thunder"
+                    "piercing"
                   ]
                 }
               ]
@@ -1778,7 +1877,7 @@
             },
             "sort": 0,
             "_id": "a1T6nHaqmvbLpyJr",
-            "name": "",
+            "name": "Sneak Attack",
             "img": "",
             "appliedEffects": []
           }

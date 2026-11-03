@@ -994,7 +994,7 @@
           "max": ""
         },
         "description": {
-          "value": "<p>The [[lookup @name lowercase]] makes {count} [[/item]] attacks and uses [[/item]].</p>",
+          "value": "<p>[[lookup @name]] makes two [[/item .BR2I751668f7c744]] attacks.</p>",
           "chat": ""
         },
         "identifier": "multiattack",

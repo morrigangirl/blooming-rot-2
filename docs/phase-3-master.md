@@ -1,5 +1,7 @@
 # Phase 3 — The Hardby Investigation — Master GM Walkthrough
 
+> **Stale — run Phase 3 from the journals.** This walkthrough predates the v1.6–v1.9.8 passes and disagrees with the shipped journals in more than a dozen places (routes, captivity, the squad, the burglary window, Vella's yield, the branch hours, ages, the DC 19 safe, the Moll state, Whitemoor). Where they differ, the journals win; the fixes are in `gm-fix-ledger.md` under Phase 3.
+
 *A spoon-fed run guide. Read top to bottom; the order on this page is the order at the table.*
 
 ---

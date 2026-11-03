@@ -445,7 +445,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p>Retired Aerdi marine captain hired to guard the recovery target. Stat block: MM Bandit Captain. Leads four Thugs (MM) <em>(six PCs: a fifth Thug)</em>. Paid to hold the target and will fight to the last for it — he is not for buying once the shooting starts.</p>",
+        "value": "<p>Retired Aerdi marine captain hired to guard the recovery target. Stat block: MM Bandit Captain, with a heavy crossbow in place of the pistol. Leads four Thugs (MM) <em>(six PCs: a fifth Thug)</em>. Paid to hold the target and will fight to the last for it — he is not for buying once the shooting starts.</p>",
         "public": ""
       },
       "alignment": "Neutral",
@@ -834,18 +834,18 @@
       }
     },
     {
-      "_key": "!actors.items!BR2P3A154ca78240.BR2Id180e87f3d7f",
-      "_id": "BR2Id180e87f3d7f",
-      "name": "Pistol",
+      "_key": "!actors.items!BR2P3A154ca78240.BR2I369211b91509",
+      "_id": "BR2I369211b91509",
+      "name": "Heavy Crossbow",
       "type": "weapon",
-      "img": "modules/dnd-players-handbook/assets/icons/items/pistol.webp",
+      "img": "modules/dnd-players-handbook/assets/icons/items/heavy-crossbow.webp",
       "system": {
         "description": {
           "value": "",
           "chat": ""
         },
         "price": {
-          "value": 250,
+          "value": 50,
           "denomination": "gp"
         },
         "source": {
@@ -859,7 +859,7 @@
         "container": null,
         "quantity": 1,
         "weight": {
-          "value": 3,
+          "value": 18,
           "units": "lb"
         },
         "rarity": "",
@@ -869,8 +869,8 @@
         "cover": null,
         "crewed": false,
         "range": {
-          "value": 30,
-          "long": 90,
+          "value": 100,
+          "long": 400,
           "units": "ft",
           "reach": null
         },
@@ -921,16 +921,18 @@
         },
         "type": {
           "value": "martialR",
-          "baseItem": "pistol"
+          "baseItem": "heavycrossbow"
         },
         "magicalBonus": null,
         "properties": [
           "amm",
-          "lod"
+          "hvy",
+          "lod",
+          "two"
         ],
         "proficient": null,
         "activities": {
-          "Zyg4dqUmd4VkNdov": {
+          "5rFAMej7w2EqC0az": {
             "type": "attack",
             "activation": {
               "type": "action",
@@ -958,7 +960,7 @@
             },
             "effects": [],
             "range": {
-              "value": "150",
+              "value": "100",
               "units": "ft",
               "special": "",
               "override": false
@@ -1007,17 +1009,17 @@
               "max": ""
             },
             "sort": 0,
-            "_id": "Zyg4dqUmd4VkNdov",
+            "_id": "5rFAMej7w2EqC0az",
             "name": "",
             "img": "",
             "appliedEffects": []
           }
         },
         "ammunition": {
-          "type": "firearmBullet"
+          "type": "crossbowBolt"
         },
-        "mastery": "vex",
-        "identifier": "pistol"
+        "mastery": "push",
+        "identifier": "heavy-crossbow"
       },
       "effects": [],
       "folder": "0qKr1rbesCSNE0MA",
@@ -1034,17 +1036,17 @@
           }
         },
         "core": {
-          "sourceId": "Compendium.dnd-players-handbook.equipment.Item.phbwepPistol0000"
+          "sourceId": "Compendium.dnd-players-handbook.equipment.Item.phbwepHeavyCross"
         }
       },
       "_stats": {
-        "compendiumSource": "Compendium.dnd-players-handbook.equipment.Item.phbwepPistol0000",
+        "compendiumSource": "Compendium.dnd-players-handbook.equipment.Item.phbwepHeavyCross",
         "duplicateSource": null,
         "coreVersion": "13.351",
         "systemId": "dnd5e",
         "systemVersion": "5.3.0",
-        "createdTime": 1724425919854,
-        "modifiedTime": 1735924845629,
+        "createdTime": 1724425919154,
+        "modifiedTime": 1726075772882,
         "lastModifiedBy": "dnd5ebuilder0000",
         "exportSource": null
       }
@@ -1205,7 +1207,7 @@
           "max": ""
         },
         "description": {
-          "value": "<p>The [[lookup @name lowercase]] makes {count} [[/item]] attacks and uses [[/item]].</p>",
+          "value": "<p>[[lookup @name]] makes two attacks, using [[/item .BR2Iabeb483c4731]] or [[/item .BR2I369211b91509]] in any combination.</p>",
           "chat": ""
         },
         "identifier": "multiattack",
@@ -1258,7 +1260,7 @@
       "img": "icons/skills/melee/shield-block-bash-blue.webp",
       "system": {
         "description": {
-          "value": "<p>When another creature damages you with a melee attack roll, you can take a Reaction and expend one Superiority Die to reduce the damage by the number you roll on your Superiority Die plus your Strength or Dexterity modifier (your choice).</p><section class=\"secret\" id=\"secret-0wY3O9dAMQDKj066\"><p><strong>Foundry Note</strong></p><p>This feature includes a Healing Reaction activity which can be used to retroactively recover the received damage.</p></section>",
+          "value": "<p><strong>Reaction.</strong> When [[lookup @name]] is hit by a melee attack roll while holding a weapon, he adds 2 to his AC against that attack, possibly causing it to miss.</p>",
           "chat": ""
         },
         "source": {
@@ -1279,84 +1281,7 @@
         },
         "properties": [],
         "requirements": "",
-        "activities": {
-          "F4UxiihGgkdv4orJ": {
-            "type": "heal",
-            "_id": "F4UxiihGgkdv4orJ",
-            "activation": {
-              "type": "reaction",
-              "value": null,
-              "override": false,
-              "condition": "When another creature damages you with a melee attack roll"
-            },
-            "consumption": {
-              "scaling": {
-                "allowed": false
-              },
-              "spellSlot": true,
-              "targets": [
-                {
-                  "type": "itemUses",
-                  "value": "1",
-                  "target": "Compendium.dnd-players-handbook.classes.Item.phbftrCombatSupe"
-                }
-              ]
-            },
-            "description": {
-              "chatFlavor": ""
-            },
-            "duration": {
-              "units": "inst",
-              "concentration": false,
-              "override": false
-            },
-            "effects": [],
-            "range": {
-              "override": false,
-              "units": "self",
-              "special": ""
-            },
-            "target": {
-              "template": {
-                "contiguous": false,
-                "units": "ft",
-                "type": ""
-              },
-              "affects": {
-                "choice": false,
-                "count": "",
-                "type": "self",
-                "special": ""
-              },
-              "override": false,
-              "prompt": false
-            },
-            "uses": {
-              "spent": 0,
-              "recovery": [],
-              "max": ""
-            },
-            "sort": 0,
-            "healing": {
-              "number": null,
-              "denomination": "",
-              "types": [
-                "healing"
-              ],
-              "custom": {
-                "enabled": true,
-                "formula": "@scale.battle-master.superiority.die + max(@abilities.str.mod, @abilities.dex.mod)"
-              },
-              "scaling": {
-                "number": 1
-              },
-              "bonus": ""
-            },
-            "name": "",
-            "img": "",
-            "appliedEffects": []
-          }
-        },
+        "activities": {},
         "enchant": {},
         "identifier": "parry"
       },

@@ -208,14 +208,6 @@
           "passive": ""
         }
       },
-      "prs": {
-        "value": 2,
-        "ability": "cha",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      },
       "slt": {
         "value": 1,
         "ability": "dex",
@@ -227,6 +219,14 @@
       "ste": {
         "value": 1,
         "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "per": {
+        "value": 2,
+        "ability": "cha",
         "bonuses": {
           "check": "",
           "passive": ""

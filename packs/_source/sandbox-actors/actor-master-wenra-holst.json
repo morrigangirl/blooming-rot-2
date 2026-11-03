@@ -1,6 +1,6 @@
 {
   "_id": "BR2Sbxe1586c4f00",
-  "name": "Master Wenra Holst",
+  "name": "Master Orrin Tamber",
   "type": "npc",
   "img": "modules/blooming-rot-2/assets/portraits/sandbox/master-wenra-holst-portrait.png",
   "system": {
@@ -445,7 +445,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p>Hardby's best weaponsmith. Fifty, runs a busy shop on the Iron Way, takes commissions four months out.</p>",
+        "value": "<p>Master Orrin Tamber, Hardby's best weaponsmith (not Brother Wenra Holst, the cleric of Pelor on Cobbler's Walk). Fifty, runs a busy shop on the Iron Way; a commission takes five to ten days, and there is a queue in the season.</p>",
         "public": ""
       },
       "alignment": "Neutral",
@@ -524,7 +524,7 @@
     }
   },
   "prototypeToken": {
-    "name": "Master Wenra Holst",
+    "name": "Master Orrin Tamber",
     "displayName": 0,
     "actorLink": false,
     "appendNumber": false,

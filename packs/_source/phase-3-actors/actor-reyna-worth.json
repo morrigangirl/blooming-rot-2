@@ -13,7 +13,7 @@
     },
     "abilities": {
       "str": {
-        "value": 10,
+        "value": 16,
         "proficient": 0,
         "max": null,
         "bonuses": {
@@ -22,7 +22,7 @@
         }
       },
       "dex": {
-        "value": 15,
+        "value": 13,
         "proficient": 0,
         "max": null,
         "bonuses": {
@@ -31,24 +31,6 @@
         }
       },
       "con": {
-        "value": 10,
-        "proficient": 0,
-        "max": null,
-        "bonuses": {
-          "check": "",
-          "save": ""
-        }
-      },
-      "int": {
-        "value": 12,
-        "proficient": 0,
-        "max": null,
-        "bonuses": {
-          "check": "",
-          "save": ""
-        }
-      },
-      "wis": {
         "value": 14,
         "proficient": 0,
         "max": null,
@@ -57,8 +39,26 @@
           "save": ""
         }
       },
+      "int": {
+        "value": 10,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "wis": {
+        "value": 11,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
       "cha": {
-        "value": 16,
+        "value": 10,
         "proficient": 0,
         "max": null,
         "bonuses": {
@@ -140,7 +140,7 @@
           "max": null,
           "mode": 0
         },
-        "value": 0,
+        "value": 1,
         "bonuses": {
           "check": "",
           "passive": ""
@@ -153,7 +153,7 @@
           "max": null,
           "mode": 0
         },
-        "value": 1,
+        "value": 0,
         "bonuses": {
           "check": "",
           "passive": ""
@@ -179,7 +179,7 @@
           "max": null,
           "mode": 0
         },
-        "value": 1,
+        "value": 0,
         "bonuses": {
           "check": "",
           "passive": ""
@@ -205,7 +205,7 @@
           "max": null,
           "mode": 0
         },
-        "value": 2,
+        "value": 0,
         "bonuses": {
           "check": "",
           "passive": ""
@@ -244,7 +244,7 @@
           "max": null,
           "mode": 0
         },
-        "value": 2,
+        "value": 1,
         "bonuses": {
           "check": "",
           "passive": ""
@@ -296,7 +296,7 @@
           "max": null,
           "mode": 0
         },
-        "value": 1,
+        "value": 0,
         "bonuses": {
           "check": "",
           "passive": ""
@@ -309,7 +309,7 @@
           "max": null,
           "mode": 0
         },
-        "value": 2,
+        "value": 0,
         "bonuses": {
           "check": "",
           "passive": ""
@@ -384,7 +384,7 @@
       },
       "movement": {
         "burrow": null,
-        "climb": 30,
+        "climb": null,
         "fly": null,
         "swim": null,
         "walk": 30,
@@ -426,11 +426,11 @@
         "spent": 0
       },
       "hp": {
-        "value": 27,
-        "max": 27,
+        "value": 65,
+        "max": 65,
         "temp": null,
         "tempmax": null,
-        "formula": "6d8"
+        "formula": "10d8 + 20"
       },
       "death": {
         "ability": "",
@@ -445,7 +445,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p>Cindren-aligned overseer who runs a daily check at the third bell. Fifties, Aerdi expat, paid by the firm to notice things and to forget them in the right order.</p>",
+        "value": "<p>Cindren-aligned overseer who runs a daily check at the third bell. Fifties, Aerdi expat, paid by the firm to notice things and to forget them in the right order. Stat block: MM Warrior Veteran (AC 17, HP 65, greatsword or heavy crossbow).</p>",
         "public": ""
       },
       "alignment": "Neutral",
@@ -457,7 +457,7 @@
         "value": "humanoid"
       },
       "environment": "",
-      "cr": 1,
+      "cr": 3,
       "spellLevel": 0,
       "habitat": {
         "value": [
@@ -624,18 +624,18 @@
   },
   "items": [
     {
-      "_key": "!actors.items!BR2P3Aac686dbcfb.BR2Ib7bba4314097",
-      "_id": "BR2Ib7bba4314097",
-      "name": "Shortsword",
+      "_key": "!actors.items!BR2P3Aac686dbcfb.BR2I10b0ce565e7e",
+      "_id": "BR2I10b0ce565e7e",
+      "name": "Greatsword",
       "type": "weapon",
-      "img": "modules/dnd-players-handbook/assets/icons/items/shortsword.webp",
+      "img": "modules/dnd-players-handbook/assets/icons/items/greatsword.webp",
       "system": {
         "description": {
           "value": "",
           "chat": ""
         },
         "price": {
-          "value": 10,
+          "value": 50,
           "denomination": "gp"
         },
         "source": {
@@ -649,7 +649,7 @@
         "container": null,
         "quantity": 1,
         "weight": {
-          "value": 2,
+          "value": 6,
           "units": "lb"
         },
         "rarity": "",
@@ -686,10 +686,10 @@
             }
           },
           "base": {
-            "number": 1,
+            "number": 2,
             "denomination": 6,
             "types": [
-              "piercing"
+              "slashing"
             ],
             "custom": {
               "enabled": false
@@ -711,16 +711,16 @@
         },
         "type": {
           "value": "martialM",
-          "baseItem": "shortsword"
+          "baseItem": "greatsword"
         },
         "magicalBonus": null,
         "properties": [
-          "fin",
-          "lgt"
+          "hvy",
+          "two"
         ],
         "proficient": null,
         "activities": {
-          "42jdrHDfDRCcYeL4": {
+          "6A6ml13DPr5XX4Wb": {
             "type": "attack",
             "activation": {
               "type": "action",
@@ -797,19 +797,19 @@
               "max": ""
             },
             "sort": 0,
-            "_id": "42jdrHDfDRCcYeL4",
+            "_id": "6A6ml13DPr5XX4Wb",
             "name": "",
             "img": "",
             "appliedEffects": []
           }
         },
         "ammunition": {},
-        "mastery": "vex",
-        "identifier": "shortsword"
+        "mastery": "graze",
+        "identifier": "greatsword"
       },
       "effects": [],
       "folder": "fd3qxAXCv2FhExPp",
-      "sort": 0,
+      "sort": 100000,
       "ownership": {
         "default": 0,
         "fINBcNTWMg89nRCp": 3
@@ -822,34 +822,34 @@
           }
         },
         "core": {
-          "sourceId": "Compendium.dnd-players-handbook.equipment.Item.phbwepShortsword"
+          "sourceId": "Compendium.dnd-players-handbook.equipment.Item.phbwepGreatsword"
         }
       },
       "_stats": {
-        "compendiumSource": "Compendium.dnd-players-handbook.equipment.Item.phbwepShortsword",
+        "compendiumSource": "Compendium.dnd-players-handbook.equipment.Item.phbwepGreatsword",
         "duplicateSource": null,
         "coreVersion": "13.351",
         "systemId": "dnd5e",
         "systemVersion": "5.3.0",
-        "createdTime": 1724425920034,
-        "modifiedTime": 1726075773434,
+        "createdTime": 1724425918839,
+        "modifiedTime": 1726075772743,
         "lastModifiedBy": "dnd5ebuilder0000",
         "exportSource": null
       }
     },
     {
-      "_key": "!actors.items!BR2P3Aac686dbcfb.BR2Ie004215958fe",
-      "_id": "BR2Ie004215958fe",
-      "name": "Hand Crossbow",
+      "_key": "!actors.items!BR2P3Aac686dbcfb.BR2I4dbc77b1a132",
+      "_id": "BR2I4dbc77b1a132",
+      "name": "Heavy Crossbow",
       "type": "weapon",
-      "img": "modules/dnd-players-handbook/assets/icons/items/hand-crossbow.webp",
+      "img": "modules/dnd-players-handbook/assets/icons/items/heavy-crossbow.webp",
       "system": {
         "description": {
           "value": "",
           "chat": ""
         },
         "price": {
-          "value": 75,
+          "value": 50,
           "denomination": "gp"
         },
         "source": {
@@ -863,7 +863,7 @@
         "container": null,
         "quantity": 1,
         "weight": {
-          "value": 3,
+          "value": 18,
           "units": "lb"
         },
         "rarity": "",
@@ -873,8 +873,8 @@
         "cover": null,
         "crewed": false,
         "range": {
-          "value": 30,
-          "long": 120,
+          "value": 100,
+          "long": 400,
           "units": "ft",
           "reach": null
         },
@@ -901,7 +901,7 @@
           },
           "base": {
             "number": 1,
-            "denomination": 6,
+            "denomination": 10,
             "types": [
               "piercing"
             ],
@@ -925,17 +925,18 @@
         },
         "type": {
           "value": "martialR",
-          "baseItem": "handcrossbow"
+          "baseItem": "heavycrossbow"
         },
         "magicalBonus": null,
         "properties": [
           "amm",
-          "lgt",
-          "lod"
+          "hvy",
+          "lod",
+          "two"
         ],
         "proficient": null,
         "activities": {
-          "CJjRI7JX8tziGFSo": {
+          "Ob33KB63GfHSudOK": {
             "type": "attack",
             "activation": {
               "type": "action",
@@ -963,7 +964,7 @@
             },
             "effects": [],
             "range": {
-              "value": "30",
+              "value": "100",
               "units": "ft",
               "special": "",
               "override": false
@@ -1012,7 +1013,7 @@
               "max": ""
             },
             "sort": 0,
-            "_id": "CJjRI7JX8tziGFSo",
+            "_id": "Ob33KB63GfHSudOK",
             "name": "",
             "img": "",
             "appliedEffects": []
@@ -1021,12 +1022,12 @@
         "ammunition": {
           "type": "crossbowBolt"
         },
-        "mastery": "vex",
-        "identifier": "hand-crossbow"
+        "mastery": "push",
+        "identifier": "heavy-crossbow"
       },
       "effects": [],
       "folder": "0qKr1rbesCSNE0MA",
-      "sort": 0,
+      "sort": 300000,
       "ownership": {
         "default": 0,
         "fINBcNTWMg89nRCp": 3
@@ -1039,30 +1040,233 @@
           }
         },
         "core": {
-          "sourceId": "Compendium.dnd-players-handbook.equipment.Item.phbwepHandCrossb"
+          "sourceId": "Compendium.dnd-players-handbook.equipment.Item.phbwepHeavyCross"
         }
       },
       "_stats": {
-        "compendiumSource": "Compendium.dnd-players-handbook.equipment.Item.phbwepHandCrossb",
+        "compendiumSource": "Compendium.dnd-players-handbook.equipment.Item.phbwepHeavyCross",
         "duplicateSource": null,
         "coreVersion": "13.351",
         "systemId": "dnd5e",
         "systemVersion": "5.3.0",
-        "createdTime": 1724425919025,
-        "modifiedTime": 1726075772810,
+        "createdTime": 1724425919154,
+        "modifiedTime": 1726075772882,
         "lastModifiedBy": "dnd5ebuilder0000",
         "exportSource": null
       }
     },
     {
-      "_key": "!actors.items!BR2P3Aac686dbcfb.BR2Idbaaaf4ff618",
-      "_id": "BR2Idbaaaf4ff618",
-      "name": "Cunning Action",
-      "type": "feat",
-      "img": "icons/skills/movement/figure-running-gray.webp",
+      "_key": "!actors.items!BR2P3Aac686dbcfb.BR2Ia07340c5df94",
+      "_id": "BR2Ia07340c5df94",
+      "name": "Splint Armor",
+      "type": "equipment",
+      "img": "modules/dnd-players-handbook/assets/icons/armor/splint-armor.webp",
       "system": {
         "description": {
-          "value": "<p>Your quick thinking and agility allow you to move and act quickly. On your turn, you can take one of the following actions as a Bonus Action: &amp;Reference[Dash], &amp;Reference[Disengage], or &amp;Reference[Hide].</p>",
+          "value": "",
+          "chat": ""
+        },
+        "price": {
+          "value": 200,
+          "denomination": "gp"
+        },
+        "source": {
+          "custom": "",
+          "rules": "2024"
+        },
+        "identified": true,
+        "unidentified": {
+          "description": ""
+        },
+        "container": null,
+        "quantity": 1,
+        "weight": {
+          "value": 60,
+          "units": "lb"
+        },
+        "rarity": "",
+        "attunement": "",
+        "attuned": false,
+        "equipped": true,
+        "cover": null,
+        "crewed": false,
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "armor": {
+          "value": 17,
+          "magicalBonus": null,
+          "dex": 0
+        },
+        "hp": {
+          "value": null,
+          "max": null,
+          "dt": null,
+          "conditions": ""
+        },
+        "type": {
+          "value": "heavy",
+          "baseItem": "splint"
+        },
+        "properties": [
+          "stealthDisadvantage"
+        ],
+        "speed": {
+          "value": null,
+          "conditions": ""
+        },
+        "strength": 15,
+        "proficient": null,
+        "activities": {},
+        "identifier": "splint-armor"
+      },
+      "effects": [],
+      "folder": "zqXSu2wOJljt7AsS",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "fINBcNTWMg89nRCp": 3
+      },
+      "flags": {
+        "dnd5e": {},
+        "core": {
+          "sourceId": "Compendium.dnd-players-handbook.equipment.Item.phbarmSplintArmo"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.dnd-players-handbook.equipment.Item.phbarmSplintArmo",
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": 1724425914364,
+        "modifiedTime": 1726075770963,
+        "lastModifiedBy": "dnd5ebuilder0000",
+        "exportSource": null
+      }
+    },
+    {
+      "_key": "!actors.items!BR2P3Aac686dbcfb.BR2I77fd4b6b5c43",
+      "_id": "BR2I77fd4b6b5c43",
+      "name": "Multiattack",
+      "type": "feat",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "system": {
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activities": {
+          "ZN4lVItlJ95HT6TZ": {
+            "type": "utility",
+            "name": "Use",
+            "_id": "ZN4lVItlJ95HT6TZ",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {},
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft"
+              },
+              "affects": {
+                "choice": false
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": []
+            },
+            "roll": {
+              "prompt": false,
+              "visible": false
+            }
+          }
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "description": {
+          "value": "<p>[[lookup @name]] makes two attacks, using [[/item .BR2I10b0ce565e7e]] or [[/item .BR2I4dbc77b1a132]] in any combination.</p>",
+          "chat": ""
+        },
+        "identifier": "multiattack",
+        "source": {
+          "revision": 1,
+          "rules": "2024"
+        },
+        "enchant": {},
+        "prerequisites": {
+          "level": null
+        },
+        "properties": [],
+        "requirements": ""
+      },
+      "effects": [],
+      "folder": "4T18pEvubPMQLzvD",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "p7W6V9dOCsYphtv6": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "activity": [],
+            "effect": []
+          }
+        },
+        "core": {
+          "sourceId": "Compendium.dnd-monster-manual.features.Item.mmMultiattack000"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.dnd-monster-manual.features.Item.mmMultiattack000",
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.0",
+        "createdTime": 1733432292956,
+        "modifiedTime": 1737515542020,
+        "lastModifiedBy": "dnd5ebuilder0000",
+        "exportSource": null
+      }
+    },
+    {
+      "_key": "!actors.items!BR2P3Aac686dbcfb.BR2I5c1781837d86",
+      "_id": "BR2I5c1781837d86",
+      "name": "Parry",
+      "type": "feat",
+      "img": "icons/skills/melee/shield-block-bash-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p><strong>Reaction.</strong> When [[lookup @name]] is hit by a melee attack roll while holding a weapon, she adds 2 to her AC against that attack, possibly causing it to miss.</p>",
           "chat": ""
         },
         "source": {
@@ -1076,263 +1280,43 @@
         },
         "type": {
           "value": "class",
-          "subtype": ""
+          "subtype": "maneuver"
         },
         "prerequisites": {
-          "level": 2
+          "level": 3
         },
         "properties": [],
         "requirements": "",
-        "activities": {
-          "NtS3iThuWWwm8O62": {
-            "type": "utility",
-            "_id": "NtS3iThuWWwm8O62",
-            "activation": {
-              "type": "bonus",
-              "value": null,
-              "override": false,
-              "condition": ""
-            },
-            "consumption": {
-              "scaling": {
-                "allowed": false
-              },
-              "spellSlot": true,
-              "targets": []
-            },
-            "description": {
-              "chatFlavor": ""
-            },
-            "duration": {
-              "units": "inst",
-              "concentration": false,
-              "override": false
-            },
-            "effects": [],
-            "range": {
-              "override": false,
-              "units": "self",
-              "special": ""
-            },
-            "target": {
-              "template": {
-                "contiguous": false,
-                "units": "ft",
-                "type": ""
-              },
-              "affects": {
-                "choice": false,
-                "count": "",
-                "type": ""
-              },
-              "override": false,
-              "prompt": true
-            },
-            "uses": {
-              "spent": 0,
-              "recovery": [],
-              "max": ""
-            },
-            "sort": 100000,
-            "roll": {
-              "prompt": false,
-              "visible": false,
-              "name": "",
-              "formula": ""
-            },
-            "name": "Dash",
-            "img": "",
-            "appliedEffects": []
-          },
-          "AeCciDTvw3kS583a": {
-            "type": "utility",
-            "name": "Disengage",
-            "_id": "AeCciDTvw3kS583a",
-            "activation": {
-              "type": "bonus",
-              "value": null,
-              "override": false,
-              "condition": ""
-            },
-            "consumption": {
-              "scaling": {
-                "allowed": false
-              },
-              "spellSlot": true,
-              "targets": []
-            },
-            "description": {
-              "chatFlavor": ""
-            },
-            "duration": {
-              "units": "inst",
-              "concentration": false,
-              "override": false
-            },
-            "effects": [],
-            "range": {
-              "override": false,
-              "units": "self",
-              "special": ""
-            },
-            "target": {
-              "template": {
-                "contiguous": false,
-                "units": "ft",
-                "type": ""
-              },
-              "affects": {
-                "choice": false,
-                "count": "",
-                "type": ""
-              },
-              "override": false,
-              "prompt": false
-            },
-            "uses": {
-              "spent": 0,
-              "recovery": [],
-              "max": ""
-            },
-            "sort": 300000,
-            "roll": {
-              "prompt": false,
-              "visible": false,
-              "name": "",
-              "formula": ""
-            },
-            "img": "",
-            "appliedEffects": []
-          },
-          "NiI5qEhg9TepZxMh": {
-            "type": "utility",
-            "_id": "NiI5qEhg9TepZxMh",
-            "activation": {
-              "type": "bonus",
-              "value": null,
-              "override": false,
-              "condition": ""
-            },
-            "consumption": {
-              "scaling": {
-                "allowed": false
-              },
-              "spellSlot": true,
-              "targets": []
-            },
-            "description": {
-              "chatFlavor": ""
-            },
-            "duration": {
-              "units": "inst",
-              "concentration": false,
-              "override": false
-            },
-            "effects": [
-              {
-                "_id": "YLfpwyCVUObRTopP"
-              }
-            ],
-            "range": {
-              "override": false,
-              "units": "self",
-              "special": ""
-            },
-            "target": {
-              "template": {
-                "contiguous": false,
-                "units": "ft",
-                "type": ""
-              },
-              "affects": {
-                "choice": false,
-                "count": "",
-                "type": "self"
-              },
-              "override": false,
-              "prompt": true
-            },
-            "uses": {
-              "spent": 0,
-              "recovery": [],
-              "max": ""
-            },
-            "sort": 0,
-            "roll": {
-              "prompt": false,
-              "visible": false,
-              "name": "",
-              "formula": ""
-            },
-            "name": "Hide",
-            "img": "",
-            "appliedEffects": []
-          }
-        },
+        "activities": {},
         "enchant": {},
-        "identifier": "cunning-action"
+        "identifier": "parry"
       },
-      "effects": [
-        {
-          "name": "Hiding",
-          "img": "icons/skills/movement/figure-running-gray.webp",
-          "origin": "Compendium.dnd-players-handbook.classes.Item.phbrgeCunningAct",
-          "transfer": false,
-          "_id": "YLfpwyCVUObRTopP",
-          "type": "base",
-          "system": {},
-          "changes": [],
-          "disabled": false,
-          "duration": {
-            "startTime": null,
-            "seconds": null,
-            "combat": null,
-            "rounds": null,
-            "turns": null,
-            "startRound": null,
-            "startTurn": null
-          },
-          "description": "",
-          "tint": "#ffffff",
-          "statuses": [
-            "hiding"
-          ],
-          "sort": 0,
-          "flags": {},
-          "_stats": {
-            "compendiumSource": null,
-            "duplicateSource": null,
-            "coreVersion": "13.346",
-            "systemId": "dnd5e",
-            "systemVersion": "4.0.0",
-            "createdTime": 1724986029023,
-            "modifiedTime": 1726859963646,
-            "lastModifiedBy": "rL0ykqNFC97PcTW6",
-            "exportSource": null
-          },
-          "_key": "!actors.items.effects!BR2P3Aac686dbcfb.BR2Idbaaaf4ff618.YLfpwyCVUObRTopP"
-        }
-      ],
+      "effects": [],
       "folder": "4T18pEvubPMQLzvD",
       "sort": 0,
       "ownership": {
         "default": 0,
-        "p7W6V9dOCsYphtv6": 3
+        "g3b1uG8OzU4jXKtW": 3
       },
       "flags": {
-        "dnd5e": {},
+        "dnd5e": {
+          "riders": {
+            "activity": [],
+            "effect": []
+          }
+        },
         "core": {
-          "sourceId": "Compendium.dnd-players-handbook.classes.Item.phbrgeCunningAct"
+          "sourceId": "Compendium.dnd-players-handbook.classes.Item.phbmnvParry00000"
         }
       },
       "_stats": {
-        "compendiumSource": "Compendium.dnd-players-handbook.classes.Item.phbrgeCunningAct",
+        "compendiumSource": "Compendium.dnd-players-handbook.classes.Item.phbmnvParry00000",
         "duplicateSource": null,
         "coreVersion": "13.351",
         "systemId": "dnd5e",
         "systemVersion": "5.3.0",
-        "createdTime": 1724425981415,
-        "modifiedTime": 1726075582469,
+        "createdTime": 1724425980078,
+        "modifiedTime": 1755018572500,
         "lastModifiedBy": "dnd5ebuilder0000",
         "exportSource": null
       }

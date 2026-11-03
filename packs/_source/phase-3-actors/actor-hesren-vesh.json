@@ -98,11 +98,11 @@
         "limit": 1
       },
       "hp": {
-        "value": 11,
-        "max": 11,
+        "value": 9,
+        "max": 9,
         "temp": 0,
         "tempmax": 0,
-        "formula": ""
+        "formula": "2d8"
       },
       "ac": {
         "flat": 10,
@@ -117,7 +117,7 @@
     },
     "details": {
       "biography": {
-        "value": "<h2>Hesren Vesh — The Loftwick Clerk, Taken to Hardby</h2>\n<p><em>The Loftwick satellite's entire staff — its one bonded clerk — taken down to Hardby within days of the party's visit to Wick Lane and parked in a senior post on paper with nothing to do in it. Honest, anxious, and over his head; the party can extract him if they reach him in time.</em></p>\n<h3>Combat behavior</h3>\n<p><strong>Will not fight.</strong> Yields. Has no combat training. If extracted, requires escort.</p>\n<h3>Statblock summary (CR 0, PB +2)</h3>\n<p>AC 10 · HP 11 (2d8+2) · Speed 30 ft. · Init +0 · Passive Perception 11</p>\n<p>STR 9 · DEX 10 · CON 10 · INT 14 · WIS 13 · CHA 11. Saves: INT +4. Skills: History +3, Insight +3, Investigation +3.</p>\n<p>Languages: Common, Old Aerdi.</p>\n<h3>Source</h3>\n<p><em>Blooming Rot, Part 2 — Phase 3.</em> See <em>Hardby NPCs → Hesren Vesh — Recalled to Hardby</em> for full profile and extraction logistics.</p>",
+        "value": "<h2>Hesren Vesh — The Loftwick Clerk, Taken to Hardby</h2>\n<p><em>The Loftwick satellite's entire staff — its one bonded clerk — taken down to Hardby within days of the party's visit to Wick Lane and parked in a senior post on paper with nothing to do in it. Honest, anxious, and over his head; the party can extract him if they reach him in time.</em></p>\n<h3>Combat behavior</h3>\n<p><strong>Will not fight.</strong> Yields. Has no combat training. If extracted, requires escort.</p>\n<h3>Statblock summary (CR 0, PB +2)</h3>\n<p>AC 10 · HP 9 (2d8) · Speed 30 ft. · Init +0 · Passive Perception 11</p>\n<p>STR 9 · DEX 10 · CON 10 · INT 14 · WIS 13 · CHA 11. Saves: INT +4. Skills: History +4, Insight +3, Investigation +4.</p>\n<p>Languages: Common, Old Aerdi.</p>\n<h3>Source</h3>\n<p><em>Blooming Rot, Part 2 — Phase 3.</em> See <em>Hardby NPCs → Hesren Vesh — Recalled to Hardby</em> for full profile and extraction logistics.</p>",
         "public": ""
       },
       "alignment": "Lawful Neutral",
@@ -387,12 +387,12 @@
     {
       "_key": "!actors.items!BR2P3ActHesren.BR2I2ed68bb740f9",
       "_id": "BR2I2ed68bb740f9",
-      "name": "Junior C&V Clerk's Pin",
+      "name": "C&V Senior Clerk's Pin",
       "type": "loot",
       "img": "icons/sundries/misc/pin-bronze.webp",
       "system": {
         "description": {
-          "value": "<p>A small bronze C&V branch-clerk pin at the lapel. Less prestigious than Solen's enamel.</p>",
+          "value": "<p>A bronze C&amp;V senior-clerk pin at the lapel: the rank the firm gave him on paper. It embarrasses him.</p>",
           "chat": ""
         },
         "source": {

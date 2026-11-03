@@ -214,14 +214,6 @@
           "passive": ""
         }
       },
-      "prs": {
-        "value": 1,
-        "ability": "cha",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      },
       "dec": {
         "value": 1,
         "ability": "cha",
@@ -231,6 +223,14 @@
         }
       },
       "prf": {
+        "value": 1,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "per": {
         "value": 1,
         "ability": "cha",
         "bonuses": {

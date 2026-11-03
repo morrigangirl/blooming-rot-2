@@ -52,7 +52,7 @@
         }
       },
       "cha": {
-        "value": 12,
+        "value": 14,
         "proficient": 0,
         "max": null,
         "bonuses": {
@@ -117,7 +117,7 @@
     },
     "details": {
       "biography": {
-        "value": "<h2>Solen Mereth — Senior Clerk, Cindren &amp; Vhal Hardby</h2>\n<p><em>The compromised senior clerk of the Hardby branch. Late forties, and not corrupt by inclination — he took a quiet additional brief from a senior partner in 580 and has run it well for four years, which is a different thing and a worse one. Turns only under a procedurally clean evidence package, and hardens if pressed without one.</em></p>\n<h3>Description</h3>\n<p>Late forties. Aerdi-born, dark hair going grey at the crown, narrow gold-rimmed reading lenses, dark broadcloth coat with a small enamel firm-pin at the lapel. Long pale hands stained with ink. Walks the three streets to the branch and back every day of his life.</p>\n<h3>Combat behavior</h3>\n<p><strong>Will not fight.</strong> Yields immediately to any threat of violence. He has no combat training and no intention of acquiring any.</p>\n<h3>Statblock summary (CR 0, PB +2)</h3>\n<p><strong>AC</strong> 10 · <strong>HP</strong> 14 (4d6) · <strong>Speed</strong> 30 ft. · <strong>Init</strong> +0 · <strong>Passive Perception</strong> 12</p>\n<p><strong>STR</strong> 9 (-1) · <strong>DEX</strong> 10 (+0) · <strong>CON</strong> 10 (+0) · <strong>INT</strong> 16 (+3) · <strong>WIS</strong> 14 (+2) · <strong>CHA</strong> 12 (+1)</p>\n<p><strong>Saves:</strong> INT +5, WIS +4. <strong>Skills:</strong> History +5, Insight +4, Investigation +5, Persuasion +6.</p>\n<p><strong>Senses:</strong> Passive Perception 12. <strong>Languages:</strong> Common, Old Aerdi.</p>\n<h3>Source</h3>\n<p><em>Blooming Rot, Part 2 — Phase 3.</em> See <em>Cindren &amp; Vhal Hardby Branch → Solen Mereth — Compromised Senior Clerk</em> for full profile, the three approach paths, and the Aerdi commercial subpoena procedure.</p>",
+        "value": "<h2>Solen Mereth — Senior Clerk, Cindren &amp; Vhal Hardby</h2>\n<p><em>The compromised senior clerk of the Hardby branch. Late forties, and not corrupt by inclination — he took a quiet additional brief from a senior partner in 580 and has run it well for four years, which is a different thing and a worse one. Turns only under a procedurally clean evidence package, and hardens if pressed without one.</em></p>\n<h3>Description</h3>\n<p>Late forties. Aerdi-born, tall and lean, balding, careful clean-shaven features. The firm's senior-clerk livery: a dark green wool coat with the brass crane-and-coins pin at the lapel and a smaller head-of-office pin beside it. Reading lenses on a black silk cord. Long pale hands stained with ink. Walks the three streets to the branch and back every day of his life.</p>\n<h3>Combat behavior</h3>\n<p><strong>Will not fight.</strong> Yields immediately to any threat of violence. He has no combat training and no intention of acquiring any.</p>\n<h3>Statblock summary (CR 0, PB +2)</h3>\n<p><strong>AC</strong> 10 · <strong>HP</strong> 14 (4d6) · <strong>Speed</strong> 30 ft. · <strong>Init</strong> +0 · <strong>Passive Perception</strong> 12</p>\n<p><strong>STR</strong> 9 (-1) · <strong>DEX</strong> 10 (+0) · <strong>CON</strong> 10 (+0) · <strong>INT</strong> 16 (+3) · <strong>WIS</strong> 14 (+2) · <strong>CHA</strong> 14 (+2)</p>\n<p><strong>Saves:</strong> INT +5, WIS +4. <strong>Skills:</strong> History +5, Insight +4, Investigation +5, Persuasion +6.</p>\n<p><strong>Senses:</strong> Passive Perception 12. <strong>Languages:</strong> Common, Old Aerdi.</p>\n<h3>Source</h3>\n<p><em>Blooming Rot, Part 2 — Phase 3.</em> See <em>Cindren &amp; Vhal Hardby Branch → Solen Mereth — Compromised Senior Clerk</em> for full profile, the three approach paths, and the Aerdi commercial subpoena procedure.</p>",
         "public": ""
       },
       "alignment": "Lawful Neutral",
@@ -202,8 +202,8 @@
           "passive": ""
         }
       },
-      "prs": {
-        "value": 0,
+      "per": {
+        "value": 2,
         "ability": "cha",
         "bonuses": {
           "check": "",
@@ -395,12 +395,12 @@
     {
       "_key": "!actors.items!BR2P3ActSolen.BR2I9ed90ed31ecd",
       "_id": "BR2I9ed90ed31ecd",
-      "name": "Cindren & Vhal Enamel Firm-Pin",
+      "name": "Brass Crane-and-Coins Firm-Pin",
       "type": "loot",
       "img": "icons/sundries/misc/pin-bronze.webp",
       "system": {
         "description": {
-          "value": "<p>A small enamel pin bearing the firm's crane-and-three-coins device. Worn at the lapel of his dark broadcloth coat.</p>",
+          "value": "<p>The firm's brass crane-and-three-coins pin, with the smaller head-of-office pin beside it, at the lapel of his dark green wool coat.</p>",
           "chat": ""
         },
         "source": {
@@ -593,78 +593,6 @@
         "modifiedTime": 1726581961607,
         "lastModifiedBy": "dnd5ebuilder0000",
         "exportSource": null
-      }
-    },
-    {
-      "_key": "!actors.items!BR2P3ActSolen.BR2I71ea9e01b75c",
-      "_id": "BR2I71ea9e01b75c",
-      "name": "Poor Health",
-      "type": "feat",
-      "img": "icons/sundries/scrolls/scroll-rolled-tan.webp",
-      "system": {
-        "description": {
-          "value": "<p>Solen's stiff knees and persistent cough mean he walks short distances only and tires after an hour of standing. He cannot pursue, fight, or flee on foot for long.</p>",
-          "chat": ""
-        },
-        "source": {
-          "custom": "Blooming Rot 2 (NPC feature)",
-          "book": "",
-          "page": ""
-        },
-        "activation": {
-          "type": "",
-          "cost": null,
-          "condition": ""
-        },
-        "duration": {
-          "value": "",
-          "units": ""
-        },
-        "target": {
-          "value": "",
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": null,
-          "max": "",
-          "recovery": [],
-          "spent": 0
-        },
-        "recharge": {
-          "value": null,
-          "charged": false
-        },
-        "requirements": "",
-        "type": {
-          "value": "monster",
-          "subtype": ""
-        },
-        "properties": []
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 300,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "dnd5e",
-        "systemVersion": "5.3.0",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
       }
     }
   ],

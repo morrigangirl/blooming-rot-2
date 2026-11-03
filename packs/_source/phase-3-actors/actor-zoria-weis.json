@@ -117,7 +117,7 @@
     },
     "details": {
       "biography": {
-        "value": "<h2>Zoria Weis — Gynarchy Under-Clerk, Caelith's Asset</h2>\n<p><em>A debt Caelith is calling, not a friend. Zoria works in the Hardby Gynarchy registry. She will help once the agreed phrase is spoken — and she will remember the help.</em></p>\n<h3>Combat behavior</h3>\n<p>Avoids combat. Carries no weapon. If the situation turns kinetic she will withdraw and report. <em>Treat her as a witness who will recall every detail of any encounter she witnesses, including who said what.</em></p>\n<h3>Statblock summary (CR 1/4, PB +2)</h3>\n<p>AC 12 · HP 27 (5d8+5) · Speed 30 ft. · Init +1 · Passive Perception 12</p>\n<p>STR 10 · DEX 13 · CON 13 · INT 16 · WIS 14 · CHA 14. Saves: INT +5. Skills: Deception +3, History +5, Insight +4, Investigation +5, Persuasion +3.</p>\n<p>Languages: Common, Old Aerdi, Hardby civic cipher.</p>\n<h3>Source</h3>\n<p><em>Blooming Rot, Part 2 — Phase 3.</em> See <em>Hardby NPCs → Zoria Weis — Caelith's Hardby Asset (Use With Care)</em> for full profile and the approach phrase.</p>",
+        "value": "<h2>Zoria Weis — Gynarchy Under-Clerk, Caelith's Asset</h2>\n<p><em>A debt Caelith is calling, not a friend. Zoria works in the Hardby Gynarchy registry. She will help once the agreed phrase is spoken — and she will remember the help.</em></p>\n<h3>Combat behavior</h3>\n<p>Avoids combat. Carries no weapon. If the situation turns kinetic she will withdraw and report. <em>Treat her as a witness who will recall every detail of any encounter she witnesses, including who said what.</em></p>\n<h3>Statblock summary (CR 1/4, PB +2)</h3>\n<p>AC 12 · HP 27 (5d8+5) · Speed 30 ft. · Init +1 · Passive Perception 12</p>\n<p>STR 10 · DEX 13 · CON 13 · INT 16 · WIS 14 · CHA 14. Saves: INT +5. Skills: Deception +4, History +5, Insight +4, Investigation +5, Persuasion +4.</p>\n<p>Languages: Common, Old Aerdi, Hardby civic cipher.</p>\n<h3>Source</h3>\n<p><em>Blooming Rot, Part 2 — Phase 3.</em> See <em>Hardby NPCs → Zoria Weis — Caelith's Hardby Asset (Use With Care)</em> for full profile and the approach phrase.</p>",
         "public": ""
       },
       "alignment": "Lawful Neutral",
@@ -210,7 +210,7 @@
           "passive": ""
         }
       },
-      "prs": {
+      "per": {
         "value": 1,
         "ability": "cha",
         "bonuses": {

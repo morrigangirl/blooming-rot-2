@@ -46,7 +46,7 @@ You need to have decided three things before play:
 
 1. **The firm suspects; it does not know.** *GM Brief — Phase 3 Purpose* fixes the Commercial Cover head start at about five weeks of alarm with no confirmation the party is in Hardby. The circular is a **guess**, sent to four masters, and says so in its own text. Rewrite it into certainty and you have rewritten Phase 3's opening position.
 2. **"E." stays a single initial.** *The Veska Reveal — Reading the Chops* is where the fourth hand gets named as a hand, and Veska's gift is not the letter but the **three details of how that hand forms it** — the loop, the serif, the angle of the descender. So the circular is a **clerk's fair copy**: the initial survives the transcription, the hand does not. When Veska gives the three details, the party comes back to this sheet and finds it does not match, which is a finding of its own — somebody in a Hardby office copied out orders from a hand nobody in Hardby admits to having seen. Her scene gets stronger; nothing is spent.
-3. **The courier's mark is the party's own recognition.** The wax carries the mark from *Seed Repairs — What Phase 2 Was Missing*, in its exact words: *a single upright stroke with a short bar across it, up near the top*. They found it behind a loose stone on Tannery Row and again on Merev Sarth's forged writ. No NPC reads it for them.
+3. **The courier's mark is the party's own recognition.** The wax carries the mark from *Seed Repairs — What Phase 2 Was Missing*, in its exact words: *a single upright stroke with a short bar across it, up near the top*. If they saw it in Loftwick it was in the corner of the Sparrow fold's instruction card and on the wax flap of Hesren Vesh's courier packet; if they missed both, this is its first sighting. No NPC reads it for them.
 
 ---
 
@@ -140,7 +140,7 @@ Two sentences of *Arrival — Commercial Cover* want a hand:
 - **"The harbour takes you in without a flicker."** If the hull track reached segment 2 or worse, it takes them in with one flicker — the customs boy counts bales, then walks aft, looks at the repairs, and writes down whatever they tell him. He still does not count faces. But there is now a piece of paper in a harbour office with their story on it.
 - **"You have learned the smell of raw fleece in a wet hold."** Let that carry the rest: the Grey Fee's dead, a fortnight of pumping, and the hand they got back or didn't.
 
-They come up the Whalemarket steps with three things they did not have in Loftwick — a circular proving they were hunted before they left Keoland, a mark in wax tying that hunt to Tannery Row, and one initial nobody has explained — plus **the third wharf** and **trade-drafts on a Hardby house that is not Cindren & Vhal**.
+They come up the Whalemarket steps with three things they did not have in Loftwick — a circular proving they were hunted before they left Keoland, a mark in wax tying that hunt to the courier's side-mark from Loftwick, and one initial nobody has explained — plus **the third wharf** and **trade-drafts on a Hardby house that is not Cindren & Vhal**. Phase 3 spends both on *The Third Wharf and the Drafts House*.
 
 If they did the Gull's Job, add **the Gull's papers**. The weigh-ticket means the customs boy writes nothing down whatever the hull track says, which cancels the one-flicker line above; the docket squares the letters with the bales if the samples were lost at the Ford. Both put the canon arrival back exactly as written and add nothing to it.
 

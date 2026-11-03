@@ -48,7 +48,7 @@
     }
   },
   "environment": {
-    "darknessLevel": 0,
+    "darknessLevel": 1.0,
     "darknessLock": false,
     "globalLight": {
       "enabled": true,
@@ -117,7 +117,7 @@
           "max": 1
         }
       },
-      "hidden": false,
+      "hidden": true,
       "flags": {},
       "_key": "!scenes.lights!BR2P3S068cbcd8a3.Light43740688360"
     },
@@ -154,7 +154,7 @@
           "max": 1
         }
       },
-      "hidden": false,
+      "hidden": true,
       "flags": {},
       "_key": "!scenes.lights!BR2P3S068cbcd8a3.Light1aeaceb5c3a"
     },
@@ -191,7 +191,7 @@
           "max": 1
         }
       },
-      "hidden": false,
+      "hidden": true,
       "flags": {},
       "_key": "!scenes.lights!BR2P3S068cbcd8a3.Light532279439b4"
     },
@@ -228,7 +228,7 @@
           "max": 1
         }
       },
-      "hidden": false,
+      "hidden": true,
       "flags": {},
       "_key": "!scenes.lights!BR2P3S068cbcd8a3.Light438f324f0d0"
     },
@@ -265,7 +265,7 @@
           "max": 1
         }
       },
-      "hidden": false,
+      "hidden": true,
       "flags": {},
       "_key": "!scenes.lights!BR2P3S068cbcd8a3.Light3824432af24"
     },
@@ -302,7 +302,7 @@
           "max": 1
         }
       },
-      "hidden": false,
+      "hidden": true,
       "flags": {},
       "_key": "!scenes.lights!BR2P3S068cbcd8a3.Lightf51411eed98"
     },
@@ -339,7 +339,7 @@
           "max": 1
         }
       },
-      "hidden": false,
+      "hidden": true,
       "flags": {},
       "_key": "!scenes.lights!BR2P3S068cbcd8a3.Light91aae94351c"
     },
@@ -376,7 +376,7 @@
           "max": 1
         }
       },
-      "hidden": false,
+      "hidden": true,
       "flags": {},
       "_key": "!scenes.lights!BR2P3S068cbcd8a3.Lightcbc173da54f"
     },
@@ -413,7 +413,7 @@
           "max": 1
         }
       },
-      "hidden": false,
+      "hidden": true,
       "flags": {},
       "_key": "!scenes.lights!BR2P3S068cbcd8a3.Lightf098c99c98b"
     },
@@ -450,7 +450,7 @@
           "max": 1
         }
       },
-      "hidden": false,
+      "hidden": true,
       "flags": {},
       "_key": "!scenes.lights!BR2P3S068cbcd8a3.Light5fbd4a81467"
     },
@@ -487,7 +487,7 @@
           "max": 1
         }
       },
-      "hidden": false,
+      "hidden": true,
       "flags": {},
       "_key": "!scenes.lights!BR2P3S068cbcd8a3.Lightda454ce27fd"
     },
@@ -524,7 +524,7 @@
           "max": 1
         }
       },
-      "hidden": false,
+      "hidden": true,
       "flags": {},
       "_key": "!scenes.lights!BR2P3S068cbcd8a3.Light16c8dc7abf9"
     },
@@ -561,7 +561,7 @@
           "max": 1
         }
       },
-      "hidden": false,
+      "hidden": true,
       "flags": {},
       "_key": "!scenes.lights!BR2P3S068cbcd8a3.Light865892b84fb"
     },
@@ -598,7 +598,7 @@
           "max": 1
         }
       },
-      "hidden": false,
+      "hidden": true,
       "flags": {},
       "_key": "!scenes.lights!BR2P3S068cbcd8a3.Light0d4452fea01"
     },
@@ -615,8 +615,8 @@
         "priority": 0,
         "alpha": 0.5,
         "angle": 360,
-        "bright": 4,
-        "dim": 10,
+        "bright": 2,
+        "dim": 6,
         "color": "#ffe2b0",
         "coloration": 1,
         "attenuation": 0.5,

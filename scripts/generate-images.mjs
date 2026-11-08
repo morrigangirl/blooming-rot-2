@@ -6662,6 +6662,283 @@ NO text, NO lettering, NO labels, NO numbers, NO grid lines, NO grid squares, NO
 NO perspective, NO side view, NO sky, NO roof drawn over the rooms (except the two skylights as described).
 Style: painterly hand-painted fantasy cartography, warm muted earth palette of oak, plaster, slate and brass, consistent with classic Greyhawk-era D&D module battle maps.`,
   },
+  // ============== TIER 53 — First Travel Intermission: the rest of Gradsul (v1.9.9) ==============
+  // The eleven named Gull's Job NPCs that shipped on icons/svg/mystery-man.svg, plus one face for the
+  // Mermaid's Inn regulars. Portrait + round token each, in the tier-52 manner. Gradsul is a Keoish port:
+  // Suel-fair and Oeridian-brown faces, wool and salt, grey estuary light.
+  {
+    id: "plover-portrait",
+    tier: 53,
+    out: "assets/portraits/plover-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of BELL-MOTHER AGATHE PLOVER, seventy, senior bell-mother of the Foaming Tower, priestess of Osprem, goddess of the sea, who has rung every hull out of Gradsul harbour for thirty years and keeps the temple's books of the lost.
+Small, brown-skinned, wrinkled as a walnut, with fierce black eyes, a wide mouth made for shouting over surf, and white hair cropped close under a plain linen coif. Strong square hands with a bell-ringer's callus across the palms.
+Clothing: sea-green wool vestments faded grey at the hem and salt-stained, a white linen stole worked with a simple wave pattern, a small brass HAND-BELL held against her chest, and a heavy ring of iron keys at her belt.
+Expression: formidable and affectionate at once — the look of a woman every sailor in the city is a little afraid of and would fight anyone who said so.
+Behind her, out of focus: the inside of a stone BELL-LOFT high over a harbour, the great bronze bell and its rope, and grey estuary light and gulls through a tall unglazed window.
+Three-quarter view from the chest up, her face centred horizontally in the UPPER HALF of the frame, cool grey daylight.
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  {
+    id: "plover-token",
+    tier: 53,
+    out: "assets/tokens/plover-token.png",
+    sourceFromExisting: "assets/portraits/plover-portrait.png",
+    skipGeneration: true,
+    postProcess: "round-token-512",
+    // Osprem's sea-green and bell-bronze.
+    ring: { base: "#2f6b5e", highlight: "#9fd6c4", shadow: "#0b1f1b" },
+  },
+  {
+    id: "pritchard-portrait",
+    tier: 53,
+    out: "assets/portraits/pritchard-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of CAPTAIN ODO PRITCHARD of the Gradsul City Watch, fifty: a competent, tired officer with three daughters at the convent school and two criminal guilds paying him, who does an honest job of everything else.
+Oeridian-brown skin, a square weathered face, close-cut grey-brown hair and a neat grey moustache, heavy-lidded patient eyes with dark shadows under them.
+Clothing: a dark blue Watch captain's coat with tarnished brass buttons, a bronze GORGET at the throat, a leather sap and a pair of iron manacles at his belt. No sword drawn, no helmet.
+Expression: decent, weary, and quietly reckoning which guild is paying for this week's trouble — a man who stops the fights he can see and arrests what he can prove.
+Behind him, out of focus: the Watch House of a port city at night — a board pinned with writs, a lantern, a barred window, wet cobbles beyond.
+Three-quarter view from the chest up, his face centred horizontally in the UPPER HALF of the frame, low warm lamplight from one side.
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  {
+    id: "pritchard-token",
+    tier: 53,
+    out: "assets/tokens/pritchard-token.png",
+    sourceFromExisting: "assets/portraits/pritchard-portrait.png",
+    skipGeneration: true,
+    postProcess: "round-token-512",
+    // Watch blue and bronze.
+    ring: { base: "#2e3f66", highlight: "#9fb0d8", shadow: "#0c111f" },
+  },
+  {
+    id: "dogger-haines-portrait",
+    tier: 53,
+    out: "assets/portraits/dogger-haines-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of DOGGER HAINES, thirty-five, the Weigher's hook-man on the Gradsul docks: an ex-stevedore with a broken nose and a good laugh, who ran the snatch at the Mermaid's Inn with saps and a sack because the house rule says no steel.
+Big-shouldered and thick-necked, fair Suel skin reddened by weather, a nose broken flat and badly set, a stubbled jaw, small bright merry eyes, sandy hair under a knitted wool cap.
+Clothing: a stevedore's canvas jacket open over a striped jersey, a leather-wrapped SAP tucked in his belt beside a steel CARGO HOOK, a coil of sacking over one shoulder.
+Expression: grinning in the middle of a fight he is enjoying very much — open, cheerful, and entirely without malice.
+Behind him, out of focus: a crowded dockside taproom, overturned chairs, and a wash of rippling BLUE-GREEN WATER-LIGHT across the wall, as if from a great lit aquarium tank out of frame.
+Three-quarter view from the chest up, his face centred horizontally in the UPPER HALF of the frame.
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  {
+    id: "dogger-haines-token",
+    tier: 53,
+    out: "assets/tokens/dogger-haines-token.png",
+    sourceFromExisting: "assets/portraits/dogger-haines-portrait.png",
+    skipGeneration: true,
+    postProcess: "round-token-512",
+    // Rust and rope.
+    ring: { base: "#6b3f22", highlight: "#d1976a", shadow: "#1f1108" },
+  },
+  {
+    id: "gethin-nye-portrait",
+    tier: 53,
+    out: "assets/portraits/gethin-nye-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of GETHIN NYE, sixty, once bosun to an attainted Keoish lord and now coachman to the lord's last daughter, whom he carried down a cliff path as a child the night the marines came: huge, one-eyed, with the gentlest voice on the waterfront.
+A very big man gone grey, with a broad weathered face, a short white beard, one calm pale eye and the other covered by a plain black leather patch; a bosun's thick forearms under a coachman's cuffs.
+Clothing: an old caped coachman's GREATCOAT of dark grey wool, a battered tricorn, a brass-and-horn LANTERN held low in one enormous hand, a bosun's silver call on a cord at his neck.
+Expression: gentle, patient and completely immovable — a man who does not need to win, only to stand in the way until she is clear.
+Behind him, out of focus: a dark cobbled lane at night outside a tavern, lamplight on wet stone, the corner of a waiting coach.
+Three-quarter view from the chest up, his face centred horizontally in the UPPER HALF of the frame, lantern-light from below and to one side.
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  {
+    id: "gethin-nye-token",
+    tier: 53,
+    out: "assets/tokens/gethin-nye-token.png",
+    sourceFromExisting: "assets/portraits/gethin-nye-portrait.png",
+    skipGeneration: true,
+    postProcess: "round-token-512",
+    // Grey iron, like the Gull's silver gone dark.
+    ring: { base: "#4d525a", highlight: "#b8bec8", shadow: "#15181c" },
+  },
+  {
+    id: "jessamy-cotter-portrait",
+    tier: 53,
+    out: "assets/portraits/jessamy-cotter-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of JESSAMY COTTER, forty-four, Harbour Warden of Gradsul at the Port Authority: meticulous, humourless, and the one official on the waterfront that neither guild has managed to buy.
+A lean, upright woman with a long plain face, pale Suel colouring, light hair pulled back hard into a knot, steel-rimmed spectacles, a straight unsmiling mouth.
+Clothing: a severe dark green Port Authority coat buttoned to the throat with a small brass anchor badge on the collar, a thick clasped LEDGER held against her side, and the Harbour Warden's brass SEAL on a chain at her waist. Ink on her right forefinger.
+Expression: exacting and unimpressed, in the moment of deciding whether to look up from the page — and she likes to inspect.
+Behind her, out of focus: the long counter of a Port Authority office, pigeon-holes of papers, and through a tall window the masts of outbound hulls at their moorings.
+Three-quarter view from the chest up, her face centred horizontally in the UPPER HALF of the frame, flat grey harbour daylight.
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  {
+    id: "jessamy-cotter-token",
+    tier: 53,
+    out: "assets/tokens/jessamy-cotter-token.png",
+    sourceFromExisting: "assets/portraits/jessamy-cotter-portrait.png",
+    skipGeneration: true,
+    postProcess: "round-token-512",
+    // Port Authority green and brass.
+    ring: { base: "#2f4a2c", highlight: "#a9c99a", shadow: "#0d170c" },
+  },
+  {
+    id: "josca-ferrand-portrait",
+    tier: 53,
+    out: "assets/portraits/josca-ferrand-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of JOSCA FERRAND, forty, swordmistress of the Illadra Academy and the most celebrated blade in Gradsul, who drinks at the Mermaid's Inn because it is the one room in the city where nobody can challenge her.
+Tall and long-limbed, olive-brown skin, dark hair streaked with grey and tied back hard, a thin old scar running from her left temple down across the cheekbone, dark amused eyes, a mouth on the edge of laughing.
+Clothing: a quilted grey FENCING JACK with a high collar, sleeves pushed up over corded forearms, a plain rapier hilt at her hip with a leather peace-cord tied round it, a tankard in one hand.
+Expression: delighted and measuring — a woman watching a fight start across the room and deciding which side looks outnumbered.
+Behind her, out of focus: the long bar of a dockside taproom, bottles on shelves, a bartender's shape, and a wash of rippling BLUE-GREEN WATER-LIGHT across everything, as if from a great lit aquarium tank out of frame.
+Three-quarter view from the chest up, her face centred horizontally in the UPPER HALF of the frame.
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  {
+    id: "josca-ferrand-token",
+    tier: 53,
+    out: "assets/tokens/josca-ferrand-token.png",
+    sourceFromExisting: "assets/portraits/josca-ferrand-portrait.png",
+    skipGeneration: true,
+    postProcess: "round-token-512",
+    // Blued steel.
+    ring: { base: "#3b4a5c", highlight: "#b5c4d6", shadow: "#0f151c" },
+  },
+  {
+    id: "whitlock-portrait",
+    tier: 53,
+    out: "assets/portraits/whitlock-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of KEEPER AMBROSE WHITLOCK, sixty-one, Keeper of the Royal Museum of Gradsul: a gentle, devoted antiquarian and popular lecturer, a lifelong bachelor who has given thirty years to a small museum nobody else wanted, a little snobbish about wreckers and very proud of his catalogue.
+Slight and stooped, pale skin, a high domed forehead with thin white hair combed carefully across it, round gold spectacles, soft blue eyes bright with interest, a small kind mouth.
+Clothing: a rusty black scholar's coat with chalk on one cuff, a dove-grey waistcoat, a frayed silk neckcloth, a bound CATALOGUE volume held open in one hand, and a small bronze WARD-TOKEN disc on a fine chain round his neck.
+Expression: delighted — the look of a man who has just been asked a second question about his collection.
+Behind him, out of focus: a narrow museum gallery — glass-topped display cases, a ship model on a stand, an arch of whalebone, framed sea charts, a single round glass-domed pedestal case under a skylight at the far end.
+Three-quarter view from the chest up, his face centred horizontally in the UPPER HALF of the frame, soft daylight from a skylight above.
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  {
+    id: "whitlock-token",
+    tier: 53,
+    out: "assets/tokens/whitlock-token.png",
+    sourceFromExisting: "assets/portraits/whitlock-portrait.png",
+    skipGeneration: true,
+    postProcess: "round-token-512",
+    // Old museum brass on wine-dark wood.
+    ring: { base: "#5a3a3a", highlight: "#c9a070", shadow: "#1c1010" },
+  },
+  {
+    id: "inn-regular-portrait",
+    tier: 53,
+    out: "assets/portraits/inn-regular-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of a REGULAR of the Mermaid's Inn, a dockside tavern in the Keoish port of Gradsul: a nameless weathered stevedore in his forties, one of thirty in the room, who will happily watch a fist-fight and will not stand for a drawn blade.
+A broad, ordinary, sun-and-salt-weathered face, brown stubble, a gap in his teeth, a knitted cap pushed back, a wool jersey and a canvas jerkin, a pewter TANKARD raised in a toast.
+Expression: cheerful, half-drunk, and watching something very entertaining happen across the room.
+Behind him, out of focus: a crowded low-ceilinged taproom, other drinkers' shapes, and a wash of rippling BLUE-GREEN WATER-LIGHT across the smoke and the wall, as if from a great lit aquarium tank out of frame.
+Three-quarter view from the chest up, his face centred horizontally in the UPPER HALF of the frame. Generic enough to stand for any man or woman in the room.
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  {
+    id: "inn-regular-token",
+    tier: 53,
+    out: "assets/tokens/inn-regular-token.png",
+    sourceFromExisting: "assets/portraits/inn-regular-portrait.png",
+    skipGeneration: true,
+    postProcess: "round-token-512",
+    // Tavern oak.
+    ring: { base: "#5a4228", highlight: "#c2a06e", shadow: "#1a120a" },
+  },
+  {
+    id: "oona-portrait",
+    tier: 53,
+    out: "assets/portraits/oona-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of OONA, the mer of the Mermaid's Inn in the port of Gradsul: a merfolk woman of no known age who comes up a sea channel under the tavern floor most nights, dances in the great glass tank for coin and herring, and sees everything that happens in the room through the glass.
+Seen THROUGH THE GLASS WALL OF THE TANK, underwater: a long, strong, pale-green-skinned face with wide dark eyes that have no whites, small fin-like ears, and a cloud of dark green-black hair drifting weightless around her. Her shoulders and chest are wound with strands of living kelp and a necklace of old copper coins; faint iridescent scales climb her neck and arms.
+Expression: watchful, intelligent and faintly bored by the drunks — not a smiling performer; a creature that notices.
+Around and behind her: lamplit BLUE-GREEN WATER, drifting bubbles, a scatter of coins and a few silver herring on the sand at the bottom of the tank; beyond the far glass, the dim blurred shapes of a taproom and its drinkers.
+Three-quarter view from the shoulders up, her face centred horizontally in the UPPER HALF of the frame, light coming down through the water from above.
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  {
+    id: "oona-token",
+    tier: 53,
+    out: "assets/tokens/oona-token.png",
+    sourceFromExisting: "assets/portraits/oona-portrait.png",
+    skipGeneration: true,
+    postProcess: "round-token-512",
+    // Tank-light blue.
+    ring: { base: "#1f6f7a", highlight: "#8fe3ee", shadow: "#06191c" },
+  },
+  {
+    id: "pippa-lark-portrait",
+    tier: 53,
+    out: "assets/portraits/pippa-lark-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of PIPPA LARK, thirty-eight, the most famous comic actress in Keoland, of the Gradsul Performers' Guild, who plays queens, fishwives and — notoriously, every midwinter — the Lord Mayor, who comes to see it.
+A round, mobile, clever face, fair skin with freckles under half-applied greasepaint, red-brown curls escaping a fishwife's headscarf, bright hazel eyes, a wide generous mouth caught mid-question.
+Clothing: half in costume — a fishwife's grey shawl thrown over a queen's crimson-and-gold brocade bodice — with a tin CHAIN OF OFFICE dangling from one hand and a painted paste crown tucked under the other arm.
+Expression: delighted, nosy, and about to ask exactly the question you hoped she would not.
+Behind her, out of focus: a theatre dressing-room — a mirror ringed with candles, racks of costumes, wig stands, a playbill-less wall of hats.
+Three-quarter view from the chest up, her face centred horizontally in the UPPER HALF of the frame, warm candlelight.
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  {
+    id: "pippa-lark-token",
+    tier: 53,
+    out: "assets/tokens/pippa-lark-token.png",
+    sourceFromExisting: "assets/portraits/pippa-lark-portrait.png",
+    skipGeneration: true,
+    postProcess: "round-token-512",
+    // Theatre crimson and gilt.
+    ring: { base: "#7a2a2e", highlight: "#e0b870", shadow: "#230a0b" },
+  },
+  {
+    id: "perrin-lusk-portrait",
+    tier: 53,
+    out: "assets/portraits/perrin-lusk-portrait.png",
+    size: "1024x1536",
+    quality: "high",
+    prompt: `Portrait of SEA-MAGE PERRIN LUSK, fifty, senior ward-wright of the Sea Mages of Gradsul: vain, fussy and brilliant, who has laid two hundred wards on the city's doors and strongrooms and would like the royal academy to admit in writing that nobody does it better.
+A lean, pale, handsome man gone a little soft, with a precisely trimmed silver-and-black beard, silver hair oiled back from a high forehead, cool grey appraising eyes, and long immaculate hands wearing three heavy rings.
+Clothing: deep sea-blue robes of fine wool with silver WAVE embroidery at the collar and cuffs, a short cape pinned with a silver badge, a slim silver STYLUS and a small brass ward-plate engraved with a sigil held between his fingers.
+Expression: vain, fastidious and offended in advance — a man who is already composing the complaint.
+Behind him, out of focus: the hall of a guild of mages — tall windows onto a harbour, shelves of brass instruments, and a wall of faintly GLOWING pale-blue abstract ward-marks (shapes only, no letters, no readable symbols).
+Three-quarter view from the chest up, his face centred horizontally in the UPPER HALF of the frame, cool blue-grey light.
+${ART_STYLE}`,
+    postProcess: null,
+  },
+  {
+    id: "perrin-lusk-token",
+    tier: 53,
+    out: "assets/tokens/perrin-lusk-token.png",
+    sourceFromExisting: "assets/portraits/perrin-lusk-portrait.png",
+    skipGeneration: true,
+    postProcess: "round-token-512",
+    // Sea Mages' blue and silver.
+    ring: { base: "#24456b", highlight: "#c4d6ea", shadow: "#0a1322" },
+  },
 ];
 
 // ----------------- engine -----------------

@@ -3,7 +3,7 @@
   "_id": "BR2T1ActPritch00",
   "name": "Captain Odo Pritchard",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "modules/blooming-rot-2/assets/portraits/pritchard-portrait.png",
   "system": {
     "abilities": {
       "str": {
@@ -314,7 +314,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg",
+      "src": "modules/blooming-rot-2/assets/tokens/pritchard-token.png",
       "scaleX": 1,
       "scaleY": 1,
       "offsetX": 0,

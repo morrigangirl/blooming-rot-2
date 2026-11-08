@@ -2,7 +2,7 @@
   "_id": "BR2T1ActPlover00",
   "name": "Bell-Mother Agathe Plover",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "modules/blooming-rot-2/assets/portraits/plover-portrait.png",
   "system": {
     "currency": {
       "pp": 0,
@@ -546,7 +546,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg",
+      "src": "modules/blooming-rot-2/assets/tokens/plover-token.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,
